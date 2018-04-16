@@ -2,7 +2,7 @@ TEMPLATE = app
 
 QT += qml quick widgets
 
-WALLET_ROOT=$$PWD/monero
+WALLET_ROOT=$$PWD/loki
 
 CONFIG += c++11 link_pkgconfig
 packagesExist(libpcsclite) {
@@ -11,7 +11,7 @@ packagesExist(libpcsclite) {
 QMAKE_CXXFLAGS += -fPIC -fstack-protector
 QMAKE_LFLAGS += -fstack-protector
 
-# cleaning "auto-generated" bitmonero directory on "make distclean"
+# cleaning "auto-generated" bitloki directory on "make distclean"
 QMAKE_DISTCLEAN += -r $$WALLET_ROOT
 
 INCLUDEPATH +=  $$WALLET_ROOT/include \
@@ -287,7 +287,7 @@ linux {
             -Wl,-Bdynamic \
             -lGL
     }
-    # currently monero has an issue with "static" build and linunwind-dev,
+    # currently loki has an issue with "static" build and linunwind-dev,
     # so we link libunwind-dev only for non-Ubuntu distros
     CONFIG(libunwind_off) {
         message(Building without libunwind)
@@ -328,37 +328,37 @@ macx {
 
 # translation stuff
 TRANSLATIONS =  \ # English is default language, no explicit translation file
-                $$PWD/translations/monero-core.ts \ # translation source (copy this file when creating a new translation)
-                $$PWD/translations/monero-core_ar.ts \ # Arabic
-                $$PWD/translations/monero-core_pt-br.ts \ # Portuguese (Brazil)
-                $$PWD/translations/monero-core_de.ts \ # German
-                $$PWD/translations/monero-core_eo.ts \ # Esperanto
-                $$PWD/translations/monero-core_es.ts \ # Spanish
-                $$PWD/translations/monero-core_fi.ts \ # Finnish
-                $$PWD/translations/monero-core_fr.ts \ # French
-                $$PWD/translations/monero-core_hr.ts \ # Croatian
-                $$PWD/translations/monero-core_id.ts \ # Indonesian
-                $$PWD/translations/monero-core_hi.ts \ # Hindi
-                $$PWD/translations/monero-core_it.ts \ # Italian
-                $$PWD/translations/monero-core_ja.ts \ # Japanese
-                $$PWD/translations/monero-core_nl.ts \ # Dutch
-                $$PWD/translations/monero-core_pl.ts \ # Polish
-                $$PWD/translations/monero-core_ru.ts \ # Russian
-                $$PWD/translations/monero-core_sv.ts \ # Swedish
-                $$PWD/translations/monero-core_zh-cn.ts \ # Chinese (Simplified-China)
-                $$PWD/translations/monero-core_zh-tw.ts \ # Chinese (Traditional-Taiwan)
-                $$PWD/translations/monero-core_he.ts \ # Hebrew
-                $$PWD/translations/monero-core_ko.ts \ # Korean
-                $$PWD/translations/monero-core_ro.ts \ # Romanian
-                $$PWD/translations/monero-core_da.ts \ # Danish
-                $$PWD/translations/monero-core_cs.ts \ # Czech
-                $$PWD/translations/monero-core_sk.ts \ # Slovak
-                $$PWD/translations/monero-core_sl.ts \ # Slovenian
-                $$PWD/translations/monero-core_rs.ts \ # Serbian
-                $$PWD/translations/monero-core_cat.ts \ # Catalan
-                $$PWD/translations/monero-core_tr.ts \ # Turkish
-                $$PWD/translations/monero-core_ua.ts \ # Ukrainian
-                $$PWD/translations/monero-core_pt-pt.ts \ # Portuguese (Portugal)
+                $$PWD/translations/loki-core.ts \ # translation source (copy this file when creating a new translation)
+                $$PWD/translations/loki-core_ar.ts \ # Arabic
+                $$PWD/translations/loki-core_pt-br.ts \ # Portuguese (Brazil)
+                $$PWD/translations/loki-core_de.ts \ # German
+                $$PWD/translations/loki-core_eo.ts \ # Esperanto
+                $$PWD/translations/loki-core_es.ts \ # Spanish
+                $$PWD/translations/loki-core_fi.ts \ # Finnish
+                $$PWD/translations/loki-core_fr.ts \ # French
+                $$PWD/translations/loki-core_hr.ts \ # Croatian
+                $$PWD/translations/loki-core_id.ts \ # Indonesian
+                $$PWD/translations/loki-core_hi.ts \ # Hindi
+                $$PWD/translations/loki-core_it.ts \ # Italian
+                $$PWD/translations/loki-core_ja.ts \ # Japanese
+                $$PWD/translations/loki-core_nl.ts \ # Dutch
+                $$PWD/translations/loki-core_pl.ts \ # Polish
+                $$PWD/translations/loki-core_ru.ts \ # Russian
+                $$PWD/translations/loki-core_sv.ts \ # Swedish
+                $$PWD/translations/loki-core_zh-cn.ts \ # Chinese (Simplified-China)
+                $$PWD/translations/loki-core_zh-tw.ts \ # Chinese (Traditional-Taiwan)
+                $$PWD/translations/loki-core_he.ts \ # Hebrew
+                $$PWD/translations/loki-core_ko.ts \ # Korean
+                $$PWD/translations/loki-core_ro.ts \ # Romanian
+                $$PWD/translations/loki-core_da.ts \ # Danish
+                $$PWD/translations/loki-core_cs.ts \ # Czech
+                $$PWD/translations/loki-core_sk.ts \ # Slovak
+                $$PWD/translations/loki-core_sl.ts \ # Slovenian
+                $$PWD/translations/loki-core_rs.ts \ # Serbian
+                $$PWD/translations/loki-core_cat.ts \ # Catalan
+                $$PWD/translations/loki-core_tr.ts \ # Turkish
+                $$PWD/translations/loki-core_ua.ts \ # Ukrainian
+                $$PWD/translations/loki-core_pt-pt.ts \ # Portuguese (Portugal)
 
 CONFIG(release, debug|release) {
     DESTDIR = release/bin
@@ -444,7 +444,7 @@ linux:!android {
 }
 
 android{
-    deploy.commands += make install INSTALL_ROOT=$$DESTDIR && androiddeployqt --input android-libmonero-wallet-gui.so-deployment-settings.json --output $$DESTDIR --deployment bundled --android-platform android-21 --jdk /usr/lib/jvm/java-8-openjdk-amd64 -qmldir=$$PWD
+    deploy.commands += make install INSTALL_ROOT=$$DESTDIR && androiddeployqt --input android-libloki-wallet-gui.so-deployment-settings.json --output $$DESTDIR --deployment bundled --android-platform android-21 --jdk /usr/lib/jvm/java-8-openjdk-amd64 -qmldir=$$PWD
 }
 
 
@@ -454,12 +454,12 @@ OTHER_FILES += \
 
 DISTFILES += \
     notes.txt \
-    monero/src/wallet/CMakeLists.txt \
+    loki/src/wallet/CMakeLists.txt \
     components/MobileHeader.qml
 
 
 # windows application icon
-RC_FILE = monero-core.rc
+RC_FILE = loki-core.rc
 
 # mac application icon
 ICON = $$PWD/images/appicon.icns
