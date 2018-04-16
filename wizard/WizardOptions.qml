@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -72,7 +73,7 @@ ColumnLayout {
             color: "#3F3F3F"
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
-            text: qsTr("Welcome to Monero!") + translationManager.emptyString
+            text: qsTr("Welcome to Loki!") + translationManager.emptyString
         }
 
         Text {

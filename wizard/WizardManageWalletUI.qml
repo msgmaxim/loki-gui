@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -320,7 +321,7 @@ ColumnLayout {
             Layout.maximumWidth: 600 * scaleRatio
             Layout.minimumWidth: 200 * scaleRatio
             id: fileUrlInput
-            text: moneroAccountsDir + "/"
+            text: lokiAccountsDir + "/"
 
             // workaround for the bug "filechooser only opens once"
             MouseArea {

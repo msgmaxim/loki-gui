@@ -88,6 +88,7 @@ int main(int argc, char *argv[])
 
     qDebug() << "app startd";
 
+    printf("hello world");
     app.setApplicationName("monero-core");
     app.setOrganizationDomain("getmonero.org");
     app.setOrganizationName("monero-project");
@@ -186,18 +187,19 @@ int main(int argc, char *argv[])
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
 //  backups - I reckon we save that in My Documents\Monero Accounts\ on
 //  Windows, ~/Monero Accounts/ on nix / osx
+    printf("hello world2");
     bool isWindows = false;
     bool isIOS = false;
     bool isMac = false;
     bool isAndroid = false;
 #ifdef Q_OS_WIN
     isWindows = true;
-    QStringList moneroAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
+    QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
 #elif defined(Q_OS_IOS)
     isIOS = true;
-    QStringList moneroAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
+    QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
 #elif defined(Q_OS_UNIX)
-    QStringList moneroAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
+    QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
 #endif
 #ifdef Q_OS_MAC
     isMac = true;
@@ -206,6 +208,7 @@ int main(int argc, char *argv[])
     isAndroid = true;
 #endif
 
+    printf("hello world3");
     engine.rootContext()->setContextProperty("isWindows", isWindows);
     engine.rootContext()->setContextProperty("isIOS", isIOS);
     engine.rootContext()->setContextProperty("isAndroid", isAndroid);
@@ -239,13 +242,15 @@ int main(int argc, char *argv[])
     qDebug() << "screen calculated ratio: " << calculated_ratio;
 
 
-    if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Monero/wallets";
-        engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
+    printf("hello world4");
+    if (!lokiAccountsRootDir.empty()) {
+        QString lokiAccountsDir = lokiAccountsRootDir.at(0) + "/Loki/wallets";
+        engine.rootContext()->setContextProperty("lokiAccountsDir", lokiAccountsDir);
     }
 
 
     // Get default account name
+    printf("hello world5");
     QString accountName = qgetenv("USER"); // mac/linux
     if (accountName.isEmpty()){
         accountName = qgetenv("USERNAME"); // Windows
@@ -257,6 +262,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
     engine.rootContext()->setContextProperty("applicationDirectory", QApplication::applicationDirPath());
 
+    printf("hello world6");
     bool builtWithScanner = false;
 #ifdef WITH_SCANNER
     builtWithScanner = true;
@@ -264,16 +270,19 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("builtWithScanner", builtWithScanner);
 
     // Load main window (context properties needs to be defined obove this line)
+    printf("hello world7");
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
     if (engine.rootObjects().isEmpty())
     {
         qCritical() << "Error: no root objects";
+        printf("hello world8");
         return 1;
     }
     QObject *rootObject = engine.rootObjects().first();
     if (!rootObject)
     {
         qCritical() << "Error: no root objects";
+        printf("hello world9");
         return 1;
     }
 
