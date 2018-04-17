@@ -189,7 +189,7 @@ Rectangle {
                         id: fromDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
-                        inputLabel.text: "Date from"
+                        inputLabel.text: "Date From"
 
                         onCurrentDateChanged: {
                             onFilterChanged()
@@ -212,7 +212,7 @@ Rectangle {
                         id: toDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
-                        inputLabel.text: "Date to"
+                        inputLabel.text: "Date To"
 
                         onCurrentDateChanged: {
                             onFilterChanged()
@@ -234,7 +234,7 @@ Rectangle {
                 ListModel {
                      id: priorityModelV5
 
-                     ListElement { column1: qsTr("Block height") ; column2: "";}
+                     ListElement { column1: qsTr("Block Height") ; column2: "";}
                      ListElement { column1: qsTr("Date") ; column2: ""; }
                  }
 
@@ -275,7 +275,7 @@ Rectangle {
 
             Label {
                 fontSize: 16 * scaleRatio
-                text: qsTr("No history...") + translationManager.emptyString
+                text: qsTr("No History...") + translationManager.emptyString
             }
         }
 

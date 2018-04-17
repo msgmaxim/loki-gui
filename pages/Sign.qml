@@ -152,7 +152,7 @@ Rectangle {
                 RowLayout {
                     LineEdit {
                         id: signFileLine
-                        labelText: "Message from file"
+                        labelText: "Message From File"
                         placeholderText: qsTr("Path to file") + translationManager.emptyString;
                         readOnly: false
                         Layout.fillWidth: true
@@ -219,7 +219,7 @@ Rectangle {
                     LineEdit {
                         id: verifyMessageLine
                         Layout.fillWidth: true
-                        labelText: qsTr("Verify message")
+                        labelText: qsTr("Verify Message")
                         placeholderText: qsTr("Message to verify") + translationManager.emptyString;
                         readOnly: false
                     }
@@ -246,7 +246,7 @@ Rectangle {
                 RowLayout {
                     LineEdit {
                         id: verifyFileLine
-                        labelText: qsTr("Verify file")
+                        labelText: qsTr("Verify File")
                         placeholderText: qsTr("Filename with message to verify") + translationManager.emptyString;
                         readOnly: false
                         Layout.fillWidth: true
@@ -291,7 +291,7 @@ Rectangle {
                         labelText: qsTr("Address")
                         addressValidation: true
                         anchors.topMargin: 5 * scaleRatio
-                        placeholderText: "4..."
+                        placeholderText: "L..."
                     }
                 }
             }

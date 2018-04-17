@@ -78,7 +78,7 @@ Rectangle {
             return
         }
         if (appWindow.currentWallet.connected() == Wallet.ConnectionStatus_Disconnected) {
-            setTrackingLineText(qsTr("WARNING: no connection to daemon"))
+            setTrackingLineText(qsTr("WARNING: No connection to daemon"))
             return
         }
 
@@ -241,7 +241,7 @@ Rectangle {
 
                 StandardButton {
                     small: true
-                    text: qsTr("Create new address") + translationManager.emptyString;
+                    text: qsTr("Create New Address") + translationManager.emptyString;
                     onClicked: {
                         inputDialog.labelText = qsTr("Set the label of the new address:") + translationManager.emptyString
                         inputDialog.inputText = qsTr("(Untitled)")
@@ -301,15 +301,15 @@ Rectangle {
             Label {
                 id: trackingLabel
                 textFormat: Text.RichText
-                text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
                       qsTr("Tracking") +
-                      "<font size='2'> (</font><a href='#'>" +
-                      qsTr("help") +
-                      "</a><font size='2'>)</font>" +
+                      " <a href='#'>(" +
+                      qsTr("Help") +
+                      ")</a>" +
                       translationManager.emptyString
                 width: mainLayout.labelWidth
                 onLinkActivated: {
-                    trackingHowToUseDialog.title  = qsTr("Tracking payments") + translationManager.emptyString;
+                    trackingHowToUseDialog.title  = qsTr("Tracking Payments") + translationManager.emptyString;
                     trackingHowToUseDialog.text = qsTr(
                         "<p><font size='+2'>This is a simple sales tracker:</font></p>" +
                         "<p>Let your customer scan that QR code to make a payment (if that customer has software which " +

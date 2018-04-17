@@ -100,7 +100,7 @@ Rectangle {
                 font.pixelSize: 13 * scaleRatio
                 color: "white"
                 opacity: 0.5
-                text: qsTr("Network status") + translationManager.emptyString
+                text: qsTr("Network Status") + translationManager.emptyString
             }
 
             Text {

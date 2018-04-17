@@ -1,78 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="eo_EO">
 <context>
     <name>AddressBook</name>
     <message>
-        <location filename="../pages/AddressBook.qml" line="52"/>
-        <source>Qr Code</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/AddressBook.qml" line="65"/>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Adreso</translation>
+    </message>
+    <message>
+        <location filename="../pages/AddressBook.qml" line="52"/>
+        <source>Qr Code</source>
+        <translation>Qr Kodo</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="67"/>
         <source>4...</source>
-        <translation type="unfinished"></translation>
+        <translation>4...</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="74"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>paga-ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Payment ID&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;A unique user name used in&lt;br/&gt;the address book. It is not a&lt;br/&gt;transfer of information sent&lt;br/&gt;during the transfer</source>
+        <translation type="vanished">&lt;b&gt;Paga-ID&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Unika uzantnomo uzita en&lt;br/&gt;via adresaro. Tiu informo ne sendiĝos a&lt;br/&gt;kun la transakcio</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="75"/>
         <source>Paste 64 hexadecimal characters</source>
-        <translation type="unfinished"></translation>
+        <translation>Algluu 64 deksesumajn signojn</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="83"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Priskribo &lt;font size=&apos;2&apos;&gt;(Opcia)&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="84"/>
         <source>Give this entry a name or description</source>
-        <translation type="unfinished"></translation>
+        <translation>Donu nomon aŭ priskribon al ĉi tiu enigo</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="92"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldoni</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="97"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraro</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="100"/>
         <source>Invalid address</source>
-        <translation type="unfinished"></translation>
+        <translation>Nevalida adreso</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="104"/>
         <source>Can&apos;t create entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne sukcesas krei enigon</translation>
     </message>
 </context>
 <context>
     <name>AddressBookTable</name>
     <message>
-        <location filename="../components/AddressBookTable.qml" line="47"/>
+        <location filename="../components/AddressBookTable.qml" line="48"/>
         <source>No more results</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne plu da rezultoj</translation>
     </message>
     <message>
-        <location filename="../components/AddressBookTable.qml" line="105"/>
+        <location filename="../components/AddressBookTable.qml" line="106"/>
         <source>Payment ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>Paga-ID:</translation>
     </message>
     <message>
-        <location filename="../components/AddressBookTable.qml" line="150"/>
+        <location filename="../components/AddressBookTable.qml" line="151"/>
         <source>Address copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -82,53 +86,57 @@
     <message>
         <location filename="../BasicPanel.qml" line="97"/>
         <source>Locked Balance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Saldo:</translation>
     </message>
     <message>
         <location filename="../BasicPanel.qml" line="110"/>
         <source>78.9239845</source>
-        <translation type="unfinished"></translation>
+        <translation>78.9239845</translation>
     </message>
     <message>
         <location filename="../BasicPanel.qml" line="133"/>
         <source>Available Balance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Disponebla Saldo:</translation>
     </message>
     <message>
         <location filename="../BasicPanel.qml" line="146"/>
         <source>2324.9239845</source>
-        <translation type="unfinished"></translation>
+        <translation>2324.9239845</translation>
     </message>
 </context>
 <context>
     <name>DaemonConsole</name>
     <message>
-        <location filename="../components/DaemonConsole.qml" line="113"/>
+        <location filename="../components/DaemonConsole.qml" line="114"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermi</translation>
     </message>
     <message>
-        <location filename="../components/DaemonConsole.qml" line="124"/>
+        <location filename="../components/DaemonConsole.qml" line="125"/>
         <source>command + enter (e.g help)</source>
-        <translation type="unfinished"></translation>
+        <translation>komando + eniga klavo (ekz. helpu)</translation>
     </message>
 </context>
 <context>
     <name>DaemonManagerDialog</name>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="93"/>
+        <location filename="../components/DaemonManagerDialog.qml" line="94"/>
         <source>Starting local node in %1 seconds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="111"/>
-        <source>Start daemon (%1)</source>
+        <location filename="../components/DaemonManagerDialog.qml" line="112"/>
+        <source>Start Daemon (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="124"/>
+        <source>Start daemon (%1)</source>
+        <translation type="vanished">Enŝalti la demonon (%1)</translation>
+    </message>
+    <message>
+        <location filename="../components/DaemonManagerDialog.qml" line="125"/>
         <source>Use custom settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzi proprajn agordojn</translation>
     </message>
 </context>
 <context>
@@ -136,48 +144,52 @@
     <message>
         <location filename="../pages/Dashboard.qml" line="57"/>
         <source>Quick transfer</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapida transakcio</translation>
     </message>
     <message>
         <location filename="../pages/Dashboard.qml" line="89"/>
         <source>SEND</source>
-        <translation type="unfinished"></translation>
+        <translation>SENDI</translation>
     </message>
     <message>
         <location filename="../pages/Dashboard.qml" line="102"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                        looking for security level and address book? go to &lt;a href=&apos;#&apos;&gt;Transfer&lt;/a&gt; tab</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                        serĉante sekurnivelon kaj adresaron? Iru al &lt;a href=&apos;#&apos;&gt;Sendi&lt;/a&gt; tab</translation>
     </message>
 </context>
 <context>
     <name>DashboardTable</name>
     <message>
-        <location filename="../components/DashboardTable.qml" line="47"/>
+        <location filename="../components/DashboardTable.qml" line="48"/>
         <source>No more results</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne plu da rezultoj</translation>
     </message>
     <message>
-        <location filename="../components/DashboardTable.qml" line="137"/>
+        <location filename="../components/DashboardTable.qml" line="138"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Dato</translation>
     </message>
     <message>
-        <location filename="../components/DashboardTable.qml" line="170"/>
+        <location filename="../components/DashboardTable.qml" line="171"/>
         <source>Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Saldo</translation>
     </message>
     <message>
-        <location filename="../components/DashboardTable.qml" line="190"/>
+        <location filename="../components/DashboardTable.qml" line="191"/>
         <source>Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvanto</translation>
     </message>
 </context>
 <context>
     <name>History</name>
     <message>
+        <source>Filter transaction history</source>
+        <translation type="vanished">Filtri la transakcian historion</translation>
+    </message>
+    <message>
         <location filename="../pages/History.qml" line="73"/>
         <source> selected: </source>
-        <translation type="unfinished"></translation>
+        <translation> selektita: </translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="162"/>
@@ -192,101 +204,145 @@
     <message>
         <location filename="../pages/History.qml" line="237"/>
         <source>Block height</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Blokalteco</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Dato</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="278"/>
         <source>No history...</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Filter</source>
+        <translation type="vanished">Filtri</translation>
+    </message>
+    <message>
+        <source>Type for incremental search...</source>
+        <translation type="vanished">Tajpu por inkrementa serĉo...</translation>
+    </message>
+    <message>
+        <source>Date from</source>
+        <translation type="vanished">Dato: de la...</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation type="vanished">ĝis la...</translation>
+    </message>
+    <message>
+        <source>Advanced filtering</source>
+        <translation type="vanished">Sperta filtrado</translation>
+    </message>
+    <message>
+        <source>Type of transaction</source>
+        <translation type="vanished">Transakcia tipo</translation>
+    </message>
+    <message>
+        <source>Amount from</source>
+        <translation type="vanished">Kvanto: de...</translation>
+    </message>
 </context>
 <context>
     <name>HistoryTable</name>
     <message>
-        <location filename="../components/HistoryTable.qml" line="50"/>
-        <source>Tx ID:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/HistoryTable.qml" line="51"/>
-        <source>Payment ID:</source>
-        <translation type="unfinished"></translation>
+        <location filename="../components/HistoryTable.qml" line="81"/>
+        <source>No more results</source>
+        <translation>Ne plu da rezultoj</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="52"/>
-        <source>Tx key:</source>
-        <translation type="unfinished"></translation>
+        <source>Payment ID:</source>
+        <translation>Paga-ID:</translation>
+    </message>
+    <message>
+        <location filename="../components/HistoryTable.qml" line="51"/>
+        <source>Tx ID:</source>
+        <translation>Tr ID:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="53"/>
-        <source>Tx note:</source>
-        <translation type="unfinished"></translation>
+        <source>Tx key:</source>
+        <translation>Tr ŝlosilo:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="54"/>
-        <source>Destinations:</source>
-        <translation type="unfinished"></translation>
+        <source>Tx note:</source>
+        <translation>Tr noto:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
+        <source>Destinations:</source>
+        <translation>Destinoj:</translation>
+    </message>
+    <message>
+        <location filename="../components/HistoryTable.qml" line="56"/>
         <source>Rings:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="80"/>
-        <source>No more results</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/HistoryTable.qml" line="244"/>
+        <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="309"/>
-        <source>Fee</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/HistoryTable.qml" line="343"/>
+        <location filename="../components/HistoryTable.qml" line="344"/>
         <source>Blockheight</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="347"/>
+        <location filename="../components/HistoryTable.qml" line="369"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Details</source>
+        <translation type="vanished">Detaloj</translation>
+    </message>
+    <message>
+        <source>BlockHeight:</source>
+        <translation type="vanished">Blokalteco:</translation>
+    </message>
+    <message>
+        <location filename="../components/HistoryTable.qml" line="348"/>
         <source>(%1/%2 confirmations)</source>
-        <translation type="unfinished"></translation>
+        <translation>(%1/%2 konfirmoj)</translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="351"/>
+        <location filename="../components/HistoryTable.qml" line="352"/>
         <source>UNCONFIRMED</source>
-        <translation type="unfinished"></translation>
+        <translation>NEKONFIRMITA</translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="353"/>
+        <location filename="../components/HistoryTable.qml" line="354"/>
         <source>FAILED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="354"/>
+        <location filename="../components/HistoryTable.qml" line="355"/>
         <source>PENDING</source>
-        <translation type="unfinished"></translation>
+        <translation>OKAZONTE</translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="368"/>
-        <source>Description</source>
-        <translation type="unfinished"></translation>
+        <source>Date</source>
+        <translation type="vanished">Dato</translation>
+    </message>
+    <message>
+        <location filename="../components/HistoryTable.qml" line="310"/>
+        <source>Fee</source>
+        <translation>Kosto</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation type="vanished">Kvanto</translation>
     </message>
 </context>
 <context>
     <name>HistoryTableInnerColumn</name>
     <message>
-        <location filename="../components/HistoryTableInnerColumn.qml" line="87"/>
+        <location filename="../components/HistoryTableInnerColumn.qml" line="88"/>
         <source>Copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -294,70 +350,70 @@
 <context>
     <name>HistoryTableMobile</name>
     <message>
-        <location filename="../components/HistoryTableMobile.qml" line="49"/>
-        <source>Tx ID:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../components/HistoryTableMobile.qml" line="50"/>
-        <source>Payment ID:</source>
-        <translation type="unfinished"></translation>
+        <source>Tx ID:</source>
+        <translation>Tr ID:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="51"/>
-        <source>Tx key:</source>
-        <translation type="unfinished"></translation>
+        <source>Payment ID:</source>
+        <translation>Paga-ID:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="52"/>
-        <source>Tx note:</source>
-        <translation type="unfinished"></translation>
+        <source>Tx key:</source>
+        <translation>Tr ŝlosilo:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="53"/>
-        <source>Destinations:</source>
-        <translation type="unfinished"></translation>
+        <source>Tx note:</source>
+        <translation>Tr noto:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="54"/>
+        <source>Destinations:</source>
+        <translation>Destinoj:</translation>
+    </message>
+    <message>
+        <location filename="../components/HistoryTableMobile.qml" line="55"/>
         <source>Rings:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTableMobile.qml" line="80"/>
+        <location filename="../components/HistoryTableMobile.qml" line="81"/>
         <source>No more results</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne plu da rezultoj</translation>
     </message>
     <message>
-        <location filename="../components/HistoryTableMobile.qml" line="180"/>
+        <location filename="../components/HistoryTableMobile.qml" line="181"/>
         <source>(%1/%2 confirmations)</source>
-        <translation type="unfinished"></translation>
+        <translation>(%1/%2 konfirmoj)</translation>
     </message>
     <message>
-        <location filename="../components/HistoryTableMobile.qml" line="182"/>
+        <location filename="../components/HistoryTableMobile.qml" line="183"/>
         <source>UNCONFIRMED</source>
-        <translation type="unfinished"></translation>
+        <translation>NEKONFIRMITA</translation>
     </message>
     <message>
-        <location filename="../components/HistoryTableMobile.qml" line="184"/>
+        <location filename="../components/HistoryTableMobile.qml" line="185"/>
         <source>FAILED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTableMobile.qml" line="185"/>
+        <location filename="../components/HistoryTableMobile.qml" line="186"/>
         <source>PENDING</source>
-        <translation type="unfinished"></translation>
+        <translation>OKAZONTE</translation>
     </message>
 </context>
 <context>
     <name>InputDialog</name>
     <message>
-        <location filename="../components/InputDialog.qml" line="134"/>
+        <location filename="../components/InputDialog.qml" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nuligi</translation>
     </message>
     <message>
-        <location filename="../components/InputDialog.qml" line="146"/>
+        <location filename="../components/InputDialog.qml" line="147"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
@@ -367,17 +423,17 @@
     <message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic seed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Keys.qml" line="143"/>
-        <source>Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Mnemonikan semon</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="163"/>
         <source>Double tap to copy</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="143"/>
+        <source>Keys</source>
+        <translation>Ŝlosiloj</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="170"/>
@@ -404,22 +460,22 @@
     <message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret view key</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekreta vidŝlosilo</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public view key</source>
-        <translation type="unfinished"></translation>
+        <translation>Publika vidŝlosilo</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret spend key</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekreta elspezŝlosilo</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public spend key</source>
-        <translation type="unfinished"></translation>
+        <translation>Publika elspezŝlosilo</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="263"/>
@@ -430,160 +486,160 @@
 <context>
     <name>LeftPanel</name>
     <message>
-        <location filename="../LeftPanel.qml" line="124"/>
-        <source>Testnet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="124"/>
-        <source>Stagenet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="137"/>
-        <source>View Only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="202"/>
-        <source>Unlocked balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="212"/>
+        <location filename="../LeftPanel.qml" line="213"/>
         <source>Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Saldo</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="311"/>
-        <source>Send</source>
-        <translation type="unfinished"></translation>
+        <location filename="../LeftPanel.qml" line="203"/>
+        <source>Unlocked balance</source>
+        <translation>Disponebla saldo</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="312"/>
-        <source>S</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="336"/>
-        <source>Address book</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="337"/>
-        <source>B</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="361"/>
-        <source>Receive</source>
-        <translation type="unfinished"></translation>
+        <source>Send</source>
+        <translation>Sendu</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="362"/>
+        <source>Receive</source>
+        <translation>Ricevi</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="363"/>
         <source>R</source>
-        <translation type="unfinished"></translation>
+        <translation>R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="385"/>
-        <source>History</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="386"/>
-        <source>H</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="408"/>
-        <source>Advanced</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="409"/>
-        <source>D</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="431"/>
-        <source>Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="432"/>
-        <source>M</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="455"/>
+        <location filename="../LeftPanel.qml" line="456"/>
         <source>Prove/check</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="456"/>
+        <location filename="../LeftPanel.qml" line="457"/>
         <source>K</source>
+        <translation>K</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="386"/>
+        <source>History</source>
+        <translation>Historio</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="138"/>
+        <source>View Only</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="478"/>
+        <location filename="../LeftPanel.qml" line="125"/>
+        <source>Testnet</source>
+        <translation>Testreto</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="125"/>
+        <source>Stagenet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="337"/>
+        <source>Address book</source>
+        <translation>Adresaro</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="338"/>
+        <source>B</source>
+        <translation>B</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="387"/>
+        <source>H</source>
+        <translation>H</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="409"/>
+        <source>Advanced</source>
+        <translation>Spertaĵoj</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="410"/>
+        <source>D</source>
+        <translation>D</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="432"/>
+        <source>Mining</source>
+        <translation>Minado</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="433"/>
+        <source>M</source>
+        <translation>M</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="479"/>
         <source>Shared RingDB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="479"/>
+        <location filename="../LeftPanel.qml" line="480"/>
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="503"/>
-        <source>Sign/verify</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="504"/>
-        <source>I</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="526"/>
-        <source>Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="527"/>
-        <source>E</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="548"/>
+        <location filename="../LeftPanel.qml" line="549"/>
         <source>Seed &amp; Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="549"/>
+        <location filename="../LeftPanel.qml" line="550"/>
         <source>Y</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="588"/>
+        <location filename="../LeftPanel.qml" line="589"/>
         <source>Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="597"/>
+        <location filename="../LeftPanel.qml" line="598"/>
         <source>Daemon</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="504"/>
+        <source>Sign/verify</source>
+        <translation>Subskribi/kontroli</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="505"/>
+        <source>I</source>
+        <translation>I</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="527"/>
+        <source>Settings</source>
+        <translation>Agordoj</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="528"/>
+        <source>E</source>
+        <translation>E</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="313"/>
+        <source>S</source>
+        <translation>A</translation>
     </message>
 </context>
 <context>
     <name>LineEdit</name>
     <message>
-        <location filename="../components/LineEdit.qml" line="125"/>
+        <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/LineEdit.qml" line="131"/>
+        <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -591,12 +647,12 @@
 <context>
     <name>LineEditMulti</name>
     <message>
-        <location filename="../components/LineEditMulti.qml" line="84"/>
+        <location filename="../components/LineEditMulti.qml" line="85"/>
         <source>Copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/LineEditMulti.qml" line="91"/>
+        <location filename="../components/LineEditMulti.qml" line="92"/>
         <source>Copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -604,14 +660,14 @@
 <context>
     <name>MiddlePanel</name>
     <message>
-        <location filename="../MiddlePanel.qml" line="47"/>
+        <location filename="../MiddlePanel.qml" line="48"/>
         <source>Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Saldo</translation>
     </message>
     <message>
-        <location filename="../MiddlePanel.qml" line="49"/>
+        <location filename="../MiddlePanel.qml" line="50"/>
         <source>Unlocked Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Disponebla saldo</translation>
     </message>
 </context>
 <context>
@@ -619,12 +675,16 @@
     <message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Memstara minado</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(only available for local daemons)</source>
-        <translation type="unfinished"></translation>
+        <translation>(nur disponeblas por lokaj demonoj)</translation>
+    </message>
+    <message>
+        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Mini per via komputilo helpas plisekurigi la Monero-reton. Ju pli da homoj minas, des mapli atakebla iĝas la reto, kaj ĉiu malgranda helpo utilas. &lt;br&gt; &lt;br&gt;La minado ankaŭ donas al vi etan ŝancon ricevi rekompencon je Moneroj. Via komputilo kreos haketojn, serĉante bloksolvojn. Se vi trovas blokon, vi ricevos la asociitan rekompencon. Bonŝancon!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -634,72 +694,72 @@
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Minaj procezfadenoj</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
         <source>(optional)</source>
-        <translation type="unfinished"></translation>
+        <translation>(opcia)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background mining (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fona minado (eksperimenta)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebligi la minadon eĉ kiam uzante la baterion</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage miner</source>
-        <translation type="unfinished"></translation>
+        <translation>Adminitri la minilon</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Komenci la minadon</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraro dum la ekminado</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Neeblis komenci la minadon</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>La minado nur disponeblas ĉe lokaj demonoj. Lanĉu lokan demonon por ebligi la minadon</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="162"/>
         <source>Stop mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Haltigi la minadon</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="173"/>
         <source>Status: not mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Stato: ne minante</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="185"/>
         <source>Mining at %1 H/s</source>
-        <translation type="unfinished"></translation>
+        <translation>Minante je %1 H/s</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne minante</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="190"/>
         <source>Status: </source>
-        <translation type="unfinished"></translation>
+        <translation>Stato: </translation>
     </message>
 </context>
 <context>
@@ -707,66 +767,66 @@
     <message>
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Disponebla Saldo:</translation>
     </message>
 </context>
 <context>
     <name>NetworkStatusItem</name>
     <message>
-        <location filename="../components/NetworkStatusItem.qml" line="43"/>
-        <source>Synchronizing</source>
-        <translation type="unfinished"></translation>
+        <location filename="../components/NetworkStatusItem.qml" line="103"/>
+        <source>Network status</source>
+        <translation>Retstatuso</translation>
     </message>
     <message>
-        <location filename="../components/NetworkStatusItem.qml" line="45"/>
+        <location filename="../components/NetworkStatusItem.qml" line="47"/>
+        <source>Connected</source>
+        <translation>Konektita</translation>
+    </message>
+    <message>
+        <location filename="../components/NetworkStatusItem.qml" line="44"/>
+        <source>Synchronizing</source>
+        <translation>Sinkroniĝante</translation>
+    </message>
+    <message>
+        <location filename="../components/NetworkStatusItem.qml" line="46"/>
         <source>Remote node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/NetworkStatusItem.qml" line="46"/>
-        <source>Connected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/NetworkStatusItem.qml" line="49"/>
+        <location filename="../components/NetworkStatusItem.qml" line="50"/>
         <source>Wrong version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/NetworkStatusItem.qml" line="51"/>
-        <source>Disconnected</source>
-        <translation type="unfinished"></translation>
+        <translation>Malĝusta versio</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="52"/>
-        <source>Invalid connection status</source>
-        <translation type="unfinished"></translation>
+        <source>Disconnected</source>
+        <translation>Malkonektita</translation>
     </message>
     <message>
-        <location filename="../components/NetworkStatusItem.qml" line="102"/>
-        <source>Network status</source>
-        <translation type="unfinished"></translation>
+        <location filename="../components/NetworkStatusItem.qml" line="53"/>
+        <source>Invalid connection status</source>
+        <translation>Malĝusta retstatuso</translation>
     </message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
     <message>
-        <location filename="../components/NewPasswordDialog.qml" line="102"/>
+        <location filename="../components/NewPasswordDialog.qml" line="103"/>
         <source>Please enter new password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/NewPasswordDialog.qml" line="160"/>
+        <location filename="../components/NewPasswordDialog.qml" line="161"/>
         <source>Please confirm new password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/NewPasswordDialog.qml" line="232"/>
+        <location filename="../components/NewPasswordDialog.qml" line="233"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nuligi</translation>
     </message>
     <message>
-        <location filename="../components/NewPasswordDialog.qml" line="241"/>
+        <location filename="../components/NewPasswordDialog.qml" line="242"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
@@ -774,22 +834,26 @@
 <context>
     <name>PasswordDialog</name>
     <message>
-        <location filename="../components/PasswordDialog.qml" line="83"/>
+        <location filename="../components/PasswordDialog.qml" line="84"/>
+        <source>Please enter wallet password</source>
+        <translation>Bonvolu entajpi monujpasvorton</translation>
+    </message>
+    <message>
+        <source>Please enter wallet password for:&lt;br&gt;</source>
+        <translation type="vanished">Bonvolu entajpi monujpasvorton por:&lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../components/PasswordDialog.qml" line="84"/>
         <source>Please enter wallet password for: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/PasswordDialog.qml" line="83"/>
-        <source>Please enter wallet password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/PasswordDialog.qml" line="147"/>
+        <location filename="../components/PasswordDialog.qml" line="148"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuligi</translation>
     </message>
     <message>
-        <location filename="../components/PasswordDialog.qml" line="158"/>
+        <location filename="../components/PasswordDialog.qml" line="159"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
@@ -799,28 +863,40 @@
     <message>
         <location filename="../components/PrivacyLevelSmall.qml" line="100"/>
         <source>Low</source>
-        <translation type="unfinished"></translation>
+        <translation>Malalta</translation>
     </message>
     <message>
         <location filename="../components/PrivacyLevelSmall.qml" line="109"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Meza</translation>
     </message>
     <message>
         <location filename="../components/PrivacyLevelSmall.qml" line="118"/>
         <source>High</source>
-        <translation type="unfinished"></translation>
+        <translation>Alta</translation>
     </message>
 </context>
 <context>
     <name>ProgressBar</name>
     <message>
-        <location filename="../components/ProgressBar.qml" line="38"/>
+        <source>Establishing connection...</source>
+        <translation type="vanished">Starigante konekton...</translation>
+    </message>
+    <message>
+        <source>Blocks remaining: %1</source>
+        <translation type="vanished">Restantaj blokoj: %1</translation>
+    </message>
+    <message>
+        <source>Synchronizing blocks</source>
+        <translation type="vanished">Sinkronigante blokojn</translation>
+    </message>
+    <message>
+        <location filename="../components/ProgressBar.qml" line="39"/>
         <source>%1 blocks remaining: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/ProgressBar.qml" line="70"/>
+        <location filename="../components/ProgressBar.qml" line="71"/>
         <source>Synchronizing %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -828,7 +904,7 @@
 <context>
     <name>QRCodeScanner</name>
     <message>
-        <location filename="../components/QRCodeScanner.qml" line="129"/>
+        <location filename="../components/QRCodeScanner.qml" line="130"/>
         <source>QrCode Scanned</source>
         <translation type="unfinished"></translation>
     </message>
@@ -836,49 +912,53 @@
 <context>
     <name>Receive</name>
     <message>
+        <source>Invalid payment ID</source>
+        <translation type="vanished">Malĝusta paga-ID</translation>
+    </message>
+    <message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: no connection to daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>AVERTO: neniu konekto kun la demono</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>En la transakciujo: %1</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="111"/>
         <source>%2 confirmations: %3 (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>%2 konfirmoj: %3 (%1)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="113"/>
         <source>1 confirmation: %2 (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>1 konfirmoj: %2 (%1)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="125"/>
         <source>No transaction found yet...</source>
-        <translation type="unfinished"></translation>
+        <translation>Neniu transakcio trovita ĝis nun...</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="129"/>
         <source>Transaction found</source>
-        <translation type="unfinished"></translation>
+        <translation>Transakcio trovita</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="129"/>
         <source>%1 transactions found</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 trovitaj transakcioj</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="135"/>
         <source> with more money (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>kun pli da mono (%1)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="137"/>
         <source> with not enough money (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>kun nesufiĉe da mono (%1)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="167"/>
@@ -911,14 +991,28 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="277"/>
-        <source>Amount</source>
-        <translation type="unfinished"></translation>
+        <source>Address</source>
+        <translation type="vanished">Adreso</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="284"/>
-        <source>Amount to receive</source>
-        <translation type="unfinished"></translation>
+        <source>ReadOnly wallet address displayed here</source>
+        <translation type="vanished">Nurlegebla monujadreso montrata ĉi tie</translation>
+    </message>
+    <message>
+        <source>16 hexadecimal characters</source>
+        <translation type="vanished">16 deksesumaj signoj</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation type="vanished">Vakigi</translation>
+    </message>
+    <message>
+        <source>Integrated address</source>
+        <translation type="vanished">Integrita adreso</translation>
+    </message>
+    <message>
+        <source>Generate payment ID for integrated address</source>
+        <translation type="vanished">Generi pagan ID-on por integrita adreso</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="305"/>
@@ -931,11 +1025,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="312"/>
-        <source>Tracking payments</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="313"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
@@ -943,87 +1032,135 @@
     <message>
         <location filename="../pages/Receive.qml" line="355"/>
         <source>Save QrCode</source>
-        <translation type="unfinished"></translation>
+        <translation>Konservi la QR-kodon</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="356"/>
         <source>Failed to save QrCode to </source>
-        <translation type="unfinished"></translation>
+        <translation>Malsukcesis konservi la QR-kodon</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="367"/>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>Konservi Kiel</translation>
+    </message>
+    <message>
+        <source>Payment ID</source>
+        <translation type="vanished">Paga-ID</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="277"/>
+        <source>Amount</source>
+        <translation>Kvanto</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="284"/>
+        <source>Amount to receive</source>
+        <translation>Ricevenda kvanto</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="312"/>
+        <source>Tracking payments</source>
+        <translation>Sekvado de pagoj</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Click Generate to create a random payment id for a new customer&lt;/p&gt; &lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Jen simpla pago-sekvilo:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Alklaku &quot;Generi&quot; por krei hazardan pago-IDon por nova kliento.&lt;/p&gt; &lt;p&gt;Lasu vian klienton skani tiun QR-kodon por plenumi la pagon (se tiu kliento havas QR-taŭgan aparaton aŭ programon).&lt;/p&gt;&lt;p&gt;Ĉi-paĝo aŭtomate skanos la blokĉenon kaj transakciaron je transakcioj kiuj uzas tiun QR-kodon. Se vi enigas kvanton, la pago-sekvilo ankaŭ kontrolos ke la sumo de la envenantaj transakcioj atingas tiun kvanton.&lt;/p&gt;Vi povas laŭplaĉe akcepti nekonfirmitajn transakciojn aŭ ne. Ili verŝajne konfirmiĝos pli malpli rapide, sed ekzistas ebleco ke ne, do se temas pri grandaj valoroj vi prefere atendu unu konfirmon aŭ pli.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>Generate</source>
+        <translation type="vanished">Generi</translation>
     </message>
 </context>
 <context>
     <name>RemoteNodeEdit</name>
     <message>
-        <location filename="../components/RemoteNodeEdit.qml" line="67"/>
+        <location filename="../components/RemoteNodeEdit.qml" line="68"/>
         <source>Remote Node Hostname / IP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/RemoteNodeEdit.qml" line="83"/>
+        <location filename="../components/RemoteNodeEdit.qml" line="84"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Pordo</translation>
     </message>
 </context>
 <context>
     <name>SearchInput</name>
     <message>
-        <location filename="../components/SearchInput.qml" line="71"/>
+        <location filename="../components/SearchInput.qml" line="72"/>
         <source>Search by...</source>
-        <translation type="unfinished"></translation>
+        <translation>Serĉu je...</translation>
     </message>
     <message>
-        <location filename="../components/SearchInput.qml" line="225"/>
+        <location filename="../components/SearchInput.qml" line="226"/>
         <source>SEARCH</source>
-        <translation type="unfinished"></translation>
+        <translation>SERĈI</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
+        <location filename="../pages/Settings.qml" line="158"/>
+        <location filename="../pages/Settings.qml" line="186"/>
+        <source>Error</source>
+        <translation>Eraro</translation>
+    </message>
+    <message>
         <location filename="../pages/Settings.qml" line="75"/>
         <source>Manage wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Administri monujon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="96"/>
         <source>Close wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermi la monujon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="108"/>
         <source>Create view only wallet</source>
+        <translation>Krei nurlegeblan monujon</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="634"/>
+        <source>Embedded Loki version: </source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="642"/>
+        <source> &lt;a href=&apos;#&apos;&gt;(Click To Change)&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="727"/>
+        <source>Daemon log</source>
+        <translation>Demontaglibro</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="380"/>
+        <source>Show status</source>
+        <translation>Montri statuson</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="410"/>
+        <location filename="../pages/Settings.qml" line="450"/>
+        <source>(optional)</source>
+        <translation>(opcia)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="154"/>
         <source>Rescan wallet balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="158"/>
-        <location filename="../pages/Settings.qml" line="186"/>
-        <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Reskanu la monujsaldon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="159"/>
         <source>Error: </source>
-        <translation type="unfinished"></translation>
+        <translation>Eraro: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="164"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="165"/>
-        <source>Successfully rescanned spent outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Informo</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="180"/>
@@ -1033,21 +1170,11 @@
     <message>
         <location filename="../pages/Settings.qml" line="187"/>
         <source>Wrong password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Malĝusta pasvorto</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="205"/>
         <source>Wallet mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="215"/>
-        <source>Local Node</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="226"/>
-        <source>Remote Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1059,49 +1186,18 @@
         <location filename="../pages/Settings.qml" line="257"/>
         <location filename="../pages/Settings.qml" line="289"/>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Adreso</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="258"/>
         <location filename="../pages/Settings.qml" line="290"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="310"/>
-        <source>Connect</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="332"/>
-        <source>Manage Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="355"/>
-        <source>Start Local Node</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="370"/>
-        <source>Stop Local Node</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="380"/>
-        <source>Show status</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Pordo</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="397"/>
         <source>Blockchain location</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="410"/>
-        <location filename="../pages/Settings.qml" line="450"/>
-        <source>(optional)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozicio de la blokĉeno</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="421"/>
@@ -1109,44 +1205,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="436"/>
-        <source>Show advanced</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="448"/>
-        <source>Local daemon startup flags</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Settings.qml" line="465"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzantnomo</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="473"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasvorto</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="484"/>
-        <source>Layout settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="505"/>
-        <source>Custom decorations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="515"/>
-        <source>Log level</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="590"/>
-        <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/Settings.qml" line="310"/>
+        <source>Connect</source>
+        <translation>Konekti</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="606"/>
@@ -1154,28 +1225,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="628"/>
-        <source>GUI version: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="634"/>
-        <source>Embedded Loki version: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Settings.qml" line="641"/>
         <source>Wallet creation height: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="642"/>
-        <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="669"/>
-        <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1196,12 +1247,6 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="687"/>
-        <location filename="../pages/Settings.qml" line="763"/>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Settings.qml" line="708"/>
         <source>Wallet log path: </source>
         <translation type="unfinished"></translation>
@@ -1217,43 +1262,123 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="727"/>
-        <source>Daemon log</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Settings.qml" line="736"/>
         <source>Please choose a folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonvolu elekti dosierujon</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="746"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Averto</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="749"/>
         <source>Error: Filesystem is read only</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraro: dosiersistemo estas nurlegebla</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="753"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Averto: estas nur %1 GigaBajto da disponebla spaco sur la aparato. La blokĉeno postulas ~%2 Gigabajtojn da spaco.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="755"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Noto: estas nur %1 GigaBajto da disponebla spaco sur la aparato. La blokĉeno postulas ~%2 Gigabajtojn da spaco.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="759"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
+        <translation>Noto: lmdb-dosierujo ne troviĝis. Nova dosierujo kreiĝos.</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="687"/>
+        <location filename="../pages/Settings.qml" line="763"/>
+        <source>Cancel</source>
+        <translation>Nuligi</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="669"/>
+        <source>Save</source>
+        <translation>Konservi</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="484"/>
+        <source>Layout settings</source>
+        <translation>Aspektagordoj</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="165"/>
+        <source>Successfully rescanned spent outputs.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="215"/>
+        <source>Local Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="226"/>
+        <source>Remote Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="332"/>
+        <source>Manage Daemon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="436"/>
+        <source>Show advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="355"/>
+        <source>Start Local Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="370"/>
+        <source>Stop Local Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="448"/>
+        <source>Local daemon startup flags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="505"/>
+        <source>Custom decorations</source>
+        <translation>Propraj dekoracioj</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="515"/>
+        <source>Log level</source>
+        <translation>Taglibro-nivelo</translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="590"/>
+        <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="628"/>
+        <source>GUI version: </source>
+        <translation>GUI versio: </translation>
+    </message>
+    <message>
+        <source>Embedded Monero version: </source>
+        <translation type="vanished">Enkorpigita Monera versio: </translation>
     </message>
 </context>
 <context>
     <name>SharedRingDB</name>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="90"/>
+        <source>This page allows you to interact with the shared ring database.&lt;br&gt;This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="100"/>
         <location filename="../pages/SharedRingDB.qml" line="106"/>
@@ -1277,11 +1402,6 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="90"/>
-        <source>This page allows you to interact with the shared ring database.&lt;br&gt;This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/SharedRingDB.qml" line="107"/>
         <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
@@ -1294,7 +1414,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="142"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Selekti</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="154"/>
@@ -1334,12 +1454,12 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="225"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="230"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1358,13 +1478,18 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="292"/>
+        <location filename="../pages/SharedRingDB.qml" line="290"/>
         <source></source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="310"/>
         <source>Relative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1393,38 +1518,46 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Bona subskribo</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="62"/>
         <source>This is a good signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Tio ĉi estas bona subskribo</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="66"/>
         <source>Bad signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Malbona subskribo</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="67"/>
         <source>This signature did not verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiu ĉi subskribo ne validiĝis</translation>
+    </message>
+    <message>
+        <source>Sign a message or file contents with your address:</source>
+        <translation type="vanished">Subskribu mesaĝon aŭ dosierenhavojn per via adreso:</translation>
+    </message>
+    <message>
+        <source>Either message:</source>
+        <translation type="vanished">Mesaĝo:</translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="125"/>
+        <source>Message to sign</source>
+        <translation>Subskribenda mesaĝo</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="104"/>
         <location filename="../pages/Sign.qml" line="138"/>
         <location filename="../pages/Sign.qml" line="182"/>
         <source>Sign</source>
-        <translation type="unfinished"></translation>
+        <translation>Subskribi</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="108"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Sign.qml" line="125"/>
-        <source>Message to sign</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1444,28 +1577,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="199"/>
-        <location filename="../pages/Sign.qml" line="200"/>
-        <location filename="../pages/Sign.qml" line="305"/>
-        <location filename="../pages/Sign.qml" line="310"/>
-        <source>Signature</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Sign.qml" line="212"/>
-        <location filename="../pages/Sign.qml" line="235"/>
-        <location filename="../pages/Sign.qml" line="275"/>
-        <source>Verify</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Sign.qml" line="222"/>
         <source>Verify message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Sign.qml" line="223"/>
-        <source>Message to verify</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1474,106 +1587,142 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="250"/>
-        <source>Filename with message to verify</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Sign.qml" line="291"/>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Adreso</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="320"/>
         <source>Please choose a file to sign</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonvolu elekti subskribendan dosieron</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation type="vanished">Selekti</translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="212"/>
+        <location filename="../pages/Sign.qml" line="235"/>
+        <location filename="../pages/Sign.qml" line="275"/>
+        <source>Verify</source>
+        <translation>Kontroli</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="331"/>
         <source>Please choose a file to verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonvolu elekti kontrolendan dosieron</translation>
+    </message>
+    <message>
+        <source>Or file:</source>
+        <translation type="vanished">Aŭ dosiero:</translation>
+    </message>
+    <message>
+        <source>Filename with message to sign</source>
+        <translation type="vanished">Dosiernomo kun subskribenda mesaĝo</translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="199"/>
+        <location filename="../pages/Sign.qml" line="200"/>
+        <location filename="../pages/Sign.qml" line="305"/>
+        <location filename="../pages/Sign.qml" line="310"/>
+        <source>Signature</source>
+        <translation>Subskribo</translation>
+    </message>
+    <message>
+        <source>Verify a message or file signature from an address:</source>
+        <translation type="vanished">Kontroli subskribon de mesaĝo aŭ dosiero el adreso:</translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="223"/>
+        <source>Message to verify</source>
+        <translation>Kontrolenda mesaĝo</translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="250"/>
+        <source>Filename with message to verify</source>
+        <translation>Dosiernomo kun kontrolenda mesaĝo</translation>
     </message>
 </context>
 <context>
     <name>StandardDialog</name>
     <message>
-        <location filename="../components/StandardDialog.qml" line="133"/>
+        <location filename="../components/StandardDialog.qml" line="134"/>
         <source>Double tap to copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/StandardDialog.qml" line="140"/>
+        <location filename="../components/StandardDialog.qml" line="141"/>
         <source>Content copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/StandardDialog.qml" line="154"/>
+        <location filename="../components/StandardDialog.qml" line="155"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuligi</translation>
     </message>
     <message>
-        <location filename="../components/StandardDialog.qml" line="163"/>
+        <location filename="../components/StandardDialog.qml" line="164"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>BONE</translation>
     </message>
 </context>
 <context>
     <name>StandardDropdown</name>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="162"/>
-        <source>Low (x1 fee)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../components/StandardDropdown.qml" line="163"/>
-        <source>Medium (x20 fee)</source>
-        <translation type="unfinished"></translation>
+        <source>Low (x1 fee)</source>
+        <translation>Malalta (x1 kosto)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="164"/>
-        <source>High (x166 fee)</source>
-        <translation type="unfinished"></translation>
+        <source>Medium (x20 fee)</source>
+        <translation>Meza (x20 kosto)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="165"/>
-        <source>Slow (x0.25 fee)</source>
-        <translation type="unfinished"></translation>
+        <source>High (x166 fee)</source>
+        <translation>Alta (x166 kosto)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="166"/>
-        <source>Default (x1 fee)</source>
-        <translation type="unfinished"></translation>
+        <source>Slow (x0.25 fee)</source>
+        <translation>Malrapida (x0.25 kosto)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="167"/>
-        <source>Fast (x5 fee)</source>
-        <translation type="unfinished"></translation>
+        <source>Default (x1 fee)</source>
+        <translation>Antaŭsupoza (x1 kosto)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="168"/>
-        <source>Fastest (x41.5 fee)</source>
-        <translation type="unfinished"></translation>
+        <source>Fast (x5 fee)</source>
+        <translation>Rapida (x5 kosto)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="169"/>
-        <source>All</source>
-        <translation type="unfinished"></translation>
+        <source>Fastest (x41.5 fee)</source>
+        <translation>Plej rapida (x41.5 fee)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="170"/>
-        <source>Sent</source>
-        <translation type="unfinished"></translation>
+        <source>All</source>
+        <translation>ĈIUJ</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="171"/>
+        <source>Sent</source>
+        <translation>Sendita</translation>
+    </message>
+    <message>
+        <location filename="../components/StandardDropdown.qml" line="172"/>
         <source>Received</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricevita</translation>
     </message>
 </context>
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../components/SubaddressTable.qml" line="78"/>
+        <location filename="../components/SubaddressTable.qml" line="79"/>
         <source>Address copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1583,22 +1732,22 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableDropdown.qml" line="182"/>
         <source>&lt;b&gt;Copy address to clipboard&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Kopii adreson al tondejo&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="183"/>
         <source>&lt;b&gt;Send to this address&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Sendi al tiu adreso&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="184"/>
         <source>&lt;b&gt;Find similar transactions&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Serĉi similajn transakciojn&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="185"/>
         <source>&lt;b&gt;Remove from address book&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Forigi el la adresaro&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -1606,333 +1755,339 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableHeader.qml" line="79"/>
         <source>Payment ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Paga-ID</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Dato</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="81"/>
         <source>Block height</source>
-        <translation type="unfinished"></translation>
+        <translation>Blokalteco</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="82"/>
         <source>Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvanto</translation>
     </message>
 </context>
 <context>
     <name>TickDelegate</name>
     <message>
-        <location filename="../components/TickDelegate.qml" line="57"/>
+        <location filename="../components/TickDelegate.qml" line="58"/>
         <source>Default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/TickDelegate.qml" line="58"/>
+        <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
-        <translation type="unfinished"></translation>
+        <translation>Alta</translation>
     </message>
 </context>
 <context>
     <name>Transfer</name>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
-        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="70"/>
+        <location filename="../pages/Transfer.qml" line="71"/>
         <source>OpenAlias error</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenAlias eraro</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="83"/>
         <source>Privacy level (ringsize %1)</source>
+        <translation>Nivelo de privateco (ringsize %1)</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="190"/>
+        <source>Amount</source>
+        <translation>Kvanto</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="213"/>
+        <source>Transaction priority</source>
+        <translation>Prioritato de transakcio</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="194"/>
+        <source>All</source>
+        <translation>Ĉiuj</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="229"/>
+        <source>Slow (x0.25 fee)</source>
+        <translation>Malrapida (x0.25 kosto)</translation>
+    </message>
+    <message>
+        <source>Default (x1 fee)</source>
+        <translation type="vanished">Antaŭsupoza (x1 kosto)</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="231"/>
+        <source>Fast (x5 fee)</source>
+        <translation>Rapida (x5 kosto)</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="232"/>
+        <source>Fastest (x41.5 fee)</source>
+        <translation>Plej rapida (x41.5 fee)</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation type="obsolete">Adreso</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="299"/>
+        <source>QR Code</source>
+        <translation>QR Kodo</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="261"/>
+        <source>Resolve</source>
+        <translation>Solvi</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="47"/>
+        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt;(Start Daemon)&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="156"/>
+        <location filename="../pages/Transfer.qml" line="157"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="189"/>
-        <source>Amount</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="190"/>
-        <source></source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="193"/>
-        <source>All</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="212"/>
-        <source>Transaction priority</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="227"/>
+        <location filename="../pages/Transfer.qml" line="228"/>
         <source>Default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="228"/>
-        <source>Slow (x0.25 fee)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="229"/>
+        <location filename="../pages/Transfer.qml" line="230"/>
         <source>Normal (x1 fee)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="230"/>
-        <source>Fast (x5 fee)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="231"/>
-        <source>Fastest (x41.5 fee)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="258"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="260"/>
-        <source>Resolve</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="275"/>
+        <location filename="../pages/Transfer.qml" line="276"/>
         <source>No valid address found at this OpenAlias address</source>
-        <translation type="unfinished"></translation>
+        <translation>Neniu valida Adreso troviĝis je ĉi tiu OpenAlias adreso</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="280"/>
+        <location filename="../pages/Transfer.qml" line="281"/>
         <source>Address found, but the DNSSEC signatures could not be verified, so this address may be spoofed</source>
-        <translation type="unfinished"></translation>
+        <translation>La adreso troviĝis, sed la DNSSEC-subskriboj ne povis esti kontrolitaj, do la adreso eble estas mistifikita</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="282"/>
+        <location filename="../pages/Transfer.qml" line="283"/>
         <source>No valid address found at this OpenAlias address, but the DNSSEC signatures could not be verified, so this may be spoofed</source>
-        <translation type="unfinished"></translation>
+        <translation>Neniu valida Adreso troviĝis je ĉi tiu OpenAlias adreso, sed la DNSSEC subskriboj ne povis esti kontrolitaj, do la adreso eble estas mistifikita</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="285"/>
-        <location filename="../pages/Transfer.qml" line="288"/>
+        <location filename="../pages/Transfer.qml" line="286"/>
+        <location filename="../pages/Transfer.qml" line="289"/>
         <source>Internal error</source>
-        <translation type="unfinished"></translation>
+        <translation>Interna eraro</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="291"/>
+        <location filename="../pages/Transfer.qml" line="292"/>
         <source>No address found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="298"/>
-        <source>QR Code</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="314"/>
-        <source>Payment ID &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="315"/>
-        <source>16 or 64 hexadecimal characters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="323"/>
-        <source>Description &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Neniu adreso trovita</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="324"/>
+        <source>Description &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
+        <translation>Priskribo &lt;font size=&apos;2&apos;&gt;( Opcia )&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="325"/>
         <source>Saved to local wallet history</source>
-        <translation type="unfinished"></translation>
+        <translation>Konservita en la loka monujhistorio</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="334"/>
+        <location filename="../pages/Transfer.qml" line="335"/>
         <source>Send</source>
+        <translation>Sendi</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="607"/>
+        <source>Loki sent successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="417"/>
-        <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <source>Show advanced options</source>
+        <translation type="vanished">Montru spertajn agordojn</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="444"/>
+        <location filename="../pages/Transfer.qml" line="445"/>
         <source>Transaction cost</source>
-        <translation type="unfinished"></translation>
+        <translation>Transakcia kosto</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="476"/>
+        <location filename="../pages/Transfer.qml" line="477"/>
         <source>Sweep Unmixable</source>
-        <translation type="unfinished"></translation>
+        <translation>Balai Nemikseblaĵojn</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="487"/>
+        <location filename="../pages/Transfer.qml" line="488"/>
         <source>Create tx file</source>
-        <translation type="unfinished"></translation>
+        <translation>Kreu=i tr dosieron</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="506"/>
+        <location filename="../pages/Transfer.qml" line="507"/>
         <source>Sign tx file</source>
-        <translation type="unfinished"></translation>
+        <translation>Subskribi tr dosieron</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="517"/>
+        <location filename="../pages/Transfer.qml" line="518"/>
         <source>Submit tx file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="532"/>
-        <location filename="../pages/Transfer.qml" line="593"/>
-        <source>Please choose a file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="543"/>
-        <location filename="../pages/Transfer.qml" line="599"/>
-        <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Sendi tr dosieron</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="544"/>
-        <source>Can&apos;t load unsigned transaction: </source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/Transfer.qml" line="600"/>
+        <source>Error</source>
+        <translation>Eraro</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="551"/>
+        <location filename="../pages/Transfer.qml" line="552"/>
         <source>
 Number of transactions: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="553"/>
-        <source>
-Transaction #%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvanto de transakcioj: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="554"/>
         <source>
-Recipient: </source>
-        <translation type="unfinished"></translation>
+Transaction #%1</source>
+        <translation>
+Transakcion #%1</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="555"/>
         <source>
-payment ID: </source>
+Recipient: </source>
+        <translation>
+Ricevanto: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="606"/>
+        <source>Information</source>
+        <translation>Informo</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="533"/>
+        <location filename="../pages/Transfer.qml" line="594"/>
+        <source>Please choose a file</source>
+        <translation>Bonvolu elekti dosieron</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="418"/>
+        <source>Advanced options</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="545"/>
+        <source>Can&apos;t load unsigned transaction: </source>
+        <translation>Ne eblas ŝargi nesubskribitan transakcion: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="556"/>
         <source>
-Amount: </source>
-        <translation type="unfinished"></translation>
+payment ID: </source>
+        <translation>Paga ID: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="557"/>
         <source>
-Fee: </source>
-        <translation type="unfinished"></translation>
+Amount: </source>
+        <translation>Kvanto: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="558"/>
         <source>
+Fee: </source>
+        <translation>Kosto: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="559"/>
+        <source>
 Ringsize: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ringgrandeco: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="572"/>
+        <location filename="../pages/Transfer.qml" line="573"/>
         <source>Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfirmo</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="600"/>
+        <location filename="../pages/Transfer.qml" line="601"/>
         <source>Can&apos;t submit transaction: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ne eblas sendi transakcion: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="605"/>
-        <source>Information</source>
-        <translation type="unfinished"></translation>
+        <source>Money sent successfully</source>
+        <translation type="vanished">Mono sukcese sendita</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="606"/>
-        <source>Monero sent successfully</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="645"/>
-        <location filename="../pages/Transfer.qml" line="657"/>
-        <source>Wallet is not connected to daemon.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="660"/>
+        <location filename="../pages/Transfer.qml" line="661"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>La konektita demono ne kongruas kun la GUI.
+Bonvolu plibonigi aŭ konekti al alia demono</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="665"/>
+        <location filename="../pages/Transfer.qml" line="91"/>
+        <source></source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="646"/>
+        <location filename="../pages/Transfer.qml" line="658"/>
+        <source>Wallet is not connected to daemon.</source>
+        <translation>La monujo ne estas konektita kun la demono</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="666"/>
         <source>Waiting on daemon synchronization to finish</source>
-        <translation type="unfinished"></translation>
+        <translation>Atendante la finon de demonsinkroniĝado</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="315"/>
+        <source>Payment ID &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
+        <translation>Paga-ID &lt;font size=&apos;2&apos;&gt;( Opcia )&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="316"/>
+        <source>16 or 64 hexadecimal characters</source>
+        <translation>16 aŭ 64 deksesuma karaktroj</translation>
     </message>
 </context>
 <context>
     <name>TxKey</name>
+    <message>
+        <location filename="../pages/TxKey.qml" line="229"/>
+        <source>If a payment had several transactions then each must be checked and the results combined.</source>
+        <translation>Se pago havis plurajn transakciojn, ĉiu devas esti kontrolita kaj la rezultoj kombinitaj.</translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="95"/>
+        <location filename="../pages/TxKey.qml" line="170"/>
+        <source>Address</source>
+        <translation>Adreso</translation>
+    </message>
     <message>
         <location filename="../pages/TxKey.qml" line="67"/>
         <source>Prove Transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="71"/>
-        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
-For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="82"/>
-        <location filename="../pages/TxKey.qml" line="157"/>
-        <source>Transaction ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="85"/>
-        <location filename="../pages/TxKey.qml" line="159"/>
-        <source>Paste tx ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="95"/>
-        <location filename="../pages/TxKey.qml" line="170"/>
-        <source>Address</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="172"/>
         <source>Recipient&apos;s wallet address</source>
-        <translation type="unfinished"></translation>
+        <translation>Monujadreso de ricevanto</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="108"/>
@@ -1949,12 +2104,40 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     <message>
         <location filename="../pages/TxKey.qml" line="121"/>
         <source>Generate</source>
-        <translation type="unfinished"></translation>
+        <translation>Generi</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="141"/>
         <source>Check Transaction</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="197"/>
+        <source>Signature</source>
+        <translation>Subskribo</translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="198"/>
+        <source>Paste tx proof</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="82"/>
+        <location filename="../pages/TxKey.qml" line="157"/>
+        <source>Transaction ID</source>
+        <translation>Transakcio-ID</translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="71"/>
+        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
+For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="85"/>
+        <location filename="../pages/TxKey.qml" line="159"/>
+        <source>Paste tx ID</source>
+        <translation>Algluu Tr ID-on</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="145"/>
@@ -1963,28 +2146,21 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="197"/>
-        <source>Signature</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="198"/>
-        <source>Paste tx proof</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/TxKey.qml" line="210"/>
         <source>Check</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="229"/>
-        <source>If a payment had several transactions then each must be checked and the results combined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroli</translation>
     </message>
 </context>
 <context>
     <name>WizardConfigure</name>
+    <message>
+        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <translation type="vanished">Preskaŭ preta - ni agordu kelkajn preferojn por Monero Core</translation>
+    </message>
+    <message>
+        <source>Kickstart the Monero blockchain?</source>
+        <translation type="vanished">Ĉu komenci la Moneran blokĉenon?</translation>
+    </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -1998,12 +2174,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="114"/>
         <source>It is very important to write it down as this is the only backup you will need for your wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gravegas noti tion ĉi ĉar estas la unusola bakupo por restaŭri vian monujon.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="125"/>
         <source>Enable disk conservation mode?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ĉu ebligi la diskokonservado-reĝimon?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="141"/>
@@ -2011,14 +2187,22 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardConfigure.qml" line="154"/>
-        <source>Allow background mining?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">La diskokonservado-reĝimo uzas multe malpli da diskospaco, sed saman kvanton de retkapacito kiel normala Monera nodo. Tamen, konservi la tutan blokĉenon helpas plisekurigi la Monerreton.Se vi uzas aparaton kun malmulte da diskospaco, tiu ĉi opcio taŭgas por vi.</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardConfigure.qml" line="154"/>
+        <source>Allow background mining?</source>
+        <translation>Ĉu permesi minadon kiel fona programo?</translation>
+    </message>
+    <message>
+        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">La minado sekurigas la Monero-reton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos la minadon kiam via komputilo uzas la kurentprovizon kaj estas senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
     </message>
 </context>
 <context>
@@ -2026,7 +2210,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateViewOnlyWallet.qml" line="69"/>
         <source>Create view only wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Krei nurlegeblan monujon</translation>
     </message>
 </context>
 <context>
@@ -2034,7 +2218,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWallet.qml" line="101"/>
         <source>Create a new wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Krei novan monujon</translation>
     </message>
 </context>
 <context>
@@ -2052,12 +2236,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="149"/>
         <source>Blockchain location</source>
-        <translation type="unfinished"></translation>
+        <translation>Pozicio de la blokĉeno</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="160"/>
         <source>(optional)</source>
-        <translation type="unfinished"></translation>
+        <translation>(opcia)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="184"/>
@@ -2073,6 +2257,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
+        <source>Monero development is solely supported by donations</source>
+        <translation type="vanished">La programado de Monero estas nur subtenata per donacoj.</translation>
+    </message>
+    <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
         <source>Loki development is solely supported by donations</source>
         <translation type="unfinished"></translation>
@@ -2080,12 +2268,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDonation.qml" line="114"/>
         <source>Enable auto-donations of?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ĉu ebligi aŭtomatajn donacojn?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="152"/>
         <source>% of my fee added to each transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>% de mia kosto aldonita al ĉiu transakcio</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="163"/>
@@ -2093,14 +2281,22 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDonation.qml" line="175"/>
-        <source>Allow background mining?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardDonation.qml" line="191"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <translation type="vanished">Por ĉiu transakcio, oni devas pagi malgrandan transakcikoston. Tiu ĉi opcio ebligas aldonan sumon (procento de la baza kosto) al via transakcio por subteni la programadon de Monero. Ekzemple, 50% aŭtomata donaco aldonas 0.0025 XMR al transakcikosto de 0.005 XMR.</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardDonation.qml" line="175"/>
+        <source>Allow background mining?</source>
+        <translation>Ĉu permesi minadon kiel fona programo?</translation>
+    </message>
+    <message>
+        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">La minado sekurigas la Monerreton kaj vi ricevas rekompenceton por la laboro. Tiu ĉi opcio ŝaltos minadon kiam via komputilo estos ŝaltita sed senokupa. La minado haltos kiam vi denove uzos la komputilon.</translation>
     </message>
 </context>
 <context>
@@ -2109,18 +2305,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardFinish.qml" line="51"/>
         <location filename="../wizard/WizardFinish.qml" line="54"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Ebligita</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="51"/>
         <location filename="../wizard/WizardFinish.qml" line="54"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardFinish.qml" line="56"/>
-        <source>Testnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Malebligita</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="56"/>
@@ -2135,27 +2326,32 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="60"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Lingvo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="61"/>
         <source>Wallet name</source>
-        <translation type="unfinished"></translation>
+        <translation>Monujnomo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="64"/>
         <source>Backup seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakupsemo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="65"/>
         <source>Wallet path</source>
-        <translation type="unfinished"></translation>
+        <translation>Vojnomo de monujo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="71"/>
         <source>Daemon address</source>
-        <translation type="unfinished"></translation>
+        <translation>Demonadreso</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardFinish.qml" line="56"/>
+        <source>Testnet</source>
+        <translation>Testreto</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="72"/>
@@ -2165,22 +2361,22 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="74"/>
         <source>Restore height</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaŭralteco</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="82"/>
         <source>New wallet details:</source>
-        <translation type="unfinished"></translation>
+        <translation>Detaloj de nova monujo:</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="86"/>
         <source>Don&apos;t forget to write down your seed. You can view your seed and change your settings on settings page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne forgesu noti vian semon. Vi povas vidi vian semon kaj ŝanĝi viajn agordojn ĉe la agorda paĝo.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="132"/>
         <source>You’re all set up!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vi pretas!</translation>
     </message>
 </context>
 <context>
@@ -2188,7 +2384,15 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardMain.qml" line="184"/>
         <source>A wallet with same name already exists. Please change wallet name</source>
-        <translation type="unfinished"></translation>
+        <translation>Monujo kun la sama nomo jam ekzistas. Bonvolu ŝangi la monujnomon</translation>
+    </message>
+    <message>
+        <source>Non-ASCII characters are not allowed in wallet path or account name</source>
+        <translation type="vanished">Ne-askiaj karaktroj ne permesiĝas en la vojnomo aŭ kontonomo</translation>
+    </message>
+    <message>
+        <source>USE MONERO</source>
+        <translation type="vanished">UZU MONERON</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="368"/>
@@ -2198,28 +2402,28 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardMain.qml" line="381"/>
         <source>Create wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Krei monujon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="387"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Sukcese</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="388"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>La nurlegebla monujo kreiĝis. Vi povas malfermi ĝin se vi fermas la aktualan monujon kaj klakas la &quot;Malfermu monujon el dosiero&quot; opcion, kaj elektas la nurlegeblan monujon en: %1</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="396"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraro</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="409"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Aborti</translation>
     </message>
 </context>
 <context>
@@ -2227,17 +2431,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="161"/>
         <source>Wallet name</source>
-        <translation type="unfinished"></translation>
+        <translation>Monujnomo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="185"/>
         <source>Restore from seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaŭri per semo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="195"/>
         <source>Restore from keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaŭri per ŝlosiloj</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="205"/>
@@ -2247,36 +2451,40 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="243"/>
         <source>Account address (public)</source>
-        <translation type="unfinished"></translation>
+        <translation>Monujadreso (publika)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="259"/>
         <source>View key (private)</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidŝlosilo (privata)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="276"/>
         <source>Spend key (private)</source>
-        <translation type="unfinished"></translation>
+        <translation>Elspezŝlosilo (privata)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="296"/>
         <source>Restore height (optional)</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaŭralteco (malnepra)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="316"/>
         <source>Your wallet is stored in</source>
-        <translation type="unfinished"></translation>
+        <translation>Via monujo estas konservita en</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="346"/>
         <source>Please choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonvolu elekti dosierujon</translation>
     </message>
 </context>
 <context>
     <name>WizardMemoTextInput</name>
+    <message>
+        <source>Enter your 25 word mnemonic seed</source>
+        <translation type="vanished">Entajpu vian 25-vortan mnemonikan semon</translation>
+    </message>
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="45"/>
         <source>Enter your 25 (or 24) word mnemonic seed</source>
@@ -2290,11 +2498,15 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="93"/>
         <source>This seed is &lt;b&gt;very&lt;/b&gt; important to write down and keep secret. It is all you need to backup and restore your wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Estas &lt;b&gt;gravege&lt;/b&gt; noti vian semon kaj konservi ĝin sekretan. Estas la unusola bakupo por restaŭri vian monujon.</translation>
     </message>
 </context>
 <context>
     <name>WizardOptions</name>
+    <message>
+        <source>Welcome to Monero!</source>
+        <translation type="vanished">Bonvenon al Monero!</translation>
+    </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
         <source>Welcome to Loki!</source>
@@ -2303,27 +2515,27 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonvolu elekti unu el la sekvaj opcioj:</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="143"/>
         <source>Create a new wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Krei novan monujon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="184"/>
         <source>Restore wallet from keys or mnemonic seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaŭri monujon de ŝlosilojn aŭ mnemonikan semon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="227"/>
         <source>Open a wallet from file</source>
-        <translation type="unfinished"></translation>
+        <translation>Malfermi monujon el dosiero</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="248"/>
         <source>Testnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Testreto</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="267"/>
@@ -2337,7 +2549,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardPassword.qml" line="58"/>
         <location filename="../wizard/WizardPassword.qml" line="60"/>
         <source>Give your wallet a password</source>
-        <translation type="unfinished"></translation>
+        <translation>Donu pasvorton al via monujo</translation>
     </message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="127"/>
@@ -2345,18 +2557,24 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
+                        &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
+        <translation type="vanished">&lt;br&gt;Sciu ke tiu pasvorto nerestaŭreblas, kaj se vi forgesas ĝin, vi devos restaŭri vian monujon el la 25-vorta mnemoniksemo.&lt;br/&gt;&lt;br/&gt;
+                        &lt;b&gt;Certiĝu ke via pasvorto sekuras sufiĉe.&lt;/b&gt; (uzu literojn, numerojn kaj/aŭ simbolojn):</translation>
+    </message>
 </context>
 <context>
     <name>WizardPasswordUI</name>
     <message>
         <location filename="../wizard/WizardPasswordUI.qml" line="74"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasvorto</translation>
     </message>
     <message>
         <location filename="../wizard/WizardPasswordUI.qml" line="86"/>
         <source>Confirm password</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfirmu pasvorton</translation>
     </message>
 </context>
 <context>
@@ -2364,11 +2582,15 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaŭri monujon</translation>
     </message>
 </context>
 <context>
     <name>WizardWelcome</name>
+    <message>
+        <source>Welcome to Monero!</source>
+        <translation type="vanished">Bonvenon al Monero!</translation>
+    </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="74"/>
         <source>Welcome to Loki!</source>
@@ -2377,356 +2599,398 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="84"/>
         <source>Please choose a language and regional format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonvolu elekti lingvon kaj regionan formaton</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../main.qml" line="283"/>
-        <location filename="../main.qml" line="386"/>
-        <location filename="../main.qml" line="590"/>
-        <location filename="../main.qml" line="602"/>
-        <location filename="../main.qml" line="658"/>
-        <location filename="../main.qml" line="670"/>
-        <location filename="../main.qml" line="712"/>
-        <location filename="../main.qml" line="721"/>
-        <location filename="../main.qml" line="773"/>
-        <location filename="../main.qml" line="871"/>
-        <location filename="../main.qml" line="1073"/>
-        <location filename="../main.qml" line="1218"/>
-        <location filename="../main.qml" line="1420"/>
-        <source>Error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../main.qml" line="284"/>
         <location filename="../main.qml" line="387"/>
+        <location filename="../main.qml" line="591"/>
+        <location filename="../main.qml" line="603"/>
+        <location filename="../main.qml" line="659"/>
+        <location filename="../main.qml" line="671"/>
+        <location filename="../main.qml" line="713"/>
+        <location filename="../main.qml" line="722"/>
+        <location filename="../main.qml" line="774"/>
+        <location filename="../main.qml" line="872"/>
+        <location filename="../main.qml" line="1074"/>
+        <location filename="../main.qml" line="1219"/>
+        <location filename="../main.qml" line="1421"/>
+        <source>Error</source>
+        <translation>Eraro</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="285"/>
+        <location filename="../main.qml" line="388"/>
         <source>Couldn&apos;t open wallet: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ne sukcesis malfermi monujon: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="348"/>
-        <location filename="../main.qml" line="349"/>
-        <source>HIDDEN</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="416"/>
-        <source>Unlocked balance (waiting for block)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="416"/>
-        <source>Unlocked balance (~%1 min)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="416"/>
-        <source>Unlocked balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="456"/>
+        <location filename="../main.qml" line="457"/>
         <source>Waiting for daemon to sync</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="458"/>
+        <location filename="../main.qml" line="459"/>
         <source>Daemon is synchronized (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="460"/>
+        <location filename="../main.qml" line="461"/>
         <source>Wallet is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="498"/>
-        <source>Waiting for daemon to start...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="504"/>
-        <source>Waiting for daemon to stop...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="529"/>
-        <source>Daemon failed to start</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="530"/>
-        <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="546"/>
+        <location filename="../main.qml" line="547"/>
         <source>Daemon is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="592"/>
+        <location filename="../main.qml" line="593"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ne sukcesas krei transakcion: Malĝusta demonversio</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="594"/>
-        <location filename="../main.qml" line="713"/>
-        <source>Can&apos;t create transaction: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="603"/>
-        <location filename="../main.qml" line="722"/>
+        <location filename="../main.qml" line="604"/>
+        <location filename="../main.qml" line="723"/>
         <source>No unmixable outputs to sweep</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne malmikseblaj eligoj por balai</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="614"/>
-        <location filename="../main.qml" line="735"/>
-        <source>Please confirm transaction:
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="616"/>
+        <location filename="../main.qml" line="617"/>
         <source>Address: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="617"/>
-        <source>
-Payment ID: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="618"/>
-        <location filename="../main.qml" line="736"/>
-        <source>
-
-Amount: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="619"/>
-        <location filename="../main.qml" line="737"/>
-        <source>
-Fee: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="620"/>
+        <location filename="../main.qml" line="621"/>
         <source>
 Ringsize: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ringgrandeco: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="622"/>
+        <location filename="../main.qml" line="623"/>
         <source>
 
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="624"/>
+        <location filename="../main.qml" line="625"/>
         <source>
 
 Number of transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="626"/>
         <source>
 Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="628"/>
         <source>
 Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="659"/>
+        <location filename="../main.qml" line="660"/>
         <source>Amount is wrong: expected number from %1 to %2</source>
+        <translation>Kvanto malĝustas: oni postulas nombron de %1 al %2</translation>
+    </message>
+    <message>
+        <source>Money sent successfully: %1 transaction(s) </source>
+        <translation type="vanished">Mono sendiĝis sukcese: %1 transakcio(j)</translation>
+    </message>
+    <message>
+        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <translation type="vanished">Tiu ĉi adreso ricevis %1 moneron; sed la transakcio ankoraŭ ne estas minata</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="862"/>
+        <source>This address received nothing</source>
+        <translation>Tiu ĉi adreso ricevis nenion</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="595"/>
+        <location filename="../main.qml" line="714"/>
+        <source>Can&apos;t create transaction: </source>
+        <translation>Ne sukcesas krei transakcion</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="349"/>
+        <location filename="../main.qml" line="350"/>
+        <source>HIDDEN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="671"/>
-        <source>Insufficient funds. Unlocked balance: %1</source>
-        <translation type="unfinished"></translation>
+        <location filename="../main.qml" line="417"/>
+        <source>Unlocked balance (waiting for block)</source>
+        <translation>Disponebla saldo (atendante blokon)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="734"/>
+        <location filename="../main.qml" line="417"/>
+        <source>Unlocked balance (~%1 min)</source>
+        <translation>Disponebla saldo (~%1 min)</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="417"/>
+        <source>Unlocked balance</source>
+        <translation>Disponebla saldo</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="499"/>
+        <source>Waiting for daemon to start...</source>
+        <translation>Atendante komencon de la demono</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="505"/>
+        <source>Waiting for daemon to stop...</source>
+        <translation>Atendante halton de la demono</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="530"/>
+        <source>Daemon failed to start</source>
+        <translation>Demono malsukcesis starti</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="531"/>
+        <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
+        <translation>Bonvolu kontroli la taglibrojn de viaj monujo kaj demonlogo por eraroj. Vi ankaŭ povas provi komenci %1 permane.</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="735"/>
         <source>Confirmation</source>
+        <translation>Konfirmo</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="615"/>
+        <location filename="../main.qml" line="736"/>
+        <source>Please confirm transaction:
+</source>
+        <translation>Bonvolu konfirmi transakcion: </translation>
+    </message>
+    <message>
+        <source>
+Address: </source>
+        <translation type="vanished">Adreso: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="618"/>
+        <source>
+Payment ID: </source>
+        <translation>Paga ID: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="619"/>
+        <location filename="../main.qml" line="737"/>
+        <source>
+
+Amount: </source>
+        <translation>Kvanto: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="620"/>
+        <location filename="../main.qml" line="738"/>
+        <source>
+Fee: </source>
+        <translation>Kosto: </translation>
+    </message>
+    <message>
+        <source>
+
+Ringsize: </source>
+        <translation type="vanished">Ringgrandeco: </translation>
+    </message>
+    <message>
+        <source>
+Number of transactions: </source>
+        <translation type="vanished">Kvanto de transakcioj: </translation>
+    </message>
+    <message>
+        <source>
+
+Description: </source>
+        <translation type="vanished">Priskribo: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="784"/>
+        <source>Loki sent successfully: %1 transaction(s) </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="774"/>
-        <source>Couldn&apos;t send the money: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="777"/>
-        <location filename="../main.qml" line="1214"/>
-        <source>Information</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="783"/>
-        <source>Transaction saved to file: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="783"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="813"/>
+        <location filename="../main.qml" line="814"/>
         <source>Payment proof</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="816"/>
+        <location filename="../main.qml" line="817"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="846"/>
-        <location filename="../main.qml" line="866"/>
+        <location filename="../main.qml" line="847"/>
+        <location filename="../main.qml" line="867"/>
         <source>Payment proof check</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="849"/>
-        <location filename="../main.qml" line="868"/>
+        <location filename="../main.qml" line="850"/>
+        <location filename="../main.qml" line="869"/>
         <source>Bad signature</source>
+        <translation>Malbona subskribo</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="855"/>
+        <source>This address received %1 Loki, but the transaction is not yet mined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="854"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <location filename="../main.qml" line="858"/>
+        <source>This address received %1 Loki, with %2 confirmation(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="857"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="861"/>
-        <source>This address received nothing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="868"/>
+        <location filename="../main.qml" line="869"/>
         <source>Good signature</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bona subskribo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="880"/>
-        <source>Balance (syncing)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="880"/>
-        <source>Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1074"/>
-        <location filename="../main.qml" line="1421"/>
+        <location filename="../main.qml" line="1075"/>
+        <location filename="../main.qml" line="1422"/>
         <source>Wrong password</source>
-        <translation type="unfinished"></translation>
+        <translation>Malĝusta pasvorto</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1149"/>
+        <location filename="../main.qml" line="1150"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Averto</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1152"/>
+        <location filename="../main.qml" line="1153"/>
         <source>Error: Filesystem is read only</source>
-        <translation type="unfinished"></translation>
+        <translation>Eraro: dosiersistemo estas nurlegebla</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1154"/>
+        <location filename="../main.qml" line="1155"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Averto: estas nur %1 GigaBajto da disponebla spaco sur la aparato. La blokĉeno postulas ~%2 Gigabajtojn da spaco.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1156"/>
+        <location filename="../main.qml" line="1157"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Noto: estas nur %1 GigaBajto da disponebla spaco sur la aparato. La blokĉeno postulas ~%2 Gigabajtojn da spaco.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1158"/>
+        <location filename="../main.qml" line="1159"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Noto: lmdb-dosierujo ne troviĝis. Nova dosierujo kreiĝos.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1162"/>
+        <location filename="../main.qml" line="1163"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuligi</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1215"/>
+        <location filename="../main.qml" line="1216"/>
         <source>Password changed successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1219"/>
+        <location filename="../main.qml" line="1220"/>
         <source>Error: </source>
+        <translation type="unfinished">Eraro: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1302"/>
+        <source>Loki</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1261"/>
-        <source>Please wait...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1285"/>
-        <source>Program setup wizard</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1301"/>
-        <source>Monero</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1457"/>
-        <source>send to the same destination</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1748"/>
+        <location filename="../main.qml" line="1749"/>
         <source>Tap again to close...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1761"/>
-        <source>Daemon is running</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../main.qml" line="1762"/>
+        <source>Daemon is running</source>
+        <translation>Demono funkcias</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1763"/>
         <source>Daemon will still be running in background when GUI is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>La demono funkciantos en la fono kiam vi fermos la GUI.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1764"/>
+        <location filename="../main.qml" line="1765"/>
         <source>Stop daemon</source>
+        <translation>Haltigi demonon</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1800"/>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1799"/>
         <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Nova versio de monero-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="672"/>
+        <source>Insufficient funds. Unlocked balance: %1</source>
+        <translation>Nesufiĉe da mono. Disponebla saldo: %1</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="775"/>
+        <source>Couldn&apos;t send the money: </source>
+        <translation>Mono ne sendeblas</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="778"/>
+        <location filename="../main.qml" line="1215"/>
+        <source>Information</source>
+        <translation>Informo</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="784"/>
+        <source>Transaction saved to file: %1</source>
+        <translation>La transakcio estas konservita en la dosiero %1</translation>
+    </message>
+    <message>
+        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <translation type="vanished">Tiu adreso ricevis %1 monerojn, kun %2 konfirmo(j)</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="881"/>
+        <source>Balance (syncing)</source>
+        <translation>Saldo (Sinkroniĝante)</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="881"/>
+        <source>Balance</source>
+        <translation>Saldo</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1262"/>
+        <source>Please wait...</source>
+        <translation>Bonvolu atendi...</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1286"/>
+        <source>Program setup wizard</source>
+        <translation>Programagordilo</translation>
+    </message>
+    <message>
+        <source>Monero</source>
+        <translation type="vanished">Monero</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1458"/>
+        <source>send to the same destination</source>
+        <translation>Sendu al la sama celo</translation>
     </message>
 </context>
 </TS>

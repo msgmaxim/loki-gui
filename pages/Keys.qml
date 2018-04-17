@@ -113,7 +113,7 @@ Rectangle {
                 Layout.fillWidth: true
                 fontSize: 22 * scaleRatio
                 Layout.topMargin: 10 * scaleRatio
-                text: qsTr("Mnemonic seed") + translationManager.emptyString
+                text: qsTr("Mnemonic Seed") + translationManager.emptyString
             }
             Rectangle {
                 Layout.fillWidth: true
@@ -180,7 +180,7 @@ Rectangle {
                 Layout.fillWidth: true
                 fontSize: 22 * scaleRatio
                 Layout.topMargin: 10 * scaleRatio
-                text: qsTr("Export wallet") + translationManager.emptyString
+                text: qsTr("Export Wallet") + translationManager.emptyString
             }
             Rectangle {
                 Layout.fillWidth: true
@@ -245,10 +245,10 @@ Rectangle {
     function onPageCompleted() {
         console.log("keys page loaded");
 
-        keysText.text = "<b>" + qsTr("Secret view key") + ":</b> " + currentWallet.secretViewKey
-        keysText.text += "<br><br><b>" + qsTr("Public view key") + ":</b> " + currentWallet.publicViewKey
-        keysText.text += (!currentWallet.viewOnly) ? "<br><br><b>" + qsTr("Secret spend key") + ":</b> " + currentWallet.secretSpendKey : ""
-        keysText.text += "<br><br><b>" + qsTr("Public spend key") + ":</b> " + currentWallet.publicSpendKey
+        keysText.text = "<b>" + qsTr("Secret View Key") + ":</b> " + currentWallet.secretViewKey
+        keysText.text += "<br><br><b>" + qsTr("Public View Key") + ":</b> " + currentWallet.publicViewKey
+        keysText.text += (!currentWallet.viewOnly) ? "<br><br><b>" + qsTr("Secret Spend Key") + ":</b> " + currentWallet.secretSpendKey : ""
+        keysText.text += "<br><br><b>" + qsTr("Public Spend Key") + ":</b> " + currentWallet.publicSpendKey
 
         seedText.text = currentWallet.seed
 

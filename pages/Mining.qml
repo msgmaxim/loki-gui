@@ -59,7 +59,7 @@ Rectangle {
             Label {
                 id: soloTitleLabel
                 fontSize: 24
-                text: qsTr("Solo mining") + translationManager.emptyString
+                text: qsTr("Solo Mining") + translationManager.emptyString
             }
 
             Label {
@@ -85,7 +85,7 @@ Rectangle {
                 Label {
                     id: soloMinerThreadsLabel
                     color: Style.defaultFontColor
-                    text: qsTr("CPU threads") + translationManager.emptyString
+                    text: qsTr("CPU Threads") + translationManager.emptyString
                     fontSize: 16
                     Layout.preferredWidth: 120
                 }
@@ -105,7 +105,7 @@ Rectangle {
                     enabled: startSoloMinerButton.enabled
                     checked: persistentSettings.allow_background_mining
                     onClicked: {persistentSettings.allow_background_mining = checked}
-                    text: qsTr("Background mining (experimental)") + translationManager.emptyString
+                    text: qsTr("Background Mining (Experimental)") + translationManager.emptyString
                 }
 
             }
@@ -127,7 +127,7 @@ Rectangle {
                 Label {
                     id: manageSoloMinerLabel
                     color: Style.defaultFontColor
-                    text: qsTr("Manage miner") + translationManager.emptyString
+                    text: qsTr("Manage Miner") + translationManager.emptyString
                     fontSize: 16
                 }
 
@@ -137,7 +137,7 @@ Rectangle {
                     id: startSoloMinerButton
                     width: 110
                     small: true
-                    text: qsTr("Start mining") + translationManager.emptyString
+                    text: qsTr("Start Mining") + translationManager.emptyString
                     onClicked: {
                         var success = walletManager.startMining(appWindow.currentWallet.address(0, 0), soloMinerThreadsLine.text, persistentSettings.allow_background_mining, persistentSettings.miningIgnoreBattery)
                         if (success) {
@@ -159,7 +159,7 @@ Rectangle {
                     id: stopSoloMinerButton
                     width: 110
                     small: true
-                    text: qsTr("Stop mining") + translationManager.emptyString
+                    text: qsTr("Stop Mining") + translationManager.emptyString
                     onClicked: {
                         walletManager.stopMining()
                         update()

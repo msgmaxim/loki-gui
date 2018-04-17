@@ -109,7 +109,7 @@ Window {
                 id: okButton
                 visible:false
                 fontSize: 14
-                text: qsTr("Start daemon (%1)").arg(countDown)
+                text: qsTr("Start Daemon (%1)").arg(countDown)
                 KeyNavigation.tab: cancelButton
                 onClicked: {
                     timer.stop();
@@ -122,7 +122,7 @@ Window {
             LokiComponents.StandardButton {
                 id: cancelButton
                 fontSize: 14
-                text: qsTr("Use custom settings")
+                text: qsTr("Use Custom Settings")
 
                 onClicked: {
                     timer.stop();

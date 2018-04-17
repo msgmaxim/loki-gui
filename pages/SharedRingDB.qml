@@ -96,22 +96,22 @@ Rectangle {
 
         Text {
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
-                  "<font size='+2'>" + qsTr("Blackballed outputs") + "</font>" + "<font size='2'> (</font><a href='#'>" + qsTr("help") + "</a><font size='2'>)</font><br>" +
+            text: "<style type='text/css'> a{text-decoration: none; color: #78BE20;}</style>" +
+                  "<font size='+2'>" + qsTr("Blackballed Outputs") + "</font>" + " <a href='#'>(" + qsTr("Help") + ")</a><br>" +
                   qsTr("This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures.<br>") +
                   qsTr("You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             onLinkActivated: {
-                sharedRingDBDialog.title  = qsTr("Blackballed outputs") + translationManager.emptyString;
+                sharedRingDBDialog.title  = qsTr("Blackballed Outputs") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
-                    "In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able " +
+                    "<p>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able " +
                     "to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection " +
                     "afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being " +
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
-                    "of privacy protection Loki uses.<br>" +
-                    "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
-                    "using the loki-blockchain-blackball tool to create a list of known spent outputs.<br>"
+                    "of privacy protection Loki uses.</p>" +
+                    "<p>Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
+                    "using the loki-blockchain-blackball tool to create a list of known spent outputs.</p>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
                 sharedRingDBDialog.open()
@@ -220,8 +220,8 @@ Rectangle {
 
         Text {
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
-                  "<font size='+2'>" + qsTr("Rings") + "</font>" + "<font size='2'> (</font><a href='#'>" + qsTr("help") + "</a><font size='2'>)</font><br>" +
+            text: "<style type='text/css'> a{text-decoration: none; color: #78BE20;}</style>" +
+                  "<font size='+2'>" + qsTr("Rings") + "</font>" + " <a href='#'>(" + qsTr("Help") + ")</a><br>" +
                   qsTr("This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
@@ -373,7 +373,7 @@ Rectangle {
             Label {
                 id: segregationHeightLabel
                 fontSize: 14
-                text: qsTr("Segregation height:") + translationManager.emptyString
+                text: qsTr("Segregation Height:") + translationManager.emptyString
             }
             LineEdit {
                 id: segregationHeightLine

@@ -70,7 +70,7 @@ QVariant SubaddressModel::data(const QModelIndex &index, int role) const
         result = QString::fromStdString(sr->getAddress());
         break;
     case SubaddressLabelRole:
-        result = index.row() == 0 ? tr("Primary address") : QString::fromStdString(sr->getLabel());
+        result = index.row() == 0 ? tr("Primary Address") : QString::fromStdString(sr->getLabel());
         break;
     }
 
