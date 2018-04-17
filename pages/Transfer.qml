@@ -146,7 +146,7 @@ Rectangle {
                       Layout.preferredWidth: 33
                       Layout.leftMargin: 10
                       Layout.topMargin: 10
-                      source: "../images/warning.png"
+                      source: "../images/Warning.png"
                   }
 
                   Text {

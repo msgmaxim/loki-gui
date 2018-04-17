@@ -120,7 +120,7 @@ ColumnLayout {
                     horizontalAlignment: Image.AlignRight
                     verticalAlignment: Image.AlignTop
                     anchors.centerIn: parent
-                    source: "qrc:///images/createWallet.png"
+                    source: "qrc:///images/CreateNewWallet.png"
                 }
 
                 MouseArea {
@@ -162,7 +162,7 @@ ColumnLayout {
                     height: page.buttonImageSize
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
-                    source: "qrc:///images/recoverWallet.png"
+                    source: "qrc:///images/RecoverFromKey.png"
                 }
 
                 MouseArea {
@@ -205,7 +205,7 @@ ColumnLayout {
                     height: page.buttonImageSize
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
-                    source: "qrc:///images/openAccount.png"
+                    source: "qrc:///images/RestoreFromFile.png"
                 }
 
                 MouseArea {
