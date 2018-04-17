@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -28,7 +29,7 @@
 
 import QtQuick 2.0
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Label {
     id: item
@@ -40,7 +41,7 @@ Label {
         anchors.left: parent.left
         anchors.right: parent.right
         height: 2
-        color: MoneroComponents.Style.dividerColor
-        opacity: MoneroComponents.Style.dividerOpacity
+        color: LokiComponents.Style.dividerColor
+        opacity: LokiComponents.Style.dividerOpacity
     }
 }

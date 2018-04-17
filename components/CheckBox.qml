@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 RowLayout {
     id: checkBox
@@ -85,9 +86,9 @@ RowLayout {
 
         Text {
             id: label
-            font.family: MoneroComponents.Style.fontRegular.name
+            font.family: LokiComponents.Style.fontRegular.name
             font.pixelSize: checkBox.fontSize
-            color: MoneroComponents.Style.defaultFontColor
+            color: LokiComponents.Style.defaultFontColor
             wrapMode: Text.Wrap
             Layout.fillWidth: true
             anchors.left: backgroundRect.right

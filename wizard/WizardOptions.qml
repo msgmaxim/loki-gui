@@ -30,7 +30,7 @@
 import QtQuick 2.2
 import QtQml 2.2
 import QtQuick.Layouts 1.1
-import moneroComponents.NetworkType 1.0
+import LokiComponents.NetworkType 1.0
 import "../components"
 
 ColumnLayout {

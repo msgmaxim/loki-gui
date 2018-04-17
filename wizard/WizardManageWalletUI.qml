@@ -28,7 +28,7 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.2
-import moneroComponents.TranslationManager 1.0
+import LokiComponents.TranslationManager 1.0
 import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.2
 import "../components"

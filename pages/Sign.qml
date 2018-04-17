@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,8 +34,8 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import moneroComponents.Clipboard 1.0
-import moneroComponents.WalletManager 1.0
+import LokiComponents.Clipboard 1.0
+import LokiComponents.WalletManager 1.0
 
 Rectangle {
     id: mainLayout

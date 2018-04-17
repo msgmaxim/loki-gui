@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,8 +30,8 @@
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.NetworkType 1.0
+import LokiComponents.Wallet 1.0
+import LokiComponents.NetworkType 1.0
 import "components"
 
 Rectangle {

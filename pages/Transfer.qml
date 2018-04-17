@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,9 +30,9 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.Clipboard 1.0
-import moneroComponents.PendingTransaction 1.0
-import moneroComponents.Wallet 1.0
+import LokiComponents.Clipboard 1.0
+import LokiComponents.PendingTransaction 1.0
+import LokiComponents.Wallet 1.0
 import "../components"
 import "." 1.0
 
@@ -603,7 +604,7 @@ Rectangle {
                 informationPopup.open();
             } else {
                 informationPopup.title = qsTr("Information") + translationManager.emptyString
-                informationPopup.text  = qsTr("Monero sent successfully") + translationManager.emptyString
+                informationPopup.text  = qsTr("Loki sent successfully") + translationManager.emptyString
                 informationPopup.icon  = StandardIcon.Information
                 informationPopup.onCloseCallback = null
                 informationPopup.open();

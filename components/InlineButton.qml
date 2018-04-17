@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -29,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Item {
     id: inlineButton
@@ -52,7 +53,7 @@ Item {
 
     Rectangle{
         id: rect
-        color: MoneroComponents.Style.buttonBackgroundColorDisabled
+        color: LokiComponents.Style.buttonBackgroundColorDisabled
         border.color: "black"
         height: 28 * scaleRatio
         width: inlineText.width + 22 * scaleRatio
@@ -63,7 +64,7 @@ Item {
 
         Text {
             id: inlineText
-            font.family: MoneroComponents.Style.fontBold.name
+            font.family: LokiComponents.Style.fontBold.name
             font.bold: true
             font.pixelSize: 16 * scaleRatio
             color: "black"

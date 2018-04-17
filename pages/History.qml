@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,11 +30,11 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionInfo 1.0
-import moneroComponents.TransactionHistoryModel 1.0
+import LokiComponents.Wallet 1.0
+import LokiComponents.WalletManager 1.0
+import LokiComponents.TransactionHistory 1.0
+import LokiComponents.TransactionInfo 1.0
+import LokiComponents.TransactionHistoryModel 1.0
 
 import "../components"
 

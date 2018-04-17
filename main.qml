@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,9 +34,9 @@ import QtQuick.Controls.Styles 1.1
 import QtQuick.Dialogs 1.2
 import Qt.labs.settings 1.0
 
-import moneroComponents.Wallet 1.0
-import moneroComponents.PendingTransaction 1.0
-import moneroComponents.NetworkType 1.0
+import LokiComponents.Wallet 1.0
+import LokiComponents.PendingTransaction 1.0
+import LokiComponents.NetworkType 1.0
 
 
 import "components"

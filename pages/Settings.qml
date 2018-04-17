@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -35,7 +36,7 @@ import "../version.js" as Version
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false
@@ -627,10 +628,10 @@ Rectangle {
             text: qsTr("GUI version: ") + Version.GUI_VERSION + " (Qt " + qtRuntimeVersion + ")" + translationManager.emptyString
         }
         TextBlock {
-            id: guiMoneroVersion
+            id: guiLokiVersion
             Layout.fillWidth: true
             font.pixelSize: 14
-            text: qsTr("Embedded Monero version: ") + Version.GUI_MONERO_VERSION + translationManager.emptyString
+            text: qsTr("Embedded Loki version: ") + Version.GUI_LOKI_VERSION + translationManager.emptyString
         }
         TextBlock {
             id: restoreHeightText
