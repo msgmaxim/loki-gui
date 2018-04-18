@@ -47,16 +47,10 @@ Rectangle {
     property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style><a href='#'> (Start Daemon)</a>") + translationManager.emptyString
     property bool showAdvanced: false
 
-    Clipboard { id: clipboard }
+    // NOTE: Mixin represents the number of fake inputs/outputs, +1 for the real transaction.
+    property int fixedMixin: 9
 
-    function scaleValueToMixinCount(scaleValue) {
-        var scaleToMixinCount = [6,7,8,9,10,11,12,13,14,16,18,20,22,25];
-        if (scaleValue < scaleToMixinCount.length) {
-            return scaleToMixinCount[scaleValue];
-        } else {
-            return 0;
-        }
-    }
+    Clipboard { id: clipboard }
 
     function isValidOpenAliasAddress(address) {
       address = address.trim()
@@ -73,14 +67,6 @@ Rectangle {
       oaPopup.icon = StandardIcon.Information
       oaPopup.onCloseCallback = null
       oaPopup.open()
-    }
-
-    function updateMixin() {
-        var fillLevel = (isMobile) ? privacyLevelItemSmall.fillLevel : privacyLevelItem.fillLevel
-        var mixin = scaleValueToMixinCount(fillLevel)
-        console.log("PrivacyLevel changed:"  + fillLevel)
-        console.log("mixin count: "  + mixin)
-        privacyLabel.text = qsTr("Privacy level (ringsize %1)").arg(mixin+1) + translationManager.emptyString
     }
 
     function updateFromQrCode(address, payment_id, amount, tx_description, recipient_name) {
@@ -362,8 +348,8 @@ Rectangle {
                   console.log("amount: " + amountLine.text)
                   addressLine.text = addressLine.text.trim()
                   paymentIdLine.text = paymentIdLine.text.trim()
-                  root.paymentClicked(addressLine.text, paymentIdLine.text, amountLine.text, scaleValueToMixinCount(privacyLevelItem.fillLevel),
-                                 priority, descriptionLine.text)
+
+                  root.paymentClicked(addressLine.text, paymentIdLine.text, amountLine.text, fixedMixin, priority, descriptionLine.text)
 
               }
           }
@@ -423,51 +409,10 @@ Rectangle {
             height: 1
             color: Qt.rgba(255, 255, 255, 0.25)
             opacity: Style.dividerOpacity
-            Layout.bottomMargin: 30 * scaleRatio
-        }
-
-        RowLayout {
-            visible: persistentSettings.transferShowAdvanced
-            anchors.left: parent.left
-            anchors.right: parent.right
-            Layout.fillWidth: true
-            Label {
-                id: privacyLabel
-                fontSize: 15
-                text: ""
-            }
-
-            Label {
-                id: costLabel
-                fontSize: 14
-                text: qsTr("Transaction cost") + translationManager.emptyString
-                anchors.right: parent.right
-            }
-        }
-
-        PrivacyLevel {
-            visible: persistentSettings.transferShowAdvanced && !isMobile
-            id: privacyLevelItem
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.rightMargin: 17 * scaleRatio
-            onFillLevelChanged: updateMixin()
-        }
-
-        PrivacyLevelSmall {
-            visible: persistentSettings.transferShowAdvanced && isMobile
-            id: privacyLevelItemSmall
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.rightMargin: 17 * scaleRatio
-            onFillLevelChanged: updateMixin()
         }
 
         GridLayout {
             visible: persistentSettings.transferShowAdvanced
-            Layout.topMargin: 50 * scaleRatio
-
-
             columns: (isMobile) ? 2 : 6
 
             StandardButton {
@@ -483,7 +428,7 @@ Rectangle {
 
             StandardButton {
                 id: saveTxButton
-                text: qsTr("Create tx file") + translationManager.emptyString
+                text: qsTr("Create TX File") + translationManager.emptyString
                 visible: appWindow.viewOnly
                 enabled: pageRoot.checkInformation(amountLine.text, addressLine.text, paymentIdLine.text, appWindow.persistentSettings.nettype)
                 small: true
@@ -494,8 +439,7 @@ Rectangle {
                     console.log("amount: " + amountLine.text)
                     addressLine.text = addressLine.text.trim()
                     paymentIdLine.text = paymentIdLine.text.trim()
-                    root.paymentClicked(addressLine.text, paymentIdLine.text, amountLine.text, scaleValueToMixinCount(privacyLevelItem.fillLevel),
-                                   priority, descriptionLine.text)
+                    root.paymentClicked(addressLine.text, paymentIdLine.text, amountLine.text, fixedMixin, priority, descriptionLine.text)
 
                 }
             }
@@ -513,7 +457,7 @@ Rectangle {
 
             StandardButton {
                 id: submitTxButton
-                text: qsTr("Submit tx file") + translationManager.emptyString
+                text: qsTr("Submit TX File") + translationManager.emptyString
                 small: true
                 visible: appWindow.viewOnly
                 enabled: pageRoot.enabled
@@ -614,8 +558,6 @@ Rectangle {
 
     }
 
-
-
     Component.onCompleted: {
         //Disable password page until enabled by updateStatus
         pageRoot.enabled = false
@@ -625,7 +567,6 @@ Rectangle {
     function onPageCompleted() {
         console.log("transfer page loaded")
         updateStatus();
-        updateMixin();
         updatePriorityDropdown()
     }
 
