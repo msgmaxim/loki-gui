@@ -129,6 +129,7 @@ Rectangle {
                     color: Style.defaultFontColor
                     text: qsTr("Manage Miner") + translationManager.emptyString
                     fontSize: 16
+                    Layout.preferredWidth: 120
                 }
 
                 StandardButton {

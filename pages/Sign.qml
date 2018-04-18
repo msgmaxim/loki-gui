@@ -193,15 +193,13 @@ Rectangle {
             ColumnLayout {
                 id: signSignatureRow
 
-                RowLayout {
-                    LineEdit {
-                        id: signSignatureLine
-                        labelText: qsTr("Signature")
-                        placeholderText: qsTr("Signature") + translationManager.emptyString;
-                        readOnly: true
-                        Layout.fillWidth: true
-                        copyButton: true
-                    }
+                LineEdit {
+                    id: signSignatureLine
+                    labelText: qsTr("Signature")
+                    placeholderText: qsTr("Signature") + translationManager.emptyString;
+                    readOnly: true
+                    Layout.fillWidth: true
+                    copyButton: true
                 }
             }
 
@@ -298,14 +296,9 @@ Rectangle {
 
             ColumnLayout {
                 id: verifySignatureRow
-                anchors.topMargin: 17 * scaleRatio
-
-                Label {
-                    id: verifySignatureLabel
-                    text: qsTr("Signature") + translationManager.emptyString
-                }
 
                 LineEdit {
+                    labelText: qsTr("Signature")
                     id: verifySignatureLine
                     placeholderText: qsTr("Signature") + translationManager.emptyString;
                     Layout.fillWidth: true
