@@ -177,7 +177,6 @@ Item {
             anchors.fill: parent
             border.width: borderDisabled ? 0 : 1
             border.color: borderColor
-            radius: 4
         }
 
         Image {

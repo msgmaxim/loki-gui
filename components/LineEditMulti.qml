@@ -133,7 +133,6 @@ ColumnLayout {
                   return Qt.rgba(255, 255, 255, 0.25);
               }
             }
-            radius: 4
             anchors.fill: parent
             visible: lineditmulti.showBorder
         }

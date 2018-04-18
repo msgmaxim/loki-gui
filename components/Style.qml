@@ -24,7 +24,8 @@ QtObject {
     property string legacy_placeholderFontColor: "#BABABA"
 
     property string buttonBackgroundColor: heroGreen
-    property string buttonBackgroundColorHover: "#7ECA22"
+    property string buttonBackgroundColorHover: "#006E1C"
+
     property string buttonBackgroundColorDisabled: "#707070"
     property string buttonBackgroundColorDisabledHover: "#808080"
     property string buttonTextColor: "white"

@@ -94,7 +94,6 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         height: 28
-
         Rectangle {
             anchors.top: parent.top
             anchors.left: parent.left
@@ -102,9 +101,16 @@ Item {
             height: parent.height - 1
             anchors.leftMargin: datePicker.expanded ? 1 : 0
             anchors.rightMargin: datePicker.expanded ? 1 : 0
-            radius: 4
             y: 1
             color: datePicker.backgroundColor
+
+            border.color: {
+                if(datePicker.expanded) {
+                    return LokiComponents.Style.heroGreen;
+                } else {
+                    return Qt.rgba(255, 255, 255, 0.25);
+                }
+            }
         }
 
         Item {
@@ -255,8 +261,6 @@ Item {
         anchors.right: parent.right
         anchors.top: head.bottom
         color: "#FFFFFF"
-        border.width: 1
-        border.color: "#DBDBDB"
         height: datePicker.expanded ? calendar.height + 2 : 0
         clip: true
         //radius: 4
@@ -295,7 +299,7 @@ Item {
                     Rectangle {
                         anchors.fill: parent
                         radius: parent.implicitHeight / 2
-                        color: dayArea.pressed && styleData.visibleMonth ? "#FF6C3B" : "transparent"
+                        color: dayArea.pressed && styleData.visibleMonth ? LokiComponents.Style.heroGreen : "transparent"
                     }
 
                     Text {
@@ -307,7 +311,7 @@ Item {
                         color: {
                             if(!styleData.visibleMonth) return "#DBDBDB"
                             if(dayArea.pressed) return "#FFFFFF"
-                            if(styleData.today) return "#FF6C3B"
+                            if(styleData.today) return LokiComponents.Style.heroGreen
                             return "#4A4848"
                         }
                     }

@@ -55,7 +55,6 @@ RowLayout {
             anchors.left: parent.left
             width: 25 * scaleRatio
             height: checkBox.height - 1
-            radius: 3
             y: 0
             color: "transparent"
             border.color: checkBox.checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)

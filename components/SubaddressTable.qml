@@ -151,7 +151,7 @@ ListView {
 
         Rectangle {
             width: 3
-            color: 'white'
+            color: LokiComponents.Style.lightGreen
             visible: listView.currentIndex == index
             anchors.left: parent.left
             anchors.top: parent.top

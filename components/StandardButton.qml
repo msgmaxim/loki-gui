@@ -60,7 +60,6 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         height: parent.height - 1
-        radius: 3
         color: parent.enabled ? LokiComponents.Style.buttonBackgroundColor : LokiComponents.Style.buttonBackgroundColorDisabled
         border.width: parent.focus ? 1 : 0
 
@@ -73,12 +72,12 @@ Item {
 
             // possibly do some hover effects here
             onEntered: {
-//                if(button.enabled) parent.color = Style.buttonBackgroundColorHover;
-//                else parent.color = Style.buttonBackgroundColorDisabledHover;
+                if(button.enabled) parent.color = Style.buttonBackgroundColorHover;
+                else parent.color = Style.buttonBackgroundColorDisabledHover;
             }
             onExited: {
-//                if(button.enabled) parent.color = Style.buttonBackgroundColor;
-//                else parent.color = Style.buttonBackgroundColorDisabled;
+                if(button.enabled) parent.color = Style.buttonBackgroundColor;
+                else parent.color = Style.buttonBackgroundColorDisabled;
             }
         }
     }
