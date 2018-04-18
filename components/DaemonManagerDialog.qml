@@ -39,10 +39,11 @@ import "../components" as LokiComponents
 Window {
     id: root
     modality: Qt.ApplicationModal
-    flags: Qt.Window | Qt.FramelessWindowHint
+    flags: Qt.Window // | Qt.FramelessWindowHint
     property int countDown: 10;
     signal rejected()
     signal started();
+    color: "#101010"
 
     function open() {
         show()
@@ -93,6 +94,7 @@ Window {
             Text {
                 text: qsTr("Starting local node in %1 seconds").arg(countDown);
                 font.pixelSize: 18
+                color: LokiComponents.Style.defaultFontColor
                 Layout.alignment: Qt.AlignHCenter
                 Layout.fillWidth: true
                 horizontalAlignment: Text.AlignHCenter
