@@ -76,7 +76,6 @@
         <file>images/CheckedGreenIcon.png</file>
         <file>images/checkedIcon-black.png</file>
         <file>images/close.png</file>
-        <file>images/closeIcon.png</file>
         <file>images/collapseRightPanel.png</file>
         <file>images/copyToClipboard.png</file>
         <file>images/datePicker.png</file>
@@ -95,8 +94,6 @@
         <file>images/expandRightPanel.png</file>
         <file>images/expandTable.png</file>
         <file>images/fullscreen.png</file>
-        <file>images/goToBasicVersionHovered.png</file>
-        <file>images/gotoBasicVersion.png</file>
         <file>images/greyTriangle.png</file>
         <file>images/helpIcon.png</file>
         <file>images/historyBorderRadius.png</file>
@@ -106,16 +103,12 @@
         <file>images/lightning.png</file>
         <file>images/lockIcon.png</file>
         <file>images/magnifier.png</file>
-        <file>images/maximizeIcon.png</file>
         <file>images/menu.png</file>
-        <file>images/menuArrow.png</file>
         <file>images/menuButtonGradient.png</file>
         <file>images/menuIndicator.png</file>
         <file>images/middlePanelBg.jpg</file>
         <file>images/minimize.png</file>
-        <file>images/minimizeIcon.png</file>
         <file>images/moneroLogo2.png</file>
-        <file>images/moneroLogo_white.png</file>
         <file>images/nextMonth.png</file>
         <file>images/nextPage.png</file>
         <file>images/prevMonth.png</file>
@@ -125,15 +118,11 @@
         <file>images/resize.png</file>
         <file>images/resizeHovered.png</file>
         <file>images/right.png</file>
-        <file>images/rightArrow.png</file>
-        <file>images/statusConnected.png</file>
-        <file>images/statusDisconnected.png</file>
         <file>images/tableOptions.png</file>
         <file>images/tip.png</file>
         <file>images/titlebarGradient.jpg</file>
         <file>images/uncheckedIcon.png</file>
         <file>images/upArrow-green.png</file>
-        <file>images/whatIsIcon.png</file>
         <file>images/whiteDropIndicator.png</file>
 
         <file>js/TxUtils.js</file>
