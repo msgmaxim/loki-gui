@@ -58,7 +58,7 @@ RowLayout {
             radius: 3
             y: 0
             color: "transparent"
-            border.color: checkBox.checked ? "#78B320" : Qt.rgba(1, 1, 1, 0.25)
+            border.color: checkBox.checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
         }
 
         Rectangle {

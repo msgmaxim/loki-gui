@@ -109,7 +109,7 @@ Item {
 
                 background: Rectangle {
                     radius: 2
-                    border.color: "#78BE20"
+                    border.color: LokiComponents.Style.heroGreen
                     border.width: 1
                     color: "black"
 

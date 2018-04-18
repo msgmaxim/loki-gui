@@ -128,7 +128,7 @@ ColumnLayout {
               if(multiLine.error && multiLine.text !== ""){
                   return Qt.rgba(255, 0, 0, 0.45);
               } else if(multiLine.activeFocus) {
-                  return "#78BE20";
+                  return LokiComponents.Style.heroGreen;
               } else {
                   return Qt.rgba(255, 255, 255, 0.25);
               }

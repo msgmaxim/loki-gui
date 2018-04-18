@@ -23,6 +23,7 @@
         <file>components/InputDialog.qml</file>
         <file>components/InputMulti.qml</file>
         <file>components/Label.qml</file>
+        <file>components/LabelHeader.qml</file>
         <file>components/LabelButton.qml</file>
         <file>components/LabelSubheader.qml</file>
         <file>components/LineEdit.qml</file>

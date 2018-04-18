@@ -421,7 +421,7 @@ Rectangle {
             visible: persistentSettings.transferShowAdvanced
             Layout.fillWidth: true
             height: 1
-            color: Style.dividerColor
+            color: Qt.rgba(255, 255, 255, 0.25)
             opacity: Style.dividerOpacity
             Layout.bottomMargin: 30 * scaleRatio
         }

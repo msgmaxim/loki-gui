@@ -56,7 +56,7 @@ Rectangle {
             anchors.top: parent.top
             spacing: 20
 
-            Label {
+            LabelHeader {
                 id: soloTitleLabel
                 fontSize: 24
                 text: qsTr("Solo Mining") + translationManager.emptyString

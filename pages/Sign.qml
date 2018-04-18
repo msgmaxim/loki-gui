@@ -98,7 +98,7 @@ Rectangle {
             anchors.right: parent.right
             spacing: 20 * scaleRatio
 
-            Label {
+            LabelHeader {
                 id: signTitleLabel
                 fontSize: 24 * scaleRatio
                 text: qsTr("Sign") + translationManager.emptyString
@@ -205,7 +205,7 @@ Rectangle {
                 }
             }
 
-            Label {
+            LabelHeader {
                 id: verifyTitleLabel
                 fontSize: 24 * scaleRatio
                 Layout.topMargin: 40

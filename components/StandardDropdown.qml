@@ -83,7 +83,7 @@ Item {
             border.width: dropdown.headerBorder ? 1 : 0
             border.color: {
                 if (dropdown.expanded) {
-                    return "#78BE20";
+                    return LokiComponents.Style.heroGreen;
                 } else {
                     return Qt.rgba(255, 255, 255, 0.25);
                 }
@@ -194,7 +194,7 @@ Item {
                         font.family: LokiComponents.Style.fontRegular.name
                         font.bold: true
                         font.pixelSize: fontItemSize
-                        color: itemArea.containsMouse || index === column.currentIndex || itemArea.containsMouse ? "#78BE20" : "#FFFFFF"
+                        color: itemArea.containsMouse || index === column.currentIndex || itemArea.containsMouse ? LokiComponents.Style.heroGreen : "#FFFFFF"
                         text: qsTr(column1) + translationManager.emptyString
                     }
 

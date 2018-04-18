@@ -61,7 +61,7 @@ Rectangle {
             anchors.top: parent.top
             spacing: 20 * scaleRatio
 
-            Label {
+            LabelHeader {
                 id: soloTitleLabel
                 fontSize: 24 * scaleRatio
                 text: qsTr("Prove Transaction") + translationManager.emptyString
@@ -135,7 +135,7 @@ Rectangle {
                 anchors.bottomMargin: 3 * scaleRatio
             }
 
-            Label {
+            LabelHeader {
                 id: soloTitleLabel2
                 fontSize: 24 * scaleRatio
                 text: qsTr("Check Transaction") + translationManager.emptyString
