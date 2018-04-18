@@ -249,8 +249,6 @@ ColumnLayout {
                 background: "#FFFFFF"
                 fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
-                checkedIcon: "../images/checkedBlackIcon.png"
-                uncheckedIcon: "../images/uncheckedIcon.png"
                 checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
                 onClicked: {
                     persistentSettings.nettype = testNet.checked ? NetworkType.TESTNET : NetworkType.MAINNET
@@ -268,8 +266,6 @@ ColumnLayout {
                 background: "#FFFFFF"
                 fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
-                checkedIcon: "../images/checkedBlackIcon.png"
-                uncheckedIcon: "../images/uncheckedIcon.png"
                 checked: appWindow.persistentSettings.nettype == NetworkType.STAGENET;
                 onClicked: {
                     persistentSettings.nettype = stageNet.checked ? NetworkType.STAGENET : NetworkType.MAINNET

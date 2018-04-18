@@ -125,7 +125,7 @@ ColumnLayout {
             CheckBox {
                 id: localNode
                 text: qsTr("Start a node automatically in background (recommended)") + translationManager.emptyString
-                checkedIcon: "../images/checkedBlackIcon.png"
+                checkedIcon: "../images/CheckedGreenIcon.png"
                 background: "#FFFFFF"
                 fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
@@ -209,7 +209,7 @@ ColumnLayout {
             CheckBox {
                 id: remoteNode
                 text: qsTr("Connect to a remote node") + translationManager.emptyString
-                checkedIcon: "../images/checkedBlackIcon.png"
+                checkedIcon: "../images/CheckedGreenIcon.png"
                 Layout.topMargin: 20 * scaleRatio
                 background: "#FFFFFF"
                 fontColor: "#4A4646"

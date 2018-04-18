@@ -72,7 +72,7 @@ GridLayout {
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
         onEditingFinished: root.editingFinished()
-        borderColor: lineEditBorderColor
+
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold
@@ -88,7 +88,7 @@ GridLayout {
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
         onEditingFinished: root.editingFinished()
-        borderColor: lineEditBorderColor
+
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold

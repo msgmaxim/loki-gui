@@ -53,7 +53,7 @@ Item {
     property bool copyButton: false
     property string borderColor: {
         if(input.activeFocus){
-            return Qt.rgba(255, 255, 255, 0.35);
+            return "#78BE20";
         } else {
             return Qt.rgba(255, 255, 255, 0.25);
         }

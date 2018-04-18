@@ -35,7 +35,7 @@ import "../components" as LokiComponents
 RowLayout {
     id: checkBox
     property alias text: label.text
-    property string checkedIcon: "../images/checkedIcon-black.png"
+    property string checkedIcon: "../images/CheckedGreenIcon.png"
     property string uncheckedIcon
     property bool checked: false
     property alias background: backgroundRect.color
@@ -58,7 +58,7 @@ RowLayout {
             radius: 3
             y: 0
             color: "transparent"
-            border.color: checkBox.checked ? Qt.rgba(1, 1, 1, 0.35) : Qt.rgba(1, 1, 1, 0.25)
+            border.color: checkBox.checked ? "#78B320" : Qt.rgba(1, 1, 1, 0.25)
         }
 
         Rectangle {

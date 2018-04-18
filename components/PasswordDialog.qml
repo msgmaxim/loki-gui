@@ -109,7 +109,7 @@ Item {
 
                 background: Rectangle {
                     radius: 2
-                    border.color: Qt.rgba(255, 255, 255, 0.35)
+                    border.color: "#78BE20"
                     border.width: 1
                     color: "black"
 

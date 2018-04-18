@@ -127,8 +127,8 @@ ColumnLayout {
             border.color: {
               if(multiLine.error && multiLine.text !== ""){
                   return Qt.rgba(255, 0, 0, 0.45);
-              } else if(multiLine.activeFocus){
-                  return Qt.rgba(255, 255, 255, 0.35);
+              } else if(multiLine.activeFocus) {
+                  return "#78BE20";
               } else {
                   return Qt.rgba(255, 255, 255, 0.25);
               }

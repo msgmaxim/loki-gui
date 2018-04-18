@@ -308,7 +308,7 @@ Rectangle {
                 id: setRingRelative
                 checked: true
                 text: qsTr("Relative") + translationManager.emptyString
-                checkedIcon: "../images/checkedBlackIcon.png"
+                checkedIcon: "../images/CheckedGreenIcon.png"
                 uncheckedIcon: "../images/uncheckedIcon.png"
             }
             LineEdit {
@@ -342,7 +342,7 @@ Rectangle {
             id: segregatePreForkOutputs
             checked: persistentSettings.segregatePreForkOutputs
             text: qsTr("I intend to spend on key-reusing fork(s)") + translationManager.emptyString
-            checkedIcon: "../images/checkedBlackIcon.png"
+            checkedIcon: "../images/CheckedGreenIcon.png"
             uncheckedIcon: "../images/uncheckedIcon.png"
             onClicked: {
                 persistentSettings.segregatePreForkOutputs = segregatePreForkOutputs.checked
@@ -355,7 +355,7 @@ Rectangle {
             id: keyReuseMitigation2
             checked: persistentSettings.keyReuseMitigation2
             text: qsTr("I might want to spend on key-reusing fork(s)") + translationManager.emptyString
-            checkedIcon: "../images/checkedBlackIcon.png"
+            checkedIcon: "../images/CheckedGreenIcon.png"
             uncheckedIcon: "../images/uncheckedIcon.png"
             onClicked: {
                 persistentSettings.keyReuseMitigation2 = keyReuseMitigation2.checked
