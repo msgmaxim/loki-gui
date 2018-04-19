@@ -109,9 +109,9 @@ Window {
 
             LokiComponents.StandardButton {
                 id: okButton
-                visible:false
+                visible: true
                 fontSize: 14
-                text: qsTr("Start Daemon (%1)").arg(countDown)
+                text: qsTr("Start Daemon")
                 KeyNavigation.tab: cancelButton
                 onClicked: {
                     timer.stop();
