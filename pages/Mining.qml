@@ -66,7 +66,7 @@ Rectangle {
                 id: soloLocalDaemonsLabel
                 fontSize: 18
                 color: "#D02020"
-                text: qsTr("(only available for local daemons)")
+                text: qsTr("(Only available for local daemons)")
                 visible: !walletManager.isDaemonLocal(appWindow.currentDaemonAddress)
             }
 
@@ -134,7 +134,6 @@ Rectangle {
 
                 StandardButton {
                     visible: true
-                    //enabled: !walletManager.isMining()
                     id: startSoloMinerButton
                     width: 110
                     small: true
@@ -156,7 +155,6 @@ Rectangle {
 
                 StandardButton {
                     visible: true
-                    //enabled:  walletManager.isMining()
                     id: stopSoloMinerButton
                     width: 110
                     small: true
@@ -167,14 +165,15 @@ Rectangle {
                     }
                 }
             }
-        }
 
-        Text {
-            id: statusText
-            text: qsTr("Status: not mining")
-            color: Style.defaultFontColor
-            textFormat: Text.RichText
-            wrapMode: Text.Wrap
+            Text {
+                id: statusText
+                text: qsTr("Status: Not Mining")
+                color: Style.defaultFontColor
+                textFormat: Text.RichText
+                font.pixelSize: 14
+                wrapMode: Text.Wrap
+            }
         }
     }
 
@@ -186,7 +185,7 @@ Rectangle {
             text += qsTr("Mining at %1 H/s").arg(walletManager.miningHashRate())
         }
         if (text === "") {
-            text += qsTr("Not mining") + translationManager.emptyString;
+            text += qsTr("Not Mining") + translationManager.emptyString;
         }
         statusText.text = qsTr("Status: ") + text
     }
