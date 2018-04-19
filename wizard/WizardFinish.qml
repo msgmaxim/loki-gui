@@ -31,6 +31,7 @@ import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import LokiComponents.NetworkType 1.0
 
+import "../components"
 
 ColumnLayout {
     Layout.leftMargin: wizardLeftMargin
@@ -126,10 +127,9 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
             //renderType: Text.NativeRendering
-            color: "#3F3F3F"
-            text: qsTr("You’re all set up!") + translationManager.emptyString
+            color: Style.defaultFontColor
+            text: qsTr("You’re All Set Up!") + translationManager.emptyString
         }
 
         Text {
@@ -141,7 +141,7 @@ ColumnLayout {
             textFormat: Text.RichText
             horizontalAlignment: Text.AlignHLeft
             //renderType: Text.NativeRendering
-            color: "#4A4646"
+            color: Style.defaultFontColor
         }
     }
 }

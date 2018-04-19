@@ -928,9 +928,7 @@ ApplicationWindow {
 
     objectName: "appWindow"
     visible: true
-//    width: screenWidth //rightPanelExpanded ? 1269 : 1269 - 300
-//    height: 900 //300//maxWindowHeight;
-    color: "#FFFFFF"
+    color: "#1A1A1A"
     flags: persistentSettings.customDecorations ? (Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.Window | Qt.WindowMinimizeButtonHint) : (Qt.WindowSystemMenuHint | Qt.Window | Qt.WindowMinimizeButtonHint | Qt.WindowCloseButtonHint | Qt.WindowTitleHint | Qt.WindowMaximizeButtonHint)
     onWidthChanged: x -= 0
 
@@ -1281,8 +1279,7 @@ ApplicationWindow {
                 PropertyChanges { target: resizeArea; visible: true }
                 PropertyChanges { target: titleBar; maximizeButtonVisible: false }
 //                PropertyChanges { target: frameArea; blocked: true }
-                PropertyChanges { target: titleBar; visible: false }
-                PropertyChanges { target: titleBar; y: 0 }
+                PropertyChanges { target: titleBar; visible: true }
                 PropertyChanges { target: titleBar; title: qsTr("Program setup wizard") + translationManager.emptyString }
                 PropertyChanges { target: mobileHeader; visible: false }
             }, State {

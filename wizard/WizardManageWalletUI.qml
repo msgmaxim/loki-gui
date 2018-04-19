@@ -50,8 +50,10 @@ ColumnLayout {
     property alias recoverFromKeysAddress: addressLine.text;
     property alias recoverFromKeysViewKey: viewKeyLine.text;
     property alias recoverFromKeysSpendKey: spendKeyLine.text;
+
     // recover mode or create new wallet
     property bool recoverMode: false
+
     // Recover form seed or keys
     property bool recoverFromSeedMode: true
     property int rowSpacing: 10
@@ -139,14 +141,14 @@ ColumnLayout {
     RowLayout {
         id: headerColumn
         Layout.fillWidth: true
+
         Text {
             Layout.fillWidth: true
-            horizontalAlignment: Text.AlignHCenter
             id: titleText
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
             wrapMode: Text.Wrap
-            color: "#3F3F3F"
+            color: Style.defaultFontColor
         }
     }
 
@@ -156,10 +158,8 @@ ColumnLayout {
         Label {
             Layout.topMargin: 20 * scaleRatio
             fontFamily: "Arial"
-            fontColor: "#555555"
-            fontSize: 14 * scaleRatio
-            text:  qsTr("Wallet name")
-                   + translationManager.emptyString
+            fontColor: Style.defaultFontColor
+            text:  qsTr("Wallet Name") + translationManager.emptyString
         }
 
         LineEdit {
@@ -169,10 +169,6 @@ ColumnLayout {
             Layout.minimumWidth: 200 * scaleRatio
             text: defaultAccountName
             onTextUpdated: checkNextButton()
-            borderColor: Qt.rgba(0, 0, 0, 0.15)
-            backgroundColor: "white"
-            fontColor: "black"
-            fontBold: false
         }
     }
 
@@ -182,8 +178,7 @@ ColumnLayout {
 
         StandardButton {
             id: recoverFromSeedButton
-            text: qsTr("Restore from seed") + translationManager.emptyString
-            enabled: recoverFromKeys.visible
+            text: qsTr("Restore From Seed") + translationManager.emptyString
             onClicked: {
                 recoverFromSeedMode = true;
                 checkNextButton();
@@ -192,8 +187,7 @@ ColumnLayout {
 
         StandardButton {
             id: recoverFromKeysButton
-            text: qsTr("Restore from keys") + translationManager.emptyString
-            enabled: recoverFromSeed.visible
+            text: qsTr("Restore From Keys") + translationManager.emptyString
             onClicked: {
                 recoverFromSeedMode = false;
                 checkNextButton();
@@ -232,57 +226,41 @@ ColumnLayout {
         id: recoverFromKeys
         visible: recoverMode && !recoverFromSeedMode
         columns: 1
+
         LineEdit {
             Layout.fillWidth: true
             id: addressLine
             Layout.maximumWidth: 600 * scaleRatio
             Layout.minimumWidth: 200 * scaleRatio
-            placeholderFontBold: true
             placeholderFontFamily: "Arial"
             placeholderColor: Style.legacy_placeholderFontColor
             placeholderText: qsTr("Account address (public)") + translationManager.emptyString
-            placeholderOpacity: 1.0
             onTextUpdated: checkNextButton()
-            borderColor: Qt.rgba(0, 0, 0, 0.15)
-            backgroundColor: "white"
-            fontColor: "black"
-            fontBold: false
         }
+
         LineEdit {
             Layout.fillWidth: true
             id: viewKeyLine
             Layout.maximumWidth: 600 * scaleRatio
             Layout.minimumWidth: 200 * scaleRatio
-            placeholderFontBold: true
             placeholderFontFamily: "Arial"
             placeholderColor: Style.legacy_placeholderFontColor
             placeholderText: qsTr("View key (private)") + translationManager.emptyString
-            placeholderOpacity: 1.0
             onTextUpdated: checkNextButton()
-            borderColor: Qt.rgba(0, 0, 0, 0.15)
-            backgroundColor: "white"
-            fontColor: "black"
-            fontBold: false
-
         }
+
         LineEdit {
             Layout.fillWidth: true
             Layout.maximumWidth: 600 * scaleRatio
             Layout.minimumWidth: 200 * scaleRatio
             id: spendKeyLine
-            placeholderFontBold: true
             placeholderFontFamily: "Arial"
             placeholderColor: Style.legacy_placeholderFontColor
             placeholderText: qsTr("Spend key (private)") + translationManager.emptyString
-            placeholderOpacity: 1.0
             onTextUpdated: checkNextButton()
-            borderColor: Qt.rgba(0, 0, 0, 0.15)
-            backgroundColor: "white"
-            fontColor: "black"
-            fontBold: false
         }
     }
-    
+
     // Restore Height
     RowLayout {
         LineEdit {
@@ -290,18 +268,12 @@ ColumnLayout {
             Layout.fillWidth: true
             Layout.maximumWidth: 600 * scaleRatio
             Layout.minimumWidth: 200 * scaleRatio
-            placeholderFontBold: true
             placeholderFontFamily: "Arial"
             placeholderColor: Style.legacy_placeholderFontColor
             placeholderText: qsTr("Restore height (optional)") + translationManager.emptyString
-            placeholderOpacity: 1.0
             validator: IntValidator {
                 bottom:0
             }
-            borderColor: Qt.rgba(0, 0, 0, 0.15)
-            backgroundColor: "white"
-            fontColor: "black"
-            fontBold: false
         }
     }
 
@@ -312,7 +284,7 @@ ColumnLayout {
             Layout.topMargin: 20 * scaleRatio
             fontSize: 14
             fontFamily: "Arial"
-            fontColor: "#555555"
+            fontColor: Style.defaultFontColor
             text: qsTr("Your wallet is stored in") + ": " + fileUrlInput.text;
         }
 
@@ -333,10 +305,6 @@ ColumnLayout {
                     fileUrlInput.focus = true
                 }
             }
-            borderColor: Qt.rgba(0, 0, 0, 0.15)
-            backgroundColor: "white"
-            fontColor: "black"
-            fontBold: false
         }
 
         FileDialog {

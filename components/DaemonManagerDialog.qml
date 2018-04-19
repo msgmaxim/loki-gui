@@ -39,7 +39,7 @@ import "../components" as LokiComponents
 Window {
     id: root
     modality: Qt.ApplicationModal
-    flags: Qt.Window // | Qt.FramelessWindowHint
+    flags: Qt.Window | Qt.FramelessWindowHint
     property int countDown: 10;
     signal rejected()
     signal started();

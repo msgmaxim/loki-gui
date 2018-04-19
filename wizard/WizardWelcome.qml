@@ -32,10 +32,9 @@ import QtQuick.XmlListModel 2.0
 import QtQuick.Layouts 1.1
 import QtQml 2.2
 
-
+import "../components"
 
 ColumnLayout {
-//    anchors.fill:parent
     Behavior on opacity {
         NumberAnimation { duration: 100; easing.type: Easing.InQuad }
     }
@@ -68,23 +67,20 @@ ColumnLayout {
             Layout.fillWidth: true
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
-            color: "#3F3F3F"
+            color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
-            text: qsTr("Welcome to Loki!") + translationManager.emptyString
+            text: qsTr("Welcome To Loki!") + translationManager.emptyString
         }
 
         Text {
             Layout.fillWidth: true
             font.family: "Arial"
             font.pixelSize: 18 * scaleRatio
-            color: "#4A4646"
+            color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
             text: qsTr("Please choose a language and regional format.") + translationManager.emptyString
         }
     }
-
 
     // Flags model
     XmlListModel {
@@ -132,12 +128,9 @@ ColumnLayout {
             delegate: ColumnLayout {
                 id: flagDelegate
                 width: gridView.cellWidth
-//                height: gridView.cellHeight
-//                Layout.alignment: Qt.AlignHCenter
                 Rectangle {
                     id: flagRect
                     width: 60 * scaleRatio; height: 60 * scaleRatio
-//                    anchors.centerIn: parent
                     radius: 30 * scaleRatio
                     Layout.alignment: Qt.AlignHCenter
                     color: gridView.currentIndex === index ? "#DBDBDB" : "#FFFFFF"
@@ -150,14 +143,12 @@ ColumnLayout {
                 Text {
                     font.family: "Arial"
                     font.pixelSize: 18 * scaleRatio
-//                    anchors.horizontalCenter: parent.horizontalCenter
                     font.bold: gridView.currentIndex === index
-//                    elide: Text.ElideRight
-                    color: "#3F3F3F"
+                    color: Style.defaultFontColor
                     text: display_name
-//                    horizontalAlignment: Text.AlignHCenter
                     Layout.alignment: Qt.AlignHCenter
                 }
+
                 MouseArea {
                     id: delegateArea
                     anchors.fill: parent
@@ -172,13 +163,6 @@ ColumnLayout {
                     }
                 }
             } // delegate
-
+        }
     }
-
-
-
-
-    }
-
-
 }

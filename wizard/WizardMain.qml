@@ -44,7 +44,7 @@ ColumnLayout {
     property int wizardLeftMargin: (!isMobile) ?  150 : 25 * scaleRatio
     property int wizardRightMargin: (!isMobile) ? 150 : 25 * scaleRatio
     property int wizardBottomMargin: (isMobile) ? 150 : 25 * scaleRatio
-    property int wizardTopMargin: (isMobile) ? 15 * scaleRatio : 50
+    property int wizardTopMargin: (isMobile) ? 75 * scaleRatio : 75
     // Storing wallet in Settings object doesn't work in qt 5.8 on android
     property var m_wallet;
 
@@ -63,9 +63,6 @@ ColumnLayout {
     signal wizardRestarted();
     signal useLokiClicked()
     signal openWalletFromFileClicked()
-//    border.color: "#DBDBDB"
-//    border.width: 1
-//    color: "#FFFFFF"
 
     function restart(){
         wizard.currentPage = 0;
@@ -318,7 +315,7 @@ ColumnLayout {
 
         width: 50 * scaleRatio; height: 50 * scaleRatio
         radius: 25
-        color: prevArea.containsMouse ? "#7ECA22" : "#78BE20"
+        color: prevArea.containsMouse ? Style.heroGreenHovered : Style.heroGreen
 
         Image {
             anchors.centerIn: parent
@@ -343,7 +340,7 @@ ColumnLayout {
         visible: currentPage > 1 && currentPage < pages.length - 1
         width: 50 * scaleRatio; height: 50 * scaleRatio
         radius: 25
-        color: enabled ? nextArea.containsMouse ? "#7ECA22" : "#78BE20" : "#DBDBDB"
+        color: enabled ? nextArea.containsMouse ? Style.heroGreenHovered : Style.heroGreen : "#DBDBDB"
 
 
         Image {
@@ -413,8 +410,4 @@ ColumnLayout {
            rootItem.state = "normal"
        }
    }
-
-
-
-
 }

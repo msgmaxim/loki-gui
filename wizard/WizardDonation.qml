@@ -90,7 +90,7 @@ Item {
         font.pixelSize: 28
         wrapMode: Text.Wrap
         //renderType: Text.NativeRendering
-        color: "#3F3F3F"
+        color: Style.defaultFontColor
         text: qsTr("Loki development is solely supported by donations") + translationManager.emptyString
     }
 
@@ -113,7 +113,7 @@ Item {
                 anchors.verticalCenter: parent.verticalCenter
                 text: qsTr("Enable auto-donations of?") + translationManager.emptyString
                 background: "#F0EEEE"
-                fontColor: "#4A4646"
+                fontColor: Style.defaultFontColor
                 fontSize: 18
                 checked: true
             }
@@ -176,7 +176,7 @@ Item {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 background: "#F0EEEE"
-                fontColor: "#4A4646"
+                fontColor: Style.defaultFontColor
                 fontSize: 18
                 checked: true
             }
@@ -186,7 +186,7 @@ Item {
                 anchors.right: parent.right
                 font.family: "Arial"
                 font.pixelSize: 15
-                color: "#4A4646"
+                color: Style.defaultFontColor
                 wrapMode: Text.Wrap
                 text: qsTr("Mining secures the Loki network, and also pays a small reward for the work done. This option " +
                            "will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.")

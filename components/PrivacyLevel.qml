@@ -27,6 +27,7 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
+import "../components"
 
 Item {
     id: item
@@ -39,8 +40,8 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         height: 24
-        //radius: 4
-        color: "#DBDBDB"
+        color: "transparent"
+        border.color: Style.heroGreen
     }
 
     Rectangle {
@@ -50,8 +51,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 1
         height: 24
-        //radius: 4
-        color: "#FFFFFF"
+        color: "transparent"
 
         Rectangle {
             id: fillRect
@@ -59,14 +59,9 @@ Item {
             anchors.bottom: parent.bottom
             anchors.left: parent.left
             anchors.margins: 4
-            //radius: 2
             width: row.x
 
-            color: {
-                if(item.fillLevel < 3) return "#FF6C3C"
-                if(item.fillLevel < 13) return "#AAFFBB"
-                return "#36B25C"
-            }
+            color: return Style.heroGreen
 
             Timer {
                 interval: 500

@@ -75,8 +75,8 @@ Item {
         font.family: "Arial"
         font.pixelSize: 28
         wrapMode: Text.Wrap
-        //renderType: Text.NativeRendering
-        color: "#3F3F3F"
+        // renderType: Text.NativeRendering
+        color: Style.defaultFontColor
         text: qsTr("We’re almost there - let’s just configure some Loki preferences") + translationManager.emptyString
     }
 
@@ -109,7 +109,7 @@ Item {
                 anchors.right: parent.right
                 font.family: "Arial"
                 font.pixelSize: 15
-                color: "#4A4646"
+                color: Style.defaultFontColor
                 wrapMode: Text.Wrap
                 text: qsTr("It is very important to write it down as this is the only backup you will need for your wallet.")
                         + translationManager.emptyString
@@ -126,7 +126,7 @@ Item {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 background: "#F0EEEE"
-                fontColor: "#4A4646"
+                fontColor: Style.defaultFontColor
                 fontSize: 18
                 checked: true
             }
@@ -136,7 +136,7 @@ Item {
                 anchors.right: parent.right
                 font.family: "Arial"
                 font.pixelSize: 15
-                color: "#4A4646"
+                color: Style.defaultFontColor
                 wrapMode: Text.Wrap
                 text: qsTr("Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as " +
                            "a regular Loki instance. However, storing the full blockchain is beneficial to the security " +
@@ -155,7 +155,7 @@ Item {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 background: "#F0EEEE"
-                fontColor: "#4A4646"
+                fontColor: Style.defaultFontColor
                 fontSize: 18
                 checked: true
             }
@@ -165,7 +165,7 @@ Item {
                 anchors.right: parent.right
                 font.family: "Arial"
                 font.pixelSize: 15
-                color: "#4A4646"
+                color: Style.defaultFontColor
                 wrapMode: Text.Wrap
                 text: qsTr("Mining secures the Loki network, and also pays a small reward for the work done. This option " +
                            "will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.")

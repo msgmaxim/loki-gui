@@ -237,7 +237,7 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.35)
+                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
 
                     daemonAddrLabelText: qsTr("Address")
                     daemonPortLabelText: qsTr("Port")
@@ -269,7 +269,7 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.35)
+                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
 
                     daemonAddrLabelText: qsTr("Address")
                     daemonPortLabelText: qsTr("Port")

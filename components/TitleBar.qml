@@ -38,7 +38,7 @@ Rectangle {
     property alias basicButtonVisible: goToBasicVersionButton.visible
     property bool customDecorations: true
     signal goToBasicVersion(bool yes)
-    height: customDecorations && !isMobile ? 50 : 0
+    height: customDecorations ? 50 : 0
     y: -height
     property string title
     property alias maximizeButtonVisible: maximizeButton.visible
@@ -118,31 +118,31 @@ Rectangle {
         visible: parent.customDecorations
         z: 2
 
-        Rectangle {
-            id: whatIsAreaButton
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            width: 42
-            color: containsMouse ? "#6B0072" : "#00000000"
+        // Rectangle {
+        //     id: whatIsAreaButton
+        //     anchors.top: parent.top
+        //     anchors.bottom: parent.bottom
+        //     width: 42
+        //     color: containsMouse ? "#6B0072" : "#00000000"
 
-            Image {
-                anchors.centerIn: parent
-                width: 9
-                height: 16
-                source: "../images/question.png"
-            }
+        //     Image {
+        //         anchors.centerIn: parent
+        //         width: 9
+        //         height: 16
+        //         source: "../images/question.png"
+        //     }
 
-            MouseArea {
-                id: whatIsArea
-                anchors.fill: parent
-                cursorShape: Qt.PointingHandCursor
-                onEntered: whatIsAreaButton.color = "#262626";
-                onExited: whatIsAreaButton.color = "transparent";
-                onClicked: {
+        //     MouseArea {
+        //         id: whatIsArea
+        //         anchors.fill: parent
+        //         cursorShape: Qt.PointingHandCursor
+        //         onEntered: whatIsAreaButton.color = "#262626";
+        //         onExited: whatIsAreaButton.color = "transparent";
+        //         onClicked: {
 
-                }
-            }
-        }
+        //         }
+        //     }
+        // }
 
         Rectangle {
             id: minimizeButton

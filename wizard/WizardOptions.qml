@@ -70,10 +70,9 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
             //renderType: Text.NativeRendering
-            color: "#3F3F3F"
+            color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
-            text: qsTr("Welcome to Loki!") + translationManager.emptyString
+            text: qsTr("Welcome To Loki!") + translationManager.emptyString
         }
 
         Text {
@@ -81,9 +80,8 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 18 * scaleRatio
             //renderType: Text.NativeRendering
-            color: "#4A4646"
+            color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
             text: qsTr("Please select one of the following options:") + translationManager.emptyString
         }
     }
@@ -112,7 +110,6 @@ ColumnLayout {
                 radius: page.buttonSize
                 color: createWalletArea.containsMouse ? "#DBDBDB" : "#FFFFFF"
 
-
                 Image {
                     width: page.buttonImageSize
                     height: page.buttonImageSize
@@ -137,10 +134,9 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
-                color: "#4A4949"
-                horizontalAlignment: Text.AlignHCenter
+                color: Style.defaultFontColor
                 wrapMode: Text.WordWrap
-                text: qsTr("Create a new wallet") + translationManager.emptyString
+                text: qsTr("Create A New Wallet") + translationManager.emptyString
             }
         }
 
@@ -179,7 +175,7 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
-                color: "#4A4949"
+                color: Style.defaultFontColor
                 horizontalAlignment: Text.AlignHCenter
                 text: qsTr("Restore wallet from keys or mnemonic seed") + translationManager.emptyString
                 width:page.buttonSize
@@ -222,22 +218,17 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
-                color: "#4A4949"
-                horizontalAlignment: Text.AlignHCenter
+                color: Style.defaultFontColor
                 text: qsTr("Open a wallet from file") + translationManager.emptyString
                 wrapMode: Text.WordWrap
             }
         }
-
-
-
     }
 
     ColumnLayout {
         Layout.leftMargin: wizardLeftMargin
         Layout.rightMargin: wizardRightMargin
         Layout.topMargin: 30 * scaleRatio
-        Layout.alignment: Qt.AlignCenter
         Layout.fillWidth: true
         spacing: 50 * scaleRatio
 
@@ -246,8 +237,6 @@ ColumnLayout {
             CheckBox {
                 id: testNet
                 text: qsTr("Testnet") + translationManager.emptyString
-                background: "#FFFFFF"
-                fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
                 onClicked: {
@@ -263,8 +252,6 @@ ColumnLayout {
             CheckBox {
                 id: stageNet
                 text: qsTr("Stagenet") + translationManager.emptyString
-                background: "#FFFFFF"
-                fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.STAGENET;
                 onClicked: {
