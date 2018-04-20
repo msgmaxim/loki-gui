@@ -40,6 +40,7 @@ import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false
+    property alias settingsHeight: mainLayout.height
     id: page
 
     color: "transparent"
