@@ -162,7 +162,7 @@ Item {
             wrapMode: Text.Wrap
             text: qsTr("For every transaction, a small transaction fee is charged. This option lets you add an additional amount, " +
                        "as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% " +
-                       "autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.")
+                       "autodonation take a transaction fee of 0.005 LOK and add a 0.0025 LOK to support Loki development.")
                     + translationManager.emptyString
         }
         Column {

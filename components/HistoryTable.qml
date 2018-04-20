@@ -107,7 +107,7 @@ ListView {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: collapsed ? 2 : 1
-            color: collapsed ? "#BBBBBB" : "#404040"
+            color: collapsed ? LokiComponents.Style.heroGreen : "#404040"
         }
 
         Rectangle{
@@ -174,7 +174,7 @@ ListView {
                         _amount = (_amount *1);
                     }
 
-                    return _amount + " XMR";
+                    return _amount + " LOK";
                 }
                 color: isOut ? "white" : "#2eb358"
             }
@@ -312,7 +312,7 @@ ListView {
                     if(!isOut && !fee){
                         return "-";
                     } else if(isOut && fee){
-                        return fee + " XMR";
+                        return fee + " LOK";
                     } else {
                         return "Unknown"
                     }
