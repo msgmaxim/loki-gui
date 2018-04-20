@@ -72,12 +72,12 @@ if [[ $platform == *bsd* ]]; then
 fi
 
 # build libwallet
-# ./get_libwallet_api.sh $BUILD_TYPE
+./get_libwallet_api.sh $BUILD_TYPE
  
 # build zxcvbn
-# if [ "$DISABLE_PASS_STRENGTH_METER" != true ]; then
-#     $MAKE -C src/zxcvbn-c || exit
-# fi
+if [ "$DISABLE_PASS_STRENGTH_METER" != true ]; then
+    $MAKE -C src/zxcvbn-c || exit
+fi
 
 if [ ! -d build ]; then mkdir build; fi
 

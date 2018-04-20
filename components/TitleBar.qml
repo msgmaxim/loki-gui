@@ -71,7 +71,7 @@ Rectangle {
             anchors.left: parent.left
             anchors.top: parent.top
             anchors.topMargin: 11
-            source: "../images/TitlebarLogo.png"
+            source: "../images/titlebarLogo.png"
         }
     }
 

@@ -154,22 +154,6 @@ Rectangle {
             }
         ]
 
-    // color stripe at the top
-    Row {
-        id: styledRow
-        height: 4
-        anchors.top: parent.top
-        anchors.left: parent.left
-        anchors.right: parent.right
-
-
-        Rectangle { height: 4; width: parent.width / 5; color: "#FFE00A" }
-        Rectangle { height: 4; width: parent.width / 5; color: "#6B0072" }
-        Rectangle { height: 4; width: parent.width / 5; color: "#FF6C3C" }
-        Rectangle { height: 4; width: parent.width / 5; color: "#FFD781" }
-        Rectangle { height: 4; width: parent.width / 5; color: "#FF4F41" }
-    }
-
     ColumnLayout {
         anchors.fill: parent
         anchors.margins: 18

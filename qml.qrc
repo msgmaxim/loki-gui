@@ -60,13 +60,13 @@
         <file>fonts/SFUIDisplay-Medium.otf</file>
         <file>fonts/SFUIDisplay-Regular.otf</file>
 
+        <file>images/CheckedGreenIcon.png</file>
         <file>images/CreateNewWallet.png</file>
         <file>images/LokiIcon-28x28.png</file>
         <file>images/LokiIcon.png</file>
+        <file>images/LokiLogo2.png</file>
         <file>images/RecoverFromKey.png</file>
         <file>images/RestoreFromFile.png</file>
-        <file>images/TitlebarLogo.png</file>
-        <file>images/Warning.png</file>
         <file>images/appicon.ico</file>
         <file>images/arrow-right-medium-white.png</file>
         <file>images/ascSortIndicator.png</file>
@@ -74,7 +74,6 @@
         <file>images/ascSortIndicatorPressed.png</file>
         <file>images/backToWindowIcon.png</file>
         <file>images/card-background.png</file>
-        <file>images/CheckedGreenIcon.png</file>
         <file>images/checkedIcon-black.png</file>
         <file>images/close.png</file>
         <file>images/collapseRightPanel.png</file>
@@ -109,7 +108,6 @@
         <file>images/menuIndicator.png</file>
         <file>images/middlePanelBg.jpg</file>
         <file>images/minimize.png</file>
-        <file>images/LokiLogo2.png</file>
         <file>images/nextMonth.png</file>
         <file>images/nextPage.png</file>
         <file>images/prevMonth.png</file>
@@ -122,8 +120,10 @@
         <file>images/tableOptions.png</file>
         <file>images/tip.png</file>
         <file>images/titlebarGradient.jpg</file>
+        <file>images/titlebarLogo.png</file>
         <file>images/uncheckedIcon.png</file>
         <file>images/upArrow-green.png</file>
+        <file>images/warning.png</file>
         <file>images/whiteDropIndicator.png</file>
 
         <file>js/TxUtils.js</file>
