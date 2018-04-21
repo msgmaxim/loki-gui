@@ -1257,7 +1257,7 @@ ApplicationWindow {
                 PropertyChanges { target: appWindow; width: (screenWidth < 930 || isAndroid || isIOS)? screenWidth : 930; }
                 PropertyChanges { target: appWindow; height: maxWindowHeight; }
                 PropertyChanges { target: resizeArea; visible: true }
-                PropertyChanges { target: titleBar; maximizeButtonVisible: false }
+                PropertyChanges { target: titleBar; showMaximizeButton: false }
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: persistentSettings.customDecorations }
                 PropertyChanges { target: titleBar; title: qsTr("Program setup wizard") + translationManager.emptyString }
@@ -1272,7 +1272,7 @@ ApplicationWindow {
                 PropertyChanges { target: appWindow; width: (screenWidth < 969 || isAndroid || isIOS)? screenWidth : 969 } //rightPanelExpanded ? 1269 : 1269 - 300;
                 PropertyChanges { target: appWindow; height: maxWindowHeight; }
                 PropertyChanges { target: resizeArea; visible: true }
-                PropertyChanges { target: titleBar; maximizeButtonVisible: true }
+                PropertyChanges { target: titleBar; showMaximizeButton: true }
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: true }
 //                PropertyChanges { target: titleBar; y: 0 }
@@ -1591,11 +1591,20 @@ ApplicationWindow {
 
         TitleBar {
             id: titleBar
-            anchors.left: parent.left
-            anchors.right: parent.right
             x: 0
             y: 0
-            customDecorations: persistentSettings.customDecorations
+            anchors.left: parent.left
+            anchors.right: parent.right
+            showMinimizeButton: true
+            showMaximizeButton: true
+            showWhatIsButton: false
+            showLokiLogo: true
+            onCloseClicked: appWindow.close();
+            onMaximizeClicked: {
+                appWindow.visibility = appWindow.visibility !== Window.FullScreen ? Window.FullScreen :
+                                                                                    Window.Windowed
+            }
+            onMinimizeClicked: appWindow.visibility = Window.Minimized
             onGoToBasicVersion: {
                 if (yes) {
                     // basicPanel.currentView = middlePanel.currentView
@@ -1623,15 +1632,6 @@ ApplicationWindow {
                         previousPosition = pos
                     }
                 }
-            }
-
-            Rectangle {
-                anchors.bottom: parent.bottom
-                anchors.right: parent.right
-                anchors.left: parent.left
-                height:1
-                color: "#2F2F2F"
-                z: 2
             }
         }
 
