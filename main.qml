@@ -41,6 +41,7 @@ import LokiComponents.NetworkType 1.0
 
 import "components"
 import "wizard"
+import "js/Windows.js" as Windows
 
 ApplicationWindow {
     id: appWindow
@@ -928,30 +929,9 @@ ApplicationWindow {
 
     objectName: "appWindow"
     visible: true
-    color: "#1A1A1A"
-    flags: persistentSettings.customDecorations ? (Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.Window | Qt.WindowMinimizeButtonHint) : (Qt.WindowSystemMenuHint | Qt.Window | Qt.WindowMinimizeButtonHint | Qt.WindowCloseButtonHint | Qt.WindowTitleHint | Qt.WindowMaximizeButtonHint)
+    color: "#FFFFFF"
+    flags: persistentSettings.customDecorations ? Windows.flagsCustomDecorations : Windows.flags
     onWidthChanged: x -= 0
-
-    function setCustomWindowDecorations(custom) {
-      var x = appWindow.x
-      var y = appWindow.y
-      if (x < 0)
-        x = 0
-      if (y < 0)
-        y = 0
-      persistentSettings.customDecorations = custom;
-      titleBar.visible = custom; // hides custom titlebar based on customDecorations
-
-      if (custom)
-          appWindow.flags = Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.Window | Qt.WindowMinimizeButtonHint;
-      else
-          appWindow.flags = Qt.WindowSystemMenuHint | Qt.Window | Qt.WindowMinimizeButtonHint | Qt.WindowCloseButtonHint | Qt.WindowTitleHint | Qt.WindowMaximizeButtonHint;
-
-      appWindow.hide()
-      appWindow.x = x
-      appWindow.y = y
-      appWindow.show()
-    }
 
     Component.onCompleted: {
         x = (Screen.width - width) / 2

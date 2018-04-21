@@ -39,6 +39,7 @@ import "../components" as LokiComponents
 Item {
     id: root
     visible: false
+    z: parent.z + 2
 
     property alias password: passwordInput.text
     property string walletName
@@ -49,6 +50,7 @@ Item {
     signal closeCallback()
 
     function open(walletName) {
+        inactiveOverlay.visible = true // draw appwindow inactive
         root.walletName = walletName ? walletName : ""
         leftPanel.enabled = false
         middlePanel.enabled = false
@@ -60,6 +62,7 @@ Item {
     }
 
     function close() {
+        inactiveOverlay.visible = false
         leftPanel.enabled = true
         middlePanel.enabled = true
         titleBar.enabled = true
@@ -166,12 +169,5 @@ Item {
             }
 
         }
-    }
-    Rectangle {
-        id: bg
-
-        anchors.fill: parent
-        color: "black"
-        opacity: 0.8
     }
 }
