@@ -28,22 +28,23 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
-import QtQuick.Controls 1.4
+import QtQuick.Controls 2.0
 import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
-import QtQuick.Window 2.0
+import QtQuick.Window 2.2
 
 import "../components" as LokiComponents
+import "../js/Windows.js" as Windows
+import "../js/Utils.js" as Utils
 
 Window {
     id: root
     modality: Qt.ApplicationModal
-    flags: Qt.Window | Qt.FramelessWindowHint
-    property alias title: dialogTitle.text
+    color: "black"
+    flags: Windows.flags
     property alias text: dialogContent.text
     property alias content: root.text
-    property alias okVisible: okButton.visible
     property alias textArea: dialogContent
     property var icon
     color: LokiComponents.Style.backgroundColor
@@ -52,14 +53,24 @@ Window {
     signal accepted()
     signal rejected()
 
+    onClosing: {
+        inactiveOverlay.visible = false;
+    }
 
     function open() {
-        show()
+        inactiveOverlay.visible = true;
+        show();
     }
 
     // TODO: implement without hardcoding sizes
     width:  480
     height: 280
+
+    // background gradient
+    Image {
+        anchors.fill: parent
+        source: "../images/middlePanelBg.jpg"
+    }
 
     // Make window draggable
     MouseArea {
@@ -72,83 +83,137 @@ Window {
 
     ColumnLayout {
         id: mainLayout
-        spacing: 10
-        anchors { fill: parent; margins: 35 }
+
+        anchors.fill: parent
+        anchors.topMargin: 20 * scaleRatio
+        anchors.margins: 35 * scaleRatio
+        spacing: 20 * scaleRatio
 
         RowLayout {
-            id: column
-            //anchors {fill: parent; margins: 16 }
-            Layout.alignment: Qt.AlignHCenter
+            id: content
+            Layout.fillWidth: true
+            Layout.fillHeight: true
 
-            Label {
-                id: dialogTitle
-                font.pixelSize: 32
-                font.family: "Arial"
-                color: LokiComponents.Style.defaultFontColor
-            }
+            Flickable {
+                id: flickable
+                anchors.fill: parent
 
-        }
+                TextArea.flickable: TextArea {
+                    id : dialogContent
+                    textFormat: TextEdit.RichText
+                    selectByMouse: true
+                    selectByKeyboard: true
+                    anchors.fill: parent
+                    font.family: "Ariel"
+                    font.pixelSize: 14 * scaleRatio
+                    color: Loki.Style.defaultFontColor
+                    selectionColor: Loki.Style.dimmedFontColor
+                    wrapMode: TextEdit.Wrap
+                    readOnly: true
+                    background: Rectangle {
+                        color: "transparent"
+                        anchors.fill: parent
+                        border.color: Qt.rgba(255, 255, 255, 0.25);
+                        border.width: 1
+                        radius: 4
+                    }
+                    function logCommand(msg){
+                        msg = log_color(msg, "lime");
+                        textArea.append(msg);
+                    }
+                    function logMessage(msg){
+                        msg = msg.trim();
+                        var color = "white";
+                        if(msg.toLowerCase().indexOf('error') >= 0){
+                            color = "red";
+                        } else if (msg.toLowerCase().indexOf('warning') >= 0){
+                            color = "yellow";
+                        }
 
-        RowLayout {
-            TextArea {
-                id : dialogContent
-                Layout.fillWidth: true
-                Layout.fillHeight: true
-                font.family: "Arial"
-                textFormat: TextEdit.AutoText
-                textColor: LokiComponents.Style.defaultFontColor
-                backgroundVisible: false
-                readOnly: true
-                font.pixelSize: 12
+                        // format multi-lines
+                        if(msg.split("\n").length >= 2){
+                            msg = msg.split("\n").join('<br>');
+                        }
 
-                style: TextAreaStyle {
+                        log(msg, color);
+                    }
+                    function log_color(msg, color){
+                        return "<span style='color: " + color +  ";' >" + msg + "</span>";
+                    }
+                    function log(msg, color){
+                        var timestamp = Utils.formatDate(new Date(), {
+                            weekday: undefined,
+                            month: "numeric",
+                            timeZoneName: undefined
+                        });
+
+                        var _timestamp = log_color("[" + timestamp + "]", "#FFFFFF");
+                        var _msg = log_color(msg, color);
+                        textArea.append(_timestamp + " " + _msg);
+
+                        // scroll to bottom
+                        if(flickable.contentHeight > content.height){
+                            flickable.contentY = flickable.contentHeight + 20;
+                        }
+                    }
+                }
+
+                ScrollBar.vertical: ScrollBar {
+                    // TODO: scrollbar always visible is buggy.
+                    // QT 5.9 introduces `policy: ScrollBar.AlwaysOn`
+                    contentItem.opacity: 1
+                    anchors.top: flickable.top
+                    anchors.left: flickable.right
+                    anchors.leftMargin: 10 * scaleRatio
+                    anchors.bottom: flickable.bottom
                 }
             }
         }
 
-        // Ok/Cancel buttons
         RowLayout {
-            id: buttons
-            spacing: 60
-            Layout.alignment: Qt.AlignHCenter
-
-            LokiComponents.StandardButton {
-                id: okButton
-                width: 120
-                fontSize: 14
-                text: qsTr("Close") + translationManager.emptyString
-                onClicked: {
-                    root.close()
-                    root.accepted()
-
-                }
-            }
+            Layout.fillWidth: true
 
             LokiComponents.LineEdit {
                 id: sendCommandText
                 width: 300
+                Layout.fillWidth: true
                 placeholderText: qsTr("Command + Enter (e.g Help)") + translationManager.emptyString
                 onAccepted: {
-                    if(text.length > 0)
-                        daemonManager.sendCommand(text,currentWallet.nettype);
+                    if(text.length > 0) {
+                        textArea.logCommand(">>> " + text)
+                        daemonManager.sendCommand(text, currentWallet.nettype);
+                    }
                     text = ""
                 }
             }
-
-            // Status button
-//            LokiComponents.StandardButton {
-//                id: sendCommandButton
-//                enabled: sendCommandText.text.length > 0
-//                fontSize: 14
-//                text: qsTr("Send command")
-//                onClicked: {
-//                    daemonManager.sendCommand(sendCommandText.text,currentWallet.testnet);
-//                }
-//            }
         }
     }
 
+    // window borders
+    Rectangle {
+        anchors.bottom: parent.bottom
+        anchors.top: parent.top
+        anchors.left: parent.left
+        width:1
+        color: "#2F2F2F"
+        z: 2
+    }
+
+    Rectangle {
+        anchors.bottom: parent.bottom
+        anchors.top: parent.top
+        anchors.right: parent.right
+        width:1
+        color: "#2F2F2F"
+        z: 2
+    }
+
+    Rectangle {
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        anchors.left: parent.left
+        height:1
+        color: "#2F2F2F"
+        z: 2
+    }
 }
-
-
-
