@@ -127,6 +127,8 @@
         <file>images/whiteDropIndicator.png</file>
 
         <file>js/TxUtils.js</file>
+        <file>js/Windows.js</file>
+        <file>js/Utils.js</file>
 
         <file>lang/flags/bangladesh.png</file>
         <file>lang/flags/brazil.png</file>
@@ -185,7 +187,6 @@
         <file>wizard/WizardCreateViewOnlyWallet.qml</file>
         <file>wizard/WizardCreateWallet.qml</file>
         <file>wizard/WizardDaemonSettings.qml</file>
-
         <file>wizard/WizardDonation.qml</file>
         <file>wizard/WizardFinish.qml</file>
         <file>wizard/WizardMain.qml</file>
