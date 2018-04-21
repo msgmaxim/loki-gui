@@ -39,6 +39,8 @@ TextField {
     horizontalAlignment: TextInput.AlignLeft
     selectByMouse: true
     color: LokiComponents.Style.defaultFontColor
+    selectionColor: LokiComponents.Style.dimmedFontColor
+    selectedTextColor: LokiComponents.Style.defaultFontColor
 
     background: Rectangle {
         color: "transparent"

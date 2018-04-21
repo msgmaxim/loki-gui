@@ -48,6 +48,8 @@ TextArea {
     horizontalAlignment: TextInput.AlignLeft
     selectByMouse: true
     color: LokiComponents.Style.defaultFontColor
+    selectionColor: LokiComponents.Style.dimmedFontColor
+    selectedTextColor: LokiComponents.Style.defaultFontColor
 
     wrapMode: {
         if(wrapAnywhere){
