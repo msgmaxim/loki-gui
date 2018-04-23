@@ -49,7 +49,7 @@ Rectangle {
         console.log("Settings page loaded");
 
         if(typeof daemonManager != "undefined"){
-            appWindow.daemonRunning =  daemonManager.running(persistentSettings.testnet);
+            appWindow.daemonRunning =  daemonManager.running(persistentSettings.nettype);
         }
 
         logLevelDropdown.update()

@@ -590,9 +590,9 @@ ApplicationWindow {
             console.error("Can't create transaction: ", transaction.errorString);
             informationPopup.title = qsTr("Error") + translationManager.emptyString;
             if (currentWallet.connected() == Wallet.ConnectionStatus_WrongVersion)
-                informationPopup.text  = qsTr("Can't create transaction: Wrong daemon version: ") + transaction.errorString
+                informationPopup.text  = qsTr("Can't Create Transaction: Wrong daemon version: ") + transaction.errorString
             else
-                informationPopup.text  = qsTr("Can't create transaction: ") + transaction.errorString
+                informationPopup.text  = qsTr("Can't Create Transaction: ") + transaction.errorString
             informationPopup.icon  = StandardIcon.Critical
             informationPopup.onCloseCallback = null
             informationPopup.open();
@@ -612,20 +612,16 @@ ApplicationWindow {
                     + ", fee: " + walletManager.displayAmount(transaction.fee));
 
             // here we show confirmation popup;
-            transactionConfirmationPopup.title = qsTr("Please confirm transaction:\n") + translationManager.emptyString;
+            transactionConfirmationPopup.title = qsTr("Please Confirm Transaction:\n") + translationManager.emptyString;
             transactionConfirmationPopup.text = "";
             transactionConfirmationPopup.text += (address === "" ? "" : (qsTr("Address: ") + address));
             transactionConfirmationPopup.text += (paymentId === "" ? "" : (qsTr("\nPayment ID: ") + paymentId));
             transactionConfirmationPopup.text +=  qsTr("\n\nAmount: ") + walletManager.displayAmount(transaction.amount);
             transactionConfirmationPopup.text +=  qsTr("\nFee: ") + walletManager.displayAmount(transaction.fee);
-            transactionConfirmationPopup.text +=  qsTr("\nRingsize: ") + (mixinCount + 1);
-            if(mixinCount !== 6){
-                transactionConfirmationPopup.text +=  qsTr("\n\nWARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.");
-            }
-            transactionConfirmationPopup.text +=  qsTr("\n\nNumber of transactions: ") + transaction.txCount
+            transactionConfirmationPopup.text +=  qsTr("\n\nNumber Of Transactions: ") + transaction.txCount
             transactionConfirmationPopup.text +=  (transactionDescription === "" ? "" : (qsTr("\nDescription: ") + transactionDescription))
             for (var i = 0; i < transaction.subaddrIndices.length; ++i){
-                transactionConfirmationPopup.text += qsTr("\nSpending address index: ") + transaction.subaddrIndices[i];
+                transactionConfirmationPopup.text += qsTr("\nSpending Address Index: ") + transaction.subaddrIndices[i];
             }
 
             transactionConfirmationPopup.text += translationManager.emptyString;
@@ -657,7 +653,7 @@ ApplicationWindow {
             if (amountxmr <= 0) {
                 hideProcessingSplash()
                 informationPopup.title = qsTr("Error") + translationManager.emptyString;
-                informationPopup.text  = qsTr("Amount is wrong: expected number from %1 to %2")
+                informationPopup.text  = qsTr("Amount Is Wrong: Expected number from %1 to %2")
                         .arg(walletManager.displayAmount(0))
                         .arg(walletManager.maximumAllowedAmountAsSting())
                         + translationManager.emptyString
@@ -669,7 +665,7 @@ ApplicationWindow {
             } else if (amountxmr > currentWallet.unlockedBalance) {
                 hideProcessingSplash()
                 informationPopup.title = qsTr("Error") + translationManager.emptyString;
-                informationPopup.text  = qsTr("Insufficient funds. Unlocked balance: %1")
+                informationPopup.text  = qsTr("Insufficient Funds. Unlocked balance: %1")
                         .arg(walletManager.displayAmount(currentWallet.unlockedBalance))
                         + translationManager.emptyString
 
