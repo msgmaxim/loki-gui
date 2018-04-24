@@ -49,8 +49,8 @@ Rectangle {
     function onPageCompleted() {
         console.log("Settings page loaded");
 
-        if(typeof daemonManager != "undefined"){
-            appWindow.daemonRunning =  daemonManager.running(persistentSettings.nettype);
+        if(typeof daemonManager != "undefined") {
+            appWindow.daemonRunning = persistentSettings.useRemoteNode ? false : daemonManager.running(persistentSettings.nettype);
         }
 
         logLevelDropdown.update()
