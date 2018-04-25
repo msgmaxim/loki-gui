@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>BasicPanel.qml</file>
         <file>LeftPanel.qml</file>
         <file>MiddlePanel.qml</file>
         <file>RightPanel.qml</file>
@@ -125,7 +124,6 @@
         <file>images/upArrow-green.png</file>
         <file>images/warning.png</file>
         <file>images/whiteDropIndicator.png</file>
-
         <file>js/TxUtils.js</file>
 
         <file>lang/flags/bangladesh.png</file>
