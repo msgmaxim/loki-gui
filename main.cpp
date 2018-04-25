@@ -80,7 +80,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
 int main(int argc, char *argv[])
 {
     // platform dependant settings
-#if ! defined(Q_OS_ANDROID) && ! defined(Q_OS_IOS)
+#if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     bool isDesktop = true;
 #elif defined(Q_OS_ANDROID)
     bool isAndroid = true;
@@ -230,7 +230,7 @@ int main(int argc, char *argv[])
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
 //  backups - I reckon we save that in My Documents\Loki Accounts\ on
 //  Windows, ~/Loki Accounts/ on nix / osx
-#if defined (Q_OS_WIN) || defined(Q_OS_IOS)
+#if defined(Q_OS_WIN) || defined(Q_OS_IOS)
     QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
 #else
     QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
@@ -248,7 +248,8 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("scaleRatio", 1);
 #endif
 
-    if (!lokiAccountsRootDir.empty()) {
+    if (!lokiAccountsRootDir.empty()) 
+    {
         QString lokiAccountsDir = lokiAccountsRootDir.at(0) + "/Loki/wallets";
         engine.rootContext()->setContextProperty("lokiAccountsDir", lokiAccountsDir);
     }
@@ -256,12 +257,10 @@ int main(int argc, char *argv[])
 
     // Get default account name
     QString accountName = qgetenv("USER"); // mac/linux
-    if (accountName.isEmpty()){
+    if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
-    }
-    if (accountName.isEmpty()) {
-        accountName = "My loki Account";
-    }
+    if (accountName.isEmpty())
+        accountName = "My Loki Account";
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
     engine.rootContext()->setContextProperty("applicationDirectory", QApplication::applicationDirPath());
@@ -288,14 +287,15 @@ int main(int argc, char *argv[])
 
 #ifdef WITH_SCANNER
     QObject *qmlCamera = rootObject->findChild<QObject*>("qrCameraQML");
-    if( qmlCamera ){
+    if (qmlCamera)
+    {
         qDebug() << "QrCodeScanner : object found";
         QCamera *camera_ = qvariant_cast<QCamera*>(qmlCamera->property("mediaObject"));
         QObject *qmlFinder = rootObject->findChild<QObject*>("QrFinder");
         qobject_cast<QrCodeScanner*>(qmlFinder)->setSource(camera_);
-    } else {
-        qDebug() << "QrCodeScanner : something went wrong !";
     }
+    else
+        qDebug() << "QrCodeScanner : something went wrong !";
 #endif
 
     QObject::connect(eventFilter, SIGNAL(sequencePressed(QVariant,QVariant)), rootObject, SLOT(sequencePressed(QVariant,QVariant)));
