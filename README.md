@@ -1,6 +1,7 @@
 # Loki GUI
 
 Copyright (c) 2018 The Loki Project
+
 Portions Copyright (c) 2014-2018, The Monero Project
 
 ## Development resources
@@ -35,25 +36,33 @@ As with many development projects, the repository on Github is considered to be 
 
   - For Ubuntu and Mint
 
-	`sudo apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev libzmq3-dev`
+    `sudo apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev libzmq3-dev`
 
   - For Gentoo
 
-	`sudo emerge app-arch/xz-utils app-doc/doxygen dev-cpp/gtest dev-libs/boost dev-libs/expat dev-libs/openssl dev-util/cmake media-gfx/graphviz net-dns/unbound net-libs/ldns net-libs/miniupnpc net-libs/zeromq sys-libs/libunwind`
+    `sudo emerge app-arch/xz-utils app-doc/doxygen dev-cpp/gtest dev-libs/boost dev-libs/expat dev-libs/openssl dev-util/cmake media-gfx/graphviz net-dns/unbound net-libs/ldns net-libs/miniupnpc net-libs/zeromq sys-libs/libunwind`
 
 2. Grab an up-to-date copy of the loki-gui repository
 
-	`git clone https://github.com/loki-project/loki-gui.git`
+    `git clone https://github.com/loki-project/loki-gui.git`
 
 3. Go into the repository
 
-	`cd loki-gui`
+    `cd loki-gui`
 
-4. Install the GUI dependencies
+4. Install the GUI dependencies from package manager, Qt 5.7.1 (or from [qt.io](https://www.qt.io/download-open-source/)). Please note, package managers may supply versions < 5.7.1 which will not compile. To get the build to look at your desired Qt version set your path to point to the qmake binary or any other solution otherwise, i.e.
+   ```
+   export PATH=<your path to Qt bin folder with qmake>:$PATH
+   ```
+
+   And can be verified using
+   ```
+   qmake -v
+   ```
 
   - For Ubuntu 16.04 x86
 
-	`sudo apt install qtbase5-dev qt5-default qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qt-labs-folderlistmodel qml-module-qtquick-xmllistmodel qttools5-dev-tools qml-module-qtquick-dialogs`
+    `sudo apt install qtbase5-dev qt5-default qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qt-labs-folderlistmodel qml-module-qtquick-xmllistmodel qttools5-dev-tools qml-module-qtquick-dialogs`
 
   - For Ubuntu 16.04+ x64
 
@@ -83,7 +92,7 @@ As with many development projects, the repository on Github is considered to be 
 
   - For Ubuntu and Mint
 
-	`./build.sh`
+    `./build.sh`
 
   - For Gentoo
 
@@ -113,10 +122,10 @@ The executable can be found in the build/release/bin folder.
 
 4. Install Qt:
 
-  `brew install qt5`  (or download QT 5.8+ from [qt.io](https://www.qt.io/download-open-source/))
+  `brew install qt5`  (or download QT 5.7.1+ from [qt.io](https://www.qt.io/download-open-source/))
 
   If you have an older version of Qt installed via homebrew, you can force it to use 5.x like so:
-  
+
   `brew link --force --overwrite qt5`
 
 5. Add the Qt bin directory to your path
@@ -141,7 +150,7 @@ The executable can be found in the `build/release/bin` folder.
 
 **Note:** Workaround for "ERROR: Xcode not set up properly"
 
-Edit `$HOME/Qt/5.8/clang_64/mkspecs/features/mac/default_pre.prf`
+Edit `$HOME/Qt/5.7/clang_64/mkspecs/features/mac/default_pre.prf`
 
 replace
 `isEmpty($$list($$system("/usr/bin/xcrun -find xcrun 2>/dev/null")))`
