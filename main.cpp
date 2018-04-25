@@ -125,6 +125,20 @@ int main(int argc, char *argv[])
 
     qDebug() << "app startd";
 
+    // screen settings
+    // Mobile is designed on 128dpi
+    qreal ref_dpi = 128;
+    QRect geo = QApplication::desktop()->availableGeometry();
+    QRect rect = QGuiApplication::primaryScreen()->geometry();
+    qreal dpi = QGuiApplication::primaryScreen()->logicalDotsPerInch();
+    qreal physicalDpi = QGuiApplication::primaryScreen()->physicalDotsPerInch();
+    qreal calculated_ratio = physicalDpi/ref_dpi;
+
+    qWarning().nospace() << "Qt:" << QT_VERSION_STR << " | screen: " << rect.width()
+                         << "x" << rect.height() << " - dpi: " << dpi << " - ratio:"
+                         << calculated_ratio;
+
+
     // registering types for QML
     qmlRegisterType<clipboardAdapter>("LokiComponents.Clipboard", 1, 0, "Clipboard");
 
@@ -222,17 +236,6 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("isIOS", isIOS);
     engine.rootContext()->setContextProperty("isAndroid", isAndroid);
 
-    // screen settings
-    // Mobile is designed on 128dpi
-    qreal ref_dpi = 128;
-    QRect geo = QApplication::desktop()->availableGeometry();
-    QRect rect = QGuiApplication::primaryScreen()->geometry();
-    qreal height = qMax(rect.width(), rect.height());
-    qreal width = qMin(rect.width(), rect.height());
-    qreal dpi = QGuiApplication::primaryScreen()->logicalDotsPerInch();
-    qreal physicalDpi = QGuiApplication::primaryScreen()->physicalDotsPerInch();
-    qreal calculated_ratio = physicalDpi/ref_dpi;
-
     engine.rootContext()->setContextProperty("screenWidth", geo.width());
     engine.rootContext()->setContextProperty("screenHeight", geo.height());
 #ifdef Q_OS_ANDROID
@@ -240,16 +243,6 @@ int main(int argc, char *argv[])
 #else
     engine.rootContext()->setContextProperty("scaleRatio", 1);
 #endif
-
-    qDebug() << "available width: " << geo.width();
-    qDebug() << "available height: " << geo.height();
-    qDebug() << "devicePixelRatio: " << app.devicePixelRatio();
-    qDebug() << "screen height: " << height;
-    qDebug() << "screen width: " << width;
-    qDebug() << "screen logical dpi: " << dpi;
-    qDebug() << "screen Physical dpi: " << physicalDpi;
-    qDebug() << "screen calculated ratio: " << calculated_ratio;
-
 
     if (!lokiAccountsRootDir.empty()) {
         QString lokiAccountsDir = lokiAccountsRootDir.at(0) + "/Loki/wallets";
