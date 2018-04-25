@@ -16,37 +16,37 @@ if [ ! -d $LOKI_DIR/src ]; then
     git submodule init loki
 fi
 git submodule update --remote
-# git -C $LOKI_DIR fetch
+git -C $LOKI_DIR fetch
 # git -C $LOKI_DIR checkout v0.12.0.0
-# 
-# # get loki core tag
-# get_tag
-# # create local loki branch
-# git -C $LOKI_DIR checkout -B $VERSIONTAG
-# 
-# git -C $LOKI_DIR submodule init
-# git -C $LOKI_DIR submodule update
-# 
-# # Merge loki PR dependencies
-# 
-# # Workaround for git username requirements
-# # Save current user settings and revert back when we are done with merging PR's
-# OLD_GIT_USER=$(git -C $LOKI_DIR config --local user.name)
-# OLD_GIT_EMAIL=$(git -C $LOKI_DIR config --local user.email)
-# git -C $LOKI_DIR config user.name "Loki GUI"
-# git -C $LOKI_DIR config user.email "gui@loki.local"
-# # check for PR requirements in most recent commit message (i.e requires #xxxx)
-# for PR in $(git log --format=%B -n 1 | grep -io "requires #[0-9]*" | sed 's/[^0-9]*//g'); do
-#     echo "Merging loki push request #$PR"
-#     # fetch pull request and merge
-#     git -C $LOKI_DIR fetch origin pull/$PR/head:PR-$PR
-#     git -C $LOKI_DIR merge --quiet PR-$PR  -m "Merge loki PR #$PR"
-#     BUILD_LIBWALLET=true
-# done
-# 
-# # revert back to old git config
-# $(git -C $LOKI_DIR config user.name "$OLD_GIT_USER")
-# $(git -C $LOKI_DIR config user.email "$OLD_GIT_EMAIL")
+
+# get loki core tag
+get_tag
+# create local loki branch
+git -C $LOKI_DIR checkout -B $VERSIONTAG
+
+git -C $LOKI_DIR submodule init
+git -C $LOKI_DIR submodule update
+
+# Merge loki PR dependencies
+
+# Workaround for git username requirements
+# Save current user settings and revert back when we are done with merging PR's
+OLD_GIT_USER=$(git -C $LOKI_DIR config --local user.name)
+OLD_GIT_EMAIL=$(git -C $LOKI_DIR config --local user.email)
+git -C $LOKI_DIR config user.name "Loki GUI"
+git -C $LOKI_DIR config user.email "gui@loki.local"
+# check for PR requirements in most recent commit message (i.e requires #xxxx)
+for PR in $(git log --format=%B -n 1 | grep -io "requires #[0-9]*" | sed 's/[^0-9]*//g'); do
+    echo "Merging loki push request #$PR"
+    # fetch pull request and merge
+    git -C $LOKI_DIR fetch origin pull/$PR/head:PR-$PR
+    git -C $LOKI_DIR merge --quiet PR-$PR  -m "Merge loki PR #$PR"
+    BUILD_LIBWALLET=true
+done
+
+# revert back to old git config
+$(git -C $LOKI_DIR config user.name "$OLD_GIT_USER")
+$(git -C $LOKI_DIR config user.email "$OLD_GIT_EMAIL")
 
 # Build libwallet if it doesnt exist
 if [ ! -f $LOKI_DIR/lib/libwallet_merged.a ]; then 
