@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -35,7 +36,7 @@ import "../version.js" as Version
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false
@@ -48,7 +49,7 @@ Rectangle {
         console.log("Settings page loaded");
 
         if(typeof daemonManager != "undefined"){
-            appWindow.daemonRunning =  daemonManager.running(persistentSettings.testnet);
+            appWindow.daemonRunning =  daemonManager.running(persistentSettings.nettype);
         }
 
         logLevelDropdown.update()
@@ -65,26 +66,11 @@ Rectangle {
         spacing: 26 * scaleRatio
 
         //! Manage wallet
-        RowLayout {
-            Layout.fillWidth: true
-            Label {
-                id: manageWalletLabel
-                fontSize: 22 * scaleRatio
-                Layout.fillWidth: true
-                text: qsTr("Manage wallet") + translationManager.emptyString
-                Layout.topMargin: 10 * scaleRatio
-            }
-
-            Rectangle {
-                anchors.top: manageWalletLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+        LabelHeader {
+            id: manageWalletLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Manage Wallet") + translationManager.emptyString
+            Layout.topMargin: 10 * scaleRatio
         }
 
         GridLayout {
@@ -92,7 +78,7 @@ Rectangle {
             StandardButton {
                 id: closeWalletButton
                 small: true
-                text: qsTr("Close wallet") + translationManager.emptyString
+                text: qsTr("Close Wallet") + translationManager.emptyString
                 visible: true
                 onClicked: {
                     console.log("closing wallet button clicked")
@@ -104,7 +90,7 @@ Rectangle {
                 id: createViewOnlyWalletButton
                 enabled: !viewOnly
                 small: true
-                text: qsTr("Create view only wallet") + translationManager.emptyString
+                text: qsTr("Create View Only Wallet") + translationManager.emptyString
                 visible: true
                 onClicked: {
                     wizard.openCreateViewOnlyWalletPage();
@@ -119,7 +105,7 @@ Rectangle {
                 shadowPressedColor: "#B32D00"
                 releasedColor: "#FF6C3C"
                 pressedColor: "#FF4304"
-                text: qsTr("Rescan wallet cache") + translationManager.emptyString
+                text: qsTr("Rescan Wallet Cache") + translationManager.emptyString
                 onClicked: {
                     // Show confirmation dialog
                     confirmationDialog.title = qsTr("Rescan wallet cache") + translationManager.emptyString;
@@ -150,7 +136,7 @@ Rectangle {
                 id: rescanSpentButton
                 small: true
                 enabled: !persistentSettings.useRemoteNode
-                text: qsTr("Rescan wallet balance") + translationManager.emptyString
+                text: qsTr("Rescan Wallet Balance") + translationManager.emptyString
                 onClicked: {
                     if (!currentWallet.rescanSpent()) {
                         console.error("Error: ", currentWallet.errorString);
@@ -176,7 +162,7 @@ Rectangle {
             StandardButton {
                 id: changePasswordButton
                 small: true
-                text: qsTr("Change password") + translationManager.emptyString
+                text: qsTr("Change Password") + translationManager.emptyString
                 onClicked: {
                     passwordDialog.onAcceptedCallback = function() {
                         if(appWindow.walletPassword === passwordDialog.password){
@@ -201,7 +187,7 @@ Rectangle {
             Layout.fillWidth: true
 
             LabelSubheader {
-                text: qsTr("Wallet mode") + translationManager.emptyString
+                text: qsTr("Wallet Mode") + translationManager.emptyString
             }
         }
 
@@ -234,7 +220,7 @@ Rectangle {
             Layout.fillWidth: true
 
             LabelSubheader {
-                text:  qsTr("Bootstrap node") + translationManager.emptyString
+                text:  qsTr("Bootstrap Node") + translationManager.emptyString
             }
         }
 
@@ -251,7 +237,7 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.35)
+                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
 
                     daemonAddrLabelText: qsTr("Address")
                     daemonPortLabelText: qsTr("Port")
@@ -283,7 +269,7 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.35)
+                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
 
                     daemonAddrLabelText: qsTr("Address")
                     daemonPortLabelText: qsTr("Port")
@@ -322,25 +308,11 @@ Rectangle {
         }
 
         //! Manage daemon
-        RowLayout {
+        LabelHeader {
             visible: !isMobile
-
-            Label {
-                id: manageDaemonLabel
-                fontSize: 22 * scaleRatio
-                text: qsTr("Manage Daemon") + translationManager.emptyString
-            }
-
-            Rectangle {
-                anchors.top: manageDaemonLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+            id: manageDaemonLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Manage Daemon") + translationManager.emptyString
         }
 
         GridLayout {
@@ -376,7 +348,7 @@ Rectangle {
                 id: daemonStatusButton
                 small: true
                 visible: true
-                text: qsTr("Show status") + translationManager.emptyString
+                text: qsTr("Show Status") + translationManager.emptyString
                 onClicked: {
                     daemonManager.sendCommand("status",currentWallet.nettype);
                     daemonConsolePopup.open();
@@ -393,7 +365,7 @@ Rectangle {
                 Layout.bottomMargin: 14 * scaleRatio
 
                 LabelSubheader {
-                    text: qsTr("Blockchain location") + translationManager.emptyString
+                    text: qsTr("Blockchain Location") + translationManager.emptyString
                 }
             }
 
@@ -417,7 +389,7 @@ Rectangle {
                     id: blockchainFolderButton
                     small: true
                     visible: true
-                    text: qsTr("Change location") + translationManager.emptyString
+                    text: qsTr("Change Location") + translationManager.emptyString
                     onClicked: {
                         //mouse.accepted = false
                         if(persistentSettings.blockchainDataDir != "")
@@ -432,7 +404,7 @@ Rectangle {
         RowLayout{
             CheckBox {
                 id: daemonAdvanced
-                text: qsTr("Show advanced") + translationManager.emptyString
+                text: qsTr("Show Advanced") + translationManager.emptyString
             }
         }
 
@@ -444,9 +416,9 @@ Rectangle {
                 id: daemonFlags
                 Layout.preferredWidth:  200
                 Layout.fillWidth: true
-                labelText: qsTr("Local daemon startup flags") + translationManager.emptyString
+                labelText: qsTr("Local Daemon Startup Flags") + translationManager.emptyString
                 text: appWindow.persistentSettings.daemonFlags;
-                placeholderText: qsTr("(optional)") + translationManager.emptyString
+                placeholderText: qsTr("(Optional)") + translationManager.emptyString
             }
         }
 
@@ -475,24 +447,11 @@ Rectangle {
             }
         }
 
-        RowLayout {
+        LabelHeader {
             visible: !isMobile
-            Label {
-                id: layoutSettingsLabel
-                fontSize: 22 * scaleRatio
-                text: qsTr("Layout settings") + translationManager.emptyString
-            }
-
-            Rectangle {
-                anchors.top: layoutSettingsLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+            id: layoutSettingsLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Layout Settings") + translationManager.emptyString
         }
 
         RowLayout {
@@ -501,29 +460,15 @@ Rectangle {
                 id: customDecorationsCheckBox
                 checked: persistentSettings.customDecorations
                 onClicked: appWindow.setCustomWindowDecorations(checked)
-                text: qsTr("Custom decorations") + translationManager.emptyString
+                text: qsTr("Custom Decorations") + translationManager.emptyString
             }
         }
 
         // Log level
-
-        RowLayout {
-            Label {
-                id: logLevelLabel
-                fontSize: 22 * scaleRatio
-                text: qsTr("Log level") + translationManager.emptyString
-            }
-
-            Rectangle {
-                anchors.top: logLevelLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+        LabelHeader {
+            id: logLevelLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Log Level") + translationManager.emptyString
         }
 
         GridLayout {
@@ -599,46 +544,33 @@ Rectangle {
         }
 
         // Version
-        RowLayout {
-            Label {
-                id: debugLabel
-                text: qsTr("Debug info") + translationManager.emptyString
-                fontSize: 22
-                anchors.topMargin: 30 * scaleRatio
-                Layout.topMargin: 30 * scaleRatio
-            }
-
-            Rectangle {
-                anchors.top: debugLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+        LabelHeader {
+            id: debugLabel
+            text: qsTr("Debug Info") + translationManager.emptyString
+            fontSize: 22
+            anchors.topMargin: 30 * scaleRatio
+            Layout.topMargin: 30 * scaleRatio
         }
 
         TextBlock {
             Layout.topMargin: 8
             font.pixelSize: 14
             Layout.fillWidth: true
-            text: qsTr("GUI version: ") + Version.GUI_VERSION + " (Qt " + qtRuntimeVersion + ")" + translationManager.emptyString
+            text: qsTr("GUI Version: ") + Version.GUI_VERSION + " (Qt " + qtRuntimeVersion + ")" + translationManager.emptyString
         }
         TextBlock {
-            id: guiMoneroVersion
+            id: guiLokiVersion
             Layout.fillWidth: true
             font.pixelSize: 14
-            text: qsTr("Embedded Monero version: ") + Version.GUI_MONERO_VERSION + translationManager.emptyString
+            text: qsTr("Embedded Loki Version: ") + Version.GUI_LOKI_VERSION + translationManager.emptyString
         }
         TextBlock {
             id: restoreHeightText
             Layout.fillWidth: true
             font.pixelSize: 14
             textFormat: Text.RichText
-            property var txt: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C}</style>" + qsTr("Wallet creation height: ") + (currentWallet ? currentWallet.walletCreationHeight : "") + translationManager.emptyString
-            property var linkTxt: qsTr(" <a href='#'>(Click to change)</a>") + translationManager.emptyString
+            property var txt: "<style type='text/css'>a {text-decoration: none; color: #78BE20}</style>" + qsTr("Wallet Creation Height: ") + (currentWallet ? currentWallet.walletCreationHeight : "") + translationManager.emptyString
+            property var linkTxt: qsTr(" <a href='#'>(Click To Change)</a>") + translationManager.emptyString
             text: (typeof currentWallet == "undefined") ? "" : txt + linkTxt
 
             onLinkActivated: {
@@ -704,7 +636,7 @@ Rectangle {
         TextBlock {
             Layout.fillWidth: true
             font.pixelSize: 14
-            text:  (!currentWallet) ? "" : qsTr("Wallet log path: ") + currentWallet.walletLogPath + translationManager.emptyString
+            text:  (!currentWallet) ? "" : qsTr("Wallet Log Path: ") + currentWallet.walletLogPath + translationManager.emptyString
         }
         TextBlock {
             Layout.fillWidth: true
@@ -714,7 +646,7 @@ Rectangle {
         TextBlock {
             Layout.fillWidth: true
             font.pixelSize: 14
-            text:  (!currentWallet) ? "" : qsTr("Daemon log path: ") + currentWallet.daemonLogPath + translationManager.emptyString
+            text:  (!currentWallet) ? "" : qsTr("Daemon Log Path: ") + currentWallet.daemonLogPath + translationManager.emptyString
         }
     }
 
@@ -723,7 +655,7 @@ Rectangle {
         id: daemonConsolePopup
         height:500
         width:800
-        title: qsTr("Daemon log") + translationManager.emptyString
+        title: qsTr("Daemon Log") + translationManager.emptyString
         onAccepted: {
             close();
         }

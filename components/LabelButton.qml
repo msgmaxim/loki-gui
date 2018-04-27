@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -29,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 
 Rectangle {
@@ -49,7 +50,7 @@ Rectangle {
         id: labelButtonText
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
-        font.family: MoneroComponents.Style.fontRegular.name
+        font.family: LokiComponents.Style.fontRegular.name
         font.pixelSize: 12
         font.bold: true
         text: ""

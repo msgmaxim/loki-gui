@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,13 +34,13 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import moneroComponents.Clipboard 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionHistoryModel 1.0
-import moneroComponents.Subaddress 1.0
-import moneroComponents.SubaddressModel 1.0
+import LokiComponents.Clipboard 1.0
+import LokiComponents.Wallet 1.0
+import LokiComponents.WalletManager 1.0
+import LokiComponents.TransactionHistory 1.0
+import LokiComponents.TransactionHistoryModel 1.0
+import LokiComponents.Subaddress 1.0
+import LokiComponents.SubaddressModel 1.0
 
 Rectangle {
     id: pageReceive
@@ -50,7 +51,7 @@ Rectangle {
     property string trackingLineText: ""
 
     function makeQRCodeString() {
-        var s = "monero:"
+        var s = "loki:"
         var nfields = 0
         s += current_address;
         var amount = amountLine.text.trim()
@@ -77,7 +78,7 @@ Rectangle {
             return
         }
         if (appWindow.currentWallet.connected() == Wallet.ConnectionStatus_Disconnected) {
-            setTrackingLineText(qsTr("WARNING: no connection to daemon"))
+            setTrackingLineText(qsTr("WARNING: No connection to daemon"))
             return
         }
 
@@ -240,7 +241,7 @@ Rectangle {
 
                 StandardButton {
                     small: true
-                    text: qsTr("Create new address") + translationManager.emptyString;
+                    text: qsTr("Create New Address") + translationManager.emptyString;
                     onClicked: {
                         inputDialog.labelText = qsTr("Set the label of the new address:") + translationManager.emptyString
                         inputDialog.inputText = qsTr("(Untitled)")
@@ -300,15 +301,15 @@ Rectangle {
             Label {
                 id: trackingLabel
                 textFormat: Text.RichText
-                text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
                       qsTr("Tracking") +
-                      "<font size='2'> (</font><a href='#'>" +
-                      qsTr("help") +
-                      "</a><font size='2'>)</font>" +
+                      " <a href='#'>(" +
+                      qsTr("Help") +
+                      ")</a>" +
                       translationManager.emptyString
                 width: mainLayout.labelWidth
                 onLinkActivated: {
-                    trackingHowToUseDialog.title  = qsTr("Tracking payments") + translationManager.emptyString;
+                    trackingHowToUseDialog.title  = qsTr("Tracking Payments") + translationManager.emptyString;
                     trackingHowToUseDialog.text = qsTr(
                         "<p><font size='+2'>This is a simple sales tracker:</font></p>" +
                         "<p>Let your customer scan that QR code to make a payment (if that customer has software which " +

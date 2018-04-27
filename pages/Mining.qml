@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,7 +31,7 @@ import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 import "../components"
-import moneroComponents.Wallet 1.0
+import LokiComponents.Wallet 1.0
 
 Rectangle {
     id: root
@@ -55,23 +56,23 @@ Rectangle {
             anchors.top: parent.top
             spacing: 20
 
-            Label {
+            LabelHeader {
                 id: soloTitleLabel
                 fontSize: 24
-                text: qsTr("Solo mining") + translationManager.emptyString
+                text: qsTr("Solo Mining") + translationManager.emptyString
             }
 
             Label {
                 id: soloLocalDaemonsLabel
                 fontSize: 18
                 color: "#D02020"
-                text: qsTr("(only available for local daemons)")
+                text: qsTr("(Only available for local daemons)")
                 visible: !walletManager.isDaemonLocal(appWindow.currentDaemonAddress)
             }
 
             Text {
                 id: soloMainLabel
-                text: qsTr("Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.<br> <br>Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!") + translationManager.emptyString
+                text: qsTr("Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.<br> <br>Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!") + translationManager.emptyString
                 wrapMode: Text.Wrap
                 Layout.fillWidth: true
                 font.family: Style.fontRegular.name
@@ -84,7 +85,7 @@ Rectangle {
                 Label {
                     id: soloMinerThreadsLabel
                     color: Style.defaultFontColor
-                    text: qsTr("CPU threads") + translationManager.emptyString
+                    text: qsTr("CPU Threads") + translationManager.emptyString
                     fontSize: 16
                     Layout.preferredWidth: 120
                 }
@@ -104,7 +105,7 @@ Rectangle {
                     enabled: startSoloMinerButton.enabled
                     checked: persistentSettings.allow_background_mining
                     onClicked: {persistentSettings.allow_background_mining = checked}
-                    text: qsTr("Background mining (experimental)") + translationManager.emptyString
+                    text: qsTr("Background Mining (Experimental)") + translationManager.emptyString
                 }
 
             }
@@ -126,17 +127,17 @@ Rectangle {
                 Label {
                     id: manageSoloMinerLabel
                     color: Style.defaultFontColor
-                    text: qsTr("Manage miner") + translationManager.emptyString
+                    text: qsTr("Manage Miner") + translationManager.emptyString
                     fontSize: 16
+                    Layout.preferredWidth: 120
                 }
 
                 StandardButton {
                     visible: true
-                    //enabled: !walletManager.isMining()
                     id: startSoloMinerButton
                     width: 110
                     small: true
-                    text: qsTr("Start mining") + translationManager.emptyString
+                    text: qsTr("Start Mining") + translationManager.emptyString
                     onClicked: {
                         var success = walletManager.startMining(appWindow.currentWallet.address(0, 0), soloMinerThreadsLine.text, persistentSettings.allow_background_mining, persistentSettings.miningIgnoreBattery)
                         if (success) {
@@ -154,25 +155,25 @@ Rectangle {
 
                 StandardButton {
                     visible: true
-                    //enabled:  walletManager.isMining()
                     id: stopSoloMinerButton
                     width: 110
                     small: true
-                    text: qsTr("Stop mining") + translationManager.emptyString
+                    text: qsTr("Stop Mining") + translationManager.emptyString
                     onClicked: {
                         walletManager.stopMining()
                         update()
                     }
                 }
             }
-        }
 
-        Text {
-            id: statusText
-            text: qsTr("Status: not mining")
-            color: Style.defaultFontColor
-            textFormat: Text.RichText
-            wrapMode: Text.Wrap
+            Text {
+                id: statusText
+                text: qsTr("Status: Not Mining")
+                color: Style.defaultFontColor
+                textFormat: Text.RichText
+                font.pixelSize: 14
+                wrapMode: Text.Wrap
+            }
         }
     }
 
@@ -184,7 +185,7 @@ Rectangle {
             text += qsTr("Mining at %1 H/s").arg(walletManager.miningHashRate())
         }
         if (text === "") {
-            text += qsTr("Not mining") + translationManager.emptyString;
+            text += qsTr("Not Mining") + translationManager.emptyString;
         }
         statusText.text = qsTr("Status: ") + text
     }

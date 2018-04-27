@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,11 +30,11 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionInfo 1.0
-import moneroComponents.TransactionHistoryModel 1.0
+import LokiComponents.Wallet 1.0
+import LokiComponents.WalletManager 1.0
+import LokiComponents.TransactionHistory 1.0
+import LokiComponents.TransactionInfo 1.0
+import LokiComponents.TransactionHistoryModel 1.0
 
 import "../components"
 
@@ -188,7 +189,7 @@ Rectangle {
                         id: fromDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
-                        inputLabel.text: "Date from"
+                        inputLabel.text: "Date From"
 
                         onCurrentDateChanged: {
                             onFilterChanged()
@@ -211,7 +212,7 @@ Rectangle {
                         id: toDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
-                        inputLabel.text: "Date to"
+                        inputLabel.text: "Date To"
 
                         onCurrentDateChanged: {
                             onFilterChanged()
@@ -233,7 +234,7 @@ Rectangle {
                 ListModel {
                      id: priorityModelV5
 
-                     ListElement { column1: qsTr("Block height") ; column2: "";}
+                     ListElement { column1: qsTr("Block Height") ; column2: "";}
                      ListElement { column1: qsTr("Date") ; column2: ""; }
                  }
 
@@ -274,7 +275,7 @@ Rectangle {
 
             Label {
                 fontSize: 16 * scaleRatio
-                text: qsTr("No history...") + translationManager.emptyString
+                text: qsTr("No History...") + translationManager.emptyString
             }
         }
 

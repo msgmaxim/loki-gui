@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -28,7 +29,7 @@
 
 import QtQuick 2.5
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Rectangle {
     id: button
@@ -104,7 +105,7 @@ Rectangle {
             anchors.verticalCenter: parent.verticalCenter
             anchors.left: parent.right
             anchors.leftMargin: 8 * scaleRatio
-            font.family: MoneroComponents.Style.fontMedium.name
+            font.family: LokiComponents.Style.fontMedium.name
             font.bold: true
             font.pixelSize: 16 * scaleRatio
             color: "#FFFFFF"

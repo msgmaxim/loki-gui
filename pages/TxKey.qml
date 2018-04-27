@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -32,7 +33,7 @@ import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.1
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 
 import "../js/TxUtils.js" as TxUtils
 
@@ -60,7 +61,7 @@ Rectangle {
             anchors.top: parent.top
             spacing: 20 * scaleRatio
 
-            Label {
+            LabelHeader {
                 id: soloTitleLabel
                 fontSize: 24 * scaleRatio
                 text: qsTr("Prove Transaction") + translationManager.emptyString
@@ -81,7 +82,7 @@ Rectangle {
                     labelText: qsTr("Transaction ID") + translationManager.emptyString
                     id: getProofTxIdLine
                     fontSize: 16 * scaleRatio
-                    placeholderText: qsTr("Paste tx ID") + translationManager.emptyString
+                    placeholderText: qsTr("Paste TX ID") + translationManager.emptyString
                     readOnly: false
                     Layout.fillWidth: true
                     copyButton: true
@@ -134,7 +135,7 @@ Rectangle {
                 anchors.bottomMargin: 3 * scaleRatio
             }
 
-            Label {
+            LabelHeader {
                 id: soloTitleLabel2
                 fontSize: 24 * scaleRatio
                 text: qsTr("Check Transaction") + translationManager.emptyString
@@ -155,7 +156,7 @@ Rectangle {
                     id: checkProofTxIdLine
                     labelText: qsTr("Transaction ID") + translationManager.emptyString
                     fontSize: 16 * scaleRatio
-                    placeholderText: qsTr("Paste tx ID") + translationManager.emptyString
+                    placeholderText: qsTr("Paste TX ID") + translationManager.emptyString
                     readOnly: false
                     width: mainLayout.editWidth
                     Layout.fillWidth: true
@@ -194,7 +195,7 @@ Rectangle {
                     id: checkProofSignatureLine
                     fontSize: 16 * scaleRatio
                     labelText: qsTr("Signature") + translationManager.emptyString
-                    placeholderText: qsTr("Paste tx proof") + translationManager.emptyString;
+                    placeholderText: qsTr("Paste TX proof") + translationManager.emptyString;
                     readOnly: false
                     width: mainLayout.editWidth
                     Layout.fillWidth: true

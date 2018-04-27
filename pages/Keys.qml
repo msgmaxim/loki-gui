@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -31,7 +32,7 @@ import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 import "../version.js" as Version
 import "../components"
 import "." 1.0
@@ -90,7 +91,7 @@ Rectangle {
                         Layout.topMargin: 12 * scaleRatio
                         Layout.preferredWidth: statusRect.width - 80
                         Layout.leftMargin: 6
-                        text: qsTr("WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy." + translationManager.emptyString)
+                        text: qsTr("WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy." + translationManager.emptyString)
                         wrapMode: Text.Wrap
                         font.family: Style.fontRegular.name
                         font.pixelSize: 15 * scaleRatio
@@ -112,7 +113,7 @@ Rectangle {
                 Layout.fillWidth: true
                 fontSize: 22 * scaleRatio
                 Layout.topMargin: 10 * scaleRatio
-                text: qsTr("Mnemonic seed") + translationManager.emptyString
+                text: qsTr("Mnemonic Seed") + translationManager.emptyString
             }
             Rectangle {
                 Layout.fillWidth: true
@@ -179,7 +180,7 @@ Rectangle {
                 Layout.fillWidth: true
                 fontSize: 22 * scaleRatio
                 Layout.topMargin: 10 * scaleRatio
-                text: qsTr("Export wallet") + translationManager.emptyString
+                text: qsTr("Export Wallet") + translationManager.emptyString
             }
             Rectangle {
                 Layout.fillWidth: true
@@ -244,15 +245,15 @@ Rectangle {
     function onPageCompleted() {
         console.log("keys page loaded");
 
-        keysText.text = "<b>" + qsTr("Secret view key") + ":</b> " + currentWallet.secretViewKey
-        keysText.text += "<br><br><b>" + qsTr("Public view key") + ":</b> " + currentWallet.publicViewKey
-        keysText.text += (!currentWallet.viewOnly) ? "<br><br><b>" + qsTr("Secret spend key") + ":</b> " + currentWallet.secretSpendKey : ""
-        keysText.text += "<br><br><b>" + qsTr("Public spend key") + ":</b> " + currentWallet.publicSpendKey
+        keysText.text = "<b>" + qsTr("Secret View Key") + ":</b> " + currentWallet.secretViewKey
+        keysText.text += "<br><br><b>" + qsTr("Public View Key") + ":</b> " + currentWallet.publicViewKey
+        keysText.text += (!currentWallet.viewOnly) ? "<br><br><b>" + qsTr("Secret Spend Key") + ":</b> " + currentWallet.secretSpendKey : ""
+        keysText.text += "<br><br><b>" + qsTr("Public Spend Key") + ":</b> " + currentWallet.publicSpendKey
 
         seedText.text = currentWallet.seed
 
         if(typeof currentWallet != "undefined") {
-            viewOnlyQRCode.source = "image://qrcode/monero:" + currentWallet.address+"?secret_view_key="+currentWallet.secretViewKey+"&restore_height="+currentWallet.restoreHeight
+            viewOnlyQRCode.source = "image://qrcode/loki:" + currentWallet.address+"?secret_view_key="+currentWallet.secretViewKey+"&restore_height="+currentWallet.restoreHeight
             fullWalletQRCode.source = viewOnlyQRCode.source +"&secret_spend_key="+currentWallet.secretSpendKey
 
             if(currentWallet.viewOnly) {

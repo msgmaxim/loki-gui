@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2018, The Monero Project
 //
 // All rights reserved.
@@ -33,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 
 Rectangle {
 
@@ -87,7 +88,7 @@ Rectangle {
 
         Text {
             text: qsTr("This page allows you to interact with the shared ring database.<br>" +
-                       "This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.") + translationManager.emptyString
+                       "This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             color: Style.defaultFontColor
@@ -95,25 +96,22 @@ Rectangle {
 
         Text {
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
-                  "<font size='+2'>" + qsTr("Blackballed outputs") + "</font>" + "<font size='2'> (</font><a href='#'>" + qsTr("help") + "</a><font size='2'>)</font><br>" +
+            text: "<style type='text/css'> a{text-decoration: none; color: #78BE20;}</style>" +
+                  "<font size='+2'>" + qsTr("Blackballed Outputs") + "</font>" + " <a href='#'>(" + qsTr("Help") + ")</a><br>" +
                   qsTr("This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures.<br>") +
                   qsTr("You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             onLinkActivated: {
-                sharedRingDBDialog.title  = qsTr("Blackballed outputs") + translationManager.emptyString;
+                sharedRingDBDialog.title  = qsTr("Blackballed Outputs") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
-                    "In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able " +
+                    "<p>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able " +
                     "to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection " +
                     "afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being " +
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
-                    "of privacy protection Monero uses.<br>" +
-                    "To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new " +
-                    "transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, " +
-                    "and you can import this list here.<br>" +
-                    "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself " +
-                    "using the monero-blockchain-blackball tool to create a list of known spent outputs.<br>"
+                    "of privacy protection Loki uses.</p>" +
+                    "<p>Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
+                    "using the loki-blockchain-blackball tool to create a list of known spent outputs.</p>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
                 sharedRingDBDialog.open()
@@ -140,7 +138,6 @@ Rectangle {
 
             StandardButton {
                 id: selectBlackballFileButton
-                anchors.rightMargin: 17 * scaleRatio
                 text: qsTr("Select") + translationManager.emptyString
                 enabled: true
                 small: true
@@ -151,8 +148,6 @@ Rectangle {
 
             LineEdit {
                 id: loadBlackballFileLine
-                anchors.left: selectBlackballFileButton.right
-                anchors.right: loadBlackballFileButton.left
                 placeholderText: qsTr("Filename with outputs to blackball") + translationManager.emptyString;
                 readOnly: false
                 Layout.fillWidth: true
@@ -169,7 +164,6 @@ Rectangle {
 
             StandardButton {
                 id: loadBlackballFileButton
-                anchors.right: parent.right
                 text: qsTr("Load") + translationManager.emptyString
                 small: true
                 enabled: !!appWindow.currentWallet
@@ -222,24 +216,24 @@ Rectangle {
 
         Text {
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
-                  "<font size='+2'>" + qsTr("Rings") + "</font>" + "<font size='2'> (</font><a href='#'>" + qsTr("help") + "</a><font size='2'>)</font><br>" +
-                  qsTr("This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
+            text: "<style type='text/css'> a{text-decoration: none; color: #78BE20;}</style>" +
+                  "<font size='+2'>" + qsTr("Rings") + "</font>" + " <a href='#'>(" + qsTr("Help") + ")</a><br>" +
+                  qsTr("This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             onLinkActivated: {
                 sharedRingDBDialog.title  = qsTr("Rings") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
-                    "In order to avoid nullifying the protection afforded by Monero's ring signatures, an output should not " +
+                    "In order to avoid nullifying the protection afforded by Loki's ring signatures, an output should not " +
                     "be spent with different rings on different blockchains. While this is normally not a concern, it can become one " +
-                    "when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this " +
+                    "when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this " +
                     "existing outputs uses the same ring on both chains.<br>" +
-                    "This will be done automatically by Monero and any key-reusing software which is not trying to actively strip " +
+                    "This will be done automatically by Loki and any key-reusing software which is not trying to actively strip " +
                     "you of your privacy.<br>" +
-                    "If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still " +
+                    "If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still " +
                     "ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, " +
-                    "which allows you to then spend your Monero safely.<br>" +
-                    "If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything " +
+                    "which allows you to then spend your Loki safely.<br>" +
+                    "If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything " +
                     "as it is all automated.<br>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
@@ -310,7 +304,7 @@ Rectangle {
                 id: setRingRelative
                 checked: true
                 text: qsTr("Relative") + translationManager.emptyString
-                checkedIcon: "../images/checkedBlackIcon.png"
+                checkedIcon: "../images/CheckedGreenIcon.png"
                 uncheckedIcon: "../images/uncheckedIcon.png"
             }
             LineEdit {
@@ -344,7 +338,7 @@ Rectangle {
             id: segregatePreForkOutputs
             checked: persistentSettings.segregatePreForkOutputs
             text: qsTr("I intend to spend on key-reusing fork(s)") + translationManager.emptyString
-            checkedIcon: "../images/checkedBlackIcon.png"
+            checkedIcon: "../images/CheckedGreenIcon.png"
             uncheckedIcon: "../images/uncheckedIcon.png"
             onClicked: {
                 persistentSettings.segregatePreForkOutputs = segregatePreForkOutputs.checked
@@ -357,7 +351,7 @@ Rectangle {
             id: keyReuseMitigation2
             checked: persistentSettings.keyReuseMitigation2
             text: qsTr("I might want to spend on key-reusing fork(s)") + translationManager.emptyString
-            checkedIcon: "../images/checkedBlackIcon.png"
+            checkedIcon: "../images/CheckedGreenIcon.png"
             uncheckedIcon: "../images/uncheckedIcon.png"
             onClicked: {
                 persistentSettings.keyReuseMitigation2 = keyReuseMitigation2.checked
@@ -375,7 +369,7 @@ Rectangle {
             Label {
                 id: segregationHeightLabel
                 fontSize: 14
-                text: qsTr("Segregation height:") + translationManager.emptyString
+                text: qsTr("Segregation Height:") + translationManager.emptyString
             }
             LineEdit {
                 id: segregationHeightLine

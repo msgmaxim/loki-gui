@@ -27,6 +27,7 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
+import "../components"
 
 Item {
     id: item
@@ -48,8 +49,8 @@ Item {
         anchors.right: parent.right
         anchors.top: parent.top
         height: 24
-        //radius: 4
-        color: "#DBDBDB"
+        color: "transparent"
+        border.color: Style.heroGreen
     }
 
     Rectangle {
@@ -59,8 +60,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 1
         height: 24
-        //radius: 4
-        color: "#FFFFFF"
+        color: "transparent"
 
         Rectangle {
             id: fillRect
@@ -68,14 +68,9 @@ Item {
             anchors.bottom: parent.bottom
             anchors.left: parent.left
             anchors.margins: 4
-            //radius: 2
             width: row.x
 
-            color: {
-                if(item.fillLevel < 5) return "#FF6C3C"
-                if(item.fillLevel < 13) return "#AAFFBB"
-                return "#36B25C"
-            }
+            color: Style.heroGreen
 
             Timer {
                 interval: 500
@@ -95,7 +90,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.family: "Arial"
             font.pixelSize: 15
-            color: "#000000"
+            color: Style.defaultFontColor
             x: row.x + (row.positions[0] !== undefined ? row.positions[0].currentX - 3 : 0) - width
             text: qsTr("Low") + translationManager.emptyString
         }
@@ -104,7 +99,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.family: "Arial"
             font.pixelSize: 15
-            color: "#000000"
+            color: Style.defaultFontColor
             x: row.x + (row.positions[4] !== undefined ? row.positions[4].currentX - 3 : 0) - width
             text: qsTr("Medium") + translationManager.emptyString
         }
@@ -113,7 +108,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.family: "Arial"
             font.pixelSize: 15
-            color: "#000000"
+            color: Style.defaultFontColor
             x: row.x + (row.positions[13] !== undefined ? row.positions[13].currentX - 3 : 0) - width
             text: qsTr("High") + translationManager.emptyString
         }
@@ -164,7 +159,7 @@ Item {
                     property int currentX: x + row2.x
                     height: 8
                     width: 1
-                    color: "#DBDBDB"
+                    color: Style.heroGreen
                     Component.onCompleted: {
                         row.positions[index] = delegateItem2
                     }
@@ -184,7 +179,7 @@ Item {
                     property int currentX: x + row1.x
                     height: index === 4 ? 8 : 4
                     width: 1
-                    color: "#DBDBDB"
+                    color: Style.heroGreen
                     Component.onCompleted: {
                         row.positions[index + 4] = delegateItem1
                     }

@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,8 +34,8 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
 import "../components"
-import moneroComponents.Clipboard 1.0
-import moneroComponents.WalletManager 1.0
+import LokiComponents.Clipboard 1.0
+import LokiComponents.WalletManager 1.0
 
 Rectangle {
     id: mainLayout
@@ -97,7 +98,7 @@ Rectangle {
             anchors.right: parent.right
             spacing: 20 * scaleRatio
 
-            Label {
+            LabelHeader {
                 id: signTitleLabel
                 fontSize: 24 * scaleRatio
                 text: qsTr("Sign") + translationManager.emptyString
@@ -151,7 +152,7 @@ Rectangle {
                 RowLayout {
                     LineEdit {
                         id: signFileLine
-                        labelText: "Message from file"
+                        labelText: "Message From File"
                         placeholderText: qsTr("Path to file") + translationManager.emptyString;
                         readOnly: false
                         Layout.fillWidth: true
@@ -192,19 +193,17 @@ Rectangle {
             ColumnLayout {
                 id: signSignatureRow
 
-                RowLayout {
-                    LineEdit {
-                        id: signSignatureLine
-                        labelText: qsTr("Signature")
-                        placeholderText: qsTr("Signature") + translationManager.emptyString;
-                        readOnly: true
-                        Layout.fillWidth: true
-                        copyButton: true
-                    }
+                LineEdit {
+                    id: signSignatureLine
+                    labelText: qsTr("Signature")
+                    placeholderText: qsTr("Signature") + translationManager.emptyString;
+                    readOnly: true
+                    Layout.fillWidth: true
+                    copyButton: true
                 }
             }
 
-            Label {
+            LabelHeader {
                 id: verifyTitleLabel
                 fontSize: 24 * scaleRatio
                 Layout.topMargin: 40
@@ -218,7 +217,7 @@ Rectangle {
                     LineEdit {
                         id: verifyMessageLine
                         Layout.fillWidth: true
-                        labelText: qsTr("Verify message")
+                        labelText: qsTr("Verify Message")
                         placeholderText: qsTr("Message to verify") + translationManager.emptyString;
                         readOnly: false
                     }
@@ -245,7 +244,7 @@ Rectangle {
                 RowLayout {
                     LineEdit {
                         id: verifyFileLine
-                        labelText: qsTr("Verify file")
+                        labelText: qsTr("Verify File")
                         placeholderText: qsTr("Filename with message to verify") + translationManager.emptyString;
                         readOnly: false
                         Layout.fillWidth: true
@@ -290,21 +289,16 @@ Rectangle {
                         labelText: qsTr("Address")
                         addressValidation: true
                         anchors.topMargin: 5 * scaleRatio
-                        placeholderText: "4..."
+                        placeholderText: "L..."
                     }
                 }
             }
 
             ColumnLayout {
                 id: verifySignatureRow
-                anchors.topMargin: 17 * scaleRatio
-
-                Label {
-                    id: verifySignatureLabel
-                    text: qsTr("Signature") + translationManager.emptyString
-                }
 
                 LineEdit {
+                    labelText: qsTr("Signature")
                     id: verifySignatureLine
                     placeholderText: qsTr("Signature") + translationManager.emptyString;
                     Layout.fillWidth: true

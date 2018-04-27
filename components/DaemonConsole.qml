@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Window {
     id: root
@@ -45,6 +46,7 @@ Window {
     property alias okVisible: okButton.visible
     property alias textArea: dialogContent
     property var icon
+    color: LokiComponents.Style.backgroundColor
 
     // same signals as Dialog has
     signal accepted()
@@ -80,10 +82,9 @@ Window {
 
             Label {
                 id: dialogTitle
-                horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: 32
                 font.family: "Arial"
-                color: "#555555"
+                color: LokiComponents.Style.defaultFontColor
             }
 
         }
@@ -95,8 +96,13 @@ Window {
                 Layout.fillHeight: true
                 font.family: "Arial"
                 textFormat: TextEdit.AutoText
+                textColor: LokiComponents.Style.defaultFontColor
+                backgroundVisible: false
                 readOnly: true
                 font.pixelSize: 12
+
+                style: TextAreaStyle {
+                }
             }
         }
 
@@ -106,7 +112,7 @@ Window {
             spacing: 60
             Layout.alignment: Qt.AlignHCenter
 
-            MoneroComponents.StandardButton {
+            LokiComponents.StandardButton {
                 id: okButton
                 width: 120
                 fontSize: 14
@@ -118,10 +124,10 @@ Window {
                 }
             }
 
-            MoneroComponents.LineEdit {
+            LokiComponents.LineEdit {
                 id: sendCommandText
                 width: 300
-                placeholderText: qsTr("command + enter (e.g help)") + translationManager.emptyString
+                placeholderText: qsTr("Command + Enter (e.g Help)") + translationManager.emptyString
                 onAccepted: {
                     if(text.length > 0)
                         daemonManager.sendCommand(text,currentWallet.nettype);
@@ -130,7 +136,7 @@ Window {
             }
 
             // Status button
-//            MoneroComponents.StandardButton {
+//            LokiComponents.StandardButton {
 //                id: sendCommandButton
 //                enabled: sendCommandText.text.length > 0
 //                fontSize: 14

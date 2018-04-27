@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -28,7 +29,7 @@
 
 import QtQuick 2.2
 import QtQuick.Dialogs 1.2
-import moneroComponents.Wallet 1.0
+import LokiComponents.Wallet 1.0
 import QtQuick.Layouts 1.1
 import 'utils.js' as Utils
 
@@ -115,7 +116,7 @@ ColumnLayout {
     WizardManageWalletUI {
         id: uiItem
         accountNameText: defaultAccountName
-        titleText: qsTr("Restore wallet") + translationManager.emptyString
+        titleText: qsTr("Restore Wallet") + translationManager.emptyString
         wordsTextItem.clipboardButtonVisible: false
         wordsTextItem.tipTextVisible: false
         wordsTextItem.memoTextReadOnly: false

@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -27,9 +28,9 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.0
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 ListView {
     id: listView
@@ -48,7 +49,7 @@ ListView {
         width: listView.width
         clip: true
 
-        MoneroComponents.LineEditMulti {
+        LokiComponents.LineEditMulti {
             id: addressLine
 
             fontSize: 14
@@ -68,7 +69,7 @@ ListView {
             addressValidation: false
         }
 
-        MoneroComponents.IconButton {
+        LokiComponents.IconButton {
             id: clipboardButton
             imageSource: "../images/copyToClipboard.png"
 
@@ -104,7 +105,7 @@ ListView {
             font.family: "Arial"
             font.bold: true
             font.pixelSize: 12
-            color: MoneroComponents.Style.greyFontColor
+            color: LokiComponents.Style.greyFontColor
             text: label
         }
 
@@ -126,7 +127,7 @@ ListView {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: 1
-            color: MoneroComponents.Style.grey
+            color: LokiComponents.Style.grey
             z: 6
         }
 
@@ -135,7 +136,7 @@ ListView {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: 1
-            color: MoneroComponents.Style.grey
+            color: LokiComponents.Style.grey
             z: 6
         }
 
@@ -143,14 +144,14 @@ ListView {
             anchors.right: parent.right
             anchors.left: parent.left
             anchors.bottom: parent.bottom
-            color: MoneroComponents.Style.grey
+            color: LokiComponents.Style.grey
             height: 1
             z: 6
         }
 
         Rectangle {
             width: 3
-            color: 'white'
+            color: LokiComponents.Style.lightGreen
             visible: listView.currentIndex == index
             anchors.left: parent.left
             anchors.top: parent.top

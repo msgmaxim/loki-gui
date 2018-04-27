@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -28,7 +29,7 @@
 
 import QtQuick 2.0
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Item {
     id: item
@@ -215,7 +216,7 @@ Item {
             }
         }
 
-        MoneroComponents.StandardButton {
+        LokiComponents.StandardButton {
             id: button
             anchors.top: parent.top
             anchors.bottom: parent.bottom

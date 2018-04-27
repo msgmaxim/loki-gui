@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -26,7 +27,7 @@
 // STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import moneroComponents.WalletManager 1.0
+import LokiComponents.WalletManager 1.0
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import "../components"
@@ -52,13 +53,7 @@ ColumnLayout {
     function onPageOpened(settingsObject) {
         wizard.nextButton.enabled = true
         passwordUI.handlePassword();
-
-        if (wizard.currentPath === "create_wallet") {
-           passwordPage.titleText = qsTr("Give your wallet a password") + translationManager.emptyString
-        } else {
-           passwordPage.titleText = qsTr("Give your wallet a password") + translationManager.emptyString
-        }
-
+        passwordPage.titleText = qsTr("Give Your Wallet A Password") + translationManager.emptyString
         passwordUI.resetFocus()
     }
 
@@ -108,9 +103,8 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
             //renderType: Text.NativeRendering
-            color: "#3F3F3F"
+            color: Style.defaultFontColor
 
         }
 
@@ -121,8 +115,7 @@ ColumnLayout {
             font.pixelSize: 18 * scaleRatio
             wrapMode: Text.Wrap
             //renderType: Text.NativeRendering
-            color: "#4A4646"
-            horizontalAlignment: Text.AlignHCenter
+            color: Style.defaultFontColor
             text: qsTr(" <br>Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.<br/><br/>
                         <b>Enter a strong password</b> (using letters, numbers, and/or symbols):")
                     + translationManager.emptyString

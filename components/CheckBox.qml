@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,12 +30,12 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 RowLayout {
     id: checkBox
     property alias text: label.text
-    property string checkedIcon: "../images/checkedIcon-black.png"
+    property string checkedIcon: "../images/CheckedGreenIcon.png"
     property string uncheckedIcon
     property bool checked: false
     property alias background: backgroundRect.color
@@ -54,10 +55,9 @@ RowLayout {
             anchors.left: parent.left
             width: 25 * scaleRatio
             height: checkBox.height - 1
-            radius: 3
             y: 0
             color: "transparent"
-            border.color: checkBox.checked ? Qt.rgba(1, 1, 1, 0.35) : Qt.rgba(1, 1, 1, 0.25)
+            border.color: checkBox.checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
         }
 
         Rectangle {
@@ -85,9 +85,9 @@ RowLayout {
 
         Text {
             id: label
-            font.family: MoneroComponents.Style.fontRegular.name
+            font.family: LokiComponents.Style.fontRegular.name
             font.pixelSize: checkBox.fontSize
-            color: MoneroComponents.Style.defaultFontColor
+            color: LokiComponents.Style.defaultFontColor
             wrapMode: Text.Wrap
             Layout.fillWidth: true
             anchors.left: backgroundRect.right

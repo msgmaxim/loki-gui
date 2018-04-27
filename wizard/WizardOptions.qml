@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,7 +30,7 @@
 import QtQuick 2.2
 import QtQml 2.2
 import QtQuick.Layouts 1.1
-import moneroComponents.NetworkType 1.0
+import LokiComponents.NetworkType 1.0
 import "../components"
 
 ColumnLayout {
@@ -69,10 +70,9 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
             //renderType: Text.NativeRendering
-            color: "#3F3F3F"
+            color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
-            text: qsTr("Welcome to Monero!") + translationManager.emptyString
+            text: qsTr("Welcome To Loki!") + translationManager.emptyString
         }
 
         Text {
@@ -80,9 +80,8 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 18 * scaleRatio
             //renderType: Text.NativeRendering
-            color: "#4A4646"
+            color: Style.defaultFontColor
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
             text: qsTr("Please select one of the following options:") + translationManager.emptyString
         }
     }
@@ -111,7 +110,6 @@ ColumnLayout {
                 radius: page.buttonSize
                 color: createWalletArea.containsMouse ? "#DBDBDB" : "#FFFFFF"
 
-
                 Image {
                     width: page.buttonImageSize
                     height: page.buttonImageSize
@@ -119,7 +117,7 @@ ColumnLayout {
                     horizontalAlignment: Image.AlignRight
                     verticalAlignment: Image.AlignTop
                     anchors.centerIn: parent
-                    source: "qrc:///images/createWallet.png"
+                    source: "qrc:///images/CreateNewWallet.png"
                 }
 
                 MouseArea {
@@ -136,10 +134,9 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
-                color: "#4A4949"
-                horizontalAlignment: Text.AlignHCenter
+                color: Style.defaultFontColor
                 wrapMode: Text.WordWrap
-                text: qsTr("Create a new wallet") + translationManager.emptyString
+                text: qsTr("Create A New Wallet") + translationManager.emptyString
             }
         }
 
@@ -161,7 +158,7 @@ ColumnLayout {
                     height: page.buttonImageSize
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
-                    source: "qrc:///images/recoverWallet.png"
+                    source: "qrc:///images/RecoverFromKey.png"
                 }
 
                 MouseArea {
@@ -178,7 +175,7 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
-                color: "#4A4949"
+                color: Style.defaultFontColor
                 horizontalAlignment: Text.AlignHCenter
                 text: qsTr("Restore wallet from keys or mnemonic seed") + translationManager.emptyString
                 width:page.buttonSize
@@ -204,7 +201,7 @@ ColumnLayout {
                     height: page.buttonImageSize
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
-                    source: "qrc:///images/openAccount.png"
+                    source: "qrc:///images/RestoreFromFile.png"
                 }
 
                 MouseArea {
@@ -221,22 +218,17 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
-                color: "#4A4949"
-                horizontalAlignment: Text.AlignHCenter
+                color: Style.defaultFontColor
                 text: qsTr("Open a wallet from file") + translationManager.emptyString
                 wrapMode: Text.WordWrap
             }
         }
-
-
-
     }
 
     ColumnLayout {
         Layout.leftMargin: wizardLeftMargin
         Layout.rightMargin: wizardRightMargin
         Layout.topMargin: 30 * scaleRatio
-        Layout.alignment: Qt.AlignCenter
         Layout.fillWidth: true
         spacing: 50 * scaleRatio
 
@@ -245,11 +237,7 @@ ColumnLayout {
             CheckBox {
                 id: testNet
                 text: qsTr("Testnet") + translationManager.emptyString
-                background: "#FFFFFF"
-                fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
-                checkedIcon: "../images/checkedBlackIcon.png"
-                uncheckedIcon: "../images/uncheckedIcon.png"
                 checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
                 onClicked: {
                     persistentSettings.nettype = testNet.checked ? NetworkType.TESTNET : NetworkType.MAINNET
@@ -264,11 +252,7 @@ ColumnLayout {
             CheckBox {
                 id: stageNet
                 text: qsTr("Stagenet") + translationManager.emptyString
-                background: "#FFFFFF"
-                fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
-                checkedIcon: "../images/checkedBlackIcon.png"
-                uncheckedIcon: "../images/uncheckedIcon.png"
                 checked: appWindow.persistentSettings.nettype == NetworkType.STAGENET;
                 onClicked: {
                     persistentSettings.nettype = stageNet.checked ? NetworkType.STAGENET : NetworkType.MAINNET

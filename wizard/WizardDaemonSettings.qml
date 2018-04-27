@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -26,7 +27,7 @@
 // STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import moneroComponents.WalletManager 1.0
+import LokiComponents.WalletManager 1.0
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import "../components"
@@ -93,11 +94,9 @@ ColumnLayout {
             font.family: "Arial"
             font.pixelSize: 28 * scaleRatio
             wrapMode: Text.Wrap
-            horizontalAlignment: Text.AlignHCenter
             //renderType: Text.NativeRendering
-            color: "#3F3F3F"
-            text: "Daemon settings"
-
+            color: Style.defaultFontColor
+            text: "Daemon Settings"
         }
 
         Text {
@@ -108,10 +107,10 @@ ColumnLayout {
             font.pixelSize: 18 * scaleRatio
             wrapMode: Text.Wrap
             //renderType: Text.NativeRendering
-            color: "#4A4646"
+            color: Style.defaultFontColor
             textFormat: Text.RichText
 //            horizontalAlignment: Text.AlignHCenter
-            text: qsTr("To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it's recommended to run your own node. \
+            text: qsTr("To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it's recommended to run your own node. \
                         <br><br> \
                         If you don't have the option to run an own node there's an option to connect to a remote node.")
                     + translationManager.emptyString
@@ -124,9 +123,8 @@ ColumnLayout {
             CheckBox {
                 id: localNode
                 text: qsTr("Start a node automatically in background (recommended)") + translationManager.emptyString
-                checkedIcon: "../images/checkedBlackIcon.png"
-                background: "#FFFFFF"
-                fontColor: "#4A4646"
+                checkedIcon: "../images/CheckedGreenIcon.png"
+                fontColor: Style.defaultFontColor
                 fontSize: 16 * scaleRatio
                 checked: !appWindow.persistentSettings.useRemoteNode && !isAndroid && !isIOS
                 visible: !isAndroid && !isIOS
@@ -144,24 +142,19 @@ ColumnLayout {
                 Layout.fillWidth: true
                 Layout.topMargin: 20 * scaleRatio
                 fontSize: 14 * scaleRatio
-                fontColor: "black"
-                text: qsTr("Blockchain location") + translationManager.emptyString
+                fontColor: Style.defaultFontColor
+                text: qsTr("Blockchain Location") + translationManager.emptyString
             }
+
             LineEdit {
                 id: blockchainFolder
                 Layout.preferredWidth:  200 * scaleRatio
                 Layout.fillWidth: true
                 text: persistentSettings.blockchainDataDir
-                placeholderFontBold: true
+
                 placeholderFontFamily: "Arial"
                 placeholderColor: Style.legacy_placeholderFontColor
-                placeholderOpacity: 1.0
                 placeholderText: qsTr("(optional)") + translationManager.emptyString
-
-                borderColor: Qt.rgba(0, 0, 0, 0.15)
-                backgroundColor: "white"
-                fontColor: "black"
-                fontBold: false
 
                 MouseArea {
                     anchors.fill: parent
@@ -175,22 +168,26 @@ ColumnLayout {
                 }
 
             }
+
             Label {
                 Layout.fillWidth: true
                 Layout.topMargin: 20 * scaleRatio
                 fontSize: 14 * scaleRatio
-                color: 'black'
-                text: qsTr("Bootstrap node (leave blank if not wanted)") + translationManager.emptyString
+                color: Style.defaultFontColor
+                text: qsTr("Bootstrap Node (Leave blank if not desired)") + translationManager.emptyString
             }
+
             RemoteNodeEdit {
                 Layout.minimumWidth: 300 * scaleRatio
                 opacity: localNode.checked
                 id: bootstrapNodeEdit
 
-                placeholderFontBold: true
+                lineEditBackgroundColor: "transparent"
+                lineEditFontColor: "white"
+                lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
+
                 placeholderFontFamily: "Arial"
                 placeholderColor: Style.legacy_placeholderFontColor
-                placeholderOpacity: 1.0
 
                 daemonAddrText: persistentSettings.bootstrapNodeAddress.split(":")[0].trim()
                 daemonPortText: {
@@ -208,10 +205,9 @@ ColumnLayout {
             CheckBox {
                 id: remoteNode
                 text: qsTr("Connect to a remote node") + translationManager.emptyString
-                checkedIcon: "../images/checkedBlackIcon.png"
+                checkedIcon: "../images/CheckedGreenIcon.png"
                 Layout.topMargin: 20 * scaleRatio
-                background: "#FFFFFF"
-                fontColor: "#4A4646"
+                fontColor: Style.defaultFontColor
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.useRemoteNode
                 onClicked: {
@@ -227,22 +223,15 @@ ColumnLayout {
                 opacity: remoteNode.checked
                 id: remoteNodeEdit
                 property var rna: persistentSettings.remoteNodeAddress
+
+                lineEditBackgroundColor: "transparent"
+                lineEditFontColor: "white"
+
                 daemonAddrText: rna.search(":") != -1 ? rna.split(":")[0].trim() : ""
                 daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "18081" : persistentSettings.remoteNodeAddress.split(":")[1] : ""
-
-                placeholderFontBold: true
-                placeholderFontFamily: "Arial"
-                placeholderColor: Style.legacy_placeholderFontColor
-                placeholderOpacity: 1.0
-
-                lineEditBorderColor: Qt.rgba(0, 0, 0, 0.15)
-                lineEditBackgroundColor: "white"
-                lineEditFontColor: "black"
-                lineEditFontBold: false
             }
         }
     }
-
 
     Component.onCompleted: {
         parent.wizardRestarted.connect(onWizardRestarted)

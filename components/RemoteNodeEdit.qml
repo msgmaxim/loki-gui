@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -31,7 +32,7 @@ import QtQuick.Controls.Styles 1.2
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 GridLayout {
     columns: (isMobile) ? 1 : 2
@@ -44,10 +45,10 @@ GridLayout {
 
     // TODO: LEGACY; remove these placeHolder variables when
     // the wizards get redesigned to the black-theme
-    property string placeholderFontFamily: MoneroComponents.Style.fontRegular.name
+    property string placeholderFontFamily: LokiComponents.Style.fontRegular.name
     property bool placeholderFontBold: false
     property int placeholderFontSize: 18 * scaleRatio
-    property string placeholderColor: MoneroComponents.Style.defaultFontColor
+    property string placeholderColor: LokiComponents.Style.defaultFontColor
     property real placeholderOpacity: 0.25
 
     property string lineEditBorderColor: Qt.rgba(0, 0, 0, 0.15)
@@ -71,7 +72,7 @@ GridLayout {
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
         onEditingFinished: root.editingFinished()
-        borderColor: lineEditBorderColor
+
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold
@@ -87,7 +88,7 @@ GridLayout {
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
         onEditingFinished: root.editingFinished()
-        borderColor: lineEditBorderColor
+
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold

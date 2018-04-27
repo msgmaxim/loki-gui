@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -30,7 +31,7 @@ import QtQuick 2.2
 import QtQuick.Controls 1.2
 import QtQuick.Controls.Styles 1.2
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Item {
     id: datePicker
@@ -72,11 +73,11 @@ Item {
             anchors.top: parent.top
             anchors.topMargin: 2
             anchors.left: parent.left
-            font.family: MoneroComponents.Style.fontLight.name
+            font.family: LokiComponents.Style.fontLight.name
             font.pixelSize: 14
             font.bold: false
             textFormat: Text.RichText
-            color: MoneroComponents.Style.defaultFontColor
+            color: LokiComponents.Style.defaultFontColor
 
             MouseArea {
                 anchors.fill: parent
@@ -93,7 +94,6 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         height: 28
-
         Rectangle {
             anchors.top: parent.top
             anchors.left: parent.left
@@ -101,9 +101,16 @@ Item {
             height: parent.height - 1
             anchors.leftMargin: datePicker.expanded ? 1 : 0
             anchors.rightMargin: datePicker.expanded ? 1 : 0
-            radius: 4
             y: 1
             color: datePicker.backgroundColor
+
+            border.color: {
+                if(datePicker.expanded) {
+                    return LokiComponents.Style.heroGreen;
+                } else {
+                    return Qt.rgba(255, 255, 255, 0.25);
+                }
+            }
         }
 
         Item {
@@ -165,9 +172,9 @@ Item {
                 id: dayInput
                 readOnly: true
                 width: 22
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: LokiComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
                 maximumLength: 2
                 horizontalAlignment: TextInput.AlignHCenter
                 validator: IntValidator{bottom: 01; top: 31;}
@@ -188,9 +195,9 @@ Item {
             }
 
             Text {
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: LokiComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
                 text: "-"
             }
 
@@ -198,9 +205,9 @@ Item {
                 id: monthInput
                 readOnly: true
                 width: 22
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: LokiComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
                 maximumLength: 2
                 horizontalAlignment: TextInput.AlignHCenter
                 validator: IntValidator{bottom: 01; top: 12;}
@@ -220,18 +227,18 @@ Item {
             }
 
             Text {
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: LokiComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
                 text: "-"
             }
 
             TextInput {
                 id: yearInput
                 width: 44
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: LokiComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : LokiComponents.Style.defaultFontColor
                 maximumLength: 4
                 horizontalAlignment: TextInput.AlignHCenter
                 validator: IntValidator{bottom: 1000; top: 9999;}
@@ -254,8 +261,6 @@ Item {
         anchors.right: parent.right
         anchors.top: head.bottom
         color: "#FFFFFF"
-        border.width: 1
-        border.color: "#DBDBDB"
         height: datePicker.expanded ? calendar.height + 2 : 0
         clip: true
         //radius: 4
@@ -294,7 +299,7 @@ Item {
                     Rectangle {
                         anchors.fill: parent
                         radius: parent.implicitHeight / 2
-                        color: dayArea.pressed && styleData.visibleMonth ? "#FF6C3B" : "transparent"
+                        color: dayArea.pressed && styleData.visibleMonth ? LokiComponents.Style.heroGreen : "transparent"
                     }
 
                     Text {
@@ -306,7 +311,7 @@ Item {
                         color: {
                             if(!styleData.visibleMonth) return "#DBDBDB"
                             if(dayArea.pressed) return "#FFFFFF"
-                            if(styleData.today) return "#FF6C3B"
+                            if(styleData.today) return LokiComponents.Style.heroGreen
                             return "#4A4848"
                         }
                     }

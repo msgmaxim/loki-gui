@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,8 +30,8 @@
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.NetworkType 1.0
+import LokiComponents.Wallet 1.0
+import LokiComponents.NetworkType 1.0
 import "components"
 
 Rectangle {
@@ -110,10 +111,10 @@ Rectangle {
                 anchors.leftMargin: 20
                 anchors.verticalCenter: parent.verticalCenter
                 height: 490 * scaleRatio
-                width: 259 * scaleRatio
+                width: 260 * scaleRatio
 
                 Image {
-                    width: 259; height: 170
+                    width: 260; height: 170
                     fillMode: Image.PreserveAspectFit
                     source: "images/card-background.png"
                 }
@@ -128,7 +129,7 @@ Rectangle {
                     anchors.leftMargin: 192
                     font.bold: true
                     font.pixelSize: 12
-                    color: "#f33434"
+                    color: "#FFFFFF"
                 }
 
                 Text {
@@ -141,7 +142,7 @@ Rectangle {
                     anchors.rightMargin: 8
                     font.pixelSize: 12
                     font.bold: true
-                    color: "#ff9323"
+                    color: "#FFFFFF"
                 }
             }
 
@@ -333,7 +334,7 @@ Rectangle {
                 id: addressBookButton
                 anchors.left: parent.left
                 anchors.right: parent.right
-                text: qsTr("Address book") + translationManager.emptyString
+                text: qsTr("Address Book") + translationManager.emptyString
                 symbol: qsTr("B") + translationManager.emptyString
                 dotColor: "#FF4F41"
                 under: transferButton
@@ -452,7 +453,7 @@ Rectangle {
                 id: txkeyButton
                 anchors.left: parent.left
                 anchors.right: parent.right
-                text: qsTr("Prove/check") + translationManager.emptyString
+                text: qsTr("Prove/Check") + translationManager.emptyString
                 symbol: qsTr("K") + translationManager.emptyString
                 dotColor: "#FFD781"
                 under: advancedButton
@@ -500,7 +501,7 @@ Rectangle {
                 id: signButton
                 anchors.left: parent.left
                 anchors.right: parent.right
-                text: qsTr("Sign/verify") + translationManager.emptyString
+                text: qsTr("Sign/Verify") + translationManager.emptyString
                 symbol: qsTr("I") + translationManager.emptyString
                 dotColor: "#FFD781"
                 under: advancedButton

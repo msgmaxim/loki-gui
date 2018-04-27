@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,15 +30,15 @@
 import QtQuick.Controls 2.0
 import QtQuick 2.7
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 TextField {
-    font.family: MoneroComponents.Style.fontRegular.name
+    font.family: LokiComponents.Style.fontRegular.name
     font.pixelSize: 18 * scaleRatio
     font.bold: true
     horizontalAlignment: TextInput.AlignLeft
     selectByMouse: true
-    color: MoneroComponents.Style.defaultFontColor
+    color: LokiComponents.Style.defaultFontColor
 
     background: Rectangle {
         color: "transparent"

@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -29,13 +30,13 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Item {
     id: button
     property string rightIcon: ""
     property string icon: ""
-    property string textColor: button.enabled? MoneroComponents.Style.buttonTextColor: MoneroComponents.Style.buttonTextColorDisabled
+    property string textColor: button.enabled? LokiComponents.Style.buttonTextColor: LokiComponents.Style.buttonTextColorDisabled
     property bool small: false
     property alias text: label.text
     property int fontSize: {
@@ -59,8 +60,7 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         height: parent.height - 1
-        radius: 3
-        color: parent.enabled ? MoneroComponents.Style.buttonBackgroundColor : MoneroComponents.Style.buttonBackgroundColorDisabled
+        color: parent.enabled ? LokiComponents.Style.buttonBackgroundColor : LokiComponents.Style.buttonBackgroundColorDisabled
         border.width: parent.focus ? 1 : 0
 
         MouseArea {
@@ -72,12 +72,12 @@ Item {
 
             // possibly do some hover effects here
             onEntered: {
-//                if(button.enabled) parent.color = Style.buttonBackgroundColorHover;
-//                else parent.color = Style.buttonBackgroundColorDisabledHover;
+                if(button.enabled) parent.color = Style.buttonBackgroundColorHover;
+                else parent.color = Style.buttonBackgroundColorDisabledHover;
             }
             onExited: {
-//                if(button.enabled) parent.color = Style.buttonBackgroundColor;
-//                else parent.color = Style.buttonBackgroundColorDisabled;
+                if(button.enabled) parent.color = Style.buttonBackgroundColor;
+                else parent.color = Style.buttonBackgroundColorDisabled;
             }
         }
     }
@@ -88,7 +88,7 @@ Item {
         anchors.left: parent.left
         anchors.right: parent.right
         horizontalAlignment: Text.AlignHCenter
-        font.family: MoneroComponents.Style.fontBold.name
+        font.family: LokiComponents.Style.fontBold.name
         font.bold: true
         font.pixelSize: buttonArea.pressed ? button.fontSize - 1 : button.fontSize
         color: parent.textColor

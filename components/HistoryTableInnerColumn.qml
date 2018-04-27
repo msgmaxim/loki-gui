@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -29,11 +30,11 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.Clipboard 1.0
-import moneroComponents.PendingTransaction 1.0
-import moneroComponents.Wallet 1.0
+import LokiComponents.Clipboard 1.0
+import LokiComponents.PendingTransaction 1.0
+import LokiComponents.Wallet 1.0
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 
 Rectangle{
@@ -50,20 +51,20 @@ Rectangle{
     Text {
         id: label1
         anchors.left: parent.left
-        font.family: MoneroComponents.Style.fontRegular.name
+        font.family: LokiComponents.Style.fontRegular.name
         font.pixelSize: 14 * scaleRatio
         text: labelHeader
-        color: MoneroComponents.Style.greyFontColor
+        color: LokiComponents.Style.greyFontColor
     }
 
     Text {
         id: label2
         anchors.left: parent.left
         anchors.top: label1.bottom
-        font.family: MoneroComponents.Style.fontRegular.name
+        font.family: LokiComponents.Style.fontRegular.name
         font.pixelSize: 14 * scaleRatio
         text: labelValue
-        color: MoneroComponents.Style.dimmedFontColor
+        color: LokiComponents.Style.dimmedFontColor
     }
 
     // hover effect / copy value
@@ -73,12 +74,12 @@ Rectangle{
         anchors.fill: parent
         cursorShape: Qt.PointingHandCursor
         onEntered: {
-            label1.color = MoneroComponents.Style.defaultFontColor;
-            label2.color = MoneroComponents.Style.defaultFontColor;
+            label1.color = LokiComponents.Style.defaultFontColor;
+            label2.color = LokiComponents.Style.defaultFontColor;
         }
         onExited: {
-            label1.color = MoneroComponents.Style.greyFontColor;
-            label2.color = MoneroComponents.Style.dimmedFontColor;
+            label1.color = LokiComponents.Style.greyFontColor;
+            label2.color = LokiComponents.Style.dimmedFontColor;
         }
         onClicked: {
             if(copyValue){

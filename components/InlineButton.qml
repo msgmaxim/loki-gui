@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -29,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 Item {
     id: inlineButton
@@ -50,23 +51,21 @@ Item {
         clicked();
     }
 
-    Rectangle{
+    Rectangle {
         id: rect
-        color: MoneroComponents.Style.buttonBackgroundColorDisabled
-        border.color: "black"
+        color: LokiComponents.Style.buttonBackgroundColor
         height: 28 * scaleRatio
         width: inlineText.width + 22 * scaleRatio
-        radius: 4
 
         anchors.top: parent.top
         anchors.right: parent.right
 
         Text {
             id: inlineText
-            font.family: MoneroComponents.Style.fontBold.name
+            font.family: LokiComponents.Style.fontBold.name
             font.bold: true
             font.pixelSize: 16 * scaleRatio
-            color: "black"
+            color: "white"
             anchors.verticalCenter: parent.verticalCenter
             anchors.horizontalCenter: parent.horizontalCenter
         }
@@ -77,13 +76,13 @@ Item {
             hoverEnabled: true
             anchors.fill: parent
             onClicked: doClick()
+
             onEntered: {
-                rect.color = "#707070";
-                rect.opacity = 0.8;
+                rect.color = LokiComponents.Style.buttonBackgroundColorHover
             }
+
             onExited: {
-                rect.opacity = 1.0;
-                rect.color = "#808080";
+                rect.color = LokiComponents.Style.buttonBackgroundColor
             }
         }
     }

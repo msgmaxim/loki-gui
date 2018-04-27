@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -27,8 +28,8 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import QtQuick 2.2
-import moneroComponents.WalletManager 1.0
-import moneroComponents.Wallet 1.0
+import LokiComponents.WalletManager 1.0
+import LokiComponents.Wallet 1.0
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 import 'utils.js' as Utils
@@ -70,9 +71,6 @@ ColumnLayout {
     }
 
     //! function called each time we hide this page
-    //
-
-
     function createWallet(settingsObject) {
         // TODO: create wallet in temporary filename and a) move it to the path specified by user after the final
         // page submitted or b) delete it when program closed before reaching final page
@@ -97,7 +95,7 @@ ColumnLayout {
 
     WizardManageWalletUI {
         id: uiItem
-        titleText: qsTr("Create a new wallet") + translationManager.emptyString
+        titleText: qsTr("Create A New Wallet") + translationManager.emptyString
         wordsTextItem.clipboardButtonVisible: true
         wordsTextItem.tipTextVisible: true
         wordsTextItem.memoTextReadOnly: true

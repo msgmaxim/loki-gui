@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2015, The Monero Project
 //
 // All rights reserved.
@@ -29,7 +30,7 @@
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 ColumnLayout {
     id: lineditmulti
@@ -64,21 +65,21 @@ ColumnLayout {
             id: inputLabel
             anchors.top: parent.top
             anchors.left: parent.left
-            font.family: MoneroComponents.Style.fontRegular.name
+            font.family: LokiComponents.Style.fontRegular.name
             font.pixelSize: 16 * scaleRatio
             font.bold: labelFontBold
             textFormat: Text.RichText
-            color: MoneroComponents.Style.defaultFontColor
+            color: LokiComponents.Style.defaultFontColor
             onLinkActivated: inputLabelLinkActivated()
         }
 
-        MoneroComponents.LabelButton {
+        LokiComponents.LabelButton {
             id: labelButton
             onClicked: labelButtonClicked()
             visible: labelButtonVisible
         }
 
-        MoneroComponents.LabelButton {
+        LokiComponents.LabelButton {
             id: copyButtonId
             visible: copyButton && multiLine.text !== ""
             text: qsTr("Copy")
@@ -94,7 +95,7 @@ ColumnLayout {
         }
     }
 
-    MoneroComponents.InputMulti {
+    LokiComponents.InputMulti {
         id: multiLine
         readOnly: false
         addressValidation: true
@@ -113,8 +114,8 @@ ColumnLayout {
             anchors.left: parent.left
             anchors.leftMargin: 10 * scaleRatio
             opacity: 0.25
-            color: MoneroComponents.Style.defaultFontColor
-            font.family: MoneroComponents.Style.fontRegular.name
+            color: LokiComponents.Style.defaultFontColor
+            font.family: LokiComponents.Style.fontRegular.name
             font.pixelSize: 18 * scaleRatio
             text: ""
             z: 3
@@ -126,13 +127,12 @@ ColumnLayout {
             border.color: {
               if(multiLine.error && multiLine.text !== ""){
                   return Qt.rgba(255, 0, 0, 0.45);
-              } else if(multiLine.activeFocus){
-                  return Qt.rgba(255, 255, 255, 0.35);
+              } else if(multiLine.activeFocus) {
+                  return LokiComponents.Style.heroGreen;
               } else {
                   return Qt.rgba(255, 255, 255, 0.25);
               }
             }
-            radius: 4
             anchors.fill: parent
             visible: lineditmulti.showBorder
         }
