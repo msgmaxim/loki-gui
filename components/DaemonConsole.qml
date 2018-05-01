@@ -47,7 +47,6 @@ Window {
     property alias content: root.text
     property alias textArea: dialogContent
     property var icon
-    color: LokiComponents.Style.backgroundColor
 
     // same signals as Dialog has
     signal accepted()
@@ -104,10 +103,10 @@ Window {
                     selectByMouse: true
                     selectByKeyboard: true
                     anchors.fill: parent
-                    font.family: "Ariel"
+                    font.family: "Arial"
                     font.pixelSize: 14 * scaleRatio
-                    color: Loki.Style.defaultFontColor
-                    selectionColor: Loki.Style.dimmedFontColor
+                    color: LokiComponents.Style.defaultFontColor
+                    selectionColor: LokiComponents.Style.dimmedFontColor
                     wrapMode: TextEdit.Wrap
                     readOnly: true
                     background: Rectangle {
