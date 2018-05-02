@@ -66,6 +66,11 @@
 #include "QrCodeScanner.h"
 #endif
 
+bool isIOS = false;
+bool isAndroid = false;
+bool isWindows = false;
+bool isDesktop = false;
+
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
     // Send all message types to logger
@@ -74,31 +79,69 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
 
 int main(int argc, char *argv[])
 {
-    Monero::Utils::onStartup();
+    // platform dependant settings
+#if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
+    bool isDesktop = true;
+#elif defined(Q_OS_ANDROID)
+    bool isAndroid = true;
+#elif defined(Q_OS_IOS)
+    bool isIOS = true;
+#endif
+#ifdef Q_OS_WIN
+    bool isWindows = true;
+#endif
+
+    // disable "QApplication: invalid style override passed" warning
+    if (isDesktop) putenv((char*)"QT_STYLE_OVERRIDE=fusion");
+#ifdef Q_OS_LINUX
+    // force platform xcb
+    if (isDesktop) putenv((char*)"QT_QPA_PLATFORM=xcb");
+#endif
+
 //    // Enable high DPI scaling on windows & linux
 //#if !defined(Q_OS_ANDROID) && QT_VERSION >= 0x050600
 //    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 //    qDebug() << "High DPI auto scaling - enabled";
 //#endif
 
-    // Log settings
-    Monero::Wallet::init(argv[0], "loki-wallet-gui");
-//    qInstallMessageHandler(messageHandler);
-
     MainApp app(argc, argv);
-
-    qDebug() << "app startd";
 
     app.setApplicationName("loki-gui");
     app.setOrganizationDomain("loki.network");
     app.setOrganizationName("loki-project");
 
-    #if defined(Q_OS_LINUX) && !defined(Q_OS_ANDROID)
-    app.setWindowIcon(QIcon(":/images/appicon.ico"));
-    #endif
+#if defined(Q_OS_LINUX)
+    if (isDesktop) app.setWindowIcon(QIcon(":/images/appicon.ico"));
+#endif
 
     filter *eventFilter = new filter;
     app.installEventFilter(eventFilter);
+
+    QCommandLineParser parser;
+    parser.addHelpOption();
+    parser.process(app);
+
+    Monero::Utils::onStartup();
+
+    // Log settings
+    Monero::Wallet::init(argv[0], "loki-wallet-gui");
+//    qInstallMessageHandler(messageHandler);
+
+    qDebug() << "app startd";
+
+    // screen settings
+    // Mobile is designed on 128dpi
+    qreal ref_dpi = 128;
+    QRect geo = QApplication::desktop()->availableGeometry();
+    QRect rect = QGuiApplication::primaryScreen()->geometry();
+    qreal dpi = QGuiApplication::primaryScreen()->logicalDotsPerInch();
+    qreal physicalDpi = QGuiApplication::primaryScreen()->physicalDotsPerInch();
+    qreal calculated_ratio = physicalDpi/ref_dpi;
+
+    qWarning().nospace() << "Qt:" << QT_VERSION_STR << " | screen: " << rect.width()
+                         << "x" << rect.height() << " - dpi: " << dpi << " - ratio:"
+                         << calculated_ratio;
+
 
     // registering types for QML
     qmlRegisterType<clipboardAdapter>("LokiComponents.Clipboard", 1, 0, "Clipboard");
@@ -170,7 +213,6 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("translationManager", TranslationManager::instance());
 
     engine.addImageProvider(QLatin1String("qrcode"), new QRCodeImageProvider());
-    const QStringList arguments = QCoreApplication::arguments();
 
     engine.rootContext()->setContextProperty("mainApp", &app);
 
@@ -178,6 +220,7 @@ int main(int argc, char *argv[])
 
 // Exclude daemon manager from IOS
 #ifndef Q_OS_IOS
+    const QStringList arguments = QCoreApplication::arguments();
     DaemonManager * daemonManager = DaemonManager::instance(&arguments);
     engine.rootContext()->setContextProperty("daemonManager", daemonManager);
 #endif
@@ -187,40 +230,15 @@ int main(int argc, char *argv[])
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
 //  backups - I reckon we save that in My Documents\Loki Accounts\ on
 //  Windows, ~/Loki Accounts/ on nix / osx
-    bool isWindows = false;
-    bool isIOS = false;
-    bool isMac = false;
-    bool isAndroid = false;
-#ifdef Q_OS_WIN
-    isWindows = true;
+#if defined(Q_OS_WIN) || defined(Q_OS_IOS)
     QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
-#elif defined(Q_OS_IOS)
-    isIOS = true;
-    QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
-#elif defined(Q_OS_UNIX)
+#else
     QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
-#endif
-#ifdef Q_OS_MAC
-    isMac = true;
-#endif
-#ifdef Q_OS_ANDROID
-    isAndroid = true;
 #endif
 
     engine.rootContext()->setContextProperty("isWindows", isWindows);
     engine.rootContext()->setContextProperty("isIOS", isIOS);
     engine.rootContext()->setContextProperty("isAndroid", isAndroid);
-
-    // screen settings
-    // Mobile is designed on 128dpi
-    qreal ref_dpi = 128;
-    QRect geo = QApplication::desktop()->availableGeometry();
-    QRect rect = QGuiApplication::primaryScreen()->geometry();
-    qreal height = qMax(rect.width(), rect.height());
-    qreal width = qMin(rect.width(), rect.height());
-    qreal dpi = QGuiApplication::primaryScreen()->logicalDotsPerInch();
-    qreal physicalDpi = QGuiApplication::primaryScreen()->physicalDotsPerInch();
-    qreal calculated_ratio = physicalDpi/ref_dpi;
 
     engine.rootContext()->setContextProperty("screenWidth", geo.width());
     engine.rootContext()->setContextProperty("screenHeight", geo.height());
@@ -230,17 +248,8 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("scaleRatio", 1);
 #endif
 
-    qDebug() << "available width: " << geo.width();
-    qDebug() << "available height: " << geo.height();
-    qDebug() << "devicePixelRatio: " << app.devicePixelRatio();
-    qDebug() << "screen height: " << height;
-    qDebug() << "screen width: " << width;
-    qDebug() << "screen logical dpi: " << dpi;
-    qDebug() << "screen Physical dpi: " << physicalDpi;
-    qDebug() << "screen calculated ratio: " << calculated_ratio;
-
-
-    if (!lokiAccountsRootDir.empty()) {
+    if (!lokiAccountsRootDir.empty()) 
+    {
         QString lokiAccountsDir = lokiAccountsRootDir.at(0) + "/Loki/wallets";
         engine.rootContext()->setContextProperty("lokiAccountsDir", lokiAccountsDir);
     }
@@ -248,12 +257,10 @@ int main(int argc, char *argv[])
 
     // Get default account name
     QString accountName = qgetenv("USER"); // mac/linux
-    if (accountName.isEmpty()){
+    if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
-    }
-    if (accountName.isEmpty()) {
-        accountName = "My loki Account";
-    }
+    if (accountName.isEmpty())
+        accountName = "My Loki Account";
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
     engine.rootContext()->setContextProperty("applicationDirectory", QApplication::applicationDirPath());
@@ -280,14 +287,15 @@ int main(int argc, char *argv[])
 
 #ifdef WITH_SCANNER
     QObject *qmlCamera = rootObject->findChild<QObject*>("qrCameraQML");
-    if( qmlCamera ){
+    if (qmlCamera)
+    {
         qDebug() << "QrCodeScanner : object found";
         QCamera *camera_ = qvariant_cast<QCamera*>(qmlCamera->property("mediaObject"));
         QObject *qmlFinder = rootObject->findChild<QObject*>("QrFinder");
         qobject_cast<QrCodeScanner*>(qmlFinder)->setSource(camera_);
-    } else {
-        qDebug() << "QrCodeScanner : something went wrong !";
     }
+    else
+        qDebug() << "QrCodeScanner : something went wrong !";
 #endif
 
     QObject::connect(eventFilter, SIGNAL(sequencePressed(QVariant,QVariant)), rootObject, SLOT(sequencePressed(QVariant,QVariant)));

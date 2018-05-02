@@ -15,8 +15,8 @@
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="67"/>
-        <source>4...</source>
-        <translation></translation>
+        <source>L...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="74"/>
@@ -80,49 +80,54 @@
 <context>
     <name>BasicPanel</name>
     <message>
-        <location filename="../BasicPanel.qml" line="97"/>
         <source>Locked Balance:</source>
-        <translation>잠금된 잔액:</translation>
+        <translation type="vanished">잠금된 잔액:</translation>
     </message>
     <message>
-        <location filename="../BasicPanel.qml" line="110"/>
         <source>78.9239845</source>
-        <translation>78.9239845</translation>
+        <translation type="vanished">78.9239845</translation>
     </message>
     <message>
-        <location filename="../BasicPanel.qml" line="133"/>
         <source>Available Balance:</source>
-        <translation>사용가능한 잔액:</translation>
+        <translation type="vanished">사용가능한 잔액:</translation>
     </message>
     <message>
-        <location filename="../BasicPanel.qml" line="146"/>
         <source>2324.9239845</source>
-        <translation>2324.9239845</translation>
+        <translation type="vanished">2324.9239845</translation>
     </message>
 </context>
 <context>
     <name>DaemonConsole</name>
     <message>
-        <location filename="../components/DaemonConsole.qml" line="114"/>
+        <location filename="../components/DaemonConsole.qml" line="119"/>
         <source>Close</source>
         <translation>닫기</translation>
     </message>
     <message>
-        <location filename="../components/DaemonConsole.qml" line="125"/>
+        <location filename="../components/DaemonConsole.qml" line="130"/>
+        <source>Command + Enter (e.g Help)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>command + enter (e.g help)</source>
-        <translation>커멘드 + 엔터 (예: 도움말)</translation>
+        <translation type="vanished">커멘드 + 엔터 (예: 도움말)</translation>
     </message>
 </context>
 <context>
     <name>DaemonManagerDialog</name>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="94"/>
+        <location filename="../components/DaemonManagerDialog.qml" line="95"/>
         <source>Starting local node in %1 seconds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="112"/>
-        <source>Start Daemon (%1)</source>
+        <location filename="../components/DaemonManagerDialog.qml" line="114"/>
+        <source>Start Daemon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../components/DaemonManagerDialog.qml" line="127"/>
+        <source>Use Custom Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -130,9 +135,8 @@
         <translation type="vanished">데몬 시작 (%1)</translation>
     </message>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="125"/>
         <source>Use custom settings</source>
-        <translation>사용자 정의 설정 사용</translation>
+        <translation type="vanished">사용자 정의 설정 사용</translation>
     </message>
 </context>
 <context>
@@ -195,18 +199,22 @@
     </message>
     <message>
         <location filename="../pages/History.qml" line="237"/>
+        <source>Block Height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="278"/>
+        <source>No History...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Block height</source>
-        <translation type="unfinished">블록 높이</translation>
+        <translation type="obsolete">블록 높이</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
         <translation type="unfinished">날짜</translation>
-    </message>
-    <message>
-        <location filename="../pages/History.qml" line="278"/>
-        <source>No history...</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Filter transaction history</source>
@@ -417,11 +425,6 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="116"/>
-        <source>Mnemonic seed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/Keys.qml" line="163"/>
         <source>Double tap to copy</source>
         <translation type="unfinished"></translation>
@@ -432,13 +435,38 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../pages/Keys.qml" line="116"/>
+        <source>Mnemonic Seed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="183"/>
-        <source>Export wallet</source>
+        <source>Export Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="248"/>
+        <source>Secret View Key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="249"/>
+        <source>Public View Key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="250"/>
+        <source>Secret Spend Key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="251"/>
+        <source>Public Spend Key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -454,24 +482,20 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret view key</source>
-        <translation type="unfinished">비공개 키</translation>
+        <translation type="obsolete">비공개 키</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="249"/>
         <source>Public view key</source>
-        <translation type="unfinished">공개 키</translation>
+        <translation type="obsolete">공개 키</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret spend key</source>
-        <translation type="unfinished">비공개 결제 키</translation>
+        <translation type="obsolete">비공개 결제 키</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="251"/>
         <source>Public spend key</source>
-        <translation type="unfinished">공개 결제 키</translation>
+        <translation type="obsolete">공개 결제 키</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="263"/>
@@ -492,17 +516,22 @@
         <translation>잠금해제된 잔액</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="312"/>
+        <location filename="../LeftPanel.qml" line="314"/>
         <source>Send</source>
         <translation>전송</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="362"/>
+        <location filename="../LeftPanel.qml" line="339"/>
+        <source>Address Book</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
         <translation>수취</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="386"/>
+        <location filename="../LeftPanel.qml" line="388"/>
         <source>History</source>
         <translation>내역</translation>
     </message>
@@ -522,107 +551,110 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="313"/>
+        <location filename="../LeftPanel.qml" line="315"/>
         <source>S</source>
         <translation type="unfinished">S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="337"/>
         <source>Address book</source>
-        <translation>주소록</translation>
+        <translation type="vanished">주소록</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="338"/>
+        <location filename="../LeftPanel.qml" line="340"/>
         <source>B</source>
         <translation type="unfinished">B</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="363"/>
+        <location filename="../LeftPanel.qml" line="365"/>
         <source>R</source>
         <translation type="unfinished">R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="387"/>
+        <location filename="../LeftPanel.qml" line="389"/>
         <source>H</source>
         <translation type="unfinished">H</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="409"/>
+        <location filename="../LeftPanel.qml" line="411"/>
         <source>Advanced</source>
         <translation>고급</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="410"/>
+        <location filename="../LeftPanel.qml" line="412"/>
         <source>D</source>
         <translation type="unfinished">D</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="432"/>
+        <location filename="../LeftPanel.qml" line="434"/>
         <source>Mining</source>
         <translation>마이닝</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="433"/>
+        <location filename="../LeftPanel.qml" line="435"/>
         <source>M</source>
         <translation type="unfinished">M</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="456"/>
-        <source>Prove/check</source>
+        <location filename="../LeftPanel.qml" line="458"/>
+        <source>Prove/Check</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="479"/>
+        <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
+        <location filename="../LeftPanel.qml" line="482"/>
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="549"/>
+        <location filename="../LeftPanel.qml" line="506"/>
+        <source>Sign/Verify</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="550"/>
+        <location filename="../LeftPanel.qml" line="552"/>
         <source>Y</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="589"/>
+        <location filename="../LeftPanel.qml" line="602"/>
         <source>Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="598"/>
+        <location filename="../LeftPanel.qml" line="611"/>
         <source>Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="457"/>
+        <location filename="../LeftPanel.qml" line="459"/>
         <source>K</source>
         <translation type="unfinished">K</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="504"/>
         <source>Sign/verify</source>
-        <translation>서명/확인</translation>
+        <translation type="vanished">서명/확인</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="505"/>
+        <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
         <translation type="unfinished">I</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="527"/>
+        <location filename="../LeftPanel.qml" line="529"/>
         <source>Settings</source>
         <translation>환경설정</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="528"/>
+        <location filename="../LeftPanel.qml" line="530"/>
         <source>E</source>
         <translation type="unfinished">E</translation>
     </message>
@@ -669,14 +701,12 @@
 <context>
     <name>Mining</name>
     <message>
-        <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo mining</source>
-        <translation>개별 마이닝</translation>
+        <translation type="vanished">개별 마이닝</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="69"/>
         <source>(only available for local daemons)</source>
-        <translation>(로컬 데몬에서만 사용 가능)</translation>
+        <translation type="vanished">(로컬 데몬에서만 사용 가능)</translation>
     </message>
     <message>
         <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
@@ -688,9 +718,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU threads</source>
-        <translation>CPU 쓰레드</translation>
+        <translation type="vanished">CPU 쓰레드</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -698,9 +727,8 @@
         <translation>(선택 항목)</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="108"/>
         <source>Background mining (experimental)</source>
-        <translation>백그라운드 마이닝 (실험적 기능)</translation>
+        <translation type="vanished">백그라운드 마이닝 (실험적 기능)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="122"/>
@@ -708,14 +736,42 @@
         <translation>배터리로 구동시 마이닝 사용가능</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage miner</source>
-        <translation>마이닝 관리</translation>
+        <translation type="vanished">마이닝 관리</translation>
+    </message>
+    <message>
+        <source>Start mining</source>
+        <translation type="vanished">마이닝 시작</translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="62"/>
+        <source>Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="69"/>
+        <source>(Only available for local daemons)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="88"/>
+        <source>CPU Threads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="108"/>
+        <source>Background Mining (Experimental)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="130"/>
+        <source>Manage Miner</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
-        <source>Start mining</source>
-        <translation>마이닝 시작</translation>
+        <source>Start Mining</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
@@ -733,14 +789,27 @@
         <translation>마이닝은 로컬 데몬에서만 사용할 수 있습니다. 로컬 데몬을 실행하여 마이닝을 활성화합니다.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="162"/>
-        <source>Stop mining</source>
-        <translation>마이닝 중지</translation>
+        <location filename="../pages/Mining.qml" line="161"/>
+        <source>Stop Mining</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="173"/>
+        <location filename="../pages/Mining.qml" line="171"/>
+        <source>Status: Not Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="188"/>
+        <source>Not Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop mining</source>
+        <translation type="vanished">마이닝 중지</translation>
+    </message>
+    <message>
         <source>Status: not mining</source>
-        <translation>상태: 마이닝중이 아님</translation>
+        <translation type="vanished">상태: 마이닝중이 아님</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="185"/>
@@ -748,9 +817,8 @@
         <translation> %1 H/s 로 마이닝 중</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="188"/>
         <source>Not mining</source>
-        <translation>마이닝중이 아님</translation>
+        <translation type="vanished">마이닝중이 아님</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="190"/>
@@ -800,8 +868,12 @@
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
+        <source>Network Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Network status</source>
-        <translation>네트워크 상태</translation>
+        <translation type="vanished">네트워크 상태</translation>
     </message>
 </context>
 <context>
@@ -857,17 +929,17 @@
 <context>
     <name>PrivacyLevelSmall</name>
     <message>
-        <location filename="../components/PrivacyLevelSmall.qml" line="100"/>
+        <location filename="../components/PrivacyLevelSmall.qml" line="95"/>
         <source>Low</source>
         <translation>낮음</translation>
     </message>
     <message>
-        <location filename="../components/PrivacyLevelSmall.qml" line="109"/>
+        <location filename="../components/PrivacyLevelSmall.qml" line="104"/>
         <source>Medium</source>
         <translation>중간</translation>
     </message>
     <message>
-        <location filename="../components/PrivacyLevelSmall.qml" line="118"/>
+        <location filename="../components/PrivacyLevelSmall.qml" line="113"/>
         <source>High</source>
         <translation>높음</translation>
     </message>
@@ -912,9 +984,13 @@
         <translation type="vanished">잘못된 결제 아이디</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: no connection to daemon</source>
-        <translation>경고: 데몬에 연결되지 않았습니다.</translation>
+        <translation type="vanished">경고: 데몬에 연결되지 않았습니다.</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="81"/>
+        <source>WARNING: No connection to daemon</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
@@ -963,7 +1039,12 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="244"/>
-        <source>Create new address</source>
+        <source>Create New Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="331"/>
+        <source>Enable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -984,6 +1065,16 @@
     <message>
         <location filename="../pages/Receive.qml" line="261"/>
         <source>Set the label of the selected address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="307"/>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="312"/>
+        <source>Tracking Payments</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1022,27 +1113,21 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="307"/>
-        <source>help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Receive.qml" line="312"/>
         <source>Tracking payments</source>
-        <translation>결제 추적</translation>
+        <translation type="vanished">결제 추적</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="355"/>
+        <location filename="../pages/Receive.qml" line="360"/>
         <source>Save QrCode</source>
         <translation>Qr코드 저장</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="356"/>
+        <location filename="../pages/Receive.qml" line="361"/>
         <source>Failed to save QrCode to </source>
         <translation>Qr코드를 저장하지 못했습니다 </translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="367"/>
+        <location filename="../pages/Receive.qml" line="372"/>
         <source>Save As</source>
         <translation>다른 이름으로 저장</translation>
     </message>
@@ -1093,189 +1178,140 @@
 <context>
     <name>Settings</name>
     <message>
-        <location filename="../pages/Settings.qml" line="108"/>
         <source>Create view only wallet</source>
-        <translation>보기 전용 지갑 만들기</translation>
+        <translation type="vanished">보기 전용 지갑 만들기</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="380"/>
         <source>Show status</source>
-        <translation>상태 표시</translation>
+        <translation type="vanished">상태 표시</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="410"/>
-        <location filename="../pages/Settings.qml" line="450"/>
+        <location filename="../pages/Settings.qml" line="381"/>
         <source>(optional)</source>
         <translation>(선택 항목)</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="154"/>
         <source>Rescan wallet balance</source>
-        <translation>지갑 잔액 다시 스캔하기</translation>
+        <translation type="vanished">지갑 잔액 다시 스캔하기</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="159"/>
+        <location filename="../pages/Settings.qml" line="144"/>
         <source>Error: </source>
         <translation>오류: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="164"/>
+        <location filename="../pages/Settings.qml" line="149"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="205"/>
-        <source>Wallet mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="238"/>
-        <source>Bootstrap node</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="257"/>
-        <location filename="../pages/Settings.qml" line="289"/>
+        <location filename="../pages/Settings.qml" line="242"/>
+        <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
         <translation type="unfinished">주소</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="258"/>
-        <location filename="../pages/Settings.qml" line="290"/>
+        <location filename="../pages/Settings.qml" line="243"/>
+        <location filename="../pages/Settings.qml" line="275"/>
         <source>Port</source>
         <translation type="unfinished">포트</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="397"/>
         <source>Blockchain location</source>
-        <translation>블록체인 위치</translation>
+        <translation type="vanished">블록체인 위치</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="421"/>
-        <source>Change location</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="465"/>
+        <location filename="../pages/Settings.qml" line="436"/>
         <source>Username</source>
         <translation>사용자 이름</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="473"/>
+        <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
         <translation>암호</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="310"/>
+        <location filename="../pages/Settings.qml" line="295"/>
         <source>Connect</source>
         <translation>연결</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="484"/>
         <source>Layout settings</source>
-        <translation>레이아웃 설정</translation>
+        <translation type="vanished">레이아웃 설정</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="505"/>
         <source>Custom decorations</source>
-        <translation>사용자 설정 디자인</translation>
+        <translation type="vanished">사용자 설정 디자인</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="515"/>
         <source>Log level</source>
-        <translation>로그 레벨</translation>
+        <translation type="vanished">로그 레벨</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="590"/>
+        <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
         <translation>(예: *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="165"/>
+        <location filename="../pages/Settings.qml" line="150"/>
         <source>Successfully rescanned spent outputs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="180"/>
-        <source>Change password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="215"/>
+        <location filename="../pages/Settings.qml" line="198"/>
         <source>Local Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="226"/>
+        <location filename="../pages/Settings.qml" line="209"/>
         <source>Remote Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="332"/>
+        <location filename="../pages/Settings.qml" line="223"/>
+        <source>Bootstrap Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="315"/>
         <source>Manage Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="436"/>
-        <source>Show advanced</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="355"/>
+        <location filename="../pages/Settings.qml" line="326"/>
         <source>Start Local Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="370"/>
+        <location filename="../pages/Settings.qml" line="341"/>
         <source>Stop Local Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="448"/>
-        <source>Local daemon startup flags</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="606"/>
-        <source>Debug info</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="628"/>
         <source>GUI version: </source>
-        <translation>GUI 버전:</translation>
+        <translation type="vanished">GUI 버전:</translation>
     </message>
     <message>
         <source>Embedded Monero version: </source>
         <translation type="vanished">임베디드 모네로 버전:</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="641"/>
-        <source>Wallet creation height: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="634"/>
-        <source>Embedded Loki version: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="642"/>
+        <location filename="../pages/Settings.qml" line="573"/>
         <source> &lt;a href=&apos;#&apos;&gt;(Click To Change)&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="669"/>
+        <location filename="../pages/Settings.qml" line="600"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="678"/>
+        <location filename="../pages/Settings.qml" line="609"/>
         <source>Rescan wallet cache</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="679"/>
+        <location filename="../pages/Settings.qml" line="610"/>
         <source>Are you sure you want to rebuild the wallet cache?
 The following information will be deleted
 - Recipient addresses
@@ -1287,221 +1323,334 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="708"/>
-        <source>Wallet log path: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="713"/>
+        <location filename="../pages/Settings.qml" line="644"/>
         <source>Wallet Name: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="718"/>
-        <source>Daemon log path: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="727"/>
         <source>Daemon log</source>
-        <translation>데몬 로그</translation>
+        <translation type="vanished">데몬 로그</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="736"/>
+        <location filename="../pages/Settings.qml" line="667"/>
         <source>Please choose a folder</source>
         <translation>폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="746"/>
+        <location filename="../pages/Settings.qml" line="677"/>
         <source>Warning</source>
         <translation>경고</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="749"/>
+        <location filename="../pages/Settings.qml" line="680"/>
         <source>Error: Filesystem is read only</source>
         <translation>오류: 해당 파일시스템은 읽기전용입니다</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="753"/>
+        <location filename="../pages/Settings.qml" line="684"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>경고 : 해당장치에 사용 가능한 공간은 %1 GB뿐입니다. 블록체인에는 ~ %2 GB의 데이터가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="755"/>
+        <location filename="../pages/Settings.qml" line="686"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>참고: %1 GB의 장치를 사용할 수 있습니다. 블록체인에는 ~ %2 GB의 데이터가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="759"/>
+        <location filename="../pages/Settings.qml" line="690"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
         <translation>참고: lmdb 폴더를 찾을 수 없습니다. 새 폴더가 생성됩니다.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="687"/>
-        <location filename="../pages/Settings.qml" line="763"/>
+        <location filename="../pages/Settings.qml" line="618"/>
+        <location filename="../pages/Settings.qml" line="694"/>
         <source>Cancel</source>
         <translation>취소</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="158"/>
-        <location filename="../pages/Settings.qml" line="186"/>
+        <location filename="../pages/Settings.qml" line="72"/>
+        <source>Manage Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="81"/>
+        <source>Close Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="93"/>
+        <source>Create View Only Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="139"/>
+        <source>Rescan Wallet Balance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="143"/>
+        <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="187"/>
+        <location filename="../pages/Settings.qml" line="165"/>
+        <source>Change Password</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="172"/>
         <source>Wrong password</source>
         <translation>잘못된 암호</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="75"/>
-        <source>Manage wallet</source>
-        <translation>지갑 관리</translation>
+        <location filename="../pages/Settings.qml" line="190"/>
+        <source>Daemon Mode</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="96"/>
+        <location filename="../pages/Settings.qml" line="351"/>
+        <source>Show Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="368"/>
+        <source>Blockchain Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="392"/>
+        <source>Change Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="407"/>
+        <source>Show Advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="419"/>
+        <source>Local Daemon Startup Flags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="421"/>
+        <source>(Optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="454"/>
+        <source>Layout Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="463"/>
+        <source>Custom Decorations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="471"/>
+        <source>Log Level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="549"/>
+        <source>Debug Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="559"/>
+        <source>GUI Version: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="565"/>
+        <source>Embedded Loki Version: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="572"/>
+        <source>Wallet Creation Height: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="639"/>
+        <source>Wallet Log Path: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="649"/>
+        <source>Daemon Log Path: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="658"/>
+        <source>Daemon Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Manage wallet</source>
+        <translation type="vanished">지갑 관리</translation>
+    </message>
+    <message>
         <source>Close wallet</source>
-        <translation>지갑 닫기</translation>
+        <translation type="vanished">지갑 닫기</translation>
     </message>
 </context>
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="90"/>
-        <source>This page allows you to interact with the shared ring database.&lt;br&gt;This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="100"/>
-        <location filename="../pages/SharedRingDB.qml" line="106"/>
-        <source>Blackballed outputs</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="100"/>
-        <location filename="../pages/SharedRingDB.qml" line="224"/>
-        <source>help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="101"/>
-        <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="102"/>
+        <location filename="../pages/SharedRingDB.qml" line="133"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="107"/>
-        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="130"/>
+        <location filename="../pages/SharedRingDB.qml" line="145"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="142"/>
         <source>Select</source>
-        <translation type="unfinished">선택</translation>
+        <translation type="obsolete">선택</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="154"/>
-        <source>Filename with outputs to blackball</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="171"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Load</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="180"/>
-        <source>Or manually blackball or unblackball a single output:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="188"/>
+        <location filename="../pages/SharedRingDB.qml" line="204"/>
         <source>Paste output public key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="218"/>
         <source>Blackball</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="214"/>
+        <location filename="../pages/SharedRingDB.qml" line="227"/>
         <source>Unblackball</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="224"/>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="240"/>
+        <location filename="../pages/SharedRingDB.qml" line="242"/>
         <source>Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="225"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="230"/>
+        <location filename="../pages/SharedRingDB.qml" line="243"/>
         <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="253"/>
+        <location filename="../pages/SharedRingDB.qml" line="265"/>
+        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="277"/>
         <source>Paste key image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="272"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
+        <location filename="../pages/SharedRingDB.qml" line="309"/>
         <source>Get Ring</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="315"/>
         <source>No ring found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="290"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="310"/>
+        <location filename="../pages/SharedRingDB.qml" line="390"/>
         <source>Relative</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/SharedRingDB.qml" line="332"/>
+        <location filename="../pages/SharedRingDB.qml" line="344"/>
         <source>Set Ring</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="344"/>
+        <location filename="../pages/SharedRingDB.qml" line="94"/>
+        <source>Shared RingDB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="98"/>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="111"/>
+        <location filename="../pages/SharedRingDB.qml" line="113"/>
+        <source>Blackballed Outputs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="111"/>
+        <location filename="../pages/SharedRingDB.qml" line="240"/>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="114"/>
+        <source>&lt;p&gt;In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="132"/>
+        <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="161"/>
+        <source>Path to file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <source>Filename With Outputs To Blackball</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="176"/>
+        <source>Browse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="203"/>
+        <source>Or Manually Blackball/Unblackball A Single Output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="276"/>
+        <source>Key Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="362"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="357"/>
+        <location filename="../pages/SharedRingDB.qml" line="376"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="376"/>
-        <source>Segregation height:</source>
+        <location filename="../pages/SharedRingDB.qml" line="406"/>
+        <source>Segregation Height</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1564,27 +1713,17 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="170"/>
-        <location filename="../pages/Sign.qml" line="263"/>
+        <location filename="../pages/Sign.qml" line="261"/>
         <source>Browse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="222"/>
-        <source>Verify message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Sign.qml" line="249"/>
-        <source>Verify file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Sign.qml" line="291"/>
+        <location filename="../pages/Sign.qml" line="289"/>
         <source>Address</source>
         <translation type="unfinished">주소</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="320"/>
+        <location filename="../pages/Sign.qml" line="313"/>
         <source>Please choose a file to sign</source>
         <translation>서명할 파일을 선택하세요</translation>
     </message>
@@ -1593,14 +1732,24 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">선택</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="212"/>
-        <location filename="../pages/Sign.qml" line="235"/>
-        <location filename="../pages/Sign.qml" line="275"/>
+        <location filename="../pages/Sign.qml" line="210"/>
+        <location filename="../pages/Sign.qml" line="233"/>
+        <location filename="../pages/Sign.qml" line="273"/>
         <source>Verify</source>
         <translation>확인</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="331"/>
+        <location filename="../pages/Sign.qml" line="220"/>
+        <source>Verify Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="247"/>
+        <source>Verify File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="324"/>
         <source>Please choose a file to verify</source>
         <translation>확인할 파일을 선택하세요</translation>
     </message>
@@ -1613,10 +1762,10 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">서명할 메시지가 있는 파일 이름</translation>
     </message>
     <message>
+        <location filename="../pages/Sign.qml" line="198"/>
         <location filename="../pages/Sign.qml" line="199"/>
-        <location filename="../pages/Sign.qml" line="200"/>
-        <location filename="../pages/Sign.qml" line="305"/>
-        <location filename="../pages/Sign.qml" line="310"/>
+        <location filename="../pages/Sign.qml" line="301"/>
+        <location filename="../pages/Sign.qml" line="303"/>
         <source>Signature</source>
         <translation>서명</translation>
     </message>
@@ -1625,12 +1774,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">메시지나 파일의 서명을 주소로부터 확인합니다</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="223"/>
+        <location filename="../pages/Sign.qml" line="221"/>
         <source>Message to verify</source>
         <translation>확인할 메시지</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="250"/>
+        <location filename="../pages/Sign.qml" line="248"/>
         <source>Filename with message to verify</source>
         <translation>확인할 메시지가 있는 파일 이름</translation>
     </message>
@@ -1661,52 +1810,52 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>StandardDropdown</name>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="163"/>
+        <location filename="../components/StandardDropdown.qml" line="168"/>
         <source>Low (x1 fee)</source>
         <translation>낮은 (x1 보상)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="164"/>
+        <location filename="../components/StandardDropdown.qml" line="169"/>
         <source>Medium (x20 fee)</source>
         <translation>중간 (x20 보상)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="165"/>
+        <location filename="../components/StandardDropdown.qml" line="170"/>
         <source>High (x166 fee)</source>
         <translation>높음 (x166 수수료)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="166"/>
+        <location filename="../components/StandardDropdown.qml" line="171"/>
         <source>Slow (x0.25 fee)</source>
         <translation>느림 (x0.25 수수료)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="167"/>
+        <location filename="../components/StandardDropdown.qml" line="172"/>
         <source>Default (x1 fee)</source>
         <translation>기본 (x1 수수료)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="168"/>
+        <location filename="../components/StandardDropdown.qml" line="173"/>
         <source>Fast (x5 fee)</source>
         <translation>빠름 (x5 수수료)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="169"/>
+        <location filename="../components/StandardDropdown.qml" line="174"/>
         <source>Fastest (x41.5 fee)</source>
         <translation>가장 빠름 (x41.5 수수료)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="170"/>
+        <location filename="../components/StandardDropdown.qml" line="175"/>
         <source>All</source>
         <translation>전부</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="171"/>
+        <location filename="../components/StandardDropdown.qml" line="176"/>
         <source>Sent</source>
         <translation>전송됨</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="172"/>
+        <location filename="../components/StandardDropdown.qml" line="177"/>
         <source>Received</source>
         <translation>받음</translation>
     </message>
@@ -1781,113 +1930,95 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>Transfer</name>
     <message>
-        <location filename="../pages/Transfer.qml" line="71"/>
+        <location filename="../pages/Transfer.qml" line="65"/>
         <source>OpenAlias error</source>
         <translation>Open Alias 오류</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="83"/>
         <source>Privacy level (ringsize %1)</source>
-        <translation>개인정보 보호 수준 (링 사이즈 %1)</translation>
+        <translation type="vanished">개인정보 보호 수준 (링 사이즈 %1)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="190"/>
+        <location filename="../pages/Transfer.qml" line="176"/>
         <source>Amount</source>
         <translation>금액</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="213"/>
         <source>Transaction priority</source>
-        <translation>거래 우선순위</translation>
+        <translation type="vanished">거래 우선순위</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="194"/>
+        <location filename="../pages/Transfer.qml" line="180"/>
         <source>All</source>
         <translation>전부</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="299"/>
+        <location filename="../pages/Transfer.qml" line="283"/>
         <source>QR Code</source>
         <translation>QR 코드</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="261"/>
+        <location filename="../pages/Transfer.qml" line="245"/>
         <source>Resolve</source>
         <translation>문제해결</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="47"/>
-        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt;(Start Daemon)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="157"/>
+        <location filename="../pages/Transfer.qml" line="143"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="228"/>
+        <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="230"/>
+        <location filename="../pages/Transfer.qml" line="216"/>
         <source>Normal (x1 fee)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="258"/>
-        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="276"/>
+        <location filename="../pages/Transfer.qml" line="260"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>이 Open Alias 주소에 유효한 주소가 없습니다</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="281"/>
+        <location filename="../pages/Transfer.qml" line="265"/>
         <source>Address found, but the DNSSEC signatures could not be verified, so this address may be spoofed</source>
         <translation>주소가 발견되었으나 DNSSEC 서명이 확인되지 않습니다. 이 주소는 스푸핑(spoof)되었을 수 있습니다</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="283"/>
+        <location filename="../pages/Transfer.qml" line="267"/>
         <source>No valid address found at this OpenAlias address, but the DNSSEC signatures could not be verified, so this may be spoofed</source>
         <translation>이 Open Alias 주소에서 유효한 주소 또는 DNSSEC 서명을 확인할 수 없습니다. 이 주소는 스푸핑(spoof)되었을 수 있습니다</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="286"/>
-        <location filename="../pages/Transfer.qml" line="289"/>
+        <location filename="../pages/Transfer.qml" line="270"/>
+        <location filename="../pages/Transfer.qml" line="273"/>
         <source>Internal error</source>
         <translation>내부 오류</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="292"/>
+        <location filename="../pages/Transfer.qml" line="276"/>
         <source>No address found</source>
         <translation>주소를 찾을 수 없음</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="324"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation>설명 &lt;font size=&apos;2&apos;&gt;( 선택 사항 )&lt;/font&gt;</translation>
+        <translation type="vanished">설명 &lt;font size=&apos;2&apos;&gt;( 선택 사항 )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="325"/>
+        <location filename="../pages/Transfer.qml" line="309"/>
         <source>Saved to local wallet history</source>
         <translation>로컬 지갑 기록에 저장됨</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="335"/>
+        <location filename="../pages/Transfer.qml" line="320"/>
         <source>Send</source>
         <translation>전송</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="418"/>
-        <source>Advanced options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="607"/>
+        <location filename="../pages/Transfer.qml" line="550"/>
         <source>Loki sent successfully</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1896,75 +2027,122 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">고급 옵션 표시</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="477"/>
+        <location filename="../pages/Transfer.qml" line="421"/>
         <source>Sweep Unmixable</source>
         <translation>혼합 불가능한 스윕</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="488"/>
         <source>Create tx file</source>
-        <translation>거래 파일 만들기</translation>
+        <translation type="vanished">거래 파일 만들기</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="507"/>
         <source>Sign tx file</source>
-        <translation>거래 파일 서명</translation>
+        <translation type="vanished">거래 파일 서명</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="518"/>
         <source>Submit tx file</source>
-        <translation>거래 파일 제출</translation>
+        <translation type="vanished">거래 파일 제출</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="544"/>
-        <location filename="../pages/Transfer.qml" line="600"/>
+        <location filename="../pages/Transfer.qml" line="47"/>
+        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt; (Start Daemon)&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="199"/>
+        <source>Transaction Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="244"/>
+        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt; Address &lt;a href=&apos;#&apos;&gt;(Address Book)&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="299"/>
+        <source>Payment ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
+        <translation type="unfinished">결제 신분증 &lt;font size=&apos;2&apos;&gt;(선택 항목)&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="308"/>
+        <source>Description &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
+        <translation type="unfinished">설명 &lt;font size=&apos;2&apos;&gt;(선택 항목)&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="403"/>
+        <source>Advanced Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="432"/>
+        <source>Create TX File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="450"/>
+        <source>Sign TX File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="461"/>
+        <source>Submit TX File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="487"/>
+        <location filename="../pages/Transfer.qml" line="543"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="552"/>
+        <location filename="../pages/Transfer.qml" line="495"/>
         <source>
 Number of transactions: </source>
         <translation>거래 횟수: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="554"/>
+        <location filename="../pages/Transfer.qml" line="497"/>
         <source>
 Transaction #%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="555"/>
+        <location filename="../pages/Transfer.qml" line="498"/>
         <source>
 Recipient: </source>
         <translation>수신자: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="556"/>
+        <location filename="../pages/Transfer.qml" line="499"/>
         <source>
 payment ID: </source>
         <translation>결제 신분증: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="557"/>
+        <location filename="../pages/Transfer.qml" line="500"/>
         <source>
 Amount: </source>
         <translation>금액: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="559"/>
+        <location filename="../pages/Transfer.qml" line="502"/>
         <source>
 Ringsize: </source>
         <translation>반지 사이즈:</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="606"/>
+        <location filename="../pages/Transfer.qml" line="549"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="533"/>
-        <location filename="../pages/Transfer.qml" line="594"/>
+        <location filename="../pages/Transfer.qml" line="586"/>
+        <source>Wallet is not connected to daemon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="476"/>
+        <location filename="../pages/Transfer.qml" line="537"/>
         <source>Please choose a file</source>
         <translation>파일을 선택하세요</translation>
     </message>
@@ -1977,23 +2155,23 @@ Ringsize: </source>
         <translation type="obsolete">주소</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="545"/>
+        <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
         <translation>서명되지 않은 거래를 불러올 수 없습니다: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="558"/>
+        <location filename="../pages/Transfer.qml" line="501"/>
         <source>
 Fee: </source>
         <translation>수수료:</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="573"/>
+        <location filename="../pages/Transfer.qml" line="516"/>
         <source>Confirmation</source>
         <translation>확인</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="601"/>
+        <location filename="../pages/Transfer.qml" line="544"/>
         <source>Can&apos;t submit transaction: </source>
         <translation>거래를 전송할 수 없습니다:</translation>
     </message>
@@ -2002,19 +2180,18 @@ Fee: </source>
         <translation type="vanished">송금 완료</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="646"/>
-        <location filename="../pages/Transfer.qml" line="658"/>
+        <location filename="../pages/Transfer.qml" line="598"/>
         <source>Wallet is not connected to daemon.</source>
         <translation>지갑이 데몬에 연결되어있지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="661"/>
+        <location filename="../pages/Transfer.qml" line="601"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
         <translation>연결된 데몬은 GUI와 호환되지 않습니다. 다른 데몬으로 업그레이드하거나 연결하세요.</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="666"/>
+        <location filename="../pages/Transfer.qml" line="606"/>
         <source>Waiting on daemon synchronization to finish</source>
         <translation>데몬 동기화가 완료 될 때까지 기다림</translation>
     </message>
@@ -2024,17 +2201,15 @@ Please upgrade or connect to another daemon</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="445"/>
         <source>Transaction cost</source>
-        <translation>거래 비용</translation>
+        <translation type="vanished">거래 비용</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="315"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation>결제 신분증 &lt;font size=&apos;2&apos;&gt;( 선택 사항 )&lt;/font&gt;</translation>
+        <translation type="vanished">결제 신분증 &lt;font size=&apos;2&apos;&gt;( 선택 사항 )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="229"/>
+        <location filename="../pages/Transfer.qml" line="215"/>
         <source>Slow (x0.25 fee)</source>
         <translation>느린 (x0.25 수수료)</translation>
     </message>
@@ -2043,17 +2218,17 @@ Please upgrade or connect to another daemon</source>
         <translation type="vanished">디폴트 (x1 수수료)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="231"/>
+        <location filename="../pages/Transfer.qml" line="217"/>
         <source>Fast (x5 fee)</source>
         <translation>빠른 (x5 수수료)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="232"/>
+        <location filename="../pages/Transfer.qml" line="218"/>
         <source>Fastest (x41.5 fee)</source>
         <translation>가장 빠른 (x41.5 수수료)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="316"/>
+        <location filename="../pages/Transfer.qml" line="300"/>
         <source>16 or 64 hexadecimal characters</source>
         <translation>16 또는 64 자의 16 진수</translation>
     </message>
@@ -2061,13 +2236,13 @@ Please upgrade or connect to another daemon</source>
 <context>
     <name>TxKey</name>
     <message>
-        <location filename="../pages/TxKey.qml" line="229"/>
+        <location filename="../pages/TxKey.qml" line="231"/>
         <source>If a payment had several transactions then each must be checked and the results combined.</source>
         <translation>결제에 여러 거래가있는 경우 각각을 점검하고 결과를 결합해야합니다.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="95"/>
-        <location filename="../pages/TxKey.qml" line="170"/>
+        <location filename="../pages/TxKey.qml" line="171"/>
         <source>Address</source>
         <translation>주소</translation>
     </message>
@@ -2083,63 +2258,67 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../pages/TxKey.qml" line="85"/>
+        <location filename="../pages/TxKey.qml" line="160"/>
+        <source>Paste TX ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/TxKey.qml" line="97"/>
-        <location filename="../pages/TxKey.qml" line="172"/>
+        <location filename="../pages/TxKey.qml" line="173"/>
         <source>Recipient&apos;s wallet address</source>
         <translation>수취인의 지갑 주소</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="108"/>
-        <location filename="../pages/TxKey.qml" line="184"/>
+        <location filename="../pages/TxKey.qml" line="185"/>
         <source>Message</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="109"/>
-        <location filename="../pages/TxKey.qml" line="185"/>
+        <location filename="../pages/TxKey.qml" line="186"/>
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="121"/>
+        <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
         <translation type="unfinished">생성</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="141"/>
+        <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="145"/>
+        <location filename="../pages/TxKey.qml" line="146"/>
         <source>Verify that funds were paid to an address by supplying the transaction ID, the recipient address, the message used for signing and the signature.
 For the case with Spend Proof, you don&apos;t need to specify the recipient address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="197"/>
+        <location filename="../pages/TxKey.qml" line="198"/>
         <source>Signature</source>
         <translation type="unfinished">서명</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="198"/>
-        <source>Paste tx proof</source>
+        <location filename="../pages/TxKey.qml" line="199"/>
+        <source>Paste TX proof</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="82"/>
-        <location filename="../pages/TxKey.qml" line="157"/>
+        <location filename="../pages/TxKey.qml" line="158"/>
         <source>Transaction ID</source>
         <translation>거래 아이디</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="85"/>
-        <location filename="../pages/TxKey.qml" line="159"/>
         <source>Paste tx ID</source>
-        <translation>거래 아이디 붙여넣기</translation>
+        <translation type="vanished">거래 아이디 붙여넣기</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="210"/>
+        <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>검사</translation>
     </message>
@@ -2209,40 +2388,48 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardCreateWallet</name>
     <message>
-        <location filename="../wizard/WizardCreateWallet.qml" line="101"/>
         <source>Create a new wallet</source>
-        <translation>새 지갑 만들기</translation>
+        <translation type="vanished">새 지갑 만들기</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
+        <source>Create A New Wallet</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="115"/>
-        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run an own node there&apos;s an option to connect to a remote node.</source>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="127"/>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="125"/>
         <source>Start a node automatically in background (recommended)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="149"/>
-        <source>Blockchain location</source>
-        <translation type="unfinished">블록체인 위치</translation>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="146"/>
+        <source>Blockchain Location</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="160"/>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="177"/>
+        <source>Bootstrap Node (Leave blank if not desired)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Blockchain location</source>
+        <translation type="obsolete">블록체인 위치</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="157"/>
         <source>(optional)</source>
         <translation type="unfinished">(선택 항목)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="184"/>
-        <source>Bootstrap node (leave blank if not wanted)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="211"/>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="207"/>
         <source>Connect to a remote node</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2270,7 +2457,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="163"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 LOK and add a 0.0025 LOK to support Loki development.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2295,87 +2482,91 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardFinish</name>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="51"/>
-        <location filename="../wizard/WizardFinish.qml" line="54"/>
+        <location filename="../wizard/WizardFinish.qml" line="52"/>
+        <location filename="../wizard/WizardFinish.qml" line="55"/>
         <source>Enabled</source>
         <translation>활성화됨</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="51"/>
-        <location filename="../wizard/WizardFinish.qml" line="54"/>
+        <location filename="../wizard/WizardFinish.qml" line="52"/>
+        <location filename="../wizard/WizardFinish.qml" line="55"/>
         <source>Disabled</source>
         <translation>비활성화됨</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="56"/>
+        <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Stagenet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="56"/>
+        <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Mainnet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="60"/>
+        <location filename="../wizard/WizardFinish.qml" line="67"/>
         <source>Language</source>
         <translation>언어</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="61"/>
+        <location filename="../wizard/WizardFinish.qml" line="68"/>
         <source>Wallet name</source>
         <translation>지갑 이름</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="64"/>
+        <location filename="../wizard/WizardFinish.qml" line="71"/>
         <source>Backup seed</source>
         <translation>백업 시드</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="65"/>
+        <location filename="../wizard/WizardFinish.qml" line="72"/>
         <source>Wallet path</source>
         <translation>지갑 경로</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="71"/>
+        <location filename="../wizard/WizardFinish.qml" line="78"/>
         <source>Daemon address</source>
         <translation>데몬 주소</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="56"/>
+        <location filename="../wizard/WizardFinish.qml" line="138"/>
+        <source>You’re All Set Up!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
         <translation>테스트넷</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="72"/>
+        <location filename="../wizard/WizardFinish.qml" line="79"/>
         <source>Network Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="74"/>
+        <location filename="../wizard/WizardFinish.qml" line="81"/>
         <source>Restore height</source>
         <translation>높이 복원</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="82"/>
+        <location filename="../wizard/WizardFinish.qml" line="89"/>
         <source>New wallet details:</source>
         <translation>새 지갑 세부정보:</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="86"/>
+        <location filename="../wizard/WizardFinish.qml" line="93"/>
         <source>Don&apos;t forget to write down your seed. You can view your seed and change your settings on settings page.</source>
         <translation>당신의 시드(seed)를 적어두는 것을 잊지 마십시오. 환경설정 페이지에서 시드를 확인하고 설정을 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="132"/>
         <source>You’re all set up!</source>
-        <translation>이제 모든 준비를 끝마쳤습니다!</translation>
+        <translation type="vanished">이제 모든 준비를 끝마쳤습니다!</translation>
     </message>
 </context>
 <context>
     <name>WizardMain</name>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="184"/>
+        <location filename="../wizard/WizardMain.qml" line="181"/>
         <source>A wallet with same name already exists. Please change wallet name</source>
         <translation>같은 이름의 지갑이 이미 존재합니다. 지갑 이름을 변경하세요.</translation>
     </message>
@@ -2388,34 +2579,34 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">모네로 사용하기</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="368"/>
+        <location filename="../wizard/WizardMain.qml" line="365"/>
         <source>USE LOKI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="381"/>
+        <location filename="../wizard/WizardMain.qml" line="378"/>
         <source>Create wallet</source>
         <translation>지갑 만들기</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="387"/>
+        <location filename="../wizard/WizardMain.qml" line="384"/>
         <source>Success</source>
         <translation>성공</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="388"/>
+        <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
         <translation>보기 전용 지갑이 생성되었습니다. 해당 지갑을 열기 위해서는 현재 지갑을 닫고 &quot;파일에서 지갑 열기&quot;를 클릭한 후 보기 전용 지갑을 선택하십시오:
 %1</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="396"/>
+        <location filename="../wizard/WizardMain.qml" line="393"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="409"/>
+        <location filename="../wizard/WizardMain.qml" line="406"/>
         <source>Abort</source>
         <translation>중단</translation>
     </message>
@@ -2423,52 +2614,64 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardManageWalletUI</name>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="161"/>
         <source>Wallet name</source>
-        <translation>지갑 이름</translation>
+        <translation type="vanished">지갑 이름</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="185"/>
         <source>Restore from seed</source>
-        <translation>시드(seed)에서 복원</translation>
+        <translation type="vanished">시드(seed)에서 복원</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="195"/>
         <source>Restore from keys</source>
-        <translation>키에서 복원</translation>
+        <translation type="vanished">키에서 복원</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="205"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
+        <source>Wallet Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
+        <source>Restore From Seed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
+        <source>Restore From Keys</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="243"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="237"/>
         <source>Account address (public)</source>
         <translation>계정 주소 (공개)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="259"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="248"/>
         <source>View key (private)</source>
         <translation>보기 키 (비공개)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="276"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="259"/>
         <source>Spend key (private)</source>
         <translation>결제 키 (비공개)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="296"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="273"/>
         <source>Restore height (optional)</source>
         <translation>블록 높이 복원 (선택 항목)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="316"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="288"/>
         <source>Your wallet is stored in</source>
         <translation>당신의 지갑은 다음 위치에 저장되었습니다: </translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="346"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="314"/>
         <source>Please choose a directory</source>
         <translation>디렉토리를 선택하세요</translation>
     </message>
@@ -2480,17 +2683,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">귀하의 25 단어 니모닉 시드을 입력하세요</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMemoTextInput.qml" line="45"/>
+        <location filename="../wizard/WizardMemoTextInput.qml" line="47"/>
         <source>Enter your 25 (or 24) word mnemonic seed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMemoTextInput.qml" line="65"/>
+        <location filename="../wizard/WizardMemoTextInput.qml" line="73"/>
         <source>Seed copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMemoTextInput.qml" line="93"/>
+        <location filename="../wizard/WizardMemoTextInput.qml" line="106"/>
         <source>This seed is &lt;b&gt;very&lt;/b&gt; important to write down and keep secret. It is all you need to backup and restore your wallet.</source>
         <translation> 지갑의 백업 및 복원에 필요한 유일한 정보인 이 시드를 받아 적어, 보안이 되는 안전한 장소에 보관 하는것은 &lt;b&gt;매우 &lt;/b&gt; 중요합니다.</translation>
     </message>
@@ -2502,37 +2705,41 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">모네로에 오신 것을 환영합니다!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Loki!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardOptions.qml" line="87"/>
+        <location filename="../wizard/WizardOptions.qml" line="85"/>
         <source>Please select one of the following options:</source>
         <translation>다음 옵션 중 하나를 선택하세요:</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="143"/>
         <source>Create a new wallet</source>
-        <translation>새 지갑 만들기</translation>
+        <translation type="vanished">새 지갑 만들기</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="184"/>
+        <location filename="../wizard/WizardOptions.qml" line="75"/>
+        <source>Welcome To Loki!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="139"/>
+        <source>Create A New Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
         <translation>니모닉 시드 또는 개인 키에서 지갑을 복원</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="227"/>
+        <location filename="../wizard/WizardOptions.qml" line="222"/>
         <source>Open a wallet from file</source>
         <translation>파일에서 지갑 열기</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="248"/>
+        <location filename="../wizard/WizardOptions.qml" line="239"/>
         <source>Testnet</source>
         <translation>테스트넷</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="267"/>
+        <location filename="../wizard/WizardOptions.qml" line="254"/>
         <source>Stagenet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2540,22 +2747,25 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardPassword</name>
     <message>
-        <location filename="../wizard/WizardPassword.qml" line="58"/>
-        <location filename="../wizard/WizardPassword.qml" line="60"/>
         <source>Give your wallet a password</source>
-        <translation>지갑의 비밀번호를 설정하세요</translation>
+        <translation type="vanished">지갑의 비밀번호를 설정하세요</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardPassword.qml" line="127"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
+        <translation type="obsolete"> &lt;br&gt;참고: 이 암호는 복구 될 수 없으며, 지갑분실시 25 단어 니모닉 시드에서 지갑을 복원해야합니다.&lt;br/&gt;&lt;br/&gt;
+                        &lt;b&gt;강력한 비밀번호를 입력하세요&lt;/b&gt; (문자, 숫자 및 기호 사용):</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardPassword.qml" line="56"/>
+        <source>Give Your Wallet A Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
-        <translation type="vanished"> &lt;br&gt;참고: 이 암호는 복구 될 수 없으며, 지갑분실시 25 단어 니모닉 시드에서 지갑을 복원해야합니다.&lt;br/&gt;&lt;br/&gt;
-                        &lt;b&gt;강력한 비밀번호를 입력하세요&lt;/b&gt; (문자, 숫자 및 기호 사용):</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2574,9 +2784,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardRecoveryWallet</name>
     <message>
-        <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore wallet</source>
-        <translation>지갑 복원</translation>
+        <translation type="vanished">지갑 복원</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
+        <source>Restore Wallet</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2586,12 +2800,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">모네로에 오신 것을 환영합니다!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardWelcome.qml" line="74"/>
-        <source>Welcome to Loki!</source>
+        <location filename="../wizard/WizardWelcome.qml" line="72"/>
+        <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardWelcome.qml" line="84"/>
+        <location filename="../wizard/WizardWelcome.qml" line="81"/>
         <source>Please choose a language and regional format.</source>
         <translation>언어와 지역 포맷을 선택하세요.</translation>
     </message>
@@ -2607,17 +2821,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../main.qml" line="284"/>
         <location filename="../main.qml" line="387"/>
-        <location filename="../main.qml" line="591"/>
-        <location filename="../main.qml" line="603"/>
-        <location filename="../main.qml" line="659"/>
-        <location filename="../main.qml" line="671"/>
-        <location filename="../main.qml" line="713"/>
-        <location filename="../main.qml" line="722"/>
-        <location filename="../main.qml" line="774"/>
-        <location filename="../main.qml" line="872"/>
-        <location filename="../main.qml" line="1074"/>
-        <location filename="../main.qml" line="1219"/>
-        <location filename="../main.qml" line="1421"/>
+        <location filename="../main.qml" line="594"/>
+        <location filename="../main.qml" line="606"/>
+        <location filename="../main.qml" line="658"/>
+        <location filename="../main.qml" line="670"/>
+        <location filename="../main.qml" line="712"/>
+        <location filename="../main.qml" line="721"/>
+        <location filename="../main.qml" line="773"/>
+        <location filename="../main.qml" line="871"/>
+        <location filename="../main.qml" line="1071"/>
+        <location filename="../main.qml" line="1216"/>
+        <location filename="../main.qml" line="1417"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
@@ -2643,63 +2857,83 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>잠금해제된 잔액</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="499"/>
+        <location filename="../main.qml" line="502"/>
         <source>Waiting for daemon to start...</source>
         <translation>데몬 시작까지 기다리는 중...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="505"/>
+        <location filename="../main.qml" line="508"/>
         <source>Waiting for daemon to stop...</source>
         <translation>데몬 종료까지 기다리는 중...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="530"/>
+        <location filename="../main.qml" line="533"/>
         <source>Daemon failed to start</source>
         <translation>데몬 시작에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="531"/>
+        <location filename="../main.qml" line="534"/>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
         <translation>지갑과 데몬 로그에서 오류를 확인하십시오. 수동으로 %1을 시작할 수도 있습니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="593"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
-        <translation>잘못된 데몬 버전으로 거래를 만들 수 없습니다: </translation>
+        <translation type="vanished">잘못된 데몬 버전으로 거래를 만들 수 없습니다: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="595"/>
-        <location filename="../main.qml" line="714"/>
+        <location filename="../main.qml" line="713"/>
         <source>Can&apos;t create transaction: </source>
         <translation>거래를 만들 수 없습니다:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="604"/>
-        <location filename="../main.qml" line="723"/>
+        <location filename="../main.qml" line="607"/>
+        <location filename="../main.qml" line="722"/>
         <source>No unmixable outputs to sweep</source>
         <translation>스윕처리할 비혼합 아웃풋 없습니다</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="735"/>
+        <location filename="../main.qml" line="624"/>
+        <source>
+
+Number Of Transactions: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="627"/>
+        <source>
+Spending Address Index: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="659"/>
+        <source>Amount Is Wrong: Expected number from %1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="671"/>
+        <source>Insufficient Funds. Unlocked balance: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="734"/>
         <source>Confirmation</source>
         <translation>확인</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="615"/>
-        <location filename="../main.qml" line="736"/>
+        <location filename="../main.qml" line="735"/>
         <source>Please confirm transaction:
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="618"/>
+        <location filename="../main.qml" line="621"/>
         <source>
 Payment ID: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="620"/>
-        <location filename="../main.qml" line="738"/>
+        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="737"/>
         <source>
 Fee: </source>
         <translation type="unfinished">수수료:</translation>
@@ -2710,31 +2944,31 @@ Number of transactions: </source>
         <translation type="obsolete">거래 횟수: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="814"/>
+        <location filename="../main.qml" line="813"/>
         <source>Payment proof</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="817"/>
+        <location filename="../main.qml" line="816"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="847"/>
-        <location filename="../main.qml" line="867"/>
+        <location filename="../main.qml" line="846"/>
+        <location filename="../main.qml" line="866"/>
         <source>Payment proof check</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="850"/>
-        <location filename="../main.qml" line="869"/>
+        <location filename="../main.qml" line="849"/>
+        <location filename="../main.qml" line="868"/>
         <source>Bad signature</source>
         <translation type="unfinished">잘못된 서명</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="619"/>
-        <location filename="../main.qml" line="737"/>
+        <location filename="../main.qml" line="622"/>
+        <location filename="../main.qml" line="736"/>
         <source>
 
 Amount: </source>
@@ -2745,22 +2979,22 @@ Amount: </source>
         <translation type="vanished">이 주소로 %1 XMR을 받아, %2 번의 컨펌을 받았습니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1749"/>
+        <location filename="../main.qml" line="1745"/>
         <source>Tap again to close...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1762"/>
+        <location filename="../main.qml" line="1758"/>
         <source>Daemon is running</source>
         <translation>데몬이 실행 중입니다</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1763"/>
+        <location filename="../main.qml" line="1759"/>
         <source>Daemon will still be running in background when GUI is closed.</source>
         <translation>GUI가 닫혀도 데몬은 백그라운드에서 계속 실행됩니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1765"/>
+        <location filename="../main.qml" line="1761"/>
         <source>Stop daemon</source>
         <translation>데몬 중지</translation>
     </message>
@@ -2769,23 +3003,21 @@ Amount: </source>
         <translation type="vanished">monero-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="660"/>
         <source>Amount is wrong: expected number from %1 to %2</source>
-        <translation>금액이 잘못되었습니다 : % 1에서 % 2까지의 예상 숫자</translation>
+        <translation type="vanished">금액이 잘못되었습니다 : % 1에서 % 2까지의 예상 숫자</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="672"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
-        <translation>잔액이 불충분합니다. 잠금해제 된 잔액: %1</translation>
+        <translation type="vanished">잔액이 불충분합니다. 잠금해제 된 잔액: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="775"/>
+        <location filename="../main.qml" line="774"/>
         <source>Couldn&apos;t send the money: </source>
         <translation>돈을 전송하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="778"/>
-        <location filename="../main.qml" line="1215"/>
+        <location filename="../main.qml" line="777"/>
+        <location filename="../main.qml" line="1212"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
@@ -2794,7 +3026,7 @@ Amount: </source>
         <translation type="vanished">송금 완료: %1 개의 거래 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="784"/>
+        <location filename="../main.qml" line="783"/>
         <source>Transaction saved to file: %1</source>
         <translation>거래 데이터를 파일에 저장되었습니다: %1</translation>
     </message>
@@ -2803,160 +3035,155 @@ Amount: </source>
         <translation type="vanished">이 주소는 % 1XMR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="457"/>
+        <location filename="../main.qml" line="460"/>
         <source>Waiting for daemon to sync</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="459"/>
+        <location filename="../main.qml" line="462"/>
         <source>Daemon is synchronized (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="461"/>
+        <location filename="../main.qml" line="464"/>
         <source>Wallet is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="547"/>
+        <location filename="../main.qml" line="550"/>
         <source>Daemon is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="617"/>
+        <location filename="../main.qml" line="596"/>
+        <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="598"/>
+        <source>Can&apos;t Create Transaction: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="618"/>
+        <source>Please Confirm Transaction:
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="620"/>
         <source>Address: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="621"/>
         <source>
 Ringsize: </source>
-        <translation type="unfinished">반지 사이즈:</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="623"/>
-        <source>
-
-WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">반지 사이즈:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="625"/>
-        <source>
-
-Number of transactions: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="626"/>
         <source>
 Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="628"/>
-        <source>
-Spending address index: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="784"/>
+        <location filename="../main.qml" line="783"/>
         <source>Loki sent successfully: %1 transaction(s) </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="855"/>
+        <location filename="../main.qml" line="854"/>
         <source>This address received %1 Loki, but the transaction is not yet mined</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="858"/>
+        <location filename="../main.qml" line="857"/>
         <source>This address received %1 Loki, with %2 confirmation(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="862"/>
+        <location filename="../main.qml" line="861"/>
         <source>This address received nothing</source>
         <translation>이 주소는 아무것도 받지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="869"/>
+        <location filename="../main.qml" line="868"/>
         <source>Good signature</source>
         <translation type="unfinished">올바른 서명</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="881"/>
+        <location filename="../main.qml" line="880"/>
         <source>Balance (syncing)</source>
         <translation>잔액 (동기화)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="881"/>
+        <location filename="../main.qml" line="880"/>
         <source>Balance</source>
         <translation>잔액</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1075"/>
-        <location filename="../main.qml" line="1422"/>
+        <location filename="../main.qml" line="1072"/>
+        <location filename="../main.qml" line="1418"/>
         <source>Wrong password</source>
         <translation type="unfinished">잘못된 암호</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1150"/>
+        <location filename="../main.qml" line="1147"/>
         <source>Warning</source>
         <translation type="unfinished">경고</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1153"/>
+        <location filename="../main.qml" line="1150"/>
         <source>Error: Filesystem is read only</source>
         <translation type="unfinished">오류: 해당 파일시스템은 읽기전용입니다</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1155"/>
+        <location filename="../main.qml" line="1152"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation type="unfinished">경고 : 해당장치에 사용 가능한 공간은 %1 GB뿐입니다. 블록체인에는 ~ %2 GB의 데이터가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1157"/>
+        <location filename="../main.qml" line="1154"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation type="unfinished">참고: %1 GB의 장치를 사용할 수 있습니다. 블록체인에는 ~ %2 GB의 데이터가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1159"/>
+        <location filename="../main.qml" line="1156"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
         <translation type="unfinished">참고: lmdb 폴더를 찾을 수 없습니다. 새 폴더가 생성됩니다.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1163"/>
+        <location filename="../main.qml" line="1160"/>
         <source>Cancel</source>
         <translation type="unfinished">취소</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1216"/>
+        <location filename="../main.qml" line="1213"/>
         <source>Password changed successfully</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1220"/>
+        <location filename="../main.qml" line="1217"/>
         <source>Error: </source>
         <translation type="unfinished">오류: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1262"/>
+        <location filename="../main.qml" line="1259"/>
         <source>Please wait...</source>
         <translation>기다려주십시오...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1286"/>
+        <location filename="../main.qml" line="1282"/>
         <source>Program setup wizard</source>
         <translation>프로그램 설치 마법사</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1302"/>
+        <location filename="../main.qml" line="1298"/>
         <source>Loki</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1800"/>
+        <location filename="../main.qml" line="1796"/>
         <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2965,7 +3192,7 @@ Spending address index: </source>
         <translation type="vanished">모네로</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1458"/>
+        <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
         <translation>동일한 대상에게 송금하기</translation>
     </message>

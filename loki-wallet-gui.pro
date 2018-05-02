@@ -327,38 +327,7 @@ macx {
 
 
 # translation stuff
-TRANSLATIONS =  \ # English is default language, no explicit translation file
-                $$PWD/translations/loki-core.ts \ # translation source (copy this file when creating a new translation)
-                $$PWD/translations/loki-core_ar.ts \ # Arabic
-                $$PWD/translations/loki-core_pt-br.ts \ # Portuguese (Brazil)
-                $$PWD/translations/loki-core_de.ts \ # German
-                $$PWD/translations/loki-core_eo.ts \ # Esperanto
-                $$PWD/translations/loki-core_es.ts \ # Spanish
-                $$PWD/translations/loki-core_fi.ts \ # Finnish
-                $$PWD/translations/loki-core_fr.ts \ # French
-                $$PWD/translations/loki-core_hr.ts \ # Croatian
-                $$PWD/translations/loki-core_id.ts \ # Indonesian
-                $$PWD/translations/loki-core_hi.ts \ # Hindi
-                $$PWD/translations/loki-core_it.ts \ # Italian
-                $$PWD/translations/loki-core_ja.ts \ # Japanese
-                $$PWD/translations/loki-core_nl.ts \ # Dutch
-                $$PWD/translations/loki-core_pl.ts \ # Polish
-                $$PWD/translations/loki-core_ru.ts \ # Russian
-                $$PWD/translations/loki-core_sv.ts \ # Swedish
-                $$PWD/translations/loki-core_zh-cn.ts \ # Chinese (Simplified-China)
-                $$PWD/translations/loki-core_zh-tw.ts \ # Chinese (Traditional-Taiwan)
-                $$PWD/translations/loki-core_he.ts \ # Hebrew
-                $$PWD/translations/loki-core_ko.ts \ # Korean
-                $$PWD/translations/loki-core_ro.ts \ # Romanian
-                $$PWD/translations/loki-core_da.ts \ # Danish
-                $$PWD/translations/loki-core_cs.ts \ # Czech
-                $$PWD/translations/loki-core_sk.ts \ # Slovak
-                $$PWD/translations/loki-core_sl.ts \ # Slovenian
-                $$PWD/translations/loki-core_rs.ts \ # Serbian
-                $$PWD/translations/loki-core_cat.ts \ # Catalan
-                $$PWD/translations/loki-core_tr.ts \ # Turkish
-                $$PWD/translations/loki-core_ua.ts \ # Ukrainian
-                $$PWD/translations/loki-core_pt-pt.ts \ # Portuguese (Portugal)
+TRANSLATIONS = $$files($$PWD/translations/loki-core_*.ts)
 
 CONFIG(release, debug|release) {
     DESTDIR = release/bin
@@ -371,14 +340,7 @@ CONFIG(release, debug|release) {
 #    LANGREL_OPTIONS = -markuntranslated "MISS_TR "
 }
 
-TARGET_FULL_PATH = $$OUT_PWD/$$DESTDIR
-TRANSLATION_TARGET_DIR = $$TARGET_FULL_PATH/translations
-
-macx {
-    TARGET_FULL_PATH = $$sprintf("%1/%2/%3.app", $$OUT_PWD, $$DESTDIR, $$TARGET)
-    TRANSLATION_TARGET_DIR = $$TARGET_FULL_PATH/Contents/Resources/translations
-}
-
+TRANSLATION_TARGET_DIR = $$OUT_PWD/translations
 
 !ios {
     isEmpty(QMAKE_LUPDATE) {
@@ -405,11 +367,27 @@ macx {
 
     QMAKE_EXTRA_TARGETS += langupd deploy deploy_win
     QMAKE_EXTRA_COMPILERS += langrel
+
+    # Compile an initial version of translation files when running qmake
+    # the first time and generate the resource file for translations.
+    !exists($$TRANSLATION_TARGET_DIR) {
+        mkpath($$TRANSLATION_TARGET_DIR)
+    }
+    qrc_entry = "<RCC>"
+    qrc_entry += '  <qresource prefix="/">'
+    write_file($$TRANSLATION_TARGET_DIR/translations.qrc, qrc_entry)
+    for(tsfile, TRANSLATIONS) {
+        qmfile = $$TRANSLATION_TARGET_DIR/$$basename(tsfile)
+        qmfile ~= s/.ts$/.qm/
+        system($$LANGREL $$LANGREL_OPTIONS $$tsfile -qm $$qmfile)
+        qrc_entry = "    <file>$$basename(qmfile)</file>"
+        write_file($$TRANSLATION_TARGET_DIR/translations.qrc, qrc_entry, append)
+    }
+    qrc_entry = "  </qresource>"
+    qrc_entry += "</RCC>"
+    write_file($$TRANSLATION_TARGET_DIR/translations.qrc, qrc_entry, append)
+    RESOURCES += $$TRANSLATION_TARGET_DIR/translations.qrc
 }
-
-
-
-
 
 
 # Update: no issues with the "slow link process" anymore,
@@ -432,7 +410,7 @@ macx {
 }
 
 win32 {
-    deploy.commands += windeployqt $$sprintf("%1/%2/%3.exe", $$OUT_PWD, $$DESTDIR, $$TARGET) -release -qmldir=$$PWD
+    deploy.commands += windeployqt $$sprintf("%1/%2/%3.exe", $$OUT_PWD, $$DESTDIR, $$TARGET) -release -no-translations -qmldir=$$PWD
     # Win64 msys2 deploy settings
     contains(QMAKE_HOST.arch, x86_64) {
         deploy.commands += $$escape_expand(\n\t) $$PWD/windeploy_helper.sh $$DESTDIR
@@ -459,7 +437,7 @@ DISTFILES += \
 
 
 # windows application icon
-RC_FILE = loki-core.rc
+RC_ICONS = images/appicon.ico
 
 # mac application icon
 ICON = $$PWD/images/appicon.icns

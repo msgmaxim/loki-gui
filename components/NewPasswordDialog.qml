@@ -39,13 +39,7 @@ import "../components" as LokiComponents
 Item {
     id: root
     visible: false
-    Rectangle {
-        id: bg
-        z: parent.z + 1
-        anchors.fill: parent
-        color: "black"
-        opacity: 0.8
-    }
+    z: parent.z + 2
 
     property alias password: passwordInput1.text
 

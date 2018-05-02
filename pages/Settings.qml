@@ -33,6 +33,8 @@ import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 import "../version.js" as Version
+import "../js/Windows.js" as Windows
+import "../js/Utils.js" as Utils
 
 
 import "../components"
@@ -40,6 +42,7 @@ import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false
+    property alias settingsHeight: mainLayout.height
     id: page
 
     color: "transparent"
@@ -48,8 +51,8 @@ Rectangle {
     function onPageCompleted() {
         console.log("Settings page loaded");
 
-        if(typeof daemonManager != "undefined"){
-            appWindow.daemonRunning =  daemonManager.running(persistentSettings.nettype);
+        if(typeof daemonManager != "undefined") {
+            appWindow.daemonRunning = persistentSettings.useRemoteNode ? false : daemonManager.running(persistentSettings.nettype);
         }
 
         logLevelDropdown.update()
@@ -187,29 +190,29 @@ Rectangle {
             Layout.fillWidth: true
 
             LabelSubheader {
-                text: qsTr("Wallet Mode") + translationManager.emptyString
+                text: qsTr("Daemon Mode") + translationManager.emptyString
             }
         }
 
-        RowLayout {
-            StandardButton {
+        ColumnLayout {
+            CheckBox {
                 id: remoteDisconnect
-                small: true
-                enabled: persistentSettings.useRemoteNode
-                Layout.fillWidth: false
+                checked: !persistentSettings.useRemoteNode
                 text: qsTr("Local Node") + translationManager.emptyString
                 onClicked: {
+                    persistentSettings.useRemoteNode = false;
+                    remoteConnect.checked = false;
                     appWindow.disconnectRemoteNode();
                 }
             }
 
-            StandardButton {
+            CheckBox {
                 id: remoteConnect
-                small: true
-                enabled: !persistentSettings.useRemoteNode
-                Layout.fillWidth: false
+                checked: persistentSettings.useRemoteNode
                 text: qsTr("Remote Node") + translationManager.emptyString
                 onClicked: {
+                    persistentSettings.useRemoteNode = true;
+                    remoteDisconnect.checked = false;
                     appWindow.connectRemoteNode();
                 }
             }
@@ -459,7 +462,7 @@ Rectangle {
                 visible: !isMobile
                 id: customDecorationsCheckBox
                 checked: persistentSettings.customDecorations
-                onClicked: appWindow.setCustomWindowDecorations(checked)
+                onClicked: Windows.setCustomWindowDecorations(checked)
                 text: qsTr("Custom Decorations") + translationManager.emptyString
             }
         }
@@ -650,17 +653,6 @@ Rectangle {
         }
     }
 
-    // Daemon console
-    DaemonConsole {
-        id: daemonConsolePopup
-        height:500
-        width:800
-        title: qsTr("Daemon Log") + translationManager.emptyString
-        onAccepted: {
-            close();
-        }
-    }
-
     // Choose blockchain folder
     FileDialog {
         id: blockchainFileDialog
@@ -725,7 +717,7 @@ Rectangle {
 
     function onDaemonConsoleUpdated(message){
         // Update daemon console
-        daemonConsolePopup.textArea.append(message)
+        daemonConsolePopup.textArea.logMessage(message)
     }
 
 

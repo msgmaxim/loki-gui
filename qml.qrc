@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>BasicPanel.qml</file>
         <file>LeftPanel.qml</file>
         <file>MiddlePanel.qml</file>
         <file>RightPanel.qml</file>
@@ -113,10 +112,11 @@
         <file>images/prevMonth.png</file>
         <file>images/prevPage.png</file>
         <file>images/privacyTick.png</file>
-        <file>images/question.png</file>
         <file>images/resize.png</file>
         <file>images/resizeHovered.png</file>
         <file>images/right.png</file>
+        <file>images/rightArrow.png</file>
+        <file>images/rightArrowInactive.png</file>
         <file>images/tableOptions.png</file>
         <file>images/tip.png</file>
         <file>images/titlebarGradient.jpg</file>
@@ -127,6 +127,8 @@
         <file>images/whiteDropIndicator.png</file>
 
         <file>js/TxUtils.js</file>
+        <file>js/Windows.js</file>
+        <file>js/Utils.js</file>
 
         <file>lang/flags/bangladesh.png</file>
         <file>lang/flags/brazil.png</file>

@@ -73,7 +73,7 @@ Rectangle {
     }
 
     function update() {
-        if (!appWindow.currentWallet) {
+        if (!appWindow.currentWallet || !trackingEnabled.checked) {
             setTrackingLineText("-")
             return
         }
@@ -326,6 +326,11 @@ Rectangle {
                 }
             }
 
+            CheckBox {
+                id: trackingEnabled
+                text: qsTr("Enable") + translationManager.emptyString
+            }
+
             TextEdit {
                 id: trackingLine
                 readOnly: true
@@ -408,6 +413,8 @@ Rectangle {
 
         update()
         timer.running = true
+
+        trackingEnabled.checked = false
     }
 
     function onPageClosed() {
