@@ -929,7 +929,7 @@ ApplicationWindow {
 
     objectName: "appWindow"
     visible: true
-    color: "#FFFFFF"
+    color: Style.backgroundColor
     flags: persistentSettings.customDecorations ? Windows.flagsCustomDecorations : Windows.flags
     onWidthChanged: x -= 0
 
