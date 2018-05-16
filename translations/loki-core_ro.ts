@@ -111,11 +111,13 @@
         <source>Close</source>
         <translation>Închide</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/DaemonConsole.qml" line="130"/>
         <source>Command + Enter (e.g Help)</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>comandă + Enter (ex. help)</translation>
+	</message>
+
+
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">comandă + Enter (ex. help)</translation>
@@ -128,16 +130,20 @@
         <source>Starting local node in %1 seconds</source>
         <translation>Se pornește serviciul local în %1 secunde</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Pornește serviciu</translation>
+	</message>
+
+
+	<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Setări personalizate</translation>
+	</message>
+
+
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Pornește serviciul (%1)</translation>
@@ -219,11 +225,13 @@
         <source>Block height</source>
         <translation type="obsolete">Înălțimea blocului</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Dată</translation>
+	</message>
+
+
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Filtrează istoricul de tranzacții</translation>
@@ -294,11 +302,13 @@
         <source>No more results</source>
         <translation>Nu există alte rezultate</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">Adresă copiată în memorie</translation>
-    </message>
+        <translation>Adresă copiată în memorie</translation>
+	</message>
+
+
     <message>
         <location filename="../components/HistoryTable.qml" line="344"/>
         <source>Blockheight</source>
@@ -445,11 +455,13 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Seed copiat în memorie</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Seed mnemonic</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -460,31 +472,41 @@
         <source>Keys copied to clipboard</source>
         <translation>Chei copiate în memorie</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Exportă portofel</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Cheie secretă de citire</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Cheie publică de citire</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Cheie secretă de cheltuială</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Cheie publică de cheltuială</translation>
+	</message>
+
+
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Exportă portofel</translation>
@@ -540,11 +562,13 @@
         <source>Send</source>
         <translation>Trimite</translation>
     </message>
-    <message>
+	<message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Agendă</translation>
+	</message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -618,11 +642,13 @@
         <source>M</source>
         <translation>M</translation>
     </message>
-    <message>
+	<message>
         <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/Check</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Dovadă/Verificare</translation>
+	</message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
@@ -633,11 +659,13 @@
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../LeftPanel.qml" line="506"/>
         <source>Sign/Verify</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Semnează/Verifică</translation>
+	</message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -767,36 +795,48 @@
         <source>Start mining</source>
         <translation type="vanished">Pornește minatul</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Minat individual</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(disponibil doar pentru servicii locale)</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Thread-uri CPU</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Minat pe fundal (experimental)</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Administrare miner</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Pornește minatul</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -812,21 +852,27 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Minatul e disponibil doar pentru servicii locale. Rulează un serviciu local ca să poți să minezi.&lt;br&gt;</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Oprește minatul</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stare: nu se minează</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Nu se minează</translation>
+	</message>
+
+
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Oprește minatul</translation>
@@ -890,11 +936,13 @@
         <source>Invalid connection status</source>
         <translation>Stare conexiune incorectă</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Starea rețelei</translation>
+	</message>
+
+
     <message>
         <source>Network status</source>
         <translation type="vanished">Starea rețelei</translation>
@@ -1011,11 +1059,13 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">ATENȚIE: nu există conexiune către serviciu</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ATENȚIE: nu există conexiune către serviciu</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1091,16 +1141,20 @@
         <source>Set the label of the selected address:</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Receive.qml" line="307"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>ajutor</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Receive.qml" line="312"/>
         <source>Tracking Payments</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Urmărire plăți</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Receive.qml" line="313"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
@@ -1248,12 +1302,14 @@
         <source>Information</source>
         <translation>Informații</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="242"/>
         <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
-        <translation type="unfinished">Adresă</translation>
-    </message>
+        <translation>Adresă</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
         <location filename="../pages/Settings.qml" line="275"/>
@@ -1282,11 +1338,13 @@
         <source>Wallet creation height: </source>
         <translation type="vanished">Înălțime creare portofel:</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="573"/>
         <source> &lt;a href=&apos;#&apos;&gt;(Click To Change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation> &lt;a href=&apos;#&apos;&gt;(Click pentru a schimba)&lt;/a&gt;</translation>
+	</message>
+
+
     <message>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
         <translation type="vanished"> &lt;a href=&apos;#&apos;&gt;(Click pentru a schimba)&lt;/a&gt;</translation>
@@ -1308,7 +1366,6 @@ The following information will be deleted
 - Recipient addresses
 - Tx keys
 - Tx descriptions
-
 The old wallet cache file will be renamed and can be restored later.
 </source>
         <translation>Sigur vrei să refaci cache-ul portofelului?
@@ -1316,7 +1373,6 @@ Următoarele informații vor fi șterse
 - Adresele destinatarilor
 - Cheile tranzacțiilor
 - Descrierile tranzacțiilor
-
 Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
 </translation>
     </message>
@@ -1343,86 +1399,112 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>Bootstrap Node</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Afișează starea</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="368"/>
         <source>Blockchain Location</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Localizare blockchain</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="407"/>
         <source>Show Advanced</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Arată opțiuni avansate</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="419"/>
         <source>Local Daemon Startup Flags</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Opțiuni pornire serviciu local</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="421"/>
         <source>(Optional)</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="454"/>
         <source>Layout Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Setări aspect</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="463"/>
         <source>Custom Decorations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Decorațiuni personalizate</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="471"/>
         <source>Log Level</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Nivel detalii jurnal</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="549"/>
         <source>Debug Info</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Informații depanare</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="559"/>
         <source>GUI Version: </source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Versiune interfață grafică: </translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
         <source>Embedded Loki Version: </source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="572"/>
         <source>Wallet Creation Height: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Înălțime creare portofel:</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="639"/>
         <source>Wallet Log Path: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Cale către jurnal portofel: </translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="649"/>
         <source>Daemon Log Path: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Cale către jurnal serviciu: </translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="658"/>
         <source>Daemon Log</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Jurnal serviciu</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="667"/>
         <source>Please choose a folder</source>
@@ -1459,26 +1541,34 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>Cancel</source>
         <translation>Renunță</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Administrare portofel</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Închide portofelul</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Crează un portofel doar pentru citire</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Scanează din nou soldul portofelului</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
         <source>Successfully rescanned spent outputs.</source>
@@ -1569,11 +1659,13 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>Error</source>
         <translation>Eroare</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="165"/>
         <source>Change Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Schimbă parola</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="172"/>
         <source>Wrong password</source>
@@ -1812,11 +1904,13 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>Browse</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Sign.qml" line="289"/>
         <source>Address</source>
-        <translation type="unfinished">Adresă</translation>
-    </message>
+        <translation>Adresă</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Sign.qml" line="313"/>
         <source>Please choose a file to sign</source>
@@ -2199,11 +2293,13 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt; (Start Daemon)&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Prioritatea tranzacției</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="244"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt; Address &lt;a href=&apos;#&apos;&gt;(Address Book)&lt;/a&gt;</source>
@@ -2224,21 +2320,27 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>Advanced Options</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Transfer.qml" line="432"/>
         <source>Create TX File</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Creează fișier tranzacție</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Semnează fișier tranzacție</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Trimite fișier tranzacție</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
@@ -2373,12 +2475,14 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation>Generează o dovadă pentru plata primită/trimisă oferind identificatorul de tranzacție, adresa destinatarului și un mesaj opțional. 
 Pentru plățile trimise, poți obține o &apos;dovadă de plată&apos; care atestă crearea unei tranzacții. În acest caz, nu trebuie să specifici adresa destintarului.</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="160"/>
         <source>Paste TX ID</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Lipește identificatorul de tranzacție</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="173"/>
@@ -2419,11 +2523,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Signature</source>
         <translation>Semnătură</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Lipește dovada tranzacției</translation>
+	</message>
+
+
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Lipește dovada tranzacției</translation>
@@ -2512,11 +2618,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Create a new wallet</source>
         <translation type="vanished">Crează un nou portofel</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Crează un nou portofel</translation>
+	</message>
+
+
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2534,11 +2642,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Start a node automatically in background (recommended)</source>
         <translation>Pornește serviciu pe fundal (recomandat)</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="146"/>
         <source>Blockchain Location</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Localizare blockchain</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="177"/>
         <source>Bootstrap Node (Leave blank if not desired)</source>
@@ -2657,11 +2767,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Daemon address</source>
         <translation>Adresa serviciului</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Totul e pregătit!</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2754,21 +2866,27 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Restore from keys</source>
         <translation type="vanished">Recuperare din chei</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Nume portofel</translation>
+	</message>
+
+
+	<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Recuperare din seed</translation>
+	</message>
+
+
+	<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Recuperare din chei</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2847,11 +2965,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Crează un nou portofel</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2885,11 +3005,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation type="obsolete"> &lt;br&gt;Notă: această parolă nu poate fi recuperată. Dacă o uiți, va trebui să recuperezi portofelul folosind seed-ul mnemonic format din 25 de cuvinte.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Alege o parolă puternică&lt;/b&gt; (folosește litere, cifre, și/sau simboluri speciale):</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Alege o parolă pentru portofelul tău</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2916,11 +3038,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Restore wallet</source>
         <translation type="vanished">Recuperare portofel</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Recuperare portofel</translation>
+	</message>
+
+
 </context>
 <context>
     <name>WizardWelcome</name>
@@ -3021,7 +3145,6 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <message>
         <location filename="../main.qml" line="624"/>
         <source>
-
 Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3031,16 +3154,20 @@ Number Of Transactions: </source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Suma e incorectă: se dorește un număr între %1 și %2</translation>
+	</message>
+
+
+	<message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Fonduri insuficiente. Sold deblocat: %1</translation>
+	</message>
+
+
     <message>
         <location filename="../main.qml" line="734"/>
         <source>Confirmation</source>
@@ -3070,10 +3197,8 @@ Identificator plată: </translation>
         <location filename="../main.qml" line="622"/>
         <location filename="../main.qml" line="736"/>
         <source>
-
 Amount: </source>
         <translation>
-
 Sumă: </translation>
     </message>
     <message>
@@ -3086,10 +3211,8 @@ Comision: </translation>
     </message>
     <message>
         <source>
-
 Ringsize: </source>
         <translation type="vanished">
-
 Ringsize: </translation>
     </message>
     <message>
@@ -3112,11 +3235,13 @@ Ringsize: </translation>
         <source>Daemon is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../main.qml" line="596"/>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Nu s-a putut crea tranzacția: versiune incorectă a serviciului: </translation>
+	</message>
+
+
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -3286,10 +3411,8 @@ Număr de tranzacții: </translation>
     </message>
     <message>
         <source>
-
 Description: </source>
         <translation type="vanished">
-
 Descriere: </translation>
     </message>
     <message>

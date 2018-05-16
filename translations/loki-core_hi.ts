@@ -187,11 +187,13 @@
         <source>No History...</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
-        <translation type="unfinished">तिथि</translation>
-    </message>
+        <translation>तिथि</translation>
+	</message>
+
+
     <message>
         <source>Date from</source>
         <translation type="vanished">तिथि से</translation>
@@ -754,11 +756,13 @@
         <source>Invalid connection status</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>नेटवर्क स्थिति</translation>
+	</message>
+
+
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -954,11 +958,13 @@
         <source>Integrated address</source>
         <translation type="vanished">एकीकृत पता</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Receive.qml" line="277"/>
         <source>Amount</source>
-        <translation type="unfinished">राशि</translation>
-    </message>
+        <translation>राशि</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Receive.qml" line="284"/>
         <source>Amount to receive</source>
@@ -1036,12 +1042,14 @@
         <source>Information</source>
         <translation type="unfinished">जानकारी</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="242"/>
         <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
-        <translation type="unfinished">पता</translation>
-    </message>
+        <translation>पता</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
         <location filename="../pages/Settings.qml" line="275"/>
@@ -1125,7 +1133,6 @@ The following information will be deleted
 - Recipient addresses
 - Tx keys
 - Tx descriptions
-
 The old wallet cache file will be renamed and can be restored later.
 </source>
         <translation type="unfinished"></translation>
@@ -1661,11 +1668,13 @@ The old wallet cache file will be renamed and can be restored later.
 </context>
 <context>
     <name>TableHeader</name>
-    <message>
+	<message>
         <location filename="../components/TableHeader.qml" line="79"/>
         <source>Payment ID</source>
-        <translation type="unfinished">भुगतान आईडी</translation>
-    </message>
+        <translation>भुगतान आईडी</translation>
+	</message>
+
+
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
         <source>Date</source>
@@ -1731,11 +1740,13 @@ The old wallet cache file will be renamed and can be restored later.
         <source>All</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>लेनदेन प्राथमिकता</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
@@ -2013,11 +2024,13 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
-        <translation type="unfinished">उत्पन्न करें</translation>
-    </message>
+        <translation>उत्पन्न करें</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
@@ -2579,7 +2592,6 @@ Payment ID: </source>
         <location filename="../main.qml" line="622"/>
         <location filename="../main.qml" line="736"/>
         <source>
-
 Amount: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2795,7 +2807,6 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="624"/>
         <source>
-
 Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>

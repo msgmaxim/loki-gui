@@ -110,8 +110,10 @@
     <message>
         <location filename="../components/DaemonConsole.qml" line="130"/>
         <source>Command + Enter (e.g Help)</source>
-        <translation type="unfinished"></translation>
+        <translation>Comandament + Enter (p.e. help)</translation>
     </message>
+
+
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">Comandament + Enter (p.e. help)</translation>
@@ -132,8 +134,10 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitzar opcions personalitzades</translation>
     </message>
+
+
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Iniciar daemon (%1)</translation>
@@ -218,8 +222,10 @@
     <message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Data</translation>
     </message>
+
+
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Filtrar historial de transaccions</translation>
@@ -527,8 +533,10 @@
     <message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
-        <translation type="unfinished"></translation>
+        <translation>Llibreta d&apos;adreces</translation>
     </message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -616,8 +624,10 @@
     <message>
         <location filename="../LeftPanel.qml" line="506"/>
         <source>Sign/Verify</source>
-        <translation type="unfinished"></translation>
+        <translation>Signar/Verificar</translation>
     </message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -750,33 +760,45 @@
     <message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Minat individual</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
+        <translation>(només disponible per a daemons locals)</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Fils de CPU</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Minat en segon pla (experimental)</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
+        <translation>Administrar miner</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Començar minat</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -795,18 +817,24 @@
     <message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Parar minat</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Estat: no està minant</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>No està minant</translation>
     </message>
+
+
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Parar minat</translation>
@@ -873,8 +901,10 @@
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Estat de la xarxa</translation>
     </message>
+
+
     <message>
         <source>Network status</source>
         <translation type="vanished">Estat de la xarxa</translation>
@@ -990,8 +1020,10 @@
     <message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>ADVERTENCIA: Sense connexió al daemon</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1114,8 +1146,10 @@
     <message>
         <location filename="../pages/Receive.qml" line="277"/>
         <source>Amount</source>
-        <translation type="unfinished">Quantitat</translation>
+        <translation>Quantitat</translation>
     </message>
+
+
 </context>
 <context>
     <name>RemoteNodeEdit</name>
@@ -1285,7 +1319,6 @@ The following information will be deleted
 - Recipient addresses
 - Tx keys
 - Tx descriptions
-
 The old wallet cache file will be renamed and can be restored later.
 </source>
         <translation type="unfinished"></translation>
@@ -1338,8 +1371,10 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Administrar monedero</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
@@ -1348,13 +1383,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear un moneder de només lectura</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Reescanejar balanç del moneder</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1384,8 +1423,10 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Settings.qml" line="368"/>
         <source>Blockchain Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Localització Cadena de blocs</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
@@ -1454,8 +1495,10 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Settings.qml" line="658"/>
         <source>Daemon Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Log del daemon</translation>
     </message>
+
+
     <message>
         <source>Manage wallet</source>
         <translation type="vanished">Administrar monedero</translation>
@@ -1800,8 +1843,10 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/StandardDropdown.qml" line="172"/>
         <source>Default (x1 fee)</source>
-        <translation type="unfinished">Per defecte (comissió x4) {1 ?}</translation>
+        <translation>Per defecte (comissió x4) {1 ?}</translation>
     </message>
+
+
     <message>
         <location filename="../components/StandardDropdown.qml" line="173"/>
         <source>Fast (x5 fee)</source>
@@ -2010,8 +2055,10 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioritat de transacció</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
@@ -2035,18 +2082,24 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="432"/>
         <source>Create TX File</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear fitxer tx</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
-        <translation type="unfinished"></translation>
+        <translation>Signar fitxer tx</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar fitxer tx</translation>
     </message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
@@ -2237,8 +2290,10 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="160"/>
         <source>Paste TX ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Enganxar ID tx</translation>
     </message>
+
+
     <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="173"/>
@@ -2370,8 +2425,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear un nou moneder</translation>
     </message>
+
+
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2507,8 +2564,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja està llest!</translation>
     </message>
+
+
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2604,18 +2663,24 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom del moneder</translation>
     </message>
+
+
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar des de llavor</translation>
     </message>
+
+
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar des de clau</translation>
     </message>
+
+
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2697,8 +2762,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear un nou moneder</translation>
     </message>
+
+
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2735,8 +2802,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingressi una contrasenya per al moneder</translation>
     </message>
+
+
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2766,8 +2835,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar moneder</translation>
     </message>
+
+
 </context>
 <context>
     <name>WizardWelcome</name>
@@ -2918,8 +2989,10 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="596"/>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;ha pogut crear la transacció: Versió de daemon incorrecta:</translation>
     </message>
+
+
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -2941,10 +3014,8 @@ Payment ID: </source>
         <location filename="../main.qml" line="622"/>
         <location filename="../main.qml" line="736"/>
         <source>
-
 Amount: </source>
         <translation>
-
 Quantitat:</translation>
     </message>
     <message>
@@ -2958,7 +3029,6 @@ Comissió:</translation>
     <message>
         <location filename="../main.qml" line="624"/>
         <source>
-
 Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2971,13 +3041,17 @@ Spending Address Index: </source>
     <message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantitat errònea: s&apos;espera un número de %1 a %2</translation>
     </message>
+
+
     <message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fondos insuficients. Balanç desbloquejat %1</translation>
     </message>
+
+
     <message>
         <location filename="../main.qml" line="783"/>
         <source>Loki sent successfully: %1 transaction(s) </source>
@@ -3039,18 +3113,14 @@ Número de transaccions: </translation>
     </message>
     <message>
         <source>
-
 Ringsize: </source>
         <translation type="vanished">
-
 Ringsize:</translation>
     </message>
     <message>
         <source>
-
 Description: </source>
         <translation type="vanished">
-
 Descripció:</translation>
     </message>
     <message>

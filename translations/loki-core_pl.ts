@@ -111,11 +111,13 @@
         <source>Close</source>
         <translation>Zamknij</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/DaemonConsole.qml" line="130"/>
         <source>Command + Enter (e.g Help)</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>komenda + enter (np. pomoc)</translation>
+	</message>
+
+
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">komenda + enter (np. pomoc)</translation>
@@ -128,16 +130,20 @@
         <source>Starting local node in %1 seconds</source>
         <translation>Uruchamianie lokalnego węzła za %1 sekund</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Uruchom demona</translation>
+	</message>
+
+
+	<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Użyj własnych ustawień</translation>
+	</message>
+
+
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Uruchom demona (%1)</translation>
@@ -223,11 +229,13 @@
         <source>Block height</source>
         <translation type="obsolete">Wysokość bloku</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
-        <translation type="unfinished">Data</translation>
-    </message>
+        <translation>Data</translation>
+	</message>
+
+
     <message>
         <source>Type for incremental search...</source>
         <translation type="vanished">Wpisz aby wyszukać...</translation>
@@ -294,11 +302,13 @@
         <source>Rings:</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">Adres skopiowany do schowka</translation>
-    </message>
+        <translation>Adres skopiowany do schowka</translation>
+	</message>
+
+
     <message>
         <location filename="../components/HistoryTable.qml" line="344"/>
         <source>Blockheight</source>
@@ -445,11 +455,13 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Seed skopiowany do schowka</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Mnemoniczny seed</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -460,31 +472,41 @@
         <source>Keys copied to clipboard</source>
         <translation>Klucze skopiowane do schowka</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Eksportuj portfel</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Klucz prywatny do podglądu</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Klucz publiczny do podglądu</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Klucz prywatny do wydawania</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Klucz publiczny do wydawania</translation>
+	</message>
+
+
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Eksportuj portfel</translation>
@@ -540,11 +562,13 @@
         <source>Send</source>
         <translation>Wyślij</translation>
     </message>
-    <message>
+	<message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Książka adresowa</translation>
+	</message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -618,11 +642,13 @@
         <source>M</source>
         <translation>M</translation>
     </message>
-    <message>
+	<message>
         <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/Check</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Sprawdź płatność</translation>
+	</message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
@@ -633,11 +659,13 @@
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../LeftPanel.qml" line="506"/>
         <source>Sign/Verify</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Podpisz/weryfikuj</translation>
+	</message>
+
+
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -767,36 +795,48 @@
         <source>Start mining</source>
         <translation type="vanished">Rozpocznij kopanie</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Kopanie solo</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(dostępne jedynie dla lokalnych demonów)</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Wątki CPU</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Kopanie w tle (wersja eksperymentalna)</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zarządzaj koparką</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Rozpocznij kopanie</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -812,21 +852,27 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Kopanie jest możliwe tylko mając uruchomiony proces demona lokalnie. Uruchom demona aby mieć możliwość kopania.&lt;br&gt;</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zatrzymaj kopanie</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Status: nie kopie</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Nie kopie</translation>
+	</message>
+
+
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Zatrzymaj kopanie</translation>
@@ -894,11 +940,13 @@
         <source>Invalid connection status</source>
         <translation>Nieprawidłowy status połączenia</translation>
     </message>
-    <message>
+	<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Status sieci</translation>
+	</message>
+
+
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -1011,11 +1059,13 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">UWAGA: brak połączenia z demonem</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>UWAGA: brak połączenia z demonem</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1066,16 +1116,20 @@
         <source>Create New Address</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Receive.qml" line="307"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>pomoc</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Receive.qml" line="312"/>
         <source>Tracking Payments</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Śledzenie płatności</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Receive.qml" line="246"/>
         <source>Set the label of the new address:</source>
@@ -1263,12 +1317,14 @@
         <source>Information</source>
         <translation>Informacja</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="242"/>
         <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
-        <translation type="unfinished">Adres</translation>
-    </message>
+        <translation>Adres</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
         <location filename="../pages/Settings.qml" line="275"/>
@@ -1381,11 +1437,13 @@
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
         <translation type="vanished"> &lt;a href=&apos;#&apos;&gt;(Kliknij żeby zmienić)&lt;/a&gt;</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="573"/>
         <source> &lt;a href=&apos;#&apos;&gt;(Click To Change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation> &lt;a href=&apos;#&apos;&gt;(Kliknij żeby zmienić)&lt;/a&gt;</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="600"/>
         <source>Save</source>
@@ -1403,7 +1461,6 @@ The following information will be deleted
 - Recipient addresses
 - Tx keys
 - Tx descriptions
-
 The old wallet cache file will be renamed and can be restored later.
 </source>
         <translation>Czy jesteś pewien, że chcesz utworzyć od nowa pamięć podręczną portfela?
@@ -1411,7 +1468,6 @@ Następujące informacje zostaną usunięte
 - Adresy odbiorców
 - Klucze transakcji
 - Opisy transakcji
-
 Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i może być później przywrócona.
 </translation>
     </message>
@@ -1432,31 +1488,41 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <source>Daemon log</source>
         <translation type="vanished">Dziennik demona</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zarządzaj portfelem</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zamknij portfel</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Utwórz portfel tylko do podglądu</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zaktualizuj saldo portfela</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="165"/>
         <source>Change Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Zmień hasło</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="190"/>
         <source>Daemon Mode</source>
@@ -1467,86 +1533,112 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <source>Bootstrap Node</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Pokaż status</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="368"/>
         <source>Blockchain Location</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Lokalizacja blockchaina</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="407"/>
         <source>Show Advanced</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Pokaż opcje zaawansowane</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="419"/>
         <source>Local Daemon Startup Flags</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Opcje rozruchowe lokalnego demona</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="421"/>
         <source>(Optional)</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="454"/>
         <source>Layout Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Ustawienia wyglądu</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="463"/>
         <source>Custom Decorations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Wbudowana skórka</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="471"/>
         <source>Log Level</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Poziom logów</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="549"/>
         <source>Debug Info</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Informacje do debugowania</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="559"/>
         <source>GUI Version: </source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Wersja GUI: </translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
         <source>Embedded Loki Version: </source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Settings.qml" line="572"/>
         <source>Wallet Creation Height: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Wysokość, na której został utworzony portfel: </translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="639"/>
         <source>Wallet Log Path: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Ścieżka dziennika portfela: </translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="649"/>
         <source>Daemon Log Path: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Ścieżka dziennika demona: </translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Settings.qml" line="658"/>
         <source>Daemon Log</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Dziennik demona</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Settings.qml" line="667"/>
         <source>Please choose a folder</source>
@@ -1812,11 +1904,13 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <source>Browse</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Sign.qml" line="289"/>
         <source>Address</source>
-        <translation type="unfinished">Adres</translation>
-    </message>
+        <translation>Adres</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Sign.qml" line="313"/>
         <source>Please choose a file to sign</source>
@@ -2096,11 +2190,13 @@ Uaktualnij go lub podłącz się do innego demona</translation>
         <source>All</source>
         <translation>Wszystko</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Priorytet transakcji</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
@@ -2264,21 +2360,27 @@ Uaktualnij go lub podłącz się do innego demona</translation>
         <source>Advanced Options</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/Transfer.qml" line="432"/>
         <source>Create TX File</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Utwórz plik transakcji</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Podpisz plik transakcji</translation>
+	</message>
+
+
+	<message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Prześlij plik transakcji</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
@@ -2384,12 +2486,14 @@ Dla płatności wychodzących możesz otrzymać &apos;Dowód wydania&apos;, któ
         <source>Paste tx ID</source>
         <translation type="vanished">Wklej identyfikator transakcji</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="160"/>
         <source>Paste TX ID</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Wklej identyfikator transakcji</translation>
+	</message>
+
+
     <message>
         <location filename="../pages/TxKey.qml" line="108"/>
         <location filename="../pages/TxKey.qml" line="185"/>
@@ -2424,11 +2528,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Signature</source>
         <translation>Podpis</translation>
     </message>
-    <message>
+	<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Wklej dowód transakcji</translation>
+	</message>
+
+
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Wklej dowód transakcji</translation>
@@ -2512,11 +2618,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Create a new wallet</source>
         <translation type="vanished">Utwórz nowy portfel</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Utwórz nowy portfel</translation>
+	</message>
+
+
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2534,11 +2642,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Start a node automatically in background (recommended)</source>
         <translation>Uruchom węzeł automatycznie w tle (zalecane)</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="146"/>
         <source>Blockchain Location</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Lokalizacja blockchaina</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="177"/>
         <source>Bootstrap Node (Leave blank if not desired)</source>
@@ -2657,11 +2767,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Daemon address</source>
         <translation>Adres demona</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Wszystko gotowe!</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2754,21 +2866,27 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Restore from keys</source>
         <translation type="vanished">Przywróć portfel z kluczy</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Nazwa portfela</translation>
+	</message>
+
+
+	<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Przywróć portfel z seeda</translation>
+	</message>
+
+
+	<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Przywróć portfel z kluczy</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2847,11 +2965,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Utwórz nowy portfel</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2885,11 +3005,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <translation type="obsolete"> &lt;br&gt;Uwaga: tego hasła nie da się odzyskać. Jeśli je zapomnisz, ten portfel będzie musiał być przywrócony poprzez podanie jego 25-wyrazowego mnemonicznego seeda.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Wprowadź silne hasło:&lt;/b&gt; (używając liter, cyfr i/lub symboli):</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Utwórz hasło dla swojego portfela</translation>
+	</message>
+
+
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2916,11 +3038,13 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Restore wallet</source>
         <translation type="vanished">Przywróć portfel</translation>
     </message>
-    <message>
+	<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Przywróć portfel</translation>
+	</message>
+
+
 </context>
 <context>
     <name>WizardWelcome</name>
@@ -3010,10 +3134,8 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <location filename="../main.qml" line="622"/>
         <location filename="../main.qml" line="736"/>
         <source>
-
 Amount: </source>
         <translation>
-
 Wartość: </translation>
     </message>
     <message>
@@ -3024,10 +3146,8 @@ Liczba transakcji: </translation>
     </message>
     <message>
         <source>
-
 Description: </source>
         <translation type="vanished">
-
 Opis: </translation>
     </message>
     <message>
@@ -3084,11 +3204,13 @@ Opis: </translation>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
         <translation>Sprawdź logi portfela i demona pod kątem błędów. Możesz także spróbować rozpocząć %1 ręcznie.</translation>
     </message>
-    <message>
+	<message>
         <location filename="../main.qml" line="596"/>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Nie można zrealizować transakcji: Zła wersja demona: </translation>
+	</message>
+
+
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -3103,7 +3225,6 @@ Opis: </translation>
     <message>
         <location filename="../main.qml" line="624"/>
         <source>
-
 Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3113,16 +3234,20 @@ Number Of Transactions: </source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+	<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Wartość nieprawidłowa: oczekiwano liczby od %1 do %2</translation>
+	</message>
+
+
+	<message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Niewystarczające środki: Dostępne saldo: %1</translation>
+	</message>
+
+
     <message>
         <location filename="../main.qml" line="734"/>
         <source>Confirmation</source>
@@ -3330,10 +3455,8 @@ Description: </source>
     </message>
     <message>
         <source>
-
 Ringsize: </source>
         <translation type="vanished">
-
 Rozmiar pierścienia: </translation>
     </message>
     <message>
