@@ -61,7 +61,7 @@ Item {
             anchors.margins: 4
             width: row.x
 
-            color: return Style.heroGreen
+            color: Style.heroGreen
 
             Timer {
                 interval: 500
