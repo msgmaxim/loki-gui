@@ -51,7 +51,7 @@ Rectangle {
     property string trackingLineText: ""
 
     function makeQRCodeString() {
-        var s = "loki:"
+        var s = ""
         var nfields = 0
         s += current_address;
         var amount = amountLine.text.trim()
@@ -374,23 +374,31 @@ Rectangle {
                 }
             }
 
-            Image {
-                id: qrCode
-                anchors.margins: 50 * scaleRatio
-                Layout.fillWidth: true
-                Layout.minimumHeight: mainLayout.qrCodeSize
-                smooth: false
-                fillMode: Image.PreserveAspectFit
-                source: "image://qrcode/" + makeQRCodeString()
-                MouseArea {
-                    anchors.fill: parent
-                    acceptedButtons: Qt.RightButton
-                    onClicked: {
-                        if (mouse.button == Qt.RightButton)
-                            qrMenu.popup()
-                    }
-                    onPressAndHold: qrFileDialog.open()
-                }
+            Rectangle {
+              color: "white"
+              Layout.topMargin: parent.spacing
+              Layout.fillWidth: true
+              Layout.maximumWidth: mainLayout.qrCodeSize
+              Layout.preferredHeight: width
+
+              Image {
+                  id: qrCode
+                  anchors.fill: parent
+                  anchors.margins: 6
+                  smooth: false
+
+                  fillMode: Image.PreserveAspectFit
+                  source: "image://qrcode/" + makeQRCodeString()
+                  MouseArea {
+                      anchors.fill: parent
+                      acceptedButtons: Qt.RightButton
+                      onClicked: {
+                          if (mouse.button == Qt.RightButton)
+                              qrMenu.popup()
+                      }
+                      onPressAndHold: qrFileDialog.open()
+                  }
+              }
             }
         }
     }
