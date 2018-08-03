@@ -201,7 +201,7 @@ Rectangle {
                     fontSize: mainLayout.lineEditFontSize
                     labelFontSize: 14 * scaleRatio
                     labelText: qsTr("Or Manually Blackball/Unblackball A Single Output") + translationManager.emptyString
-                    placeholderText: qsTr("Paste output public key") + "..." + translationManager.emptyString
+                    placeholderText: qsTr("Paste Output Public Key") + "..." + translationManager.emptyString
                     readOnly: false
                     copyButton: true
                     width: mainLayout.editWidth
@@ -274,7 +274,7 @@ Rectangle {
                 fontSize: mainLayout.lineEditFontSize
                 labelFontSize: 14 * scaleRatio
                 labelText: qsTr("Key Image") + translationManager.emptyString
-                placeholderText: qsTr("Paste key image") + "..." + translationManager.emptyString
+                placeholderText: qsTr("Paste Key Image") + "..." + translationManager.emptyString
                 readOnly: false
                 copyButton: true
                 width: mainLayout.editWidth
@@ -294,7 +294,7 @@ Rectangle {
                         Layout.fillWidth: true
                         fontSize: mainLayout.lineEditFontSize
                         labelFontSize: 14 * scaleRatio
-                        labelText: qsTr("Get Ring") + translationManager.emptyString
+                        labelText: qsTr("Get Ring") + ":" + translationManager.emptyString
                         readOnly: true
                         copyButton: true
                     }
@@ -329,7 +329,7 @@ Rectangle {
                         Layout.fillWidth: true
                         fontSize: mainLayout.lineEditFontSize
                         labelFontSize: 14 * scaleRatio
-                        labelText: qsTr("Set Ring") + translationManager.emptyString
+                        labelText: qsTr("Set Ring") + ":" + translationManager.emptyString
                         readOnly: false
                         copyButton: true
                     }
