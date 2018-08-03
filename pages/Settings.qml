@@ -651,6 +651,12 @@ Rectangle {
                     inputDialog.onRejectedCallback = null;
                     inputDialog.open()
                 }
+
+                MouseArea {
+                    anchors.fill: parent
+                    acceptedButtons: Qt.NoButton
+                    cursorShape: parent.hoveredLink ? Qt.PointingHandCursor : Qt.ArrowCursor
+                }
             }
 
             TextBlock {
