@@ -230,13 +230,16 @@ ColumnLayout {
         Layout.rightMargin: wizardRightMargin
         Layout.topMargin: 30 * scaleRatio
         Layout.fillWidth: true
-        spacing: 50 * scaleRatio
+        spacing: 38 * scaleRatio
 
         Rectangle {
             width: 100 * scaleRatio
-            CheckBox {
+            RadioButton {
                 id: testNet
                 text: qsTr("Testnet") + translationManager.emptyString
+                checkedColor: Qt.rgba(0, 0, 0, 0.75)
+                borderColor: Qt.rgba(0, 0, 0, 0.45)
+                fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
                 onClicked: {
@@ -249,9 +252,12 @@ ColumnLayout {
 
         Rectangle {
             width: 100 * scaleRatio
-            CheckBox {
+            RadioButton {
                 id: stageNet
                 text: qsTr("Stagenet") + translationManager.emptyString
+                checkedColor: Qt.rgba(0, 0, 0, 0.75)
+                borderColor: Qt.rgba(0, 0, 0, 0.45)
+                fontColor: "#4A4646"
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.STAGENET;
                 onClicked: {
