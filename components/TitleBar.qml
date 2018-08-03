@@ -141,7 +141,7 @@ Rectangle {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         visible: parent.customDecorations
-        z: 2
+        z: parent.z + 2
 
         Rectangle {
             id: minimizeButton
