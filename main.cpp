@@ -248,7 +248,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("scaleRatio", 1);
 #endif
 
-    if (!lokiAccountsRootDir.empty()) 
+    if (!lokiAccountsRootDir.empty())
     {
         QString lokiAccountsDir = lokiAccountsRootDir.at(0) + "/Loki/wallets";
         engine.rootContext()->setContextProperty("lokiAccountsDir", lokiAccountsDir);
