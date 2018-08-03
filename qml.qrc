@@ -38,6 +38,7 @@
         <file>components/ProcessingSplash.qml</file>
         <file>components/ProgressBar.qml</file>
         <file>components/QRCodeScanner.qml</file>
+        <file>components/RadioButton.qml</file>
         <file>components/RemoteNodeEdit.qml</file>
         <file>components/Scroll.qml</file>
         <file>components/SearchInput.qml</file>
