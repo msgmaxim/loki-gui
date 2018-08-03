@@ -55,7 +55,7 @@ Item {
         if(input.activeFocus){
             return LokiComponents.Style.heroGreen;
         } else {
-            return Qt.rgba(255, 255, 255, 0.25);
+            return LokiComponents.Style.inputBorderColorInActive;
         }
     }
     property bool borderDisabled: false

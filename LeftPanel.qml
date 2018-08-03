@@ -579,7 +579,7 @@ Rectangle {
             anchors.rightMargin: 0
             anchors.bottom: networkStatus.top;
             height: 10 * scaleRatio
-            color: "black"
+            color: "transparent"
         }
 
         NetworkStatusItem {

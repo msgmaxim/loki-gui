@@ -44,6 +44,7 @@ Item {
     property int dropdownHeight: 42
     property int fontHeaderSize: 16 * scaleRatio
     property int fontItemSize: 14 * scaleRatio
+    property string colorBorder: MoneroComponents.Style.inputBorderColorInActive
     property string colorHeaderBackground: "transparent"
     property bool headerBorder: true
     property bool headerFontBold: false
@@ -88,6 +89,7 @@ Item {
                     return Qt.rgba(255, 255, 255, 0.25);
                 }
             }
+            radius: 4
             anchors.fill: parent
         }
 

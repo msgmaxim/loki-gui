@@ -240,7 +240,7 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
+                    lineEditBorderColor: Style.inputBorderColorActive
 
                     daemonAddrLabelText: qsTr("Address")
                     daemonPortLabelText: qsTr("Port")
@@ -485,7 +485,7 @@ Rectangle {
 
                 ListModel {
                      id: logLevel
-                     ListElement { name: "wow"; column1: "0"; }
+                     ListElement { name: "none"; column1: "0"; }
                      ListElement { column1: "1"; }
                      ListElement { column1: "2"; }
                      ListElement { column1: "3"; }
