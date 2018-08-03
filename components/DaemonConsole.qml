@@ -174,7 +174,6 @@ Window {
 
             LokiComponents.LineEdit {
                 id: sendCommandText
-                width: 300
                 Layout.fillWidth: true
                 placeholderText: qsTr("Command + Enter (e.g Help)") + translationManager.emptyString
                 onAccepted: {
