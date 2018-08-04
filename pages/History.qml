@@ -189,7 +189,7 @@ Rectangle {
                         id: fromDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
-                        inputLabel.text: "Date From"
+                        inputLabel.text: qsTr("Date from") + translationManager.emptyString
 
                         onCurrentDateChanged: {
                             onFilterChanged()
@@ -212,7 +212,11 @@ Rectangle {
                         id: toDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
+<<<<<<< HEAD
                         inputLabel.text: "Date To"
+=======
+                        inputLabel.text: qsTr("Date to") + translationManager.emptyString
+>>>>>>> 53c3151a23
 
                         onCurrentDateChanged: {
                             onFilterChanged()

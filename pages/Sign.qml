@@ -193,13 +193,15 @@ Rectangle {
             ColumnLayout {
                 id: signSignatureRow
 
-                LineEdit {
-                    id: signSignatureLine
-                    labelText: qsTr("Signature")
-                    placeholderText: qsTr("Signature") + translationManager.emptyString;
-                    readOnly: true
-                    Layout.fillWidth: true
-                    copyButton: true
+                RowLayout {
+                    LineEdit {
+                        id: signSignatureLine
+                        labelText: qsTr("Signature") + translationManager.emptyString;
+                        placeholderText: qsTr("Signature") + translationManager.emptyString;
+                        readOnly: true
+                        Layout.fillWidth: true
+                        copyButton: true
+                    }
                 }
             }
 
@@ -244,7 +246,7 @@ Rectangle {
                 RowLayout {
                     LineEdit {
                         id: verifyFileLine
-                        labelText: qsTr("Verify File")
+                        labelText: qsTr("Verify file") + translationManager.emptyString;
                         placeholderText: qsTr("Filename with message to verify") + translationManager.emptyString;
                         readOnly: false
                         Layout.fillWidth: true
@@ -286,7 +288,7 @@ Rectangle {
                     LineEditMulti {
                         id: verifyAddressLine
                         Layout.fillWidth: true
-                        labelText: qsTr("Address")
+                        labelText: qsTr("Address") + translationManager.emptyString;
                         addressValidation: true
                         anchors.topMargin: 5 * scaleRatio
                         placeholderText: "L..."
