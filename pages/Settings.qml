@@ -662,13 +662,13 @@ Rectangle {
             TextBlock {
                 Layout.fillWidth: true
                 font.pixelSize: 14
-                text:  (!currentWallet) ? "" : qsTr("Wallet Log Path: ") + translationManager.emptyString
+                text: qsTr("Wallet Log Path: ") + translationManager.emptyString
             }
 
             TextBlock {
                 Layout.fillWidth: true
                 font.pixelSize: 14
-                text: currentWallet.walletLogPath + translationManager.emptyString
+                text: walletLogPath
             }
         }
     }
