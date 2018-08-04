@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1030,13 +1030,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>帮助</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>二维码包含了上面所选用的地址和下面所输入的金额. 可共享给他人 (右键-&gt;保存) 扫一扫转账简单又快捷.&lt;/p&gt;</translation>
     </message>
@@ -1077,28 +1076,27 @@
         <translation>二维码</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;这是简单的销售跟踪:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;让您的顾客扫描二维码付款 (如果顾客可以使用支持二维码的程序).&lt;/p&gt;&lt;p&gt;本页面将自动扫描使用二维码的交易所在的区块链和转账矿池. 如果您填入金额, 这个金额的总交易也会被检验.&lt;/p&gt;这取决于您是否接受未确认的交易. 通常它们都会很快被确认, 但是依然有可能出现不被确认的情况, 因此如果是大额交易您应该等待1次或者更多次的确认.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;这是简单的销售跟踪:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;让您的顾客扫描二维码付款 (如果顾客可以使用支持二维码的程序).&lt;/p&gt;&lt;p&gt;本页面将自动扫描使用二维码的交易所在的区块链和转账矿池. 如果您填入金额, 这个金额的总交易也会被检验.&lt;/p&gt;这取决于您是否接受未确认的交易. 通常它们都会很快被确认, 但是依然有可能出现不被确认的情况, 因此如果是大额交易您应该等待1次或者更多次的确认.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>确认</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>确认</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>交易ID已复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>启用</translation>
     </message>
@@ -1288,7 +1286,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(例如： *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(例如： *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1948,9 +1946,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>主要地址</translation>
+        <translation type="vanished">主要地址</translation>
     </message>
 </context>
 <context>
@@ -2015,9 +2012,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>主要地址</translation>
+        <translation type="vanished">主要地址</translation>
     </message>
 </context>
 <context>
@@ -2095,12 +2091,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>正常 (1倍手续费)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                地址 &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;地址簿&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>在本 OpenAlias 地址未发现有效地址</translation>
     </message>
@@ -2163,12 +2159,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>高级选项</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="522"/>
+        <location filename="../pages/Transfer.qml" line="518"/>
         <source>Sign tx file</source>
         <translation type="vanished">签名一个交易文件</translation>
     </message>
@@ -2273,24 +2269,20 @@ Recipient: </source>
 接收方: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="571"/>
         <source>payment ID: </source>
-        <translation>付款ID: </translation>
+        <translation type="vanished">付款ID: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="572"/>
         <source>Amount: </source>
-        <translation>金额: </translation>
+        <translation type="vanished">金额: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="573"/>
         <source>Fee: </source>
-        <translation>手续费: </translation>
+        <translation type="vanished">手续费: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="574"/>
         <source>Ringsize: </source>
-        <translation>环签名大小: </translation>
+        <translation type="vanished">环签名大小: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="516"/>
@@ -2446,9 +2438,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>未知错误</translation>
+        <translation type="vanished">未知错误</translation>
     </message>
 </context>
 <context>
@@ -3128,25 +3119,25 @@ Ringsize: </source>
         <translation>无法创建此项交易: 区块同步程序版本错误:</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>地址: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>
 环签名大小: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>警告: 非默认签名环大小, 可能会破坏隐私, 推荐默认大小7</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>交易次数: </translation>
@@ -3168,25 +3159,25 @@ Spending address index: </source>
         <translation>Loki转账已成功: %1 个交易</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="818"/>
+        <location filename="../main.qml" line="820"/>
         <source>Payment proof</source>
         <translation>付款证明</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="821"/>
+        <location filename="../main.qml" line="823"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>不能生成证明, 原因如下: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="851"/>
-        <location filename="../main.qml" line="871"/>
+        <location filename="../main.qml" line="853"/>
+        <location filename="../main.qml" line="873"/>
         <source>Payment proof check</source>
         <translation>检验付款证明</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="854"/>
-        <location filename="../main.qml" line="873"/>
+        <location filename="../main.qml" line="856"/>
+        <location filename="../main.qml" line="875"/>
         <source>Bad signature</source>
         <translation>签名不正确</translation>
     </message>
@@ -3277,7 +3268,7 @@ Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>后台进程日志</translation>
     </message>

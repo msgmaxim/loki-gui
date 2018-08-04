@@ -1113,13 +1113,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Этот QR-код включает в себя адрес, который вы выбрали выше и количество, которые вы ввели ниже. Поделитесь этим с другими (ПКМ-&gt;Сохранить) так им будет легче отправить вам точное количество.&lt;/p&gt;</translation>
     </message>
@@ -1160,28 +1159,27 @@
         <translation>QR-код</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Это простой инструмент для отслеживания операций:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Дайте своему клиенту отсканировать этот QR-код для совершения платежа (если у этого клиента есть программное обеспечение, которое поддерживает сканирование QR-кодов).&lt;/p&gt;&lt;p&gt;Эта страница будет автоматически сканировать блокчейн на наличие входящих транзакций в пуле с помощью этого QR-кода. Если вы введете количество, будет также проверена эта входящая транзакция на наличие нужного количества.&lt;/p&gt;Вам самим решать, принимать или нет неподтвержденные транзакции. Скорее всего они будут подтверждены в очень короткое время, но есть небольшой шанс того, что они не будут подтверждены. Именно по этому при больших суммах лучше будет подождать одного или нескольких подтверждений.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Это простой инструмент для отслеживания операций:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Дайте своему клиенту отсканировать этот QR-код для совершения платежа (если у этого клиента есть программное обеспечение, которое поддерживает сканирование QR-кодов).&lt;/p&gt;&lt;p&gt;Эта страница будет автоматически сканировать блокчейн на наличие входящих транзакций в пуле с помощью этого QR-кода. Если вы введете количество, будет также проверена эта входящая транзакция на наличие нужного количества.&lt;/p&gt;Вам самим решать, принимать или нет неподтвержденные транзакции. Скорее всего они будут подтверждены в очень короткое время, но есть небольшой шанс того, что они не будут подтверждены. Именно по этому при больших суммах лучше будет подождать одного или нескольких подтверждений.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>подтверждений</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>подтверждение</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID транзакции скопировано в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Включить</translation>
     </message>
@@ -1386,7 +1384,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(Например, *: WARNING, net.p2p:DEBUG)</translation>
+        <translation type="vanished">(Например, *: WARNING, net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2332,7 +2330,7 @@ Please upgrade or connect to another daemon</source>
         <translation>Нормальный (x1 комиссия)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Адрес &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Адресная книга&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -3074,7 +3072,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Демон синхронизирован</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="597"/>
+        <location filename="../main.qml" line="599"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
         <translation type="vanished">Невозможно создать транзакцию: Неверная версия демона:</translation>
     </message>
@@ -3092,13 +3090,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Адрес: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="623"/>
-        <location filename="../main.qml" line="741"/>
+        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="743"/>
         <source>
 Amount: </source>
         <translation>
@@ -3223,14 +3221,14 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ring Size: </source>
         <translation>
 Размер кольца: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>

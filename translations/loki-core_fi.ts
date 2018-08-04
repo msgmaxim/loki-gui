@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fi" sourcelanguage="en">
+<TS version="2.1" language="fi" sourcelanguage="en">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1933,7 +1933,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Päivämäärä</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="81"/>
@@ -2317,14 +2317,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

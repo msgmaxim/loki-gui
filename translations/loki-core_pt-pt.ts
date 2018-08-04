@@ -1077,13 +1077,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Ajuda</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Este codigo QR inclui o endereço que selecionou em cima e a quantia que selecionou em baixo. Partilhe-o com outros (Botão direito-&gt;Guardar) para que seja mais facil enviarem-lhe quantias certas.&lt;/p&gt;</translation>
     </message>
@@ -1124,28 +1123,27 @@
         <translation>Código QR</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Este é um simples sistema de verificação de vendas:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permita que o seu cliente leia o codigo QR para fazer o pagamento (se o software do seu cliente suportar leitura de códigos QR).&lt;/p&gt;&lt;p&gt;Esta pagina vai automaticamente procurar as transacções existentes e verificar se existe alguma transacção com este código QR. Caso tenha colocado uma quantia irá tambem verificar a soma te todas as transacções.&lt;/p&gt;Cabe-lhe a si aceitar ou não transacções não confirmadas. É provavel que elas sejam confirmadas rapidamente, mas tambem existe a possibilidade que não sejam, portanto para transacções de grande valor é aconselhavel esperar por uma ou mais confirmaçções.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Este é um simples sistema de verificação de vendas:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permita que o seu cliente leia o codigo QR para fazer o pagamento (se o software do seu cliente suportar leitura de códigos QR).&lt;/p&gt;&lt;p&gt;Esta pagina vai automaticamente procurar as transacções existentes e verificar se existe alguma transacção com este código QR. Caso tenha colocado uma quantia irá tambem verificar a soma te todas as transacções.&lt;/p&gt;Cabe-lhe a si aceitar ou não transacções não confirmadas. É provavel que elas sejam confirmadas rapidamente, mas tambem existe a possibilidade que não sejam, portanto para transacções de grande valor é aconselhavel esperar por uma ou mais confirmaçções.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>confirmações</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>confirmação</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID da transacção copiada para a área de transferência</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Activar</translation>
     </message>
@@ -1516,7 +1514,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(ex: *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(ex: *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <source>GUI version: </source>
@@ -1928,9 +1926,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Endereço primário</translation>
+        <translation type="vanished">Endereço primário</translation>
     </message>
 </context>
 <context>
@@ -1995,9 +1992,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Endereço primário</translation>
+        <translation type="vanished">Endereço primário</translation>
     </message>
 </context>
 <context>
@@ -2080,7 +2076,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Normal (x1 taxa)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Endereço &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Livro de endereços&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -2184,12 +2180,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Opções avançadas</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="522"/>
+        <location filename="../pages/Transfer.qml" line="518"/>
         <source>Sign tx file</source>
         <translation type="vanished">Assinar ficheiro de tx</translation>
     </message>
@@ -2428,9 +2424,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Erro desconhecido</translation>
+        <translation type="vanished">Erro desconhecido</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
@@ -3037,12 +3032,12 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="461"/>
+        <location filename="../main.qml" line="463"/>
         <source>Waiting for daemon to sync</source>
         <translation>Aguardando daemon sincronizar</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="465"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Daemon sincronizando (%1)</translation>
     </message>
@@ -3057,22 +3052,22 @@ Number Of Transactions: </source>
         <translation>Saldo insuficiente. Total desbloqueado: %1</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="465"/>
+        <location filename="../main.qml" line="467"/>
         <source>Wallet is synchronized</source>
         <translation>Carteira está sincronizada</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="551"/>
+        <location filename="../main.qml" line="553"/>
         <source>Daemon is synchronized</source>
         <translation>Daemon está sincronizado</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Endereço: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>
@@ -3220,7 +3215,7 @@ Spending address index: </source>
         <translation type="vanished">Nova versão da GUI do Loki disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Registo do daemon</translation>
     </message>

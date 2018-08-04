@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sk_SK">
+<TS version="2.1" language="sk_SK">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1044,13 +1044,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Tento QR kód obsahuje adresu, ktorú ste vybrali vyššie a sumu, ktorú ste zadali nižšie. Zdieľajte ho s inými (pravý klik-&gt;Uložiť) aby Vám mohli jednoduchšie odoslať presnú sumu.&lt;/p&gt;</translation>
     </message>
@@ -1086,28 +1085,27 @@
         <translation>QR kód</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý sledovač predaja:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Nechajte Vášho zákazníka naskenovať tento QR kód k vykonaniu platby (ak má tento zákazník softvér, ktorý podporuje snímanie QR kódov).&lt;/p&gt;&lt;p&gt;Táto stránka bude automaticky sledovať blockchain a jeho transakcie pre prichádzajúcu transakciu zákaznika, ktorý použil QR kód. Ak zadáte sumu, skontroluje aj či došlá transakcia dosiahla celkovú sumu.&lt;/p&gt;Je to na Vás, či akceptujete nepotvrdené transakcie alebo nie. Je pravdepodobné, že budú potvrdené v krátkom čase, ale stále je tu možnosť, že nemusia byť, takže pre väčšie sumy možno budete chcieť počkať na jedno alebo viac potvrdení.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý sledovač predaja:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Nechajte Vášho zákazníka naskenovať tento QR kód k vykonaniu platby (ak má tento zákazník softvér, ktorý podporuje snímanie QR kódov).&lt;/p&gt;&lt;p&gt;Táto stránka bude automaticky sledovať blockchain a jeho transakcie pre prichádzajúcu transakciu zákaznika, ktorý použil QR kód. Ak zadáte sumu, skontroluje aj či došlá transakcia dosiahla celkovú sumu.&lt;/p&gt;Je to na Vás, či akceptujete nepotvrdené transakcie alebo nie. Je pravdepodobné, že budú potvrdené v krátkom čase, ale stále je tu možnosť, že nemusia byť, takže pre väčšie sumy možno budete chcieť počkať na jedno alebo viac potvrdení.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>potvrdení</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>potvrdenie</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID transakcie bolo skopírované do schránky</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Povoliť</translation>
     </message>
@@ -1293,7 +1291,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(napr. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(napr. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1939,9 +1937,8 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
 <context>
     <name>SubaddressModel</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Primárna adresa</translation>
+        <translation type="vanished">Primárna adresa</translation>
     </message>
 </context>
 <context>
@@ -2006,9 +2003,8 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Primárna adresa</translation>
+        <translation type="vanished">Primárna adresa</translation>
     </message>
 </context>
 <context>
@@ -2072,12 +2068,12 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Normálny (x1 poplatok)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresa &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adresár&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Na tejto adrese OpenAlias sa nenašla platná adresa</translation>
     </message>
@@ -2117,7 +2113,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Odoslať</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Pokročilé nastavenia</translation>
     </message>
@@ -2433,14 +2429,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2613,7 +2601,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Stagenet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Stagenet</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
@@ -2858,7 +2846,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOptions.qml" line="254"/>
         <source>Stagenet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Stagenet</translation>
     </message>
 </context>
 <context>
@@ -3095,7 +3083,7 @@ Ringsize: </translation>
         <translation type="unfinished">Zlý podpis</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation type="unfinished">
@@ -3160,8 +3148,8 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="854"/>
-        <location filename="../main.qml" line="873"/>
+        <location filename="../main.qml" line="856"/>
+        <location filename="../main.qml" line="875"/>
         <source>Bad signature</source>
         <translation>Zlý podpis</translation>
     </message>
@@ -3252,7 +3240,7 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Záznamy démona</translation>
     </message>

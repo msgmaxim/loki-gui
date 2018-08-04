@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sv_SE">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1055,15 +1055,14 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Hjälp</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
-        <translation>&lt;p>Denna QR-kod inkluderar den adress du valde ovan och det belopp du angav nedan. Dela den med andra (högerklicka -&gt; Spara) så att de lättare kan skicka dig exakta belopp.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Denna QR-kod inkluderar den adress du valde ovan och det belopp du angav nedan. Dela den med andra (högerklicka -&gt; Spara) så att de lättare kan skicka dig exakta belopp.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="373"/>
@@ -1102,28 +1101,27 @@
         <translation>QR-kod</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Detta är en enkel säljuppföljning:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Låt kunden skanna in denna QR-kod för att göra en betalning (om kunden har programvara som stödjer inskanning av QR-koder).&lt;/p&gt;&lt;p&gt;Denna sida skannar sedan automatiskt blockkedjan och transaktionspoolen efter inkommande transaktioner som har QR-koden. Om du anger ett belopp kontrollerar den också att summan av inkommande transaktioner blir detta belopp.&lt;/p&gt;Du väljer själv om du vill acceptera obekräftade transaktioner eller inte. De kommer förmodligen att bekräftas ganska snart, men det finns alltid en chans att det tar lite tid. För större belopp kan det alltså vara bra att vänta på en eller flera bekräftelser.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Detta är en enkel säljuppföljning:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Låt kunden skanna in denna QR-kod för att göra en betalning (om kunden har programvara som stödjer inskanning av QR-koder).&lt;/p&gt;&lt;p&gt;Denna sida skannar sedan automatiskt blockkedjan och transaktionspoolen efter inkommande transaktioner som har QR-koden. Om du anger ett belopp kontrollerar den också att summan av inkommande transaktioner blir detta belopp.&lt;/p&gt;Du väljer själv om du vill acceptera obekräftade transaktioner eller inte. De kommer förmodligen att bekräftas ganska snart, men det finns alltid en chans att det tar lite tid. För större belopp kan det alltså vara bra att vänta på en eller flera bekräftelser.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>bekräftelser</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>bekräftelse</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Transaktions-ID kopierades till Urklipp</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Aktivera</translation>
     </message>
@@ -1275,7 +1273,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(t.ex. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(t.ex. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2109,9 +2107,8 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Primär adress</translation>
+        <translation type="vanished">Primär adress</translation>
     </message>
 </context>
 <context>
@@ -2176,9 +2173,8 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Primär adress</translation>
+        <translation type="vanished">Primär adress</translation>
     </message>
 </context>
 <context>
@@ -2347,12 +2343,12 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <translation>Normal (x1 avgift)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adress &lt;font size=&apos;2&apos;&gt;  (&lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adressbok&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Avancerade alternativ</translation>
     </message>
@@ -2603,9 +2599,8 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Okänt fel</translation>
+        <translation type="vanished">Okänt fel</translation>
     </message>
 </context>
 <context>
@@ -3306,26 +3301,26 @@ Ringstorlek: </translation>
         <translation>Kan inte skapa transaktionen: Felaktig nodversion: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Adress: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>
 Ringstorlek: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 VARNING: icke-standard ringstorlek, vilket kan skada din sekretess. En standardstorlek på 7 rekommenderas.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3441,7 +3436,7 @@ Index för spenderingsadress: </translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Daemonens loggfil</translation>
     </message>

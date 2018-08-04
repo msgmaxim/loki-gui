@@ -1285,7 +1285,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(Наприклад, *: WARNING, net.p2p:DEBUG)</translation>
+        <translation type="vanished">(Наприклад, *: WARNING, net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -3107,13 +3107,13 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>

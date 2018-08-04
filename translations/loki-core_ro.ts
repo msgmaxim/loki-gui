@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ro_RO">
+<TS version="2.1" language="ro_RO">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1066,12 +1066,16 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Ajutor</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Acest cod QR include adresa selectată mai sus și suma introdusă mai jos. Distribuie codul QR altora (Clic-Dreapta-&gt;Salvează) astfel încât ei pot să îți trimită mai ușor suma exactă.&lt;/p&gt;</translation>
@@ -1113,28 +1117,27 @@
         <translation>Cod QR</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Acesta este un simplu urmăritor de vânzare:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permiteți clientului să scaneze codul QR pentru a face o plată (doar dacă acel client deține aplicația necesară pentru a scana coduri QR).&lt;/p&gt;&lt;p&gt;Această pagină va scana automat rețeaua pentru a identifica tranzacții realizate utilizând acest cod QR. Dacă introduceți și suma, va verifica de asemenea și tranzacții până la această sumă.&lt;/p&gt;Este la latitudinea dumneavoastră să acceptați tranzații neconfirmate. Cel mai probabil vor fi confirmate în curând, dar există o posibilitate să nu fie confirmate, așadar pentru sume mai mari este bine sa așteptați o confirmare sau mai multe.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Acesta este un simplu urmăritor de vânzare:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permiteți clientului să scaneze codul QR pentru a face o plată (doar dacă acel client deține aplicația necesară pentru a scana coduri QR).&lt;/p&gt;&lt;p&gt;Această pagină va scana automat rețeaua pentru a identifica tranzacții realizate utilizând acest cod QR. Dacă introduceți și suma, va verifica de asemenea și tranzacții până la această sumă.&lt;/p&gt;Este la latitudinea dumneavoastră să acceptați tranzații neconfirmate. Cel mai probabil vor fi confirmate în curând, dar există o posibilitate să nu fie confirmate, așadar pentru sume mai mari este bine sa așteptați o confirmare sau mai multe.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>Confirmări</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>Confirmare</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Identificatorul tranzacției a fost copiat în memorie</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Permis</translation>
     </message>
@@ -1560,7 +1563,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(ex. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(ex. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <source>GUI version: </source>
@@ -1979,9 +1982,8 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
 <context>
     <name>SubaddressModel</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Adresă principală</translation>
+        <translation type="vanished">Adresă principală</translation>
     </message>
 </context>
 <context>
@@ -2046,9 +2048,8 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Adresă principală</translation>
+        <translation type="vanished">Adresă principală</translation>
     </message>
 </context>
 <context>
@@ -2101,8 +2102,8 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Cod QR</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="260"/>
-        <location filename="../pages/Transfer.qml" line="282"/>
+        <location filename="../pages/Transfer.qml" line="256"/>
+        <location filename="../pages/Transfer.qml" line="278"/>
         <source>Resolve</source>
         <translation>Soluționează</translation>
     </message>
@@ -2132,12 +2133,12 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Normal (x1 comision)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresă &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Agendă&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Nu am găsit o adresă corectă la această adresă OpenAlias</translation>
     </message>
@@ -2177,7 +2178,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Trimite</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Opțiuni avansate</translation>
     </message>
@@ -2485,9 +2486,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Eroare necunoscută</translation>
+        <translation type="vanished">Eroare necunoscută</translation>
     </message>
 </context>
 <context>
@@ -3160,26 +3160,26 @@ Ringsize: </translation>
         <translation>Nu s-a putut crea tranzacția: versiune incorectă a serviciului: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Adresă:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>
 Mărimea inelului: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 ATENȚIE: mărimea inelului este diferit de cel implicit, ceea ce ar putea să vă afecteze confidențialitatea. Implicit 7 este recomandat.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3318,7 +3318,7 @@ Indexul adresei de cheltuit:</translation>
         <translation>O nouă versiune loki-wallet-gui este disponibilă: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Jurnal serviciu</translation>
     </message>

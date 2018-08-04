@@ -1098,13 +1098,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Help</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Deze QR-code bevat het hierboven geselecteerde adres en het hieronder ingevoerde bedrag. U kunt de code aan anderen laten zien (rechtermuisknop -&gt; Opslaan), zodat ze eenvoudig een exact bedrag kunnen betalen.&lt;/p&gt;</translation>
     </message>
@@ -1135,28 +1134,27 @@
         <translation>QR-code</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Dit is een eenvoudige verkooptracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Laat uw klant deze QR-code scannen om een betaling uit te voeren (als de klant een app voor het scannen van QR-codes heeft).&lt;/p&gt;&lt;p&gt;Deze pagina zoekt automatisch in de blockchain en de transactiepool naar binnenkomende transacties met deze QR-code. Als u een bedrag invult, wordt ook gecontroleerd of dat bedrag wordt betaald door binnenkomende transacties.&lt;/p&gt;Het is uw keuze of u onbevestigde transacties wilt accepteren. Waarschijnlijk worden ze snel bevestigd, maar dat is niet gegarandeerd, dus voor grotere bedragen kunt u beter wachten op een of meer bevestigingen.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Dit is een eenvoudige verkooptracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Laat uw klant deze QR-code scannen om een betaling uit te voeren (als de klant een app voor het scannen van QR-codes heeft).&lt;/p&gt;&lt;p&gt;Deze pagina zoekt automatisch in de blockchain en de transactiepool naar binnenkomende transacties met deze QR-code. Als u een bedrag invult, wordt ook gecontroleerd of dat bedrag wordt betaald door binnenkomende transacties.&lt;/p&gt;Het is uw keuze of u onbevestigde transacties wilt accepteren. Waarschijnlijk worden ze snel bevestigd, maar dat is niet gegarandeerd, dus voor grotere bedragen kunt u beter wachten op een of meer bevestigingen.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>bevestigingen</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>bevestiging</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Transactie-ID gekopieerd naar klembord</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Inschakelen</translation>
     </message>
@@ -2158,9 +2156,8 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Primair adres</translation>
+        <translation type="vanished">Primair adres</translation>
     </message>
 </context>
 <context>
@@ -2225,9 +2222,8 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Primair adres</translation>
+        <translation type="vanished">Primair adres</translation>
     </message>
 </context>
 <context>
@@ -2315,12 +2311,12 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
         <translation>Normaal (vergoeding × 1)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adres &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adresboek&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Geen geldig adres gevonden voor dit OpenAlias-adres</translation>
     </message>
@@ -2390,12 +2386,12 @@ Upgrade of maak verbinding met een andere node</translation>
         <translation>Alles</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Geavanceerde opties</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="522"/>
+        <location filename="../pages/Transfer.qml" line="518"/>
         <source>Sign tx file</source>
         <translation type="vanished">Onderteken TX-bestand</translation>
     </message>
@@ -2669,9 +2665,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Onbekende fout</translation>
+        <translation type="vanished">Onbekende fout</translation>
     </message>
 </context>
 <context>
@@ -3371,35 +3366,35 @@ Ringsize: </source>
 Ringgrootte: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 WAARSCHUWING: ringgroote is niet standaard. Dit kan schadelijk zijn voor uw privacy. De standaardwaarde 7 wordt aangeraden.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
 Aantal transacties: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
+        <location filename="../main.qml" line="632"/>
         <source>
 Description: </source>
         <translation>
 Omschrijving: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Spending address index: </source>
         <translation>
 Index van betalend adres: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="739"/>
+        <location filename="../main.qml" line="741"/>
         <source>Confirmation</source>
         <translation>Bevestiging</translation>
     </message>
@@ -3608,7 +3603,7 @@ Ringgrootte: </translation>
         <translation type="vanished">Nieuwe versie van loki-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Node-log</translation>
     </message>

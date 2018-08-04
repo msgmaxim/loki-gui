@@ -1084,13 +1084,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Pomoć</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ovaj QR kod sadrži adresu koju ste iznad izabrali i iznos koji ste uneli ispod. Delite ga sa ostalima (desni-klik-&gt;Sačuvaj) kako bi vam lakše slali tačane iznose.&lt;/p&gt;</translation>
     </message>
@@ -1131,28 +1130,27 @@
         <translation>QR Kod</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Ovo je jednostavni pratioc prodaja&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Dajte vašoj mušteriji da skenira QR kod za uplatu (ako mušterija ima softver koji podržava skeniranje QR koda).&lt;/p&gt;&lt;p&gt;Ova stranica će automatski skenirati blokčejn i skup transakcija za dolazeće uplate koje koriste ovaj QR kod. Ako uneste iznos, takođe će proveriti da dolazeće transakcije ukupno čine taj iznos.&lt;/p&gt;Do vas je, želite li da prihvatite nepotvrđene transakcije. Verovatno će biti potvrđene brzo, ali idalje postoji mogućnost da neće, pa za veće sume možda želite da sačekate jednu ili više potvrda.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Ovo je jednostavni pratioc prodaja&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Dajte vašoj mušteriji da skenira QR kod za uplatu (ako mušterija ima softver koji podržava skeniranje QR koda).&lt;/p&gt;&lt;p&gt;Ova stranica će automatski skenirati blokčejn i skup transakcija za dolazeće uplate koje koriste ovaj QR kod. Ako uneste iznos, takođe će proveriti da dolazeće transakcije ukupno čine taj iznos.&lt;/p&gt;Do vas je, želite li da prihvatite nepotvrđene transakcije. Verovatno će biti potvrđene brzo, ali idalje postoji mogućnost da neće, pa za veće sume možda želite da sačekate jednu ili više potvrda.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>potvrde</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>potvrda</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID transakcije kopiran na klipbord</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Omogućite</translation>
     </message>
@@ -1356,7 +1354,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(e.g. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(e.g. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2164,9 +2162,8 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Primarna adresa</translation>
+        <translation type="vanished">Primarna adresa</translation>
     </message>
 </context>
 <context>
@@ -2231,9 +2228,8 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Primarna adresa</translation>
+        <translation type="vanished">Primarna adresa</translation>
     </message>
 </context>
 <context>
@@ -2414,12 +2410,12 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
         <translation>Normalno (x1 provizija)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresa &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Imenik&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Napredne opcije</translation>
     </message>
@@ -2678,9 +2674,8 @@ U slučaju sa Dokazom Troška, ne morate navesti adresu primaoca.</translation>
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Nepoznata greška</translation>
+        <translation type="vanished">Nepoznata greška</translation>
     </message>
 </context>
 <context>
@@ -3389,26 +3384,26 @@ Ringsize: </translation>
         <translation>Nije moguće napraviti transakciju. Pogrešna daemon vezija: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Adresa: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>
 Veličina prstena: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 UPOZORENJE: nepodrazumevana veličina prstena, koja vam može oštetiti privatnost. Podrazumenvanih 7 se preporučuje.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3528,7 +3523,7 @@ Indeks adrese za potrošnju: </translation>
         <translation type="vanished">Nova verzija loki-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Daemon log</translation>
     </message>

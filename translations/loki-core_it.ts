@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="it_IT">
+<TS version="2.1" language="it_IT">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1085,12 +1085,16 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Aiuto</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Questo codice QR include l&apos;indirizzo che hai selezionato sopra e l&apos;ammontare che hai inserito sotto. Condividilo con altri (click-destro-&gt;Salva) in modo tale che possano inviarti più facilmente l&apos;ammontare esatto.&lt;/p&gt;</translation>
@@ -1122,28 +1126,27 @@
         <translation>Codice QR</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Questo è un semplice sistema per il monitoraggio delle vendite:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Fai scansionare quel codice QR al tuo cliente in modo tale che possa effettuare il pagamento (se il cliente ha un software che supporta la scansione dei codici QR).&lt;/p&gt;&lt;p&gt;Questa pagina effettuerà automaticamente una scansione della blockchain e delle transazioni, cercando quelle in entrata utilizzando questo codice QR. Se inserisci un ammontare, controllerà anche che le transazioni in entrata siano uguali a quell&apos;ammontare.&lt;/p&gt;Sta a te decidere se accettare o meno transazioni non confermate. In genere queste vengono confermate entro poco tempo, ma c&apos;è sempre la possibilità che non succeda; per transazioni di una certa entità è consigliabile attendere una o più conferme.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Questo è un semplice sistema per il monitoraggio delle vendite:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Fai scansionare quel codice QR al tuo cliente in modo tale che possa effettuare il pagamento (se il cliente ha un software che supporta la scansione dei codici QR).&lt;/p&gt;&lt;p&gt;Questa pagina effettuerà automaticamente una scansione della blockchain e delle transazioni, cercando quelle in entrata utilizzando questo codice QR. Se inserisci un ammontare, controllerà anche che le transazioni in entrata siano uguali a quell&apos;ammontare.&lt;/p&gt;Sta a te decidere se accettare o meno transazioni non confermate. In genere queste vengono confermate entro poco tempo, ma c&apos;è sempre la possibilità che non succeda; per transazioni di una certa entità è consigliabile attendere una o più conferme.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>conferme</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>conferma</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID transazione copiato negli appunti</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Abilita</translation>
     </message>
@@ -1340,7 +1343,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(esempio: *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(esempio: *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1942,9 +1945,8 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Indirizzo primario</translation>
+        <translation type="vanished">Indirizzo primario</translation>
     </message>
 </context>
 <context>
@@ -2009,9 +2011,8 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Indirizzo primario</translation>
+        <translation type="vanished">Indirizzo primario</translation>
     </message>
 </context>
 <context>
@@ -2141,12 +2142,12 @@ Please upgrade or connect to another daemon</source>
         <translation>Normale (commissione 1x)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Indirizzo &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Rubrica&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Nessun indirizzo valido trovato in questo indirizzo OpenAlias</translation>
     </message>
@@ -2191,7 +2192,7 @@ Please upgrade or connect to another daemon</source>
         <translation>Invia</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Opzioni avanzate</translation>
     </message>
@@ -2439,9 +2440,8 @@ In caso di prova di spesa, non serve specificare l&apos;indirizzo del ricevente.
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Errore sconosciuto</translation>
+        <translation type="vanished">Errore sconosciuto</translation>
     </message>
 </context>
 <context>
@@ -3104,14 +3104,14 @@ Ringsize: </source>
         <translation>Dimensione anello: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 ATTENZIONE: dimensione anello non di default. Potrebbe danneggiare la tua privacy. Si raccomanda un default di 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3125,14 +3125,14 @@ Description: </source>
 Descrizione: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Spending address index: </source>
         <translation>
 Indice indirizzo di spesa: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="739"/>
+        <location filename="../main.qml" line="741"/>
         <source>Confirmation</source>
         <translation>Conferma</translation>
     </message>
@@ -3252,7 +3252,7 @@ Ringsize: </source>
         <translation>E&apos; disponibile una nuova versione dell&apos;interfaccia grafica: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Log daemon</translation>
     </message>

@@ -1089,13 +1089,12 @@ Podaj hasło portfela dla: </translation>
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ten kod QR zawiera wybrany powyżej adres oraz kwotę podaną poniżej. Podziel się nim z innymi (prawy przycisk -&gt; Zapisz), by mogli łatwiej wysyłać ci dokładne kwoty.&lt;/p&gt;</translation>
     </message>
@@ -1126,28 +1125,27 @@ Podaj hasło portfela dla: </translation>
         <translation>Kod QR</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Tutaj możesz śledzić swoją sprzedaż.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Pozwól klientowi zeskanować ten kod QR by szybko utworzyć transakcję (jeśli ów klient ma oprogramowanie pozwalające na skanowanie kodów QR).&lt;/p&gt;&lt;p&gt;Ta strona automatycznie przeskanuje blockchain i pulę transakcji w poszukiwaniu transakcji przychodzących dla tego kodu QR. Jeśli podasz kwotę, sprawdzi ona także czy suma transakcji przychodzących jest równa tej kwocie.&lt;/p&gt;&lt;p&gt;To od ciebie zależy czy chcesz akceptować niepotwierdzone transakcje. Prawdopodobnie zostaną potwierdzone po krótkim czasie, ale możliwe, że nie zostaną, więc dla większych kwot powinieneś poczekać na jedno lub więcej potwierdzeń.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Tutaj możesz śledzić swoją sprzedaż.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Pozwól klientowi zeskanować ten kod QR by szybko utworzyć transakcję (jeśli ów klient ma oprogramowanie pozwalające na skanowanie kodów QR).&lt;/p&gt;&lt;p&gt;Ta strona automatycznie przeskanuje blockchain i pulę transakcji w poszukiwaniu transakcji przychodzących dla tego kodu QR. Jeśli podasz kwotę, sprawdzi ona także czy suma transakcji przychodzących jest równa tej kwocie.&lt;/p&gt;&lt;p&gt;To od ciebie zależy czy chcesz akceptować niepotwierdzone transakcje. Prawdopodobnie zostaną potwierdzone po krótkim czasie, ale możliwe, że nie zostaną, więc dla większych kwot powinieneś poczekać na jedno lub więcej potwierdzeń.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>potwierdzenia</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>potwierdzenie</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Ident. transakcji skopiowany do schowka</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Włącz</translation>
     </message>
@@ -1348,7 +1346,7 @@ Podaj hasło portfela dla: </translation>
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(np. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(np. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2117,9 +2115,8 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Adres główny</translation>
+        <translation type="vanished">Adres główny</translation>
     </message>
 </context>
 <context>
@@ -2184,9 +2181,8 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Adres główny</translation>
+        <translation type="vanished">Adres główny</translation>
     </message>
 </context>
 <context>
@@ -2367,12 +2363,12 @@ Uaktualnij go lub podłącz się do innego demona</translation>
         <translation>Rozszyfruj</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="229"/>
+        <location filename="../pages/Transfer.qml" line="225"/>
         <source>Normal (x1 fee)</source>
         <translation>Normalny (x1 prowizji)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adres &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Książka adresowa&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -2425,7 +2421,7 @@ Uaktualnij go lub podłącz się do innego demona</translation>
         <translation>Wybierz plik</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Opcje zaawansowane</translation>
     </message>
@@ -2612,9 +2608,8 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Nieznany błąd</translation>
+        <translation type="vanished">Nieznany błąd</translation>
     </message>
 </context>
 <context>
@@ -3325,27 +3320,27 @@ Ringsize: </source>
 Rozmiar pierścienia: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 UWAGA: niedomyślny rozmiar pierścienia zmniejsza twoją anonimowość. Domyślnie zalecane jest 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>Liczba transakcji: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
+        <location filename="../main.qml" line="632"/>
         <source>
 Description: </source>
         <translation>
 Opis: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Spending address index: </source>
         <translation>
@@ -3472,37 +3467,37 @@ Indeks adresu do wydawania: </translation>
         <translation>Nowa wersja GUI portfela Loki jest dostępna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Dziennik demona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="676"/>
+        <location filename="../main.qml" line="678"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
         <translation>Niewystarczające środki: Dostępne saldo: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="461"/>
+        <location filename="../main.qml" line="463"/>
         <source>Waiting for daemon to sync</source>
         <translation>Oczekiwanie na synchronizację demona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="465"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Demon zsynchronizowany (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="465"/>
+        <location filename="../main.qml" line="467"/>
         <source>Wallet is synchronized</source>
         <translation>Portfel zsynchronizowany</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="551"/>
+        <location filename="../main.qml" line="553"/>
         <source>Daemon is synchronized</source>
         <translation>Demon zsynchronizowany</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Adres: </translation>
     </message>

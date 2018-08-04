@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="he">
+<TS version="2.1" language="he">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1036,7 +1036,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="142"/>
         <source>Total received</source>
-        <translation>סה"כ התקבלו</translation>
+        <translation>סה&quot;כ התקבלו</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="165"/>
@@ -1051,13 +1051,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>עזרה</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt; הזה כולל את הכתובת שבחרת למעלה ואת הסכום שהכנסת למטה. שתף אותו עם אחרים (עכבר-ימני ושמור) כדי שיקל עליהם לשלוח לך סכום מדויק QR הקוד.&lt;/p&gt;</translation>
     </message>
@@ -1108,17 +1107,17 @@
         <translation>אישורים</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>אישור</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>מזהה העברה הועתק ללוח</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>אפשר</translation>
     </message>
@@ -1260,7 +1259,7 @@
     </message>
     <message>
         <source>Blockchain location</source>
-        <translation>מיקום בלוקצ'יין</translation>
+        <translation>מיקום בלוקצ&apos;יין</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="423"/>
@@ -1307,7 +1306,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(למשל *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(למשל *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2117,9 +2116,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>כתובת ראשית</translation>
+        <translation type="vanished">כתובת ראשית</translation>
     </message>
 </context>
 <context>
@@ -2184,9 +2182,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>כתובת ראשית</translation>
+        <translation type="vanished">כתובת ראשית</translation>
     </message>
 </context>
 <context>
@@ -2220,8 +2217,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>QR קוד</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="260"/>
-        <location filename="../pages/Transfer.qml" line="282"/>
+        <location filename="../pages/Transfer.qml" line="256"/>
+        <location filename="../pages/Transfer.qml" line="278"/>
         <source>Resolve</source>
         <translation>לפתור</translation>
     </message>
@@ -2291,7 +2288,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>שלח</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>אפשרויות מתקדמות</translation>
     </message>
@@ -2469,10 +2466,9 @@ Ringsize: </source>
         <translation>הארנק אינו מחובר לדימון.</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="676"/>
         <source>Connected daemon is not compatible with GUI.
 Please upgrade or connect to another daemon</source>
-        <translation>הדימון המחובר אינו מתאים לממשק גרפי זה. אנא שדרג אותו או התחבר לדימון אחר</translation>
+        <translation type="vanished">הדימון המחובר אינו מתאים לממשק גרפי זה. אנא שדרג אותו או התחבר לדימון אחר</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="606"/>
@@ -2536,10 +2532,9 @@ Please upgrade or connect to another daemon</source>
         <translation>הוכחת העברה</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="70"/>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message.
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation>צור הוכחה של תשלום יוצא או נכנס על-ידי מזהה ההעברה, כתובת הנמען והודעה אופציונלית.
+        <translation type="vanished">צור הוכחה של תשלום יוצא או נכנס על-ידי מזהה ההעברה, כתובת הנמען והודעה אופציונלית.
 במקרה של תשלום יוצא, ניתן לקבל &apos;הוכחת בזבוז&apos; שמאפשר להוכיח את מחבר ההעברה. במקרה זה, אין צורך לספק את כתובת הנמען.</translation>
     </message>
 <message>
@@ -2615,9 +2610,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>שגיאה לא ידועה</translation>
+        <translation type="vanished">שגיאה לא ידועה</translation>
     </message>
 </context>
 <context>
@@ -2722,7 +2716,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <source>Blockchain location</source>
-        <translation>מיקום בלוקצ'יין</translation>
+        <translation>מיקום בלוקצ&apos;יין</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="157"/>
@@ -2897,9 +2891,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="387"/>
+        <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in:
 %1</source>
-        <translation>ארנק לצפייה בלבד נוצר. ניתן לפתוח אותו ע&quot;י סגירת הארנק הנוכחי, לחיצה על &quot;פתח ארנק מקובץ&quot; ובחירת הארנק לצפייה ב:
+        <translation type="vanished">ארנק לצפייה בלבד נוצר. ניתן לפתוח אותו ע&quot;י סגירת הארנק הנוכחי, לחיצה על &quot;פתח ארנק מקובץ&quot; ובחירת הארנק לצפייה ב:
 %1</translation>
     </message>
     <message>
@@ -3213,25 +3212,25 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
         <translation>אזהרה: גודל טבעת שונה מברירת המחדל עלול לפגוע לך בפרטיות. ברירת מחדל של 7 מומלצת</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>מספר ההעברות</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
+        <location filename="../main.qml" line="632"/>
         <source>
 Description: </source>
         <translation>תיאור</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Spending address index: </source>
         <translation>אינדקס כתובת ההוצאה</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="739"/>
+        <location filename="../main.qml" line="741"/>
         <source>Confirmation</source>
         <translation>אישור</translation>
     </message>
@@ -3273,10 +3272,9 @@ Ringsize: </source>
         <translation>הוכחת תשלום</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="821"/>
         <source>Couldn&apos;t generate a proof because of the following reason:
 </source>
-        <translation>לא ניתן ליצור הוכחה בגלל הסיבה הבאה:</translation>
+        <translation type="vanished">לא ניתן ליצור הוכחה בגלל הסיבה הבאה:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="846"/>
@@ -3340,12 +3338,12 @@ Spending Address Index: </source>
     <message>
         <location filename="../main.qml" line="1152"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>אזהרה: נותרו רק %1 GB על ההתקן. בלוקצ'יין דורש ~%2 GB של מידע.</translation>
+        <translation>אזהרה: נותרו רק %1 GB על ההתקן. בלוקצ&apos;יין דורש ~%2 GB של מידע.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1154"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>שים לב: נותרו רק %1 GB על ההתקן. בלוקצ'יין דורש ~%2 GB של מידע.</translation>
+        <translation>שים לב: נותרו רק %1 GB על ההתקן. בלוקצ&apos;יין דורש ~%2 GB של מידע.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1156"/>
@@ -3397,7 +3395,7 @@ Spending Address Index: </source>
         <translation type="vanished">גרסה חדשה של מונרו זמינה: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>יומן הדימון</translation>
     </message>

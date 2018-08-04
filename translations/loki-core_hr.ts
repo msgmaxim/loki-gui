@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="hr_HR">
+<TS version="2.1" language="hr_HR">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1294,7 +1294,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(npr. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(npr. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2184,14 +2184,6 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
-        <source>Primary address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2603,14 +2595,6 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>Provjeri</translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3521,7 +3505,7 @@ Opis: </translation>
         <translation type="vanished">Nova verzija loki-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation type="unfinished">Dnevnik daemona</translation>
     </message>

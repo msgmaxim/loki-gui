@@ -1077,13 +1077,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Yardım</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Bu QR kodu yukarda seçtiğiniz adresi ve aşağıda girdiğiniz miktarı içerir. Başkaları ile paylaşarak (sağ tık-&gt;Kaydet) tam miktarı daha kolayca gönderebilirler.&lt;/p&gt;</translation>
     </message>
@@ -1129,33 +1128,32 @@
         <translation>QR Kod</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Bu basit bir satış takipçisidir:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Müşterinizin QR kodunu tarayarak ödeme yapmasını sağlar (eğer müsterinizin QR kodu taramasını destekleyen uygulaması varsa).&lt;/p&gt;&lt;p&gt;Bu sayfa bu QR kodu ile gelen işlemler için blok zincirini ve göderim (TX) havuzunu kendiliğinden tarar. Eğer bir miktar girerseniz, girdiğiniz miktara kadar gelen işlmeleri de denetler.&lt;/p&gt;Teyit edilmemiş işlemi kabul etmek size kalmış. Muhtemelen kısa sürede teyit edilir. Ancak küçük bir olasılık olsa da, teyit edilmeyebilir. Bu nedenle, yüksek meblağlar için bir veya daha fazla teyiti beklemeniz iyi olur.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Bu basit bir satış takipçisidir:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Müşterinizin QR kodunu tarayarak ödeme yapmasını sağlar (eğer müsterinizin QR kodu taramasını destekleyen uygulaması varsa).&lt;/p&gt;&lt;p&gt;Bu sayfa bu QR kodu ile gelen işlemler için blok zincirini ve göderim (TX) havuzunu kendiliğinden tarar. Eğer bir miktar girerseniz, girdiğiniz miktara kadar gelen işlmeleri de denetler.&lt;/p&gt;Teyit edilmemiş işlemi kabul etmek size kalmış. Muhtemelen kısa sürede teyit edilir. Ancak küçük bir olasılık olsa da, teyit edilmeyebilir. Bu nedenle, yüksek meblağlar için bir veya daha fazla teyiti beklemeniz iyi olur.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>teyitler</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>teyit</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>İşlem No&apos;su panoya kopyalandı</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Etkinleştir</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="697"/>
+        <location filename="../pages/Receive.qml" line="693"/>
         <source>Failed to save QrCode to </source>
         <translation>QrKodunu kaydetme başarısız oldu. İlgi </translation>
     </message>
@@ -1307,7 +1305,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(ör. *: UYARI, net.p2p: HATA AYIKLAMA)</translation>
+        <translation type="vanished">(ör. *: UYARI, net.p2p: HATA AYIKLAMA)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -2006,9 +2004,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Birincil adres</translation>
+        <translation type="vanished">Birincil adres</translation>
     </message>
 </context>
 <context>
@@ -2073,9 +2070,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Birincil adres</translation>
+        <translation type="vanished">Birincil adres</translation>
     </message>
 </context>
 <context>
@@ -2156,7 +2152,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Normal (x1 ücreti)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adres &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -2293,7 +2289,7 @@ Ringsize: </source>
         <translation>Lütfen bir dosya seçin</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Gelişmiş seçenekler</translation>
     </message>
@@ -2518,9 +2514,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardConfigure</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Bilinmeyen hata</translation>
+        <translation type="vanished">Bilinmeyen hata</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -3088,7 +3083,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="461"/>
+        <location filename="../main.qml" line="463"/>
         <source>Waiting for daemon to sync</source>
         <translation>Arka plan hizmetinin (daemon) eşzamanlaması bekleniyor</translation>
     </message>
@@ -3098,7 +3093,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Daemon başlatılamadı</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="465"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Arka plan hizmeti (daemon) eşzamanlandı (%1)</translation>
     </message>
@@ -3108,22 +3103,22 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>İşlem oluşturulamıyor: Daemon sürümü yanlış: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="465"/>
+        <location filename="../main.qml" line="467"/>
         <source>Wallet is synchronized</source>
         <translation>Cüzdan senkronize edildi</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="534"/>
+        <location filename="../main.qml" line="536"/>
         <source>Daemon failed to start</source>
         <translation>Arka plan hizmetinin (daemon) başlaması başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="551"/>
+        <location filename="../main.qml" line="553"/>
         <source>Daemon is synchronized</source>
         <translation>Arka plan hizmeti (daemon) eşzamanlandı</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Adres: </translation>
     </message>
@@ -3148,13 +3143,13 @@ Fee: </source>
         <translation>Ücret: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>Halka büyüklüğü: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>UYARI: gizliliğinize zarar verebilecek varsayılan olmayan halka boyutu. Varsayılan değer olan 7 önerilir.</translation>
@@ -3169,13 +3164,13 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
         <translation>İşlem sayısı: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
+        <location filename="../main.qml" line="632"/>
         <source>
 Description: </source>
         <translation>Tanım:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Spending address index: </source>
         <translation>Harcama adresi indeksi: </translation>
@@ -3314,7 +3309,7 @@ Address: </source>
         <translation type="vanished">Loki-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Daemon log</translation>
     </message>

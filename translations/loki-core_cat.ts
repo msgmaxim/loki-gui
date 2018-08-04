@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.1" language="en_US">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1214,7 +1214,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(e.g. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(e.g. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1891,14 +1891,6 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
-        <source>Primary address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2300,14 +2292,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>Comprovar</translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3178,7 +3162,7 @@ Descripció:</translation>
         <translation type="vanished">Nova versió de loki-wallet-gui disponible: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation type="unfinished">Log del daemon</translation>
     </message>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="eo_EO">
+<TS version="2.1" language="eo_EO">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1076,13 +1076,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Helpo</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Tiu QR-kodo inkluzivas la adreson kiun vi elektis ĉi-supre, kaj la kvanton kiun vi entajpis sube. Donu ĝin al aliuloj (dekstra klako-&gt;konservi) tiel ke ili pli facile povu sendi al vi ekzaktajn kvantojn.&lt;/p&gt;</translation>
     </message>
@@ -1113,23 +1112,22 @@
         <translation>QR Kodo</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Jen simpla pago-sekvilo:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Lasu vian klienton skani tiun QR-kodon por plenumi pagon (se la kliento havas programon kiu kapablas skani QR-kodon).&lt;/p&gt;&lt;p&gt;Ĉi-tiu paĝo aŭtomate skanos la blokĉenon kaj la transakciujon je envenaj transakcioj kiuj uzas tiun QR-kodon. Se vi entajpas kvanton, tiu ilo ankaŭ kontrolos ĉu la envenaj transakcioj sumas ĝis tiu kvanto.&lt;/p&gt; Dependas de vi ĉu vi akceptas nekonfirmitajn transakciojn aŭ ne. Tiuj verŝajne konfirmiĝos rapide, sed eblas ke ne, do atendu unu aŭ pli da konfirmoj por grandaj monsumoj.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Jen simpla pago-sekvilo:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Lasu vian klienton skani tiun QR-kodon por plenumi pagon (se la kliento havas programon kiu kapablas skani QR-kodon).&lt;/p&gt;&lt;p&gt;Ĉi-tiu paĝo aŭtomate skanos la blokĉenon kaj la transakciujon je envenaj transakcioj kiuj uzas tiun QR-kodon. Se vi entajpas kvanton, tiu ilo ankaŭ kontrolos ĉu la envenaj transakcioj sumas ĝis tiu kvanto.&lt;/p&gt; Dependas de vi ĉu vi akceptas nekonfirmitajn transakciojn aŭ ne. Tiuj verŝajne konfirmiĝos rapide, sed eblas ke ne, do atendu unu aŭ pli da konfirmoj por grandaj monsumoj.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>konfirmoj</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>konfirmo</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Transakcia-ID kopiiĝis en la poŝon</translation>
     </message>
@@ -1144,12 +1142,22 @@
         <translation>La adreso kopiiĝis en la poŝon</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="519"/>
+        <location filename="../pages/Receive.qml" line="435"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="515"/>
         <source>Tracking</source>
         <translation>Sekvante</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="696"/>
+        <location filename="../pages/Receive.qml" line="521"/>
+        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="692"/>
         <source>Save QrCode</source>
         <translation>Konservi la QR-kodon</translation>
     </message>
@@ -1563,7 +1571,7 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(e.g. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(e.g. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <source>GUI version: </source>
@@ -1609,9 +1617,8 @@ Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuza
 </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures.</source>
-        <translation>Tio agordas kiuj eligoj laŭscie elspeziĝis, kaj tial ne uzendas kiel privatecaj anstataŭaĵoj en ringsubskriboj.</translation>
+        <translation type="vanished">Tio agordas kiuj eligoj laŭscie elspeziĝis, kaj tial ne uzendas kiel privatecaj anstataŭaĵoj en ringsubskriboj.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="135"/>
@@ -1680,6 +1687,21 @@ Tion plenumos aŭtomate Loki kaj ĉiu ŝlosilreuzanta programo kiu ne aktive pro
 Se vi uzas ankaŭ ŝlosilreuzantan Loki-klonon, kaj se tiu klono ne inkluzivas tiun ŝirmon, vi tamen povas ŝirmi viajn transakciojn. Elspezu unue per la klono, kaj poste aldonu la ringon al tiu paĝo, kiu ebligos sekuran elspezon de via Loki.&lt;br&gt;
 Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi tiam ne bezonas fari ion ajn, ĉio aŭtomatas.&lt;br&gt;
 </translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="113"/>
+        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="245"/>
+        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
@@ -1962,9 +1984,8 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Ĉefa adreso</translation>
+        <translation type="vanished">Ĉefa adreso</translation>
     </message>
 </context>
 <context>
@@ -2029,9 +2050,8 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Ĉefa adreso</translation>
+        <translation type="vanished">Ĉefa adreso</translation>
     </message>
 </context>
 <context>
@@ -2118,12 +2138,12 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Normala (x1 kosto)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adreso &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adresaro&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Neniu valida Adreso troviĝis je ĉi tiu OpenAlias adreso</translation>
     </message>
@@ -2199,19 +2219,16 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Eraro</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="567"/>
         <source>Number of transactions: </source>
-        <translation>Kvanto de transakcioj: </translation>
+        <translation type="vanished">Kvanto de transakcioj: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="569"/>
         <source>Transaction #%1</source>
-        <translation>Transakcion #%1</translation>
+        <translation type="vanished">Transakcion #%1</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="570"/>
         <source>Recipient: </source>
-        <translation>Ricevanto: </translation>
+        <translation type="vanished">Ricevanto: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="549"/>
@@ -2225,7 +2242,7 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Bonvolu elekti dosieron</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Spertaj agordoj</translation>
     </message>
@@ -2265,24 +2282,20 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Ne eblas ŝargi nesubskribitan transakcion: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="571"/>
         <source>payment ID: </source>
-        <translation>Paga ID: </translation>
+        <translation type="vanished">Paga ID: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="572"/>
         <source>Amount: </source>
-        <translation>Kvanto: </translation>
+        <translation type="vanished">Kvanto: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="573"/>
         <source>Fee: </source>
-        <translation>Kosto: </translation>
+        <translation type="vanished">Kosto: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="574"/>
         <source>Ringsize: </source>
-        <translation>Ringgrandeco: </translation>
+        <translation type="vanished">Ringgrandeco: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="516"/>
@@ -2430,9 +2443,8 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Nekonata eraro</translation>
+        <translation type="vanished">Nekonata eraro</translation>
     </message>
 </context>
 <context>
@@ -2713,8 +2725,13 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="387"/>
+        <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: %1</source>
-        <translation>La nurlegebla monujo kreiĝis. Vi povas malfermi ĝin se vi fermas la aktualan monujon kaj klakas la &quot;Malfermu monujon el dosiero&quot; opcion, kaj elektas la nurlegeblan monujon en: %1</translation>
+        <translation type="vanished">La nurlegebla monujo kreiĝis. Vi povas malfermi ĝin se vi fermas la aktualan monujon kaj klakas la &quot;Malfermu monujon el dosiero&quot; opcion, kaj elektas la nurlegeblan monujon en: %1</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
@@ -3104,27 +3121,20 @@ Spending Address Index: </source>
         <translation>Konfirmo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="619"/>
-        <location filename="../main.qml" line="740"/>
         <source>Please confirm transaction:</source>
-        <translation>Bonvolu konfirmi transakcion: </translation>
+        <translation type="vanished">Bonvolu konfirmi transakcion: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="622"/>
         <source>Payment ID: </source>
-        <translation>Paga ID: </translation>
+        <translation type="vanished">Paga ID: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="623"/>
-        <location filename="../main.qml" line="741"/>
         <source>Amount: </source>
-        <translation>Kvanto: </translation>
+        <translation type="vanished">Kvanto: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="624"/>
-        <location filename="../main.qml" line="742"/>
         <source>Fee: </source>
-        <translation>Kosto: </translation>
+        <translation type="vanished">Kosto: </translation>
     </message>
     <message>
         <source>
@@ -3152,9 +3162,8 @@ Description: </source>
         <translation>Pagopruvo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="821"/>
         <source>Couldn&apos;t generate a proof because of the following reason: </source>
-        <translation>Ne sukcesis generi pruvon, pro la jena kialo:</translation>
+        <translation type="vanished">Ne sukcesis generi pruvon, pro la jena kialo:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="846"/>
@@ -3230,7 +3239,7 @@ Description: </source>
         <translation>Eraro: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1732"/>
+        <location filename="../main.qml" line="1734"/>
         <source>Tap again to close...</source>
         <translation>Denove klaku por fermi...</translation>
     </message>
@@ -3260,59 +3269,54 @@ Description: </source>
         <translation>Nova versio de loki-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="676"/>
+        <location filename="../main.qml" line="678"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
         <translation>Nesufiĉe da mono. Disponebla saldo: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="461"/>
+        <location filename="../main.qml" line="463"/>
         <source>Waiting for daemon to sync</source>
         <translation>Atendante sinkroniziĝon de la demono</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="465"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Demono sinkronizas (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="465"/>
+        <location filename="../main.qml" line="467"/>
         <source>Wallet is synchronized</source>
         <translation>Monujo sinkronizas</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="551"/>
+        <location filename="../main.qml" line="553"/>
         <source>Daemon is synchronized</source>
         <translation>Demono sinkronizas</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Adreso:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
         <source>Ringsize: </source>
-        <translation>Ringgrandeco: </translation>
+        <translation type="vanished">Ringgrandeco: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
         <source>WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
-        <translation>AVERTO: nedefaŭlta ringgrandeco, tio povas damaĝi vian privatecon. Defaŭla 7 estas rekomendita.</translation>
+        <translation type="vanished">AVERTO: nedefaŭlta ringgrandeco, tio povas damaĝi vian privatecon. Defaŭla 7 estas rekomendita.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
         <source>Number of transactions: </source>
-        <translation>Nombro de transakcioj:</translation>
+        <translation type="vanished">Nombro de transakcioj:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
         <source>Description: </source>
-        <translation>Priskribo:</translation>
+        <translation type="vanished">Priskribo:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
         <source>Spending address index: </source>
-        <translation>Indekso de elspezanta adreso: </translation>
+        <translation type="vanished">Indekso de elspezanta adreso: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="774"/>
@@ -3370,7 +3374,7 @@ Description: </source>
         <translation>Sendu al la sama celo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Demontaglibro</translation>
     </message>

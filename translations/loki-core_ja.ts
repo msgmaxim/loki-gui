@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ja_JP">
+<TS version="2.1" language="ja_JP">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1073,13 +1073,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;このQRコードは上で選択したアドレスと下で入力した金額を含みます。相手が簡単に正確な金額を送れるよう共有しましょう。(右クリック-&gt;保存)&lt;/p&gt;</translation>
     </message>
@@ -1120,28 +1119,27 @@
         <translation>QRコード</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;これはシンプルな売り上げトラッカーです:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;お客さんにQRコードをスキャンして支払いをしてもらいましょう（お客さんがQRコードのスキャンをサポートしているソフトウェアを持っている場合）。&lt;/p&gt;&lt;p&gt;このページは自動的にブロックチェーンとトランザクションプールをスキャンし、QRコードを使った支払いトランザクションを見つけます。金額を入力すれば、支払いトランザクションの合計が指定した金額に達するかチェックします。&lt;/p&gt;未承認のトランザクションを受け入れるかどうかは自由です。おそらくすぐに承認されるでしょうが、承認されない可能性もあります。よって大きな金額に関しては1回またはそれ以上の承認を待ったほうがいいでしょう。&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;これはシンプルな売り上げトラッカーです:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;お客さんにQRコードをスキャンして支払いをしてもらいましょう（お客さんがQRコードのスキャンをサポートしているソフトウェアを持っている場合）。&lt;/p&gt;&lt;p&gt;このページは自動的にブロックチェーンとトランザクションプールをスキャンし、QRコードを使った支払いトランザクションを見つけます。金額を入力すれば、支払いトランザクションの合計が指定した金額に達するかチェックします。&lt;/p&gt;未承認のトランザクションを受け入れるかどうかは自由です。おそらくすぐに承認されるでしょうが、承認されない可能性もあります。よって大きな金額に関しては1回またはそれ以上の承認を待ったほうがいいでしょう。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>承認</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>承認</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>トランザクションIDをクリップボードにコピーしました</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>有効化</translation>
     </message>
@@ -1524,7 +1522,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(例えば *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(例えば *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <source>GUI version: </source>
@@ -1984,9 +1982,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>プライマリーアドレス</translation>
+        <translation type="vanished">プライマリーアドレス</translation>
     </message>
 </context>
 <context>
@@ -2051,9 +2048,8 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>プライマリーアドレス</translation>
+        <translation type="vanished">プライマリーアドレス</translation>
     </message>
 </context>
 <context>
@@ -2302,17 +2298,17 @@ Please upgrade or connect to another daemon</source>
         <translation>普通 (標準の手数料)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                アドレス &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;アドレス帳&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>高度なオプション</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="560"/>
+        <location filename="../pages/Transfer.qml" line="556"/>
         <source>Can&apos;t load unsigned transaction: </source>
         <translation>未署名の取引を読み込めませんでした: </translation>
     </message>
@@ -2493,9 +2489,8 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>不明なエラー</translation>
+        <translation type="vanished">不明なエラー</translation>
     </message>
 </context>
 <context>
@@ -3095,35 +3090,35 @@ Ringsize: </source>
 リングサイズ: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 警告: デフォルト以外のリングサイズを指定するとプライバシーを損なう場合があります。デフォルトの7を推奨します。</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
 トランザクション数: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
+        <location filename="../main.qml" line="632"/>
         <source>
 Description: </source>
         <translation>
 説明: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Spending address index: </source>
         <translation>
 使用するアドレスのインデックス: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="739"/>
+        <location filename="../main.qml" line="741"/>
         <source>Confirmation</source>
         <translation>確認</translation>
     </message>
@@ -3396,7 +3391,7 @@ Spending Address Index: </source>
         <translation>Loki</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>デーモンログ</translation>
     </message>

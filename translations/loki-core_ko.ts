@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ko" sourcelanguage="en">
+<TS version="2.1" language="ko" sourcelanguage="en">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1250,7 +1250,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(예: *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(예: *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1927,14 +1927,6 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
-        <source>Primary address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2328,14 +2320,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>검사</translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3210,7 +3194,7 @@ Description: </source>
         <translation>동일한 대상에게 송금하기</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation type="unfinished">데몬 로그</translation>
     </message>

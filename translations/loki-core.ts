@@ -1391,7 +1391,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>Sign</name>
+    <name>SharedRingDB</name>
     <message>
         <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>

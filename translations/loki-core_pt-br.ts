@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<TS version="2.1" language="pt_BR">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1062,12 +1062,16 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Ajuda</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Esse código QR inclui o endereço que você selecionou acima e o valor inserido abaixo. Compartilhe-o (botão-direito-&gt;Salvar) para que fique mais fácil te enviar valores exatos.&lt;/p&gt;</translation>
@@ -1109,28 +1113,27 @@
         <translation>Código QR</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Este é um simples rastreador de vendas:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permita que seu cliente escaneie esse código QR para fazer um pagamento (se ele tiver um software que suporte escanear códigos QR).&lt;/p&gt;&lt;p&gt;Essa página vai verificar automaticamente o blockchain e a fila de transações por qualquer transação usando este código QR. Se você também colocou uma quantia, a página verificará todas as transações que somam este valor.&lt;/p&gt;Cabe a você aceitar ou não transações não confirmadas. É provável que elas sejam confirmadas rapidamente, mas sempre há uma pequena possibilidade que elas não confirmem, portanto, para valores maiores, convém aguardar por uma ou mais confirmações.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Este é um simples rastreador de vendas:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permita que seu cliente escaneie esse código QR para fazer um pagamento (se ele tiver um software que suporte escanear códigos QR).&lt;/p&gt;&lt;p&gt;Essa página vai verificar automaticamente o blockchain e a fila de transações por qualquer transação usando este código QR. Se você também colocou uma quantia, a página verificará todas as transações que somam este valor.&lt;/p&gt;Cabe a você aceitar ou não transações não confirmadas. É provável que elas sejam confirmadas rapidamente, mas sempre há uma pequena possibilidade que elas não confirmem, portanto, para valores maiores, convém aguardar por uma ou mais confirmações.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>confirmações</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>confirmação</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID da transação copiado para a área de transferência</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Habilitar</translation>
     </message>
@@ -1494,7 +1497,7 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(ex: *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(ex: *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <source>GUI version: </source>
@@ -2062,9 +2065,8 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
 <context>
     <name>SubaddressTable</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Endereço primário</translation>
+        <translation type="vanished">Endereço primário</translation>
     </message>
 </context>
 <context>
@@ -2129,9 +2131,8 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Endereço primário</translation>
+        <translation type="vanished">Endereço primário</translation>
     </message>
 </context>
 <context>
@@ -2209,12 +2210,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Normal (taxa x1)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Endereço &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Agenda de endereços&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Nenhum endereço válido encontrado neste endereço OpenAlias</translation>
     </message>
@@ -2284,12 +2285,12 @@ Por favor, atualize-o ou conecte em outro daemon</translation>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Opções avançadas</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="522"/>
+        <location filename="../pages/Transfer.qml" line="518"/>
         <source>Sign tx file</source>
         <translation>Assinar arquivo da transação</translation>
     </message>
@@ -2299,7 +2300,7 @@ Por favor, atualize-o ou conecte em outro daemon</translation>
         <translation>Prioridade da transação</translation>
 </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="533"/>
+        <location filename="../pages/Transfer.qml" line="529"/>
         <source>Submit tx file</source>
         <translation>Enviar arquivo da transação</translation>
     </message>
@@ -2541,9 +2542,8 @@ Para pagamentos que você realizou, é possível pegar uma prova de pagamento qu
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Erro desconhecido</translation>
+        <translation type="vanished">Erro desconhecido</translation>
     </message>
 </context>
 <context>
@@ -3234,26 +3234,26 @@ Ringsize: </translation>
         <translation>Não foi possível criar a transação: Versão do daemon incorreta: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="621"/>
+        <location filename="../main.qml" line="623"/>
         <source>Address: </source>
         <translation>Endereço: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Ringsize: </source>
         <translation>
 Tamanho do anel: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 AVISO: tamanho do anel fora do padrão pode reduzir sua privacidade. Recomendamos o padrão de 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="631"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3285,8 +3285,8 @@ Spending address index: </source>
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="851"/>
-        <location filename="../main.qml" line="871"/>
+        <location filename="../main.qml" line="853"/>
+        <location filename="../main.qml" line="873"/>
         <source>Payment proof check</source>
         <translation>Verificar prova do pagamento</translation>
     </message>
@@ -3382,7 +3382,7 @@ Spending address index: </source>
         <translation>Nova versão da carteira (GUI) do Loki disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1815"/>
+        <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>Log do daemon</translation>
     </message>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="cs_CZ">
+<TS version="2.1" language="cs_CZ">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1075,14 +1075,13 @@
         <translation>Nastavit štítek pro vybranou adresu:</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="519"/>
+        <location filename="../pages/Receive.qml" line="515"/>
         <source>Tracking</source>
         <translation>Sledování</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="525"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý sledovač provedených obchodů:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Nechte zákazníka naskenovat QR kód, za účelem provedení platby (má-li zákazník program s podporou skenování QR kódů).&lt;/p&gt;&lt;p&gt;Tato stránka bude automaticky prohledávat blockchain a seznam transakcí na příchozí platby. Pokud zadáte i částku, bude v příchozí platbě kontrolovat i zda došla požadovaná částka.&lt;/p&gt;Je na vás zda budete akceptovat nepotrzené transakce nebo ne. Obvykle jsou transakce potvrzené v nejkratším možném čase, ale může se stát, že zůstanou nepotvrzené. U větších částek se tedy doporučuje počkat alespoň na jedno nebo více potvrzení.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý sledovač provedených obchodů:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Nechte zákazníka naskenovat QR kód, za účelem provedení platby (má-li zákazník program s podporou skenování QR kódů).&lt;/p&gt;&lt;p&gt;Tato stránka bude automaticky prohledávat blockchain a seznam transakcí na příchozí platby. Pokud zadáte i částku, bude v příchozí platbě kontrolovat i zda došla požadovaná částka.&lt;/p&gt;Je na vás zda budete akceptovat nepotrzené transakce nebo ne. Obvykle jsou transakce potvrzené v nejkratším možném čase, ale může se stát, že zůstanou nepotvrzené. U větších částek se tedy doporučuje počkat alespoň na jedno nebo více potvrzení.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="456"/>
@@ -1112,19 +1111,18 @@
     <message>
         <location filename="../pages/Receive.qml" line="202"/>
         <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="521"/>
+        <location filename="../pages/Receive.qml" line="517"/>
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="205"/>
-        <location filename="../pages/Receive.qml" line="524"/>
+        <location filename="../pages/Receive.qml" line="520"/>
         <source>Tracking payments</source>
         <translation>Sledování plateb</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
-        <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Tento QR kód obsahuje výše zvolenou adresu a níže vybranou částku. Sdílejte s ostatními (klikněte pravým tlačítkem myši na Uložit), abyste mohli snadněji posílat přesné částky.&lt;/p&gt;</translation>
     </message>
@@ -1150,23 +1148,33 @@
         <translation>QR kód</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="612"/>
-        <location filename="../pages/Receive.qml" line="614"/>
+        <location filename="../pages/Receive.qml" line="435"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="521"/>
+        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="608"/>
+        <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
         <translation>potvrzení</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="617"/>
+        <location filename="../pages/Receive.qml" line="613"/>
         <source>confirmation</source>
         <translation>potvrzení</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="641"/>
+        <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID platby zkopírované do schránky</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="676"/>
+        <location filename="../pages/Receive.qml" line="672"/>
         <source>Enable</source>
         <translation>Povolit</translation>
     </message>
@@ -1708,6 +1716,11 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Nebo manuálně zařaďte nebo odeberte konkrétní vstup, či výstup z blackball seznamu:</translation>
     </message>
     <message>
+        <location filename="../pages/SharedRingDB.qml" line="245"/>
+        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/SharedRingDB.qml" line="278"/>
         <source>Key image</source>
         <translation>Otisk</translation>
@@ -1995,9 +2008,8 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
 <context>
     <name>SubaddressModel</name>
     <message>
-        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
         <source>Primary address</source>
-        <translation>Primární adresa</translation>
+        <translation type="vanished">Primární adresa</translation>
     </message>
 </context>
 <context>
@@ -2062,9 +2074,8 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
 <context>
     <name>TransactionHistoryModel</name>
     <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
         <source>Primary address</source>
-        <translation>Primární adresa</translation>
+        <translation type="vanished">Primární adresa</translation>
     </message>
 </context>
 <context>
@@ -2118,22 +2129,22 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Tato stránka umožňuje podepsat/ověřit zprávu (nebo obsah souboru) pomocí vaší adresy.</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="227"/>
+        <location filename="../pages/Transfer.qml" line="223"/>
         <source>Default</source>
         <translation>Výchozí</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="229"/>
+        <location filename="../pages/Transfer.qml" line="225"/>
         <source>Normal (x1 fee)</source>
         <translation>Normální (x1 poplatek)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="257"/>
+        <location filename="../pages/Transfer.qml" line="253"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresa &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adresář&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="297"/>
+        <location filename="../pages/Transfer.qml" line="293"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Nenalezena validní adresa na odpovídající OpenAlias adrese</translation>
     </message>
@@ -2173,7 +2184,7 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Odeslat</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="433"/>
+        <location filename="../pages/Transfer.qml" line="429"/>
         <source>Advanced options</source>
         <translation>Pokročilé možnosti</translation>
     </message>
@@ -2183,7 +2194,7 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Loki úspěšně odesláno</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="492"/>
+        <location filename="../pages/Transfer.qml" line="488"/>
         <source>Sweep Unmixable</source>
         <translation>Nemixovatelné výstupy</translation>
     </message>
@@ -2217,7 +2228,7 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Prosím vyberte soubor</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="560"/>
+        <location filename="../pages/Transfer.qml" line="556"/>
         <source>Can&apos;t load unsigned transaction: </source>
         <translation>Nelze nahrát nepodepsanou transakci: </translation>
     </message>
@@ -2445,9 +2456,8 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
 <context>
     <name>WalletManager</name>
     <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
         <source>Unknown error</source>
-        <translation>Neznámá chyba</translation>
+        <translation type="vanished">Neznámá chyba</translation>
     </message>
 </context>
 <context>
@@ -3300,14 +3310,12 @@ Index výdajů: </translation>
         <translation>Odeslat na stejnou adresu</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="116"/>
         <source>Log to specified file</source>
-        <translation>Logovat do zadaného souboru</translation>
+        <translation type="vanished">Logovat do zadaného souboru</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="117"/>
         <source>file</source>
-        <translation>soubor</translation>
+        <translation type="vanished">soubor</translation>
     </message>
 </context>
 </TS>

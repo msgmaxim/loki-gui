@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sl_SI">
+<TS version="2.1" language="sl_SI">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1999,14 +1999,6 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
-        <source>Primary address</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2416,14 +2408,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>Preveri</translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="ar_EG">
+<TS version="2.1" language="ar_EG">
 <context>
     <name>AddressBook</name>
     <message>
@@ -2296,14 +2296,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>إستعلم</translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
