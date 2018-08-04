@@ -3390,7 +3390,17 @@ Spending Address Index: </source>
         <source>Loki</source>
         <translation>Loki</translation>
     </message>
-    <message>
+    <message>         <location filename="../main.qml" line="1817"/>         <source>Daemon log</source>         <translation>デーモンログ</translation>     </message>     <message>         <location filename="../main.qml" line="1282"/>         <source>Program setup wizard</source>         <translation>プログラムセットアップウィザード</translation>     </message>     <message>         <location filename="../main.qml" line="1454"/>         <source>send to the same destination</source>         <translation>同じ宛先に送金する</translation>     </message> </context> </TS> #t�'
+        <location filename="../main.qml" line="1817"/>         <source>Daemon log</source>         <translation>デーモンログ</translation>     </message>     <message>         <location filename="../main.qml" line="1282"/>         <source>Program setup wizard</source>         <translation>プログラムセットアップウィザード</translation>     </message>     <message>         <location filename="../main.qml" line="1454"/>         <source>send to the same destination</source>         <translation>同じ宛先に送金する</translation>     </message> </context> </TS> #t�'
+        <location filename="../main.qml" line="1817"/>         <source>Daemon log</source>         <translation>デーモンログ</translation>     </message>     <message>         <location filename="../main.qml" line="1282"/>         <source>Program setup wizard</source>         <translation>プログラムセットアップウィザード</translation>     </message>     <message>         <location filename="../main.qml" line="1454"/>         <source>send to the same destination</source>         <translation>同じ宛先に送金する</translation>     </message> </context> </TS> #t�'
+        <location filename="../main.qml" line="1817"/>         <source>Daemon log</source>         <translation>デーモンログ</translation>     </message>     <message>         <location filename="../main.qml" line="1282"/>         <source>Program setup wizard</source>         <translation>プログラムセットアップウィザード</translation>     </message>     <message>         <location filename="../main.qml" line="1454"/>         <source>send to the same destination</source>         <translation>同じ宛先に送金する</translation>     </message> </context> </TS> #t�'
+        <location filename="../main.qml" line="1817"/>         <source>Daemon log</source>         <translation>デーモンログ</translation>     </message>     <message>         <location filename="../main.qml" line="1282"/>         <source>Program setup wizard</source>         <translation>プログラムセットアップウィザード</translation>     </message>     <message>         <location filename="../main.qml" line="1454"/>         <source>send to the same destination</source>         <translation>同じ宛先に送金する</translation>     </message> </context> </TS> #t�'
+        <location filename="../main.qml" line="1817"/>         <source>Daemon log</source>         <translation>デーモンログ</translation>     </message>     <message>         <location filename="../main.qml" line="1282"/>         <source>Program setup wizard</source>         <translation>プログラムセットアップウィザード</translation>     </message>     <message>         <location filename="../main.qml" line="1454"/>         <source>send to the same destination</source>
+        <translation>同じ宛先に送金する</translation>
+    </message>
+</context>
+</TS>
+#t�'
         <location filename="../main.qml" line="1817"/>
         <source>Daemon log</source>
         <translation>デーモンログ</translation>
@@ -3407,3 +3417,14 @@ Spending Address Index: </source>
     </message>
 </context>
 </TS>
+#t�'
+        <location filename="../main.qml" line="1817"/>
+        <source>Daemon log</source>
+        <translation>デーモンログ</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1282"/>
+        <source>Program setup wizard</source>
+        <translation>プログラムセットアップウィザード</translation>
+    </message>
+    <message>

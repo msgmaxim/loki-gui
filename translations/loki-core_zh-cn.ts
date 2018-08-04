@@ -1062,7 +1062,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="389"/>
         <source>(Untitled)</source>
-        <translation>(未标题)</translation>
+        <translation>(未命名)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="409"/>
@@ -3301,7 +3301,7 @@ Description: </source>
         <location filename="../main.qml" line="777"/>
         <location filename="../main.qml" line="1212"/>
         <source>Information</source>
-        <translation>信息</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <source>Money sent successfully: %1 transaction(s) </source>

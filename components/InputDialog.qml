@@ -66,7 +66,7 @@ Item {
     }
 
     ColumnLayout {
-        z: bg.z + 1
+        z: parent.z + 1
         id: mainLayout
         spacing: 10
         anchors { fill: parent; margins: 35 }

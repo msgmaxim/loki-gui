@@ -126,6 +126,7 @@ Item {
                     }
                 }
 
+                Keys.enabled: root.visible
                 Keys.onReturnPressed: {
                     root.close()
                     root.accepted()
