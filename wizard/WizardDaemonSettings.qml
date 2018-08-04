@@ -120,11 +120,12 @@ ColumnLayout {
     ColumnLayout {
 
         RowLayout {
-            CheckBox {
+            RadioButton {
                 id: localNode
                 text: qsTr("Start a node automatically in background or use an already running local node (recommended)") + translationManager.emptyString
-                checkedIcon: "../images/CheckedGreenIcon.png"
                 fontColor: Style.defaultFontColor
+                checkedColor: Qt.rgba(0, 0, 0, 0.75)
+                borderColor: Qt.rgba(0, 0, 0, 0.45)
                 fontSize: 16 * scaleRatio
                 checked: !appWindow.persistentSettings.useRemoteNode && !isAndroid && !isIOS
                 visible: !isAndroid && !isIOS
@@ -202,10 +203,12 @@ ColumnLayout {
         }
 
         RowLayout {
-            CheckBox {
+            RadioButton {
                 id: remoteNode
                 text: qsTr("Connect to a remote node") + translationManager.emptyString
                 checkedIcon: "../images/CheckedGreenIcon.png"
+                checkedColor: Qt.rgba(0, 0, 0, 0.75)
+                borderColor: Qt.rgba(0, 0, 0, 0.45)
                 Layout.topMargin: 20 * scaleRatio
                 fontColor: Style.defaultFontColor
                 fontSize: 16 * scaleRatio
