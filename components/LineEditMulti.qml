@@ -130,7 +130,7 @@ ColumnLayout {
               } else if(multiLine.activeFocus) {
                   return LokiComponents.Style.heroGreen;
               } else {
-                  return Loki.Style.inputBorderColorInActive;
+                  return LokiComponents.Style.inputBorderColorInActive;
               }
             }
             anchors.fill: parent

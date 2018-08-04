@@ -44,7 +44,7 @@ Item {
     property int dropdownHeight: 42
     property int fontHeaderSize: 16 * scaleRatio
     property int fontItemSize: 14 * scaleRatio
-    property string colorBorder: MoneroComponents.Style.inputBorderColorInActive
+    property string colorBorder: LokiComponents.Style.inputBorderColorInActive
     property string colorHeaderBackground: "transparent"
     property bool headerBorder: true
     property bool headerFontBold: false
