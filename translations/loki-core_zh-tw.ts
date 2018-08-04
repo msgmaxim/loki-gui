@@ -761,8 +761,8 @@
         <translation type="vanished">(僅限於使用本地端節點)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">挖礦可增進 Monero 網路的安全性，只要越多使用者在挖礦，Monero 網路就會越難以被攻擊。&lt;br&gt; &lt;br&gt;挖礦也同時提供您機會賺取一些額外的 Monero 幣，因為在挖礦時，您的電腦將被用來尋找 Monero 區塊的解答，每當您找到一個區塊的解答，您即可以獲得其附帶的獎勵金，祝您好運！</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">挖礦可增進 Loki 網路的安全性，只要越多使用者在挖礦，Loki 網路就會越難以被攻擊。&lt;br&gt; &lt;br&gt;挖礦也同時提供您機會賺取一些額外的 Loki 幣，因為在挖礦時，您的電腦將被用來尋找 Loki 區塊的解答，每當您找到一個區塊的解答，您即可以獲得其附帶的獎勵金，祝您好運！</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1416,8 +1416,8 @@
         <translation type="vanished">GUI 版本: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">內嵌 Monero 版本: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">內嵌 Loki 版本: </translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -1850,7 +1850,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1867,7 +1867,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1933,12 +1933,12 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2576,7 +2576,7 @@ Ringsize: </source>
     </message>
     <message>
         <source>Money sent successfully</source>
-        <translation type="vanished">已成功完成 Monero 付款</translation>
+        <translation type="vanished">已成功完成 Loki 付款</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="598"/>
@@ -2725,12 +2725,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">就快完成了 - Monero 還需要一點設定</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">就快完成了 - Loki 還需要一點設定</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">開始同步 Monero 區塊鏈?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">開始同步 Loki 區塊鏈?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2763,8 +2763,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">硬碟節約模式能精簡區塊鏈的資料而減少硬碟空間的使用量，但保存完整的區塊鏈能加強 Monero 網路的安全性，當您需要在容量較小的硬碟上執行，那麼這個功能就很適合您，此功能對於網路頻寬的用量沒有影響。</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">硬碟節約模式能精簡區塊鏈的資料而減少硬碟空間的使用量，但保存完整的區塊鏈能加強 Loki 網路的安全性，當您需要在容量較小的硬碟上執行，那麼這個功能就很適合您，此功能對於網路頻寬的用量沒有影響。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2772,8 +2772,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>允許程式在背景挖礦嗎?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">啟動挖礦功能可讓 Monero 的系統網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">啟動挖礦功能可讓 Loki 的系統網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
     </message>
 </context>
 <context>
@@ -2801,8 +2801,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">為了連接至Monero的交易網路，你必須連接至Monero的節點。為了確保最佳的隱私狀態，我們建議你可以運行自己的節點。                         &lt;br&gt;&lt;br&gt;                         如果真的不方便運行自己的節點，你可以選擇連接至遠端的節點。</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">為了連接至Loki的交易網路，你必須連接至Loki的節點。為了確保最佳的隱私狀態，我們建議你可以運行自己的節點。                         &lt;br&gt;&lt;br&gt;                         如果真的不方便運行自己的節點，你可以選擇連接至遠端的節點。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2848,8 +2848,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Monero的開發完全由贊助所支持</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Loki的開發完全由贊助所支持</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2877,8 +2877,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">在每一筆交易中 Monero 系統都會收取小額的手續費，而這個選項則是讓你可以增加額外的金額贊助 Monero 的開發，比例以當次交易的手續費計算，譬如 50% 的自動贊助將會從0.005 XMR的手續費算出 0.0025 XMR 的金額贊助給 Monero 開發團隊。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">在每一筆交易中 Loki 系統都會收取小額的手續費，而這個選項則是讓你可以增加額外的金額贊助 Loki 的開發，比例以當次交易的手續費計算，譬如 50% 的自動贊助將會從0.005 XMR的手續費算出 0.0025 XMR 的金額贊助給 Loki 開發團隊。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2886,8 +2886,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>允許程式在背景挖礦嗎?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">啟動挖礦功能可讓 Monero 的網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">啟動挖礦功能可讓 Loki 的網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
     </message>
 </context>
 <context>
@@ -2988,8 +2988,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">錢包的路徑與名稱不得使用非ASCII字元</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">開始使用MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">開始使用LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -3120,8 +3120,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">歡迎使用 Monero！</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">歡迎使用 Loki！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -3221,8 +3221,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">歡迎使用 Monero！</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">歡迎使用 Loki！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3411,8 +3411,8 @@ Ringsize: </source>
         <translation>有問題的簽署</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">這個位址收入了 %1 monero，並通過 %2 次的確認。</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">這個位址收入了 %1 loki，並通過 %2 次的確認。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="460"/>
@@ -3566,8 +3566,8 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">有可用的新版本 Monero 錢包:  %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">有可用的新版本 Loki 錢包:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>
@@ -3616,8 +3616,8 @@ Description: </source>
         <translation>已儲存 %1 筆交易至檔案</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">這個位址已收到 %1 monero幣，但這筆交易尚未被礦工確認</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">這個位址已收到 %1 loki幣，但這筆交易尚未被礦工確認</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3645,8 +3645,8 @@ Description: </source>
         <translation>程式設定精靈</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

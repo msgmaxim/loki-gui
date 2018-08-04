@@ -759,8 +759,8 @@
         <translation type="vanished">(dostupné pouze pro lokálního démona)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Těžba s počítačem pomáhá posílit síť Monero. Čím víc lidí těží, tím těžší je, aby byla síť napadena, a každé, byť i jen malé přispění pomáhá. &lt;br&gt; &lt;br&gt;Těžba vám také dává malou šanci vydělat nějaký Monero. Váš počítač vytvoří hash, který pokud bude řešením pasujícím do bloku, dostanete související odměnu. Hodně štěstí!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Těžba s počítačem pomáhá posílit síť Loki. Čím víc lidí těží, tím těžší je, aby byla síť napadena, a každé, byť i jen malé přispění pomáhá. &lt;br&gt; &lt;br&gt;Těžba vám také dává malou šanci vydělat nějaký Loki. Váš počítač vytvoří hash, který pokud bude řešením pasujícím do bloku, dostanete související odměnu. Hodně štěstí!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1404,8 +1404,8 @@
         <translation type="vanished">Verze grafického rozhraní</translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Vestavěná verze Monero: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Vestavěná verze Loki: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="573"/>
@@ -2531,8 +2531,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Jsme skoro tam - teď jednoduše nakonfigurujte některé předvolby Monero</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Jsme skoro tam - teď jednoduše nakonfigurujte některé předvolby Loki</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2565,8 +2565,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Režim zachování disku používá podstatně méně místa na disku, ale stejné množství šířky pásma internetového připojení jako běžná instance Monero. Ukládání plné podoby blockchainu je však přínosem pro bezpečnost sítě Monero. Pokud jste v zařízení s omezeným prostorem na disku, pak je tato volba pro vás vhodná.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Režim zachování disku používá podstatně méně místa na disku, ale stejné množství šířky pásma internetového připojení jako běžná instance Loki. Ukládání plné podoby blockchainu je však přínosem pro bezpečnost sítě Loki. Pokud jste v zařízení s omezeným prostorem na disku, pak je tato volba pro vás vhodná.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2574,8 +2574,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation>Povolit těžbu na pozadí?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Těžení zajišťuje síť Monero a platí také malou odměnu za vykonanou práci. Tato možnost umožní aplikaci Monero těžbu, pokud je počítač napájen ze sítě a je nečinný. Při pokračování v práci zastaví těžbu.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Těžení zajišťuje síť Loki a platí také malou odměnu za vykonanou práci. Tato možnost umožní aplikaci Loki těžbu, pokud je počítač napájen ze sítě a je nečinný. Při pokračování v práci zastaví těžbu.</translation>
     </message>
 </context>
 <context>
@@ -2603,8 +2603,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Chcete-li komunikovat se sítí Monero, musí být vaše peněženka připojena k uzlu Monero. Pro nejlepší soukromí doporučujeme spustit vlastní uzel. &lt;br&gt;&lt;br&gt; Pokud nemáte možnost spustit vlastní uzel, je možnost připojení k vzdálenému uzlu.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Chcete-li komunikovat se sítí Loki, musí být vaše peněženka připojena k uzlu Loki. Pro nejlepší soukromí doporučujeme spustit vlastní uzel. &lt;br&gt;&lt;br&gt; Pokud nemáte možnost spustit vlastní uzel, je možnost připojení k vzdálenému uzlu.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2650,8 +2650,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Vývoj Monero je podporován výhradně z dobrovolných příspěvků</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Vývoj Loki je podporován výhradně z dobrovolných příspěvků</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2679,8 +2679,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Pro každou transakci je účtován malý transakční poplatek. Tato volba vám umožní přidat částku z tohoto poplatku do vaší transakce na podporu vývoje společnosti Monero. Například 50% autodonace převezme transakční poplatek 0,005 XMR a přidá 0,0025 XMR k podpoře vývoje společnosti Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Pro každou transakci je účtován malý transakční poplatek. Tato volba vám umožní přidat částku z tohoto poplatku do vaší transakce na podporu vývoje společnosti Loki. Například 50% autodonace převezme transakční poplatek 0,005 XMR a přidá 0,0025 XMR k podpoře vývoje společnosti Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2688,8 +2688,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation>Povolit těžení na pozadí?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Těžení zajišťuje síť Monero a platí také malou odměnu za vykonanou práci. Tato možnost umožní aplikaci Monero, pokud je počítač napájen ze sítě a je nečinný. Při pokračování v práci zastaví těžbu.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Těžení zajišťuje síť Loki a platí také malou odměnu za vykonanou práci. Tato možnost umožní aplikaci Loki, pokud je počítač napájen ze sítě a je nečinný. Při pokračování v práci zastaví těžbu.</translation>
     </message>
 </context>
 <context>
@@ -2790,8 +2790,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="vanished">V cestě k peněžence nejsou povolené ne-ASCII znaky.</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">POUŽÍVEJTE MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">POUŽÍVEJTE LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2921,8 +2921,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Vítejte v Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Vítejte v Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -3022,8 +3022,8 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Vítejte v Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Vítejte v Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3211,8 +3211,8 @@ Počet podpisovatelů: </translation>
         <translation>Špatný podpis</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Tato adresa obdržela %1 monero a %2 potvrzení.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Tato adresa obdržela %1 loki a %2 potvrzení.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="460"/>
@@ -3366,7 +3366,7 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">Je dostupná nová verze grafického klienta: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -3417,8 +3417,8 @@ Popis: </translation>
         <translation>Transakce uložena do souboru: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Tato adresa obdžela %1 monero, ale transakce jestě není potvrzená vytěžením</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Tato adresa obdžela %1 loki, ale transakce jestě není potvrzená vytěžením</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3446,8 +3446,8 @@ Popis: </translation>
         <translation>Průvodce nastavením programu</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

@@ -757,8 +757,8 @@
         <translation type="vanished">(yalnızca yerel daemons için kullanılabilir)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Bilgisayarınızla birlikte madencilik yapmak Monero ağını güçlendirmeye yardımcı olur. İnsanların benimsediği derecede, ağın saldırıya ne kadar zorlaşırsa, ve insanlara biraz yardımcı olur. &lt;br&gt; &lt;br&gt; Madencilik ayrıca bazı Monero kazanmak için küçük bir şans verir. Bilgisayarınız blok çözümleri arayan karma değerler oluşturacaktır. Bir blok bulursanız, size verilen ödülleri alacaksınız. İyi şanslar!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Bilgisayarınızla birlikte madencilik yapmak Loki ağını güçlendirmeye yardımcı olur. İnsanların benimsediği derecede, ağın saldırıya ne kadar zorlaşırsa, ve insanlara biraz yardımcı olur. &lt;br&gt; &lt;br&gt; Madencilik ayrıca bazı Loki kazanmak için küçük bir şans verir. Bilgisayarınız blok çözümleri arayan karma değerler oluşturacaktır. Bir blok bulursanız, size verilen ödülleri alacaksınız. İyi şanslar!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -1404,8 +1404,8 @@
         <translation type="vanished">GUI sürümü: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Gömülü Monero sürümü: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Gömülü Loki sürümü: </translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -2572,12 +2572,12 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Neredeyse geldik - sadece bazı Monero tercihlerini yapılandıralım</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Neredeyse geldik - sadece bazı Loki tercihlerini yapılandıralım</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Monero&apos;nun blokaj zincirini başlatmak mı?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Loki&apos;nun blokaj zincirini başlatmak mı?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2610,8 +2610,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Disk koruma modu, normal bir Monero örneğiyle aynı disk alanı genişliğini, ancak aynı miktarda bant genişliğini kullanır. Bununla birlikte, tam blok zincirin depolanması, Monero ağının güvenliğine yararlıdır. Sınırlı disk alanı olan bir cihazdaysanız, bu seçenek sizin için uygundur.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Disk koruma modu, normal bir Loki örneğiyle aynı disk alanı genişliğini, ancak aynı miktarda bant genişliğini kullanır. Bununla birlikte, tam blok zincirin depolanması, Loki ağının güvenliğine yararlıdır. Sınırlı disk alanı olan bir cihazdaysanız, bu seçenek sizin için uygundur.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2619,8 +2619,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Arka plan madenciliğine izin verilsin mi?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Madencilik, Monero ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta olduğunda Monero&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Madencilik, Loki ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta olduğunda Loki&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
     </message>
 </context>
 <context>
@@ -2648,8 +2648,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Monero ağıyla iletişim kurabilmek için cüzdanınızın bir Monero düğümüne bağlı olması gerekir. En iyi gizlilik için kendi düğümünü çalıştırmanız önerilir. Kendi düğümünü çalıştırma seçeneğine sahip değilseniz, uzaktaki bir düğüme bağlanma seçeneği vardır.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Loki ağıyla iletişim kurabilmek için cüzdanınızın bir Loki düğümüne bağlı olması gerekir. En iyi gizlilik için kendi düğümünü çalıştırmanız önerilir. Kendi düğümünü çalıştırma seçeneğine sahip değilseniz, uzaktaki bir düğüme bağlanma seçeneği vardır.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2695,8 +2695,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Monero gelişimi sadece bağışlarla destekleniyor</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Loki gelişimi sadece bağışlarla destekleniyor</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2724,8 +2724,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Her işlem için küçük bir işlem ücreti alınır. Bu seçenek, Monero&apos;nun geliştirilmesini desteklemek için işleminize, bu ücretin bir yüzdesi olarak ek bir miktar eklemenize izin verir. Örneğin %50 otomatik bağış, 0.005 XMR işlem ücreti alır ve Monero gelişimini desteklemek için 0.0025 XMR ekler.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Her işlem için küçük bir işlem ücreti alınır. Bu seçenek, Loki&apos;nun geliştirilmesini desteklemek için işleminize, bu ücretin bir yüzdesi olarak ek bir miktar eklemenize izin verir. Örneğin %50 otomatik bağış, 0.005 XMR işlem ücreti alır ve Loki gelişimini desteklemek için 0.0025 XMR ekler.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2733,8 +2733,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Arka plan madenciliğine izin verilsin mi?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Madencilik, Monero ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta kaldığında Monero&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Madencilik, Loki ağını güvence altına alır ve yapılan iş için küçük bir ödül de verir. Bu seçenek, bilgisayarınız ana güçte iken ve boşta kaldığında Loki&apos;ya izin verir. Çalışmaya devam ettiğinizde madenciliği durduracaktır.</translation>
     </message>
 </context>
 <context>
@@ -2841,8 +2841,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="vanished">Cüzdan yolunda veya hesap adında ASCII olmayan karakterlere izin verilmiyor</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">MONERO KULLANIN</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">LOKI KULLANIN</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2973,8 +2973,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Monero&apos;ya hoşgeldiniz!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Loki&apos;ya hoşgeldiniz!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="85"/>
@@ -3077,8 +3077,8 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Monero&apos;ya hoşgeldiniz!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Loki&apos;ya hoşgeldiniz!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3347,8 +3347,8 @@ Address: </source>
         <translation>Kötü imza</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Bu adres, %2 onay (lar) ile %1 monero aldı.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Bu adres, %2 onay (lar) ile %1 loki aldı.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3427,8 +3427,8 @@ Address: </source>
         <translation>Daemon&apos;u durdur</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Monero-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Loki-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>Number of transactions: </source>
@@ -3473,8 +3473,8 @@ Address: </source>
         <translation>İşlem dosyaya kaydedildi: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Bu adres %1 monero aldı, ancak işlem henüz çıkarılmadı</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Bu adres %1 loki aldı, ancak işlem henüz çıkarılmadı</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3502,8 +3502,8 @@ Address: </source>
         <translation>Program kurulum sihirbazı</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

@@ -737,8 +737,8 @@
         <translation type="vanished">(na voljo samo za lokalne prikrite procese)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Rudarjenje na vašem računalniku krepi omrežje Monero. Več ljudi rudari, težje je napasti omrežje. Vsak prispevek pomaga.&lt;br&gt; &lt;br&gt;Z rudarjenjem imate tudi manjšo možnost pridobitve nekaj Monera. Vaš računalnik bo z računanjem zgoščenih vrednosti iskal rešitev za nastanek bloka. Če najdete blok, boste prejeli z njim povezano nagrado . Srečno!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Rudarjenje na vašem računalniku krepi omrežje Loki. Več ljudi rudari, težje je napasti omrežje. Vsak prispevek pomaga.&lt;br&gt; &lt;br&gt;Z rudarjenjem imate tudi manjšo možnost pridobitve nekaj Monera. Vaš računalnik bo z računanjem zgoščenih vrednosti iskal rešitev za nastanek bloka. Če najdete blok, boste prejeli z njim povezano nagrado . Srečno!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1384,7 +1384,7 @@
         <translation type="vanished">Verzija grafičnega vmesnika: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Loki version: </source>
         <translation type="vanished">Vgrajena verzija Monera: </translation>
     </message>
     <message>
@@ -2511,12 +2511,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Smo skoraj pri koncu. Samo še konfiguriramo Monero nastavitve</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Smo skoraj pri koncu. Samo še konfiguriramo Loki nastavitve</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Spodbudimo nalaganje Monero blockchaina?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Spodbudimo nalaganje Loki blockchaina?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2549,8 +2549,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Ohranjevalni način za disk potrebuje bistveno manj prostora, a enako mrežno pasovno širino kot običajen Monero program. A vendarle je hranjenje celotnega blockchaina koristno za varnost omrežja Monero. Če uporabljate napravo z omejenim diskovnim prostorom, je način za vas primeren.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Ohranjevalni način za disk potrebuje bistveno manj prostora, a enako mrežno pasovno širino kot običajen Loki program. A vendarle je hranjenje celotnega blockchaina koristno za varnost omrežja Loki. Če uporabljate napravo z omejenim diskovnim prostorom, je način za vas primeren.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2558,8 +2558,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Dovolim rudarjenje v ozadju?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Rudarjenje zagotavlja varnost omrežja Monero, hkrati pa tudi izplača majhno nagrado za opravljeno delo. Ta opcija dovoli aplikaciji Monero rudariti, ko je vaš računalnik na glavnem napajanju ter nedejaven. Preneha rudariti, ko nadaljujete z delom.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Rudarjenje zagotavlja varnost omrežja Loki, hkrati pa tudi izplača majhno nagrado za opravljeno delo. Ta opcija dovoli aplikaciji Loki rudariti, ko je vaš računalnik na glavnem napajanju ter nedejaven. Preneha rudariti, ko nadaljujete z delom.</translation>
     </message>
 </context>
 <context>
@@ -2587,8 +2587,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Da je mogoče komunicirati z omrežjem Monero, mora vaša denarnica biti povezana z vozliščem Monero. Za najboljšo zasebnost je priporočeno, da poganjate lastno vozlišče.                      &lt;br&gt;&lt;br&gt;                         Če nimate možnosti poganjati lastno vozlišče, se je možno povezati na oddaljeno vozlišče.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Da je mogoče komunicirati z omrežjem Loki, mora vaša denarnica biti povezana z vozliščem Loki. Za najboljšo zasebnost je priporočeno, da poganjate lastno vozlišče.                      &lt;br&gt;&lt;br&gt;                         Če nimate možnosti poganjati lastno vozlišče, se je možno povezati na oddaljeno vozlišče.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2634,7 +2634,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
+        <source>Loki development is solely supported by donations</source>
         <translation type="vanished">Razvoj Monera je financiran izključno preko donacij</translation>
     </message>
     <message>
@@ -2663,8 +2663,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Za vsako transakcijo je zaračunana majhna provizija. Ta opcija omogoči dodaten znesek k tej proviziji, kot odstotek te provizije. Na ta način vaše transakcije podpirajo razvoj sistema Monero. Na primer, 50% samodejna donacija bo transakciji s provizijo 0.005 XMR, dodala provizijo 0.0025 XMR, ki bo namenjena razvoju Monera.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Za vsako transakcijo je zaračunana majhna provizija. Ta opcija omogoči dodaten znesek k tej proviziji, kot odstotek te provizije. Na ta način vaše transakcije podpirajo razvoj sistema Loki. Na primer, 50% samodejna donacija bo transakciji s provizijo 0.005 XMR, dodala provizijo 0.0025 XMR, ki bo namenjena razvoju Monera.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2770,8 +2770,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Ne ASCII znaki niso dovoljeni v poti denarnice ali imenu računa</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">UPORABI MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">UPORABI LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2901,8 +2901,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Dobrodošli v Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Dobrodošli v Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -3002,8 +3002,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Dobrodošli v Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Dobrodošli v Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3193,8 +3193,8 @@ Velikost obroča: </translation>
         <translation type="unfinished">Slab podpis</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Ta naslov je prejel %1 monerov, s %2 potrditev.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Ta naslov je prejel %1 lokiv, s %2 potrditev.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="460"/>
@@ -3348,8 +3348,8 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Na voljo je nova različica grafičnega vmesnika (monero-wallet-gui): %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Na voljo je nova različica grafičnega vmesnika (loki-wallet-gui): %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>
@@ -3397,7 +3397,7 @@ Opis: </translation>
         <translation>Transakcija shranjena v datoteko: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
         <translation type="vanished">Ta naslov je prejel %1 monera(ov), ampak transakcija še ni v bloku</translation>
     </message>
     <message>

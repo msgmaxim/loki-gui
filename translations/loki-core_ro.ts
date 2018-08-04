@@ -761,8 +761,8 @@
         <translation type="vanished">(disponibil doar pentru servicii locale)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Minatul cu propriul calculator ajută la creșterea puterii rețelei Monero. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Monero. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Minatul cu propriul calculator ajută la creșterea puterii rețelei Loki. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Loki. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1646,8 +1646,8 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation type="vanished">Versiune interfață grafică: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Versiune Monero integrată: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Versiune Loki integrată: </translation>
     </message>
     <message>
         <source>Daemon log</source>
@@ -2577,12 +2577,12 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Aproape am terminat - mai avem de configurat câteva setări Monero</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Aproape am terminat - mai avem de configurat câteva setări Loki</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Pornește blockchain-ul Monero?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Pornește blockchain-ul Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2615,8 +2615,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Monero. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Monero. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Loki. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Loki. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2624,8 +2624,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation>Permite minatul pe fundal?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minatul securizează rețeaua Monero și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Minatul securizează rețeaua Loki și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Loki atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -2653,8 +2653,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Pentru a putea comunica cu rețeaua Monero, portofelul tău trebuie să fie conectat la un serviciu (nod) Monero. Pentru confidențialitate maximă, se recomandă să rulezi propriul tău serviciu.                         &lt;br&gt;&lt;br&gt;                         Dacă poți să rulezi un serviciu local, te poți conecta la unul remote.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Pentru a putea comunica cu rețeaua Loki, portofelul tău trebuie să fie conectat la un serviciu (nod) Loki. Pentru confidențialitate maximă, se recomandă să rulezi propriul tău serviciu.                         &lt;br&gt;&lt;br&gt;                         Dacă poți să rulezi un serviciu local, te poți conecta la unul remote.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2700,8 +2700,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Dezvoltarea Monero este susținută exclusiv prin donații</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Dezvoltarea Loki este susținută exclusiv prin donații</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2729,8 +2729,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Monero. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Loki. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2738,8 +2738,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation>Permite minatul pe fundal?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minatul securizează rețeaua Monero și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Minatul securizează rețeaua Loki și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Loki atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -2840,8 +2840,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation type="vanished">Caracterele non-ASCII nu punt permise în cadrul căii portofelului sau în numele contului</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">FOLOSEȘTE MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">FOLOSEȘTE LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2972,8 +2972,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Bine ai venit la Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Bine ai venit la Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -3073,8 +3073,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Bine ai venit la Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Bine ai venit la Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3414,12 +3414,12 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">O nouă versiune monero-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">O nouă versiune loki-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Această adresă a primit %1 monero, având %2 confirmări.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Această adresă a primit %1 loki, având %2 confirmări.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="349"/>
@@ -3468,8 +3468,8 @@ Descriere: </translation>
         <translation>Tranzacția a fost salvată în fișier: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Această adresă a primit %1 monero, dar tranzacția nu a fost încă minată</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Această adresă a primit %1 loki, dar tranzacția nu a fost încă minată</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3497,8 +3497,8 @@ Descriere: </translation>
         <translation>Asistent de configurare program</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

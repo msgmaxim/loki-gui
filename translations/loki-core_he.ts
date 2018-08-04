@@ -761,7 +761,7 @@
         <translation type="vanished">(אפשרי רק עבור מסנכרן רשת לוקאלי שנמצא על מחשב זה)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="vanished">כרייה מאבטחת את רשת מונרו. ככל שיותר אנשים יכרו, הקושי לתקוף את הרשת גדל.&lt;br&gt; &lt;br&gt;בנוסף, כרייה נותנת סיכוי קטן לזכות במונרו. המחשב שלך ינסה ליצור את הבלוק הבא בשרשרת, ואם תצליח תזכה. בהצלחה!</translation>
     </message>
     <message>
@@ -1416,7 +1416,7 @@
         <translation type="vanished">גרסת ממשק גרפי: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Loki version: </source>
         <translation type="vanished">גרסת מונרו: </translation>
     </message>
     <message>
@@ -1850,7 +1850,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1867,7 +1867,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1933,12 +1933,12 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2725,11 +2725,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
         <translation type="vanished">כמעט סיימנו - נותר להגדיר מספר דברים אחרונים</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
+        <source>Kickstart the Loki blockchain?</source>
         <translation type="vanished">התנעת בסיס הנתונים של מונרו?</translation>
     </message>
     <message>
@@ -2763,7 +2763,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="vanished">מצב חסכון בשטח אחסון משתמש בפחות מקום בשטח דיסק אך באותו נפח של תעבורת רשת. אולם, שמירת עותק של כל בסיס הנתונים תורם לבטיחות של הרשת כולה. אם אתה משתמש במכשיר עם שטח אחסון קטן, אפשרות זו מתאימה עבורך.</translation>
     </message>
     <message>
@@ -2772,7 +2772,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>לאפשר כרייה ברקע?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="vanished">כרייה מאבטחת את רשת מונרו ובנוסף מתגמלת בפרס קטן על העבודה. אופציה זו מאפשרת למונרו לכרות כאשר המחשב מחובר לחשמל ואינו פעיל. הכרייה מפסיקה כאשר המחשב חוזר לפעולה.</translation>
     </message>
 </context>
@@ -2801,7 +2801,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation type="vanished">בשביל לאפשר תקשורת לרשת מונרו הארנק שלך צריך להיות מחובר לצומת. בשביל פרטיות מקסימלית מומלץ להריץ צומת מקומית.                         &lt;br&gt;&lt;br&gt;                         אם אין באפשרותך להריץ צומת מקומית משלך, יש אופציה להתחבר לצומת מרוחקת.</translation>
     </message>
     <message>
@@ -2848,7 +2848,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
+        <source>Loki development is solely supported by donations</source>
         <translation type="vanished">פיתוח מונרו מתאפשר רק בזכות תרומות</translation>
     </message>
     <message>
@@ -2877,7 +2877,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
         <translation type="vanished">לכל העברה קיימת עמלה. אופציה זו מאפשרת לך להוסיף, בנוסף לעמלה, אחוז מסוים מעמלה זו כדי לתמוך בפיתוח של מונרו. למשל, תרומה אוטומטית של 50% עבור עמלה בסך 0.005 XMR תוסיף עוד 0.0025 XMR שיישלחו לצוות הפיתוח של מונרו.</translation>
     </message>
     <message>
@@ -2886,7 +2886,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>לאפשר כרייה ברקע?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="vanished">כרייה מאבטחת את רשת מונרו ובנוסף מתגמלת בפרס קטן על העבודה. אופציה זו מאפשרת למונרו לכרות כאשר המחשב מחובר לחשמל ואינו פעיל. הכרייה מפסיקה כאשר המחשב חוזר לפעולה.</translation>
     </message>
 </context>
@@ -2988,7 +2988,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">תווים שאינם ASCII אינם מותרים בכתובת ארנק או שם חשבון</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
+        <source>USE LOKI</source>
         <translation type="vanished">התחל עם מונרו!</translation>
     </message>
     <message>
@@ -3120,7 +3120,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Loki!</source>
         <translation type="vanished">ברוכים הבאים למונרו!</translation>
     </message>
     <message>
@@ -3220,7 +3220,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Loki!</source>
         <translation type="vanished">ברוכים הבאים למונרו!</translation>
     </message>
     <message>
@@ -3416,7 +3416,7 @@ Ringsize: </source>
         <translation>חתימה שגויה</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
         <translation type="vanished">כתובת זו קיבלה %1 מונרו, עם %2 אישורים.</translation>
     </message>
     <message>
@@ -3522,7 +3522,7 @@ Spending Address Index: </source>
         <translation>עצור סנכרון</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">גרסה חדשה של מונרו זמינה: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -3613,7 +3613,7 @@ Description: </source>
         <translation>העברה נשמרה לקובץ: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
         <translation type="vanished">כתובת זו קיבלה %1 מונרו, אך ההעברה טרם אושרה ע&quot;י הרשת</translation>
     </message>
     <message>
@@ -3642,7 +3642,7 @@ Description: </source>
         <translation>אשף התקנה</translation>
     </message>
     <message>
-        <source>Monero</source>
+        <source>Loki</source>
         <translation type="vanished">מונרו</translation>
     </message>
     <message>

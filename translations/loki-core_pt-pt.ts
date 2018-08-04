@@ -757,8 +757,8 @@
         <translation type="vanished">(apenas disponível para daemons locais)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Minerar com o seu computador ajuda a fortalecer a rede Monero. Quanto mais pessoas minerarem, mais difícil será atacar a rede e por mais pequena que seja a sua contribuição está a ajudar. &lt;br&gt; &lt;br&gt;Minerar também dá uma pequena possibilidade de ganhar Monero. O seu computador irá criar hashes procurando soluções para validade blocos. Caso consiga encontrar o hash de validação de um bloco, você ganha a recompensa associada. Boa sorte!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Minerar com o seu computador ajuda a fortalecer a rede Loki. Quanto mais pessoas minerarem, mais difícil será atacar a rede e por mais pequena que seja a sua contribuição está a ajudar. &lt;br&gt; &lt;br&gt;Minerar também dá uma pequena possibilidade de ganhar Loki. O seu computador irá criar hashes procurando soluções para validade blocos. Caso consiga encontrar o hash de validação de um bloco, você ganha a recompensa associada. Boa sorte!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -1642,8 +1642,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation type="vanished">Versão da GUI: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Versão integrada do Monero: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Versão integrada do Loki: </translation>
     </message>
     <message>
         <source>Daemon log</source>
@@ -2535,12 +2535,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>Weâ€™re almost there - letâ€™s just configure some Monero preferences</source>
-        <translation type="vanished">Estamos quase a terminar - vamos configurar algumas preferência do Monero</translation>
+        <source>Weâ€™re almost there - letâ€™s just configure some Loki preferences</source>
+        <translation type="vanished">Estamos quase a terminar - vamos configurar algumas preferência do Loki</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Iniciar a blockchain do Monero?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Iniciar a blockchain do Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2573,8 +2573,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">O modo de conservação de espaço no disco usa menos espaço porém a mesma quantidade de dados na internet. Armazenar a blockchain completa no seu disco ajuda a proteger a rede Monero. Caso esteja a usar um dispositivo com pouco espaço de disco livre, ative esta opção.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">O modo de conservação de espaço no disco usa menos espaço porém a mesma quantidade de dados na internet. Armazenar a blockchain completa no seu disco ajuda a proteger a rede Loki. Caso esteja a usar um dispositivo com pouco espaço de disco livre, ative esta opção.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2582,8 +2582,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Permitir mineração em segundo plano?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minerar ajuda a rede Monero a ficar mais segura e poderá pagar um prémio pelo trabalho realizado. Esta opção permite que o seu computador minere quando estiver sem ser utilizado e ligado à corrente elétrica. Para de minerar assim que comece a utilizar o computador.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Minerar ajuda a rede Loki a ficar mais segura e poderá pagar um prémio pelo trabalho realizado. Esta opção permite que o seu computador minere quando estiver sem ser utilizado e ligado à corrente elétrica. Para de minerar assim que comece a utilizar o computador.</translation>
     </message>
 </context>
 <context>
@@ -2611,8 +2611,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Para que possa comunicar com a rede Monero, a sua carteira necessita estar ligada a um node de Monero. É recomendável que corra o seu próprio node local, contudo se não tiver opção de correr o seu próprio node pode também ligar-se a um node remoto.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Para que possa comunicar com a rede Loki, a sua carteira necessita estar ligada a um node de Loki. É recomendável que corra o seu próprio node local, contudo se não tiver opção de correr o seu próprio node pode também ligar-se a um node remoto.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2658,8 +2658,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">O desenvolvimento do Monero é unicamente suportado através de doações</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">O desenvolvimento do Loki é unicamente suportado através de doações</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2687,8 +2687,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Para cada transação uma pequena taxa é sempre cobrada. Esta opção permite adicionar uma quantidade adicional de percentagem desta taxa para ajudar o desenvolvimento do Monero. Por exemplo, 50% de auto-doação numa taxa de transferência de 0.005 XMR adiciona 0.0025 XMR que será enviado para o fundo comum de ajuda ao desenvolvimento do Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Para cada transação uma pequena taxa é sempre cobrada. Esta opção permite adicionar uma quantidade adicional de percentagem desta taxa para ajudar o desenvolvimento do Loki. Por exemplo, 50% de auto-doação numa taxa de transferência de 0.005 XMR adiciona 0.0025 XMR que será enviado para o fundo comum de ajuda ao desenvolvimento do Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2696,8 +2696,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Permitir mineração em segundo plano?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minerar protege a rede do Monero e pode premiar o minerador com uma pequena quantidade de Monero pelo trabalho feito. Esta opção irá permitir que o seu computador seja usado para minerar Monero quando estiver sem utilização. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Minerar protege a rede do Loki e pode premiar o minerador com uma pequena quantidade de Loki pelo trabalho feito. Esta opção irá permitir que o seu computador seja usado para minerar Loki quando estiver sem utilização. A mineração será interrompida quando você voltar a utilizar o computador.</translation>
     </message>
 </context>
 <context>
@@ -2796,8 +2796,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Somente caracteres ASCII são permitido no path da carteira ou no nome da conta</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">USAR O MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">USAR O LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2928,8 +2928,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Bem-vindo ao Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Bem-vindo ao Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="85"/>
@@ -3032,8 +3032,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Bem-vindo ao Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Bem-vindo ao Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3292,8 +3292,8 @@ Ringsize: </translation>
         <translation>Assinatura inválida</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Este endereço recebeu %1 monero, com %2 confirmação(ões)</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Este endereço recebeu %1 loki, com %2 confirmação(ões)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3372,8 +3372,8 @@ Ringsize: </translation>
         <translation>Parar daemon</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Nova versão da GUI do Monero disponível: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Nova versão da GUI do Loki disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>
@@ -3422,8 +3422,8 @@ Descrição: </translation>
         <translation>Transação gravada no ficheiro: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Este endereço recebeu %1 monero, porém a transação ainda não foi minerada</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Este endereço recebeu %1 loki, porém a transação ainda não foi minerada</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3451,8 +3451,8 @@ Descrição: </translation>
         <translation>Assistente de configuração inicial</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

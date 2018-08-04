@@ -716,8 +716,8 @@
         <translation type="vanished">(nur verfügbar bei lokalem Daemon)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Mit Deinem Computer zu minen hilft dabei, das Monero-Netzwerk zu stärken. Je mehr Leute minen, desto schwieriger kann das Netzwerk angegriffen werden. Jeder kann helfen! &lt;br&gt; &lt;br&gt;Das Mining bietet Dir die Möglichkeit, Monero zu verdienen. Dein Computer errechnet dabei Hash-Werte für neue Blöcke. Wenn Du einen neuen Block findest, bekommst Du die Belohnung dafür. Viel Erfolg!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Mit Deinem Computer zu minen hilft dabei, das Loki-Netzwerk zu stärken. Je mehr Leute minen, desto schwieriger kann das Netzwerk angegriffen werden. Jeder kann helfen! &lt;br&gt; &lt;br&gt;Das Mining bietet Dir die Möglichkeit, Loki zu verdienen. Dein Computer errechnet dabei Hash-Werte für neue Blöcke. Wenn Du einen neuen Block findest, bekommst Du die Belohnung dafür. Viel Erfolg!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1512,7 +1512,7 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 	<message>
@@ -2443,7 +2443,7 @@ Für den Fall mit Sendenachweis muss die Empfängeradresse nicht angegeben werde
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
         <translation>Fast geschafft - lass uns noch ein paar Einstellungen vornehmen</translation>
     </message>
     <message>
@@ -2482,8 +2482,8 @@ Für den Fall mit Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Der Sparmodus verwendet deutlich weniger Festplattenspeicherplatz, aber dieselbe Menge an Bandbreite. Die Speicherung der gesamten Blockchain ist jedoch vorteilhaft für die Sicherheit des Monero-Netzwerks. Wenn du dich an einem Gerät mit begrenztem Speicherplatz befindest, ist diese Option für dich geeignet.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Der Sparmodus verwendet deutlich weniger Festplattenspeicherplatz, aber dieselbe Menge an Bandbreite. Die Speicherung der gesamten Blockchain ist jedoch vorteilhaft für die Sicherheit des Loki-Netzwerks. Wenn du dich an einem Gerät mit begrenztem Speicherplatz befindest, ist diese Option für dich geeignet.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2549,8 +2549,8 @@ Für den Fall mit Sendenachweis muss die Empfängeradresse nicht angegeben werde
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Die Weiterentwicklung von Monero wird alleine durch Spenden finanziert</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Die Weiterentwicklung von Loki wird alleine durch Spenden finanziert</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2578,8 +2578,8 @@ Für den Fall mit Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Für jede Transaktion fällt eine kleine Transaktionsgebühr an. Mit dieser Option kannst Du diese Gebühr um einen zusätzlichen Prozentsatz erhöhen, um die Entwicklung von Monero voranzutreiben. Beispielsweise würden bei einer 50-%igen automatischen Spende und einer Transaktionsgebühr von 0.005 XMR zusätzliche 0.0025 XMR der Entwicklung von Monero zukommen.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation>Für jede Transaktion fällt eine kleine Transaktionsgebühr an. Mit dieser Option kannst Du diese Gebühr um einen zusätzlichen Prozentsatz erhöhen, um die Entwicklung von Loki voranzutreiben. Beispielsweise würden bei einer 50-%igen automatischen Spende und einer Transaktionsgebühr von 0.005 XMR zusätzliche 0.0025 XMR der Entwicklung von Loki zukommen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2904,8 +2904,8 @@ Für den Fall mit Sendenachweis muss die Empfängeradresse nicht angegeben werde
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Willkommen bei Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Willkommen bei Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3020,8 +3020,8 @@ Description: </source>
         <translation>Geld erfolgreich verschickt: %1 Transaktion(en) </translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Diese Adresse hat %1 Monero empfangen, aber die Transaktion wurde noch nicht gemined</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Diese Adresse hat %1 Loki empfangen, aber die Transaktion wurde noch nicht gemined</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1745"/>
@@ -3044,8 +3044,8 @@ Description: </source>
         <translation>Daemon stoppen</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Eine neue Version von monero-wallet-gui ist verfügbar: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Eine neue Version von loki-wallet-gui ist verfügbar: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3245,8 +3245,8 @@ Betrag: </translation>
         <translation>Ungültige Signatur</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Diese Adresse hat %1 Monero erhalten, mit %2 Bestätigung(en).</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Diese Adresse hat %1 Loki erhalten, mit %2 Bestätigung(en).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3320,8 +3320,8 @@ Betrag: </translation>
         <translation>Installationsassistent</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

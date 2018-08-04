@@ -2086,12 +2086,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">हमने बस समाप्त कर लिया है - चलिए कुछ Monero प्राथमिकताएं कॉन्फ़िगर करते हैं</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">हमने बस समाप्त कर लिया है - चलिए कुछ Loki प्राथमिकताएं कॉन्फ़िगर करते हैं</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Kickstart the Monero ब्लॉकचेन?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Kickstart the Loki ब्लॉकचेन?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2124,8 +2124,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">डिस्क संरक्षण मोड काफी कम डिस्क-स्पेस प्रयोग करता है, लेकिन इसके लिए सामान्य Monero इंस्टैंस के बराबर बैंडविड्थ की आवश्यकता होती है। हालाँकि, Monero नेटवर्क की सुरक्षा के लिए पूरा ब्लॉकचेन संग्रहीत करना लाभदायक होता है। यदि आप कम डिस्क स्पेस वाली डिवाइस पर हैं तो यह विकल्प आपके लिए उपयुक्त है।</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">डिस्क संरक्षण मोड काफी कम डिस्क-स्पेस प्रयोग करता है, लेकिन इसके लिए सामान्य Loki इंस्टैंस के बराबर बैंडविड्थ की आवश्यकता होती है। हालाँकि, Loki नेटवर्क की सुरक्षा के लिए पूरा ब्लॉकचेन संग्रहीत करना लाभदायक होता है। यदि आप कम डिस्क स्पेस वाली डिवाइस पर हैं तो यह विकल्प आपके लिए उपयुक्त है।</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2133,8 +2133,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>बैकग्रॉउंड माइनिंग की अनुमति दें?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">माइनिंग Monero नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Monero को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">माइनिंग Loki नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Loki को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
     </message>
 </context>
 <context>
@@ -2189,8 +2189,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Monero का विकास पूरी तरह से डोनेशन से समर्थित है</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Loki का विकास पूरी तरह से डोनेशन से समर्थित है</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2218,8 +2218,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">प्रत्येक लेनदेन के लिए एक छोटा शुल्क लगाया जाता है। यह विकल्प आपको Monero का विकास समर्थित करने के लिए अपने लेनदेन में शुल्क के प्रतिशत के रूप में एक अतिरिक्त राशि जोड़ने की अनुमति देता है। उदाहरण के लिए, 50% ऑटो-डोनेशन 0.005 XMR का लेनदेन शुल्क लेता है और Monero के विकास को समर्थित करने के लिए 0.0025 XMR जोड़ता है।</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">प्रत्येक लेनदेन के लिए एक छोटा शुल्क लगाया जाता है। यह विकल्प आपको Loki का विकास समर्थित करने के लिए अपने लेनदेन में शुल्क के प्रतिशत के रूप में एक अतिरिक्त राशि जोड़ने की अनुमति देता है। उदाहरण के लिए, 50% ऑटो-डोनेशन 0.005 XMR का लेनदेन शुल्क लेता है और Loki के विकास को समर्थित करने के लिए 0.0025 XMR जोड़ता है।</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2227,8 +2227,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>बैकग्राउंड माइनिंग की अनुमति दें?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">माइनिंग Monero नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Monero को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">माइनिंग Loki नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Loki को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
     </message>
 </context>
 <context>
@@ -2319,8 +2319,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">MONERO प्रयोग करें</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">LOKI प्रयोग करें</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2428,8 +2428,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Monero में आपका स्वागत है!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Loki में आपका स्वागत है!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -2505,8 +2505,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="obsolete">Monero में आपका स्वागत है!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="obsolete">Loki में आपका स्वागत है!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>

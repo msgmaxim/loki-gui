@@ -761,8 +761,8 @@
         <translation type="vanished">(dostupno samo za lokalne daemone)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Rudarenje vašim računalom pomaže očvršćivanju Monero mreže. Mrežu je teže napasti što više ljudi rudari, svaki komadić pomaže.&lt;br&gt; &lt;br&gt;Rudarenje vam također omogućuje da zaradite Monero. Računanjem kompaktnih vrijednosti računalo će tražiti rješenja za stvaranje blokova. Ukoliko pronađete blok, dobit ćete zasluženu nagradu. Sretno!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Rudarenje vašim računalom pomaže očvršćivanju Loki mreže. Mrežu je teže napasti što više ljudi rudari, svaki komadić pomaže.&lt;br&gt; &lt;br&gt;Rudarenje vam također omogućuje da zaradite Loki. Računanjem kompaktnih vrijednosti računalo će tražiti rješenja za stvaranje blokova. Ukoliko pronađete blok, dobit ćete zasluženu nagradu. Sretno!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1416,8 +1416,8 @@
         <translation type="vanished">Verzija korisničkog sučelja: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Verzija ugrađenog Monero programa: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Verzija ugrađenog Loki programa: </translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -1849,7 +1849,7 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1866,7 +1866,7 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1932,12 +1932,12 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2724,12 +2724,12 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Gotovo smo završili - podesimo još samo neke Monero postavke</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Gotovo smo završili - podesimo još samo neke Loki postavke</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Pokrenuti Monero lanac blokova?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Pokrenuti Loki lanac blokova?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2762,8 +2762,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Način za zaštitu diska koristi znatno manje prostora na disku, ali jednaku količinu širine pojasa kao i regularna instanca Monera. Međutim, čuvanje cijelog lanca blokova korisno je za sigurnost Monero mreže. Ako ste na uređaju s ograničenim prostorom na disku, ova je opcija prikladna za vas.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Način za zaštitu diska koristi znatno manje prostora na disku, ali jednaku količinu širine pojasa kao i regularna instanca Monera. Međutim, čuvanje cijelog lanca blokova korisno je za sigurnost Loki mreže. Ako ste na uređaju s ograničenim prostorom na disku, ova je opcija prikladna za vas.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2771,8 +2771,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <translation>Dozvoliti rudarenje u pozadini?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Rudarenje osigurava Monero mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Rudarenje osigurava Loki mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
     </message>
 </context>
 <context>
@@ -2800,8 +2800,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Da biste uspješno komunicirali sa Monero mrežom, vaš novčanik mora biti povezan sa Monero čvorom. Za najveću razinu privatnosti preporuča se da pokrenete vaš vlastiti čvor.                         &lt;br&gt;&lt;br&gt;                         Ukoliko niste u mogućnosti pokrenuti vlastiti čvor, postoji opcija za spajanje sa udaljenim čvorom.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Da biste uspješno komunicirali sa Loki mrežom, vaš novčanik mora biti povezan sa Loki čvorom. Za najveću razinu privatnosti preporuča se da pokrenete vaš vlastiti čvor.                         &lt;br&gt;&lt;br&gt;                         Ukoliko niste u mogućnosti pokrenuti vlastiti čvor, postoji opcija za spajanje sa udaljenim čvorom.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2847,7 +2847,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
+        <source>Loki development is solely supported by donations</source>
         <translation type="vanished">Ravoj Monera se podržava isključivo od donacija</translation>
     </message>
     <message>
@@ -2876,7 +2876,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
         <translation type="vanished">Za svaku transakciju se naplaćuje mala provizija. Ova opcija omogućava dodavanje dodatnog iznosa, kao postotka te provizije, vašoj transakciji u svrhu podrške razvoja Monera. Na primjer, postavka od 50% automatske donacije uzima transakcijsku proviziju od 0.005 XMR i dodaje 0.0025 XMR za podršku razvoja Monera.</translation>
     </message>
     <message>
@@ -2885,8 +2885,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <translation>Dozvoliti rudarenje u pozadini?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Rudarenje osigurava Monero mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Rudarenje osigurava Loki mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
     </message>
 </context>
 <context>
@@ -2987,8 +2987,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <translation type="vanished">Nedozvoljeni znakovi u putanji novčanika ili imenu računa</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">KORISTI MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">KORISTI LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -3118,8 +3118,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Dobrodošli u Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Dobrodošli u Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -3219,8 +3219,8 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Dobrodošli u Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Dobrodošli u Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3434,8 +3434,8 @@ Spending Address Index: </source>
         <translation>Neispravan potpis</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Ova adresa je primila %1 monero sa %2 potvrde.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Ova adresa je primila %1 loki sa %2 potvrde.</translation>
     </message>
     <message>
         <source>
@@ -3520,8 +3520,8 @@ Opis: </translation>
         <translation>Transakcija pohranjena u datoteku: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Ova adresa je primila %1 monero ali transakcija još nije izrudarena</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Ova adresa je primila %1 loki ali transakcija još nije izrudarena</translation>
     </message>
     <message>
         <location filename="../main.qml" line="854"/>
@@ -3620,8 +3620,8 @@ Opis: </translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>
@@ -3649,8 +3649,8 @@ Opis: </translation>
         <translation>Zaustavite daemona</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Nova verzija monero-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Nova verzija loki-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1815"/>

@@ -701,7 +701,7 @@
         <translation type="vanished">(متاح بس للخادم المحلي)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="vanished">التعدين بجهازك بيساعد في تقويه شبكه مونيرو. كل ما ناس ازيد بتعدن  كل ما كان اصعب مهاجمه الشبكه,  وكل مساهمه صغيره بتفرق ,. التعدين الفردي بيديك فرصه تكسب شويه مونيرو ,جهازك هيحاول يحل معادلات البلوك . لو لقيت بلوك والجايزه راحت ليك , مبروك عليك يا ابن المحظوظه </translation>
     </message>
     <message>
@@ -1304,7 +1304,7 @@
         <translation type="vanished">نسخه الواجهه الرسوميه</translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Loki version: </source>
         <translation type="vanished">نسخه مونيرو المضمنة</translation>
     </message>
     <message>
@@ -2373,7 +2373,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
         <translation type="vanished"> مبروك خلصنا, يلا نظبط شويه اعدادات للمونيرو .</translation>
     </message>
     <message>
@@ -2407,7 +2407,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation type="vanished">وضع الحفاظ علي مساحه القرص يستخدم مساحه اقل بكثير . ولكن يستخدم نفس كم البيانات التي يستخدمها خادم مونيرو العادي , ومع ذلك تخزين سلسله الكتل كامله علي جهازك يفيد شبكه مونيرو ولكن اذا كنت علي جهاز مساحته محدوده هذا الخيار مناسب لك</translation>
     </message>
     <message>
@@ -2416,7 +2416,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>إسمح بالتعدين في الخلفيه</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="vanished">التعدين يحمي شبكه مونيرو .وايضا تدفع الشبكه مكافئه بسيطه تجاه هذا العمل . هذا الخيار يسيمح لمونيرو بالتعدين علي جهازك حينما يكون لا يستخدم ويعطل التعدين في حال استخامك للجهاز </translation>
     </message>
 </context>
@@ -2482,7 +2482,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
+        <source>Loki development is solely supported by donations</source>
         <translation type="vanished">تطوير مونيرو قائم بشكل كلي علي التبرعات</translation>
     </message>
     <message>
@@ -2511,7 +2511,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
         <translation type="vanished">لكل معامله هناك رسوم بسيطه. هذا الخيار يسمح ك باضافه كميه ا	ضافيه , كنسبه من هذه الرسوم , من معاملتك لدعم تطوير مونيرو. علي المثال , 50% تبرع تلقائي من معامله رسومها 0.005 XMR ويضاف 0.0025 XMR لمساعده تطوير مونيرو. </translation>
     </message>
     <message>
@@ -2520,7 +2520,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>السماح بالتعدين في الخلفيه</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation type="vanished">التعدين يحمي شبكه مونيرو. والشبكه ايضا تدفع مكافئه بسيطه لهذا العمل. هذا الخيار يسميح لمونيرو بالتعدين علي جهازك وهو لا يستخدم , لن يتم التعدين وجهازك قيد الاستخدام .</translation>
     </message>
 </context>
@@ -2618,7 +2618,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>موجود محفظه بنفس الإسم بالفعل. من فضلك إختر غيّّر اسم المحفظه</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
+        <source>USE LOKI</source>
         <translation type="vanished">إستخدم مونيرو</translation>
     </message>
     <message>
@@ -2748,7 +2748,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Loki!</source>
         <translation type="vanished">أهلا بيك في مونيرو</translation>
     </message>
     <message>
@@ -2848,7 +2848,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Loki!</source>
         <translation type="vanished">أهلا بيك في مونيرو!</translation>
     </message>
     <message>
@@ -3023,7 +3023,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished">توقيع سيء</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
         <translation type="vanished">هذا العنوان استلم %1 مونيرو , مع %2 تأكيدات</translation>
     </message>
     <message>
@@ -3172,7 +3172,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">إصدار جديد من واجهه مونيرو الرسويه متاح: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -3218,7 +3218,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>تم حفظ المعاملات إلي ملف : %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
         <translation type="vanished">هذا العنوان استلم %1 مونيرو, لكن المعامله لم يتم تعدينها بعد</translation>
     </message>
     <message>
@@ -3247,7 +3247,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>نافذه تثبيت البرنامج</translation>
     </message>
     <message>
-        <source>Monero</source>
+        <source>Loki</source>
         <translation type="vanished">مونيرو</translation>
     </message>
     <message>

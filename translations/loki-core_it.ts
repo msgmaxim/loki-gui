@@ -760,8 +760,8 @@
         <translation type="vanished">(disponibile solo per daemons locali)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Avviare mining con il tuo computer incrementa la resistenza del network. Più persone avviano il mining, più è difficile attaccare monero, e anche un singolo bit è importante.&lt;br&gt; &lt;br&gt;Avviare il mining ti da anche una piccola chance di guadagnare qualche Monero. Il tuo computer creerà &quot;hashes&quot; cercando di risolvere un blocco. Se ne trovi uno, riceverai la ricompensa associata al blocco. Buona fortuna!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Avviare mining con il tuo computer incrementa la resistenza del network. Più persone avviano il mining, più è difficile attaccare loki, e anche un singolo bit è importante.&lt;br&gt; &lt;br&gt;Avviare il mining ti da anche una piccola chance di guadagnare qualche Loki. Il tuo computer creerà &quot;hashes&quot; cercando di risolvere un blocco. Se ne trovi uno, riceverai la ricompensa associata al blocco. Buona fortuna!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1429,8 +1429,8 @@
         <translation type="vanished">Versione interfaccia grafica (GUI):</translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Versione Monero integrata: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Versione Loki integrata: </translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -2559,12 +2559,12 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
         <translation type="vanished">Hai quasi finito - mancano solo altre piccole configurazioni</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Vuoi avviare la blockchain di Monero?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Vuoi avviare la blockchain di Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2597,8 +2597,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">La modalità conservazione del disco usa meno spazio, ma la stessa quantità di banda come una normale instanza Monero. In ogni caso, conservare la blockchain completa è utile alla sicurezza della rete di Monero. Se utilizzi una periferica con spazio sul disco limitato questa opzione fa al caso tuo.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">La modalità conservazione del disco usa meno spazio, ma la stessa quantità di banda come una normale instanza Loki. In ogni caso, conservare la blockchain completa è utile alla sicurezza della rete di Loki. Se utilizzi una periferica con spazio sul disco limitato questa opzione fa al caso tuo.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2606,8 +2606,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
         <translation>Consenti il mining in background?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Il mining rende sicura la rete di Monero e ricompensa per il lavoro fatto. Questa opzione permetterà a Monero di avviare il mining quando il tuo computer è inattivo e collegato alla corrente. Sospende il mining quando riprendi a lavorare.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Il mining rende sicura la rete di Loki e ricompensa per il lavoro fatto. Questa opzione permetterà a Loki di avviare il mining quando il tuo computer è inattivo e collegato alla corrente. Sospende il mining quando riprendi a lavorare.</translation>
     </message>
 </context>
 <context>
@@ -2635,8 +2635,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Per comunicare con il network di Monero il tuo portafoglio deve essere connesso ad un nodo. Per la miglior privacy è consigliato usare un nodo locale.                         &lt;br&gt;&lt;br&gt;                         Se non hai la possibilità di usare un tuo nodo, esiste un opzione per connettersi ad un nodo remoto.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Per comunicare con il network di Loki il tuo portafoglio deve essere connesso ad un nodo. Per la miglior privacy è consigliato usare un nodo locale.                         &lt;br&gt;&lt;br&gt;                         Se non hai la possibilità di usare un tuo nodo, esiste un opzione per connettersi ad un nodo remoto.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2682,8 +2682,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Lo sviluppo di Monero è supportato solamente dalle donazioni</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Lo sviluppo di Loki è supportato solamente dalle donazioni</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2711,8 +2711,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Per ogni transazione si paga una piccola commissione. Questa opzione ti permette di aggiungere un importo addizionale per supportare lo sviluppo di Monero. Per esempio, con una autodonazione del 50% si paga 0.005 XMR di commissioni e altri 0.0025 per il supporto allo sviluppo di Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Per ogni transazione si paga una piccola commissione. Questa opzione ti permette di aggiungere un importo addizionale per supportare lo sviluppo di Loki. Per esempio, con una autodonazione del 50% si paga 0.005 XMR di commissioni e altri 0.0025 per il supporto allo sviluppo di Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2720,8 +2720,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
         <translation>Consenti il mining in background?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Il mining rende sicura la rete di Monero e ricompensa per il lavoro fatto. Questa opzione permetterà a Monero di avviare il mining quando il tuo computer è inattivo e collegato alla corrente. Sospende il mining quando riprendi a lavorare.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Il mining rende sicura la rete di Loki e ricompensa per il lavoro fatto. Questa opzione permetterà a Loki di avviare il mining quando il tuo computer è inattivo e collegato alla corrente. Sospende il mining quando riprendi a lavorare.</translation>
     </message>
 </context>
 <context>
@@ -2822,8 +2822,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
         <translation type="vanished">Caratteri non-ASCII non sono permessi per la cartella del portafoglio o per i nome del conto</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">USA MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">USA LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2954,8 +2954,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Benvenuto in Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Benvenuto in Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -3055,8 +3055,8 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Benvenuto in Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Benvenuto in Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3296,8 +3296,8 @@ Ringsize: </source>
         <translation>Firma non valida</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Questo indirizzo ha ricevuto %1 monero con %2 conferma/e.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Questo indirizzo ha ricevuto %1 loki con %2 conferma/e.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3381,7 +3381,7 @@ Ringsize: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">Una nuova versione dell&apos;interfaccia grafica è disponibile: %1&lt;br&gt;%2</translation>
     </message>
     <message>
@@ -3452,8 +3452,8 @@ Fee: </source>
         <translation>Transazione salvata nel file: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Questo indirizzo ha ricevuto %1 monero, ma la transazione non è ancora stata validata dal network</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Questo indirizzo ha ricevuto %1 loki, ma la transazione non è ancora stata validata dal network</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3471,8 +3471,8 @@ Fee: </source>
         <translation>Totale</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

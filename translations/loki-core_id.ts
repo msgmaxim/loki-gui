@@ -707,8 +707,8 @@
         <translation type="vanished">(Hanya untuk jurik lokal)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Pertambangan dengan komputer Anda menolong mempertahankan jaringan Monero. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Monero. Komputer Anda akan menebak untuk kunci blok Monero. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Monero. Semoga sukses!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Pertambangan dengan komputer Anda menolong mempertahankan jaringan Loki. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Loki. Komputer Anda akan menebak untuk kunci blok Loki. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Loki. Semoga sukses!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1502,8 +1502,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">Versi GUI: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Versi Monero termasuk: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Versi Loki termasuk: </translation>
     </message>
     <message>
         <source>Daemon log</source>
@@ -2387,12 +2387,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Hampir selesai - marilah kita pilih preferensi dalam Monero</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Hampir selesai - marilah kita pilih preferensi dalam Loki</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Mulailah rantaiblok Monero?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Mulailah rantaiblok Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2425,8 +2425,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Cara penghematan bisa mengurangi ruang hard disk untuk Monero, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Cara penghematan bisa mengurangi ruang hard disk untuk Loki, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2434,8 +2434,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Mengizinkan pertambangan di balik layar?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Monero, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Monero untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Loki, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Loki untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -2496,8 +2496,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Pembangunan Monero cuma didukung oleh sumbangan</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Pembangunan Loki cuma didukung oleh sumbangan</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2525,8 +2525,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Monero. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Loki. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2534,8 +2534,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Mengizinkan pertambangan di balik layar?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Monero, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Monero untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Loki, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Loki untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -2636,8 +2636,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Hanya diperbolehkan untuk menggunakan huruf ASCII</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">MENGGUNAKAN MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">MENGGUNAKAN LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2767,8 +2767,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Selamat datang di dunia Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Selamat datang di dunia Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="86"/>
@@ -2868,8 +2868,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Selamat datang di dunia Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Selamat datang di dunia Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3069,7 +3069,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="774"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Tidak bisa mengirim uang monero: </translation>
+        <translation>Tidak bisa mengirim uang loki: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="777"/>
@@ -3079,7 +3079,7 @@ Description: </source>
     </message>
     <message>
         <source>Money sent successfully: %1 transaction(s) </source>
-        <translation type="vanished">Uang monero dikirim dengan sukses: %1 transaksi </translation>
+        <translation type="vanished">Uang loki dikirim dengan sukses: %1 transaksi </translation>
     </message>
     <message>
         <location filename="../main.qml" line="783"/>
@@ -3087,12 +3087,12 @@ Description: </source>
         <translation>Transaksi disimpan dalam arsip: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Alamat ini menerima %1 monero, tetapi transaksinya belum termasuk dalam blok</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Alamat ini menerima %1 loki, tetapi transaksinya belum termasuk dalam blok</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Alamat ini menerima %1 monero, dengan %2 konfirmasi.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Alamat ini menerima %1 loki, dengan %2 konfirmasi.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1745"/>
@@ -3115,8 +3115,8 @@ Description: </source>
         <translation>Berhenti jurik</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Versi baru untuk monero-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Versi baru untuk loki-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3279,8 +3279,8 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>
