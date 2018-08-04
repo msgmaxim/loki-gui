@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="it_IT">
+<TS version="2.0" language="it_IT">
 <context>
     <name>AddressBook</name>
     <message>
@@ -352,6 +352,9 @@
         <source>Fee</source>
         <translation>Commissione</translation>
     </message>
+</context>
+<context>
+    <name>HistoryTableInnerColumn</name>
     <message>
         <source>Amount</source>
         <translation type="vanished">Quantità</translation>
@@ -2120,6 +2123,14 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
     </message>
 </context>
 <context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="176"/>
@@ -2538,6 +2549,14 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2939,7 +2958,7 @@ In caso di Prova di Spesa, non serve specificare l&apos;indirizzo del ricevente.
         <translation type="vanished">Benvenuto in Monero!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Seleziona una delle seguenti opzioni:</translation>
     </message>

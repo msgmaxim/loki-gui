@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hi_IN">
+<TS version="2.0" language="hi_IN">
 <context>
     <name>AddressBook</name>
     <message>
@@ -288,6 +288,9 @@
         <source>Fee</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>HistoryTableInnerColumn</name>
     <message>
         <source>Amount</source>
         <translation type="vanished">राशि</translation>
@@ -1454,7 +1457,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>Sign</name>
+    <name>SharedRingDB</name>
     <message>
         <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
@@ -1701,6 +1704,14 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2065,6 +2076,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2413,7 +2432,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Monero में आपका स्वागत है!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>कृपया निम्नलिखित विकल्पों में से एक का चयन करें:</translation>
     </message>
@@ -2585,7 +2604,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../main.qml" line="621"/>
         <source>
-Payment ID: </source>
+
+Number of transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2599,7 +2619,7 @@ Amount: </source>
         <location filename="../main.qml" line="623"/>
         <location filename="../main.qml" line="737"/>
         <source>
-Fee: </source>
+Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>

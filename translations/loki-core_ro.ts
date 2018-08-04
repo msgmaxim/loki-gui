@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ro_RO">
+<TS version="2.0" language="ro_RO">
 <context>
     <name>AddressBook</name>
     <message>
@@ -2066,6 +2066,14 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
     </message>
 </context>
 <context>
+    <name>SubaddressModel</name>
+    <message>
+        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TableDropdown</name>
     <message>
         <location filename="../components/TableDropdown.qml" line="182"/>
@@ -2122,6 +2130,14 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
         <translation>Ridicat</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2551,6 +2567,14 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2952,7 +2976,7 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation type="vanished">Bine ai venit la Monero!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Alege una dintre următoarele variante:</translation>
     </message>

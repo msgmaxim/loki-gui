@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sk_SK">
+<TS version="2.0" language="sk_SK">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1934,6 +1934,14 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
+    <name>SubaddressModel</name>
+    <message>
+        <location filename="../src/model/SubaddressModel.cpp" line="73"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TableDropdown</name>
     <message>
         <location filename="../components/TableDropdown.qml" line="182"/>
@@ -1990,6 +1998,14 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
         <translation>Vysoká</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2409,6 +2425,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2800,7 +2824,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Vitajte v Monero!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Vyberte prosím jednu z nasledujúcich možností:</translation>
     </message>

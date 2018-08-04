@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="id_ID">
+<TS version="2.0" language="id_ID">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1965,6 +1965,14 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2369,6 +2377,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2755,7 +2771,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Selamat datang di dunia Monero!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Mohon memilihkan salah satu opsi:</translation>
     </message>
@@ -3270,6 +3286,11 @@ Description: </source>
         <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
         <translation>kirim ke tujuan yang sama</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1815"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Log jurik</translation>
     </message>
 </context>
 </TS>

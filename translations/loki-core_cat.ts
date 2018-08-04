@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.0" language="en_US">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1874,7 +1874,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>SubaddressTable</name>
+    <name>SubaddressModel</name>
     <message>
         <location filename="../components/SubaddressTable.qml" line="79"/>
         <source>Address copied to clipboard</source>
@@ -1938,6 +1938,14 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
         <translation>Alta</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2355,6 +2363,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2746,7 +2762,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Benvinguts a Monero!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Per favor sel·leccioni les següents opcions:</translation>
     </message>
@@ -3263,6 +3279,11 @@ Descripció:</translation>
     <message>
         <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">Nova versió de monero-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1815"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Log del daemon</translation>
     </message>
 </context>
 </TS>

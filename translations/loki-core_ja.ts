@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja_JP">
+<TS version="2.0" language="ja_JP">
 <context>
     <name>AddressBook</name>
     <message>
@@ -356,6 +356,9 @@
         <source>Fee</source>
         <translation>手数料</translation>
     </message>
+</context>
+<context>
+    <name>HistoryTableInnerColumn</name>
     <message>
         <source>Amount</source>
         <translation type="vanished">金額</translation>
@@ -1805,6 +1808,9 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Path to file</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SharedRingDB</name>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="163"/>
         <source>Filename With Outputs To Blackball</source>
@@ -2122,6 +2128,14 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
         <translation>高</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2551,6 +2565,14 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2952,7 +2974,7 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <translation type="vanished">モネロへようこそ!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>以下のオプションの中から選択してください:</translation>
     </message>

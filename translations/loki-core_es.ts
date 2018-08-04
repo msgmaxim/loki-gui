@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.0" language="es_ES">
 <context>
     <name>AddressBook</name>
     <message>
@@ -2120,6 +2120,14 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
     </message>
 </context>
 <context>
+    <name>TransactionHistoryModel</name>
+    <message>
+        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
+        <source>Primary address</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2554,6 +2562,14 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2960,7 +2976,7 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="vanished">¡Bienvenido a Monero!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Seleccione una de las siguientes opciones:</translation>
     </message>
@@ -3494,6 +3510,11 @@ Descripción:</translation>
     <message>
         <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">Nueva versión de monero-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1815"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Registro del daemon</translation>
     </message>
 </context>
 </TS>

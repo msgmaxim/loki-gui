@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ar_EG">
+<TS version="2.0" language="ar_EG">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1961,12 +1961,15 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>Transfer</name>
+    <name>TransactionHistoryModel</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
         <source>OpenAlias error</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="176"/>
         <source>Amount</source>
@@ -2360,6 +2363,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
+    <name>WalletManager</name>
+    <message>
+        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
+        <source>Unknown error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Monero preferences</source>
@@ -2741,7 +2752,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">أهلا بيك في مونيرو</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>من فضلك إختار أحد الإختيارات التاليه</translation>
     </message>
