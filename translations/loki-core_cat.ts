@@ -808,10 +808,6 @@
         <translation>No està minant</translation>
     </message>
     <message>
-        <source>Stop mining</source>
-        <translation type="vanished">Parar minat</translation>
-    </message>
-    <message>
         <source>Status: not mining</source>
         <translation type="vanished">Estat: no està minant</translation>
     </message>
@@ -2321,10 +2317,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="obsolete">Ja quasi està- anem a configurar alguns aspectes de Loki</translation>
     </message>
     <message>
-        <source>Kickstart the Loki blockchain?</source>
-        <translation type="vanished">¿Inicialitzar la cadena de blocs de Loki?</translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
         <translation type="unfinished"></translation>
@@ -2332,7 +2324,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
         <source>Kickstart the Loki blockchain?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Inicialitzar la cadena de blocs de Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="114"/>
@@ -2352,7 +2344,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minar assegura que la xarxa Loki i ademés paga una petita recompensa pel treball fet. Aquesta opció permet que Loki mini mentre el seu ordenador està ociós. El minat es detendrà quan continúi treballant amb ella.</translation>
     </message>
     <message>
         <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
@@ -2362,10 +2354,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
         <source>Allow background mining?</source>
         <translation>¿Permetre minat en segon pla?</translation>
-    </message>
-    <message>
-        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minar assegura que la xarxa Loki i ademés paga una petita recompensa pel treball fet. Aquesta opció permet que Loki mini mentre el seu ordenador està ociós. El minat es detendrà quan continúi treballant amb ella.</translation>
     </message>
 </context>
 <context>
@@ -2427,15 +2415,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </context>
 <context>
     <name>WizardDonation</name>
-    <message>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="vanished">El desenvolupament de Loki és possible només gràcies a donacions</translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="114"/>
         <source>Enable auto-donations of?</source>
@@ -2566,17 +2545,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Caràcters no ASCII no estàn permesos en la ruta del moneder o el nom del compte</translation>
     </message>
     <message>
-        <source>USE LOKI</source>
-        <translation type="vanished">UTILITZI LOKI</translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
         <source>USE LOKI</source>
-        <translation type="unfinished"></translation>
+        <translation>UTILITZI LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="378"/>
-        <source>Create wallet</source>
+        <source>Create Wallet</source>
         <translation>Crear moneder</translation>
     </message>
     <message>

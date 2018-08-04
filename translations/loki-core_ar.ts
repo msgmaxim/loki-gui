@@ -2309,13 +2309,9 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
-        <translation type="vanished"> مبروك خلصنا, يلا نظبط شويه اعدادات للمونيرو .</translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
-        <translation type="unfinished"></translation>
+        <translation> مبروك خلصنا, يلا نظبط شويه اعدادات للمونيرو .</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
@@ -2333,18 +2329,9 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>تشغيل وضع الحفاظ علي مساحه القرص ؟</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardConfigure.qml" line="141"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">وضع الحفاظ علي مساحه القرص يستخدم مساحه اقل بكثير . ولكن يستخدم نفس كم البيانات التي يستخدمها خادم مونيرو العادي , ومع ذلك تخزين سلسله الكتل كامله علي جهازك يفيد شبكه مونيرو ولكن اذا كنت علي جهاز مساحته محدوده هذا الخيار مناسب لك</translation>
+        <translation>التعدين يحمي شبكه مونيرو .وايضا تدفع الشبكه مكافئه بسيطه تجاه هذا العمل . هذا الخيار يسيمح لمونيرو بالتعدين علي جهازك حينما يكون لا يستخدم ويعطل التعدين في حال استخامك للجهاز </translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2353,7 +2340,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">التعدين يحمي شبكه مونيرو .وايضا تدفع الشبكه مكافئه بسيطه تجاه هذا العمل . هذا الخيار يسيمح لمونيرو بالتعدين علي جهازك حينما يكون لا يستخدم ويعطل التعدين في حال استخامك للجهاز </translation>
     </message>
 </context>
 <context>
@@ -2415,15 +2401,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </context>
 <context>
     <name>WizardDonation</name>
-    <message>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="vanished">تطوير مونيرو قائم بشكل كلي علي التبرعات</translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="114"/>
         <source>Enable auto-donations of?</source>
@@ -2551,12 +2528,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <source>USE LOKI</source>
-        <translation type="vanished">إستخدم مونيرو</translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardMain.qml" line="365"/>
-        <source>USE LOKI</source>
-        <translation type="unfinished"></translation>
+        <translation>إستخدم مونيرو</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="378"/>
@@ -2720,19 +2692,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardPassword</name>
     <message>
-        <source>Give your wallet a password</source>
-        <translation type="vanished">أكتب كلمه مرور المحفظه الخاصه بك</translation>
-    </message>
-    <message>
-        <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
-                        &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
-        <translation type="obsolete">تذكره : كلمه السر هذه لا يمكن استرجاعها . إذا نسيتها يجب إسترجاع المحفظه من ال25 كلمه السريه . إختار كلمه سر قويه بإستخدام ( الحروف . والأرقام و الرموز) :</translation>
-    </message>
-<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
         <translation>أكتب كلمه مرور المحفظه الخاصه بك</translation>
-</message>
+    </message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -3079,11 +3042,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../main.qml" line="1796"/>
         <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">إصدار جديد من واجهه مونيرو الرسويه متاح: %1&lt;br&gt;%2</translation>
+        <translation>إصدار جديد من واجهه مونيرو الرسويه متاح: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <source> Number of transactions: </source>

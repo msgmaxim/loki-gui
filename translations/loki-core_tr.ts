@@ -3164,7 +3164,8 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
         <translation>Miktar yanlış: beklenen sayı %1 &apos;den %2 &apos;ye</translation>
 </message>
-Number of transactions: </source>
+    <message>
+        <source>Number of transactions: </source>
         <translation>İşlem sayısı: </translation>
     </message>
     <message>
