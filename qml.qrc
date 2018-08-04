@@ -46,7 +46,6 @@
         <file>components/StandardDialog.qml</file>
         <file>components/StandardDropdown.qml</file>
         <file>components/Style.qml</file>
-        <file>components/SubaddressTable.qml</file>
         <file>components/TableDropdown.qml</file>
         <file>components/TableHeader.qml</file>
         <file>components/TextBlock.qml</file>
