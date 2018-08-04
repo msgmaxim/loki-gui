@@ -112,8 +112,6 @@
         <source>Command + Enter (e.g Help)</source>
         <translation>Comandament + Enter (p.e. help)</translation>
     </message>
-
-
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">Comandament + Enter (p.e. help)</translation>
@@ -136,8 +134,6 @@
         <source>Use Custom Settings</source>
         <translation>Utilitzar opcions personalitzades</translation>
     </message>
-
-
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Iniciar daemon (%1)</translation>
@@ -224,8 +220,6 @@
         <source>Date</source>
         <translation>Data</translation>
     </message>
-
-
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Filtrar historial de transaccions</translation>
@@ -535,8 +529,6 @@
         <source>Address Book</source>
         <translation>Llibreta d&apos;adreces</translation>
     </message>
-
-
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -626,8 +618,6 @@
         <source>Sign/Verify</source>
         <translation>Signar/Verificar</translation>
     </message>
-
-
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -762,43 +752,31 @@
         <source>Solo Mining</source>
         <translation>Minat individual</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
         <translation>(només disponible per a daemons locals)</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation>Fils de CPU</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
         <translation>Minat en segon pla (experimental)</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
         <translation>Administrar miner</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
         <translation>Començar minat</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -819,22 +797,16 @@
         <source>Stop Mining</source>
         <translation>Parar minat</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
         <translation>Estat: no està minant</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
         <translation>No està minant</translation>
     </message>
-
-
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Parar minat</translation>
@@ -903,8 +875,6 @@
         <source>Network Status</source>
         <translation>Estat de la xarxa</translation>
     </message>
-
-
     <message>
         <source>Network status</source>
         <translation type="vanished">Estat de la xarxa</translation>
@@ -1022,8 +992,6 @@
         <source>WARNING: No connection to daemon</source>
         <translation>ADVERTENCIA: Sense connexió al daemon</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1148,8 +1116,6 @@
         <source>Amount</source>
         <translation>Quantitat</translation>
     </message>
-
-
 </context>
 <context>
     <name>RemoteNodeEdit</name>
@@ -1373,8 +1339,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Manage Wallet</source>
         <translation>Administrar monedero</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
@@ -1385,15 +1349,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Create View Only Wallet</source>
         <translation>Crear un moneder de només lectura</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
         <translation>Reescanejar balanç del moneder</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1425,8 +1385,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Blockchain Location</source>
         <translation>Localització Cadena de blocs</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
@@ -1497,8 +1455,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Daemon Log</source>
         <translation>Log del daemon</translation>
     </message>
-
-
     <message>
         <source>Manage wallet</source>
         <translation type="vanished">Administrar monedero</translation>
@@ -1845,8 +1801,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Default (x1 fee)</source>
         <translation>Per defecte (comissió x4) {1 ?}</translation>
     </message>
-
-
     <message>
         <location filename="../components/StandardDropdown.qml" line="173"/>
         <source>Fast (x5 fee)</source>
@@ -2065,8 +2019,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Transaction Priority</source>
         <translation>Prioritat de transacció</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
@@ -2092,22 +2044,16 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Create TX File</source>
         <translation>Crear fitxer tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
         <translation>Signar fitxer tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
         <translation>Enviar fitxer tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
@@ -2300,8 +2246,6 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Paste TX ID</source>
         <translation>Enganxar ID tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="173"/>
@@ -2443,8 +2387,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>Crear un nou moneder</translation>
     </message>
-
-
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2582,8 +2524,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>You’re All Set Up!</source>
         <translation>Ja està llest!</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2681,22 +2621,16 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Wallet Name</source>
         <translation>Nom del moneder</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
         <translation>Restaurar des de llavor</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
         <translation>Restaurar des de clau</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2780,8 +2714,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>Crear un nou moneder</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2820,8 +2752,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Give Your Wallet A Password</source>
         <translation>Ingressi una contrasenya per al moneder</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2853,8 +2783,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore Wallet</source>
         <translation>Restaurar moneder</translation>
     </message>
-
-
 </context>
 <context>
     <name>WizardWelcome</name>
@@ -3007,8 +2935,6 @@ Description: </source>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
         <translation>No s&apos;ha pogut crear la transacció: Versió de daemon incorrecta:</translation>
     </message>
-
-
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -3059,15 +2985,11 @@ Spending Address Index: </source>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
         <translation>Quantitat errònea: s&apos;espera un número de %1 a %2</translation>
     </message>
-
-
     <message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
         <translation>Fondos insuficients. Balanç desbloquejat %1</translation>
     </message>
-
-
     <message>
         <location filename="../main.qml" line="783"/>
         <source>Loki sent successfully: %1 transaction(s) </source>
