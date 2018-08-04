@@ -54,10 +54,10 @@
         <file>components/TitleBar.qml</file>
         <file>components/qmldir</file>
 
-        <file>fonts/SFUIDisplay-Bold.otf</file>
-        <file>fonts/SFUIDisplay-Light.otf</file>
-        <file>fonts/SFUIDisplay-Medium.otf</file>
-        <file>fonts/SFUIDisplay-Regular.otf</file>
+        <file>fonts/Roboto-Medium.ttf</file>
+        <file>fonts/Roboto-Regular.ttf</file>
+        <file>fonts/Roboto-Light.ttf</file>
+        <file>fonts/Roboto-Bold.ttf</file>
 
         <file>images/CheckedGreenIcon.png</file>
         <file>images/CreateNewWallet.png</file>
