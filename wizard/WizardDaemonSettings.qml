@@ -206,7 +206,6 @@ ColumnLayout {
             RadioButton {
                 id: remoteNode
                 text: qsTr("Connect to a remote node") + translationManager.emptyString
-                checkedIcon: "../images/CheckedGreenIcon.png"
                 checkedColor: Qt.rgba(0, 0, 0, 0.75)
                 borderColor: Qt.rgba(0, 0, 0, 0.45)
                 Layout.topMargin: 20 * scaleRatio
