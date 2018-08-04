@@ -1366,7 +1366,6 @@
         <location filename="../pages/Settings.qml" line="524"/>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
         <translation>&lt;a href=&apos;#&apos;&gt;(Klik for at skifte)&lt;/a&gt;</translation>
->>>>>>> 2c73ca2:translations/monero-core_da.ts
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="600"/>

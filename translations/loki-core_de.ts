@@ -1448,6 +1448,13 @@
         <source>Layout Settings</source>
         <translation>Layout-Einstellungen</translation>
 	</message>
+    <message>
+        <location filename="../pages/Settings.qml" line="610"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
 
 The old wallet cache file will be renamed and can be restored later.
 </source>
