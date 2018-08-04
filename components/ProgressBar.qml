@@ -38,7 +38,7 @@ Rectangle {
     property string syncType // Wallet or Daemon
     property string syncText: qsTr("%1 blocks remaining: ").arg(syncType)
     visible: false
-    color: "transparent"
+    color: "#1a1a1a"
 
     function updateProgress(currentBlock,targetBlock, blocksToSync, statusTxt){
         if(targetBlock > 0) {

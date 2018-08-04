@@ -81,7 +81,6 @@ Rectangle {
         spacing: 20 * scaleRatio
         property int labelWidth: 120
         property int editWidth: 400
-        property int lineEditFontSize: 14 * scaleRatio
 
         MessageDialog {
             id: sharedRingDBDialog
@@ -157,9 +156,7 @@ Rectangle {
                 LineEdit {
                     id: loadBlackballFileLine
                     Layout.fillWidth: true
-                    fontSize: mainLayout.lineEditFontSize
                     placeholderText: qsTr("Path to file") + "..." + translationManager.emptyString
-                    labelFontSize: 14 * scaleRatio
                     labelText: qsTr("Filename With Outputs To Blackball") + translationManager.emptyString
                     copyButton: true
                     readOnly: false
@@ -198,8 +195,6 @@ Rectangle {
             RowLayout {
                 LineEdit {
                     id: blackballOutputLine
-                    fontSize: mainLayout.lineEditFontSize
-                    labelFontSize: 14 * scaleRatio
                     labelText: qsTr("Or Manually Blackball/Unblackball A Single Output") + translationManager.emptyString
                     placeholderText: qsTr("Paste Output Public Key") + "..." + translationManager.emptyString
                     readOnly: false
@@ -271,8 +266,6 @@ Rectangle {
         RowLayout {
             LineEdit {
                 id: keyImageLine
-                fontSize: mainLayout.lineEditFontSize
-                labelFontSize: 14 * scaleRatio
                 labelText: qsTr("Key Image") + translationManager.emptyString
                 placeholderText: qsTr("Paste Key Image") + "..." + translationManager.emptyString
                 readOnly: false
@@ -292,8 +285,6 @@ Rectangle {
                     LineEdit {
                         id: getRingLine
                         Layout.fillWidth: true
-                        fontSize: mainLayout.lineEditFontSize
-                        labelFontSize: 14 * scaleRatio
                         labelText: qsTr("Get Ring") + ":" + translationManager.emptyString
                         readOnly: true
                         copyButton: true
@@ -327,8 +318,6 @@ Rectangle {
                     LineEdit {
                         id: setRingLine
                         Layout.fillWidth: true
-                        fontSize: mainLayout.lineEditFontSize
-                        labelFontSize: 14 * scaleRatio
                         labelText: qsTr("Set Ring") + ":" + translationManager.emptyString
                         readOnly: false
                         copyButton: true
@@ -402,7 +391,6 @@ Rectangle {
             LineEdit {
                 id: segregationHeightLine
                 readOnly: false
-                labelFontSize: 14 * scaleRatio
                 labelText: qsTr("Segregation Height") + translationManager.emptyString
                 Layout.fillWidth: true
                 validator: IntValidator { bottom: 0 }

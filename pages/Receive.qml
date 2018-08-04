@@ -197,10 +197,10 @@ Rectangle {
             LabelSubheader {
                 Layout.fillWidth: true
                 textFormat: Text.RichText
-                text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
                       qsTr("Addresses") +
-                      "<font size='2'> </font><a href='#'>" +
-                      qsTr("Help") + "</a>" +
+                      "<font size='2'> </font><a href='#'> (" +
+                      qsTr("Help") + ") </a>" +
                       translationManager.emptyString
                 onLinkActivated: {
                     receivePageDialog.title  = qsTr("Tracking payments") + translationManager.emptyString;
@@ -426,10 +426,10 @@ Rectangle {
                 LabelSubheader {
                     Layout.fillWidth: true
                     textFormat: Text.RichText
-                    text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                    text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
                           qsTr("QR Code") +
-                          "<font size='2'> </font><a href='#'>" +
-                          qsTr("Help") + "</a>" +
+                          "<font size='2'> </font><a href='#'> (" +
+                          qsTr("Help") + ") </a>" +
                           translationManager.emptyString
                     onLinkActivated: {
                         receivePageDialog.title  = qsTr("QR Code") + translationManager.emptyString;
@@ -512,10 +512,10 @@ Rectangle {
                 LabelSubheader {
                     Layout.fillWidth: true
                     textFormat: Text.RichText
-                    text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                    text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
                           qsTr("Tracking") +
-                          "<font size='2'> </font><a href='#'>" +
-                          qsTr("Help") + "</a>" +
+                          "<font size='2'> </font><a href='#'> (" +
+                          qsTr("Help") + ") </a>" +
                           translationManager.emptyString
                     onLinkActivated: {
                         receivePageDialog.title  = qsTr("Tracking payments") + translationManager.emptyString;
