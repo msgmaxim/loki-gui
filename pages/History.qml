@@ -212,11 +212,7 @@ Rectangle {
                         id: toDatePicker
                         Layout.fillWidth: true
                         width: 100 * scaleRatio
-<<<<<<< HEAD
-                        inputLabel.text: "Date To"
-=======
                         inputLabel.text: qsTr("Date to") + translationManager.emptyString
->>>>>>> 53c3151a23
 
                         onCurrentDateChanged: {
                             onFilterChanged()
