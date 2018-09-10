@@ -57,7 +57,7 @@ Rectangle {
             property int fontSize: 13 * scaleRatio
             property bool fontBold: true
             property var fontFamily: LokiComponents.Style.fontRegular.name
-            property string borderColor: "#808080"
+            property string borderColor: LokiComponents.Style.buttonBackgroundColor
             property int textMargin: {
                 // left-right margins for a given cell
                 if(isMobile){
