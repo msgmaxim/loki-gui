@@ -99,13 +99,11 @@
         <source>Close</source>
         <translation>Sulje</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/DaemonConsole.qml" line="130"/>
         <source>Command + Enter (e.g Help)</source>
         <translation>Käsky + enter (esim. help)</translation>
-	</message>
-
-
+</message>
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">Käsky + enter (esim. help)</translation>
@@ -123,13 +121,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
         <translation>Käytä omavalintaisia asetuksia</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Käynnistä taustaohjelma (%1)</translation>
@@ -207,13 +203,11 @@
         <source>No History...</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
         <translation>Päiväys</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Suodata tapahtumahistoriaa</translation>
@@ -503,13 +497,11 @@
         <source>Send</source>
         <translation>Lähetä</translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
         <translation>Osoitekirja</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -594,13 +586,11 @@
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="506"/>
         <source>Sign/Verify</source>
         <translation>Allekirjoita/varmenna</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -696,8 +686,8 @@
         <translation type="vanished">(saatavilla vain paikallisille taustaohjelmille)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Louhinta tietokoneellasi auttaa vahvistamaan Moneroverkkoa. Mitä enemmän ihmiset louhivat, sitä vaikeampaa on hyökätä verkkoon ja jokainen pieni osa auttaa.&lt;br&gt; &lt;br&gt;Louhinta myös antaa sinulle pienen mahdollisuuden ansaita vähän Moneroa. Tietokoneesi luo haketta etsien lohkon ratkaisuja. Jos löydät lohkon, saat siihen liittyvän palkinnon. Onnea!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Louhinta tietokoneellasi auttaa vahvistamaan Lokiverkkoa. Mitä enemmän ihmiset louhivat, sitä vaikeampaa on hyökätä verkkoon ja jokainen pieni osa auttaa.&lt;br&gt; &lt;br&gt;Louhinta myös antaa sinulle pienen mahdollisuuden ansaita vähän Lokia. Tietokoneesi luo haketta etsien lohkon ratkaisuja. Jos löydät lohkon, saat siihen liittyvän palkinnon. Onnea!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -722,44 +712,36 @@
         <source>Start mining</source>
         <translation type="vanished">Aloita louhinta</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
         <translation>Soololouhinta</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
         <translation>(saatavilla vain paikallisille taustaohjelmille)</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
         <translation>Louhinta taustalla (kokeellinen)</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
         <translation>Aloita louhinta</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -841,13 +823,11 @@
         <source>Invalid connection status</source>
         <translation>Virheellinen yhteys</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
         <translation>Verkon tila</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Verkon tila</translation>
@@ -1309,20 +1289,16 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Cancel</source>
         <translation type="unfinished">Peruuta</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
         <translation>Hallitse lompakkoa</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
         <translation>Sulje lompakko</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
@@ -1348,14 +1324,12 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Remote Node</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="242"/>
         <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
         <translation>Osoite</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
         <location filename="../pages/Settings.qml" line="275"/>
@@ -1557,6 +1531,162 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="406"/>
         <source>Segregation Height</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SharedRingDB</name>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <source>Shared RingDB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="97"/>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="110"/>
+        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <source>Blackballed outputs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="110"/>
+        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="113"/>
+        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <source>Please choose a file to load blackballed outputs from</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <source>Path to file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <source>Filename with outputs to blackball</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <source>Browse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <source>Load</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <source>Or manually blackball/unblackball a single output:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="206"/>
+        <source>Paste output public key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <source>Blackball</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <source>Unblackball</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <source>Rings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="245"/>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="267"/>
+        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <source>Key image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <source>Paste key image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <source>Get ring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <source>Get Ring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <source>No ring found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <source>Set ring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <source>Set Ring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <source>I intend to spend on key-reusing fork(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <source>I might want to spend on key-reusing fork(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <source>Relative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <source>Segregation height:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1795,30 +1925,26 @@ The old wallet cache file will be renamed and can be restored later.
 </context>
 <context>
     <name>TableHeader</name>
-	<message>
+<message>
         <location filename="../components/TableHeader.qml" line="79"/>
         <source>Payment ID</source>
         <translation>Maksutunniste</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Päivämäärä</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="81"/>
         <source>Block height</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../components/TableHeader.qml" line="82"/>
         <source>Amount</source>
         <translation>Määrä</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>TickDelegate</name>
@@ -1834,12 +1960,15 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>Transfer</name>
+    <name>TransactionHistoryModel</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
         <source>OpenAlias error</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="176"/>
         <source>Amount</source>
@@ -1946,13 +2075,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt; (Start Daemon)&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
         <translation>Rahansiirron prioriteetti</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="244"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt; Address &lt;a href=&apos;#&apos;&gt;(Address Book)&lt;/a&gt;</source>
@@ -1993,15 +2120,13 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Can&apos;t load unsigned transaction: </source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Transfer.qml" line="495"/>
         <source>
 Number of transactions: </source>
         <translation>
 Rahansiirtojen lukumäärä:</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="497"/>
         <source>
@@ -2157,13 +2282,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
         <translation>Luo</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
@@ -2200,7 +2323,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
         <translation type="vanished">Melkein valmista - määritellään vielä mieltymyksiä </translation>
     </message>
     <message>
@@ -2234,8 +2357,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Levynsäilytystilaa käytettäessä lompakko käyttää vähemmän tilaa levyllä, mutta saman verran kaistanleveyttä kuin normaalissa tilassa. On suositeltavaa säilyttää koko lohkoketjua Moneron verkon turvaallisudeksi. Jos olet laitteella, jolla ei olisi tarpeeksi tilaa koko lohkoketjulle, tämä vaihtoehto on sopiva. </translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Levynsäilytystilaa käytettäessä lompakko käyttää vähemmän tilaa levyllä, mutta saman verran kaistanleveyttä kuin normaalissa tilassa. On suositeltavaa säilyttää koko lohkoketjua Lokin verkon turvaallisudeksi. Jos olet laitteella, jolla ei olisi tarpeeksi tilaa koko lohkoketjulle, tämä vaihtoehto on sopiva. </translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2243,8 +2366,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Sallitaanko louhiminen taustalla?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Louhiminen turvaa Moneron verkon ja maksaa pienen palkkion tehdystä työstä. Tällä vaihtoehdolla annat Monero-lompakon suorittaa louhintaa tietokoneen ollessa käyttämättä ja kytkettynä virtalähteeseen. Louhinta lopetetaan automaattisesti jatkaessasi muita toimintoja.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Louhiminen turvaa Lokin verkon ja maksaa pienen palkkion tehdystä työstä. Tällä vaihtoehdolla annat Loki-lompakon suorittaa louhintaa tietokoneen ollessa käyttämättä ja kytkettynä virtalähteeseen. Louhinta lopetetaan automaattisesti jatkaessasi muita toimintoja.</translation>
     </message>
 </context>
 <context>
@@ -2299,8 +2422,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Moneron kehitys on tuettu täysin lahjoituksilla</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Lokin kehitys on tuettu täysin lahjoituksilla</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2328,8 +2451,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Jokaisesta rahansiirrosta peritään pieni maksu, siirtopalkkio, sen lähettämiseksi. Tällä vaihtoehdolla voit lisätä vaihtoehtoisen lahjoituksen maksuun Moneron kehityksen edistämiseksi. Jos esimerkiksi valitset 50%, lisätään 0.005 XMR:n siirtopalkkioon 0.0025 XMR joka lahjoitetaan Moneron kehittäjille. </translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Jokaisesta rahansiirrosta peritään pieni maksu, siirtopalkkio, sen lähettämiseksi. Tällä vaihtoehdolla voit lisätä vaihtoehtoisen lahjoituksen maksuun Lokin kehityksen edistämiseksi. Jos esimerkiksi valitset 50%, lisätään 0.005 XMR:n siirtopalkkioon 0.0025 XMR joka lahjoitetaan Lokin kehittäjille. </translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2337,8 +2460,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Sallitaanko louhiminen taustalla?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Louhiminen turvaa Moneron verkon ja maksaa pienen palkkion tehdystä työstä. Tällä vaihtoehdolla annat Monero-lompakon suorittaa louhintaa tietokoneen ollessa käyttämättä ja kytkettynä virtalähteeseen. Louhinta lopetetaan automaattisesti jatkaessasi muita toimintoja.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Louhiminen turvaa Lokin verkon ja maksaa pienen palkkion tehdystä työstä. Tällä vaihtoehdolla annat Loki-lompakon suorittaa louhintaa tietokoneen ollessa käyttämättä ja kytkettynä virtalähteeseen. Louhinta lopetetaan automaattisesti jatkaessasi muita toimintoja.</translation>
     </message>
 </context>
 <context>
@@ -2429,8 +2552,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Lompakko kyseisellä nimellä on jo olemassa. Ole hyvä ja vaihda lompakon nimi</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">KÄYTÄ MONEROA</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">KÄYTÄ LOKIA</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2538,11 +2661,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Tervetuloa käyttämään Moneroa!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Tervetuloa käyttämään Lokia!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Valitse jokin seuraavista vaihtoehdoista:</translation>
     </message>
@@ -2615,8 +2738,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="obsolete">Tervetuloa käyttämään Moneroa!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="obsolete">Tervetuloa käyttämään Lokia!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -2757,20 +2880,16 @@ Number Of Transactions: </source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
         <translation>Määrä on virheellinen: odotettiin numeroa %1 :n ja %2 :n välillä</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
         <translation>riittämättömät varat. Lukitsematon saldo: %1</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../main.qml" line="813"/>
         <source>Payment proof</source>
@@ -2814,13 +2933,11 @@ Spending Address Index: </source>
         <source>Daemon is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../main.qml" line="596"/>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
         <translation>Rahansiirtoa ei onnistuttu tekemään: Palveluprosessin versio on väärä:</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -2986,8 +3103,8 @@ Kuvaus:</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Tähän osoitteeseen on saapunut %1 Moneroa, mutta rahansiirtoa ei ole vielä lisätty lohkoon</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Tähän osoitteeseen on saapunut %1 Lokia, mutta rahansiirtoa ei ole vielä lisätty lohkoon</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3015,8 +3132,8 @@ Kuvaus:</translation>
         <translation>Sovelluksen asetusvelho</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>

@@ -86,12 +86,12 @@ Item {
 
             // possibly do some hover effects here
             onEntered: {
-                if(button.enabled) parent.color = Style.buttonBackgroundColorHover;
-                else parent.color = Style.buttonBackgroundColorDisabledHover;
+                if(button.enabled) parent.color = LokiComponents.Style.buttonBackgroundColorHover;
+                else parent.color = LokiComponents.Style.buttonBackgroundColorDisabledHover;
             }
             onExited: {
-                if(button.enabled) parent.color = Style.buttonBackgroundColor;
-                else parent.color = Style.buttonBackgroundColorDisabled;
+                if(button.enabled) parent.color = LokiComponents.Style.buttonBackgroundColor;
+                else parent.color = LokiComponents.Style.buttonBackgroundColorDisabled;
             }
         }
     }

@@ -35,7 +35,7 @@ import "../components" as LokiComponents
 
 Rectangle {
     id: item
-    color: "black"
+    color: "#1a1a1a"
     property var connected: Wallet.ConnectionStatus_Disconnected
 
     function getConnectionStatusString(status) {

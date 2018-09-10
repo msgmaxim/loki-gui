@@ -112,8 +112,6 @@
         <source>Command + Enter (e.g Help)</source>
         <translation>Comandament + Enter (p.e. help)</translation>
     </message>
-
-
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">Comandament + Enter (p.e. help)</translation>
@@ -136,8 +134,6 @@
         <source>Use Custom Settings</source>
         <translation>Utilitzar opcions personalitzades</translation>
     </message>
-
-
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Iniciar daemon (%1)</translation>
@@ -224,8 +220,6 @@
         <source>Date</source>
         <translation>Data</translation>
     </message>
-
-
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Filtrar historial de transaccions</translation>
@@ -535,8 +529,6 @@
         <source>Address Book</source>
         <translation>Llibreta d&apos;adreces</translation>
     </message>
-
-
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -626,8 +618,6 @@
         <source>Sign/Verify</source>
         <translation>Signar/Verificar</translation>
     </message>
-
-
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -723,8 +713,8 @@
         <translation type="vanished">(només disponible per a daemons locals)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">El minat amb el seu ordenador ajuda a enfortir la xarxa Monero. Com més gent minant, més difícil és atacar la xarxa, y cada petit esforç ajuda.&lt;br&gt; &lt;br&gt;Minar també dóna la petita oportunitat de guanyar algún Monero. La seva màquina crearà hashes buscant solucions a blocs. Si troba un bloc, obtendrà la recompensa associada. Bona sort!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">El minat amb el seu ordenador ajuda a enfortir la xarxa Loki. Com més gent minant, més difícil és atacar la xarxa, y cada petit esforç ajuda.&lt;br&gt; &lt;br&gt;Minar també dóna la petita oportunitat de guanyar algún Loki. La seva màquina crearà hashes buscant solucions a blocs. Si troba un bloc, obtendrà la recompensa associada. Bona sort!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -762,43 +752,31 @@
         <source>Solo Mining</source>
         <translation>Minat individual</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
         <translation>(només disponible per a daemons locals)</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation>Fils de CPU</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
         <translation>Minat en segon pla (experimental)</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
         <translation>Administrar miner</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
         <translation>Començar minat</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -819,25 +797,15 @@
         <source>Stop Mining</source>
         <translation>Parar minat</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
         <translation>Estat: no està minant</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
         <translation>No està minant</translation>
-    </message>
-
-
-    <message>
-        <source>Stop mining</source>
-        <translation type="vanished">Parar minat</translation>
     </message>
     <message>
         <source>Status: not mining</source>
@@ -903,8 +871,6 @@
         <source>Network Status</source>
         <translation>Estat de la xarxa</translation>
     </message>
-
-
     <message>
         <source>Network status</source>
         <translation type="vanished">Estat de la xarxa</translation>
@@ -1022,8 +988,6 @@
         <source>WARNING: No connection to daemon</source>
         <translation>ADVERTENCIA: Sense connexió al daemon</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1148,8 +1112,6 @@
         <source>Amount</source>
         <translation>Quantitat</translation>
     </message>
-
-
 </context>
 <context>
     <name>RemoteNodeEdit</name>
@@ -1252,7 +1214,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(e.g. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(e.g. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1294,8 +1256,8 @@
         <translation type="obsolete">Versió de GUI: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="obsolete">Versió de Monero encastat: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="obsolete">Versió de Loki encastat: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="573"/>
@@ -1373,8 +1335,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Manage Wallet</source>
         <translation>Administrar monedero</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
@@ -1385,15 +1345,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Create View Only Wallet</source>
         <translation>Crear un moneder de només lectura</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
         <translation>Reescanejar balanç del moneder</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1425,8 +1381,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Blockchain Location</source>
         <translation>Localització Cadena de blocs</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
@@ -1497,8 +1451,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Daemon Log</source>
         <translation>Log del daemon</translation>
     </message>
-
-
     <message>
         <source>Manage wallet</source>
         <translation type="vanished">Administrar monedero</translation>
@@ -1845,8 +1797,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Default (x1 fee)</source>
         <translation>Per defecte (comissió x4) {1 ?}</translation>
     </message>
-
-
     <message>
         <location filename="../components/StandardDropdown.qml" line="173"/>
         <source>Fast (x5 fee)</source>
@@ -1874,7 +1824,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>SubaddressTable</name>
+    <name>SubaddressModel</name>
     <message>
         <location filename="../components/SubaddressTable.qml" line="79"/>
         <source>Address copied to clipboard</source>
@@ -2057,8 +2007,6 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Transaction Priority</source>
         <translation>Prioritat de transacció</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
@@ -2084,22 +2032,16 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Create TX File</source>
         <translation>Crear fitxer tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
         <translation>Signar fitxer tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
         <translation>Enviar fitxer tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
@@ -2292,8 +2234,6 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Paste TX ID</source>
         <translation>Enganxar ID tx</translation>
     </message>
-
-
     <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="173"/>
@@ -2357,12 +2297,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="obsolete">Ja quasi està- anem a configurar alguns aspectes de Monero</translation>
-    </message>
-    <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">¿Inicialitzar la cadena de blocs de Monero?</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="obsolete">Ja quasi està- anem a configurar alguns aspectes de Loki</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2372,7 +2308,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
         <source>Kickstart the Loki blockchain?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Inicialitzar la cadena de blocs de Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="114"/>
@@ -2392,20 +2328,16 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="170"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minar assegura que la xarxa Loki i ademés paga una petita recompensa pel treball fet. Aquesta opció permet que Loki mini mentre el seu ordenador està ociós. El minat es detendrà quan continúi treballant amb ella.</translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">El mode de conservació de disc utilitza substancialment menys espai en disc, però el mateix ample de banda que una instància normal de Monero. Malgrat això, guardar la cadena completa és beneficiós per a la seguretat de la xarxa Monero. Si vostè fa servir un dispositiu amb espai de disc limitat, aquesta opció li convé.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">El mode de conservació de disc utilitza substancialment menys espai en disc, però el mateix ample de banda que una instància normal de Loki. Malgrat això, guardar la cadena completa és beneficiós per a la seguretat de la xarxa Loki. Si vostè fa servir un dispositiu amb espai de disc limitat, aquesta opció li convé.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
         <source>Allow background mining?</source>
         <translation>¿Permetre minat en segon pla?</translation>
-    </message>
-    <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minar assegura que la xarxa Monero i ademés paga una petita recompensa pel treball fet. Aquesta opció permet que Monero mini mentre el seu ordenador està ociós. El minat es detendrà quan continúi treballant amb ella.</translation>
     </message>
 </context>
 <context>
@@ -2427,8 +2359,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>Crear un nou moneder</translation>
     </message>
-
-
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2470,15 +2400,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">El desenvolupament de Monero és possible només gràcies a donacions</translation>
-    </message>
-    <message>
-        <location filename="../wizard/WizardDonation.qml" line="94"/>
-        <source>Loki development is solely supported by donations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardDonation.qml" line="114"/>
         <source>Enable auto-donations of?</source>
         <translation>¿Activar auto-donacions de?</translation>
@@ -2499,8 +2420,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Per cada transacció es carrega una petita comissió. Aquesta opció permet afegir una cantita adicional, com a porcentatge d&apos;aquesta comissió, per a donar suport a Monero. Per exemple, una autodonació del 50%  d&apos;una comissió de 0.005 XMR afegeix0.0025 XMR per donar suport al desenvolupament de Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Per cada transacció es carrega una petita comissió. Aquesta opció permet afegir una cantita adicional, com a porcentatge d&apos;aquesta comissió, per a donar suport a Loki. Per exemple, una autodonació del 50%  d&apos;una comissió de 0.005 XMR afegeix0.0025 XMR per donar suport al desenvolupament de Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2508,8 +2429,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>¿Permetre minat en segon pla?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Minar assegura la xarxa Monero i ademés paga una petita recompensa per la feina feta. Aquesta opció permet que Monero mini quan el seu ordenador està ociós. El minat s&apos;aturarà quan continui treballant amb ell.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Minar assegura la xarxa Loki i ademés paga una petita recompensa per la feina feta. Aquesta opció permet que Loki mini quan el seu ordenador està ociós. El minat s&apos;aturarà quan continui treballant amb ell.</translation>
     </message>
 </context>
 <context>
@@ -2566,8 +2487,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>You’re All Set Up!</source>
         <translation>Ja està llest!</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2610,17 +2529,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Caràcters no ASCII no estàn permesos en la ruta del moneder o el nom del compte</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">UTILITZI MONERO</translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
         <source>USE LOKI</source>
-        <translation type="unfinished"></translation>
+        <translation>UTILITZI LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="378"/>
-        <source>Create wallet</source>
+        <source>Create Wallet</source>
         <translation>Crear moneder</translation>
     </message>
     <message>
@@ -2665,22 +2580,16 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Wallet Name</source>
         <translation>Nom del moneder</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
         <translation>Restaurar des de llavor</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
         <translation>Restaurar des de clau</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2742,11 +2651,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Benvinguts a Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Benvinguts a Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Per favor sel·leccioni les següents opcions:</translation>
     </message>
@@ -2764,8 +2673,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>Crear un nou moneder</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2804,8 +2711,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Give Your Wallet A Password</source>
         <translation>Ingressi una contrasenya per al moneder</translation>
     </message>
-
-
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2837,14 +2742,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore Wallet</source>
         <translation>Restaurar moneder</translation>
     </message>
-
-
 </context>
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Benvingu@ a Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Benvingu@ a Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -2991,8 +2894,6 @@ Description: </source>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
         <translation>No s&apos;ha pogut crear la transacció: Versió de daemon incorrecta:</translation>
     </message>
-
-
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -3043,15 +2944,11 @@ Spending Address Index: </source>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
         <translation>Quantitat errònea: s&apos;espera un número de %1 a %2</translation>
     </message>
-
-
     <message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
         <translation>Fondos insuficients. Balanç desbloquejat %1</translation>
     </message>
-
-
     <message>
         <location filename="../main.qml" line="783"/>
         <source>Loki sent successfully: %1 transaction(s) </source>
@@ -3081,8 +2978,8 @@ Spending Address Index: </source>
         <translation type="unfinished">Signatura incorrecta</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Aquesta adreça ha rebut %1 monero, amb %2 confirmacion(s).</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Aquesta adreça ha rebut %1 loki, amb %2 confirmacion(s).</translation>
     </message>
     <message>
         <source>
@@ -3152,8 +3049,8 @@ Descripció:</translation>
         <translation>Transacció guardada al fitxer: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Aquesta adreça ha rebut %1 monero, però la transacció no ha sigut minada</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Aquesta adreça ha rebut %1 loki, però la transacció no ha sigut minada</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3232,8 +3129,8 @@ Descripció:</translation>
         <translation>Assistent de configuració</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>
@@ -3261,8 +3158,13 @@ Descripció:</translation>
         <translation>Parar daemon</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Nova versió de monero-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Nova versió de loki-wallet-gui disponible: %1&lt;br&gt;%2</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1817"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Log del daemon</translation>
     </message>
 </context>
 </TS>

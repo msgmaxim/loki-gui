@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.0" language="ua_UA">
 <context>
     <name>AddressBook</name>
     <message>
         <location filename="../pages/AddressBook.qml" line="65"/>
         <source>Address</source>
-        <translation>Адреса</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="52"/>
@@ -20,7 +20,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="74"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
-        <translation>ID платежу &lt;font size=&apos;2&apos;&gt;(Опціонально)&lt;/font&gt;</translation>
+        <translation>ID платежу &lt;font size=&apos;2&apos;&gt;(Опційно)&lt;/font&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Payment ID&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;A unique user name used in&lt;br/&gt;the address book. It is not a&lt;br/&gt;transfer of information sent&lt;br/&gt;during the transfer</source>
@@ -34,17 +34,17 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="75"/>
         <source>Paste 64 hexadecimal characters</source>
-        <translation>Вставте 64 шістнадцяткових символів</translation>
+        <translation>Вставте 64 шістнадцяткових символи</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="83"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
-        <translation>Опис &lt;font size=&apos;2&apos;&gt;(Опціонально)&lt;/font&gt;</translation>
+        <translation>Опис &lt;font size=&apos;2&apos;&gt;(Опційно)&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="84"/>
         <source>Give this entry a name or description</source>
-        <translation>Введіть ім&apos;я чи опис</translation>
+        <translation>Введіть ім&apos;я або опис</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="92"/>
@@ -59,7 +59,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="100"/>
         <source>Invalid address</source>
-        <translation>Невірна адреса</translation>
+        <translation>Невірний адрес</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="104"/>
@@ -82,7 +82,7 @@
     <message>
         <location filename="../components/AddressBookTable.qml" line="151"/>
         <source>Address copied to clipboard</source>
-        <translation>Адреса скопійована в буфер обміну</translation>
+        <translation>Адрес скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -103,13 +103,11 @@
         <source>Close</source>
         <translation>Закрити</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/DaemonConsole.qml" line="130"/>
         <source>Command + Enter (e.g Help)</source>
         <translation>Ввести команду і натиснути ENTER (наприклад help)</translation>
-	</message>
-
-
+</message>
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">Ввести команду і натиснути ENTER (наприклад help)</translation>
@@ -122,20 +120,16 @@
         <source>Starting local node in %1 seconds</source>
         <translation>Запуск локальної ноди через %1 секунд</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
         <translation>Запустити демона</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
         <translation>Використати свої налаштування</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Запуск демона (%1)</translation>
@@ -155,12 +149,12 @@
     <message>
         <location filename="../pages/Dashboard.qml" line="89"/>
         <source>SEND</source>
-        <translation>ВІДПРАВИТИ</translation>
+        <translation>НАДІСЛАТИ</translation>
     </message>
     <message>
         <location filename="../pages/Dashboard.qml" line="102"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                        looking for security level and address book? go to &lt;a href=&apos;#&apos;&gt;Transfer&lt;/a&gt; tab</source>
-        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                        Шукаєте налаштування рівня конфіденціальності і адресну книгу? Клікніть на вкладку &lt;a href=&apos;#&apos;&gt;Відправити&lt;/a&gt;</translation>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;                        Шукаєте налаштування конфіденційності і адресну книгу? Натисніть на вкладку &lt;a href=&apos;#&apos;&gt;Надіслати&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -183,7 +177,7 @@
     <message>
         <location filename="../components/DashboardTable.qml" line="191"/>
         <source>Amount</source>
-        <translation>Кількість</translation>
+        <translation>Сума</translation>
     </message>
 </context>
 <context>
@@ -212,13 +206,11 @@
         <source>Block Height</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
         <translation>Дата</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/History.qml" line="278"/>
         <source>No History...</source>
@@ -283,29 +275,27 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Destinations:</source>
-        <translation>Одержувачі:</translation>
+        <translation>Отримувачі:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="56"/>
         <source>Rings:</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір кільця:</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
         <translation>Адреса скопійована в буфер обміну</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../components/HistoryTable.qml" line="344"/>
         <source>Blockheight</source>
-        <translation type="unfinished"></translation>
+        <translation>Висота блока</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="369"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Опис</translation>
     </message>
     <message>
         <source>Details</source>
@@ -323,17 +313,17 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="352"/>
         <source>UNCONFIRMED</source>
-        <translation>НЕПІДТВЕРДЖЕНО</translation>
+        <translation>НЕПІДТВЕРДЖЕНА</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="354"/>
         <source>FAILED</source>
-        <translation>НЕВІДПРАВЛЕНО</translation>
+        <translation>НЕВІДПРАВЛЕНА</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="355"/>
         <source>PENDING</source>
-        <translation>ОЧІКУЄТЬСЯ</translation>
+        <translation>ОЧІКУЄ ПІДТВЕРДЖЕННЯ</translation>
     </message>
     <message>
         <source>Date</source>
@@ -354,7 +344,7 @@
     <message>
         <location filename="../components/HistoryTableInnerColumn.qml" line="88"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -382,12 +372,12 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="54"/>
         <source>Destinations:</source>
-        <translation>Одержувачі:</translation>
+        <translation>Отримувачі:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="55"/>
         <source>Rings:</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір кільця:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="81"/>
@@ -402,17 +392,17 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="183"/>
         <source>UNCONFIRMED</source>
-        <translation>НЕПІДТВЕРДЖЕНО</translation>
+        <translation>НЕПІДТВЕРДЖЕНА</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="185"/>
         <source>FAILED</source>
-        <translation>НЕВІДПРАВЛЕНО</translation>
+        <translation>НЕВІДПРАВЛЕНА</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="186"/>
         <source>PENDING</source>
-        <translation>ОЧІКУЄТЬСЯ</translation>
+        <translation>ОЧІКУЄ ПІДТВЕРДЖЕННЯ</translation>
     </message>
 </context>
 <context>
@@ -420,12 +410,12 @@
     <message>
         <location filename="../components/InputDialog.qml" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished">Скасувати</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../components/InputDialog.qml" line="147"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>ОК</translation>
     </message>
 </context>
 <context>
@@ -443,13 +433,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Seed-фраза скопійована в буфер обміну</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
         <translation>Мнемонічна seed-фраза</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -458,43 +446,33 @@
     <message>
         <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
-        <translation>Ключі скопійовані в буфер обміну</translation>
+        <translation>Ключі скопійовано в буфер обміну</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
         <translation>Експорт гаманця</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
         <translation>Приватний ключ для перегляду</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
         <translation>Публічний ключ для перегляду</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
         <translation>Приватний ключ для витрати</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
         <translation>Публічний ключ для витрати</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Експорт гаманця</translation>
@@ -530,7 +508,7 @@
     <message>
         <location filename="../pages/Keys.qml" line="263"/>
         <source>(View Only Wallet -  No mnemonic seed available)</source>
-        <translation>(Гаманець тільки для перегляду - Мнемонічна seed-фраза не доступна)</translation>
+        <translation>(Гаманець тільки для перегляду - Мнемонічна seed-фраза недоступна)</translation>
     </message>
 </context>
 <context>
@@ -553,15 +531,13 @@
     <message>
         <location filename="../LeftPanel.qml" line="314"/>
         <source>Send</source>
-        <translation>Відправити</translation>
+        <translation>Надіслати</translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
         <translation>Адресна книга</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -630,30 +606,26 @@
         <source>M</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/Check</source>
         <translation>Підтвердити/перевірити</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальна база RingDB</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="482"/>
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="506"/>
         <source>Sign/Verify</source>
         <translation>Підписати/перевірити</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -667,12 +639,12 @@
     <message>
         <location filename="../LeftPanel.qml" line="602"/>
         <source>Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="611"/>
         <source>Daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>Демон</translation>
     </message>
     <message>
         <source>Sign/verify</source>
@@ -717,12 +689,12 @@
     <message>
         <location filename="../components/LineEditMulti.qml" line="85"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Копіювати</translation>
     </message>
     <message>
         <location filename="../components/LineEditMulti.qml" line="92"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -749,8 +721,8 @@
         <translation type="vanished">(можливо тільки при використанні локальних демонів)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Майнінг на вашому комп&apos;ютері допомагає захистити мережу Monero. Чим більше людей майнить, тим складніше атаковати мережу, і кожен майнер вносить свій вклад в цей процес. &lt;br&gt; &lt;br&gt;Майнінг також дає вам невеликий шанс добути декілька монет Monero. Ваш комп&apos;ютер буде шукати хеші для рішення блоків. Якщо ви знайдете блок, то отримаєте винагороду. Удачі!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Майнінг на вашому комп&apos;ютері допомагає захистити мережу Loki. Чим більше людей майнить, тим складніше атаковати мережу, і кожен майнер вносить свій вклад в цей процес. &lt;br&gt; &lt;br&gt;Майнінг також дає вам невеликий шанс добути декілька монет Loki. Ваш комп&apos;ютер буде шукати хеші для рішення блоків. Якщо ви знайдете блок, то отримаєте винагороду. Удачі!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -759,7 +731,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
         <source>(optional)</source>
-        <translation>(опціонально)</translation>
+        <translation>(опційно)</translation>
     </message>
     <message>
         <source>Background mining (experimental)</source>
@@ -778,53 +750,41 @@
         <source>Start mining</source>
         <translation type="vanished">Запустити майнінг</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
         <translation>Соло-майнінг</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
         <translation>(можливо тільки при використанні локальних демонів)</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation>Кількість потоків CPU</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
         <translation>Фоновий майнінг (експерементально)</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
         <translation>Керування майнером</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
         <translation>Запустити майнінг</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -833,34 +793,28 @@
     <message>
         <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation>Неможливо запустити майнінг&lt;br&gt;</translation>
+        <translation>Неможливо запустити майнінг.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>Майнінг доступний тільки на локальних демонах. Запустіть локальний демон, щоб майнити</translation>
+        <translation>Майнінг доступний тільки на локальному демоні. Запустіть локальний демон, щоб розпочати майнінг.&lt;br&gt;</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
         <translation>Зупинити майнінг</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
         <translation>Статус: майнінг вимкнено</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
         <translation>Майнінг вимкнено</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Зупинити майнінг</translation>
@@ -901,7 +855,7 @@
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="47"/>
         <source>Connected</source>
-        <translation>Підключено до мережі</translation>
+        <translation>Підключено</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -916,37 +870,35 @@
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="50"/>
         <source>Wrong version</source>
-        <translation>Невірна версія</translation>
+        <translation>Неправильна версія</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="52"/>
         <source>Disconnected</source>
-        <translation>Відключено від мережі</translation>
+        <translation>Відключено</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="53"/>
         <source>Invalid connection status</source>
-        <translation>Неприпустимий статус підключення</translation>
+        <translation>Недійсний статус з&apos;єднання.</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
         <translation>Стан мережі</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="103"/>
         <source>Please enter new password</source>
-        <translation>Будь ласка введіть новий пароль</translation>
+        <translation>Будь ласка, введіть новий пароль</translation>
     </message>
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="161"/>
         <source>Please confirm new password</source>
-        <translation>Будь ласка підтвердіть новий пароль</translation>
+        <translation>Будь ласка, підтвердіть новий пароль</translation>
     </message>
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="233"/>
@@ -964,7 +916,7 @@
     <message>
         <location filename="../components/PasswordDialog.qml" line="84"/>
         <source>Please enter wallet password</source>
-        <translation>Будь ласка введіть пароль гаманця</translation>
+        <translation>Будь ласка, введіть пароль гаманця</translation>
     </message>
     <message>
         <source>Please enter wallet password for:&lt;br&gt;</source>
@@ -973,7 +925,7 @@
     <message>
         <location filename="../components/PasswordDialog.qml" line="84"/>
         <source>Please enter wallet password for: </source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, введіть пароль гаманця для: </translation>
     </message>
     <message>
         <location filename="../components/PasswordDialog.qml" line="148"/>
@@ -1021,12 +973,12 @@
     <message>
         <location filename="../components/ProgressBar.qml" line="39"/>
         <source>%1 blocks remaining: </source>
-        <translation type="unfinished"></translation>
+        <translation>%1 блоків залишилось: </translation>
     </message>
     <message>
         <location filename="../components/ProgressBar.qml" line="71"/>
         <source>Synchronizing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Синхронізовано %1</translation>
     </message>
 </context>
 <context>
@@ -1047,13 +999,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">УВАГА: немає підключення до демону</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
         <translation>УВАГА: немає підключення до демону</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1072,12 +1022,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="125"/>
         <source>No transaction found yet...</source>
-        <translation>Транзакції поки що відсутні...</translation>
+        <translation>Транзакції відсутні...</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="129"/>
         <source>Transaction found</source>
-        <translation>Транзакція знайдена</translation>
+        <translation>Транзакцію знайдено</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="129"/>
@@ -1124,20 +1074,16 @@
         <source>Set the label of the selected address:</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Receive.qml" line="307"/>
         <source>Help</source>
         <translation>допомога</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Receive.qml" line="312"/>
         <source>Tracking Payments</source>
         <translation>Відстеження платежів</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="313"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
@@ -1202,7 +1148,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="372"/>
         <source>Save As</source>
-        <translation>Зберегти Як</translation>
+        <translation>Зберегти як</translation>
     </message>
     <message>
         <source>Payment ID</source>
@@ -1215,12 +1161,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="277"/>
         <source>Amount</source>
-        <translation>Кількість</translation>
+        <translation>Сума</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="284"/>
         <source>Amount to receive</source>
-        <translation>Сума для отримання</translation>
+        <translation>Сума до отримання</translation>
     </message>
     <message>
         <source>Tracking payments</source>
@@ -1240,7 +1186,7 @@
     <message>
         <location filename="../components/RemoteNodeEdit.qml" line="68"/>
         <source>Remote Node Hostname / IP</source>
-        <translation> Ім&apos;я хоста / IP віддаленої ноди</translation>
+        <translation>Ім&apos;я хоста / IP віддаленої Ноди</translation>
     </message>
     <message>
         <location filename="../components/RemoteNodeEdit.qml" line="84"/>
@@ -1289,7 +1235,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="381"/>
         <source>(optional)</source>
-        <translation>(опціонально)</translation>
+        <translation>(опційно)</translation>
     </message>
     <message>
         <source>Rescan wallet balance</source>
@@ -1339,7 +1285,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(Наприклад, *: WARNING, net.p2p:DEBUG)</translation>
+        <translation type="vanished">(Наприклад, *: WARNING, net.p2p:DEBUG)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
@@ -1363,7 +1309,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="315"/>
         <source>Manage Daemon</source>
-        <translation>Керування Демоном</translation>
+        <translation>Управління демоном</translation>
     </message>
     <message>
         <source>Show advanced</source>
@@ -1400,8 +1346,8 @@
         <translation type="vanished">Версія GUI:</translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Вбудована версія Monero:</translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Вбудована версія Loki:</translation>
     </message>
     <message>
         <source>Wallet creation height: </source>
@@ -1432,7 +1378,7 @@ The old wallet cache file will be renamed and can be restored later.
 </source>
         <translation>Ви дійсно хочете пересканувати кеш гаманця?
 Наступна інформація буде видалена
-- Адреси одержувачів
+- Адреси отримувачів
 - Ключі транзакцій (tx keys)
 - Описи транзакцій
 Старий кеш буде переіменовано з можливістю відновлення в майбутньому.
@@ -1455,41 +1401,31 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Daemon log</source>
         <translation type="vanished">Логи демона</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
         <translation>Керування гаманцем</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
         <translation>Закрити гаманець</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
         <translation>Створити гаманець тільки для перегляду</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
         <translation>Пересканувати баланс гаманця</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="165"/>
         <source>Change Password</source>
         <translation>Змінити пароль</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="190"/>
         <source>Daemon Mode</source>
@@ -1500,137 +1436,107 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Bootstrap Node</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="242"/>
         <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
         <translation>Адреса</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
         <location filename="../pages/Settings.qml" line="275"/>
         <source>Port</source>
         <translation type="unfinished">Порт</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
         <translation>Показати статус</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="368"/>
         <source>Blockchain Location</source>
         <translation>Шлях для зберігання блокчейну</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="407"/>
         <source>Show Advanced</source>
         <translation>Показати додаткові налаштування</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="419"/>
         <source>Local Daemon Startup Flags</source>
         <translation>Прапорці запуску локального демона</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="421"/>
         <source>(Optional)</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="454"/>
         <source>Layout Settings</source>
         <translation>Настройки інтерфейсу</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="463"/>
         <source>Custom Decorations</source>
         <translation>Увімкнути ефекти</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="471"/>
         <source>Log Level</source>
         <translation>Рівень логування</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="549"/>
         <source>Debug Info</source>
         <translation>Налагоджувальна інформація</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="559"/>
         <source>GUI Version: </source>
         <translation>Версія GUI:</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
         <source>Embedded Loki Version: </source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="572"/>
         <source>Wallet Creation Height: </source>
         <translation>Висота блоку на момент створення гаманця: </translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="573"/>
         <source> &lt;a href=&apos;#&apos;&gt;(Click To Change)&lt;/a&gt;</source>
         <translation> &lt;a href=&apos;#&apos;&gt;(Клікніть для зміни)&lt;/a&gt;</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="639"/>
         <source>Wallet Log Path: </source>
         <translation>Шлях для збереження логів гаманця: </translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="649"/>
         <source>Daemon Log Path: </source>
         <translation>Шлях для збереження логів демона: </translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="658"/>
         <source>Daemon Log</source>
         <translation>Логи демона</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="667"/>
         <source>Please choose a folder</source>
-        <translation>Будь ласка виберіть папку</translation>
+        <translation>Будь ласка, виберіть папку</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="677"/>
@@ -1645,17 +1551,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Settings.qml" line="684"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Попередження: На пристрої доступно тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
+        <translation>Попередження: На пристрої є тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="686"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Примітка: На пристрої доступно тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
+        <translation>Примітка: На пристрої є тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="690"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
-        <translation>Примітка: Папка з іменем lmdb не знайдена і буде створена.</translation>
+        <translation>Примітка: Папку з назвою lmdb не знайдено тому її буде створено.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="618"/>
@@ -1673,7 +1579,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="94"/>
         <source>Shared RingDB</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальна база RingDB</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="98"/>
@@ -1690,7 +1596,7 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/SharedRingDB.qml" line="111"/>
         <location filename="../pages/SharedRingDB.qml" line="240"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Допомога</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="114"/>
@@ -1700,22 +1606,22 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="132"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
-        <translation type="unfinished"></translation>
+        <translation>Тут встановлюється, які з виходів відомі як витрачені, і отже, їх не можна використовувати в якості секретних, в кільцевих підписах.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="133"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вам потрібно лише завантажити файл, якщо ви хочете оновити список. При необхідності можливе ручне додавання/видалення елементів.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="145"/>
         <source>Please choose a file to load blackballed outputs from</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, виберіть файл для завантаження списку заблокованих виходів</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="161"/>
         <source>Path to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях до файлу</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="163"/>
@@ -1725,12 +1631,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="176"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Огляд</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажити</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="203"/>
@@ -1740,23 +1646,23 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="204"/>
         <source>Paste output public key</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставте вихід публічного ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="218"/>
         <source>Blackball</source>
-        <translation type="unfinished"></translation>
+        <translation>Заблокувати</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="227"/>
         <source>Unblackball</source>
-        <translation type="unfinished"></translation>
+        <translation>Розблокувати</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="240"/>
         <location filename="../pages/SharedRingDB.qml" line="242"/>
         <source>Rings</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір кільця</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="243"/>
@@ -1776,39 +1682,39 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
         <source>Paste key image</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Вставити образ ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="297"/>
         <location filename="../pages/SharedRingDB.qml" line="309"/>
         <source>Get Ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримати Кільце</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="315"/>
         <source>No ring found</source>
-        <translation type="unfinished"></translation>
+        <translation>Не знайдено кілець</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="332"/>
         <location filename="../pages/SharedRingDB.qml" line="344"/>
         <source>Set Ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити Кільце</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="362"/>
         <source>I intend to spend on key-reusing fork(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Я маю намір повторно використовувати ключ в іншому клоні(ах)</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="376"/>
         <source>I might want to spend on key-reusing fork(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Я можливо захочу повторно використати ключ в іншому клоні(ах)</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="390"/>
         <source>Relative</source>
-        <translation type="unfinished"></translation>
+        <translation>Пов&apos;язані</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="406"/>
@@ -1821,7 +1727,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
-        <translation>Перевірений підпис</translation>
+        <translation>Підпис перевірено</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="62"/>
@@ -1831,12 +1737,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Sign.qml" line="66"/>
         <source>Bad signature</source>
-        <translation>Неперевірений підпис</translation>
+        <translation>Підпис неперевірено</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="67"/>
         <source>This signature did not verify</source>
-        <translation>Цей підпис не перевірений</translation>
+        <translation>Цей підпис неперевірено</translation>
     </message>
     <message>
         <source>Sign a message or file contents with your address:</source>
@@ -1856,28 +1762,28 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Sign.qml" line="138"/>
         <location filename="../pages/Sign.qml" line="182"/>
         <source>Sign</source>
-        <translation>Підпис</translation>
+        <translation>Підписати</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="108"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
-        <translation type="unfinished"></translation>
+        <translation>На цій сторінці можна підписати/перевірити повідомлення (або файл) вашим адресом.</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="126"/>
         <source>Message</source>
-        <translation type="unfinished">Повідомлення</translation>
+        <translation>Повідомлення</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="156"/>
         <source>Path to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях до файлу</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="170"/>
         <location filename="../pages/Sign.qml" line="261"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Огляд</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="220"/>
@@ -1889,17 +1795,15 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Verify File</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Sign.qml" line="289"/>
         <source>Address</source>
         <translation>Адреса</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Sign.qml" line="313"/>
         <source>Please choose a file to sign</source>
-        <translation>Будь ласка виберіть файл для підпису</translation>
+        <translation>Будь ласка, виберіть файл для підпису</translation>
     </message>
     <message>
         <source>Select</source>
@@ -1953,7 +1857,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Sign.qml" line="248"/>
         <source>Filename with message to verify</source>
-        <translation>Ім&apos;я файлу з повідомленням для перевірки</translation>
+        <translation>Файл з повідомленням для перевірки</translation>
     </message>
 </context>
 <context>
@@ -1984,37 +1888,37 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/StandardDropdown.qml" line="168"/>
         <source>Low (x1 fee)</source>
-        <translation>Низька (х1 комісія)</translation>
+        <translation>Низький (х1 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="169"/>
         <source>Medium (x20 fee)</source>
-        <translation>Середня (х20 комісія)</translation>
+        <translation>Середній (х20 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="170"/>
         <source>High (x166 fee)</source>
-        <translation>Висока (х166 комісія)</translation>
+        <translation>Високий (х166 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="171"/>
         <source>Slow (x0.25 fee)</source>
-        <translation>Повільна (x0.25 комісія)</translation>
+        <translation>Мінімальній (x0.25 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="172"/>
         <source>Default (x1 fee)</source>
-        <translation>Стандартна (x1 комісія)</translation>
+        <translation>За замовчуванням (x1 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="173"/>
         <source>Fast (x5 fee)</source>
-        <translation>Швидка (x5 комісія)</translation>
+        <translation>Підвищений (x5 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="174"/>
         <source>Fastest (x41.5 fee)</source>
-        <translation>Найшвидша (x41.5 комісія)</translation>
+        <translation>Максимальний (x41.5 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="175"/>
@@ -2045,12 +1949,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableDropdown.qml" line="182"/>
         <source>&lt;b&gt;Copy address to clipboard&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Скопіювати адресу в буфер обміну&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Скопіювати адрес в буфер обміну&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="183"/>
         <source>&lt;b&gt;Send to this address&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Відправити на цю адресу&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Відправити на цей адрес&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="184"/>
@@ -2060,7 +1964,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableDropdown.qml" line="185"/>
         <source>&lt;b&gt;Remove from address book&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Видалити із адресної книги&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Видалити з адресної книги&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -2078,7 +1982,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableHeader.qml" line="81"/>
         <source>Block height</source>
-        <translation>Висота блоку</translation>
+        <translation>Висота блока</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="82"/>
@@ -2130,7 +2034,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="598"/>
         <source>Wallet is not connected to daemon.</source>
-        <translation>Гаманець не підключений до демону</translation>
+        <translation>Гаманець не підключений до демона</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="606"/>
@@ -2158,7 +2062,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="215"/>
         <source>Slow (x0.25 fee)</source>
-        <translation>Повільна (x0.25 комісія)</translation>
+        <translation>Низький (x0.25 комісія)</translation>
     </message>
     <message>
         <source>Default (x1 fee)</source>
@@ -2167,12 +2071,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="217"/>
         <source>Fast (x5 fee)</source>
-        <translation>Швидка (x5 комісія)</translation>
+        <translation>Високий (x5 комісія)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="218"/>
         <source>Fastest (x41.5 fee)</source>
-        <translation>Найшвидша (x41.5 комісія)</translation>
+        <translation>Максимальний (x41.5 комісія)</translation>
     </message>
     <message>
         <source>Address</source>
@@ -2185,17 +2089,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="260"/>
         <source>No valid address found at this OpenAlias address</source>
-        <translation>Не знайдено дійсної адреси на цьому OpenAlias</translation>
+        <translation>Не знайдено дійсного адресу на цьому OpenAlias</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="265"/>
         <source>Address found, but the DNSSEC signatures could not be verified, so this address may be spoofed</source>
-        <translation>Адресу знайдено, але підписи DNSSEC не можуть бути перевіреними, тому ця адреса може бути підробленою</translation>
+        <translation>Адрес знайдений, але підписи DNSSEC не можуть бути перевірені, тому цей адрес може бути підробленим</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="267"/>
         <source>No valid address found at this OpenAlias address, but the DNSSEC signatures could not be verified, so this may be spoofed</source>
-        <translation>На цій адресі OpenAlias не знайдено дійсну адресу, підписи DNSSEC не можуть бути перевіреними, тому це може бути підроблено</translation>
+        <translation>На цьому OpenAlias не знайдено дійсного адресу, підписи DNSSEC не можуть бути перевірені, тому цей адрес може бути підробленим</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="270"/>
@@ -2206,12 +2110,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="276"/>
         <source>No address found</source>
-        <translation>Адресу не знайдено</translation>
+        <translation>Адрес не знайдено</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="300"/>
         <source>16 or 64 hexadecimal characters</source>
-        <translation>16 чи 64 шістнадцяткових символів</translation>
+        <translation>16 або 64 шістнадцяткових символи</translation>
     </message>
     <message>
         <source>Description &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
@@ -2220,7 +2124,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="309"/>
         <source>Saved to local wallet history</source>
-        <translation>Збережено в локальній історії гаманця.</translation>
+        <translation>Збережеться в локальній історії гаманця.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="550"/>
@@ -2236,8 +2140,8 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Transfer.qml" line="601"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
-        <translation>Підключений демон не сумісний з GUI. 
-Будь ласка здійсніть оновлення програмного забезпечення або підключіться до іншого демона</translation>
+        <translation>Підключений демон не сумісний з GUI.
+Будь ласка, оновіться або підключіться до іншого демона</translation>
     </message>
     <message>
         <source>Privacy level (ringsize %1)</source>
@@ -2256,7 +2160,7 @@ Please upgrade or connect to another daemon</source>
     <message>
         <location filename="../pages/Transfer.qml" line="320"/>
         <source>Send</source>
-        <translation>Відправити</translation>
+        <translation>Надіслати</translation>
     </message>
     <message>
         <source>Show advanced options</source>
@@ -2286,7 +2190,7 @@ Please upgrade or connect to another daemon</source>
         <location filename="../pages/Transfer.qml" line="476"/>
         <location filename="../pages/Transfer.qml" line="537"/>
         <source>Please choose a file</source>
-        <translation>Будь ласка виберіть файл</translation>
+        <translation>Будь ласка, виберіть файл</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="47"/>
@@ -2296,24 +2200,22 @@ Please upgrade or connect to another daemon</source>
     <message>
         <location filename="../pages/Transfer.qml" line="143"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
-        <translation type="unfinished"></translation>
+        <translation>На цій сторінці можна підписати/перевірити повідомлення (або файл) вашим адресом.</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
         <translation>Пріоритет транзакції</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="214"/>
         <source>Default</source>
-        <translation type="unfinished">Стандартний</translation>
+        <translation>Стандартний</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="216"/>
         <source>Normal (x1 fee)</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормальний (x1 комісія)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="244"/>
@@ -2335,45 +2237,39 @@ Please upgrade or connect to another daemon</source>
         <source>Advanced Options</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Transfer.qml" line="432"/>
         <source>Create TX File</source>
         <translation>створити файл транзакції</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
         <translation>Підписати файл транзакції</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
         <translation>Відправити файл транзакції</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
-        <translation>Неможливо завантажити непідписану транзакцію: </translation>
+        <translation>Неможливо завантажити підписану транзакцію: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="495"/>
         <source>
 Number of transactions: </source>
         <translation>
-Кількість транзакцій: </translation>
+Число транзакцій: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="497"/>
         <source>
 Transaction #%1</source>
         <translation>
-Танзакція #%1</translation>
+Транзакція #%1</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="498"/>
@@ -2431,13 +2327,13 @@ Ringsize: </source>
         <location filename="../pages/TxKey.qml" line="95"/>
         <location filename="../pages/TxKey.qml" line="171"/>
         <source>Address</source>
-        <translation>Адреса</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="173"/>
         <source>Recipient&apos;s wallet address</source>
-        <translation>Адреса гаманця отримувача</translation>
+        <translation>Адрес гаманця отримувача</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="82"/>
@@ -2448,27 +2344,25 @@ Ringsize: </source>
     <message>
         <location filename="../pages/TxKey.qml" line="67"/>
         <source>Prove Transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтвердити здійснення транзакції</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="71"/>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation>Згенеруйте підтвердження вхідного/вихідного платежу, вказавши ID транзакції, адресу отримувча чи опціональне повідомлення.
-У випадку вихідних платежів ви можете отримати &apos;Доказ відправлення&apos; (Spend Proof), який підтвердить авторство транзакції. В цьому випадку вам не потрібно вказувати адресу отримувача.</translation>
+        <translation>Згенеруйте підтвердження вхідного/вихідного платежу, вказавши ID транзакції, адрес отримувача і опційне повідомлення.
+У разі вихідних платежів ви можете отримати &apos;Доказ надсилання&apos; (Spend Proof), яке підтвердить авторство транзакції. В цьому випадку вам не потрібно вказувати адрес отримувача.</translation>
     </message>
     <message>
         <source>Paste tx ID</source>
         <translation type="vanished">Вставити ID транзакції</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="160"/>
         <source>Paste TX ID</source>
         <translation>Вставити ID транзакції</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="108"/>
         <location filename="../pages/TxKey.qml" line="185"/>
@@ -2479,7 +2373,7 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <location filename="../pages/TxKey.qml" line="109"/>
         <location filename="../pages/TxKey.qml" line="186"/>
         <source>Optional message against which the signature is signed</source>
-        <translation>Необов&apos;язкове повідомлення, під яким зроблений підпис</translation>
+        <translation>Опційне повідомлення, на основі якого буде створено підпис</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="122"/>
@@ -2489,27 +2383,25 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірити транзакцію</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="146"/>
         <source>Verify that funds were paid to an address by supplying the transaction ID, the recipient address, the message used for signing and the signature.
 For the case with Spend Proof, you don&apos;t need to specify the recipient address.</source>
-        <translation>Переконайтеся, що гроші були сплачені по адресі, вказавши ID транзакції, адресу отримувача, повідомлення, використане для підпису, і сам підпис.
-У випадку із Spend Proof (Доказ відправлення) вам не потрібно вказувати адресу отримувача.</translation>
+        <translation>Переконайтеся у відправці коштів на адрес, вказавши ID транзакції, адрес отримувача, повідомлення, яке використовується для підпису, і сам підпис.
+У випадку з Spend Proof (доказом надсилання) вам не потрібно вказувати адрес отримувача.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="198"/>
         <source>Signature</source>
         <translation>Підпис</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
         <translation>Вставити доказ відправлення</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Вставити доказ відправлення</translation>
@@ -2522,18 +2414,18 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../pages/TxKey.qml" line="231"/>
         <source>If a payment had several transactions then each must be checked and the results combined.</source>
-        <translation>Якщо в платежі було декілька транзакцій, кожна із них повинна бути перевірена і результати об&apos;єднані.</translation>
+        <translation>Якщо у платежі було кілька транзакцій, кожна з них повинна бути перевірена, а результати об&apos;єднані.</translation>
     </message>
 </context>
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Ми майже готові до роботи. Необхідно зробити ще деякі налаштування Monero</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Ми майже готові до роботи. Необхідно зробити ще деякі налаштування Loki</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Запускати блокчейн Monero ?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Запускати блокчейн Loki ?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2548,12 +2440,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="114"/>
         <source>It is very important to write it down as this is the only backup you will need for your wallet.</source>
-        <translation>Дуже важливо записати його, поскільки це єдина резервна копія, яка може вам знадобитися для вашого гаманця.</translation>
+        <translation>Дуже важливо записати її, оскільки це єдина резервна копія, яка може знадобитися для відновлення вашого гаманця.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="125"/>
         <source>Enable disk conservation mode?</source>
-        <translation>Увімкнути режим збереження диску?</translation>
+        <translation>Включити режим збереження диску?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="141"/>
@@ -2566,17 +2458,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Режим збереження диску використовує значно менше дискового простору, але такий же об&apos;ем пропускної здатності мережі, як при звичайному запуску Monero. Тим не менше, зберігання повного блокчейну корисне в плані безпеки мережі Monero. Якщо цей гаманець на пристрої з обмеженим дисковим простором, цей варіант вам підійде.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Режим збереження диску використовує значно менше дискового простору, але такий же об&apos;ем пропускної здатності мережі, як при звичайному запуску Loki. Тим не менше, зберігання повного блокчейну корисне в плані безпеки мережі Loki. Якщо цей гаманець на пристрої з обмеженим дисковим простором, цей варіант вам підійде.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
         <source>Allow background mining?</source>
-        <translation>Дозволити фоновий майнінг ?</translation>
+        <translation>Дозволити фоновий майнінг?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Майнінг захищає мережу Monero, а також платить невелику нагороду за пророблену роботу. Ця опція дозволяє Monero майнити, коли ваш комп&apos;ютер включений і простоює. Коли ви продовжите працювати, він зупинить майнінг.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Майнінг захищає мережу Loki, а також платить невелику нагороду за пророблену роботу. Ця опція дозволяє Loki майнити, коли ваш комп&apos;ютер включений і простоює. Коли ви продовжите працювати, він зупинить майнінг.</translation>
     </message>
 </context>
 <context>
@@ -2593,19 +2485,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create a new wallet</source>
         <translation type="vanished">Створити новий гаманець</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
         <translation>Створити новий гаманець</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
     <message>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="vanished">Щоб мати можливість обмінюватися даними з мережею Monero, вашому гаманцю необхідне підключення до ноди Monero. Для кращої конфіденціальності гаманець повинен запускати власну ноду.                         &lt;br&gt;&lt;br&gt;                         Якщо у вас немає можливості запускати власну ноду, є можливість підключитися до віддаленої ноди.</translation>
+        <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation type="vanished">Щоб мати можливість обмінюватися даними з мережею Loki, вашому гаманцю необхідне підключення до ноди Loki. Для кращої конфіденціальності гаманець повинен запускати власну ноду.                         &lt;br&gt;&lt;br&gt;                         Якщо у вас немає можливості запускати власну ноду, є можливість підключитися до віддаленої ноди.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2615,15 +2505,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="125"/>
         <source>Start a node automatically in background (recommended)</source>
-        <translation>Запуск ноди автоматично в фоновому режимі (рекомендується)</translation>
+        <translation>Автоматично запускати ноду в фоновому режимі (рекомендується)</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="146"/>
         <source>Blockchain Location</source>
         <translation>Шлях до блокчейну</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="177"/>
         <source>Bootstrap Node (Leave blank if not desired)</source>
@@ -2636,7 +2524,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="157"/>
         <source>(optional)</source>
-        <translation>(опціонально)</translation>
+        <translation>(опційно)</translation>
     </message>
     <message>
         <source>Connect to a remote node until my own node has finished syncing</source>
@@ -2651,8 +2539,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Розробка Monero повністю підтримується за рахунок пожертвувань</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Розробка Loki повністю підтримується за рахунок пожертвувань</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2662,7 +2550,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDonation.qml" line="114"/>
         <source>Enable auto-donations of?</source>
-        <translation>Включити автопожертвування?</translation>
+        <translation>Включити автоматичні пожертви?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="152"/>
@@ -2680,8 +2568,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">За кожну транзакцію береться невелика комісія. Ця опція дозволяє вам додати додаткову суму в процентах від цієї комісії до транзакції для підтримки розробки Monero. Наприклад, 50% автодотації беруть плату за транзакцію 0,005 XMR і додають 0,0025 XMR на користь підтримки розробки Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">За кожну транзакцію береться невелика комісія. Ця опція дозволяє вам додати додаткову суму в процентах від цієї комісії до транзакції для підтримки розробки Loki. Наприклад, 50% автодотації беруть плату за транзакцію 0,005 XMR і додають 0,0025 XMR на користь підтримки розробки Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2689,8 +2577,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Дозволити фоновий майнінг?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Майнінг захищає мережу Monero, а також платить невелику нагороду за пророблену роботу. Ця опція дозволяє Monero майнити, коли ваш комп&apos;ютер включений і простоює. Коли ви продовжите працювати, він зупинить майнінг.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Майнінг захищає мережу Loki, а також платить невелику нагороду за пророблену роботу. Ця опція дозволяє Loki майнити, коли ваш комп&apos;ютер включений і простоює. Коли ви продовжите працювати, він зупинить майнінг.</translation>
     </message>
 </context>
 <context>
@@ -2699,23 +2587,23 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardFinish.qml" line="52"/>
         <location filename="../wizard/WizardFinish.qml" line="55"/>
         <source>Enabled</source>
-        <translation>Включено</translation>
+        <translation>Ввімкнено</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="52"/>
         <location filename="../wizard/WizardFinish.qml" line="55"/>
         <source>Disabled</source>
-        <translation>Виключено</translation>
+        <translation>Вимкнено</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Stagenet</source>
-        <translation type="unfinished"></translation>
+        <translation>Тестова мережа (Stagenet)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Mainnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Основна мережа (Mainnet)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="67"/>
@@ -2725,7 +2613,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="68"/>
         <source>Wallet name</source>
-        <translation>Ім&apos;я гаманця</translation>
+        <translation>І&apos;мя гаманця</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="71"/>
@@ -2740,15 +2628,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="78"/>
         <source>Daemon address</source>
-        <translation>Адреса демона</translation>
+        <translation>Адрес демона</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
         <translation>Ви все налаштували!</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2757,17 +2643,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="79"/>
         <source>Network Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип Мережі</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="81"/>
         <source>Restore height</source>
-        <translation>Відновити висоту</translation>
+        <translation>Висота блока відновлення</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="89"/>
         <source>New wallet details:</source>
-        <translation>Нові дані гаманця:</translation>
+        <translation>Дані нового гаманця:</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="93"/>
@@ -2791,8 +2677,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Символи не із таблиці ASCII не дозволені в шляху до гаманця чи імені акаунта</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">КОРИСТУЙТЕСЬ MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">КОРИСТУЙТЕСЬ LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2813,8 +2699,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation>Створено гаманець тільки для перегляду. Ви можете відкрити його, закривши поточний, клікнувши опцію «Відкрити гаманець із файлу» чи вибравши гаманець для перегляду по шляху: 
-%1</translation>
+        <translation>Створено гаманець тільки для перегляду. Ви можете відкрити його, закривши поточний, клікнувши опцію &quot;Відкрити гаманець з файлу&quot; і вибравши гаманець для перегляду за шляхом:
+        %1</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
@@ -2841,27 +2727,21 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore from keys</source>
         <translation type="vanished">Відновити за допомогою ключів</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
         <translation>Ім&apos;я гаманця</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
         <translation>Відновити за допомогою seed-фрази</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
         <translation>Відновити за допомогою ключів</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2870,7 +2750,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="237"/>
         <source>Account address (public)</source>
-        <translation>Адреса гаманця (публічна)</translation>
+        <translation>Адрес гаманця (публічний)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="248"/>
@@ -2885,17 +2765,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="273"/>
         <source>Restore height (optional)</source>
-        <translation>Відновлення висоти (опціонально)</translation>
+        <translation>Висота блока відновлення (опційно)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="288"/>
         <source>Your wallet is stored in</source>
-        <translation>Ваш гаманець збережено в</translation>
+        <translation>Ваш гаманець збережений в</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="314"/>
         <source>Please choose a directory</source>
-        <translation>Будь ласка виберіть папку</translation>
+        <translation>Будь ласка, виберіть папку</translation>
     </message>
 </context>
 <context>
@@ -2907,29 +2787,29 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="47"/>
         <source>Enter your 25 (or 24) word mnemonic seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть свою мнемонічну seed-фразу із 25 (або 24) слів</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="73"/>
         <source>Seed copied to clipboard</source>
-        <translation>Seed-фраза скопійована в буфер обміну</translation>
+        <translation>Seed-фразу скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="106"/>
         <source>This seed is &lt;b&gt;very&lt;/b&gt; important to write down and keep secret. It is all you need to backup and restore your wallet.</source>
-        <translation>Цю seed-фразу &lt;b&gt;дуже важливо записати і зберігати в таємниці&lt;/b&gt;. Це все що потрібно для резервної копії і відновлення вашого гаманця.</translation>
+        <translation>Цю seed-фразу &lt;b&gt; необхідно записати, і зберігати в безпечному місці&lt;/b&gt;. Це все що потрібно для резервної копії та відновлення вашого гаманця.</translation>
     </message>
 </context>
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Ласкаво просимо в Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Ласкаво просимо в Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="85"/>
         <source>Please select one of the following options:</source>
-        <translation>Виберіть один із наступних варіантів:</translation>
+        <translation>Виберіть один з наступних варіантів:</translation>
     </message>
     <message>
         <source>Create a new wallet</source>
@@ -2940,17 +2820,15 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
         <translation>Створити новий гаманець</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
-        <translation>Відновити гаманець із ключів чи мнемонічної seed-фрази</translation>
+        <translation>Відновити гаманець із ключів або за мнемонічною seed-фразою</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="222"/>
@@ -2960,12 +2838,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOptions.qml" line="239"/>
         <source>Testnet</source>
-        <translation>Тестова мережа (testnet)</translation>
+        <translation>Тестова мережа (Testnet)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="254"/>
         <source>Stagenet</source>
-        <translation type="unfinished"></translation>
+        <translation>Тестова мережа (Stagenet)</translation>
     </message>
 </context>
 <context>
@@ -2980,22 +2858,18 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished"> &lt;br&gt; Примітка: цей пароль не може бути відновленим. Якщо ви його забудете, то гаманець слід відновити из його мнемонічної seed-фрази із 25 словосполученнями. &lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt; Введіть надійний пароль &lt;/b&gt; (використовуючи букви, цифри і/чи спеціальні символи):</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
         <translation>Введіть НОВИЙ пароль для вашого гаманця</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
         <translation> &lt;br&gt; Примітка: цей пароль не може бути відновленим. Якщо ви його забудете, то гаманець слід відновити из його мнемонічної seed-фрази із 25 словосполученнями. &lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt; Введіть надійний пароль &lt;/b&gt; (використовуючи букви, цифри і/чи спеціальні символи):</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>WizardPasswordUI</name>
@@ -3016,19 +2890,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore wallet</source>
         <translation type="vanished">Відновити гаманець</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
         <translation>Відновити гаманець</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Ласкаво просимо в Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Ласкаво просимо в Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -3038,7 +2910,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="81"/>
         <source>Please choose a language and regional format.</source>
-        <translation>Будь ласка виберіть мову і регіональний формат.</translation>
+        <translation>Будь ласка, виберіть мову і регіональний формат.</translation>
     </message>
 </context>
 <context>
@@ -3069,27 +2941,27 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../main.qml" line="460"/>
         <source>Waiting for daemon to sync</source>
-        <translation type="unfinished"></translation>
+        <translation>Очікування синхронізації з демоном</translation>
     </message>
     <message>
         <location filename="../main.qml" line="462"/>
         <source>Daemon is synchronized (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Демон синхронізований на (%1)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="464"/>
         <source>Wallet is synchronized</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаманець синхронізований</translation>
     </message>
     <message>
         <location filename="../main.qml" line="533"/>
         <source>Daemon failed to start</source>
-        <translation>Не вдалося запустити демона</translation>
+        <translation>Не вдалося запустити демон</translation>
     </message>
     <message>
         <location filename="../main.qml" line="534"/>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
-        <translation>Будь ласка, перевірте ваш журнал гаманця і демона на наявність помилок. Ви також можете спробувати запустити %1 вручну.</translation>
+        <translation>Будь ласка, перевірте логи гаманця і демона на наявність помилок. Ви також можете спробувати запустити %1 вручну.</translation>
     </message>
     <message>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
@@ -3105,7 +2977,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../main.qml" line="735"/>
         <source>Please confirm transaction:
 </source>
-        <translation>Будь ласка підтвердіть транзакцію:
+        <translation>Будь ласка, підтвердіть транзакцію:
 </translation>
     </message>
     <message>
@@ -3141,31 +3013,31 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="1745"/>
         <source>Tap again to close...</source>
-        <translation>Клікніть ще раз щоб закрити...</translation>
+        <translation>Натисніть ще раз, щоб закрити...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1758"/>
         <source>Daemon is running</source>
-        <translation>Демон запущений</translation>
+        <translation>Демон запущено</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1759"/>
         <source>Daemon will still be running in background when GUI is closed.</source>
-        <translation>Демон буде все ще запущеним в фоновому режимі після закриття GUI</translation>
+        <translation>Демон буде все ще працювати у фоновому режимі після закриття GUI</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1761"/>
         <source>Stop daemon</source>
-        <translation>Зупинити демона</translation>
+        <translation>Зупинити демон</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
         <translation type="vanished">Доступна нова версія гаманця із графічним інтерфейсом: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="713"/>
         <source>Can&apos;t create transaction: </source>
-        <translation>Неможливо створити транзакцію:</translation>
+        <translation>Неможливо створити транзакцію: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="349"/>
@@ -3176,7 +3048,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="417"/>
         <source>Unlocked balance (~%1 min)</source>
-        <translation>Розблокований баланс (~%1 min)</translation>
+          <translation>Розблокований баланс (~%1 хв)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="417"/>
@@ -3186,7 +3058,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="417"/>
         <source>Unlocked balance (waiting for block)</source>
-        <translation>Розблокований баланс (очікування блоку)</translation>
+        <translation>Розблокований баланс (очікування блока)</translation>
     </message>
     <message>
         <source>Remaining blocks (local node):</source>
@@ -3207,13 +3079,11 @@ Description: </source>
         <source>Daemon is synchronized</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../main.qml" line="596"/>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
         <translation>Неможливо створити транзакцію: Невірна версія демона:</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -3237,31 +3107,27 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
+        <location filename="../main.qml" line="627"/>
         <source>
 Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="629"/>
         <source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
         <translation>Сума неправильна: очікуване число від %1 до %2</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
         <translation>Недостатньо коштів. Розблокований баланс: %1</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../main.qml" line="734"/>
         <source>Confirmation</source>
@@ -3315,7 +3181,7 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="774"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Неможливо відправити гроші:</translation>
+        <translation>Неможливо відправити гроші: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="777"/>
@@ -3342,7 +3208,7 @@ Fee: </source>
         <location filename="../main.qml" line="816"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
-        <translation>Неможливо згенерувати доказ по наступній причині:</translation>
+        <translation>Неможливо згенерувати доказ з наступних причин:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="846"/>
@@ -3354,16 +3220,16 @@ Fee: </source>
         <location filename="../main.qml" line="849"/>
         <location filename="../main.qml" line="868"/>
         <source>Bad signature</source>
-        <translation>Неперевірений підпис</translation>
+        <translation>Підпис неперевірено</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
         <translation type="vanished">Ця адреса отримала %1 XMR, з %2 підтвердженнями</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
         <source>Good signature</source>
-        <translation>Перевірений підпис</translation>
+        <translation>Підпис перевірено</translation>
     </message>
     <message>
         <location filename="../main.qml" line="880"/>
@@ -3394,17 +3260,17 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="1152"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Попередження: На пристрої доступно тільки %1 GB вільного простору. Для збереження блокчейну потрібно як мінімум ~%2 GB. </translation>
+        <translation>Попередження: На пристрої є тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1154"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Примітка: На пристрої доступно тільки %1 GB вільного простору. Для збереження блокчейну потрібно як мінімум ~%2 GB.</translation>
+        <translation>Попередження: На пристрої є тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1156"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
-        <translation>Примітка: Папка з іменем lmdb не знайдена і буде створена.</translation>
+        <translation>Примітка: Папку з назвою lmdb не знайдено тому її буде створено.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1160"/>
@@ -3414,7 +3280,7 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="1213"/>
         <source>Password changed successfully</source>
-        <translation>Пароль успішно змінено</translation>
+        <translation>Пароль успішно змінений</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1217"/>
@@ -3431,27 +3297,27 @@ Fee: </source>
         <translation type="vanished">Гроші успішно відправлені: %1 підтверджень </translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
         <translation type="vanished">Ця адреса отримала %1 XMR, але транзакції ще не підтверждені майнерами</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
         <source>This address received nothing</source>
-        <translation>Ця адреса нічого не отримала</translation>
+        <translation>Цей адрес ще нічого не отримав</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1282"/>
         <source>Program setup wizard</source>
-        <translation>Майстер налаштувань програми</translation>
+        <translation>Майстер налаштування програми</translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
-        <translation>відправити тому ж отримувачу</translation>
+        <translation>надіслати тому ж отримувачу</translation>
     </message>
 </context>
 </TS>

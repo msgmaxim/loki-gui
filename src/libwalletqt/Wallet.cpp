@@ -336,6 +336,16 @@ quint64 Wallet::daemonBlockChainTargetHeight() const
     return m_daemonBlockChainTargetHeight;
 }
 
+bool Wallet::exportKeyImages(const QString& path)
+{
+    return m_walletImpl->exportKeyImages(path.toStdString());
+}
+
+bool Wallet::importKeyImages(const QString& path)
+{
+    return m_walletImpl->importKeyImages(path.toStdString());
+}
+
 bool Wallet::refresh()
 {
     bool result = m_walletImpl->refresh();
@@ -720,17 +730,6 @@ void Wallet::setWalletCreationHeight(quint64 height)
 QString Wallet::getDaemonLogPath() const
 {
     return QString::fromStdString(m_walletImpl->getDefaultDataDir()) + "/loki.log";
-}
-
-QString Wallet::getWalletLogPath() const
-{
-    const QString filename("loki-wallet-gui.log");
-
-#ifdef Q_OS_MACOS
-    return QStandardPaths::standardLocations(QStandardPaths::HomeLocation).at(0) + "/Library/Logs/" + filename;
-#else
-    return QCoreApplication::applicationDirPath() + "/" + filename;
-#endif
 }
 
 bool Wallet::blackballOutput(const QString &pubkey)

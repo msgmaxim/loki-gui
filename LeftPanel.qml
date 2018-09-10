@@ -479,7 +479,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Shared RingDB") + translationManager.emptyString
-                symbol: qsTr("A") + translationManager.emptyString
+                symbol: qsTr("G") + translationManager.emptyString
                 dotColor: "#FFD781"
                 under: advancedButton
                 onClicked: {
@@ -579,7 +579,7 @@ Rectangle {
             anchors.rightMargin: 0
             anchors.bottom: networkStatus.top;
             height: 10 * scaleRatio
-            color: "black"
+            color: "transparent"
         }
 
         NetworkStatusItem {

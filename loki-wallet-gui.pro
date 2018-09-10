@@ -45,6 +45,7 @@ HEADERS += \
     src/libwalletqt/Subaddress.h \
     src/zxcvbn-c/zxcvbn.h \
     src/libwalletqt/UnsignedTransaction.h \
+    Logger.h \
     MainApp.h
 
 SOURCES += main.cpp \
@@ -70,6 +71,7 @@ SOURCES += main.cpp \
     src/libwalletqt/Subaddress.cpp \
     src/zxcvbn-c/zxcvbn.c \
     src/libwalletqt/UnsignedTransaction.cpp \
+    Logger.cpp \
     MainApp.cpp
 
 CONFIG(DISABLE_PASS_STRENGTH_METER) {
@@ -269,7 +271,11 @@ linux {
       LIBS+= -ldl
     }
 
+    BOOST_ROOT = $$(BOOST_ROOT)
+    OPENSSL_ROOT = $$(OPENSSL_ROOT_DIR)
     LIBS+= \
+        -L/$$BOOST_ROOT/lib \
+        -L/$$OPENSSL_ROOT/lib \
         -lboost_serialization \
         -lboost_thread \
         -lboost_system \

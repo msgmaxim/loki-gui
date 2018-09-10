@@ -107,13 +107,11 @@
         <source>Close</source>
         <translation>Menutup</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/DaemonConsole.qml" line="130"/>
         <source>Command + Enter (e.g Help)</source>
         <translation>command + enter (contoh: membantu)</translation>
-	</message>
-
-
+</message>
     <message>
         <source>command + enter (e.g help)</source>
         <translation type="vanished">command + enter (contoh: membantu)</translation>
@@ -131,13 +129,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
         <translation>Menggunakan pengaturan yang dipilih oleh Anda</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Mulai jurik (%1)</translation>
@@ -219,13 +215,11 @@
         <source>Block height</source>
         <translation type="obsolete">Ketinggian blok</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
         <translation>Tanggal</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Menyaring riwayat transaksi</translation>
@@ -514,13 +508,11 @@
         <source>Send</source>
         <translation>KIRIM</translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
         <translation>Buku alamat</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="364"/>
         <source>Receive</source>
@@ -605,13 +597,11 @@
         <source>A</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../LeftPanel.qml" line="506"/>
         <source>Sign/Verify</source>
         <translation>Menandatangani/mengesahkan</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="551"/>
         <source>Seed &amp; Keys</source>
@@ -707,8 +697,8 @@
         <translation type="vanished">(Hanya untuk jurik lokal)</translation>
     </message>
     <message>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Pertambangan dengan komputer Anda menolong mempertahankan jaringan Monero. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Monero. Komputer Anda akan menebak untuk kunci blok Monero. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Monero. Semoga sukses!</translation>
+        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation type="vanished">Pertambangan dengan komputer Anda menolong mempertahankan jaringan Loki. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Loki. Komputer Anda akan menebak untuk kunci blok Loki. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Loki. Semoga sukses!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -741,48 +731,36 @@
         <source>Start mining</source>
         <translation type="vanished">Mulai pertambangan</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
         <translation>Pertambangan sendiri</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
         <translation>(Hanya untuk jurik lokal)</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation>Nomor ulir CPU</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
         <translation>Pertambangan latar belakang</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
         <translation>Mengelola pertambangan</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
         <translation>Mulai pertambangan</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -798,27 +776,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Pertambangan hanya diboleh dengan jurik lokal. Mohon mulai jurik yang lokal jika Anda ingin pertambangan.&lt;br&gt;</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
         <translation>Berhenti pertambangan</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
         <translation>Status: tidak pertambangan</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
         <translation>Tidak pertambangan</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Berhenti pertambangan</translation>
@@ -882,13 +854,11 @@
         <source>Invalid connection status</source>
         <translation>Status sambungan salah</translation>
     </message>
-	<message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
         <translation>Status jaringan</translation>
-	</message>
-
-
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Status jaringan</translation>
@@ -1005,13 +975,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">PERINGATAN: tidak dapat koneksi dengan jurik</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
         <translation>PERINGATAN: tidak dapat koneksi dengan jurik</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="104"/>
         <source>in the txpool: %1</source>
@@ -1092,13 +1060,11 @@
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Receive.qml" line="312"/>
         <source>Tracking Payments</source>
         <translation>Pelacakan pembayaran</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="313"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
@@ -1282,13 +1248,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Bootstrap Node</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
         <translation>Menunjukkan status</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="368"/>
         <source>Blockchain Location</source>
@@ -1314,39 +1278,31 @@ The old wallet cache file will be renamed and can be restored later.
         <source>(Optional)</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="454"/>
         <source>Layout Settings</source>
         <translation>Pengaturan tata letak</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="463"/>
         <source>Custom Decorations</source>
         <translation>Dekorasi kustom</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="471"/>
         <source>Log Level</source>
         <translation>Tingkat log</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="549"/>
         <source>Debug Info</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="559"/>
         <source>GUI Version: </source>
         <translation>Versi GUI: </translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="565"/>
         <source>Embedded Loki Version: </source>
@@ -1367,13 +1323,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Daemon Log Path: </source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="658"/>
         <source>Daemon Log</source>
         <translation>Log jurik</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="667"/>
         <source>Please choose a folder</source>
@@ -1410,27 +1364,21 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Cancel</source>
         <translation type="unfinished">Membatalkan</translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
         <translation>Mengelola dompet Anda</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
         <translation>Menutup dompet</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
         <translation>Membuat dompet hanya untuk menonton</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
@@ -1451,14 +1399,12 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Remote Node</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Settings.qml" line="242"/>
         <location filename="../pages/Settings.qml" line="274"/>
         <source>Address</source>
         <translation>Alamat</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
         <location filename="../pages/Settings.qml" line="275"/>
@@ -1495,15 +1441,15 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
-        <translation>(e.g. *:WARNING,net.p2p:DEBUG)</translation>
+        <translation type="vanished">(e.g. *:WARNING,net.p2p:DEBUG)</translation>
     </message>
     <message>
         <source>GUI version: </source>
         <translation type="vanished">Versi GUI: </translation>
     </message>
     <message>
-        <source>Embedded Monero version: </source>
-        <translation type="vanished">Versi Monero termasuk: </translation>
+        <source>Embedded Loki version: </source>
+        <translation type="vanished">Versi Loki termasuk: </translation>
     </message>
     <message>
         <source>Daemon log</source>
@@ -2125,13 +2071,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt; (Start Daemon)&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
         <translation>Kepentingan transaksi</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="244"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt; Address &lt;a href=&apos;#&apos;&gt;(Address Book)&lt;/a&gt;</source>
@@ -2152,27 +2096,21 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Advanced Options</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/Transfer.qml" line="432"/>
         <source>Create TX File</source>
         <translation>Membuat arsip transaksi</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Transfer.qml" line="450"/>
         <source>Sign TX File</source>
         <translation>Menandatangani arsip transaksi</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../pages/Transfer.qml" line="461"/>
         <source>Submit TX File</source>
         <translation>Menyerahkan arsip transaksi</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
@@ -2298,14 +2236,12 @@ Please upgrade or connect to another daemon</source>
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="160"/>
         <source>Paste TX ID</source>
         <translation>Merekatkan menandai transaksi</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="97"/>
         <location filename="../pages/TxKey.qml" line="173"/>
@@ -2324,13 +2260,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
         <translation>Membuat</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
@@ -2371,12 +2305,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardConfigure</name>
     <message>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation type="vanished">Hampir selesai - marilah kita pilih preferensi dalam Monero</translation>
+        <source>We’re almost there - let’s just configure some Loki preferences</source>
+        <translation type="vanished">Hampir selesai - marilah kita pilih preferensi dalam Loki</translation>
     </message>
     <message>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation type="vanished">Mulailah rantaiblok Monero?</translation>
+        <source>Kickstart the Loki blockchain?</source>
+        <translation type="vanished">Mulailah rantaiblok Loki?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="80"/>
@@ -2409,8 +2343,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Cara penghematan bisa mengurangi ruang hard disk untuk Monero, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation type="vanished">Cara penghematan bisa mengurangi ruang hard disk untuk Loki, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2418,8 +2352,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Mengizinkan pertambangan di balik layar?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Monero, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Monero untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Loki, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Loki untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -2436,13 +2370,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create a new wallet</source>
         <translation type="vanished">Membuat dompet baru</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
         <translation>Membuat dompet baru</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2480,8 +2412,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardDonation</name>
     <message>
-        <source>Monero development is solely supported by donations</source>
-        <translation type="vanished">Pembangunan Monero cuma didukung oleh sumbangan</translation>
+        <source>Loki development is solely supported by donations</source>
+        <translation type="vanished">Pembangunan Loki cuma didukung oleh sumbangan</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2509,8 +2441,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation type="vanished">Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Monero. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
+        <translation type="vanished">Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Loki. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2518,8 +2450,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Mengizinkan pertambangan di balik layar?</translation>
     </message>
     <message>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Monero, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Monero untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation type="vanished">Pertambangan menjaminkan sekuritas jaringan Loki, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Loki untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -2571,13 +2503,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Daemon address</source>
         <translation>Alamat jurik</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
         <translation>Semua siap!</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2620,8 +2550,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Hanya diperbolehkan untuk menggunakan huruf ASCII</translation>
     </message>
     <message>
-        <source>USE MONERO</source>
-        <translation type="vanished">MENGGUNAKAN MONERO</translation>
+        <source>USE LOKI</source>
+        <translation type="vanished">MENGGUNAKAN LOKI</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="365"/>
@@ -2669,27 +2599,21 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore from keys</source>
         <translation type="vanished">Mengembalikan dari kunci</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
         <translation>Nama dompet</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
         <translation>Mengembalikan dari kata-kata biji acak</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
         <translation>Mengembalikan dari kunci</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
@@ -2751,11 +2675,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardOptions</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Selamat datang di dunia Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Selamat datang di dunia Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="85"/>
+        <location filename="../wizard/WizardOptions.qml" line="86"/>
         <source>Please select one of the following options:</source>
         <translation>Mohon memilihkan salah satu opsi:</translation>
     </message>
@@ -2768,13 +2692,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
         <translation>Membuat dompet baru</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2808,13 +2730,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="obsolete"> &lt;br&gt;Peringatan: kata sandi ini tidak pernah dapat diperoleh kembali. Jika Anda lupa kata sandi, dompet Anda harus dikembalikan dari kata biji acak.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Mohon memilih kata sandi yang sulit&lt;/b&gt; (dengan huruf, nomor dan/atau simbol):</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
         <translation>Memilih kata sandi untuk dompet Anda</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2841,19 +2761,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore wallet</source>
         <translation type="vanished">Mengembalikan dompet</translation>
     </message>
-	<message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
         <translation>Mengembalikan dompet</translation>
-	</message>
-
-
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>
     <message>
-        <source>Welcome to Monero!</source>
-        <translation type="vanished">Selamat datang di dunia Monero!</translation>
+        <source>Welcome to Loki!</source>
+        <translation type="vanished">Selamat datang di dunia Loki!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="72"/>
@@ -2952,13 +2870,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
         <translation>Tolong periksahkan log-log dompet dan jurik untuk kesalahan. Anda juga dapat mencoba untuk memulai %1 secara manual</translation>
     </message>
-	<message>
+<message>
         <location filename="../main.qml" line="596"/>
         <source>Can&apos;t Create Transaction: Wrong daemon version: </source>
         <translation>Tidak bisa membuat transaksi: Versi jurik yang salah: </translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../main.qml" line="598"/>
         <source>Can&apos;t Create Transaction: </source>
@@ -2982,20 +2898,16 @@ Number Of Transactions: </source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
     </message>
-	<message>
+<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
         <translation>Jumlah salah: nomor antar %1 dan %2 diharapkan</translation>
-	</message>
-
-
-	<message>
+</message>
+<message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
         <translation>Dana tidak mencukupi. Saldo rekening yang tidak terkunci: %1</translation>
-	</message>
-
-
+</message>
     <message>
         <location filename="../main.qml" line="735"/>
         <source>Please confirm transaction:
@@ -3053,7 +2965,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="774"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>Tidak bisa mengirim uang monero: </translation>
+        <translation>Tidak bisa mengirim uang loki: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="777"/>
@@ -3063,7 +2975,7 @@ Description: </source>
     </message>
     <message>
         <source>Money sent successfully: %1 transaction(s) </source>
-        <translation type="vanished">Uang monero dikirim dengan sukses: %1 transaksi </translation>
+        <translation type="vanished">Uang loki dikirim dengan sukses: %1 transaksi </translation>
     </message>
     <message>
         <location filename="../main.qml" line="783"/>
@@ -3071,12 +2983,12 @@ Description: </source>
         <translation>Transaksi disimpan dalam arsip: %1</translation>
     </message>
     <message>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="vanished">Alamat ini menerima %1 monero, tetapi transaksinya belum termasuk dalam blok</translation>
+        <source>This address received %1 loki, but the transaction is not yet mined</source>
+        <translation type="vanished">Alamat ini menerima %1 loki, tetapi transaksinya belum termasuk dalam blok</translation>
     </message>
     <message>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="vanished">Alamat ini menerima %1 monero, dengan %2 konfirmasi.</translation>
+        <source>This address received %1 loki, with %2 confirmation(s).</source>
+        <translation type="vanished">Alamat ini menerima %1 loki, dengan %2 konfirmasi.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1745"/>
@@ -3099,8 +3011,8 @@ Description: </source>
         <translation>Berhenti jurik</translation>
     </message>
     <message>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation type="vanished">Versi baru untuk monero-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
+        <source>New version of loki-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation type="vanished">Versi baru untuk loki-wallet-gui tersedia: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>
@@ -3263,13 +3175,18 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Monero</source>
-        <translation type="vanished">Monero</translation>
+        <source>Loki</source>
+        <translation type="vanished">Loki</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
         <translation>kirim ke tujuan yang sama</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1817"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Log jurik</translation>
     </message>
 </context>
 </TS>

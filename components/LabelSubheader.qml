@@ -44,4 +44,10 @@ Label {
         color: LokiComponents.Style.dividerColor
         opacity: LokiComponents.Style.dividerOpacity
     }
+
+    MouseArea {
+        anchors.fill: parent
+        acceptedButtons: Qt.NoButton
+        cursorShape: parent.hoveredLink ? Qt.PointingHandCursor : Qt.ArrowCursor
+    }
 }
