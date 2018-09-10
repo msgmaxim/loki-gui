@@ -1,8 +1,3 @@
-# qml components require at least QT 5.7.0
-lessThan (QT_MAJOR_VERSION, 5) | lessThan (QT_MINOR_VERSION, 7) {
-  error("Can't build with Qt $${QT_VERSION}. Use at least Qt 5.7.0")
-}
-
 TEMPLATE = app
 
 QT += qml quick widgets
@@ -245,7 +240,6 @@ win32 {
         -lssl \
         -lcrypto \
         -Wl,-Bdynamic \
-        -lwinscard \
         -lws2_32 \
         -lwsock32 \
         -lIphlpapi \
@@ -277,7 +271,11 @@ linux {
       LIBS+= -ldl
     }
 
+    BOOST_ROOT = $$(BOOST_ROOT)
+    OPENSSL_ROOT = $$(OPENSSL_ROOT_DIR)
     LIBS+= \
+        -L/$$BOOST_ROOT/lib \
+        -L/$$OPENSSL_ROOT/lib \
         -lboost_serialization \
         -lboost_thread \
         -lboost_system \
@@ -447,6 +445,5 @@ DISTFILES += \
 # windows application icon
 RC_ICONS = images/appicon.ico
 
-# mac Info.plist & application icon
-QMAKE_INFO_PLIST = $$PWD/share/Info.plist
+# mac application icon
 ICON = $$PWD/images/appicon.icns

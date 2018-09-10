@@ -22,7 +22,6 @@ QtObject {
     property string backgroundColor: "#1A1A1A"
 
     property string defaultFontColor: "white"
-    property string greyFontColor: "#808080"
     property string dimmedFontColor: "#BBBBBB"
     property string inputBoxBackground: "black"
     property string inputBoxBackgroundError: "#FFDDDD"

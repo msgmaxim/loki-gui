@@ -109,6 +109,8 @@ Item {
                 leftPadding: 10
                 topPadding: 10
                 color: LokiComponents.Style.defaultFontColor
+                selectionColor: LokiComponents.Style.dimmedFontColor
+                selectedTextColor: LokiComponents.Style.defaultFontColor
 
                 background: Rectangle {
                     radius: 2
