@@ -76,7 +76,7 @@ ApplicationWindow {
     property bool remoteNodeConnected: false
     property bool androidCloseTapped: false;
     // Default daemon addresses
-    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:22023" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:38151" : "localhost:38154"
+    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:22023" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:38157" : "localhost:38154"
     property string currentDaemonAddress;
     property bool startLocalNodeCancelled: false
     property int estimatedBlockchainSize: 50 // GB
