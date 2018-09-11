@@ -54,8 +54,8 @@ ColumnLayout {
     property string borderColor: {
         if(input.error && input.text !== ""){
             return LokiComponents.Style.inputBorderColorInvalid;
-        } else if(input.activeFocus){
-            return LokiComponents.Style.inputBorderColorActive;
+        } else if(input.activeFocus) {
+            return LokiComponents.Style.heroGreen;
         } else {
             return LokiComponents.Style.inputBorderColorInActive;
         }

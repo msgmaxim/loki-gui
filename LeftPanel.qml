@@ -589,8 +589,9 @@ Rectangle {
             anchors.leftMargin: 0
             anchors.rightMargin: 0
             anchors.bottom: (progressBar.visible)? progressBar.top : parent.bottom;
+            anchors.bottomMargin: 10 * scaleRatio
             connected: Wallet.ConnectionStatus_Disconnected
-            height: 48 * scaleRatio
+            height: 54 * scaleRatio
         }
 
         ProgressBar {

@@ -51,7 +51,6 @@ GridLayout {
     property string placeholderColor: LokiComponents.Style.defaultFontColor
     property real placeholderOpacity: 0.25
 
-    property string lineEditBorderColor: Qt.rgba(0, 0, 0, 0.15)
     property string lineEditBackgroundColor: "white"
     property string lineEditFontColor: "black"
     property int lineEditFontSize: 18 * scaleRatio
@@ -74,7 +73,6 @@ GridLayout {
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
         labelFontSize: root.labelFontSize
-        borderColor: lineEditBorderColor
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold
@@ -92,7 +90,6 @@ GridLayout {
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
         labelFontSize: root.labelFontSize
-        borderColor: lineEditBorderColor
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold
