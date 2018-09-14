@@ -36,6 +36,7 @@
 #include <QObject>
 #include <QDesktopWidget>
 #include <QScreen>
+#include <QFileInfo>
 #include "clipboardAdapter.h"
 #include "filter.h"
 #include "oscursor.h"
@@ -71,6 +72,68 @@ bool isIOS = false;
 bool isAndroid = false;
 bool isWindows = false;
 bool isDesktop = false;
+
+static QStringList loadOrCreateDefaultRemoteNodesFromSettings(QSettings *settings, NetworkType::Type nettype)
+{
+    char const mainnet_group_id[]  = "MainnetDefaultRemoteNodes";
+    char const stagenet_group_id[] = "StagenetDefaultRemoteNodes";
+    char const testnet_group_id[]  = "TestnetDefaultRemoteNodes";
+
+    char const *group_id = mainnet_group_id;
+    if (nettype == NetworkType::Type::TESTNET)
+        group_id = testnet_group_id;
+    else if (nettype == NetworkType::Type::STAGENET)
+        group_id = stagenet_group_id;
+
+    char const remoteNodeArrayId[] = "RemoteNodes";
+
+    settings->beginGroup(group_id);
+    int remoteNodeArrayLen = settings->beginReadArray(remoteNodeArrayId);
+    settings->endArray();
+
+    if (remoteNodeArrayLen == 0)
+    {
+        size_t remoteNodeIndex = 0;
+        settings->beginWriteArray(remoteNodeArrayId);
+        if (nettype == NetworkType::Type::MAINNET)
+        {
+            settings->setArrayIndex(remoteNodeIndex++);
+            settings->setValue("url", "doopool.xyz");
+            settings->setValue("port", "22020");
+
+            settings->setArrayIndex(remoteNodeIndex++);
+            settings->setValue("url", "pool.loki.hashvault.pro");
+            settings->setValue("port", "22020");
+
+            settings->setArrayIndex(remoteNodeIndex++);
+            settings->setValue("url", "daemons.cryptopool.space");
+            settings->setValue("port", "22023");
+
+            settings->setArrayIndex(remoteNodeIndex++);
+            settings->setValue("url", "node.loki-pool.com");
+            settings->setValue("port", "18081");
+
+            settings->setArrayIndex(remoteNodeIndex++);
+            settings->setValue("url", "uk.loki.cash");
+            settings->setValue("port", "22020");
+        }
+        settings->endArray();
+    }
+
+    remoteNodeArrayLen = settings->beginReadArray(remoteNodeArrayId);
+    QStringList result;
+    result.reserve(remoteNodeArrayLen);
+    for (int i = 0; i < remoteNodeArrayLen; ++i)
+    {
+        settings->setArrayIndex(i);
+        QString const fullAddress = settings->value("url").toString() + ":" + settings->value("port").toString();
+        result.push_back(fullAddress);
+    }
+    settings->endArray();
+    settings->endGroup();
+
+    return result;
+}
 
 int main(int argc, char *argv[])
 {
@@ -307,6 +370,19 @@ int main(int argc, char *argv[])
     QObject::connect(eventFilter, SIGNAL(sequenceReleased(QVariant,QVariant)), rootObject, SLOT(sequenceReleased(QVariant,QVariant)));
     QObject::connect(eventFilter, SIGNAL(mousePressed(QVariant,QVariant,QVariant)), rootObject, SLOT(mousePressed(QVariant,QVariant,QVariant)));
     QObject::connect(eventFilter, SIGNAL(mouseReleased(QVariant,QVariant,QVariant)), rootObject, SLOT(mouseReleased(QVariant,QVariant,QVariant)));
+
+    {
+        QString const fullSettingsPath = app.applicationDirPath() + "/loki.ini";
+        QSettings settings(fullSettingsPath, QSettings::IniFormat);
+
+        QStringList mainnetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::MAINNET);
+        QStringList testnetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::TESTNET);
+        QStringList stagenetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::STAGENET);
+        engine.rootContext()->setContextProperty("mainnetRemoteNodeList", QVariant::fromValue(mainnetRemoteNodeList));
+        engine.rootContext()->setContextProperty("testnetRemoteNodeList", QVariant::fromValue(testnetRemoteNodeList));
+        engine.rootContext()->setContextProperty("stagenetRemoteNodeList", QVariant::fromValue(stagenetRemoteNodeList));
+    }
+
 
     return app.exec();
 }

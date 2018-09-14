@@ -43,7 +43,7 @@ Rectangle {
             if(!appWindow.daemonSynced)
                 return qsTr("Synchronizing")
             if(appWindow.remoteNodeConnected)
-                return qsTr("Remote node")
+                return qsTr("Remote Node")
             return qsTr("Connected")
         }
         if (status == Wallet.ConnectionStatus_WrongVersion)
@@ -112,6 +112,17 @@ Rectangle {
                 font.pixelSize: 20 * scaleRatio
                 color: "white"
                 text: getConnectionStatusString(item.connected) + translationManager.emptyString
+            }
+
+            Text {
+                id: nodeAddr
+                anchors.left: parent.left
+                anchors.top: parent.top
+                anchors.topMargin: 40
+                font.family: LokiComponents.Style.fontMedium.name
+                font.pixelSize: 12 * scaleRatio
+                color: LokiComponents.Style.dimmedFontColor
+                text: (appWindow.currentDaemonAddress == ":") ? "Daemon Address Not Set" : appWindow.currentDaemonAddress
             }
         }
     }

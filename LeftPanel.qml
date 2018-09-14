@@ -588,9 +588,19 @@ Rectangle {
             anchors.right: parent.right
             anchors.leftMargin: 0
             anchors.rightMargin: 0
-            anchors.bottom: (progressBar.visible)? progressBar.top : parent.bottom;
+            anchors.bottom: (progressBar.visible)? progressBar.top : networkStatusSpacer.top;
             connected: Wallet.ConnectionStatus_Disconnected
-            height: 48 * scaleRatio
+            height: 54 * scaleRatio
+        }
+
+        Rectangle {
+            id: networkStatusSpacer
+            visible: !progressBar.visible
+            anchors.bottom: parent.bottom
+            anchors.left: parent.left
+            anchors.right: parent.right
+            height: 10 * scaleRatio
+            color: "transparent"
         }
 
         ProgressBar {

@@ -9,6 +9,7 @@
         <file>components/AddressBookTable.qml</file>
         <file>components/CheckBox.qml</file>
         <file>components/CheckBox2.qml</file>
+        <file>components/ChooseDaemonModalDialog.qml</file>
         <file>components/DaemonConsole.qml</file>
         <file>components/DaemonManagerDialog.qml</file>
         <file>components/DashboardTable.qml</file>

@@ -49,7 +49,6 @@ Rectangle{
         spacing: 0 * scaleRatio
         property int labelWidth: 120
         property int editWidth: 400
-        property int lineEditFontSize: 14 * scaleRatio
         property int buttonWidth: 110
 
         Rectangle {
@@ -264,6 +263,109 @@ Rectangle{
         }
 
         ColumnLayout {
+            id: defaultRemoteNodes
+            anchors.margins: 0
+            Layout.fillWidth: true
+            Layout.topMargin: 20
+            spacing: 5 * scaleRatio
+            visible: !isMobile && persistentSettings.useRemoteNode
+
+            LokiComponents.WarningBox {
+                Layout.topMargin: 26 * scaleRatio
+                Layout.bottomMargin: 6 * scaleRatio
+                text: qsTr("To find other remote nodes, type 'Loki remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
+            }
+
+            Text {
+                Layout.fillWidth: true
+                Layout.preferredHeight: 20 * scaleRatio
+                Layout.topMargin: 8 * scaleRatio
+                color: LokiComponents.Style.defaultFontColor
+                font.family: LokiComponents.Style.fontRegular.name
+                font.pixelSize: 16 * scaleRatio
+                text: qsTr("Default Remote Node(s)") + translationManager.emptyString
+            }
+
+            Rectangle {
+                Layout.preferredHeight: 1 * scaleRatio
+                Layout.fillWidth: true
+                color: LokiComponents.Style.dividerColor
+                opacity: LokiComponents.Style.dividerOpacity
+            }
+
+            Text {
+                visible: (getRemoteNodeList().length == 0)
+                Layout.fillWidth: true
+                color: LokiComponents.Style.defaultFontColor
+                font.family: LokiComponents.Style.fontRegular.name
+                font.pixelSize: 16 * scaleRatio
+                text: qsTr("No default remote nodes available") + translationManager.emptyString
+                Layout.bottomMargin: 6 * scaleRatio
+            }
+
+            ColumnLayout {
+                anchors.margins: 0
+                Layout.topMargin: 20
+                Layout.fillWidth: true
+                spacing: 5 * scaleRatio
+
+                ListView {
+                    visible: getRemoteNodeList().length > 0
+                    height: 200 * scaleRatio
+                    Layout.fillWidth: true
+                    clip: true
+                    boundsBehavior: Flickable.StopAtBounds
+                    model: getRemoteNodeList()
+
+                    delegate: Rectangle {
+                        color: "transparent"
+                        height: 34 * scaleRatio
+                        Layout.fillWidth: true
+
+                        LokiComponents.StandardButton {
+                            id: defaultNodeButton
+                            anchors.left: parent.left
+                            small: true
+                            text: qsTr("Load Preset") + translationManager.emptyString
+                            width: 120 * scaleRatio
+                            onClicked: {
+
+                                var node_split = modelData.split(":");
+                                if(node_split.length == 2){
+                                    (node_split[1].trim() == "") ? "" : node_split[1];
+                                } else {
+                                    return;
+                                }
+
+                                remoteNodeEdit.daemonAddrText = node_split[0];
+                                remoteNodeEdit.daemonPortText = node_split[1];
+                            }
+                        }
+
+                        Text {
+                            Layout.preferredHeight: 16 * scaleRatio
+                            anchors.left: defaultNodeButton.right
+                            anchors.leftMargin: 8 * scaleRatio
+                            anchors.verticalCenter: defaultNodeButton.verticalCenter
+                            color: LokiComponents.Style.defaultFontColor
+                            font.family: LokiComponents.Style.fontRegular.name
+                            font.pixelSize: 14 * scaleRatio
+                            text: "Address: " + modelData
+                        }
+                    }
+                }
+
+                Rectangle {
+                    Layout.preferredHeight: 1 * scaleRatio
+                    Layout.fillWidth: true
+                    color: LokiComponents.Style.dividerColor
+                    opacity: LokiComponents.Style.dividerOpacity
+                }
+            }
+
+        }
+
+        ColumnLayout {
             id: remoteNodeLayout
             anchors.margins: 0
             spacing: 20 * scaleRatio
@@ -271,21 +373,13 @@ Rectangle{
             Layout.topMargin: 20
             visible: !isMobile && persistentSettings.useRemoteNode
 
-            LokiComponents.WarningBox {
-                Layout.topMargin: 26 * scaleRatio
-                Layout.bottomMargin: 6 * scaleRatio
-                text: qsTr("To find a remote node, type 'Loki remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
-            }
-
             LokiComponents.RemoteNodeEdit {
                 id: remoteNodeEdit
-                Layout.minimumWidth: 100 * scaleRatio
+                Layout.minimumWidth: 200 * scaleRatio
 
                 lineEditBackgroundColor: "transparent"
                 lineEditFontColor: "white"
                 lineEditFontBold: false
-                lineEditBorderColor: Qt.rgba(255, 255, 255, 0.35)
-                labelFontSize: 14 * scaleRatio
                 placeholderFontSize: 15 * scaleRatio
 
                 daemonAddrLabelText: qsTr("Address")
@@ -293,7 +387,7 @@ Rectangle{
 
                 property var rna: persistentSettings.remoteNodeAddress
                 daemonAddrText: rna.search(":") != -1 ? rna.split(":")[0].trim() : ""
-                daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "18081" : rna.split(":")[1] : ""
+                daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "" : rna.split(":")[1] : ""
                 onEditingFinished: {
                     persistentSettings.remoteNodeAddress = remoteNodeEdit.getAddress();
                     console.log("setting remote node to " + persistentSettings.remoteNodeAddress)
@@ -307,24 +401,19 @@ Rectangle{
                 LokiComponents.LineEdit {
                     id: daemonUsername
                     Layout.fillWidth: true
-                    labelText: "Daemon username"
+                    labelText: "Daemon Username"
                     text: persistentSettings.daemonUsername
                     placeholderText: qsTr("(optional)") + translationManager.emptyString
                     placeholderFontSize: 15 * scaleRatio
-                    labelFontSize: 14 * scaleRatio
-                    fontSize: 15 * scaleRatio
                 }
 
                 LokiComponents.LineEdit {
                     id: daemonPassword
                     Layout.fillWidth: true
-                    labelText: "Daemon password"
+                    labelText: "Daemon Password"
                     text: persistentSettings.daemonPassword
                     placeholderText: qsTr("Password") + translationManager.emptyString
                     echoMode: TextInput.Password
-                    placeholderFontSize: 15 * scaleRatio
-                    labelFontSize: 14 * scaleRatio
-                    fontSize: 15 * scaleRatio
                 }
             }
 
@@ -373,47 +462,11 @@ Rectangle{
             anchors.right: parent.right
             visible: !isMobile && !persistentSettings.useRemoteNode
 
-            Rectangle {
-                color: "transparent"
-                Layout.topMargin: 0 * scaleRatio
-                Layout.bottomMargin: 8 * scaleRatio
-                Layout.preferredHeight: 24 * scaleRatio
-                Layout.preferredWidth: parent.width
-
-                Rectangle {
-                    id: rectStopNode
-                    color: LokiComponents.Style.buttonBackgroundColor
-                    width: btnStopNode.width + 40
-                    height: 24
-
-                    Text {
-                        id: btnStopNode
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        color: LokiComponents.Style.defaultFontColor
-                        font.family: LokiComponents.Style.fontRegular.name
-                        font.pixelSize: 14 * scaleRatio
-                        font.bold: true
-                        text: qsTr("Stop Local Node") + translationManager.emptyString
-                    }
-
-                    MouseArea {
-                        cursorShape: Qt.PointingHandCursor
-                        anchors.fill: parent
-                        onClicked: {
-                            appWindow.stopDaemon();
-                        }
-                    }
-                }
-            }
-
             RowLayout {
                 LokiComponents.LineEditMulti {
                     id: blockchainFolder
                     Layout.preferredWidth: 200
                     Layout.fillWidth: true
-                    fontSize: 15 * scaleRatio
-                    labelFontSize: 14 * scaleRatio
                     property string style: "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #78BE20}</style>"
                     labelText: qsTr("Blockchain Location") + style + qsTr(" <a href='#'> (change)</a>") + translationManager.emptyString
                     placeholderText: qsTr("(default)") + translationManager.emptyString
@@ -442,8 +495,6 @@ Rectangle{
                     id: daemonFlags
                     Layout.preferredWidth:  200
                     Layout.fillWidth: true
-                    labelFontSize: 14 * scaleRatio
-                    fontSize: 15 * scaleRatio
                     labelText: qsTr("Daemon Startup Flags") + translationManager.emptyString
                     placeholderText: qsTr("(optional)") + translationManager.emptyString
                     placeholderFontSize: 15 * scaleRatio
@@ -465,11 +516,8 @@ Rectangle{
     
                         lineEditBackgroundColor: "transparent"
                         lineEditFontColor: "white"
-                        lineEditBorderColor: LokiComponents.Style.inputBorderColorActive
                         placeholderFontSize: 15 * scaleRatio
-                        labelFontSize: 14 * scaleRatio
                         lineEditFontBold: false
-                        lineEditFontSize: 15 * scaleRatio
 
                         daemonAddrLabelText: qsTr("Bootstrap Address")
                         daemonPortLabelText: qsTr("Bootstrap Port")
@@ -477,7 +525,7 @@ Rectangle{
                         daemonPortText: {
                             var node_split = persistentSettings.bootstrapNodeAddress.split(":");
                             if(node_split.length == 2){
-                                (node_split[1].trim() == "") ? "18081" : node_split[1];
+                                (node_split[1].trim() == "") ? "" : node_split[1];
                             } else {
                                 return ""
                             }
@@ -489,6 +537,29 @@ Rectangle{
                     }
                 }
             }
+
+            LokiComponents.StandardButton {
+                id: startDaemonButton
+                small: true
+                visible: !appWindow.daemonRunning
+                text: qsTr("Start Local Node") + translationManager.emptyString
+                onClicked: {
+                    persistentSettings.bootstrapNodeAddress = bootstrapNodeEdit.daemonAddrText ? bootstrapNodeEdit.getAddress() : "";
+                    appWindow.currentDaemonAddress = appWindow.localDaemonAddress;
+                    appWindow.startDaemon(daemonFlags.text);
+                }
+            }
+
+            LokiComponents.StandardButton {
+                id: stopDaemonButton
+                small: true
+                visible: appWindow.daemonRunning
+                text: qsTr("Stop Local Node") + translationManager.emptyString
+                onClicked: {
+                    appWindow.stopDaemon()
+                }
+            }
+
         } 
     }
 }

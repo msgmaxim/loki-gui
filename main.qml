@@ -76,7 +76,7 @@ ApplicationWindow {
     property bool remoteNodeConnected: false
     property bool androidCloseTapped: false;
     // Default daemon addresses
-    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:22023" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:38151" : "localhost:38154"
+    readonly property string localDaemonAddress : persistentSettings.nettype == NetworkType.MAINNET ? "localhost:22023" : persistentSettings.nettype == NetworkType.TESTNET ? "localhost:38157" : "localhost:38154"
     property string currentDaemonAddress;
     property bool startLocalNodeCancelled: false
     property int estimatedBlockchainSize: 50 // GB
@@ -85,6 +85,16 @@ ApplicationWindow {
     property bool walletInitialized : false
 
     function altKeyReleased() { ctrlPressed = false; }
+
+    function getRemoteNodeList()
+    {
+        if (persistentSettings.nettype == NetworkType.TESTNET)
+            return testnetRemoteNodeList;
+        if (persistentSettings.nettype == NetworkType.STAGENET)
+            return stagenetRemoteNodeList;
+
+        return mainnetRemoteNodeList;
+    }
 
     function showPageRequest(page) {
         middlePanel.state = page
@@ -368,7 +378,7 @@ ApplicationWindow {
 
         // If wallet isnt connected and no daemon is running - Ask
         if(!isMobile && walletManager.isDaemonLocal(appWindow.persistentSettings.daemon_address) && !walletInitialized && status === Wallet.ConnectionStatus_Disconnected && !daemonManager.running(persistentSettings.nettype)){
-            daemonManagerDialog.open();
+            chooseDaemonModalDialog.open();
         }
         // initialize transaction history once wallet is initialized first time;
         if (!walletInitialized) {
@@ -1005,7 +1015,7 @@ ApplicationWindow {
         property bool   allow_background_mining : false
         property bool   miningIgnoreBattery : true
         property var    nettype: NetworkType.MAINNET
-        property string daemon_address: nettype == NetworkType.TESTNET ? "localhost:38151" : nettype == NetworkType.STAGENET ? "localhost:38154" : "localhost:22023"
+        property string daemon_address: nettype == NetworkType.TESTNET ? "localhost:38157" : nettype == NetworkType.STAGENET ? "localhost:38154" : "localhost:22023"
         property string payment_id
         property int    restore_height : 0
         property bool   is_recovering : false
@@ -1236,6 +1246,11 @@ ApplicationWindow {
         }
 
     }
+
+    ChooseDaemonModalDialog {
+        id: chooseDaemonModalDialog
+    }
+
 
     ProcessingSplash {
         id: splash
@@ -1818,6 +1833,6 @@ ApplicationWindow {
         visible: false
         anchors.fill: parent
         color: "black"
-        opacity: 0.8
+        opacity: 0.9
     }
 }

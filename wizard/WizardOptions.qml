@@ -236,7 +236,7 @@ ColumnLayout {
             CheckBox2 {
                 id: showAdvancedCheckbox
                 darkDropIndicator: true
-                text: qsTr("Advanced options") + translationManager.emptyString
+                text: qsTr("Advanced Options") + translationManager.emptyString
             }
         }
 

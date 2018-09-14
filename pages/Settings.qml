@@ -240,7 +240,6 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Style.inputBorderColorActive
 
                     daemonAddrLabelText: qsTr("Address") + translationManager.emptyString
                     daemonPortLabelText: qsTr("Port") + translationManager.emptyString
@@ -248,7 +247,7 @@ Rectangle {
                     daemonPortText: {
                         var node_split = persistentSettings.bootstrapNodeAddress.split(":");
                         if(node_split.length == 2){
-                            (node_split[1].trim() == "") ? "18081" : node_split[1];
+                            (node_split[1].trim() == "") ? "" : node_split[1];
                         } else {
                             return ""
                         }
@@ -272,14 +271,13 @@ Rectangle {
 
                     lineEditBackgroundColor: "transparent"
                     lineEditFontColor: "white"
-                    lineEditBorderColor: Qt.rgba(255, 255, 255, 0.25)
 
                     daemonAddrLabelText: qsTr("Address")
                     daemonPortLabelText: qsTr("Port")
 
                     property var rna: persistentSettings.remoteNodeAddress
                     daemonAddrText: rna.search(":") != -1 ? rna.split(":")[0].trim() : ""
-                    daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "18081" : rna.split(":")[1] : ""
+                    daemonPortText: rna.search(":") != -1 ? (rna.split(":")[1].trim() == "") ? "" : rna.split(":")[1] : ""
                     onEditingFinished: {
                         persistentSettings.remoteNodeAddress = remoteNodeEdit.getAddress();
                         console.log("setting remote node to " + persistentSettings.remoteNodeAddress)
@@ -427,6 +425,7 @@ Rectangle {
 
         ColumnLayout {
             visible: (daemonAdvanced.checked || isMobile) && persistentSettings.useRemoteNode
+
             GridLayout {
                 columns: (isMobile) ? 1 : 2
                 columnSpacing: 32
