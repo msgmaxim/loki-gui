@@ -89,38 +89,6 @@ static QStringList loadOrCreateDefaultRemoteNodesFromSettings(QSettings *setting
 
     settings->beginGroup(group_id);
     int remoteNodeArrayLen = settings->beginReadArray(remoteNodeArrayId);
-    settings->endArray();
-
-    if (remoteNodeArrayLen == 0)
-    {
-        size_t remoteNodeIndex = 0;
-        settings->beginWriteArray(remoteNodeArrayId);
-        if (nettype == NetworkType::Type::MAINNET)
-        {
-            settings->setArrayIndex(remoteNodeIndex++);
-            settings->setValue("url", "doopool.xyz");
-            settings->setValue("port", "22020");
-
-            settings->setArrayIndex(remoteNodeIndex++);
-            settings->setValue("url", "pool.loki.hashvault.pro");
-            settings->setValue("port", "22020");
-
-            settings->setArrayIndex(remoteNodeIndex++);
-            settings->setValue("url", "daemons.cryptopool.space");
-            settings->setValue("port", "22023");
-
-            settings->setArrayIndex(remoteNodeIndex++);
-            settings->setValue("url", "node.loki-pool.com");
-            settings->setValue("port", "18081");
-
-            settings->setArrayIndex(remoteNodeIndex++);
-            settings->setValue("url", "uk.loki.cash");
-            settings->setValue("port", "22020");
-        }
-        settings->endArray();
-    }
-
-    remoteNodeArrayLen = settings->beginReadArray(remoteNodeArrayId);
     QStringList result;
     result.reserve(remoteNodeArrayLen);
     for (int i = 0; i < remoteNodeArrayLen; ++i)

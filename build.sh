@@ -117,6 +117,7 @@ if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
 cp ../$LOKI_DIR/bin/$LOKID_EXEC $BIN_PATH
 fi
 
-# make deploy
+make deploy
 popd
 
+cp loki_default_settings.ini build/$BIN_PATH/loki.ini
