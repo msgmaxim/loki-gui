@@ -1070,7 +1070,6 @@ The following information will be deleted
 - Recipient addresses
 - Tx keys
 - Tx descriptions
-
 The old wallet cache file will be renamed and can be restored later.
 </source>
         <translation type="unfinished"></translation>
@@ -1392,7 +1391,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>Sign</name>
+    <name>SharedRingDB</name>
     <message>
         <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
@@ -2484,7 +2483,6 @@ Payment ID: </source>
         <location filename="../main.qml" line="622"/>
         <location filename="../main.qml" line="736"/>
         <source>
-
 Amount: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2498,7 +2496,6 @@ Fee: </source>
     <message>
         <location filename="../main.qml" line="624"/>
         <source>
-
 Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>

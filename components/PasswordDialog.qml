@@ -71,7 +71,7 @@ Item {
     }
 
     ColumnLayout {
-        z: bg.z + 1
+        z: inactiveOverlay.z + 1
         id: mainLayout
         spacing: 10
         anchors { fill: parent; margins: 35 * scaleRatio }
@@ -109,6 +109,8 @@ Item {
                 leftPadding: 10
                 topPadding: 10
                 color: LokiComponents.Style.defaultFontColor
+                selectionColor: LokiComponents.Style.dimmedFontColor
+                selectedTextColor: LokiComponents.Style.defaultFontColor
 
                 background: Rectangle {
                     radius: 2
@@ -126,6 +128,7 @@ Item {
                     }
                 }
 
+                Keys.enabled: root.visible
                 Keys.onReturnPressed: {
                     root.close()
                     root.accepted()

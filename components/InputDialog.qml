@@ -47,6 +47,7 @@ Item {
     signal rejected()
 
     function open() {
+        inactiveOverlay.visible = true
         leftPanel.enabled = false
         middlePanel.enabled = false
         titleBar.enabled = false
@@ -57,6 +58,7 @@ Item {
     }
 
     function close() {
+        inactiveOverlay.visible = false
         leftPanel.enabled = true
         middlePanel.enabled = true
         titleBar.enabled = true
@@ -64,7 +66,7 @@ Item {
     }
 
     ColumnLayout {
-        z: bg.z + 1
+        z: parent.z + 1
         id: mainLayout
         spacing: 10
         anchors { fill: parent; margins: 35 }
@@ -102,6 +104,8 @@ Item {
                 leftPadding: 10
                 topPadding: 10
                 color: LokiComponents.Style.defaultFontColor
+                selectionColor: LokiComponents.Style.dimmedFontColor
+                selectedTextColor: LokiComponents.Style.defaultFontColor
 
                 background: Rectangle {
                     radius: 2
@@ -153,13 +157,5 @@ Item {
                 }
             }
         }
-    }
-
-    Rectangle {
-        id: bg
-        z: parent.z + 1
-        anchors.fill: parent
-        color: "black"
-        opacity: 0.8
     }
 }

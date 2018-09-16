@@ -162,7 +162,7 @@ ListView {
                 }
 
                 Text {
-                    font.family: Style.fontRegular.name
+                    font.family: LokiComponents.Style.fontRegular.name
                     font.pixelSize: 14 * scaleRatio
                     color: LokiComponents.Style.dimmedFontColor
                     text: time

@@ -9,6 +9,7 @@
         <file>components/AddressBookTable.qml</file>
         <file>components/CheckBox.qml</file>
         <file>components/CheckBox2.qml</file>
+        <file>components/ChooseDaemonModalDialog.qml</file>
         <file>components/DaemonConsole.qml</file>
         <file>components/DaemonManagerDialog.qml</file>
         <file>components/DashboardTable.qml</file>
@@ -38,6 +39,7 @@
         <file>components/ProcessingSplash.qml</file>
         <file>components/ProgressBar.qml</file>
         <file>components/QRCodeScanner.qml</file>
+        <file>components/RadioButton.qml</file>
         <file>components/RemoteNodeEdit.qml</file>
         <file>components/Scroll.qml</file>
         <file>components/SearchInput.qml</file>
@@ -45,19 +47,19 @@
         <file>components/StandardDialog.qml</file>
         <file>components/StandardDropdown.qml</file>
         <file>components/Style.qml</file>
-        <file>components/SubaddressTable.qml</file>
         <file>components/TableDropdown.qml</file>
         <file>components/TableHeader.qml</file>
         <file>components/TextBlock.qml</file>
         <file>components/TickDelegate.qml</file>
         <file>components/TipItem.qml</file>
         <file>components/TitleBar.qml</file>
+        <file>components/WarningBox.qml</file>
         <file>components/qmldir</file>
 
-        <file>fonts/SFUIDisplay-Bold.otf</file>
-        <file>fonts/SFUIDisplay-Light.otf</file>
-        <file>fonts/SFUIDisplay-Medium.otf</file>
-        <file>fonts/SFUIDisplay-Regular.otf</file>
+        <file>fonts/Roboto-Medium.ttf</file>
+        <file>fonts/Roboto-Regular.ttf</file>
+        <file>fonts/Roboto-Light.ttf</file>
+        <file>fonts/Roboto-Bold.ttf</file>
 
         <file>images/CheckedGreenIcon.png</file>
         <file>images/CreateNewWallet.png</file>
@@ -92,6 +94,7 @@
         <file>images/expand.png</file>
         <file>images/expandRightPanel.png</file>
         <file>images/expandTable.png</file>
+        <file>images/editIcon.png</file>
         <file>images/fullscreen.png</file>
         <file>images/greyTriangle.png</file>
         <file>images/helpIcon.png</file>
@@ -124,6 +127,10 @@
         <file>images/uncheckedIcon.png</file>
         <file>images/upArrow-green.png</file>
         <file>images/warning.png</file>
+        <file>images/settings_remote.png</file>
+        <file>images/settings_navbar_side.png</file>
+        <file>images/settings_navbar_side_active.png</file>
+        <file>images/settings_local.png</file>
         <file>images/whiteDropIndicator.png</file>
 
         <file>js/TxUtils.js</file>
@@ -142,11 +149,13 @@
         <file>lang/flags/finland.png</file>
         <file>lang/flags/france.png</file>
         <file>lang/flags/german.png</file>
+        <file>lang/flags/hungary.png</file>
         <file>lang/flags/india.png</file>
         <file>lang/flags/indonesia.png</file>
         <file>lang/flags/israel.png</file>
         <file>lang/flags/italy.png</file>
         <file>lang/flags/japan.png</file>
+        <file>lang/flags/lt.png</file>
         <file>lang/flags/netherlands.png</file>
         <file>lang/flags/palestine.png</file>
         <file>lang/flags/poland.png</file>
@@ -173,11 +182,17 @@
         <file>pages/Keys.qml</file>
         <file>pages/Mining.qml</file>
         <file>pages/Receive.qml</file>
-        <file>pages/Settings.qml</file>
         <file>pages/SharedRingDB.qml</file>
         <file>pages/Sign.qml</file>
         <file>pages/Transfer.qml</file>
         <file>pages/TxKey.qml</file>
+        <file>pages/settings/Settings.qml</file>
+        <file>pages/settings/SettingsWallet.qml</file>
+        <file>pages/settings/SettingsNode.qml</file>
+        <file>pages/settings/SettingsLog.qml</file>
+        <file>pages/settings/SettingsLayout.qml</file>
+        <file>pages/settings/SettingsInfo.qml</file>
+        <file>pages/settings/Navbar.qml</file>
 
         <file>tabs/TweetsModel.qml</file>
         <file>tabs/Twitter.qml</file>

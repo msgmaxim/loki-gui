@@ -151,9 +151,9 @@ Window {
                         textArea.append(_timestamp + " " + _msg);
 
                         // scroll to bottom
-                        if(flickable.contentHeight > content.height){
-                            flickable.contentY = flickable.contentHeight + 20;
-                        }
+                        //if(flickable.contentHeight > content.height){
+                        //    flickable.contentY = flickable.contentHeight + 20;
+                        //}
                     }
                 }
 
@@ -174,7 +174,6 @@ Window {
 
             LokiComponents.LineEdit {
                 id: sendCommandText
-                width: 300
                 Layout.fillWidth: true
                 placeholderText: qsTr("Command + Enter (e.g Help)") + translationManager.emptyString
                 onAccepted: {

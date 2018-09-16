@@ -54,7 +54,7 @@ Rectangle{
         font.family: LokiComponents.Style.fontRegular.name
         font.pixelSize: 14 * scaleRatio
         text: labelHeader
-        color: LokiComponents.Style.greyFontColor
+        color: LokiComponents.Style.dimmedFontColor
     }
 
     Text {
@@ -78,7 +78,7 @@ Rectangle{
             label2.color = LokiComponents.Style.defaultFontColor;
         }
         onExited: {
-            label1.color = LokiComponents.Style.greyFontColor;
+            label1.color = LokiComponents.Style.dimmedFontColor;
             label2.color = LokiComponents.Style.dimmedFontColor;
         }
         onClicked: {

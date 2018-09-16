@@ -230,17 +230,46 @@ ColumnLayout {
         Layout.rightMargin: wizardRightMargin
         Layout.topMargin: 30 * scaleRatio
         Layout.fillWidth: true
-        spacing: 50 * scaleRatio
+        spacing: 38 * scaleRatio
+
+        RowLayout {
+            CheckBox2 {
+                id: showAdvancedCheckbox
+                darkDropIndicator: true
+                text: qsTr("Advanced Options") + translationManager.emptyString
+            }
+        }
 
         Rectangle {
             width: 100 * scaleRatio
-            CheckBox {
+            RadioButton {
+                visible: showAdvancedCheckbox.checked
+                enabled: !this.checked
+                id: mainNet
+                text: qsTr("Mainnet") + translationManager.emptyString
+                fontSize: 16 * scaleRatio
+                checked: appWindow.persistentSettings.nettype == NetworkType.MAINNET;
+                onClicked: {
+                    persistentSettings.nettype = NetworkType.MAINNET
+                    testNet.checked = false;
+                    stageNet.checked = false;
+                    console.log("Network type set to MainNet")
+                }
+            }
+        }
+
+        Rectangle {
+            width: 100 * scaleRatio
+            RadioButton {
+                visible: showAdvancedCheckbox.checked
+                enabled: !this.checked
                 id: testNet
                 text: qsTr("Testnet") + translationManager.emptyString
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.TESTNET;
                 onClicked: {
                     persistentSettings.nettype = testNet.checked ? NetworkType.TESTNET : NetworkType.MAINNET
+                    mainNet.checked = false;
                     stageNet.checked = false;
                     console.log("Network type set to ", persistentSettings.nettype == NetworkType.TESTNET ? "Testnet" : "Mainnet")
                 }
@@ -249,13 +278,16 @@ ColumnLayout {
 
         Rectangle {
             width: 100 * scaleRatio
-            CheckBox {
+            RadioButton {
+                visible: showAdvancedCheckbox.checked
+                enabled: !this.checked
                 id: stageNet
                 text: qsTr("Stagenet") + translationManager.emptyString
                 fontSize: 16 * scaleRatio
                 checked: appWindow.persistentSettings.nettype == NetworkType.STAGENET;
                 onClicked: {
                     persistentSettings.nettype = stageNet.checked ? NetworkType.STAGENET : NetworkType.MAINNET
+                    mainNet.checked = false;
                     testNet.checked = false;
                     console.log("Network type set to ", persistentSettings.nettype == NetworkType.STAGENET ? "Stagenet" : "Mainnet")
                 }

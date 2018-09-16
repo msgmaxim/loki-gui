@@ -38,6 +38,7 @@ import QtGraphicalEffects 1.0
 import LokiComponents.Wallet 1.0
 
 import "./pages"
+import "./pages/settings"
 
 Rectangle {
     id: root
@@ -122,7 +123,7 @@ Rectangle {
             }, State {
                name: "Receive"
                PropertyChanges { target: root; currentView: receiveView }
-               PropertyChanges { target: mainFlickable; contentHeight: 1000 * scaleRatio }
+               PropertyChanges { target: mainFlickable; contentHeight: receiveView.receiveHeight + 100 }
             }, State {
                name: "TxKey"
                PropertyChanges { target: root; currentView: txkeyView }
@@ -142,7 +143,7 @@ Rectangle {
             }, State {
                 name: "Settings"
                PropertyChanges { target: root; currentView: settingsView }
-               PropertyChanges { target: mainFlickable; contentHeight: settingsView.settingsHeight + 100 }
+               PropertyChanges { target: mainFlickable; contentHeight: settingsView.settingsHeight }
             }, State {
                 name: "Mining"
                 PropertyChanges { target: root; currentView: miningView }
@@ -153,6 +154,18 @@ Rectangle {
                 PropertyChanges { target: mainFlickable; contentHeight: minHeight  + 200 * scaleRatio }
             }
         ]
+
+
+    // color stripe at the top
+    Row {
+        id: styledRow
+        height: 4
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.right: parent.right
+
+        Rectangle { height: 4; width: parent.width; color: "#008522" }
+    }
 
     ColumnLayout {
         anchors.fill: parent

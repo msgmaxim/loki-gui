@@ -51,9 +51,10 @@ GridLayout {
     property string placeholderColor: LokiComponents.Style.defaultFontColor
     property real placeholderOpacity: 0.25
 
-    property string lineEditBorderColor: Qt.rgba(0, 0, 0, 0.15)
     property string lineEditBackgroundColor: "white"
     property string lineEditFontColor: "black"
+    property int lineEditFontSize: 18 * scaleRatio
+    property int labelFontSize: 16 * scaleRatio
     property bool lineEditFontBold: true
 
     signal editingFinished()
@@ -62,7 +63,7 @@ GridLayout {
         return daemonAddr.text.trim() + ":" + daemonPort.text.trim()
     }
 
-    LineEdit {
+    LineEditMulti {
         id: daemonAddr
         Layout.fillWidth: true
         placeholderText: qsTr("Remote Node Hostname / IP") + translationManager.emptyString
@@ -71,14 +72,15 @@ GridLayout {
         placeholderFontSize: root.placeholderFontSize
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
-        onEditingFinished: root.editingFinished()
-
+        labelFontSize: root.labelFontSize
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold
+        fontSize: lineEditFontSize
+        onEditingFinished: root.editingFinished()
     }
 
-    LineEdit {
+    LineEditMulti {
         id: daemonPort
         Layout.fillWidth: true
         placeholderText: qsTr("Port") + translationManager.emptyString
@@ -87,10 +89,12 @@ GridLayout {
         placeholderFontSize: root.placeholderFontSize
         placeholderColor: root.placeholderColor
         placeholderOpacity: root.placeholderOpacity
-        onEditingFinished: root.editingFinished()
-
+        labelFontSize: root.labelFontSize
         backgroundColor: lineEditBackgroundColor
         fontColor: lineEditFontColor
         fontBold: lineEditFontBold
+        fontSize: lineEditFontSize
+
+        onEditingFinished: root.editingFinished()
     }
 }
