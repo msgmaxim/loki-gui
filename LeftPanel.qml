@@ -53,6 +53,7 @@ Rectangle {
     signal transferClicked()
     signal receiveClicked()
     signal txkeyClicked()
+    signal serviceNodeClicked()
     signal sharedringdbClicked()
     signal settingsClicked()
     signal addressBookClicked()
@@ -69,6 +70,7 @@ Rectangle {
         else if(pos === "AddressBook") menuColumn.previousButton = addressBookButton
         else if(pos === "Mining") menuColumn.previousButton = miningButton
         else if(pos === "TxKey")  menuColumn.previousButton = txkeyButton
+        else if(pos === "ServiceNode")  menuColumn.previousButton = serviceNodeButton
         else if(pos === "SharedRingDB")  menuColumn.previousButton = sharedringdbButton
         else if(pos === "Sign") menuColumn.previousButton = signButton
         else if(pos === "Settings") menuColumn.previousButton = settingsButton
@@ -472,6 +474,31 @@ Rectangle {
                 color: "#313131"
                 height: 1
             }
+
+            // ------------- Service Node tab ----------------
+            MenuButton {
+                id: serviceNodeButton
+                anchors.left: parent.left
+                anchors.right: parent.right
+                text: qsTr("Service Node") + translationManager.emptyString
+                symbol: qsTr("K") + translationManager.emptyString
+                dotColor: "#FFD781"
+                under: advancedButton
+                onClicked: {
+                    parent.previousButton.checked = false
+                    parent.previousButton = serviceNodeButton
+                    panel.serviceNodeClicked()
+                }
+            }
+            Rectangle {
+                visible: true
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.leftMargin: 16
+                color: "#313131"
+                height: 1
+            }
+
             // ------------- Shared RingDB tab ---------------
             MenuButton {
                 id: sharedringdbButton

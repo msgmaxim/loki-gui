@@ -141,7 +141,8 @@ ApplicationWindow {
             else if(middlePanel.state === "Receive") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "TxKey"
-            else if(middlePanel.state === "TxKey") middlePanel.state = "SharedRingDB"
+            else if(middlePanel.state === "TxKey") middlePanel.state = "ServiceNode"
+            else if(middlePanel.state === "ServiceNode") middlePanel.state = "SharedRingDB"
             else if(middlePanel.state === "SharedRingDB") middlePanel.state = "Sign"
             else if(middlePanel.state === "Sign") middlePanel.state = "Settings"
         } else if(seq === "Ctrl+Shift+Backtab" || seq === "Alt+Shift+Backtab") {
@@ -159,7 +160,8 @@ ApplicationWindow {
             */
             if(middlePanel.state === "Settings") middlePanel.state = "Sign"
             else if(middlePanel.state === "Sign") middlePanel.state = "SharedRingDB"
-            else if(middlePanel.state === "SharedRingDB") middlePanel.state = "TxKey"
+            else if(middlePanel.state === "SharedRingDB") middlePanel.state = "ServiceNode"
+            else if(middlePanel.state === "ServiceNode") middlePanel.state = "TxKey"
             else if(middlePanel.state === "TxKey") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "Receive"
@@ -1371,6 +1373,14 @@ ApplicationWindow {
             onTxkeyClicked: {
                 middlePanel.state = "TxKey";
                 middlePanel.flickable.contentY = 0;
+                if(isMobile) {
+                    hideMenu();
+                }
+                updateBalance();
+            }
+
+            onServiceNodeClicked: {
+                middlePanel.state = "ServiceNode";
                 if(isMobile) {
                     hideMenu();
                 }
