@@ -76,6 +76,7 @@ Rectangle {
             color: Style.defaultFontColor
         }
 
+        /// TODO: draw red borders when service node key is invalid
         LineEdit {
             labelText: qsTr("Service Node Key") + translationManager.emptyString
             id: getServiceNodeKey
@@ -86,14 +87,24 @@ Rectangle {
             copyButton: true
         }
 
-        LineEdit {
+        LineEditMulti {
             labelText: qsTr("Award Recepient's Address") + translationManager.emptyString
             id: getRewardAddress
             fontSize: 16 * scaleRatio
             placeholderText: qsTr("Paste Address") + translationManager.emptyString
             readOnly: false
+            wrapMode: Text.WrapAnywhere
+            text: appWindow.currentWallet.address(0, 0);
             Layout.fillWidth: true
+            addressValidation: true
             copyButton: true
+        }
+
+        Text {
+            property bool owned: { getRewardAddress.text == appWindow.currentWallet.address(0, 0) }
+            text: { owned ? "(yours)" : "(not yours)"}
+            color: owned ? Style.defaultFontColor : Style.dangerColor
+            anchors.right: parent.right
         }
 
         LineEdit {
@@ -104,19 +115,36 @@ Rectangle {
             readOnly: false
             Layout.fillWidth: true
             copyButton: true
+            fontBold: true
+            validator: RegExpValidator {
+                regExp: /(\d{1,8})([.]\d{1,12})?$/
+            }
         }
 
         StandardButton {
-              id: sendButton
+              id: stakeButton
               Layout.topMargin: 4 * scaleRatio
+              Layout.minimumWidth: 60
               text: qsTr("Stake") + translationManager.emptyString
-              enabled : {
+              enabled: {
+                  if (appWindow.viewOnly) return false;
+
+                  if (getAmount.text == "" || parseFloat(getAmount.text) > parseFloat(unlockedBalanceText)) {
+                      return false;
+                  }
+
+                  let address_ok = walletManager.addressValid(getRewardAddress.text, appWindow.persistentSettings.nettype);
+
+                  let sn_pub_key = walletManager.serviceNodePubkeyValid(getServiceNodeKey.text);
+
+                  if (!address_ok || !sn_pub_key) return false;
+
                   return true;
               }
               onClicked: {
-
+                  currentWallet.stake(getServiceNodeKey.text, getRewardAddress.text, getAmount.text);
               }
-          }
+        }
 
     }
 

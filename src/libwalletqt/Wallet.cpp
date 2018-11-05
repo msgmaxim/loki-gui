@@ -417,6 +417,30 @@ void Wallet::createTransactionAsync(const QString &dst_addr, const QString &paym
     watcher->setFuture(future);
 }
 
+Q_INVOKABLE void Wallet::stake(const QString& sn_key_str, const QString& address, const QString& amount)
+{
+
+    QFuture<Monero::PendingTransaction*> future = QtConcurrent::run([this, &sn_key_str, &address, &amount] () {
+        return m_walletImpl->stakePending(sn_key_str.toStdString(), address.toStdString(), amount.toStdString());
+    });
+
+    QFutureWatcher<Monero::PendingTransaction*> * watcher = new QFutureWatcher<Monero::PendingTransaction*>();
+
+    connect(watcher, &QFutureWatcher<PendingTransaction*>::finished, [this, watcher, &address]() {
+        QFuture<Monero::PendingTransaction*> future = watcher->future();
+        watcher->deleteLater();
+
+        Monero::PendingTransaction* tx = future.result();
+        if (!tx) return;
+
+        /// Who is responsible for cleaning this up?
+        PendingTransaction* pending_tx = new PendingTransaction(tx);
+        emit stakeTxCreated(pending_tx, address);
+    });
+    watcher->setFuture(future);
+
+}
+
 PendingTransaction *Wallet::createTransactionAll(const QString &dst_addr, const QString &payment_id,
                                                  quint32 mixin_count, PendingTransaction::Priority priority)
 {

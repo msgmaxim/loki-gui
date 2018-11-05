@@ -217,6 +217,11 @@ bool WalletManager::addressValid(const QString &address, NetworkType::Type netty
     return Monero::Wallet::addressValid(address.toStdString(), static_cast<Monero::NetworkType>(nettype));
 }
 
+bool WalletManager::serviceNodePubkeyValid(const QString &address) const
+{
+    return Monero::Wallet::serviceNodePubkeyValid(address.toStdString());
+}
+
 bool WalletManager::keyValid(const QString &key, const QString &address, bool isViewKey,  NetworkType::Type nettype) const
 {
     std::string error;

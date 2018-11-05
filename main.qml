@@ -274,6 +274,7 @@ ApplicationWindow {
             currentWallet.moneyReceived.disconnect(onWalletMoneyReceived)
             currentWallet.unconfirmedMoneyReceived.disconnect(onWalletUnconfirmedMoneyReceived)
             currentWallet.transactionCreated.disconnect(onTransactionCreated)
+            currentWallet.stakeTxCreated.disconnect(onStakeTxCreated)
             currentWallet.connectionStatusChanged.disconnect(onWalletConnectionStatusChanged)
             middlePanel.paymentClicked.disconnect(handlePayment);
             middlePanel.sweepUnmixableClicked.disconnect(handleSweepUnmixable);
@@ -329,6 +330,7 @@ ApplicationWindow {
         currentWallet.moneyReceived.connect(onWalletMoneyReceived)
         currentWallet.unconfirmedMoneyReceived.connect(onWalletUnconfirmedMoneyReceived)
         currentWallet.transactionCreated.connect(onTransactionCreated)
+        currentWallet.stakeTxCreated.connect(onStakeTxCreated)
         currentWallet.connectionStatusChanged.connect(onWalletConnectionStatusChanged)
         middlePanel.paymentClicked.connect(handlePayment);
         middlePanel.sweepUnmixableClicked.connect(handleSweepUnmixable);
@@ -657,6 +659,34 @@ ApplicationWindow {
             transactionConfirmationPopup.icon = StandardIcon.Question
             transactionConfirmationPopup.open()
         }
+    }
+
+    function makeStakeConfirmationPopup(tx, address) {
+
+        let popup = transactionConfirmationPopup;
+
+        popup.title = qsTr("Please Confirm Staking Transaction:\n") + translationManager.emptyString;
+        popup.icon = StandardIcon.Question
+
+        popup.text = "";
+        popup.text += (address === "" ? "" : (qsTr("Address: ") + address));
+        popup.text +=  qsTr("\n\nAmount: ") + walletManager.displayAmount(tx.amount);
+        popup.text +=  qsTr("\nFee: ") + walletManager.displayAmount(tx.fee);
+        popup.text +=  qsTr("\n\nNumber Of Transactions: ") + tx.txCount
+        popup.text += translationManager.emptyString;
+    }
+
+    function onStakeTxCreated(tx, address) {
+
+        transaction = tx;
+
+        transactionDescription = "stake transaction";
+
+        if (tx.status === PendingTransaction.Status_Ok) {
+            makeStakeConfirmationPopup(tx, address);
+            transactionConfirmationPopup.open();
+        }
+
     }
 
 
@@ -1381,6 +1411,7 @@ ApplicationWindow {
 
             onServiceNodeClicked: {
                 middlePanel.state = "ServiceNode";
+                middlePanel.flickable.contentY = 0;
                 if(isMobile) {
                     hideMenu();
                 }
