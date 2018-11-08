@@ -196,7 +196,7 @@ Item {
         LokiComponents.Input {
             id: input
             anchors.fill: parent
-            anchors.leftMargin: inlineIcon.visible ? 38 : 0
+            anchors.leftMargin: inlineIcon.visible ? 44 * scaleRatio : 0
             font.pixelSize: item.fontSize
             font.bold: item.fontBold
             onEditingFinished: item.editingFinished()
