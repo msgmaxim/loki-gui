@@ -189,12 +189,12 @@
     <message>
         <location filename="../pages/History.qml" line="73"/>
         <source> selected: </source>
-        <translation> 筆已選擇的交易總金額:</translation>
+        <translation> 已選擇: </translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -212,8 +212,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../pages/History.qml" line="191"/>
+        <source>Date from</source>
+        <translation>日期從</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="214"/>
+        <source>Date to</source>
+        <translation>日期到</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="229"/>
+        <source>Sort</source>
+        <translation>排序</translation>
+    </message>
+    <message>
         <source>Block height</source>
-        <translation type="obsolete">區塊高度</translation>
+        <translation>區塊高度</translation>
     </message>
 <message>
         <location filename="../pages/History.qml" line="238"/>
@@ -251,6 +266,11 @@
     <message>
         <source>Amount from</source>
         <translation type="vanished">金額從</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="278"/>
+        <source>No history...</source>
+        <translation>尚無歷史交易紀錄...</translation>
     </message>
 </context>
 <context>
@@ -450,6 +470,11 @@
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
         <translation>金鑰</translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="93"/>
+        <source>WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>警告: 請勿在其他的分叉幣上重複使用你的金鑰，除非該幣已內建金鑰重複使用保護措施，否則這將傷害你的交易隱私。</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="170"/>
@@ -684,12 +709,12 @@
     <message>
         <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>已複製至剪貼簿</translation>
     </message>
 </context>
 <context>
@@ -731,6 +756,11 @@
     <message>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="vanished">挖礦可增進 Loki 網路的安全性，只要越多使用者在挖礦，Loki 網路就會越難以被攻擊。&lt;br&gt; &lt;br&gt;挖礦也同時提供您機會賺取一些額外的 Loki 幣，因為在挖礦時，您的電腦將被用來尋找 Loki 區塊的解答，每當您找到一個區塊的解答，您即可以獲得其附帶的獎勵金，祝您好運！</translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="76"/>
+        <source>Your daemon must be synchronized before you can start mining</source>
+        <translation>您必須在節點完全同步之後才能開始進行挖礦</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -1150,6 +1180,16 @@
         <translation type="vanished">整合位址已複製到剪貼簿</translation>
     </message>
     <message>
+        <location filename="../pages/Receive.qml" line="330"/>
+        <source>Address copied to clipboard</source>
+        <translation>位址已複製到剪貼簿</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="435"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;這個QR碼包含了以上位址與其下輸入的金額。分享給您的交易對象(右鍵儲存)後他們即可方便地發送正確的金額給您。&lt;/p&gt;</translation>
+    </message>
+    <message>
         <location filename="../pages/Receive.qml" line="284"/>
         <source>Amount to receive</source>
         <translation>欲接收的金額</translation>
@@ -1168,8 +1208,9 @@
         <translation type="vanished">追蹤支付款</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Click Generate to create a random payment id for a new customer&lt;/p&gt; &lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;這是一個簡易的收款追蹤功能:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;在每次交易時請點擊&quot;產生&quot;一個隨機的付款ID&lt;/p&gt; &lt;p&gt;讓您的付款對象掃描QR碼 (如果對象的軟體支援QR掃描的話)&lt;/p&gt;&lt;p&gt;這個頁面將會自動尋找您在區塊鏈或交易池裡即將收到的款項，如果您有輸入金額，本功能亦會進行確認即將收到款項的總金額&lt;/p&gt;您可以自行決定是否要在確認完成前認可此份交易，通常交易在短時間都能完成確認，但有時則否，所以當您在交易比較大金額的款項時最好能等待至少一個或數個確認次數。&lt;/p&gt;</translation>
+        <location filename="../pages/Receive.qml" line="521"/>
+        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;這是一個簡單的交易追蹤器:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;讓你的顧客掃描此 QR 碼以進行付款 (若該顧客的錢包支援QR碼掃描)。&lt;/p&gt;&lt;p&gt;此頁面將會自動在區塊鏈上或交易池中尋找屬於該QR碼的交易，若你有設定金額則這頁面將同時會檢查其進帳的金額總和。&lt;/p&gt;&lt;p&gt;你可以自行決定是否接受尚未確認的交易，通常它不久之後就會完成確認，但也有可能須等待一段時間，因此若是交易較大筆的金額，你或許可以等待一(或多個)確認確保安全。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="360"/>
@@ -1879,6 +1920,14 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/SharedRingDB.qml" line="245"/>
         <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation>為了避免讓Loki的環狀簽名保護失效，一個交易輸出應避免在不同的區塊鏈中以不同的環簽組合所花用。這通常不需要擔心，但當你在重複使用金鑰的分叉幣區塊鏈上花用現有的交易輸出時就得注意，必需在兩條鏈上使用相同的環簽組合。&lt;br&gt;這個保護措施在Loki或其他注重保護你的隱私的軟體中重複使用金鑰時都應是自動完成的。&lt;br&gt;如果你正在使用重複使用金鑰的分叉幣且該幣並未包含此保護措施，你必須先於分叉幣上花用交易，再將環簽在此匯入以確保您的Loki交易隱私安全。&lt;br&gt;若你沒有使用未經保護的分叉幣則不須任何處置，因為這保護措施將會自動完成。&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>為了避免讓Loki的環狀簽名保護失效，一個交易輸出應避免在不同的區塊鏈中以不同的環簽組合所花用。這通常不需要擔心，但當你在重複使用金鑰的分叉幣區塊鏈上花用現有的交易輸出時就得注意，必需在兩條鏈上使用相同的環簽組合。&lt;br&gt;這個保護措施在Loki或其他注重保護你的隱私的軟體中重複使用金鑰時都應是自動完成的。&lt;br&gt;如果你正在使用重複使用金鑰的分叉幣且該幣並未包含此保護措施，你必須先於分叉幣上花用交易，再將環簽在此匯入以確保您的Loki交易隱私安全。&lt;br&gt;若你沒有使用未經保護的分叉幣則不須任何處置，因為這保護措施將會自動完成。&lt;br&gt;</translation>
+    </message>
+    <message>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation type="vanished">為了避免讓Loki的環狀簽名保護失效，一個交易輸出應避免在不同的區塊鏈中以不同的環簽組合所花用。這通常不需要擔心，但當你在重複使用金鑰的分叉幣區塊鏈上花用現有的交易輸出時就得注意，必需在兩條鏈上使用相同的環簽組合。&lt;br&gt;這個保護措施在Loki或其他注重保護你的隱私的軟體中重複使用金鑰時都應是自動完成的。&lt;br&gt;如果你正在使用重複使用金鑰的分叉幣且該幣並未包含此保護措施，你必須先於分叉幣上花用交易，再將環簽在此匯入以確保您的Loki交易隱私安全。&lt;br&gt;若你沒有使用未經保護的分叉幣則不須任何處置，因為這保護措施將會自動完成。&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
