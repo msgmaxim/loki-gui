@@ -181,9 +181,56 @@
         <file>pages/History.qml</file>
         <file>pages/Keys.qml</file>
         <file>pages/Mining.qml</file>
+        <file>wizard/WizardOptions.qml</file>
+        <file>images/createWallet.png</file>
+        <file>images/openAccount.png</file>
+        <file>images/recoverWallet.png</file>
+        <file>wizard/WizardCreateWallet.qml</file>
+        <file>images/greyTriangle.png</file>
+        <file>images/copyToClipboard.png</file>
+        <file>wizard/WizardPassword.qml</file>
+        <file>wizard/WizardConfigure.qml</file>
+        <file>wizard/WizardDonation.qml</file>
+        <file>wizard/WizardFinish.qml</file>
+        <file>wizard/WizardPasswordInput.qml</file>
+        <file>lang/languages.xml</file>
+        <file>lang/flags/bd.png</file>
+        <file>lang/flags/br.png</file>
+        <file>lang/flags/catalonia.png</file>
+        <file>lang/flags/cn.png</file>
+        <file>lang/flags/hr.png</file>
+        <file>lang/flags/hu.png</file>
+        <file>lang/flags/cz.png</file>
+        <file>lang/flags/dk.png</file>
+        <file>lang/flags/eg.png</file>
+        <file>lang/flags/esperanto.png</file>
+        <file>lang/flags/fi.png</file>
+        <file>lang/flags/fr.png</file>
+        <file>lang/flags/de.png</file>
+        <file>lang/flags/in.png</file>
+        <file>lang/flags/id.png</file>
+        <file>lang/flags/il.png</file>
+        <file>lang/flags/it.png</file>
+        <file>lang/flags/jp.png</file>
         <file>lang/flags/lt.png</file>
-        <file>lang/flags/hungary.png</file>
-        <file>lang/flags/finland.png</file>
+        <file>lang/flags/nl.png</file>
+        <file>lang/flags/ps.png</file>
+        <file>lang/flags/pl.png</file>
+        <file>lang/flags/pt.png</file>
+        <file>lang/flags/ro.png</file>
+        <file>lang/flags/ru.png</file>
+        <file>lang/flags/rs.png</file>
+        <file>lang/flags/sk.png</file>
+        <file>lang/flags/si.png</file>
+        <file>lang/flags/za.png</file>
+        <file>lang/flags/kr.png</file>
+        <file>lang/flags/es.png</file>
+        <file>lang/flags/se.png</file>
+        <file>lang/flags/tw.png</file>
+        <file>lang/flags/tr.png</file>
+        <file>lang/flags/ua.png</file>
+        <file>lang/flags/gb.png</file>
+        <file>lang/flags/us.png</file>
         <file>wizard/WizardManageWalletUI.qml</file>
         <file>wizard/WizardRecoveryWallet.qml</file>
         <file>wizard/WizardMemoTextInput.qml</file>
