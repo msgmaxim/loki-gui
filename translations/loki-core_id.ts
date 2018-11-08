@@ -823,6 +823,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1263,6 +1291,9 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Change Location</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="407"/>
         <source>Show Advanced</source>
@@ -1273,6 +1304,9 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Local Daemon Startup Flags</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <location filename="../pages/Settings.qml" line="421"/>
         <source>(Optional)</source>
@@ -1308,6 +1342,9 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Embedded Loki Version: </source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <location filename="../pages/Settings.qml" line="572"/>
         <source>Wallet Creation Height: </source>
@@ -1426,6 +1463,9 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Stop Local Node</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <source>Layout settings</source>
         <translation type="vanished">Pengaturan tata letak</translation>
@@ -1459,7 +1499,7 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Kesalahan</translation>
+        <translation type="unfinished">Kesalahan</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -2377,6 +2417,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </message>
 </context>
 <context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
@@ -2679,7 +2727,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Selamat datang di dunia Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Mohon memilihkan salah satu opsi:</translation>
     </message>
@@ -3184,7 +3232,7 @@ Description: </source>
         <translation>kirim ke tujuan yang sama</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation type="unfinished">Log jurik</translation>
     </message>

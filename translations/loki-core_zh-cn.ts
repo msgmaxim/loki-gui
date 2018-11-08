@@ -462,8 +462,8 @@
         <translation>导出钱包</translation>
 </message>
     <message>
-        <location filename="../pages/Keys.qml" line="197"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="211"/>
+        <location filename="../pages/Keys.qml" line="253"/>
         <source>Spendable Wallet</source>
         <translation>可支付的钱包</translation>
     </message>
@@ -473,22 +473,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="247"/>
+        <location filename="../pages/Keys.qml" line="157"/>
         <source>Secret view key</source>
         <translation>view密钥</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="248"/>
+        <location filename="../pages/Keys.qml" line="166"/>
         <source>Public view key</source>
         <translation>view公钥</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="249"/>
+        <location filename="../pages/Keys.qml" line="175"/>
         <source>Secret spend key</source>
         <translation>spend密钥</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="250"/>
+        <location filename="../pages/Keys.qml" line="184"/>
         <source>Public spend key</source>
         <translation>spend公钥</translation>
     </message>
@@ -830,6 +830,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">钱包</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1076,10 +1104,6 @@
         <translation>二维码</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;这是简单的销售跟踪:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;让您的顾客扫描二维码付款 (如果顾客可以使用支持二维码的程序).&lt;/p&gt;&lt;p&gt;本页面将自动扫描使用二维码的交易所在的区块链和转账矿池. 如果您填入金额, 这个金额的总交易也会被检验.&lt;/p&gt;这取决于您是否接受未确认的交易. 通常它们都会很快被确认, 但是依然有可能出现不被确认的情况, 因此如果是大额交易您应该等待1次或者更多次的确认.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1187,7 +1211,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation>创建只读钱包</translation>
@@ -1216,20 +1240,26 @@
         <translation>信息</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>后台进程模式</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
+        <source>Rescan wallet cache</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Bootstrap节点</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
+
+The old wallet cache file will be renamed and can be restored later.
+</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>地址</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1242,39 +1272,48 @@
         <translation>区块链文件路径</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>改变路径</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="436"/>
         <source>Username</source>
         <translation>用户名</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
         <translation>密码</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation> &lt;a href=&apos;#&apos;&gt; (点击改变)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
+        <source>No Layout options exist yet in mobile mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsLog</name>
+    <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>设置新的区块恢复高度:</translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>连接</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">后台进程日志</translation>
     </message>
     <message>
         <source>Layout settings</source>
         <translation type="vanished">版面设置</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <source>Custom decorations</source>
         <translation>窗口自定义</translation>
@@ -1352,15 +1391,18 @@
         <translation type="vanished">钱包创建高度: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>钱包名称: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="600"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <location filename="../pages/Settings.qml" line="609"/>
         <source>Rescan wallet cache</source>
@@ -1384,14 +1426,14 @@ The old wallet cache file will be renamed and can be restored later.
 </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>指定了无效的恢复高度. 必须为数字</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="733"/>
-        <source>Wallet log path: </source>
-        <translation>钱包日志路径: </translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
+        <source>Create a view-only wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Daemon log path: </source>
@@ -1461,7 +1503,7 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>错误</translation>
+        <translation type="unfinished">错误</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -2010,13 +2052,6 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">主要地址</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2066,12 +2101,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>解析</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;启动后台进程&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>环签名大小: %1</translation>
     </message>
@@ -2091,12 +2126,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>正常 (1倍手续费)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                地址 &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;地址簿&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="293"/>
+        <location filename="../pages/Transfer.qml" line="263"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>在本 OpenAlias 地址未发现有效地址</translation>
     </message>
@@ -2159,12 +2194,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>高级选项</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="518"/>
+        <location filename="../pages/Transfer.qml" line="495"/>
         <source>Sign tx file</source>
         <translation type="vanished">签名一个交易文件</translation>
     </message>
@@ -2436,13 +2471,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">未知错误</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2507,6 +2535,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>创建一个新的钱包</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2814,7 +2850,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">欢迎使用 Loki！</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>请在下面选择您需要的功能:</translation>
     </message>
@@ -3119,25 +3155,25 @@ Ringsize: </source>
         <translation>无法创建此项交易: 区块同步程序版本错误:</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>地址: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ringsize: </source>
         <translation>
 环签名大小: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>警告: 非默认签名环大小, 可能会破坏隐私, 推荐默认大小7</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="640"/>
         <source>
 Number of transactions: </source>
         <translation>交易次数: </translation>
@@ -3159,25 +3195,25 @@ Spending address index: </source>
         <translation>Loki转账已成功: %1 个交易</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="820"/>
+        <location filename="../main.qml" line="829"/>
         <source>Payment proof</source>
         <translation>付款证明</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="823"/>
+        <location filename="../main.qml" line="832"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>不能生成证明, 原因如下: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="853"/>
-        <location filename="../main.qml" line="873"/>
+        <location filename="../main.qml" line="862"/>
+        <location filename="../main.qml" line="882"/>
         <source>Payment proof check</source>
         <translation>检验付款证明</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="856"/>
-        <location filename="../main.qml" line="875"/>
+        <location filename="../main.qml" line="865"/>
+        <location filename="../main.qml" line="884"/>
         <source>Bad signature</source>
         <translation>签名不正确</translation>
     </message>
@@ -3268,7 +3304,7 @@ Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>后台进程日志</translation>
     </message>

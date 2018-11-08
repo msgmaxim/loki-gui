@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="uk_UA">
+<TS version="2.1" language="uk_UA">
 <context>
     <name>AddressBook</name>
     <message>
@@ -676,12 +676,12 @@
     <message>
         <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Копіювати</translation>
     </message>
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -844,6 +844,34 @@
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
         <translation>Розблокований баланс:</translation>
+    </message>
+</context>
+<context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Гаманець</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1208,7 +1236,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1255,6 +1283,9 @@
         <source>Blockchain location</source>
         <translation type="vanished">Шлях для зберігання блокчейну</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <location filename="../pages/Settings.qml" line="436"/>
         <source>Username</source>
@@ -1345,6 +1376,9 @@
         <source>GUI version: </source>
         <translation type="vanished">Версія GUI:</translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <source>Embedded Loki version: </source>
         <translation type="vanished">Вбудована версія Loki:</translation>
@@ -2350,8 +2384,7 @@ Ringsize: </source>
         <location filename="../pages/TxKey.qml" line="71"/>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation>Згенеруйте підтвердження вхідного/вихідного платежу, вказавши ID транзакції, адрес отримувача і опційне повідомлення.
-У разі вихідних платежів ви можете отримати &apos;Доказ надсилання&apos; (Spend Proof), яке підтвердить авторство транзакції. В цьому випадку вам не потрібно вказувати адрес отримувача.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paste tx ID</source>
@@ -2490,6 +2523,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>Створити новий гаманець</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2699,8 +2740,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation>Створено гаманець тільки для перегляду. Ви можете відкрити його, закривши поточний, клікнувши опцію &quot;Відкрити гаманець з файлу&quot; і вибравши гаманець для перегляду за шляхом:
-        %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
@@ -3048,7 +3088,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="417"/>
         <source>Unlocked balance (~%1 min)</source>
-          <translation>Розблокований баланс (~%1 хв)</translation>
+        <translation>Розблокований баланс (~%1 хв)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="417"/>
@@ -3107,13 +3147,13 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>

@@ -851,6 +851,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">ארנק</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1207,7 +1235,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">צור ארנק לצפייה בלבד</translation>
@@ -1236,20 +1264,26 @@
         <translation>מידע</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>מצב דימון</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
+        <source>Rescan wallet cache</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>צומת איתחול</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
+
+The old wallet cache file will be renamed and can be restored later.
+</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>כתובת</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1262,39 +1296,48 @@
         <translation>מיקום בלוקצ&apos;יין</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>שנה מיקום</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="467"/>
-        <source>Username</source>
-        <translation>שם משתמש</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished">הועתק ללוח</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
         <translation>סיסמה</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;#&apos;&gt; (לחץ כדי לשנות)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
+        <source>No Layout options exist yet in mobile mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsLog</name>
+    <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>הגדר גובה שיחזור חדש</translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>התחבר</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">יומן הדימון</translation>
     </message>
     <message>
         <source>Layout settings</source>
         <translation>הגדרות תצוגה</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <source>Custom decorations</source>
         <translation>עיצובים מיוחדים</translation>
@@ -1368,15 +1411,18 @@
         <translation type="vanished">גרסת מונרו: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>שם הארנק:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="671"/>
-        <source>Wallet creation height: </source>
-        <translation>גובה יצירת הארנק: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="477"/>
+        <source>Bootstrap Port</source>
+        <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <location filename="../pages/Settings.qml" line="609"/>
         <source>Rescan wallet cache</source>
@@ -1400,9 +1446,9 @@ The old wallet cache file will be renamed and can be restored later.
 </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>גובה השחזור שצוין לא תקין. חייב להיות מספר</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="644"/>
@@ -2180,13 +2226,6 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">כתובת ראשית</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2217,18 +2256,18 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>QR קוד</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="256"/>
-        <location filename="../pages/Transfer.qml" line="278"/>
+        <location filename="../pages/Transfer.qml" line="224"/>
+        <location filename="../pages/Transfer.qml" line="248"/>
         <source>Resolve</source>
         <translation>לפתור</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>גודל טבעת: %1</translation>
     </message>
@@ -2288,7 +2327,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>שלח</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>אפשרויות מתקדמות</translation>
     </message>
@@ -2608,13 +2647,6 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">שגיאה לא ידועה</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2687,6 +2719,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>צור ארנק חדש</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2890,7 +2930,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>הצלחה</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="387"/>
+        <location filename="../wizard/WizardMain.qml" line="406"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
         <translation type="unfinished"></translation>
@@ -3006,7 +3046,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">ברוכים הבאים למונרו!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>אנא בחר אחת מהאפשרויות הבאות:</translation>
     </message>
@@ -3212,25 +3252,25 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
         <translation>אזהרה: גודל טבעת שונה מברירת המחדל עלול לפגוע לך בפרטיות. ברירת מחדל של 7 מומלצת</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="640"/>
         <source>
 Number of transactions: </source>
         <translation>מספר ההעברות</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Description: </source>
         <translation>תיאור</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="634"/>
+        <location filename="../main.qml" line="643"/>
         <source>
 Spending address index: </source>
         <translation>אינדקס כתובת ההוצאה</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="741"/>
+        <location filename="../main.qml" line="750"/>
         <source>Confirmation</source>
         <translation>אישור</translation>
     </message>
@@ -3395,7 +3435,7 @@ Spending Address Index: </source>
         <translation type="vanished">גרסה חדשה של מונרו זמינה: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>יומן הדימון</translation>
     </message>

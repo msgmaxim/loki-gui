@@ -474,8 +474,8 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>AVERTENCIA: No reuses tus llaves en otra bifurcación the Monero, A NO SER que esta bifurcación tenga incorporado las mitigaciones para el reuso de las llaves. Hacerlo perjudicará tu privacidad.</translation>
+        <source>WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>AVERTENCIA: No reuses tus llaves en otra bifurcación the Loki, A NO SER que esta bifurcación tenga incorporado las mitigaciones para el reuso de las llaves. Hacerlo perjudicará tu privacidad.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="170"/>
@@ -883,6 +883,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Monedero</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1149,10 +1177,6 @@
         <translation>Código QR</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Este es un rastreador de venta:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Deje que su cliente escanee (si el cliente tiene un programa que soporte el escaneo de códigos QR) el código QR para hacer un pago.&lt;/p&gt;&lt;p&gt;Esta página escanea la cadena de bloques de manera automática y la tx de la pool para transacciones entrantes usando el código QR. Si ingresa una cantidad, también validará que las transacciones entrantes se totalicen hasta esa cantidad.&lt;/p&gt;Dependerá de usted si acepta o no transacciones sin confirmar. Es probable que se confirmen en poco tiempo, como existe la posibilidad que no, entonces para grandes sumas querrá esperar una o más confirmaciones.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1270,7 +1294,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Crear un monedero de sólo lectura</translation>
@@ -1299,20 +1323,26 @@
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Modo deamon</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
+        <source>Rescan wallet cache</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Modo arranque</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
+
+The old wallet cache file will be renamed and can be restored later.
+</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Dirección</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancelar</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1325,39 +1355,48 @@
         <translation type="vanished">Ubicación de la cadena de bloques</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Cambiar ubicación</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="467"/>
-        <source>Username</source>
-        <translation>Usuario</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished">Copiado al portapapeles</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
         <translation>Contraseña</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;#&apos;&gt; (Hacer clic para cambiar)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
+        <source>No Layout options exist yet in mobile mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsLog</name>
+    <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Establecer nueva altura de restauración:</translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>Conectar</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Registro del daemon</translation>
     </message>
     <message>
         <source>Layout settings</source>
         <translation type="vanished">Opciones de diseño</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <source>Custom decorations</source>
         <translation type="vanished">Configurar decoraciones</translation>
@@ -1434,14 +1473,14 @@
         <translation>Versión de Loki incrustada: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Nombre del monedero: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="671"/>
-        <source>Wallet creation height: </source>
-        <translation>Altura de creación del monedero:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="477"/>
+        <source>Bootstrap Port</source>
+        <translation type="unfinished"></translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="573"/>
@@ -1475,9 +1514,9 @@ La siguiente información será borrada:
 La caché del monedero antiguo será renombrada y podrá ser restaurada más tarde.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Altura de restauración inválida. Debe ser un número.</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="644"/>
@@ -1552,7 +1591,7 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation type="unfinished">Error</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -1752,8 +1791,8 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
         <translation>Firmas círculares</translation>
     </message>
     <message>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Para evitar anular la protección que brindan las firmas de circulo que ofrece Loki, un output no debe gastarse en diferentes blockchains con diferentes firmas. Aunque esto normalmente no es una preocupación, puede convertirse en una cuando un clon de Monero, que reusa las llaves, permite gastar ese output nuevamente. Si este es el caso, debes asegurar ese output use las mismas firmas de circulo en ambas cadenas.&lt;br&gt;Esto será realizado por Monero y cualquier aplicación de reuso de llaves que no este activamente tratando de estropear tu privacidad.&lt;br&gt;Si estas usando un clon de Monero que reuse las llaves y este clon no incluya esta protección, puedes asegurar la protección de las transacciones si gastas primero en el clon. Luego agrega manualmente la firma de anillo en esta página, que te permitirá gastar tus Monero de manera segura.&lt;br&gt;Si no utilizas un clon de Monero con estas características, entonces no debes hacer nada, ya que esto se hará de manera automática.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Para evitar anular la protección que brindan las firmas de circulo que ofrece Loki, un output no debe gastarse en diferentes blockchains con diferentes firmas. Aunque esto normalmente no es una preocupación, puede convertirse en una cuando un clon de Loki, que reusa las llaves, permite gastar ese output nuevamente. Si este es el caso, debes asegurar ese output use las mismas firmas de circulo en ambas cadenas.&lt;br&gt;Esto será realizado por Loki y cualquier aplicación de reuso de llaves que no este activamente tratando de estropear tu privacidad.&lt;br&gt;Si estas usando un clon de Loki que reuse las llaves y este clon no incluya esta protección, puedes asegurar la protección de las transacciones si gastas primero en el clon. Luego agrega manualmente la firma de anillo en esta página, que te permitirá gastar tus Loki de manera segura.&lt;br&gt;Si no utilizas un clon de Loki con estas características, entonces no debes hacer nada, ya que esto se hará de manera automática.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
@@ -2104,13 +2143,6 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Dirección primaria</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2222,12 +2254,12 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
         <translation>Escoja un archivo</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Iniciar daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Tamaño de la firma: %1</translation>
     </message>
@@ -2252,12 +2284,12 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
         <translation>Normal (comisión por 1)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Dirección &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Libreta de direcciones&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>Opciones avanzadas</translation>
     </message>
@@ -2540,13 +2572,6 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Error desconocido</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2613,6 +2638,14 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
         <source>Create A New Wallet</source>
         <translation>Crear un nuevo monedero</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2935,7 +2968,7 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
         <translation type="vanished">¡Bienvenido a Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Seleccione una de las siguientes opciones:</translation>
     </message>
@@ -3115,26 +3148,26 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
         <translation>No se pudo crear la transacción. Versión del daemon incorrecta: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ringsize: </source>
         <translation>
 Tamaño de la firma circular: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 ADVERTENCIA: tamaño de firma no prederteminado, puede perjudicar tu privacidad. Se recomiendan 7 por defecto.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="640"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3472,7 +3505,7 @@ Descripción:</translation>
         <translation type="vanished">Nueva versión de loki-wallet-gui disponible: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Registro del daemon</translation>
     </message>

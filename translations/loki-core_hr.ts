@@ -688,12 +688,12 @@
     <message>
         <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kopiraj</translation>
     </message>
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kopirano u međuspremnik</translation>
     </message>
 </context>
 <context>
@@ -856,6 +856,34 @@
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
         <translation>Otključano stanje:</translation>
+    </message>
+</context>
+<context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Novčanik</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1220,7 +1248,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Kreiraj novčanik samo za pregledavanje</translation>
@@ -1269,6 +1297,9 @@
         <source>Username</source>
         <translation>Korisničko ime</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
@@ -1283,6 +1314,9 @@
         <source>Layout settings</source>
         <translation type="vanished">Postavke rasporeda prozora</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <source>Custom decorations</source>
         <translation type="vanished">Prilagođeni ukrasi</translation>
@@ -1479,7 +1513,7 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation type="unfinished">Greška</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -2184,14 +2218,6 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <location filename="../src/model/TransactionHistoryModel.cpp" line="103"/>
-        <source>Primary address</source>
-        <translation>Primarna adresa</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2606,14 +2632,6 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <location filename="../src/libwalletqt/WalletManager.cpp" line="153"/>
-        <source>Unknown error</source>
-        <translation>Nepoznata pogreška</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2655,7 +2673,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     </message>
     <message>
         <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Loki instance. However, storing the full blockchain is beneficial to the security of the Loki network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation type="vanished">Način za zaštitu diska koristi znatno manje prostora na disku, ali jednaku količinu širine pojasa kao i regularna instanca Monera. Međutim, čuvanje cijelog lanca blokova korisno je za sigurnost Loki mreže. Ako ste na uređaju s ograničenim prostorom na disku, ova je opcija prikladna za vas.</translation>
+        <translation type="vanished">Način za zaštitu diska koristi znatno manje prostora na disku, ali jednaku količinu širine pojasa kao i regularna instanca Loki. Međutim, čuvanje cijelog lanca blokova korisno je za sigurnost Loki mreže. Ako ste na uređaju s ograničenim prostorom na disku, ova je opcija prikladna za vas.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
@@ -2664,7 +2682,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     </message>
     <message>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Rudarenje osigurava Loki mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
+        <translation type="vanished">Rudarenje osigurava Loki mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Loki da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
     </message>
 </context>
 <context>
@@ -2686,6 +2704,14 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <source>Create A New Wallet</source>
         <translation>Kreiraj novi novčanik</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2736,7 +2762,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     <name>WizardDonation</name>
     <message>
         <source>Loki development is solely supported by donations</source>
-        <translation type="vanished">Ravoj Monera se podržava isključivo od donacija</translation>
+        <translation type="vanished">Ravoj Loki se podržava isključivo od donacija</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2765,7 +2791,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     </message>
     <message>
         <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
-        <translation type="vanished">Za svaku transakciju se naplaćuje mala provizija. Ova opcija omogućava dodavanje dodatnog iznosa, kao postotka te provizije, vašoj transakciji u svrhu podrške razvoja Monera. Na primjer, postavka od 50% automatske donacije uzima transakcijsku proviziju od 0.005 XMR i dodaje 0.0025 XMR za podršku razvoja Monera.</translation>
+        <translation type="vanished">Za svaku transakciju se naplaćuje mala provizija. Ova opcija omogućava dodavanje dodatnog iznosa, kao postotka te provizije, vašoj transakciji u svrhu podrške razvoja Loki. Na primjer, postavka od 50% automatske donacije uzima transakcijsku proviziju od 0.005 XMR i dodaje 0.0025 XMR za podršku razvoja Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2774,7 +2800,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
     </message>
     <message>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Rudarenje osigurava Loki mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
+        <translation type="vanished">Rudarenje osigurava Loki mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Loki da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
     </message>
 </context>
 <context>
@@ -3002,7 +3028,7 @@ U slučaju &quot;dokaza potrošnje&quot;, adresa primatelja ne mora se navesti.<
         <translation type="vanished">Dobrodošli u Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Odaberite jednu od slijedećih postavki:</translation>
     </message>
@@ -3521,7 +3547,7 @@ Opis: </translation>
         <translation type="vanished">Nova verzija loki-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Dnevnik daemona</translation>
     </message>

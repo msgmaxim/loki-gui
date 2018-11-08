@@ -851,6 +851,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Monujo</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <source>Network status</source>
@@ -1112,10 +1140,6 @@
         <translation>QR Kodo</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Jen simpla pago-sekvilo:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Lasu vian klienton skani tiun QR-kodon por plenumi pagon (se la kliento havas programon kiu kapablas skani QR-kodon).&lt;/p&gt;&lt;p&gt;Ĉi-tiu paĝo aŭtomate skanos la blokĉenon kaj la transakciujon je envenaj transakcioj kiuj uzas tiun QR-kodon. Se vi entajpas kvanton, tiu ilo ankaŭ kontrolos ĉu la envenaj transakcioj sumas ĝis tiu kvanto.&lt;/p&gt; Dependas de vi ĉu vi akceptas nekonfirmitajn transakciojn aŭ ne. Tiuj verŝajne konfirmiĝos rapide, sed eblas ke ne, do atendu unu aŭ pli da konfirmoj por grandaj monsumoj.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1225,7 +1249,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1277,30 +1301,32 @@
         <translation>Informo</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="182"/>
-        <source>Change password</source>
-        <translation>Ŝanĝi pasvorton</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="202"/>
+        <source>Invalid restore height specified. Must be a number.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="189"/>
-        <source>Wrong password</source>
-        <translation>Malĝusta pasvorto</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="236"/>
+        <source>Wallet log path: </source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Demonreĝimo</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Sinkronizhelpa fora nodo</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished">Kopiiĝis en la poŝon</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adreso</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
+        <source>Custom decorations</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1308,59 +1334,66 @@
         <source>Port</source>
         <translation>Pordo</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <source>Blockchain location</source>
         <translation type="vanished">Pozicio de la blokĉeno</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Ŝanĝi la pozicion</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Demontaglibro</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="467"/>
-        <source>Username</source>
-        <translation>Uzantnomo</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
         <translation>Pasvorto</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;#&apos;&gt; (Klaki por ŝanĝi)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="132"/>
+        <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Agordi novan restarig-altecon:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="213"/>
+        <source>Remote node</source>
+        <translation type="unfinished">Fora nodo</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>Konekti</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="232"/>
+        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="608"/>
-        <source>Debug info</source>
-        <translation>Ripar-informoj</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="277"/>
+        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Nomo de la monujo:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="291"/>
+        <source>Address</source>
+        <translation type="unfinished">Adreso</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="671"/>
-        <source>Wallet creation height: </source>
-        <translation>Alteco dum la monujkreado: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="292"/>
+        <source>Port</source>
+        <translation type="unfinished">Pordo</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="694"/>
-        <source>Rescan wallet cache</source>
-        <translation>Reskani la kaŝmemoron de la monujo</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="312"/>
+        <location filename="../pages/settings/SettingsNode.qml" line="450"/>
+        <source>(optional)</source>
+        <translation type="unfinished">(opcia)</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="610"/>
@@ -1380,14 +1413,14 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
 </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>La entajpita alteco de la restarigo ne validas. Devas esti nombro.</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="347"/>
+        <source>Connect</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="733"/>
-        <source>Wallet log path: </source>
-        <translation>Vojo al monujhistorio: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="399"/>
+        <source>Stop local node</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="667"/>
@@ -1419,6 +1452,9 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
         <source>Note: lmdb folder not found. A new folder will be created.</source>
         <translation>Noto: lmdb-dosierujo ne troviĝis. Nova dosierujo kreiĝos.</translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <location filename="../pages/Settings.qml" line="618"/>
         <location filename="../pages/Settings.qml" line="694"/>
@@ -1516,24 +1552,24 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
         <translation>GUI versio: </translation>
 </message>
     <message>
-        <location filename="../pages/Settings.qml" line="167"/>
-        <source>Successfully rescanned spent outputs.</source>
-        <translation>Sukcese skanis la elpezitajn eligojn.</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="215"/>
-        <source>Local Node</source>
-        <translation>Lokala nodo</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
+        <source>Create a view-only wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="226"/>
-        <source>Remote Node</source>
-        <translation>Fora nodo</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view transactions, cannot initialize transactions.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="334"/>
-        <source>Manage Daemon</source>
-        <translation>Agordi la demonon</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="220"/>
+        <source>Create wallet</source>
+        <translation type="unfinished">Krei monujon</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="658"/>
@@ -1541,24 +1577,24 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
         <translation>Demontaglibro</translation>
 </message>
     <message>
-        <location filename="../pages/Settings.qml" line="438"/>
-        <source>Show advanced</source>
-        <translation>Montri spertaĵojn</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="262"/>
+        <source>Show seed &amp; keys</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="357"/>
-        <source>Start Local Node</source>
-        <translation>Lanĉi lokalan nodon</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="276"/>
+        <source>Store this information safely to recover your wallet in the future.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="372"/>
-        <source>Stop Local Node</source>
-        <translation>Haltigi lokalan nodon</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="311"/>
+        <source>Show seed</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="450"/>
-        <source>Local daemon startup flags</source>
-        <translation>Lanĉindikiloj de la lokala demono</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="351"/>
+        <source>Rescan wallet balance</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Custom decorations</source>
@@ -2048,13 +2084,6 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Ĉefa adreso</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2113,12 +2142,12 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Solvi</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Lanĉi demonon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Ringgrandeco: %1</translation>
     </message>
@@ -2138,12 +2167,12 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Normala (x1 kosto)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adreso &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adresaro&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="293"/>
+        <location filename="../pages/Transfer.qml" line="263"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Neniu valida Adreso troviĝis je ĉi tiu OpenAlias adreso</translation>
     </message>
@@ -2242,7 +2271,7 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation>Bonvolu elekti dosieron</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>Spertaj agordoj</translation>
     </message>
@@ -2441,13 +2470,6 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Nekonata eraro</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2520,6 +2542,14 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
         <source>Create A New Wallet</source>
         <translation>Krei novan monujon</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2724,7 +2754,7 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
         <translation>Sukcese</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="387"/>
+        <location filename="../wizard/WizardMain.qml" line="406"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
         <translation type="unfinished"></translation>
@@ -2838,7 +2868,7 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
         <translation type="vanished">Bonvenon al Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Bonvolu elekti unu el la sekvaj opcioj:</translation>
     </message>
@@ -3100,7 +3130,7 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
@@ -3239,7 +3269,7 @@ Description: </source>
         <translation>Eraro: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1734"/>
+        <location filename="../main.qml" line="1738"/>
         <source>Tap again to close...</source>
         <translation>Denove klaku por fermi...</translation>
     </message>
@@ -3269,32 +3299,32 @@ Description: </source>
         <translation>Nova versio de loki-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="678"/>
+        <location filename="../main.qml" line="687"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
         <translation>Nesufiĉe da mono. Disponebla saldo: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="472"/>
         <source>Waiting for daemon to sync</source>
         <translation>Atendante sinkroniziĝon de la demono</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="465"/>
+        <location filename="../main.qml" line="474"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Demono sinkronizas (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="467"/>
+        <location filename="../main.qml" line="476"/>
         <source>Wallet is synchronized</source>
         <translation>Monujo sinkronizas</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="553"/>
+        <location filename="../main.qml" line="562"/>
         <source>Daemon is synchronized</source>
         <translation>Demono sinkronizas</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>Adreso:</translation>
     </message>
@@ -3374,7 +3404,7 @@ Description: </source>
         <translation>Sendu al la sama celo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Demontaglibro</translation>
     </message>

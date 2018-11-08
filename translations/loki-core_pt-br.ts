@@ -842,6 +842,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Carteira</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1113,10 +1141,6 @@
         <translation>Código QR</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Este é um simples rastreador de vendas:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permita que seu cliente escaneie esse código QR para fazer um pagamento (se ele tiver um software que suporte escanear códigos QR).&lt;/p&gt;&lt;p&gt;Essa página vai verificar automaticamente o blockchain e a fila de transações por qualquer transação usando este código QR. Se você também colocou uma quantia, a página verificará todas as transações que somam este valor.&lt;/p&gt;Cabe a você aceitar ou não transações não confirmadas. É provável que elas sejam confirmadas rapidamente, mas sempre há uma pequena possibilidade que elas não confirmem, portanto, para valores maiores, convém aguardar por uma ou mais confirmações.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1224,7 +1248,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation>Criar carteira somente leitura</translation>
@@ -1276,9 +1300,9 @@
         <translation type="vanished">Informação de debug</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Nome da carteira: </translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
@@ -1316,15 +1340,18 @@ As seguintes informações serão deletadas
 O cache da carteira antiga será renomeado e poderá ser restaurado depois.
 </translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Altura inválida para restaurar a carteira. Dado numérico.</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="733"/>
-        <source>Wallet log path: </source>
-        <translation>Caminho do log da Carteira: </translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation type="unfinished">Log do daemon</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="572"/>
@@ -1351,6 +1378,9 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <source>Please choose a folder</source>
         <translation>Por favor, escolha um diretório</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <location filename="../pages/Settings.qml" line="677"/>
         <source>Warning</source>
@@ -1412,9 +1442,9 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Alterar senha</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Modo do daemon</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="323"/>
+        <source>Password</source>
+        <translation type="unfinished">Senha</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="198"/>
@@ -1427,15 +1457,14 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Nó remoto</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Nó bootstrap</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source>Blockchain location</source>
+        <translation type="unfinished">Localização do blockchain</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Endereço</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1449,29 +1478,32 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Gerenciar daemon</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Alterar diretório</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="438"/>
-        <source>Show advanced</source>
-        <translation>Mostrar configurações avançadas</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="477"/>
+        <source>Bootstrap Port</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
+        <source>Close this wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation> &lt;a href=&apos;#&apos;&gt; (Clique para alterar)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
+        <source>Logs out of this wallet.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Defina a nova altura de restauração:</translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="357"/>
-        <source>Start Local Node</source>
-        <translation>Inicar nó local</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="341"/>
@@ -1511,7 +1543,7 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Erros</translation>
+        <translation type="unfinished">Erros</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -2129,13 +2161,6 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Endereço primário</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2185,12 +2210,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Resolver</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Iniciar daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Tamanho do anel: %1</translation>
     </message>
@@ -2210,12 +2235,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Normal (taxa x1)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Endereço &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Agenda de endereços&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="293"/>
+        <location filename="../pages/Transfer.qml" line="263"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Nenhum endereço válido encontrado neste endereço OpenAlias</translation>
     </message>
@@ -2285,12 +2310,12 @@ Por favor, atualize-o ou conecte em outro daemon</translation>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>Opções avançadas</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="518"/>
+        <location filename="../pages/Transfer.qml" line="495"/>
         <source>Sign tx file</source>
         <translation>Assinar arquivo da transação</translation>
     </message>
@@ -2300,7 +2325,7 @@ Por favor, atualize-o ou conecte em outro daemon</translation>
         <translation>Prioridade da transação</translation>
 </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="529"/>
+        <location filename="../pages/Transfer.qml" line="506"/>
         <source>Submit tx file</source>
         <translation>Enviar arquivo da transação</translation>
     </message>
@@ -2540,13 +2565,6 @@ Para pagamentos que você realizou, é possível pegar uma prova de pagamento qu
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Erro desconhecido</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2611,6 +2629,14 @@ Para pagamentos que você realizou, é possível pegar uma prova de pagamento qu
         <source>Create A New Wallet</source>
         <translation>Criar uma nova carteira</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2928,7 +2954,7 @@ Para pagamentos que você realizou, é possível pegar uma prova de pagamento qu
         <translation type="vanished">Bem-vindo ao Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Por favor selecione uma das seguintes opções:</translation>
     </message>
@@ -3234,26 +3260,26 @@ Ringsize: </translation>
         <translation>Não foi possível criar a transação: Versão do daemon incorreta: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>Endereço: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ringsize: </source>
         <translation>
 Tamanho do anel: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 AVISO: tamanho do anel fora do padrão pode reduzir sua privacidade. Recomendamos o padrão de 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="640"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3285,8 +3311,8 @@ Spending address index: </source>
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="853"/>
-        <location filename="../main.qml" line="873"/>
+        <location filename="../main.qml" line="862"/>
+        <location filename="../main.qml" line="882"/>
         <source>Payment proof check</source>
         <translation>Verificar prova do pagamento</translation>
     </message>
@@ -3382,7 +3408,7 @@ Spending address index: </source>
         <translation>Nova versão da carteira (GUI) do Loki disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Log do daemon</translation>
     </message>

@@ -857,6 +857,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Cüzdan</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1128,10 +1156,6 @@
         <translation>QR Kod</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Bu basit bir satış takipçisidir:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Müşterinizin QR kodunu tarayarak ödeme yapmasını sağlar (eğer müsterinizin QR kodu taramasını destekleyen uygulaması varsa).&lt;/p&gt;&lt;p&gt;Bu sayfa bu QR kodu ile gelen işlemler için blok zincirini ve göderim (TX) havuzunu kendiliğinden tarar. Eğer bir miktar girerseniz, girdiğiniz miktara kadar gelen işlmeleri de denetler.&lt;/p&gt;Teyit edilmemiş işlemi kabul etmek size kalmış. Muhtemelen kısa sürede teyit edilir. Ancak küçük bir olasılık olsa da, teyit edilmeyebilir. Bu nedenle, yüksek meblağlar için bir veya daha fazla teyiti beklemeniz iyi olur.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1243,7 +1267,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Sadece cüzdan görünümü oluştur</translation>
@@ -1302,6 +1326,9 @@
         <source>Log level</source>
         <translation type="vanished">Log</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
@@ -1312,6 +1339,9 @@
         <source>Successfully rescanned spent outputs.</source>
         <translation>Harcanan çıktıları başarıyla yeniden tarattı.</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <source>Change password</source>
         <translation type="vanished">Parola değiştir</translation>
@@ -1322,14 +1352,17 @@
         <translation>Yanlış parola</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Arka plan hizmetinin biçimi</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
-        <location filename="../pages/Settings.qml" line="215"/>
-        <source>Local Node</source>
-        <translation>Yerel Düğüm</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="209"/>
@@ -1337,21 +1370,19 @@
         <translation>Uzak Düğüm</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Önyükleme düğümü</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="213"/>
+        <source>Remote node</source>
+        <translation type="unfinished">Uzak düğüm</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adres</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="232"/>
+        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="260"/>
-        <location filename="../pages/Settings.qml" line="292"/>
-        <source>Port</source>
-        <translation>Port</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="277"/>
+        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="341"/>
@@ -1359,23 +1390,23 @@
         <translation>Yerel Düğümü Durdur</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Yerini değiştir</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="292"/>
+        <source>Port</source>
+        <translation type="unfinished">Port</translation>
     </message>
     <message>
         <source>Node login (optional)</source>
         <translation type="vanished">Düğüm giriş (isteğe bağlı)</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;#&apos;&gt; (Değiştirmek için tıklayın)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="323"/>
+        <source>Password</source>
+        <translation type="unfinished">Parola</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Geriye yüklenecek blok yüksekliğini girin:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="347"/>
+        <source>Connect</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>GUI version: </source>
@@ -1420,9 +1451,9 @@ Eski cüzdan önbellek dosyası yeniden adlandırılacak ve daha sonra geri yük
         </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Geçersiz geri yükleme blok yüksekliği. Bir sayı olmalı.</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source>Blockchain location</source>
+        <translation type="unfinished">Blok zincirinin konumu</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="644"/>
@@ -1475,9 +1506,9 @@ Eski cüzdan önbellek dosyası yeniden adlandırılacak ve daha sonra geri yük
         <translation>Blok zincirinin konumu</translation>
 </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Cüzdan adı: </translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
+        <source>Logs out of this wallet.</source>
+        <translation type="unfinished"></translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="407"/>
@@ -1620,7 +1651,7 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Hata</translation>
+        <translation type="unfinished">Hata</translation>
     </message>
     <message>
         <source>Manage wallet</source>
@@ -2068,13 +2099,6 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Birincil adres</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2122,12 +2146,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Çözme</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Arka plan hizmetini başlatın&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Halka büyüklüğü: %1</translation>
     </message>
@@ -2152,7 +2176,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Normal (x1 ücreti)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adres &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -2289,7 +2313,7 @@ Ringsize: </source>
         <translation>Lütfen bir dosya seçin</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>Gelişmiş seçenekler</translation>
     </message>
@@ -2580,6 +2604,14 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <source>Create A New Wallet</source>
         <translation>Yeni bir cüzdan oluştur</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -3083,7 +3115,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="463"/>
+        <location filename="../main.qml" line="472"/>
         <source>Waiting for daemon to sync</source>
         <translation>Arka plan hizmetinin (daemon) eşzamanlaması bekleniyor</translation>
     </message>
@@ -3093,7 +3125,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Daemon başlatılamadı</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="465"/>
+        <location filename="../main.qml" line="474"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Arka plan hizmeti (daemon) eşzamanlandı (%1)</translation>
     </message>
@@ -3103,22 +3135,22 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>İşlem oluşturulamıyor: Daemon sürümü yanlış: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="467"/>
+        <location filename="../main.qml" line="476"/>
         <source>Wallet is synchronized</source>
         <translation>Cüzdan senkronize edildi</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="536"/>
+        <location filename="../main.qml" line="545"/>
         <source>Daemon failed to start</source>
         <translation>Arka plan hizmetinin (daemon) başlaması başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="553"/>
+        <location filename="../main.qml" line="562"/>
         <source>Daemon is synchronized</source>
         <translation>Arka plan hizmeti (daemon) eşzamanlandı</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>Adres: </translation>
     </message>
@@ -3143,13 +3175,13 @@ Fee: </source>
         <translation>Ücret: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ringsize: </source>
         <translation>Halka büyüklüğü: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>UYARI: gizliliğinize zarar verebilecek varsayılan olmayan halka boyutu. Varsayılan değer olan 7 önerilir.</translation>
@@ -3164,13 +3196,13 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
         <translation>İşlem sayısı: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Description: </source>
         <translation>Tanım:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="634"/>
+        <location filename="../main.qml" line="643"/>
         <source>
 Spending address index: </source>
         <translation>Harcama adresi indeksi: </translation>
@@ -3309,7 +3341,7 @@ Address: </source>
         <translation type="vanished">Loki-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Daemon log</translation>
     </message>

@@ -439,7 +439,7 @@
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../components/InputDialog.qml" line="148"/>
+        <location filename="../components/InputDialog.qml" line="150"/>
         <source>Ok</source>
         <translation>OK</translation>
     </message>
@@ -470,12 +470,7 @@
         <translation>Achtung: Verwende deine Lokischlüssel nicht auf einer anderen Fork, AUßER diese verfügt über einen Replay-Schutz. Wenn du dies tust, wird deine Privatssphäre gefährdet!</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="169"/>
-        <source>Keys copied to clipboard</source>
-        <translation>Schlüssel in Zwischenablage kopiert</translation>
-    </message>
-    <message>
-        <location filename="../pages/Keys.qml" line="182"/>
+        <location filename="../pages/Keys.qml" line="196"/>
         <source>Export wallet</source>
         <translation>Wallet exportieren</translation>
     </message>
@@ -506,13 +501,13 @@
         <translation>Wallet mit Vollzugriff</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="206"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="221"/>
+        <location filename="../pages/Keys.qml" line="253"/>
         <source>View Only Wallet</source>
         <translation>View-only Wallet (ohne Berechtigung)</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="247"/>
+        <location filename="../pages/Keys.qml" line="157"/>
         <source>Secret view key</source>
         <translation>Geheimer View-Key</translation>
     </message>
@@ -872,6 +867,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Wallet</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <source>Network status</source>
@@ -1129,10 +1152,6 @@
         <translation>QR-Code</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Dies ist ein einfacher Ausgabentracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Lass deine Kunden den QR-Code scannen um eine Zahlung zu machen (Falls dieser Kunde eine Software hat, welche QR-Code scannen unterstützt).&lt;/p&gt;&lt;p&gt;Diese Seite wird automatisch die Blockchain und den Transaktionspool nach einkommenden Transaktionen, welchen diesen QR-Code benutzt haben scannen. Falls du einen Betrag angegeben hast, wird auch überprüft ob die einkommenden Transaktionen diesen Betrag enthalten.&lt;/p&gt;Es ist dir überlassen ob du unbestätigte Transaktionen annimmst oder nicht. Diese werden wahrscheinlich in kurzer Zeit bestätigt, allerdings gibt es trotzdem die Möglichkeit, dass sie es nicht werden. Für große Beträge solltest du wahrscheinlich lieber auf Bestätigungen warten.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1247,7 +1266,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1291,20 +1310,19 @@
         <translation>Informationen</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Dienst-Modus</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="202"/>
+        <source>Invalid restore height specified. Must be a number.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Bootstrap-Node</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="236"/>
+        <source>Wallet log path: </source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adresse</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1312,15 +1330,21 @@
         <source>Port</source>
         <translation>Port</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <source>Blockchain location</source>
         <translation>Blockchain-Speicherort</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Ort wechseln</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
+        <source>No Layout options exist yet in mobile mode.</source>
+        <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <location filename="../pages/Settings.qml" line="436"/>
         <source>Username</source>
@@ -1332,19 +1356,22 @@
         <translation>Passwort</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation> &lt;a href=&apos;#&apos;&gt; (Zum Ändern drücken)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsNode</name>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Setze eine neue Wiederherstellungshöhe:</translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>Verbinden</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="132"/>
+        <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Layout settings</source>
@@ -1369,14 +1396,15 @@
         <translation>Ausgegebene Outputs erfolgreich neu eingelesen.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="182"/>
-        <source>Change password</source>
-        <translation>Passwort ändern</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="312"/>
+        <location filename="../pages/settings/SettingsNode.qml" line="450"/>
+        <source>(optional)</source>
+        <translation type="unfinished">(optional)</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="215"/>
-        <source>Local Node</source>
-        <translation>Lokaler Node</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="323"/>
+        <source>Password</source>
+        <translation type="unfinished">Passwort</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="209"/>
@@ -1389,29 +1417,29 @@
         <translation>Dienst verwalten</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="438"/>
-        <source>Show advanced</source>
-        <translation>Erweiterte Einstellungen</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source>Blockchain location</source>
+        <translation type="unfinished">Speicherort der Blockchain</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="357"/>
-        <source>Start Local Node</source>
-        <translation>Lokalen Node starten</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="372"/>
-        <source>Stop Local Node</source>
-        <translation>Lokalen Node stoppen</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="421"/>
+        <source>(default)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="450"/>
-        <source>Local daemon startup flags</source>
-        <translation>Startparameter des lokalen Dienstes</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="449"/>
+        <source>Daemon startup flags</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="608"/>
-        <source>Debug info</source>
-        <translation>Debug-Informationen</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Daemon log</source>
@@ -1443,9 +1471,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Wallet-Name: </translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
+        <source>Logs out of this wallet.</source>
+        <translation type="unfinished"></translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="351"/>
@@ -1458,14 +1486,14 @@
         <translation>Blockchain-Speicherort</translation>
 </message>
     <message>
-        <location filename="../pages/Settings.qml" line="671"/>
-        <source>Wallet creation height: </source>
-        <translation>Erstellungshöhe des Wallets: </translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="694"/>
-        <source>Rescan wallet cache</source>
-        <translation>Wallet-Cache neu einlesen</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
+        <source>Create a view-only wallet</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="419"/>
@@ -1511,9 +1539,9 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Ungültige Wiederherstellungshöhe angegeben. Diese muss eine Zahl sein.</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="220"/>
+        <source>Create wallet</source>
+        <translation type="unfinished">Erstelle Wallet</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="639"/>
@@ -2024,13 +2052,6 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Primäre Adresse</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="176"/>
@@ -2095,12 +2116,12 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
         <translation>Auflösen</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Starte Dienst&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Ringgröße: %1</translation>
     </message>
@@ -2125,7 +2146,7 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
         <translation>Normal (1-fache Gebühr)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresse &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adressbuch&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -2242,12 +2263,12 @@ Bitte aktualisiere das Programm oder verbinde dich mit einem anderen Dienst</tra
         <translation>Bitte wähle eine Datei aus</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>Erweiterte Optionen</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="556"/>
+        <location filename="../pages/Transfer.qml" line="557"/>
         <source>Can&apos;t load unsigned transaction: </source>
         <translation>Unsignierte Transaktion kann nicht geladen werden: </translation>
     </message>
@@ -2391,9 +2412,9 @@ Ringgröße: </translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="70"/>
-        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message.
+        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation>Erstelle einen Nachweis deiner Eingangs- und Ausgangszahlungen, indem du die Transaktions-ID, die Empfängeradresse und eine optionale Nachricht angibst. Für den Fall von ausgehenden Zahlungen, kannst du einen Sendenachweis erstellen, der die Urheberschaft einer Transaktion nachweist. In diesem Fall musst du die Empfängeradresse nicht angeben.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paste tx ID</source>
@@ -2454,13 +2475,6 @@ Für einen reinen Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <location filename="../pages/TxKey.qml" line="231"/>
         <source>If a payment had several transactions then each must be checked and the results combined.</source>
         <translation>Wenn eine Zahlung aus mehreren Transaktionen bestand, muss jede einzeln überprüft und die Ergebnisse kombiniert werden.</translation>
-    </message>
-</context>
-<context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Unbekannter Fehler</translation>
     </message>
 </context>
 <context>
@@ -2533,6 +2547,14 @@ Für einen reinen Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <source>Create A New Wallet</source>
         <translation>Erstelle ein neues Wallet</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2730,10 +2752,10 @@ Für einen reinen Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <translation>Erfolg</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="387"/>
-        <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in:
+        <location filename="../wizard/WizardMain.qml" line="406"/>
+        <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation>Die View-Only Wallet wurde erstellt. Du kannst sie öffnen, indem du die aktuelle Wallet schließt, auf &quot;Wallet von Datei öffnen&quot; klickst und die View-Only Wallet in %1 auswählst.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
@@ -3079,7 +3101,7 @@ Für einen reinen Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <translation>Entsperrtes Guthaben (warte auf Block)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="505"/>
+        <location filename="../main.qml" line="514"/>
         <source>Waiting for daemon to start...</source>
         <translation>Warte bis der Dienst gestartet wurde…</translation>
     </message>
@@ -3162,8 +3184,8 @@ Payment ID: </source>
 Zahlungs-ID: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
-        <location filename="../main.qml" line="743"/>
+        <location filename="../main.qml" line="634"/>
+        <location filename="../main.qml" line="752"/>
         <source>
 Amount: </source>
         <translation>
@@ -3196,14 +3218,14 @@ Fee: </source>
 Gebühr: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ringsize: </source>
         <translation>
 Ringgröße: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
@@ -3211,7 +3233,7 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
 WARNUNG: ungewöhnliche Ringgröße, die deine Privatsphäre beeinträchtigen könnte. Die empfohlene Größe ist 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="640"/>
         <source>
 
 Number of transactions: </source>
@@ -3219,14 +3241,14 @@ Number of transactions: </source>
 Anzahl der Transaktionen: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Description: </source>
         <translation>
 Beschreibung: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="634"/>
+        <location filename="../main.qml" line="643"/>
         <source>
 Spending address index: </source>
         <translation>Indizes der beteiligten Adressen: </translation>
@@ -3365,7 +3387,7 @@ Spending address index: </source>
         <translation>an den selben Empfänger senden</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Dienst-Log</translation>
     </message>

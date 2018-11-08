@@ -851,6 +851,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Portefeuille</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="44"/>
@@ -1117,10 +1145,6 @@
         <translation>Code QR</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">Voici un suivi de commande simplifié : Permet à un client de scanner le QR code poue effectuer un paiement (si ce client dispose d&apos;une application supportant le scan de QR code). Cette page va automatiquement scanner la chaîne de blocs et le pool de transaction pour trouver la transaction entrante en utilisant ce QR code. Si vous saisissez un montant, elle va également vérifier que la somme des transactions entrantes correspond à ce montant. A vous de préciser si vous acceptez les transactions non-confirmées ou non. Il est probable qu&apos;elles soiet confirmée rapidement, mais il y a toujours un risque qu&apos;elles ne le soient pas. Vous pourriez donc souhaiter attendre une ou plusieurs confirmations pour les montants les plus élevé</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1227,7 +1251,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation>Créer portefeuille d&apos;audit</translation>
@@ -1256,20 +1280,26 @@
         <translation>Information</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Mode démon</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
+        <source>Rescan wallet cache</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Nœud d&apos;amorçage</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
+
+The old wallet cache file will be renamed and can be restored later.
+</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adresse</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Annuler</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1282,15 +1312,18 @@
         <translation type="vanished">Emplacement de la chaîne de blocs</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Changer l&apos;emplacement</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="467"/>
-        <source>Username</source>
-        <translation>Nom d&apos;utilisateur</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished">Copié dans le presse-papier</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
@@ -1300,6 +1333,9 @@
         <source>Debug info</source>
         <translation type="vanished">Info de débogage</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <source>Wallet creation height: </source>
         <translation type="vanished">Hauteur de bloc lors de la création du portefeuille : </translation>
@@ -1319,14 +1355,17 @@
         <translation type="vanished">&lt;a href=&apos;#&apos;&gt;(Cliquer pour changer)&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation>(Cliquer pour changer)</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Utiliser une nouvelle hauteur de restauration:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to rebuild the wallet cache?
@@ -1344,9 +1383,9 @@ Les données suivantes seront supprimées
 L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus tard.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation> Hauteur de restauration invalide. Elle doit être un nombre</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="213"/>
+        <source>Remote node</source>
+        <translation type="unfinished">Démon distant</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="351"/>
@@ -1444,14 +1483,14 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Erreur : Système de fichiers en lecture seule</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="764"/>
-        <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Attention : Il y a seulement %1 GB disponibles sur le périphérique. La chaîne de blocs a besoin de ~%2 GB.</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="323"/>
+        <source>Password</source>
+        <translation type="unfinished">Mot de passe</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="766"/>
-        <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>Note : Il y a %1 GB disponibles sur le périphérique. La chaîne de blocs a besoin de ~%2 GB.</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="347"/>
+        <source>Connect</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="690"/>
@@ -1675,6 +1714,9 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <source>Relative</source>
         <translation type="unfinished"></translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="332"/>
         <location filename="../pages/SharedRingDB.qml" line="344"/>
@@ -2191,13 +2233,6 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Adresse primaire</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2247,18 +2282,18 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Code QR</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="256"/>
-        <location filename="../pages/Transfer.qml" line="278"/>
+        <location filename="../pages/Transfer.qml" line="224"/>
+        <location filename="../pages/Transfer.qml" line="248"/>
         <source>Resolve</source>
         <translation>Résoudre</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation> Lancer le démon </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Taille du cercle: %1</translation>
     </message>
@@ -2278,12 +2313,12 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Normal (x1 frais)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresse &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Carnet d&apos;adresses&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="293"/>
+        <location filename="../pages/Transfer.qml" line="263"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Pas d&apos;adresse valide trouvée à cette adresse OpenAlias</translation>
     </message>
@@ -2309,7 +2344,7 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Pas d&apos;adresse trouvée</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="334"/>
+        <location filename="../pages/Transfer.qml" line="306"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
         <translation>Description &lt;font size=&apos;2&apos;&gt;( Facultatif )&lt;/font&gt;</translation>
     </message>
@@ -2324,7 +2359,7 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Envoyer</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="406"/>
         <source>Advanced options</source>
         <translation>Options avancées</translation>
     </message>
@@ -2368,7 +2403,22 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Veuillez choisir un fichier</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="556"/>
+        <location filename="../pages/Transfer.qml" line="191"/>
+        <source>Automatic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="518"/>
+        <source>Export key images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="530"/>
+        <source>Import key images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="557"/>
         <source>Can&apos;t load unsigned transaction: </source>
         <translation>Impossible de charger une transaction non signée : </translation>
     </message>
@@ -2427,7 +2477,7 @@ Taille du cercle : </translation>
         <translation>Confirmation</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="612"/>
+        <location filename="../pages/Transfer.qml" line="613"/>
         <source>Can&apos;t submit transaction: </source>
         <translation>Impossible de soumettre la transaction : </translation>
     </message>
@@ -2467,7 +2517,7 @@ Veuillez mettre à jour ou vous connecter à un autre démon</translation>
         <translation type="vanished">Coût de transaction</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="325"/>
+        <location filename="../pages/Transfer.qml" line="295"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
         <translation>ID de paiement &lt;font size=&apos;2&apos;&gt;( Facultatif )&lt;/font&gt;</translation>
     </message>
@@ -2575,13 +2625,6 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Erreur inconnue</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2646,6 +2689,14 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <source>Create A New Wallet</source>
         <translation>Créer un nouveau portefeuille</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2961,7 +3012,7 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation type="vanished">Bienvenue dans Loki !</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Veuillez sélectionner une des options suivantes :</translation>
     </message>
@@ -3086,8 +3137,8 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="288"/>
-        <location filename="../main.qml" line="391"/>
+        <location filename="../main.qml" line="291"/>
+        <location filename="../main.qml" line="400"/>
         <source>Couldn&apos;t open wallet: </source>
         <translation>Impossible d&apos;ouvrir le portefeuille : </translation>
     </message>
@@ -3131,13 +3182,13 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation>Veuillez vérifier les erreurs dans les journaux du portefeuille et du démon. Vous pouvez aussi essayer de lancer %1 manuellement.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="599"/>
+        <location filename="../main.qml" line="608"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
         <translation>Impossible de créer la transaction : mauvaise version de démon : </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="601"/>
-        <location filename="../main.qml" line="720"/>
+        <location filename="../main.qml" line="610"/>
+        <location filename="../main.qml" line="729"/>
         <source>Can&apos;t create transaction: </source>
         <translation>Impossible de créer la transaction : </translation>
     </message>
@@ -3242,25 +3293,25 @@ Taille du cercle : </translation>
         <translation>Impossible de créer la transaction : mauvaise version de démon : </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>Adresse : </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ringsize: </source>
         <translation>
 Taille du cercle : </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>ATTENTION: la taille de cercle est par défaut égale à 7. Vous avez choisi une taille différente et cela peut réduire la confidentialité de votre transaction. Nous vous recommandons d&apos;utiliser une taille de 7</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="640"/>
         <source>
 Number of transactions: </source>
         <translation>Nombre de transactions : </translation>
@@ -3287,7 +3338,7 @@ Spending address index: </source>
         <translation>Preuve de Paiement</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="823"/>
+        <location filename="../main.qml" line="832"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>Impossible de générer une preuve pour la raison suivante : 
@@ -3337,12 +3388,12 @@ Spending address index: </source>
         <translation>Erreur : Système de fichiers en lecture seule</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1140"/>
+        <location filename="../main.qml" line="1150"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>Attention : Il y a seulement %1 GB disponibles sur le périphérique. La chaîne de blocs a besoin de ~%2 GB.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1142"/>
+        <location filename="../main.qml" line="1152"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>Note : Il y a %1 GB disponibles sur le appareil. La chaîne de blocs a besoin de ~%2 GB.</translation>
     </message>
@@ -3397,7 +3448,7 @@ Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1821"/>
         <source>Daemon log</source>
         <translation>Journal du démon</translation>
     </message>
@@ -3432,7 +3483,7 @@ Description : </translation>
         <translation type="vanished">fonds insuffisants. Solde débloqué : %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="781"/>
+        <location filename="../main.qml" line="790"/>
         <source>Couldn&apos;t send the money: </source>
         <translation>Impossible d&apos;envoyer l&apos;argent : </translation>
     </message>

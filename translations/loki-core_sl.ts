@@ -718,7 +718,7 @@
     </message>
     <message>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="vanished">Rudarjenje na vašem računalniku krepi omrežje Loki. Več ljudi rudari, težje je napasti omrežje. Vsak prispevek pomaga.&lt;br&gt; &lt;br&gt;Z rudarjenjem imate tudi manjšo možnost pridobitve nekaj Monera. Vaš računalnik bo z računanjem zgoščenih vrednosti iskal rešitev za nastanek bloka. Če najdete blok, boste prejeli z njim povezano nagrado . Srečno!</translation>
+        <translation type="vanished">Rudarjenje na vašem računalniku krepi omrežje Loki. Več ljudi rudari, težje je napasti omrežje. Vsak prispevek pomaga.&lt;br&gt; &lt;br&gt;Z rudarjenjem imate tudi manjšo možnost pridobitve nekaj Loki. Vaš računalnik bo z računanjem zgoščenih vrednosti iskal rešitev za nastanek bloka. Če najdete blok, boste prejeli z njim povezano nagrado . Srečno!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -840,6 +840,34 @@
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
         <translation>Odklenjeno stanje:</translation>
+    </message>
+</context>
+<context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1200,7 +1228,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Ustvari view only denarnico</translation>
@@ -1269,6 +1297,9 @@
         <source>Change password</source>
         <translation type="vanished">Spremeni geslo</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <location filename="../pages/Settings.qml" line="172"/>
         <source>Wrong password</source>
@@ -1337,8 +1368,11 @@
     </message>
     <message>
         <source>Embedded Loki version: </source>
-        <translation type="vanished">Vgrajena verzija Monera: </translation>
+        <translation type="vanished">Vgrajena verzija Loki: </translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <source>Wallet creation height: </source>
         <translation type="vanished">Denarnica ustvarjena od bloka: </translation>
@@ -2485,6 +2519,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </message>
 </context>
 <context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>WizardDaemonSettings</name>
     <message>
         <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
@@ -2533,7 +2575,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <name>WizardDonation</name>
     <message>
         <source>Loki development is solely supported by donations</source>
-        <translation type="vanished">Razvoj Monera je financiran izključno preko donacij</translation>
+        <translation type="vanished">Razvoj Loki je financiran izključno preko donacij</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="94"/>
@@ -2562,7 +2604,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Loki development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Loki development.</source>
-        <translation type="vanished">Za vsako transakcijo je zaračunana majhna provizija. Ta opcija omogoči dodaten znesek k tej proviziji, kot odstotek te provizije. Na ta način vaše transakcije podpirajo razvoj sistema Loki. Na primer, 50% samodejna donacija bo transakciji s provizijo 0.005 XMR, dodala provizijo 0.0025 XMR, ki bo namenjena razvoju Monera.</translation>
+        <translation type="vanished">Za vsako transakcijo je zaračunana majhna provizija. Ta opcija omogoči dodaten znesek k tej proviziji, kot odstotek te provizije. Na ta način vaše transakcije podpirajo razvoj sistema Loki. Na primer, 50% samodejna donacija bo transakciji s provizijo 0.005 XMR, dodala provizijo 0.0025 XMR, ki bo namenjena razvoju Loki.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
@@ -2795,7 +2837,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Dobrodošli v Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Izberite eno od sledečih možnosti:</translation>
     </message>
@@ -3276,7 +3318,7 @@ Opis: </translation>
     </message>
     <message>
         <source>This address received %1 loki, but the transaction is not yet mined</source>
-        <translation type="vanished">Ta naslov je prejel %1 monera(ov), ampak transakcija še ni v bloku</translation>
+        <translation type="vanished">Ta naslov je prejel %1 Loki(ov), ampak transakcija še ni v bloku</translation>
     </message>
     <message>
         <location filename="../main.qml" line="861"/>

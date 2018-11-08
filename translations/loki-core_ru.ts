@@ -855,6 +855,34 @@
     </message>
 </context>
 <context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation type="unfinished">Кошелек</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>NetworkStatusItem</name>
     <message>
         <source>Network status</source>
@@ -1161,10 +1189,6 @@
         <translation>QR-код</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Это простой инструмент для отслеживания операций:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Дайте своему клиенту отсканировать этот QR-код для совершения платежа (если у этого клиента есть программное обеспечение, которое поддерживает сканирование QR-кодов).&lt;/p&gt;&lt;p&gt;Эта страница будет автоматически сканировать блокчейн на наличие входящих транзакций в пуле с помощью этого QR-кода. Если вы введете количество, будет также проверена эта входящая транзакция на наличие нужного количества.&lt;/p&gt;Вам самим решать, принимать или нет неподтвержденные транзакции. Скорее всего они будут подтверждены в очень короткое время, но есть небольшой шанс того, что они не будут подтверждены. Именно по этому при больших суммах лучше будет подождать одного или нескольких подтверждений.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <location filename="../pages/Receive.qml" line="608"/>
         <location filename="../pages/Receive.qml" line="610"/>
         <source>confirmations</source>
@@ -1271,7 +1295,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1325,17 +1349,18 @@
         <translation>Bootstrap нода</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Адрес</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="260"/>
-        <location filename="../pages/Settings.qml" line="292"/>
-        <source>Port</source>
-        <translation>Порт</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
+        <source>Copied to clipboard</source>
+        <translation type="unfinished">Скопировано в буфер обмена</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="399"/>
         <source>Blockchain Location</source>
@@ -1346,10 +1371,13 @@
         <source>Change Location</source>
         <translation>Изменить расположение</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
-        <location filename="../pages/Settings.qml" line="467"/>
-        <source>Username</source>
-        <translation>Имя пользователя</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
@@ -1361,15 +1389,18 @@
         <source> &lt;a href=&apos;#&apos;&gt; (Click To Change)&lt;/a&gt;</source>
         <translation> &lt;a href=&apos;#&apos;&gt; (Кликните для изменения)&lt;/a&gt;</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Установить высоту блока для восстановления:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>Подключить</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="132"/>
+        <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Layout Settings</source>
@@ -1447,6 +1478,9 @@
         <source>GUI version: </source>
         <translation type="vanished">Версия GUI:</translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
         <source>Embedded Loki version: </source>
@@ -2309,7 +2343,7 @@ Please upgrade or connect to another daemon</source>
         <translation>Пожалуйста, выберите файл</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="48"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Запустить демон&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
@@ -2334,7 +2368,7 @@ Please upgrade or connect to another daemon</source>
         <translation>Нормальный (x1 комиссия)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="221"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Адрес &lt;font size=&apos;2&apos;&gt;  (&lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Адресная книга&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
@@ -2454,10 +2488,9 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="70"/>
-        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message.
+        <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation>Сгенерируйте подтверждение входящего/исходящего платежа, указав ID транзакции, адрес получателя и опциональное сообщение.
-В случае исходящих платежей вы можете получить &apos;Доказательство отправки&apos; (Spend Proof), которое подтвердит авторство транзакции. В этом случае вам не нужно указывать адрес получателя.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paste tx ID</source>
@@ -2601,6 +2634,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create A New Wallet</source>
         <translation>Создать новый кошелек</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2809,8 +2850,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation>Создан кошелек только для просмотра. Вы можете открыть его, закрыв текущий, кликнув опцию «Открыть кошелек из файла» и выбрав кошелек для просмотра по пути:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
@@ -3075,7 +3115,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Демон синхронизирован</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="599"/>
+        <location filename="../main.qml" line="608"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
         <translation type="vanished">Невозможно создать транзакцию: Неверная версия демона:</translation>
     </message>
@@ -3093,13 +3133,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="632"/>
         <source>Address: </source>
         <translation>Адрес: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="625"/>
-        <location filename="../main.qml" line="743"/>
+        <location filename="../main.qml" line="634"/>
+        <location filename="../main.qml" line="752"/>
         <source>
 Amount: </source>
         <translation>
@@ -3224,14 +3264,14 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="636"/>
         <source>
 Ring Size: </source>
         <translation>
 Размер кольца: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="638"/>
         <source>
         <translation type="unfinished"></translation>
     </message>
