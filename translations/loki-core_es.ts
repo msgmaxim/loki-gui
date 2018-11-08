@@ -611,7 +611,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="434"/>
         <source>Mining</source>
-        <translation>Minado</translation>
+        <translation>Minería</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="435"/>
@@ -726,7 +726,7 @@
     <name>Mining</name>
     <message>
         <source>Solo mining</source>
-        <translation type="vanished">Minado en solitario</translation>
+        <translation>Minería en solitario</translation>
     </message>
     <message>
         <source>(only available for local daemons)</source>
@@ -752,12 +752,12 @@
     </message>
     <message>
         <source>Background mining (experimental)</source>
-        <translation type="vanished">Minado en segundo plano (experimental)</translation>
+        <translation>Minería en segundo plano (experimental)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
-        <translation>Habilitar minado mientras la batería está en uso o se está usando</translation>
+        <translation>Habilitar minería mientras la batería está en uso o se está usando</translation>
     </message>
     <message>
         <source>Manage miner</source>
@@ -800,17 +800,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
-        <translation>Error arrancando el proceso de minera</translation>
+        <translation>Error arrancando el proceso de minería</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation>No se pudo empezar el proceso de minado.&lt;br&gt;</translation>
+        <translation>No se pudo empezar el proceso de minería.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>El minado solo está disponible en nodos locales. Arranque un daemon local para poder minar.&lt;br&gt;</translation>
+        <translation>La minería solo está disponible en nodos locales. Arranque un daemon local para poder minar.&lt;br&gt;</translation>
     </message>
 <message>
         <location filename="../pages/Mining.qml" line="161"/>
@@ -829,7 +829,7 @@
 </message>
     <message>
         <source>Stop mining</source>
-        <translation type="vanished">Parar proceso de minado</translation>
+        <translation>Parar proceso de minería</translation>
     </message>
     <message>
         <source>Status: not mining</source>
@@ -2552,11 +2552,12 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
         <source>Allow background mining?</source>
-        <translation>¿Permitir minado en segundo plano?</translation>
+        <translation>¿Permitir minería en segundo plano?</translation>
     </message>
     <message>
+        <location filename="../wizard/WizardConfigure.qml" line="169"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">La minería asegura la red de Loki y además paga una pequeña recompensa por el trabajo realizado. Esta opción permite que Loki mine mientras su computadora está ociosa. El minado se detendrá cuando continúe trabajando con ella.</translation>
+        <translation>La minería asegura la red de Loki y además paga una pequeña recompensa por el trabajo realizado. Esta opción permite que Loki mine mientras su computadora está ociosa. La Minería se detendrá cuando continúe trabajando con ella.</translation>
     </message>
 </context>
 <context>
@@ -2660,11 +2661,12 @@ Para el caso de pagos salientes, puedes obtener una &quot;Prueba de pago&quot; q
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
         <source>Allow background mining?</source>
-        <translation>¿Permitir minado en segundo plano?</translation>
+        <translation>¿Permitir minería en segundo plano?</translation>
     </message>
     <message>
+        <location filename="../wizard/WizardDonation.qml" line="190"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">La minería asegura la red de Loki y además paga una pequeña recompensa por el trabajo realizado. Esta opción permite que Loki mine mientras su computadora está ociosa. El minado se detendrá cuando continúe trabajando con ella.</translation>
+        <translation>La minería asegura la red de Loki y además paga una pequeña recompensa por el trabajo realizado. Esta opción permite que Loki mine mientras su computadora está ociosa. La minería se detendrá cuando continúe trabajando con ella.</translation>
     </message>
 </context>
 <context>
