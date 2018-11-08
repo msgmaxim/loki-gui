@@ -181,6 +181,13 @@
         <file>pages/History.qml</file>
         <file>pages/Keys.qml</file>
         <file>pages/Mining.qml</file>
+        <file>lang/flags/lt.png</file>
+        <file>lang/flags/hungary.png</file>
+        <file>lang/flags/finland.png</file>
+        <file>wizard/WizardManageWalletUI.qml</file>
+        <file>wizard/WizardRecoveryWallet.qml</file>
+        <file>wizard/WizardMemoTextInput.qml</file>
+        <file>wizard/utils.js</file>
         <file>pages/Receive.qml</file>
         <file>pages/SharedRingDB.qml</file>
         <file>pages/Sign.qml</file>
