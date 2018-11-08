@@ -607,7 +607,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="434"/>
         <source>Mining</source>
-        <translation>Brytning</translation>
+        <translation>Utvinning</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="435"/>
@@ -722,7 +722,7 @@
     <name>Mining</name>
     <message>
         <source>Solo mining</source>
-        <translation type="vanished">Solo-brytning</translation>
+        <translation>Individuell utvinning</translation>
     </message>
     <message>
         <source>(only available for local daemons)</source>
@@ -733,9 +733,9 @@
         <translation type="vanished">Brytning med din dator hjälper till att stärka Lokis nätverk. Ju fler som bryter desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Brytningen ger dig även möjlighet att tjäna lite Loki. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="75"/>
+        <location filename="../pages/Mining.qml" line="82"/>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="unfinished"></translation>
+        <translation>Utvinning med din dator hjälper till att stärka Lokis nätverk. Ju fler som utvinner desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinningen ger dig även möjlighet att tjäna lite Loki. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -748,20 +748,20 @@
     </message>
     <message>
         <source>Background mining (experimental)</source>
-        <translation type="vanished">Bakgrundsbrytning (experimentell)</translation>
+        <translation>Bakgrundsutvinning (experimentell)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
-        <translation>Aktivera brytning vid batteridrift</translation>
+        <translation>Aktivera utvinning vid batteridrift</translation>
     </message>
     <message>
         <source>Manage miner</source>
-        <translation type="vanished">Hantera brytare</translation>
+        <translation>Hantera utvinnare</translation>
     </message>
     <message>
         <source>Start mining</source>
-        <translation type="vanished">Starta brytning</translation>
+        <translation>Starta utvinning</translation>
     </message>
 <message>
         <location filename="../pages/Mining.qml" line="62"/>
@@ -796,17 +796,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
-        <translation>Ett fel uppstod vid start av brytning</translation>
+        <translation>Ett fel uppstod vid start av utvinning</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation>Det gick inte att starta brytning.&lt;br&gt;</translation>
+        <translation>Det gick inte att starta utvinning.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>Brytning är endast tillgänglig för lokala daemoner. Kör en lokal daemon för att kunna bryta.&lt;br&gt;</translation>
+        <translation>Utvinning är endast tillgänglig för lokala daemoner. Kör en lokal daemon för att kunna utvinna.&lt;br&gt;</translation>
     </message>
 <message>
         <location filename="../pages/Mining.qml" line="161"/>
@@ -825,20 +825,20 @@
 </message>
     <message>
         <source>Stop mining</source>
-        <translation type="vanished">Stoppa brytning</translation>
+        <translation>Stoppa utvinning</translation>
     </message>
     <message>
         <source>Status: not mining</source>
-        <translation type="vanished">Status: ingen brytning</translation>
+        <translation>Status: ingen utvinning</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="185"/>
         <source>Mining at %1 H/s</source>
-        <translation>Bryter med %1 H/s</translation>
+        <translation>Utvinner med %1 H/s</translation>
     </message>
     <message>
         <source>Not mining</source>
-        <translation type="vanished">Ingen brytning</translation>
+        <translation>Ingen utvinning</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="190"/>
@@ -2650,11 +2650,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
         <source>Allow background mining?</source>
-        <translation>Tillåt bakgrundsbrytning?</translation>
+        <translation>Tillåt bakgrundsutvinning?</translation>
     </message>
     <message>
+        <location filename="../wizard/WizardConfigure.qml" line="169"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Brytningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki bryta när din dator är nätansluten men inaktiv. Brytningen stoppas när du fortsätter att arbeta igen.</translation>
+        <translation>Utvinningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
     </message>
 </context>
 <context>
@@ -2761,11 +2762,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
         <source>Allow background mining?</source>
-        <translation>Tillåt bakgrundsbrytning?</translation>
+        <translation>Tillåt bakgrundsutvinning?</translation>
     </message>
     <message>
+        <location filename="../wizard/WizardDonation.qml" line="190"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Brytningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki bryta när din dator är nätansluten men inaktiv. Brytningen stoppas när du fortsätter att arbeta igen.</translation>
+        <translation>Utvinningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
     </message>
 </context>
 <context>
@@ -3350,9 +3352,9 @@ Index för spenderingsadress: </translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="857"/>
+        <location filename="../main.qml" line="864"/>
         <source>This address received %1 Loki, with %2 confirmation(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna adress tog emot %1 Loki, med %2 bekräftelser.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3488,7 +3490,7 @@ Beskrivning: </translation>
     <message>
         <location filename="../main.qml" line="861"/>
         <source>This address received nothing</source>
-        <translation>Denna adress tog emot ingenting</translation>
+        <translation>Denna adress mottog ingenting</translation>
     </message>
     <message>
         <location filename="../main.qml" line="880"/>
