@@ -97,7 +97,7 @@ Rectangle {
         visible: true
         z: 2
         id: column1
-        height: 200
+        height: 210
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
@@ -248,18 +248,16 @@ Rectangle {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
         anchors.top: (isMobile)? parent.top : column1.bottom
-        anchors.topMargin: (isMobile)? 0 : 32
         color: "transparent"
 
 
         Flickable {
             id:flicker
-            contentHeight: (progressBar.visible)? menuColumn.height + separator.height + 
-                networkStatus.height + progressBar.height + daemonProgressBar.height : 
-                menuColumn.height + separator.height + networkStatus.height
-            anchors.fill: parent
+            contentHeight: menuColumn.height
+            anchors.top: parent.top
+            anchors.bottom: networkStatus.top
+            width: parent.width
             clip: true
-
 
         Column {
 
