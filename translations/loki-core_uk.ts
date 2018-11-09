@@ -1621,10 +1621,10 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="111"/>
-        <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>Blackballed Outputs</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
+        <source>Outputs marked as spent</source>
+        <translation>Заблоковані виходи</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="111"/>
@@ -1633,9 +1633,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Допомога</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="114"/>
-        <source>&lt;p&gt;In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/SharedRingDB.qml" line="122"/>
+        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Для того щоб приховати які входи в транзакціях Monero були витрачені, третя сторона не повинна повідомляти які входи в кільці вже задіяні в витраті. Адже якщо це зробити, то це послабить захист, який забезпечується кільцевими підписами. Якщо відомо, що всі, крім одного з входів, вже витрачені, то фактично трата входу стає очевидною, тим самим анулюється ефект кільцевих підписів, одного з трьох основних рівнів захисту конфіденційності Monero.&lt;br&gt;Щоб допомогти транзакціям уникнути витрати цих входів, можна використовувати список відомих витрачених входів, щоб уникнути їх використання в нових транзакціях. Такий список підтримується проектом Monero і доступний на веб-сайті getmonero.org, і ви можете імпортувати цей список тут.&lt;br&gt;Крім того, ви можете просканувати блокчейн (і блокчейни клонів Monero) самостійно, використовуючи інструмент monero-blockchain-mark-spent-outputs, щоб створити список відомих витрачених входів.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="132"/>
@@ -1648,8 +1648,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Вам потрібно лише завантажити файл, якщо ви хочете оновити список. При необхідності можливе ручне додавання/видалення елементів.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="145"/>
-        <source>Please choose a file to load blackballed outputs from</source>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
+        <source>Please choose a file from which to load outputs to mark as spent</source>
         <translation>Будь ласка, виберіть файл для завантаження списку заблокованих виходів</translation>
     </message>
     <message>
@@ -1658,9 +1658,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Шлях до файлу</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
-        <source>Filename With Outputs To Blackball</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
+        <source>Filename with outputs to mark as spent</source>
+        <translation>Ім&apos;я файла зі списком заблокованих виходів</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="176"/>
@@ -1673,9 +1673,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Завантажити</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="203"/>
-        <source>Or Manually Blackball/Unblackball A Single Output</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
+	<source>Or manually mark a single output as spent/unspent:</source>
+        <translation>Або вручну заблокуйте/розблокуйте вихід:</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="204"/>
@@ -1683,13 +1683,18 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Вставте вихід публічного ключа</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="218"/>
-        <source>Blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation>Вставте вихідне зміщення</translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
+        <source>Mark as spent</source>
         <translation>Заблокувати</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="227"/>
-        <source>Unblackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
+        <source>Mark as unspent</source>
         <translation>Розблокувати</translation>
     </message>
     <message>

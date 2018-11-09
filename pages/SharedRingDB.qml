@@ -115,18 +115,21 @@ Rectangle {
         LabelSubheader {
             Layout.fillWidth: true
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
-                  qsTr("Blackballed Outputs") + "<a href='#'>(" + qsTr("Help") + ")</a>" + translationManager.emptyString
+            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+                  qsTr("Outputs marked as spent") + " <a href='#'>" + qsTr("Help") + "</a>" + translationManager.emptyString
             onLinkActivated: {
-                sharedRingDBDialog.title  = qsTr("Blackballed Outputs") + translationManager.emptyString;
+                sharedRingDBDialog.title  = qsTr("Outputs marked as spent") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
                     "<p>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able " +
                     "to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection " +
                     "afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being " +
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
-                    "of privacy protection Loki uses.</p>" +
-                    "<p>Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
-                    "using the loki-blockchain-blackball tool to create a list of known spent outputs.</p>"
+                    "of privacy protection Loki uses.<br>" +
+                    "To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new " +
+                    "transactions. Such a list is maintained by the Loki project and is available on the loki.network website, " +
+                    "and you can import this list here.<br>" +
+                    "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
+                    "using the loki-blockchain-mark-spent-outputs tool to create a list of known spent outputs.<br>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
                 sharedRingDBDialog.open()
@@ -150,7 +153,7 @@ Rectangle {
 
             FileDialog {
                 id: loadBlackballFileDialog
-                title: qsTr("Please choose a file to load blackballed outputs from") + translationManager.emptyString;
+                title: qsTr("Please choose a file from which to load outputs to mark as spent") + translationManager.emptyString;
                 folder: "file://"
                 nameFilters: [ "*"]
 
@@ -166,7 +169,8 @@ Rectangle {
                     id: loadBlackballFileLine
                     Layout.fillWidth: true
                     placeholderText: qsTr("Path to file") + "..." + translationManager.emptyString
-                    labelText: qsTr("Filename With Outputs To Blackball") + translationManager.emptyString
+                    labelFontSize: 14 * scaleRatio
+                    labelText: qsTr("Filename with outputs to mark as spent") + ":" + translationManager.emptyString
                     copyButton: true
                     readOnly: false
                 }
@@ -206,7 +210,7 @@ Rectangle {
                     id: blackballOutputAmountLine
                     fontSize: mainLayout.lineEditFontSize
                     labelFontSize: 14 * scaleRatio
-                    labelText: qsTr("Or Manually Blackball/Unblackball A Single Output:") + translationManager.emptyString
+                    labelText: qsTr("Or manually mark a single output as spent/unspent:") + translationManager.emptyString
                     placeholderText: qsTr("Paste output amount") + "..." + translationManager.emptyString
                     readOnly: false
                     width: mainLayout.editWidth / 2
@@ -230,7 +234,7 @@ Rectangle {
 
                 StandardButton {
                     id: blackballButton
-                    text: qsTr("Blackball") + translationManager.emptyString
+                    text: qsTr("Mark as spent") + translationManager.emptyString
                     small: true
                     enabled: !!appWindow.currentWallet && validUnsigned(blackballOutputAmountLine.text) && validUnsigned(blackballOutputOffsetLine.text)
                     onClicked: appWindow.currentWallet.blackballOutput(blackballOutputAmountLine.text, blackballOutputOffsetLine.text)
@@ -239,7 +243,7 @@ Rectangle {
                 StandardButton {
                     id: unblackballButton
                     anchors.right: parent.right
-                    text: qsTr("Unblackball") + translationManager.emptyString
+                    text: qsTr("Mark as unspent") + translationManager.emptyString
                     small: true
                     enabled: !!appWindow.currentWallet && validUnsigned(blackballOutputAmountLine.text) && validUnsigned(blackballOutputOffsetLine.text)
                     onClicked: appWindow.currentWallet.unblackballOutput(blackballOutputAmountLine.text, blackballOutputOffsetLine.text)

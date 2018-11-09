@@ -1731,9 +1731,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>На этой странице можно взаимодействовать с общей базой данных RingDB. Эта база данных предназначается для использования кошельками Loki или их клонов, которые смогут повторно использовать ключи Loki.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
-        <source>Blackballed Outputs</source>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
+        <source>Outputs marked as spent</source>
         <translation>Заблокированные выходы</translation>
     </message>
     <message>
@@ -1743,9 +1743,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="114"/>
-        <source>&lt;p&gt;In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;/p&gt;&lt;p&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;/p&gt;</source>
-        <translation>Для того чтобы скрыть какие входы в транзакциях Loki потрачены, третья сторона не должна сообщать какие входы в кольце уже задействованы в трате. Ведь если это сделать, то это ослабит защиту, обеспечиваемую кольцевыми подписями. Если известно, что все, кроме одного из входов, уже потрачены, то фактически трата входа становится очевидной, тем самым аннулируется эффект кольцевых подписей, одного из трех основных уровней защиты конфиденциальности Loki.&lt;br&gt;Чтобы помочь транзакциям избежать траты этих входов, можно использовать список известных израсходованных входов, чтобы избежать их использования в новых транзакциях. и вы можете импортировать этот список здесь.&lt;br&gt;Кроме того, вы можете просканировать блокчейн (и блокчейны клонов Loki) самостоятельно, используя инструмент loki-blockchain-blackball, чтобы создать список известных потраченых входов.&lt;br&gt;</translation>
+        <location filename="../pages/SharedRingDB.qml" line="122"/>
+        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Для того чтобы скрыть какие входы в транзакциях Monero потрачены, третья сторона не должна сообщать какие входы в кольце уже задействованы в трате. Ведь если это сделать, то это ослабит защиту, обеспечиваемую кольцевыми подписями. Если известно, что все, кроме одного из входов, уже потрачены, то фактически трата входа становится очевидной, тем самым аннулируется эффект кольцевых подписей, одного из трех основных уровней защиты конфиденциальности Monero.&lt;br&gt;Чтобы помочь транзакциям избежать траты этих входов, можно использовать список известных израсходованных входов, чтобы избежать их использования в новых транзакциях. Такой список поддерживается проектом Monero и доступен на веб-сайте getmonero.org, и вы можете импортировать этот список здесь.&lt;br&gt;Кроме того, вы можете просканировать блокчейн (и блокчейны клонов Monero) самостоятельно, используя инструмент monero-blockchain-mark-spent-outputs, чтобы создать список известных потраченых входов.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="132"/>
@@ -1758,8 +1758,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Вам нужно только загрузить файл, если вы хотите обновить список. При необходимости возможно ручное добавление/удаление элементов.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="145"/>
-        <source>Please choose a file to load blackballed outputs from</source>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
+        <source>Please choose a file from which to load outputs to mark as spent</source>
         <translation>Пожалуйста, выберете файл для загрузки списка заблокированных выходов</translation>
     </message>
     <message>
@@ -1768,8 +1768,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Путь к файлу</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
-        <source>Filename With Outputs To Blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
+        <source>Filename with outputs to mark as spent</source>
         <translation>Выберите файл с блокируемыми выходами</translation>
     </message>
     <message>
@@ -1783,8 +1783,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Загрузить</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="203"/>
-        <source>Or Manually Blackball/Unblackball A Single Output</source>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
+	<source>Or manually mark a single output as spent/unpent:</source>
         <translation>Или вручную заблокируйте/разблокируйте выход:</translation>
     </message>
     <message>
@@ -1793,13 +1793,18 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Вставьте выход публичного ключа</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="218"/>
-        <source>Blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
+        <source>Mark as spent</source>
         <translation>Заблокировать</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="227"/>
-        <source>Unblackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
+        <source>Mark as unspent</source>
         <translation>Разблокировать</translation>
     </message>
     <message>
