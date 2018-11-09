@@ -1783,7 +1783,7 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Zajednička baza podataka o prstenovima</translation>
     </message>
@@ -1793,14 +1793,14 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Blackball izlazi</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Pomoć</translation>
     </message>
@@ -1810,63 +1810,68 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Ovdje se unosi popis poznatih potrošenih izlaza kako se nebi ponovo koristili u potpisima prstenova.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Trebali biste učitati datoteku samo kada želite osvježiti popis. Ručno dodavanje/uklanjanje je moguće po potrebi.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Odaberite datoteku za učitavanje Blackball izlaza od</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Put do datoteke</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Naziv datoteke sa blackball izlazima</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Pretraži</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Učitaj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Ili ručno primjeni/ukloni blackball sa jednog izlaza:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Zalijepi izlazni javni ključ</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Primjeni Blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Ukloni Blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Prstenovi</translation>
     </message>
@@ -1881,57 +1886,57 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Ključna slika</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Zalijepi ključnu sliku</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Dohvati prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Dohvati Prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Prsten nije pronađen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Postavi prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Postavi Prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Namjeravam potrošiti na klonove koji ponovo koriste ključeve</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Možda bih želio potrošiti na klonove koji ponovo koriste ključeve</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativno</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Segregacija na bloku:</translation>
     </message>
@@ -3547,7 +3552,7 @@ Opis: </translation>
         <translation type="vanished">Nova verzija loki-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Dnevnik daemona</translation>
     </message>

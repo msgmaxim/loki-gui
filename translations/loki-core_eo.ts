@@ -547,12 +547,12 @@
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="457"/>
+        <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/check</source>
         <translation>Pruvi/Kontroli</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="458"/>
+        <location filename="../LeftPanel.qml" line="459"/>
         <source>K</source>
         <translation>K</translation>
     </message>
@@ -611,7 +611,7 @@
         <translation>M</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
+        <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
         <translation>Komuna ringdatumbazo</translation>
     </message>
@@ -1621,7 +1621,7 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Komuna Ringdatumbazo</translation>
     </message>
@@ -1631,14 +1631,14 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
         <translation>Ĉi tiu paĝo ebligas vin interagi kun la komuna ringdatumbazo. Tiu datumbazo uziĝos de Loki-monujoj kaj de monujoj el Loki-klonoj kiuj reuzas la Loki-ŝlosilojn.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Malakceptitaj eligoj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Helpo</translation>
     </message>
@@ -1662,53 +1662,48 @@ Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuza
         <translation>Vi devus ŝargi dosieron nur se vi volas refreŝigi la liston. Se necese, eblas mane aldoni/depreni.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Bonvolu elekti dosieron el kie ŝargiĝos la malakceptitaj eligoj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Vojo al dosiero</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Dosiernomo kun malakceptendaj eligoj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Foliumi</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Ŝargi</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Aŭ mane rifuzi/akcepti eligon:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Alglui la publikan ŝlosilon de la eligo</translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Malakcepti</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Reakcepti</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Ringoj</translation>
     </message>
@@ -1730,7 +1725,7 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation type="unfinished"></translation>
     </message>
@@ -1756,47 +1751,47 @@ Se vi ne uzas ŝlosilreuzantan Loki-klonon, kiu ne enhavas tiujn sekuraĵojn, vi
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Obteni ringon</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Obteni Ringon</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Neniu ringo troviĝis</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Agordi ringon</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Agordi Ringon</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Mi intencas elspezi sur ŝlosilreuzanta(j) forko(j)</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Mi eble volas elspezi sur ŝlosilreuzanta(j) forko(j)</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Blokalteco de la disforkiĝo:</translation>
     </message>
@@ -3269,7 +3264,7 @@ Description: </source>
         <translation>Eraro: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1738"/>
+        <location filename="../main.qml" line="1739"/>
         <source>Tap again to close...</source>
         <translation>Denove klaku por fermi...</translation>
     </message>
@@ -3299,32 +3294,32 @@ Description: </source>
         <translation>Nova versio de loki-wallet-gui disponeblas:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="687"/>
+        <location filename="../main.qml" line="688"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
         <translation>Nesufiĉe da mono. Disponebla saldo: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="472"/>
+        <location filename="../main.qml" line="473"/>
         <source>Waiting for daemon to sync</source>
         <translation>Atendante sinkroniziĝon de la demono</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Demono sinkronizas (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Monujo sinkronizas</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Demono sinkronizas</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adreso:</translation>
     </message>
@@ -3404,7 +3399,7 @@ Description: </source>
         <translation>Sendu al la sama celo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Demontaglibro</translation>
     </message>

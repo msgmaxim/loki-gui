@@ -1820,7 +1820,7 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Gedeelde RingDB</translation>
     </message>
@@ -1830,14 +1830,14 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
         <translation>Op deze pagina kunt u de database met gedeelde ringen gebruiken. Deze database is bedoeld voor zowel Loki als klonen van Loki waarin Loki-sleutels worden hergebruikt.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Uitgesloten outputs</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Help</translation>
     </message>
@@ -1848,63 +1848,68 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
         <translation>Om te verbergen welke inputs in een Loki-transactie worden uitgegeven, moet een derde niet kunnen zien welke inputs in een ring al zijn uitgegeven. Daardoor zou de privacybescherming van ring-handtekeningen worden verzwakt. Als alle inputs op één na al zijn uitgegeven, is zichtbaar welke input echt wordt uitgegeven. Dan hebben ring-handtekeningen, een van de drie beschermingslagen van Loki, geen effect meer.&lt;br&gt;Met een lijst met bekende uitgegeven inputs kunt u voorkomen dat u ze in nieuwe transacties gebruikt. Deze lijst wordt onderhouden door het Loki-project en is beschikbaar op de website getloki.org. U kunt de lijst hier importeren.&lt;br&gt;Maar u kunt ook zelf de blockchain doorzoeken (en van Loki gekopieerde blockchains waarop sleutels worden hergebruikt) met de tool loki-blockchain-blackball, om een lijst met bekende uitgegeven outputs te genereren.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Hiermee wordt ingesteld van welke outputs bekend is dat ze zijn uitgegeven. Deze worden dus niet gebruikt als afleiding voor privacy in ring-handtekeningen. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>U hoeft alleen een bestand te laden als u de lijst wilt vernieuwen. Eventueel is handmatig toevoegen/verwijderen mogelijk.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Selecteer een bestand waaruit u uitgesloten outputs wilt laden</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Pad naar bestand</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Naam van bestand met uit te sluiten outputs</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Bladeren</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Laden</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Of sluit één output handmatig uit of neem deze op:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Openbare sleutel van output plakken</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Uitsluiten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Opnemen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Ringen</translation>
     </message>
@@ -1919,57 +1924,57 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
         <translation>Hier voert u in welke ringen zijn gebruikt voor in Loki uitgegeven outputs op een blockchain met hergebruik van sleutels, zodat dezelfde ring kan worden hergebruikt om uw privacy te beschermen.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Key image</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Key image plakken</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Ring ophalen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Ring ophalen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Geen ring gevonden</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Ring instellen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Ring instellen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Ik wil betalen op andere blockchains die sleutels hergebruiken</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Misschien wil ik betalen op andere blockchains die sleutels hergebruiken</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relatief</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Splitsingshoogte:</translation>
     </message>
@@ -3395,35 +3400,35 @@ Ringsize: </source>
 Ringgrootte: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 WAARSCHUWING: ringgroote is niet standaard. Dit kan schadelijk zijn voor uw privacy. De standaardwaarde 7 wordt aangeraden.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
 Aantal transacties: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>
 Omschrijving: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>
 Index van betalend adres: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="750"/>
+        <location filename="../main.qml" line="751"/>
         <source>Confirmation</source>
         <translation>Bevestiging</translation>
     </message>
@@ -3632,7 +3637,7 @@ Ringgrootte: </translation>
         <translation type="vanished">Nieuwe versie van loki-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Node-log</translation>
     </message>

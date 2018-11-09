@@ -1728,7 +1728,7 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>RingDB Compartilhado</translation>
     </message>
@@ -1738,14 +1738,14 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Essa página te permite interagir com a base de dados compartilhada dos anéis. Essa base de dados serve para ser usada por carteiras Loki e outras carteiras de clones do Loki que reutilizam as mesmas chaves.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Saídas banidas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Ajuda</translation>
     </message>
@@ -1755,63 +1755,68 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Para ocultar quais entradas estão sendo gastas numa transação em Loki, um terceiro não deve ser capaz de saber quais entradas num anel já foram gastas. Se ele for capaz, a proteção fornecida pelas assinaturas em anel é enfraquecida. Se todas as entradas forem identificadas como gastas, salvo uma, então a verdadeira entrada fica aparente, anulando o efeito das assinaturas em anel, que é uma das três principais camadas de proteção a privacidade que o Loki usa.&lt;br&gt;Para ajudar que as transações evitem essas entradas, uma lista de entradas já gastas pode ser usada para evitar de adicioná-las em novas transações. Tal lista é mantida pelo projeto Loki e está disponível no website getloki.org. Você pode importar essa lista aqui.&lt;br&gt;Como alternativa, você pode escanear o blockchain (e dos clones do Loki que reutilizam as chaves) usando a ferramenta loki-blockchain-blackball para criar uma lista de entradas já gastas.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Isso define quais saídas sabemos que foram gastas e, portanto, não devem ser usadas nas assinaturas em anel.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Você só precisa carregar um arquivo quando quiser atualizar a lista. Se necessário é possível adicionar e remover manualmente.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Escolha o arquivo para carregar as saídas banidas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Caminho para o arquivo</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Nome do arquivo com as saídas para banir</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Navegar</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Carregar</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Banir ou desbanir manualmente uma única saída:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Colar chave pública da saída</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Banir</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Desbanir</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Anéis</translation>
     </message>
@@ -1826,57 +1831,57 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Isso registra os anéis usados pelo Loki em um blockchain que reutiliza as mesmas chaves. Dessa maneira o mesmo anel pode ser reutilizado evitando problemas de privacidade.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Chave de imagem</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Cole a chave de imagem</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Recuperar anel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Recuperar anel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Anel não encontrado</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Definir anel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Definir anel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Eu pretendo usar um fork que reutiliza as chaves do Loki</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Talvez eu queria usar um fork que reutiliza as chaves do Loki</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativo</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Altura da segregação:</translation>
     </message>
@@ -2840,8 +2845,7 @@ Para pagamentos que você realizou, é possível pegar uma prova de pagamento qu
         <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation>A carteira &quot;somente leitura&quot; foi criada. Você pode usá-la fechando a carteira atual, clicando em &quot;Abrir carteira de um arquivo&quot;, e selecionando a carteira somente leitura em:
-%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in:
@@ -3260,26 +3264,26 @@ Ringsize: </translation>
         <translation>Não foi possível criar a transação: Versão do daemon incorreta: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Endereço: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Tamanho do anel: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 AVISO: tamanho do anel fora do padrão pode reduzir sua privacidade. Recomendamos o padrão de 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3408,7 +3412,7 @@ Spending address index: </source>
         <translation>Nova versão da carteira (GUI) do Loki disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Log do daemon</translation>
     </message>

@@ -1204,7 +1204,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="521"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Questo è un semplice tracker di vendite:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Fai scansionare al tuo cliente il codice QR (se questo ha un software che supporta la scansione del QR).&lt;/p&gt;&lt;p&gt;Questa pagina andrà in cerca nella blockchain e nella tx pool di transazioni basate sul codice QR. Se immetti una quantità, controllerà che questa sia esatta. &lt;/p&gt;&lt;p&gt;Dipende da te se vuoi accettare le transazioni ancora non confermate o meno. è probabile che vengano confermate in poco tempo, ma c'è sempre la possibilità che questo non succeda; per transazioni più grandi, potresti voler aspettare una o più conferme. &lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Questo è un semplice tracker di vendite:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Fai scansionare al tuo cliente il codice QR (se questo ha un software che supporta la scansione del QR).&lt;/p&gt;&lt;p&gt;Questa pagina andrà in cerca nella blockchain e nella tx pool di transazioni basate sul codice QR. Se immetti una quantità, controllerà che questa sia esatta. &lt;/p&gt;&lt;p&gt;Dipende da te se vuoi accettare le transazioni ancora non confermate o meno. è probabile che vengano confermate in poco tempo, ma c&apos;è sempre la possibilità che questo non succeda; per transazioni più grandi, potresti voler aspettare una o più conferme. &lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="360"/>
@@ -1844,7 +1844,7 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Database degli anelli (RingDB) condiviso</translation>
     </message>
@@ -1854,14 +1854,14 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
         <translation>Questa pagina ti dà la possibilità di interagire con il database degli anelli condiviso (shared RingDB). Questo database è pensato per l&apos;utilizzo da parte dei portafogli Loki così come dai portafogli dei cloni Loki che riusano le chiavi Loki.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Output con blackball applicato</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Aiuto</translation>
     </message>
@@ -1871,63 +1871,68 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
         <translation>Al fine di oscurare gli input che vengono spesi in una transazione Loki, non deve essere consentito ad un osservatore di individuare in un anello gli input che sono già stati spesi. Essere in grado di fare questo significa indebolire la protezione offerta dalle firme ad anello. Se si fosse a conoscenza del fatto che tutti gli input tranne uno sono già stati spesi, l&apos;input che viene veramente speso sarebbe palese, annullando di fatto l&apos;effetto delle firme ad anello, uno dei tre principali strati di protezione della privacy utilizzati da Loki.&lt;br&gt;Per fare in modo che le transazioni escludano tali input, si può ricorrere ad una lista di input di cui è già nota l&apos;avvenuta spesa ed il cui uso può essere evitato in una nuova transazione. Questa lista viene manutenuta dal Progetto Loki ed è disponibile sul sito getloki.org; puoi importare la lista qui.&lt;br&gt;Alternativamente, puoi effettuare tu stesso/a una scansione della blockchain (e della blockchain dei cloni di Loki che riusano le chiavi) mediante lo strumento loki-blockchain-blackball per creare una lista di output già spesi.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Questo imposta quali output di cui è nota l&apos;avvenuta spesa e che non devono essere usati nelle firme ad anello. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Dovrebbe essere sufficiente caricare un file se vuoi aggiornare la lista. L&apos;aggiunta o la rimozione manuale sono comunque possibili.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Seleziona un file da cui caricare output con blackball applicata</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Percorso del file</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Nome del file con output su cui applicare blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Esplora</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Carica</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>O applica/rimuovi blackball ad un output singolo:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Inserisci chiave pubblica dell&apos;output</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Applica blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Rimuovi blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Anelli</translation>
     </message>
@@ -1942,57 +1947,57 @@ La vecchia cache del portafoglio verrà rinominata e potrà essere ripristinata 
         <translation>Questo registra gli anelli utilizzati dagli output spesi su Loki su una blockchain che riusa le chiavi; ciò vuol dire che potrebbe essere riusato il medesimo anello per evitare problemi di privacy.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Immagine della chiave</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Inserisci immagine della chiave</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Ottieni anello</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Ottieni Anello</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Nessun anello trovato</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Imposta anello</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Imposta Anello</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Ho intenzione di spendere su uno o più fork che riusano le chiavi</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Potrei voler spendere su uno o più fork che riusano le chiavi</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativo</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Altezza di segregazione:</translation>
     </message>
@@ -3407,14 +3412,14 @@ Ringsize: </source>
         <translation>Dimensione anello: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 ATTENZIONE: dimensione anello non di default. Potrebbe danneggiare la tua privacy. Si raccomanda un default di 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3428,14 +3433,14 @@ Description: </source>
 Descrizione: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>
 Indice indirizzo di spesa: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="750"/>
+        <location filename="../main.qml" line="751"/>
         <source>Confirmation</source>
         <translation>Conferma</translation>
     </message>
@@ -3555,7 +3560,7 @@ Ringsize: </source>
         <translation>E&apos; disponibile una nuova versione dell&apos;interfaccia grafica: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Log daemon</translation>
     </message>

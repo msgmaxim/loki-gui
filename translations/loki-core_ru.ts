@@ -570,7 +570,7 @@
         <translation>Тестовая сеть (testnet)</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="124"/>
+        <location filename="../LeftPanel.qml" line="125"/>
         <source>Stagenet</source>
         <translation>Тестовая сеть (stagenet)</translation>
     </message>
@@ -3118,7 +3118,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Демон синхронизирован</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="608"/>
+        <location filename="../main.qml" line="609"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
         <translation type="vanished">Невозможно создать транзакцию: Неверная версия демона:</translation>
     </message>
@@ -3136,13 +3136,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Адрес: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="634"/>
-        <location filename="../main.qml" line="752"/>
+        <location filename="../main.qml" line="635"/>
+        <location filename="../main.qml" line="753"/>
         <source>
 Amount: </source>
         <translation>
@@ -3267,14 +3267,14 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ring Size: </source>
         <translation>
 Размер кольца: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
         <translation type="unfinished"></translation>
     </message>

@@ -562,7 +562,7 @@
         <translation>Historie</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="124"/>
+        <location filename="../LeftPanel.qml" line="125"/>
         <source>Testnet</source>
         <translation>testovací síť</translation>
     </message>
@@ -572,7 +572,7 @@
         <translation>Stagenet</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="137"/>
+        <location filename="../LeftPanel.qml" line="138"/>
         <source>View Only</source>
         <translation>Pouze k prohlížení</translation>
     </message>
@@ -1666,13 +1666,13 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Blackball výstupy</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Pokud chcete aktualizovat seznam, měli byste znovu načíst příslušný soubor. Ruční přidávání/odstranění je v případě potřeby možné.</translation>
     </message>
@@ -1682,38 +1682,33 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Abychom skryli, který konkrétní vstup bude v Loki transakci utracen, neměla by třetí strana být schopna říci, které z vstupů do kruhového podpisu jsou již známy jako utracené. Pokud by toto možné bylo, oslabilo by to ochranu poskytovanou tzv. kruhovým podpisem. Je-li známo, že všechny vstupy kromě jednoho jsou již utracené, pak pozbývá smyslu s takovými vstupy vytvářet kruhový podpis, což je jedna z tří hlavních vrstev ochrany soukromí, které Loki používá.&lt;br&gt;Vyhnout se použití těchto soukromí oslabujících vstupů při vytváření transakce lze poskytnutím seznamu vstupů jejichž plná privátnost není zaručena. Tento seznam udržuje projekt Loki a je dostupný na webových stránkách getloki.org a můžete jej importovat zde. &lt;br&gt; Alternativně můžete sami skenovat blockchain pomocí nástroje loki-blockchain-blackball pro vytvoření seznamu známých vyčerpaných výstupů.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Prosím, vyberte soubor se seznamem tzv. &quot;blackball&quot; výstupů</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Název souboru s blackball výstupy</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Nahrát</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Vložte veřejný klíč výstupu</translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Přidat do blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Odebrat z blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Kruhy</translation>
     </message>
@@ -1738,29 +1733,29 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Tato stránka umožňuje interakci se sdílenou databází podepisovacích kruhů. Tato databáze je určena pro použití peněženkami Loki a peněženkami z klonů Loki, které znovu používají klíče Loki.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Toto určuje, o kterých výstupech je známo, že jsou utráceny, a proto nejsou používány jako záložní prvky ochrany soukromí v podepisovacích kruzích.
 </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Cesta k souboru</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Procházet</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Nebo manuálně zařaďte nebo odeberte konkrétní vstup, či výstup z blackball seznamu:</translation>
     </message>
@@ -1770,27 +1765,27 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Otisk</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Vložte obrázek klíče</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Získat kruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Získat kruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Žádný nalezený kruh</translation>
     </message>
@@ -1800,32 +1795,32 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativní</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Nastavit kruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Nastavit kruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Mám v úmyslu utratit mince v rámci forku s opětovným použitím klíčů</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Možná bych chtěl utratit mince v rámci forku s opětovným použitím klíčů</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Výška segregace:</translation>
     </message>
@@ -3010,145 +3005,145 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
 <context>
     <name>main</name>
     <message>
-        <location filename="../main.qml" line="290"/>
-        <location filename="../main.qml" line="399"/>
-        <location filename="../main.qml" line="606"/>
-        <location filename="../main.qml" line="618"/>
-        <location filename="../main.qml" line="674"/>
-        <location filename="../main.qml" line="686"/>
-        <location filename="../main.qml" line="728"/>
-        <location filename="../main.qml" line="737"/>
-        <location filename="../main.qml" line="789"/>
-        <location filename="../main.qml" line="887"/>
-        <location filename="../main.qml" line="1069"/>
-        <location filename="../main.qml" line="1214"/>
+        <location filename="../main.qml" line="291"/>
+        <location filename="../main.qml" line="400"/>
+        <location filename="../main.qml" line="607"/>
+        <location filename="../main.qml" line="619"/>
+        <location filename="../main.qml" line="675"/>
+        <location filename="../main.qml" line="687"/>
+        <location filename="../main.qml" line="729"/>
+        <location filename="../main.qml" line="738"/>
+        <location filename="../main.qml" line="790"/>
+        <location filename="../main.qml" line="888"/>
+        <location filename="../main.qml" line="1070"/>
+        <location filename="../main.qml" line="1215"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="291"/>
-        <location filename="../main.qml" line="400"/>
+        <location filename="../main.qml" line="292"/>
+        <location filename="../main.qml" line="401"/>
         <source>Couldn&apos;t open wallet: </source>
         <translation>Nemohu otevřít peněženku: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="357"/>
         <location filename="../main.qml" line="358"/>
+        <location filename="../main.qml" line="359"/>
         <source>HIDDEN</source>
         <translation>SKRYTÉ</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="429"/>
+        <location filename="../main.qml" line="430"/>
         <source>Unlocked balance (waiting for block)</source>
         <translation>Neblokovaný zůstatek (čekajících na blok)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="429"/>
+        <location filename="../main.qml" line="430"/>
         <source>Unlocked balance (~%1 min)</source>
         <translation>Neblokovaný zůstatek (~%1 min)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="429"/>
+        <location filename="../main.qml" line="430"/>
         <source>Unlocked balance</source>
         <translation>Neblokovaný zůstatek</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="514"/>
+        <location filename="../main.qml" line="515"/>
         <source>Waiting for daemon to start...</source>
         <translation>Čekám na nastartování démona...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="520"/>
+        <location filename="../main.qml" line="521"/>
         <source>Waiting for daemon to stop...</source>
         <translation>Čekám na zastavení démona...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="545"/>
+        <location filename="../main.qml" line="546"/>
         <source>Daemon failed to start</source>
         <translation>Démona se nepodařilo nastartovat</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="546"/>
+        <location filename="../main.qml" line="547"/>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
         <translation>Prosím, zkontrolujte případné chyby v log peněženky a démona. Taktéž se můžete pokusit nastartovat %1 manuálně.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="608"/>
+        <location filename="../main.qml" line="609"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
         <translation type="vanished">Nelze vytvořit transakci: Špatná verze démona: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="610"/>
-        <location filename="../main.qml" line="729"/>
+        <location filename="../main.qml" line="611"/>
+        <location filename="../main.qml" line="730"/>
         <source>Can&apos;t create transaction: </source>
         <translation>Nelze vytvořit transakci: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="619"/>
-        <location filename="../main.qml" line="738"/>
+        <location filename="../main.qml" line="620"/>
+        <location filename="../main.qml" line="739"/>
         <source>No unmixable outputs to sweep</source>
         <translation>Nemixovatelné výstupy ve sweep</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>
 Popisek: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="750"/>
+        <location filename="../main.qml" line="751"/>
         <source>Confirmation</source>
         <translation>Potvrzení</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="630"/>
-        <location filename="../main.qml" line="751"/>
+        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="752"/>
         <source>Please confirm transaction:
 </source>
         <translation>Prosím, potvrďte transakci:
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="633"/>
+        <location filename="../main.qml" line="634"/>
         <source>
 Payment ID: </source>
         <translation>
 ID platby: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="634"/>
-        <location filename="../main.qml" line="752"/>
+        <location filename="../main.qml" line="635"/>
+        <location filename="../main.qml" line="753"/>
         <source>
 Amount: </source>
         <translation>
 Částka: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="635"/>
-        <location filename="../main.qml" line="753"/>
+        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="754"/>
         <source>
 Fee: </source>
         <translation>
 Poplatek: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="472"/>
+        <location filename="../main.qml" line="473"/>
         <source>Waiting for daemon to sync</source>
         <translation>Čekám na dokončení synchronizace démona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Démon je synchronizovaný (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Peněženka je synchonizovaná</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Démon je synchronizovaný</translation>
     </message>
@@ -3158,33 +3153,33 @@ Poplatek: </translation>
         <translation>Nelze vytvořit transakci: Špatná verze démona: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adresa: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Počet podpisovatelů: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 VAROVÁNÍ: použití nestandartní velikosti podpisového kruhu může ohrozit vaše soukromí. Doporučujeme výchozí hodnotu 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
 Počet transakcí: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>
@@ -3196,26 +3191,26 @@ Index výdajů: </translation>
         <translation>Loki úspěšně odesláno: %1 transakce </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="829"/>
+        <location filename="../main.qml" line="830"/>
         <source>Payment proof</source>
         <translation>Důkaz platby</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="832"/>
+        <location filename="../main.qml" line="833"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>Nemohu vygenerovat důkaz z následujícího důvodu: 
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="862"/>
-        <location filename="../main.qml" line="882"/>
+        <location filename="../main.qml" line="863"/>
+        <location filename="../main.qml" line="883"/>
         <source>Payment proof check</source>
         <translation>Zkontrolovat důkaz platby</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="865"/>
-        <location filename="../main.qml" line="884"/>
+        <location filename="../main.qml" line="866"/>
+        <location filename="../main.qml" line="885"/>
         <source>Bad signature</source>
         <translation>Špatný podpis</translation>
     </message>
@@ -3225,72 +3220,72 @@ Index výdajů: </translation>
         <translation>Tato adresa obdržela %1 loki a %2 potvrzení.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="884"/>
+        <location filename="../main.qml" line="885"/>
         <source>Good signature</source>
         <translation>Správný podpis</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1070"/>
+        <location filename="../main.qml" line="1071"/>
         <source>Wrong password</source>
         <translation>Špatné heslo</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1145"/>
+        <location filename="../main.qml" line="1146"/>
         <source>Warning</source>
         <translation>Varování</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1148"/>
+        <location filename="../main.qml" line="1149"/>
         <source>Error: Filesystem is read only</source>
         <translation>Chyba: Souborový systém je v módu pouze pro čtení</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1150"/>
+        <location filename="../main.qml" line="1151"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>Varování: na diskovém oddílu zbývá pouze %1 GB místa. Blockchain potřebuje ~%2 GB místa.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1152"/>
+        <location filename="../main.qml" line="1153"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>Poznámka: na diskovém oddílu zbývá pouze %1 GB místa. Blockchain potřebuje ~%2 GB místa.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1154"/>
+        <location filename="../main.qml" line="1155"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
         <translation>Poznánka: lmdb adresář nenalezen. Vytvořím nový.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1158"/>
+        <location filename="../main.qml" line="1159"/>
         <source>Cancel</source>
         <translation>Zrušit</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1211"/>
+        <location filename="../main.qml" line="1212"/>
         <source>Password changed successfully</source>
         <translation>Heslo úspěšně změněno</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1215"/>
+        <location filename="../main.qml" line="1216"/>
         <source>Error: </source>
         <translation>Chyba: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1738"/>
+        <location filename="../main.qml" line="1739"/>
         <source>Tap again to close...</source>
         <translation>Klepnutím znovu zavřete...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1751"/>
+        <location filename="../main.qml" line="1752"/>
         <source>Daemon is running</source>
         <translation>Démon běží</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1752"/>
+        <location filename="../main.qml" line="1753"/>
         <source>Daemon will still be running in background when GUI is closed.</source>
         <translation>Démon zůstane běžet v pozadí i po zavření grafického rozhraní.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1754"/>
+        <location filename="../main.qml" line="1755"/>
         <source>Stop daemon</source>
         <translation>Zastavit démona</translation>
     </message>
@@ -3300,33 +3295,33 @@ Index výdajů: </translation>
         <translation>Je dostupná nová verze grafického klienta: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Log démona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="675"/>
+        <location filename="../main.qml" line="676"/>
         <source>Amount is wrong: expected number from %1 to %2</source>
         <translation type="vanished">Částka není správně: předpokládaná částka má být mezi %1 až %2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="687"/>
+        <location filename="../main.qml" line="688"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
         <translation type="vanished">Nedostatečné finanční prostředky. Neblokovaný zůstatek: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="790"/>
+        <location filename="../main.qml" line="791"/>
         <source>Couldn&apos;t send the money: </source>
         <translation>Částku nelze odeslat: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="793"/>
-        <location filename="../main.qml" line="1210"/>
+        <location filename="../main.qml" line="794"/>
+        <location filename="../main.qml" line="1211"/>
         <source>Information</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="799"/>
+        <location filename="../main.qml" line="800"/>
         <source>Transaction saved to file: %1</source>
         <translation>Transakce uložena do souboru: %1</translation>
     </message>
@@ -3336,27 +3331,27 @@ Index výdajů: </translation>
         <translation>Tato adresa obdžela %1 loki, ale transakce jestě není potvrzená vytěžením</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="877"/>
+        <location filename="../main.qml" line="878"/>
         <source>This address received nothing</source>
         <translation>Tato adresa zatím nic neobdržela</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="896"/>
+        <location filename="../main.qml" line="897"/>
         <source>Balance (syncing)</source>
         <translation>Zůstatek (synchronizuji)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="896"/>
+        <location filename="../main.qml" line="897"/>
         <source>Balance</source>
         <translation>Zůstatek</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1257"/>
+        <location filename="../main.qml" line="1258"/>
         <source>Please wait...</source>
         <translation>Prosím čekejte...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1281"/>
+        <location filename="../main.qml" line="1282"/>
         <source>Program setup wizard</source>
         <translation>Průvodce nastavením programu</translation>
     </message>
@@ -3366,7 +3361,7 @@ Index výdajů: </translation>
         <translation>Loki</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1447"/>
+        <location filename="../main.qml" line="1448"/>
         <source>send to the same destination</source>
         <translation>Odeslat na stejnou adresu</translation>
     </message>

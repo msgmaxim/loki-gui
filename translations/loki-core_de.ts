@@ -562,12 +562,12 @@
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="457"/>
+        <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/check</source>
         <translation>Beweisen/Prüfen</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="458"/>
+        <location filename="../LeftPanel.qml" line="459"/>
         <source>K</source>
         <translation>K</translation>
     </message>
@@ -626,7 +626,7 @@
         <translation>M</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
+        <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
         <translation>Geteilte Ringdatenbank</translation>
     </message>
@@ -1796,7 +1796,7 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Geteilte Ringdatenbank</translation>
     </message>
@@ -1814,14 +1814,14 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
         <translation>Diese Seite erlaubt es dir mit der geteilten Ringdatenbank zu interagieren. Diese Datenbank kann sowohl mit Loki Wallets benutzt zu werden, als auch Wallets von Loki Klonen, welche Loki Keys wiederbenutzen.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Unzulässige Verschleierungspartner</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Hilfe</translation>
     </message>
@@ -1831,63 +1831,68 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
         <translation>Um zu verschleiern, welche Inputs in einer Loki-Transaktion ausgegeben werden, sollte ein Dritter nicht erkennen können, welche Inputs in einem Ring bereits bekannt sind. Dies würde den Schutz durch Ringsignaturen schwächen. Wenn alle bis auf einen der Inputs bereits ausgegeben sind, wird der tatsächlich ausgegebene Input sichtbar, wodurch die Wirkung von Ringsignaturen - eine der drei Hauptebenen der Privatsphäre, die Loki verwendet - zunichte gemacht wird. Um diese Inputs zu vermeiden, kann eine Liste bekannter Ausgaben verwendet werden, um die Verwendung in neuen Transaktionen zu vermeiden. Eine solche Liste wird vom Loki-Projekt verwaltet und ist auf der Website getLoki.org verfügbar, und Sie können diese Liste hier importieren.&lt;br&gt;Alternativ kannst du die Blockchain (und die Blockchain der Loki-Klone) selbst mit dem Loki-Blockchain-Blackball-Tool scannen, um eine Liste der bekannten Outputs zu erstellen.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Hier wird festgelegt, welche Outputs bekanntermaßen ausgegeben wurden und somit nicht als Verschleierungspartner für die Privatsphäre in Ringsignaturen verwendet werden.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Du solltest eine Datei nur dann laden müssen, wenn du die Liste aktualisieren möchtest. Manuelles Hinzufügen/Entfernen ist bei Bedarf möglich.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Bitte wähle eine Datei um unzulässige Verschleierungspartner zu laden</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Pfad zur Datei</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Datei mit Verschleierungspartnern, die nicht zugelassen werden sollen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Durchsuchen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Laden</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Oder manuell einen einzelnen Verschleierungspartner zulassen/ausschließen (Blackballen):</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Öffentlichen Output Key einfügen</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Blackballen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Blackball aufheben</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Ringe</translation>
     </message>
@@ -1915,57 +1920,57 @@ Die bisherige Wallet-Cache-Datei wird umbenannt und kann später wiederhergestel
         <translation>Hier werden Verschleierungspartner(Ringe) aufgezeichnet, die von Transaktionen verwendet wurden, die bei einem Lokiklon ausgegeben wurden, sodass derselbe Ring wiederverwendet werden kann, um Privatsphäreprobleme zu vermeiden.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Transaktionsschlüsselbild (Key Image)</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Transaktionsschlüsselbild einfügen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Hole Ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Hole Ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Kein Ring gefunden</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Ring vorgeben</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Ring vorgeben</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Ich habe vor auf einem Loki-Klon Ausgaben zu tätigen, der Transaktionsschlüsselbilder wiederverwendet</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Ich möchte vielleicht mit einem Loki-Klon, der Transaktionsschlüsselbilder wiederverwendendet, Ausgaben tätigen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativ</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Abspaltungshöhe:</translation>
     </message>
@@ -3331,7 +3336,7 @@ Für einen reinen Sendenachweis muss die Empfängeradresse nicht angegeben werde
         <translation>Entsperrtes Guthaben (warte auf Block)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="514"/>
+        <location filename="../main.qml" line="515"/>
         <source>Waiting for daemon to start...</source>
         <translation>Warte bis der Dienst gestartet wurde…</translation>
     </message>
@@ -3414,8 +3419,8 @@ Payment ID: </source>
 Zahlungs-ID: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="634"/>
-        <location filename="../main.qml" line="752"/>
+        <location filename="../main.qml" line="635"/>
+        <location filename="../main.qml" line="753"/>
         <source>
 Amount: </source>
         <translation>
@@ -3448,14 +3453,14 @@ Fee: </source>
 Gebühr: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Ringgröße: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
@@ -3463,7 +3468,7 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
 WARNUNG: ungewöhnliche Ringgröße, die deine Privatsphäre beeinträchtigen könnte. Die empfohlene Größe ist 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 
 Number of transactions: </source>
@@ -3471,14 +3476,14 @@ Number of transactions: </source>
 Anzahl der Transaktionen: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>
 Beschreibung: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>Indizes der beteiligten Adressen: </translation>
@@ -3617,7 +3622,7 @@ Spending address index: </source>
         <translation>an den selben Empfänger senden</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Dienst-Log</translation>
     </message>

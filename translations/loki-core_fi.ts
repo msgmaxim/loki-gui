@@ -583,12 +583,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="457"/>
+        <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/check</source>
         <translation>Todista/tarkista</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="458"/>
+        <location filename="../LeftPanel.qml" line="459"/>
         <source>K</source>
         <translation type="unfinished"></translation>
     </message>
@@ -647,7 +647,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
+        <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
         <translation>Jaettu RingDB</translation>
     </message>
@@ -2021,7 +2021,7 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Jaettu RingDB</translation>
     </message>
@@ -2046,63 +2046,68 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Lähtöjen peittämiseksi Loki-siirroissa kolmannen osapuolen ei tulisi pystyä määrittämään mitkä tulot renkaassa ovat tiedetysti kulutetut. Mikäli määritys onnistuu, heikentäisi se rengasallekirjoitusten tarjoaman suojan. Jos kaikki paitsi yksi tulo tiedetään kulutetun, tosiasiassa kulutettu tulo paljastuu, jonka seurauksena renkaalla ei ole enää merkitystä, koska rengas on yksi kolmesta yksityisyydensuojan tasosta jota Loki käyttää.&lt;br&gt;Siirtoja voi helpottaa välttämään näitä tuloja, listaa tiedetyistä kulutetuista voidaan käyttää jotta vältetään niiden käyttö uusissa siirroissa. Tälläistä listaa ylläpitää Loki-projekti ja se on saatavilla getLoki.org -sivulla, josta sen voi hakea.&lt;br&gt;Vaihtoehtoisesti voit skannata lohkoketjun (ja avaimia uudelleenkäyttäviä Loki-klooneja) itse käyttäen Loki-blockchain-blackball työkalua luodaksesi listan tiedetyistä kulutetuista lähdöistä.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Tämä asettaa mitkä lähdöt ovat tiedetty kulutetun, ja joita ei siten voi käyttää yksityisyyteen rengasallekirjoituksissa. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Sinun pitäisi vain ladata tiedosto kun haluat päivittää listaa. Käsin lisääminen/poistaminen on tarvittaessa mahdollista.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Valitse tiedosto josta blackballed-lähdöt ladataan</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Polku tiedostoon</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Tiedoston nimi jossa lähdöt</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Selaa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Lataa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Tai manuaalisesti blackball/unblackball yhdessä lähdössä:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Liitä lähtö julkisesta avaimesta</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Unblackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Renkaat</translation>
     </message>
@@ -2117,57 +2122,57 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Tämä tallentaa renkaat joiden lähdöt on kulutettu Lokion avaimia uudelleenkäyttävään lohkoon, joten sama rengas voidaan uudelleenkäyttää ja näin välttää yksityisyyden ongelmat.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Avainkuva</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Liitä key image</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Hae rengas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Hae rengas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Rengas ei löytynyt</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Aseta rengas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Aseta rengas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Aion kuluttaa avaimia uudelleenkäyttävässä haarassa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Saatan haluta kuluttaa avamia uudelleenkäyttävässä haarassa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Suhteellinen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Segregaatiokorkeus:</translation>
     </message>
@@ -3540,7 +3545,7 @@ Payment ID: </source>
         <translation>Odotetaan daemonin synkronisointia</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Daemon on synkronisoitu (%1)</translation>
     </message>
@@ -3598,42 +3603,42 @@ Payment ID: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Lompakko on synkronisoitu</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Daemon on synkronisoitu</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Osoite: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>Rengaskoko:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>VAROITUS: ei-vakio rengaskoko, joka saattaa vahingoittaa yksityisyyttä. Vakiokoko 7 on suositeltavaa.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 
 Number of transactions: </source>
         <translation>Siirtojen määrä:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>Kuvaus:</translation>
@@ -3681,7 +3686,7 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>Kulutetun osoitteen indeksi:</translation>
@@ -3692,25 +3697,25 @@ Spending address index: </source>
         <translation>Loki lähetetty onnistuneesti: %1 siirto(a) </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="829"/>
+        <location filename="../main.qml" line="830"/>
         <source>Payment proof</source>
         <translation>Maksutodiste</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="832"/>
+        <location filename="../main.qml" line="833"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>Todisteen luonti ei onnistunut syystä:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="862"/>
-        <location filename="../main.qml" line="882"/>
+        <location filename="../main.qml" line="863"/>
+        <location filename="../main.qml" line="883"/>
         <source>Payment proof check</source>
         <translation>Maksutodisteen tarkistus</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="865"/>
-        <location filename="../main.qml" line="884"/>
+        <location filename="../main.qml" line="866"/>
+        <location filename="../main.qml" line="885"/>
         <source>Bad signature</source>
         <translation>Virheellinen allekirjoitus</translation>
     </message>
@@ -3812,7 +3817,7 @@ Rahansiirtojen lukumäärä:</translation>
         <translation>Uusi versio Loki-wallet-gui:sta saatavilla: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Daemon-loki</translation>
     </message>

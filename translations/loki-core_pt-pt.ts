@@ -577,12 +577,12 @@
         <translation>Testnet</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="124"/>
+        <location filename="../LeftPanel.qml" line="125"/>
         <source>Stagenet</source>
         <translation>Stagenet</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="338"/>
+        <location filename="../LeftPanel.qml" line="339"/>
         <source>Address book</source>
         <translation type="vanished">Livro de Endereços</translation>
     </message>
@@ -1600,8 +1600,8 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Esta secção permite-lhe interagir com a base de dados de rings. Esta base de dados é intencionada para a utilização de carteiras de Loki assim como carteiras de clones do Loki que usam as mesmas chaves.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Transações em lista negra</translation>
     </message>
@@ -1637,7 +1637,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Directorio para o ficheiro</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Nome do ficheiro com lista negra de endereços</translation>
     </message>
@@ -1652,7 +1652,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Carregar</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Ou manualmente adicionar/remover da lista negra um único endereço:</translation>
     </message>
@@ -1688,7 +1688,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Estes registos contêm assinaturas usadas em transacções de num clone de Loki com as mesmas chaves, é necessario utilizar as mesmas assinaturas para evitar perca de privacidade.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Imagem da chave</translation>
     </message>
@@ -1698,12 +1698,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Colar imagem da chave</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Obter ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Obter Ring</translation>
     </message>
@@ -1713,12 +1713,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Nenhum ring encontrado</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Definir ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Definir Ring</translation>
     </message>
@@ -1738,7 +1738,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Parente</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Altura do fork:</translation>
     </message>
@@ -3067,12 +3067,12 @@ Number Of Transactions: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="472"/>
+        <location filename="../main.qml" line="473"/>
         <source>Waiting for daemon to sync</source>
         <translation>Aguardando daemon sincronizar</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Daemon sincronizando (%1)</translation>
     </message>
@@ -3087,22 +3087,22 @@ Number Of Transactions: </source>
         <translation>Saldo insuficiente. Total desbloqueado: %1</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Carteira está sincronizada</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Daemon está sincronizado</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Endereço: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
@@ -3250,7 +3250,7 @@ Spending address index: </source>
         <translation type="vanished">Nova versão da GUI do Loki disponível: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Registo do daemon</translation>
     </message>

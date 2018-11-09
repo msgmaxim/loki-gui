@@ -3207,7 +3207,7 @@ Descripció:</translation>
         <translation type="vanished">Nova versió de loki-wallet-gui disponible: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation type="unfinished">Log del daemon</translation>
     </message>

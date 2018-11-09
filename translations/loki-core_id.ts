@@ -3232,7 +3232,7 @@ Description: </source>
         <translation>kirim ke tujuan yang sama</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation type="unfinished">Log jurik</translation>
     </message>

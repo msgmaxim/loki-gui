@@ -687,7 +687,7 @@
         <translation>Podpisz/weryfikuj</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="482"/>
         <source>G</source>
         <translation>G</translation>
     </message>
@@ -2064,7 +2064,7 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Współdzielona baza pierścieni</translation>
     </message>
@@ -2074,14 +2074,14 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <translation>Tutaj możesz operować na współdzielonej bazie danych pierścieni. Owa baza danych jest do użytku dla portfeli Loki oraz portfeli klonów Loki, które używają kluczy Loki.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Zablokowane wyjścia</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
@@ -2091,63 +2091,68 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <translation>W celu ukrycia, które wejścia w transakcji Loki są wydawane, osoba postronna nie powinna być w stanie stwierdzić, które wejścia w pierścieniu już zostały wydane. Gdyby była w stanie to zrobić, osłabiłoby to ochronę zapewnioną przez podpisy pierścieniowe. Jeśli wiadomo, że wszystkie wejścia poza jednym zostały wydane, to staje się oczywiste, które wejście faktycznie jest wydawane, a to niweczy efekt podpisów pierścieniowych - jednych z trzech głównych warstw ochrony prywatności używanych przez Loki.&lt;br&gt;Aby pomóc transakcjom unikać tych wejść, lista już wydanych wejść może być użyta do pominięcia ich w nowych transakcjach. Takowa lista jest zarządzana przez projekt Loki i jest dostępna na stronie getloki.org, skąd można ją tutaj pobrać.&lt;br&gt;Ewentualnie, możesz przeskanować blockchain (oraz blockchain klona Loki, który wykorzystuje ponownie klucze) samemu używając narzędzia loki-blockchain-blackball do utworzenia listy wydanych wyjść.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Tutaj można ustawić, które wyjścia zostały wydane, a więc nie powinny być używane jako dodatki w podpisach pierścieniowych. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Powinieneś załadować plik jedynie kiedy chcesz odświeżyć listę. Ręczne dodawanie/usuwanie jest także możliwe.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Wybierz plik, z którego załadować zablokowane wyjścia</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Ścieżka do pliku</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Nazwa pliku z wyjściami do zablokowania</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Przeglądaj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Załaduj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Lub ręcznie zablokuj/odblokuj pojedyncze wyjście:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Wklej wyjściowy klucz publiczny</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Zablokuj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Odblokuj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Pierścienie</translation>
     </message>
@@ -2162,57 +2167,57 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <translation>Tutaj rejestrowany jest pierścień użyty przez wyjścia Loki wydane na wykorzystującym ponownie klucze blockchainie, by ten sam pierścień mógł zostać użyty w celu uniknięcia deanonimizacji.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Obraz klucza</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Wklej obraz klucza</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Pobierz pierścień</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Pobierz Pierścień</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Nie znaleziono pierścienia</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Ustaw pierścień</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Ustaw Pierścień</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Zamierzam wydawać na wykorzystujących ponownie klucze forkach</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Być może wydam na wykorzystujących ponownie klucze forkach</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relatywny</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Wysokość segregacji:</translation>
     </message>
@@ -3673,27 +3678,27 @@ Ringsize: </source>
 Rozmiar pierścienia: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 UWAGA: niedomyślny rozmiar pierścienia zmniejsza twoją anonimowość. Domyślnie zalecane jest 7.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>Liczba transakcji: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>
 Opis: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>
@@ -3820,37 +3825,37 @@ Indeks adresu do wydawania: </translation>
         <translation>Nowa wersja GUI portfela Loki jest dostępna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Dziennik demona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="687"/>
+        <location filename="../main.qml" line="688"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
         <translation>Niewystarczające środki: Dostępne saldo: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="472"/>
+        <location filename="../main.qml" line="473"/>
         <source>Waiting for daemon to sync</source>
         <translation>Oczekiwanie na synchronizację demona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Demon zsynchronizowany (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Portfel zsynchronizowany</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Demon zsynchronizowany</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adres: </translation>
     </message>

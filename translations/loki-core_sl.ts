@@ -2299,8 +2299,7 @@ Velikost obroča:</translation>
         <location filename="../pages/Transfer.qml" line="601"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
-        <translation>Povezan prikriti proces ni združljiv z grafičnim vmesnikom.
-Prosim nadgradite vmesnik ali ga povežite z drugim procesom</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="606"/>

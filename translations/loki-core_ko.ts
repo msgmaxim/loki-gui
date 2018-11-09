@@ -3239,7 +3239,7 @@ Description: </source>
         <translation>동일한 대상에게 송금하기</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation type="unfinished">데몬 로그</translation>
     </message>

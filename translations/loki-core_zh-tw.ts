@@ -690,12 +690,12 @@
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="482"/>
         <source>G</source>
         <translation>G</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="506"/>
+        <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
         <translation>I</translation>
     </message>
@@ -2071,7 +2071,7 @@ The old wallet cache file will be renamed and can be restored later.
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>共享環簽資料庫</translation>
     </message>
@@ -2081,14 +2081,14 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>本頁面可以讓你對共享環簽資料庫進行操作，這個資料庫可以讓Loki錢包與其重複使用金鑰的分叉幣錢包共享環簽資訊。</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>被排除的交易輸出</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>幫助</translation>
     </message>
@@ -2098,57 +2098,62 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>為了要混淆 Loki 真實被花用過的交易輸入，第三方不應能得知在環簽內的交易組合中哪一個交易是已經被花用的，否則環簽的保護效果將被減弱。若被觀察出只有一個交易輸出是尚未被花用的則該筆交易的來源將會變得顯而易見，也就等於損失了 Loki 的三大保護隱私保護其中之一: 環狀簽名。&lt;br&gt;若要避免發生這類狀況，一個已知被花用的交易輸出名單可以用來避免在新的交易中使用到這些輸出，此份名單是由 Monero 專案所維護，可以在 loki.network 網站上找到並在此匯入。&lt;br&gt;或是你可以選擇使用 loki-blockchain-blackball tool 自行掃描區塊鏈(與重複使用金鑰的分叉幣區塊鏈)以產生該份名單。&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>這些交易輸出是已知被花用過的，因此不應在環狀簽名中使用以維護隱私安全。</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>只當你需要更新列表時才載入該檔案，若需要時可手動新增或移除項目。</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>請選擇一個檔案以載入交易輸出排除名單</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>檔案路徑</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>欲排除的交易輸出檔案名稱</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>瀏覽</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>載入</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>或手動排除/恢復一個單獨的交易輸出:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>貼上交易輸出金鑰</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>排除</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>恢復</translation>
     </message>
@@ -2181,62 +2186,62 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>為了避免讓 Monero 的環狀簽名保護失效，一個交易輸出應避免在不同的區塊鏈中以不同的環簽組合所花用。這通常不需要擔心，但當你在重複使用金鑰的分叉幣區塊鏈上花用現有的交易輸出時就得注意，必需在兩條鏈上使用相同的環簽組合。&lt;br&gt;這個保護措施在Monero或其他注重保護你的隱私的軟體中重複使用金鑰時都應是自動完成的。&lt;br&gt;如果你正在使用重複使用金鑰的分叉幣且該幣並未包含此保護措施，你必須先於分叉幣上花用交易，再將環簽在此匯入以確保您的Monero交易隱私安全。&lt;br&gt;若你沒有使用未經保護的分叉幣則不須任何處置，因為這保護措施將會自動完成。&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="267"/>
+        <location filename="../pages/SharedRingDB.qml" line="285"/>
         <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
         <translation>這記錄著在 Monero 鏈上所使用過的環狀簽名組合，因此相同組合應在重複金鑰的分叉鏈上沿用以確保隱私安全。</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>金鑰映像</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>貼上金鑰映像</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>取得環簽</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>取得環簽</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>沒有找到環狀簽名</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>設定環簽</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>設定環簽</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>我想要在重複使用金鑰的分叉幣上花用</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>我可能想要在重複使用金鑰的分叉幣上花用</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>相對的</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>分叉區塊高度:</translation>
     </message>
@@ -3707,26 +3712,26 @@ Ringsize: </source>
         <translation>無法建立此項交易: 節點版本錯誤:</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>位址:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 環簽大小: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 警告: 非預設環簽大小可能傷害隱私安全，建議使用預設值7。</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3842,7 +3847,7 @@ Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>節點日誌</translation>
     </message>

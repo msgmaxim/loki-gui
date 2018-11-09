@@ -215,7 +215,7 @@
     <message>
         <location filename="../pages/History.qml" line="214"/>
         <source>Date to</source>
-        <translation>jusqu'au</translation>
+        <translation>jusqu&apos;au</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="229"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../pages/History.qml" line="278"/>
         <source>No history...</source>
-        <translation>Pas d'historique...</translation>
+        <translation>Pas d&apos;historique...</translation>
     </message>
 </context>
 <context>
@@ -690,12 +690,12 @@
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="482"/>
         <source>G</source>
         <translation>G</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="506"/>
+        <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
         <translation>I</translation>
     </message>
@@ -761,7 +761,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="76"/>
         <source>Your daemon must be synchronized before you can start mining</source>
-        <translation>Votre démon doit être synchronisé avant de pouvoir démarrer l'extraction minière</translation>
+        <translation>Votre démon doit être synchronisé avant de pouvoir démarrer l&apos;extraction minière</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
@@ -1208,7 +1208,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Ce QR code inclus l'adresse sélectionnée plus haut et le montant entré ci-dessous. Partagez-le avec d'autres (clic-droit-&gt;Sauvegarder) afin qu'ils puissent plus facilement vous envoyer le montant exact.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Ce QR code inclus l&apos;adresse sélectionnée plus haut et le montant entré ci-dessous. Partagez-le avec d&apos;autres (clic-droit-&gt;Sauvegarder) afin qu&apos;ils puissent plus facilement vous envoyer le montant exact.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="284"/>
@@ -1231,7 +1231,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="521"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Voici un simple module de suivi des ventes :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Laissez votre client scanner ce QR code pour procéder au paiement (si ce client dispose d'un logiciel supportant le scan de QR code).&lt;/p&gt;&lt;p&gt;Cette page va automatiquement scanner la chaîne de bloc et le pool de transactions à la recherche de transactions utilisant ce QR code. Si vous entrez un montant, elle vérifiera également que le cumul des transactions correspond à ce montant.&lt;/p&gt;&lt;p&gt;Vous pouvez choisir d'accepter des transactions non confirmées ou pas. Il est vraisemblable qu'elles seront confirmées rapidement, mais il reste possible qu'elles ne le soient pas, donc pour des montants importants, il peut être préférable d'attendre une ou plusieurs confirmation(s).&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Voici un simple module de suivi des ventes :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Laissez votre client scanner ce QR code pour procéder au paiement (si ce client dispose d&apos;un logiciel supportant le scan de QR code).&lt;/p&gt;&lt;p&gt;Cette page va automatiquement scanner la chaîne de bloc et le pool de transactions à la recherche de transactions utilisant ce QR code. Si vous entrez un montant, elle vérifiera également que le cumul des transactions correspond à ce montant.&lt;/p&gt;&lt;p&gt;Vous pouvez choisir d&apos;accepter des transactions non confirmées ou pas. Il est vraisemblable qu&apos;elles seront confirmées rapidement, mais il reste possible qu&apos;elles ne le soient pas, donc pour des montants importants, il peut être préférable d&apos;attendre une ou plusieurs confirmation(s).&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="360"/>
@@ -1372,7 +1372,7 @@ Les informations suivantes seront supprimées
 - Clefs de transactions
 - Descriptions des transactions
 
-L'ancien fichier du cache du portefeuille sera renommé et pourra être restauré ultérieurement.
+L&apos;ancien fichier du cache du portefeuille sera renommé et pourra être restauré ultérieurement.
 </translation>
     </message>
     <message>
@@ -1430,7 +1430,7 @@ L'ancien fichier du cache du portefeuille sera renommé et pourra être restaur�
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
         <source>No Layout options exist yet in mobile mode.</source>
-        <translation>Aucune option d'agencement n'est disponible pour le moment en mode mobile.</translation>
+        <translation>Aucune option d&apos;agencement n&apos;est disponible pour le moment en mode mobile.</translation>
     </message>
 </context>
 <context>
@@ -1466,7 +1466,7 @@ L'ancien fichier du cache du portefeuille sera renommé et pourra être restaur�
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="226"/>
         <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
-        <translation>commande + Entrée (p.e. 'help' ou 'status')</translation>
+        <translation>commande + Entrée (p.e. &apos;help&apos; ou &apos;status&apos;)</translation>
     </message>
 </context>
 <context>
@@ -1882,12 +1882,12 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="476"/>
         <source>Bootstrap Address</source>
-        <translation>Adresse d'amorçage</translation>
+        <translation>Adresse d&apos;amorçage</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="477"/>
         <source>Bootstrap Port</source>
-        <translation>Port d'amorçage</translation>
+        <translation>Port d&apos;amorçage</translation>
     </message>
 </context>
 <context>
@@ -1988,7 +1988,7 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
         <source>Create a view-only wallet</source>
-        <translation>Créer un portefeuille d'audit</translation>
+        <translation>Créer un portefeuille d&apos;audit</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
@@ -2023,7 +2023,7 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="365"/>
         <source>Use this feature if you think the shown balance is not accurate.</source>
-        <translation>Utilisez cette fonction si vous pensez que le solde affiché n'est pas correct.</translation>
+        <translation>Utilisez cette fonction si vous pensez que le solde affiché n&apos;est pas correct.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="401"/>
@@ -2054,7 +2054,7 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Base de données partagées de cercles</translation>
     </message>
@@ -2064,14 +2064,14 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Cette page vous permet d'utiliser le base de données partagées de cercles. Cette base de données sert aux portefeuilles Loki et les portefeuilles des clones de Loki qui réutilisent les clés Loki</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Sorties Blackboulées</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Aide</translation>
     </message>
@@ -2081,64 +2081,69 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Afin de masquer quelles entrées d'une transaction loki sont dépensées, un tiers ne doit pas pouvoir dire quelles entrées d'un cercle ont déjà été dépensées. En être capable affaiblirait la protection apportée par les signatures de cercle. Si toutes les entrées sauf une sont des dépenses connues, alors l'entrée en cours de dépense devient visible, annulant ainsi les effets des signatures de cercle, l'un des trois piliers de la protection de la confidentialité utilisés pas Loki.&lt;br&gt;Pour permettre aux transactions d'éviter ces entrées, une liste de celles qui sont connues peut être utilisée afin d'éviter de les employer dans de nouvelles transactions. Une telle liste est maintenue par le projet Loki et est disponible sur le site getloki.org. Vous pouvez importer cette liste ici.&lt;br&gt;Sinon, vous pouvez scanner la chaîne de blocs (et la chaîne de blocs des clones de Loki réutilisant les clefs) vous même en utilisant l'outil loki-blockchain-blackball pour créer une liste de sorties dépensées connue.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Cela indique quelles sorties sont des dépenses connues et ne doivent donc pas être utilisées comme substituts de confidentialié dans les signatures de cercle.
 </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Vous devriez n&apos;avoir qu&apos;à charger un fichier lorsque vous voulez mettre à jour la liste. Des ajouts/suppressions manuels sont possibles si nécéssaire.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Choissisez un fichier pour charger les sorties blackboulées</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Chemin du fichier</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Nom du fichier avec les sorties à blackbouler</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Naviguer</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Charger</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Ou blackbouler/déblackbouler une seule sortie manuellement: </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Coller la clé publique de la sortie</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Blackbouler</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>déblackbouler</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Cercles</translation>
     </message>
@@ -2153,57 +2158,57 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Enregistrer des cercles utilisés par des sorties dépensées sur une chaine qui réutilise des clés Loki pour que le même cercle puisse être utilisé pour éviter des problèmes de confidentialité</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Image de clé</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Coller l&apos;image de clé</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Obtenir le cercle</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Obtenir le cercle</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Pas de cercle trouvé</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Sélectionnez le cercle</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Sélectionnez le cercle</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>J'ai l'intention d'utiliser un fork qui réutilise des clés Loki</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>J'ai peut-être l'intention d'utiliser un fork qui réutilise des clés Loki</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relatif</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Hauteur de ségrégation:</translation>
     </message>
@@ -3422,8 +3427,8 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="291"/>
-        <location filename="../main.qml" line="400"/>
+        <location filename="../main.qml" line="292"/>
+        <location filename="../main.qml" line="401"/>
         <source>Couldn&apos;t open wallet: </source>
         <translation>Impossible d&apos;ouvrir le portefeuille : </translation>
     </message>
@@ -3467,13 +3472,13 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation>Veuillez vérifier les erreurs dans les journaux du portefeuille et du démon. Vous pouvez aussi essayer de lancer %1 manuellement.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="608"/>
+        <location filename="../main.qml" line="609"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
         <translation>Impossible de créer la transaction : mauvaise version de démon : </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="610"/>
-        <location filename="../main.qml" line="729"/>
+        <location filename="../main.qml" line="611"/>
+        <location filename="../main.qml" line="730"/>
         <source>Can&apos;t create transaction: </source>
         <translation>Impossible de créer la transaction : </translation>
     </message>
@@ -3578,25 +3583,25 @@ Taille du cercle : </translation>
         <translation>Impossible de créer la transaction : mauvaise version de démon : </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adresse : </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Taille du cercle : </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>ATTENTION: la taille de cercle est par défaut égale à 7. Vous avez choisi une taille différente et cela peut réduire la confidentialité de votre transaction. Nous vous recommandons d&apos;utiliser une taille de 7</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>Nombre de transactions : </translation>
@@ -3623,7 +3628,7 @@ Spending address index: </source>
         <translation>Preuve de Paiement</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="832"/>
+        <location filename="../main.qml" line="833"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>Impossible de générer une preuve pour la raison suivante : 
@@ -3673,12 +3678,12 @@ Spending address index: </source>
         <translation>Erreur : Système de fichiers en lecture seule</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1150"/>
+        <location filename="../main.qml" line="1151"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>Attention : Il y a seulement %1 GB disponibles sur le périphérique. La chaîne de blocs a besoin de ~%2 GB.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1152"/>
+        <location filename="../main.qml" line="1153"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
         <translation>Note : Il y a %1 GB disponibles sur le appareil. La chaîne de blocs a besoin de ~%2 GB.</translation>
     </message>
@@ -3733,7 +3738,7 @@ Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Journal du démon</translation>
     </message>
@@ -3768,7 +3773,7 @@ Description : </translation>
         <translation type="vanished">fonds insuffisants. Solde débloqué : %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="790"/>
+        <location filename="../main.qml" line="791"/>
         <source>Couldn&apos;t send the money: </source>
         <translation>Impossible d&apos;envoyer l&apos;argent : </translation>
     </message>

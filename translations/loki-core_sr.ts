@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sr_RS" sourcelanguage="en_US">
+<TS version="2.1" language="sr_RS" sourcelanguage="en_US">
 <context>
     <name>AddressBook</name>
     <message>
@@ -1841,7 +1841,7 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Deljena RingDB</translation>
     </message>
@@ -1851,14 +1851,14 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
         <translation>Ova stranica vam omogućava interakciju sa deljenom prsten bazom podataka. Ova baza podataka je namenjena za upotrebu od strane Loki novčanika kao i novčanika od Loki klonova koji koriste Loki ključeve.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Odbačeni izlazi</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Pomoć</translation>
     </message>
@@ -1868,63 +1868,68 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
         <translation>Da bi bilo nejasnije koji ulazi u Loki transakciji se troše, treća strana ne treba da bude u mogućnosti da zaključi koji ulazi u prstenu su već poznati kao potrošeni. To bi oslabilo zaštitu priuštenu prsten potpisima. Ako za sve osim jednog ulaza je poznato da su potrošeni, onda ulaz koji biva potrošen postaje očigledan, time poništavajući dejstvo prsten potpisa, koji čine jedan od tri glavna sloja privatnosti koje Loki koristi.&lt;br&gt;Da bi pomogli da se izbegnu takvi ulazi, lista poznatih potrošenih ulaza se može koristiti kako se ne bi koristili u novim transakcijama. Takva lista se održava od strane Loki projekta i dostupna na getloki.org veb sajtu, i možete je uneti tu listu ovde.&lt;br&gt;Alternatnivno, možete skenirati blokčejn (i blokčejn Menoro klonova koji koriste iste ključeve) samostalno korišćenjem loki-blockchain-blackball alatke da napravite listu izlaza za koje je poznato da su potrošeni.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Ovo postavlja koji izlazi su poznati kao potrošeni, i zato nisu za korišćenje kao mesta za privatnost u prsten potpisima. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Ne bi trebalo da morate da ućitavate datoteku kada želite da osvežite listu. Ručno dodavanje/ukljanjanje je moguće ako je potrebno.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Izaberite datoteku sa koje će se učitati izlazi za odbacivanje</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Put do datoteke</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Ime fajla sa izlazima za odbacivanje</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Pretraži</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Učitaj</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Ili ručno odbacite/ne odbacite jedan izlaz:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Nalepi izlazni javni ključ</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
         <source>Blackball</source>
         <translation>Odbaci</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>Unblackball</source>
         <translation>Ne odbaci</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Prstenovi</translation>
     </message>
@@ -1939,57 +1944,57 @@ Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</t
         <translation>Ovo zapisuje prestenove korišćene od strane izlaza potrošenih na Loki na lancu koji ponovo koristi ključeve, da bi se isti prsten mogao koristi kako bi se izbegli problemi privatnosti.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Slika ključa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Nalepi sliku ključa</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Nađi prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Nađi Prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Nijedan prsten nije pronađen</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Postavi prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Postavi Prsten</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Nameravam da potrošim na fork(ovima) koji koriste iste ključeve</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Možda želim da potrošim na fork(ovima) koji koriste iste ključeve</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>U odnosu</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Tačka segragacije blokčejna:</translation>
     </message>
@@ -3426,26 +3431,26 @@ Ringsize: </translation>
         <translation>Nije moguće napraviti transakciju. Pogrešna daemon vezija: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adresa: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Veličina prstena: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 UPOZORENJE: nepodrazumevana veličina prstena, koja vam može oštetiti privatnost. Podrazumenvanih 7 se preporučuje.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3565,7 +3570,7 @@ Indeks adrese za potrošnju: </translation>
         <translation type="vanished">Nova verzija loki-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Daemon log</translation>
     </message>

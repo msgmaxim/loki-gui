@@ -2279,7 +2279,7 @@ Please upgrade or connect to another daemon</source>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
         <translation>إنشاء إثبات بالدفعات الوارده / الصادره عن طريق تقديم معرّف المعاملة وعنوان المستلم ورسالة اختيارية.
-بالنسبة لحالة المدفوعات الصادرة ، يمكنك الحصول على  "إثبات الإنفاق " ؛ يثبت إنشاء المعامله. في هذه الحالة ، لا تحتاج إلى تحديد عنوان المستلم.</translation>
+بالنسبة لحالة المدفوعات الصادرة ، يمكنك الحصول على  &quot;إثبات الإنفاق &quot; ؛ يثبت إنشاء المعامله. في هذه الحالة ، لا تحتاج إلى تحديد عنوان المستلم.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="85"/>
@@ -2482,7 +2482,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
 </context>
 <context>
-    <name>WizardFinish</name>	
+    <name>WizardFinish</name>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="52"/>
         <location filename="../wizard/WizardFinish.qml" line="55"/>

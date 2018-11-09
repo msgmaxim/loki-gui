@@ -540,12 +540,12 @@
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="457"/>
+        <location filename="../LeftPanel.qml" line="458"/>
         <source>Prove/check</source>
         <translation>Preukázať / skontrolovať</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="458"/>
+        <location filename="../LeftPanel.qml" line="459"/>
         <source>K</source>
         <translation>K</translation>
     </message>
@@ -604,7 +604,7 @@
         <translation>M</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
+        <location filename="../LeftPanel.qml" line="481"/>
         <source>Shared RingDB</source>
         <translation>Zdieľaná databáza okruhov</translation>
     </message>
@@ -658,12 +658,12 @@
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="482"/>
         <source>G</source>
         <translation>G</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="506"/>
+        <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
         <translation>I</translation>
     </message>
@@ -1746,7 +1746,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Preskenovanie minutých výstupov (spent outputs) prebehlo úspešne</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Zdieľaná databáza okruhov</translation>
     </message>
@@ -1756,8 +1756,8 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Táto stránka Vám umožní komunikovať so zdieľanou databázou okruhov. Táto databáza je určená na použitie s Loki peňaženkami a taktiež s peňaženkami Loki klonov, ktoré opätovne používajú Loki kľúče.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Zakalené výstupy</translation>
     </message>
@@ -1777,8 +1777,8 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Úroveň logovania</translation>
 </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
@@ -1793,17 +1793,17 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Aby bolo možné skryť, ktoré vstupy v Loki transakcii sa vynakladajú, tretia strana by nemala vedieť, ktoré vstupy v okruhu sú už známe. Možnosť tak urobiť by oslabila ochranu poskytovanú okruhovými podpismi. Ak je už známe, že všetky vstupy sú už vynaložené, tak aktuálne vynakladaný vstup sa jasne identifikuje, čím sa zruší účinok okuhových podpisov, čo je jedna z troch hlavných vrstiev ochrany súkromia, ktoré Loki používa.&lt;br&gt;Pomôcť transakciám vyhnúť sa týmto vstupom môžete použiť zoznam známych vstupov, aby ste sa vyhli ich použitiu v nových transakciách. Takýto zoznam si udržiava projekt Loki a je k dispozícii na webovej stránke getloki.org a tu môžete tento zoznam importovať.&lt;br&gt;Alternatívne môžete prehliadať blockchain (a blockchain Loki klonov, ktoré tiež používajú Loki kľúče) sami pomocou nástroja loki-blockchain-blackball a vytvoriť zoznam známych vynaložených výstupov. &lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Toto nastavuje, ktoré výstupy sú známe ako vynaložené, a preto sa nemôžu používať ako zástupcovia ochrany súkromia v okruhových podpisoch. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Ak chcete aktualizovať zoznam, stačí ho nahrať. Manuálne pridanie/odstránenie je možné v prípade potreby.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
         <source>Please choose a file to load blackballed outputs from</source>
         <translation>Prosím vyberte súbor, z ktorého chcete načítať odmietnuté výstupy</translation>
     </message>
@@ -1813,12 +1813,12 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Záznamy démona</translation>
 </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Cesta k súboru</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Názov súboru s výstupmi na odmietnutie</translation>
     </message>
@@ -1826,17 +1826,17 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Prehliadať</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Načítať</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Alebo ručne odmietnite/povoľte jeden výstup:</translation>
     </message>
@@ -1872,37 +1872,37 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Tieto okruhy záznamov použité vynaloženými výstupmi na Loki klone, používajúcom Loki kľúče, aby sa rovnaké okruhy mohli znova použiť kvôli zamedzeniu problémov s ochranou súkromia.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Obraz kľúča</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Vložte obraz kľúča</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Získajte okruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Získajte okruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Okuh nenájdený</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Nastavte okruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Nastavte okruh</translation>
     </message>
@@ -1974,17 +1974,17 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Zamýšľam opätovné použitie kľúča na fork(y)</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Možno budem chcieť použiť kľúč na fork(y)</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relatívny</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Segregačná výška:</translation>
     </message>
@@ -3420,27 +3420,27 @@ Ringsize: </translation>
         <translation>Čakanie na sychronizáciu daemona</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Daemon je sychronizovaný (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Peňaženka je sychronizovaná</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Daemon je sychronizovaný </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adresa: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
@@ -3476,7 +3476,7 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
 VAROVANIE: neštandardná veľkosť kruhu, môže narušiť súkromie. Predvolená a odporúčaná veľkosť je 7. </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="640"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 
 Number of transactions: </source>
@@ -3485,13 +3485,13 @@ Number of transactions: </source>
 Počet transakcií: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>Popis: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>
@@ -3541,26 +3541,26 @@ Description: </source>
         <translation>úspešne odoslaných: %1 transakcií</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="829"/>
+        <location filename="../main.qml" line="830"/>
         <source>Payment proof</source>
         <translation>Doklad o zaplatení</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="832"/>
+        <location filename="../main.qml" line="833"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
         <translation>Neviem vygenerovať dôkaz, možná príčina: 
 </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="862"/>
-        <location filename="../main.qml" line="882"/>
+        <location filename="../main.qml" line="863"/>
+        <location filename="../main.qml" line="883"/>
         <source>Payment proof check</source>
         <translation>Kontrola dôkazu o platbe</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="865"/>
-        <location filename="../main.qml" line="884"/>
+        <location filename="../main.qml" line="866"/>
+        <location filename="../main.qml" line="885"/>
         <source>Bad signature</source>
         <translation>Zlý podpis</translation>
     </message>
@@ -3651,7 +3651,7 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Logy démona</translation>
     </message>

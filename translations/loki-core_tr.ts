@@ -608,12 +608,12 @@
         <translation>Testnet</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="124"/>
+        <location filename="../LeftPanel.qml" line="125"/>
         <source>Stagenet</source>
         <translation>Prova ağı (Stagenet)</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="338"/>
+        <location filename="../LeftPanel.qml" line="339"/>
         <source>Address book</source>
         <translation type="vanished">Adres defteri</translation>
     </message>
@@ -702,12 +702,12 @@
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="482"/>
         <source>G</source>
         <translation>G</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="506"/>
+        <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
         <translation>I</translation>
     </message>
@@ -1945,8 +1945,8 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Bu sayfa paylaşılan halka veritabanı ile etkileşim içindir. Bu veritabanı Loki ve Loki anahtarlarını kullanan Loki klonlarının cüzdanları içindir.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
         <source>Blackballed outputs</source>
         <translation>Oy birliği ile atılmış çıktılar</translation>
     </message>
@@ -1982,7 +1982,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Dosya yolu</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
         <source>Filename with outputs to blackball</source>
         <translation>Lütfen oybirliği ile atılmış çıktıların olduğu dosya adı</translation>
     </message>
@@ -1997,7 +1997,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Yükle</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
         <source>Or manually blackball/unblackball a single output:</source>
         <translation>Veya bir çıktıyı manuel olarak oybirliği ile atın veya alın:</translation>
     </message>
@@ -2033,7 +2033,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Bu, anahtarı yeniden kullanan zincirde harcanan çıktılarla kullanılan halkaları kaydeder, böylece aynı halka gizlilik sorunlarını önlemek için yeniden kullanılabilir.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Anahtar yansısı</translation>
     </message>
@@ -2043,12 +2043,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Anahtar yansısını yapıştırın</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Halkayı alın</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Halkayı alın</translation>
     </message>
@@ -2058,12 +2058,12 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Hiç halka bulunamadı</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Halkayı girin</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Halkayı girin</translation>
     </message>
@@ -2083,7 +2083,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>Göreceli</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Ayrım yüksekliği:</translation>
     </message>
@@ -3427,7 +3427,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="472"/>
+        <location filename="../main.qml" line="473"/>
         <source>Waiting for daemon to sync</source>
         <translation>Arka plan hizmetinin (daemon) eşzamanlaması bekleniyor</translation>
     </message>
@@ -3437,7 +3437,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>Daemon başlatılamadı</translation>
 </message>
     <message>
-        <location filename="../main.qml" line="474"/>
+        <location filename="../main.qml" line="475"/>
         <source>Daemon is synchronized (%1)</source>
         <translation>Arka plan hizmeti (daemon) eşzamanlandı (%1)</translation>
     </message>
@@ -3447,22 +3447,22 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
         <translation>İşlem oluşturulamıyor: Daemon sürümü yanlış: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="476"/>
+        <location filename="../main.qml" line="477"/>
         <source>Wallet is synchronized</source>
         <translation>Cüzdan senkronize edildi</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="545"/>
+        <location filename="../main.qml" line="546"/>
         <source>Daemon failed to start</source>
         <translation>Arka plan hizmetinin (daemon) başlaması başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="562"/>
+        <location filename="../main.qml" line="563"/>
         <source>Daemon is synchronized</source>
         <translation>Arka plan hizmeti (daemon) eşzamanlandı</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="632"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adres: </translation>
     </message>
@@ -3487,13 +3487,13 @@ Fee: </source>
         <translation>Ücret: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="636"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>Halka büyüklüğü: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="638"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>UYARI: gizliliğinize zarar verebilecek varsayılan olmayan halka boyutu. Varsayılan değer olan 7 önerilir.</translation>
@@ -3508,13 +3508,13 @@ WARNING: non default ring size, which may harm your privacy. Default of 7 is rec
         <translation>İşlem sayısı: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="641"/>
+        <location filename="../main.qml" line="642"/>
         <source>
 Description: </source>
         <translation>Tanım:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="643"/>
+        <location filename="../main.qml" line="644"/>
         <source>
 Spending address index: </source>
         <translation>Harcama adresi indeksi: </translation>
@@ -3653,7 +3653,7 @@ Address: </source>
         <translation type="vanished">Loki-wallet-gui&apos;nin yeni sürümü mevcut: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1821"/>
+        <location filename="../main.qml" line="1822"/>
         <source>Daemon log</source>
         <translation>Daemon log</translation>
     </message>
