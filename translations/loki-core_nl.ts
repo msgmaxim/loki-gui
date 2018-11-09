@@ -198,7 +198,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -651,7 +651,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="552"/>
         <source>Y</source>
-        <translatorcomment>Hotkey for Seed &amp; Keys?</translatorcomment>
+        <translatorcomment>Hotkey for Seed &amp; Keys</translatorcomment>
         <translation>S</translation>
     </message>
     <message>
@@ -872,27 +872,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Portemonnee</translation>
+        <translation>Portemonnee</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Opmaak</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Node</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Log</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -1358,7 +1358,7 @@
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Logniveau</translation>
     </message>
     <message>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
@@ -1397,7 +1397,7 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="132"/>
         <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
-        <translation type="unfinished"></translation>
+        <translation>De blockchain wordt gedownload naar uw computer. Dit is veiliger maar kost meer lokale opslagruimte.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="223"/>
@@ -1552,7 +1552,7 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;a href=&apos;#&apos;&gt; (wijzigen)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="198"/>
@@ -1567,12 +1567,12 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="476"/>
         <source>Bootstrap Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Bootstrap-adres</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="477"/>
         <source>Bootstrap Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Bootstrap-poort</translation>
     </message>
 </context>
 <context>
@@ -1591,7 +1591,7 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
         <source>Close wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Portemonnee sluiten</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="438"/>
@@ -1601,17 +1601,17 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
         <source>Creates a new wallet that can only view transactions, cannot initialize transactions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er wordt een nieuwe portemonnee gemaakt die alleen transacties kan weergeven maar geen transacties kan uitvoeren.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="220"/>
         <source>Create wallet</source>
-        <translation type="unfinished">Portemonnee maken</translation>
+        <translation>Portemonnee maken</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="262"/>
         <source>Show seed &amp; keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Hersteltekst en sleutels weergeven</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="341"/>
@@ -2769,7 +2769,7 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Een nieuwe portemonnee aanmaken vanaf een hardware wallet-apparaat</translation>
     </message>
 </context>
 <context>
@@ -3034,7 +3034,7 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="237"/>
         <source>Account address (public)</source>
-        <translation>Adres van portemonnee (openbaar)</translation>
+        <translation>Adres van account (openbaar)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="248"/>
@@ -3112,12 +3112,12 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <message>
         <location filename="../wizard/WizardOptions.qml" line="180"/>
         <source>Restore wallet from keys or mnemonic seed</source>
-        <translation>Herstel een portemonnee met behulp van uw hersteltekst of sleutels</translation>
+        <translation>Een portemonnee herstellen met uw hersteltekst of sleutels</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="222"/>
         <source>Open a wallet from file</source>
-        <translation>Open een portemonnee vanaf een bestand</translation>
+        <translation>Een portemonnee openen uit een bestand</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="239"/>
