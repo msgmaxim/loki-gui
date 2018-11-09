@@ -185,7 +185,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesquisar</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -846,27 +846,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Carteira</translation>
+        <translation>Carteira</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Layout</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Nó</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Log</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informações</translation>
     </message>
 </context>
 <context>
@@ -1097,7 +1097,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="206"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Esse código QR inclui o endereço que você selecionou acima e o valor inserido abaixo. Compartilhe-o (botão-direito-&gt;Salvar) para que fique mais fácil te enviar valores exatos.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="435"/>
@@ -1302,7 +1302,7 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar para a área de transferência</translation>
     </message>
     <message>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
@@ -1346,12 +1346,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nível de log</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="143"/>
         <source>Daemon log</source>
-        <translation type="unfinished">Log do daemon</translation>
+        <translation>Log do daemon</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="572"/>
@@ -1444,7 +1444,7 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="323"/>
         <source>Password</source>
-        <translation type="unfinished">Senha</translation>
+        <translation>Senha</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="198"/>
@@ -1459,12 +1459,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source>Blockchain location</source>
-        <translation type="unfinished">Localização do blockchain</translation>
+        <translation>Localização do blockchain</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;a href=&apos;#&apos;&gt; (alterar)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1480,12 +1480,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="476"/>
         <source>Bootstrap Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Endereço de inicialização</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="477"/>
         <source>Bootstrap Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta de inicialização</translation>
     </message>
 </context>
 <context>
@@ -1493,12 +1493,12 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
         <source>Close this wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Fechar essa carteira</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
         <source>Logs out of this wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sai dessa carteira.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
@@ -2288,7 +2288,7 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <location filename="../pages/Transfer.qml" line="601"/>
         <source>Connected daemon is not compatible with GUI. 
 Please upgrade or connect to another daemon</source>
-        <translation>O daemon conectado não é compatível com a GUI. 
+        <translation>O daemon conectado não é compatível com a GUI.
 Por favor, atualize-o ou conecte em outro daemon</translation>
     </message>
     <message>
@@ -2635,7 +2635,7 @@ Para pagamentos que você realizou, é possível pegar uma prova de pagamento qu
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Crie uma nova carteira a partir do dispositivo de hardware</translation>
     </message>
 </context>
 <context>
@@ -3307,7 +3307,7 @@ Spending address index: </source>
         <location filename="../main.qml" line="816"/>
         <source>Couldn&apos;t generate a proof because of the following reason: 
 </source>
-        <translation>Não foi possível criar uma prova pelo seguinte motivo: 
+        <translation>Não foi possível criar uma prova pelo seguinte motivo:
 </translation>
     </message>
     <message>
