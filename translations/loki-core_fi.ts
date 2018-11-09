@@ -3283,7 +3283,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="259"/>
         <source>Spend key (private)</source>
-        <translation>Kulutusavain (julkinen)</translation>
+        <translation>Kulutusavain (yksityinen)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="273"/>
