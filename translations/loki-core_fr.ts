@@ -185,12 +185,12 @@
     <message>
         <location filename="../pages/History.qml" line="73"/>
         <source> selected: </source>
-        <translation> sélectionné : </translation>
+        <translation>Sélectionné :</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechercher</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -208,8 +208,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../pages/History.qml" line="191"/>
+        <source>Date from</source>
+        <translation>Depuis le</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="214"/>
+        <source>Date to</source>
+        <translation>jusqu'au</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="229"/>
+        <source>Sort</source>
+        <translation>Trier</translation>
+    </message>
+    <message>
         <source>Block height</source>
-        <translation type="obsolete">Hauteur bloc</translation>
+        <translation>Hauteur de bloc</translation>
     </message>
 <message>
         <location filename="../pages/History.qml" line="238"/>
@@ -247,6 +262,11 @@
     <message>
         <source>Amount from</source>
         <translation type="vanished">Montant à partir de</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="278"/>
+        <source>No history...</source>
+        <translation>Pas d'historique...</translation>
     </message>
 </context>
 <context>
@@ -451,6 +471,11 @@
         <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation>Vos clés ont été copiées</translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="93"/>
+        <source>WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>ATTENTION : Ne réutilisez pas vos clefs Loki sur un autre fork, SAUF si ce fork intégre des palliatifs de réutilisation de clefs. Le faire nuirait à votre confidentialié.</translation>
     </message>
 <message>
         <location filename="../pages/Keys.qml" line="183"/>
@@ -665,7 +690,12 @@
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="507"/>
+        <location filename="../LeftPanel.qml" line="481"/>
+        <source>G</source>
+        <translation>G</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="506"/>
         <source>I</source>
         <translation>I</translation>
     </message>
@@ -680,12 +710,12 @@
     <message>
         <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Copier</translation>
     </message>
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copié dans le presse-papier</translation>
     </message>
 </context>
 <context>
@@ -727,6 +757,11 @@
     <message>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="vanished">L&apos;extraction minière avec votre ordinateur renforce le réseau Loki. Plus il y en a, plus il est difficile d&apos;attaquer le réseau, donc chaque mineur est utile.&lt;br&gt; &lt;br&gt;La mine vous donne aussi une petite chance de gagner des Lokis. Votre ordinateur va calculer des empreintes pour essayer de créer un bloc valide. Si vous trouvez un bloc, vous obtiendrez la récompense associée. Bonne chance !</translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="76"/>
+        <source>Your daemon must be synchronized before you can start mining</source>
+        <translation>Votre démon doit être synchronisé avant de pouvoir démarrer l'extraction minière</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="74"/>
@@ -855,27 +890,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Portefeuille</translation>
+        <translation>Portefeuille</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Agencement</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Nœud</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Journal</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -1166,8 +1201,14 @@
         <translation>Activer</translation>
     </message>
     <message>
-        <source>Integrated address copied to clipboard</source>
-        <translation type="vanished">Adresse intégrée copiée dans le presse-papier</translation>
+        <location filename="../pages/Receive.qml" line="330"/>
+        <source>Address copied to clipboard</source>
+        <translation>Adresse copiée dans le presse-papier</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="435"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Ce QR code inclus l'adresse sélectionnée plus haut et le montant entré ci-dessous. Partagez-le avec d'autres (clic-droit-&gt;Sauvegarder) afin qu'ils puissent plus facilement vous envoyer le montant exact.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="284"/>
@@ -1188,8 +1229,9 @@
         <translation type="vanished">Suivi des paiements</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Click Generate to create a random payment id for a new customer&lt;/p&gt; &lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Ceci est un simple suivi des ventes :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Cliquez sur Générer pour créer un identifiant de paiement aléatoire pour un nouveau client&lt;/p&gt; &lt;p&gt;Laissez votre client scanner le code QR pour faire un paiement (si ce client a un logiciel permettant de scanner les codes QR).&lt;/p&gt;&lt;p&gt;Cette page va automatiquement scanner la chaîne de blocs et le pool de transactions pour trouver les transactions entrantes utilisant ce code QR. Si vous entrez un montant, il sera aussi vérifié que le total des transactions entrantes arrive à ce montant.&lt;/p&gt;C&apos;est à vous de décider si vous acceptez les transactions non confirmées ou pas. Il est probable qu&apos;elles seront confirmées assez rapidement, mais il y a toujours une possibilité qu&apos;elles ne le soient pas, donc pour de gros montants vous devriez attendre qu&apos;il y ait une confirmation ou plus.&lt;/p&gt;</translation>
+        <location filename="../pages/Receive.qml" line="521"/>
+        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Voici un simple module de suivi des ventes :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Laissez votre client scanner ce QR code pour procéder au paiement (si ce client dispose d'un logiciel supportant le scan de QR code).&lt;/p&gt;&lt;p&gt;Cette page va automatiquement scanner la chaîne de bloc et le pool de transactions à la recherche de transactions utilisant ce QR code. Si vous entrez un montant, elle vérifiera également que le cumul des transactions correspond à ce montant.&lt;/p&gt;&lt;p&gt;Vous pouvez choisir d'accepter des transactions non confirmées ou pas. Il est vraisemblable qu'elles seront confirmées rapidement, mais il reste possible qu'elles ne le soient pas, donc pour des montants importants, il peut être préférable d'attendre une ou plusieurs confirmation(s).&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="360"/>
@@ -1280,9 +1322,39 @@
         <translation>Information</translation>
     </message>
     <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="60"/>
+        <source>GUI version: </source>
+        <translation>Verson de la GUI :</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
+        <source>Embedded Loki version: </source>
+        <translation>Version embarquée de Loki :</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="118"/>
+        <source>Wallet path: </source>
+        <translation>Chemin du portefeuille :</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="155"/>
+        <source>Wallet creation height: </source>
+        <translation>Hauteur de création du portefeuille :</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="165"/>
+        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
+        <translation>&lt;a href=&apos;#&apos;&gt; (Cliquer pour changer)&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="167"/>
+        <source>Set a new restore height:</source>
+        <translation>Définir une nouvelle hauteur de restauration :</translation>
+    </message>
+    <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
         <source>Rescan wallet cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Rescanner le cache du portefeuille</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
@@ -1294,12 +1366,19 @@ The following information will be deleted
 
 The old wallet cache file will be renamed and can be restored later.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Êtes-vous sûr de vouloir reconstruire le cache du portefeuille ?
+Les informations suivantes seront supprimées
+- Adresses de destinataires
+- Clefs de transactions
+- Descriptions des transactions
+
+L'ancien fichier du cache du portefeuille sera renommé et pourra être restauré ultérieurement.
+</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
         <source>Cancel</source>
-        <translation type="unfinished">Annuler</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1312,14 +1391,24 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">Emplacement de la chaîne de blocs</translation>
     </message>
     <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="202"/>
+        <source>Invalid restore height specified. Must be a number.</source>
+        <translation>Hauteur de restauration spécifiée invalide. Doit être un nombre.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="236"/>
+        <source>Wallet log path: </source>
+        <translation>Chemin des journaux du portefeuille :</translation>
+    </message>
+    <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copier dans le presse-papiers</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished">Copié dans le presse-papier</translation>
+        <translation>Copié dans le presse-papier</translation>
     </message>
 </context>
 <context>
@@ -1333,12 +1422,27 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Debug info</source>
         <translation type="vanished">Info de débogage</translation>
     </message>
+    <message>
+        <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
+        <source>Custom decorations</source>
+        <translation>Décor personnalisé</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
+        <source>No Layout options exist yet in mobile mode.</source>
+        <translation>Aucune option d'agencement n'est disponible pour le moment en mode mobile.</translation>
+    </message>
 </context>
 <context>
     <name>SettingsLog</name>
     <message>
         <source>Wallet creation height: </source>
         <translation type="vanished">Hauteur de bloc lors de la création du portefeuille : </translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation>Niveau de journalisation</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="573"/>
@@ -1355,9 +1459,14 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">&lt;a href=&apos;#&apos;&gt;(Cliquer pour changer)&lt;/a&gt;</translation>
     </message>
     <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation>Journal du démon</translation>
+    </message>
+    <message>
         <location filename="../pages/settings/SettingsLog.qml" line="226"/>
         <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>commande + Entrée (p.e. 'help' ou 'status')</translation>
     </message>
 </context>
 <context>
@@ -1365,7 +1474,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="114"/>
         <source>Local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Nœud local</translation>
     </message>
     <message>
         <source>Are you sure you want to rebuild the wallet cache?
@@ -1381,11 +1490,16 @@ Les données suivantes seront supprimées
 - Clés des transactions
 - Descriptions des transactions
 L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus tard.</translation>
+</message>
+<message>
+        <location filename="../pages/settings/SettingsNode.qml" line="132"/>
+        <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
+        <translation>La chaîne de bloc est téléchargée sur votre ordinateur. Assure une sécurité accrue et nécessite plus d'espace de stockage</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="213"/>
         <source>Remote node</source>
-        <translation type="unfinished">Démon distant</translation>
+        <translation>Démon distant</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="351"/>
@@ -1438,14 +1552,24 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Info de débogage</translation>
 </message>
 <message>
-        <location filename="../pages/Settings.qml" line="559"/>
-        <source>GUI Version: </source>
-        <translation>Version de l&apos;interface graphique : </translation>
+<location filename="../pages/Settings.qml" line="559"/>
+<source>GUI Version: </source>
+<translation>Version de l&apos;interface graphique : </translation>
 </message>
+<message>
+    <location filename="../pages/Settings.qml" line="565"/>
+    <source>Embedded Loki Version: </source>
+    <translation type="unfinished"></translation>
+</message>
+<message>
+        <location filename="../pages/settings/SettingsNode.qml" line="232"/>
+        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <translation>Utilise un serveur tiers pour se connecter au réseau Loki. Moins sécurisé, mais utilise moins les ressources de votre ordinateur.</translation>
+    </message>
     <message>
-        <location filename="../pages/Settings.qml" line="565"/>
-        <source>Embedded Loki Version: </source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="277"/>
+        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Pour trouver un nœud distant, taper 'nœud distant Loki' ou 'Loki remote node' dans votre moteur de recherche préféré. Merci de vous assurer que le nœud distant est éxécuté par un tiers de confiance.</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="572"/>
@@ -1483,9 +1607,25 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <translation>Erreur : Système de fichiers en lecture seule</translation>
     </message>
     <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="291"/>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="292"/>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="312"/>
+        <location filename="../pages/settings/SettingsNode.qml" line="450"/>
+        <source>(optional)</source>
+        <translation>(facultatif)</translation>
+    </message>
+    <message>
         <location filename="../pages/settings/SettingsNode.qml" line="323"/>
         <source>Password</source>
-        <translation type="unfinished">Mot de passe</translation>
+        <translation>Mot de passe</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="347"/>
@@ -1714,6 +1854,41 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <source>Relative</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="399"/>
+        <source>Stop local node</source>
+        <translation>Arrêter le nœud local</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source>Blockchain location</source>
+        <translation>Emplacement de la chaîne de blocs</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
+        <translation> &lt;a href=&apos;#&apos;&gt; (modifier)&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="421"/>
+        <source>(default)</source>
+        <translation>(par défaut)</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="449"/>
+        <source>Daemon startup flags</source>
+        <translation>Options de démarrage du démon</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation>Adresse d'amorçage</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="477"/>
+        <source>Bootstrap Port</source>
+        <translation>Port d'amorçage</translation>
+    </message>
 </context>
 <context>
     <name>SettingsWallet</name>
@@ -1794,6 +1969,86 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
         <location filename="../pages/SharedRingDB.qml" line="406"/>
         <source>Segregation Height</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
+        <source>Close this wallet</source>
+        <translation>Fermer ce portefeuille</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
+        <source>Logs out of this wallet.</source>
+        <translation>Déconnexion de ce portefeuille</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation>Fermer le portefeuille</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
+        <source>Create a view-only wallet</source>
+        <translation>Créer un portefeuille d'audit</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view transactions, cannot initialize transactions.</source>
+        <translation>Crée un nouveau portefeuille pouvant seulement voir les transactions, pas en initier</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="220"/>
+        <source>Create wallet</source>
+        <translation>Créer un portefeuille</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="262"/>
+        <source>Show seed &amp; keys</source>
+        <translation>Voir la phrase mnémonique &amp; les clefs</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="276"/>
+        <source>Store this information safely to recover your wallet in the future.</source>
+        <translation>Conservez ces informations en toute sécurité pour récupérer votre portefeuille ultérieurement.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="311"/>
+        <source>Show seed</source>
+        <translation>Voir la phrase mnémonique</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="351"/>
+        <source>Rescan wallet balance</source>
+        <translation>Rescanner le solde du portefeuille</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="365"/>
+        <source>Use this feature if you think the shown balance is not accurate.</source>
+        <translation>Utilisez cette fonction si vous pensez que le solde affiché n'est pas correct.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="401"/>
+        <source>Rescan</source>
+        <translation>Rescanner</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="410"/>
+        <source>Error</source>
+        <translation>Erreur</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="411"/>
+        <source>Error: </source>
+        <translation>Erreur : </translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="416"/>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="417"/>
+        <source>Successfully rescanned spent outputs.</source>
+        <translation>Sorties dépensées rescannées avec succès.</translation>
     </message>
 </context>
 <context>
@@ -1889,8 +2144,8 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Loki's ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation> Afin d'éviter d'annuler la protection apporté par les signatures de cercle de Loki, une sortie ne doit pas être dépensée avec des cercles diffèrents sur des chaînes de blocs diffèrentes. Alors que cela ne devrait pas être une préocupation, cela en devient une lorsque des clones de Loki réutilisant les clés vous permettent de dépenser des sorties existantes. Dans ce cas, vous devez vous assurer que ces sorties existantes utilisent le même cercle sur les deux chaînes. Cela sera fait automatiquement par Loki et n'importe quelle application réutilisant les clés qui ne tenterait pas de vous démunir de votre confidentialité. Si vous utilisez également un clone de Loki réutilisant les clefs, et que ce clone n'inclu pas cette protection, vous pouvez tout de même vous assurer que vos transactions sont protégées en dépenssant sur ce clone en premier, puis en ajoutant manuellement les cercles sur cette page, ce qui vous permettra de dépenser vos Lokij en toute sécurité. Si vous n'utilisez pas un clone de Loki réutilisant les clefs sans cette fonctionnalité; de sécurité, alors cous n'avez rien à faire car tout est automatisé.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Afin de ne pas invalider la protection offerte par les signatures de cercle de Loki, une sortie ne doit pas être dépensée avec des cercles différents sur des chaînes de blocs différentes. Alors que ce n'est normalement pas une problématique, cela peut en devenir une lorqu'un clone de Loki à réutilisation de clefs vous permet de dépensez des sorties existantes. Dans ce cas, vous devez vous assurer que cette sortie existante utilise le même cercle sur les deux chaînes.&lt;br&gt;Cela sera fait automatiquement par Loki et tout logiciel à réutilisation de clef qui ne tenterait pas activement de vous dépouiller de votre confidentialité.&lt;br&gt;Si vous utilisez également un clone de Loki à réutilisation de clefs, et que celui-ci n'implémente pas cette protection, vous pouvez toujours vous assurer que vos transactions sont protégées en dépenssant en premier sur le clone, puis en ajoutant manuellement le cercle sur cette page, ce qui vous permet de dépenser vos Loki en toute sécurité.&lt;br&gt;Si vous n'utilisez pas un clone à réutilisation de clefs qui n'implémente pas ces protections, alors vous n'avez rien à faire car tout est automatisé.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
@@ -2405,17 +2660,17 @@ L'ancien cache du portefeuille sera renommé et vous pouvez le restaurer plus ta
     <message>
         <location filename="../pages/Transfer.qml" line="191"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatique</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="518"/>
         <source>Export key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporter les images de clef</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="530"/>
         <source>Import key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Importer les images de clef</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="557"/>
@@ -2695,7 +2950,7 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Créer un nouveau portefeuille depuis un périphérique matériel</translation>
     </message>
 </context>
 <context>
@@ -2973,7 +3228,22 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation>Hauteur de restoration (facultatif)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="288"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="323"/>
+        <source>Subaddress lookahead (optional): &lt;major&gt;:&lt;minor&gt;</source>
+        <translation>Pré-génération de sous-adresses (optionnel) : &lt;majeures&gt;:&lt;mineures&gt;</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="340"/>
+        <source>Device name</source>
+        <translation>Nom du périphérique</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="344"/>
+        <source>Ledger</source>
+        <translation>Ledger</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="367"/>
         <source>Your wallet is stored in</source>
         <translation>Votre portefeuille est stocké dans</translation>
     </message>
@@ -3041,7 +3311,22 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
         <translation>Ouvrir un fichier portefeuille</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="239"/>
+        <location filename="../wizard/WizardOptions.qml" line="273"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation>Créer un nouveau portefeuille depuis un périphérique matériel</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="290"/>
+        <source>Advanced options</source>
+        <translation>Options avancées</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="301"/>
+        <source>Mainnet</source>
+        <translation>Mainnet</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="322"/>
         <source>Testnet</source>
         <translation>Testnet</translation>
     </message>
