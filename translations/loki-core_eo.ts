@@ -1512,8 +1512,8 @@ La malnova monujkaŝmemoro renomiĝos, vin povas restarigi gîn poste.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="407"/>
-        <source>Show Advanced</source>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

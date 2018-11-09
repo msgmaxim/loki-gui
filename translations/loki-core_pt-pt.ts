@@ -1522,8 +1522,9 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <translation>Parar o Node Local</translation>
     </message>
     <message>
-        <source>Local daemon startup flags</source>
-        <translation type="vanished">Flags de arranque para o node local</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Cria uma nova carteira que só pode ser usada para visualizar transações, não será possível executar transações</translation>
     </message>
     <message>
         <source>Node login (optional)</source>

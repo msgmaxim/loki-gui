@@ -1531,8 +1531,9 @@ La caché del monedero antiguo será renombrada y podrá ser restaurada más tar
         <translation>Nombre del monedero</translation>
     </message>
     <message>
-        <source>Daemon log path: </source>
-        <translation type="vanished">Ruta del fichero de registro del daemon:</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Crea un nuevo monedero que sólo puede ver transacciones, no puede inicializar transacciones.</translation>
     </message>
     <message>
         <source>Daemon log</source>

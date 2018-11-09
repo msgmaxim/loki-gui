@@ -1455,9 +1455,9 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <translation>Skapa en granskningsplånbok</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="223"/>
-        <source>Bootstrap Node</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Skapar en ny plånbok som endast kan visa transaktioner, kan inte initiera transaktioner.</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="351"/>

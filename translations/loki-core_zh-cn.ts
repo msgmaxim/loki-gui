@@ -1443,8 +1443,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>创建一个只读钱包</translation>
     </message>
     <message>
-        <source>Daemon log path: </source>
-        <translation type="vanished">后台日志输出的路径: </translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">创建一个新钱包，该钱包只能用来查看交易而不能发起交易。</translation>
     </message>
     <message>
         <source>Daemon log</source>

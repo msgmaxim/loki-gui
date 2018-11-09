@@ -1498,9 +1498,9 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation type="vanished">Log démona</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="667"/>
-        <source>Please choose a folder</source>
-        <translation>Prosím vyberte adresář</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Vytvoří peněženku, která umožňuje pouze prohlížení transakcí, nikoli vytvoření nových.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="677"/>

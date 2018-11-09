@@ -1511,8 +1511,9 @@ O cache da carteira antiga será renomeado e poderá ser restaurado depois.
         <translation>Parar nó local</translation>
     </message>
     <message>
-        <source>Local daemon startup flags</source>
-        <translation>Flags de inicialização do daemon local</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Cria uma nova carteira que só pode exibir mas não pode inicializar transações.</translation>
     </message>
     <message>
         <source>Layout settings</source>

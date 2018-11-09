@@ -1594,9 +1594,9 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Vytvoriť prezeraciu (view-only) peňaženku</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="667"/>
-        <source>Please choose a folder</source>
-        <translation>Prosím, vyberte priečinok</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Vytvorí novú peňaženku, cez ktorú môžte len nahliadať na transakcie a nie je možné uskutočniť transakciu.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="677"/>

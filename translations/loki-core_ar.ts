@@ -1415,9 +1415,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="172"/>
-        <source>Wrong password</source>
-        <translation>كلمه السر خاطئه</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">انشاء محفظه يمكنها فقط رؤيه المعملات ولا يمكنها القيام بمعاملات.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="190"/>

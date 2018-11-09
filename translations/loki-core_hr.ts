@@ -1718,9 +1718,8 @@ Datoteka sa starom predmemorijom novčanika biti će preimenovana i može se nak
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="111"/>
-        <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>Blackballed Outputs</source>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

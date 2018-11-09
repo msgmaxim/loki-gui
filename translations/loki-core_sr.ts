@@ -1614,9 +1614,9 @@ Sledeće informacije će biti obrisane
 Stari keš fajl novčanika će biti preimenovan i može se povratiti kasnije.</translation>
     </message>
     <message>
-        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
-        <source>Create a view-only wallet</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Pravi novčanik koji može samo da posmatra transakcije, ne može ih inicijalizirati.</translation>
     </message>
     <message>
         <source>Daemon log path: </source>

@@ -1798,8 +1798,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
-        <source>Creates a new wallet that can only view transactions, cannot initialize transactions.</source>
-        <translation>İşlem yapamayan, yalnızca yapılan işlemleri görüntüleyen yeni bir cüzdan oluşturur.</translation>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">İşlem yapamayan, yalnızca yapılan işlemleri görüntüleyen yeni bir cüzdan oluşturur.</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="639"/>

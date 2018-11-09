@@ -1502,9 +1502,9 @@
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="609"/>
-        <source>Rescan wallet cache</source>
-        <translation>Пересканировать кеш кошелька</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Создает новый кошелек, в котором можно только просматривать транзакции, но не отправлять их.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="610"/>

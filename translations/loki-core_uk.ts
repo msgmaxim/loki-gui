@@ -1432,34 +1432,10 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="vanished">Шлях для збереження логів демона: </translation>
     </message>
     <message>
-        <source>Daemon log</source>
-        <translation type="vanished">Логи демона</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Створює новий гаманець, в якому можна тільки переглядати транзакції, але не відправляти їх.</translation>
     </message>
-<message>
-        <location filename="../pages/Settings.qml" line="72"/>
-        <source>Manage Wallet</source>
-        <translation>Керування гаманцем</translation>
-</message>
-<message>
-        <location filename="../pages/Settings.qml" line="81"/>
-        <source>Close Wallet</source>
-        <translation>Закрити гаманець</translation>
-</message>
-<message>
-        <location filename="../pages/Settings.qml" line="93"/>
-        <source>Create View Only Wallet</source>
-        <translation>Створити гаманець тільки для перегляду</translation>
-</message>
-<message>
-        <location filename="../pages/Settings.qml" line="139"/>
-        <source>Rescan Wallet Balance</source>
-        <translation>Пересканувати баланс гаманця</translation>
-</message>
-<message>
-        <location filename="../pages/Settings.qml" line="165"/>
-        <source>Change Password</source>
-        <translation>Змінити пароль</translation>
-</message>
     <message>
         <location filename="../pages/Settings.qml" line="190"/>
         <source>Daemon Mode</source>

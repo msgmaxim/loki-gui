@@ -1435,39 +1435,9 @@ The old wallet cache file will be renamed and can be restored later.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="223"/>
-        <source>Bootstrap Node</source>
-        <translation type="unfinished"></translation>
-    </message>
-<message>
-        <location filename="../pages/Settings.qml" line="351"/>
-        <source>Show Status</source>
-        <translation>Prikaži status</translation>
-</message>
-<message>
-        <location filename="../pages/Settings.qml" line="368"/>
-        <source>Blockchain Location</source>
-        <translation>Blockchain lokacija</translation>
-</message>
-    <message>
-        <location filename="../pages/Settings.qml" line="392"/>
-        <source>Change Location</source>
-        <translation type="unfinished"></translation>
-    </message>
-<message>
-        <location filename="../pages/Settings.qml" line="407"/>
-        <source>Show Advanced</source>
-        <translation>Prikaži napredno</translation>
-</message>
-<message>
-        <location filename="../pages/Settings.qml" line="419"/>
-        <source>Local Daemon Startup Flags</source>
-        <translation>Zagonske zastavice</translation>
-</message>
-    <message>
-        <location filename="../pages/Settings.qml" line="421"/>
-        <source>(Optional)</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Ustvari novo denarnico, ki omogoča samo vpogled do transakcij, ne more pa jih ustvariti.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="454"/>

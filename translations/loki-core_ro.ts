@@ -1585,8 +1585,9 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation type="vanished">Opțiuni pornire serviciu local</translation>
     </message>
     <message>
-        <source>Node login (optional)</source>
-        <translation type="vanished">Autentificare serviciu (opțional)</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Crează un portofel nou care poate doar să vadă tranzacțiile, dar nu poate să inițializeze tranzacții.</translation>
     </message>
     <message>
         <source>Remote node</source>
