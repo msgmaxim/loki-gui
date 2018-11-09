@@ -194,7 +194,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Procurar</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -861,27 +861,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Carteira</translation>
+        <translation>Carteira</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Layout</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Node</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Relatório de Eventos</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informação</translation>
     </message>
 </context>
 <context>
@@ -1164,7 +1164,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="637"/>
         <source>Transaction ID copied to clipboard</source>
-        <translation>ID da transacção copiada para a área de transferência</translation>
+        <translation>ID da transação copiada para a área de transferência</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="672"/>
@@ -1311,7 +1311,7 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar para a área de transferência</translation>
     </message>
     <message>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
@@ -1353,12 +1353,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nível de detalhe do relatório</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="143"/>
         <source>Daemon log</source>
-        <translation type="unfinished">Registo do daemon</translation>
+        <translation>Relatório do daemon</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="572"/>
@@ -1456,7 +1456,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="323"/>
         <source>Password</source>
-        <translation type="unfinished">Palavra-chave</translation>
+        <translation>Palavra-chave</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="198"/>
@@ -1471,32 +1471,32 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source>Blockchain location</source>
-        <translation type="unfinished">Localização da Blockchain</translation>
+        <translation>Localização da blockchain</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;a href=&apos;#&apos;&gt; (alterar)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="421"/>
         <source>(default)</source>
-        <translation type="unfinished"></translation>
+        <translation>(por defeito)</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="449"/>
         <source>Daemon startup flags</source>
-        <translation type="unfinished"></translation>
+        <translation>Variáveis de arranque do daemon</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="476"/>
         <source>Bootstrap Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Endereço do Bootstrap</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="477"/>
         <source>Bootstrap Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta do Bootstrap</translation>
     </message>
 </context>
 <context>
@@ -1504,12 +1504,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
         <source>Close this wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Fechar esta carteira</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
         <source>Logs out of this wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sair desta carteira</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="326"/>
@@ -1566,7 +1566,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation type="unfinished">Erro</translation>
+        <translation>Erro</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -1603,7 +1603,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
         <location filename="../pages/SharedRingDB.qml" line="110"/>
         <location filename="../pages/SharedRingDB.qml" line="112"/>
         <source>Blackballed outputs</source>
-        <translation>Transacções em lista negra</translation>
+        <translation>Transações em lista negra</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="111"/>
@@ -1664,12 +1664,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/SharedRingDB.qml" line="218"/>
         <source>Blackball</source>
-        <translation type="unfinished">Adicionar</translation>
+        <translation>Adicionar Blackball</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="227"/>
         <source>Unblackball</source>
-        <translation type="unfinished">Remover</translation>
+        <translation>Remover Blackball</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="240"/>
@@ -1690,12 +1690,12 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/SharedRingDB.qml" line="278"/>
         <source>Key image</source>
-        <translation>Key image</translation>
+        <translation>Imagem da chave</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
         <source>Paste key image</source>
-        <translation>Colar key image</translation>
+        <translation>Colar imagem da chave</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="299"/>
@@ -1710,7 +1710,7 @@ O ficheiro cache antigo da carteira será renomeado e poderá ser reposto depois
     <message>
         <location filename="../pages/SharedRingDB.qml" line="315"/>
         <source>No ring found</source>
-        <translation>Nenhuma ring encontrada</translation>
+        <translation>Nenhum ring encontrado</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="334"/>
@@ -2369,7 +2369,7 @@ Por favor atualize ou execute outra versão do daemon</translation>
     <message>
         <location filename="../pages/TxKey.qml" line="67"/>
         <source>Prove Transaction</source>
-        <translation>Prova de Transacção</translation>
+        <translation>Prova de transação</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="71"/>
@@ -2410,7 +2410,7 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
-        <translation>Verificar Transacção</translation>
+        <translation>Verificar transação</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="146"/>
@@ -2518,7 +2518,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar uma nova carteira a partir do dispositivo de hardware</translation>
     </message>
 </context>
 <context>
