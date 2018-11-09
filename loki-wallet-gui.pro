@@ -296,6 +296,7 @@ linux {
         -lssl \
         -llmdb \
         -lsodium \
+        -lhidapi-libusb \
         -lcrypto
 
     if(!android) {
