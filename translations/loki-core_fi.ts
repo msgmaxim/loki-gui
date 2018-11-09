@@ -120,7 +120,7 @@
 </message>
     <message>
         <source>Start daemon (%1)</source>
-        <translation type="unfinished">Käynnistä daemon (%1)</translation>
+        <translation>Käynnistä daemon (%1)</translation>
     </message>
     <message>
         <source>Use custom settings</source>
@@ -132,7 +132,7 @@
     <message>
         <location filename="../pages/Dashboard.qml" line="57"/>
         <source>Quick transfer</source>
-        <translation type="unfinished">Pikasiirto</translation>
+        <translation>Pikasiirto</translation>
     </message>
     <message>
         <location filename="../pages/Dashboard.qml" line="89"/>
@@ -265,7 +265,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="51"/>
         <source>Tx ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tx ID:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="52"/>
@@ -367,7 +367,7 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="50"/>
         <source>Tx ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>TX ID:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="51"/>
@@ -430,7 +430,7 @@
     <message>
         <location filename="../components/InputDialog.qml" line="147"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>
@@ -679,7 +679,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="611"/>
         <source>Daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>Daemon</translation>
     </message>
     <message>
         <source>Sign/verify</source>
@@ -807,7 +807,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="129"/>
         <source>Enable mining when running on battery</source>
-        <translation type="unfinished"></translation>
+        <translation>Ota käyttöön louhinta akkuvirralla</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="137"/>
@@ -886,7 +886,7 @@
     <message>
         <location filename="../pages/Mining.qml" line="190"/>
         <source>Status: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tila: </translation>
     </message>
 </context>
 <context>
@@ -902,27 +902,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Wallet</translation>
+        <translation>Lompakko</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Näkymä</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkkosolmu</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Loki</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Tietoa</translation>
     </message>
 </context>
 <context>
@@ -1135,7 +1135,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="128"/>
         <source>Transaction found</source>
-        <translation type="unfinished">Siirto löytyi</translation>
+        <translation>Siirto löytyi</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="130"/>
@@ -1374,7 +1374,7 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="60"/>
         <source>GUI version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Gui-versio: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
@@ -1389,7 +1389,7 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="155"/>
         <source>Wallet creation height: </source>
-        <translation type="unfinished"></translation>
+        <translation>Lompakon luomiskorkeus: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="165"/>
@@ -1404,7 +1404,7 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
         <source>Rescan wallet cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Uudellenskannaa lompakkovälimuisti</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
@@ -1416,7 +1416,14 @@ The following information will be deleted
 
 The old wallet cache file will be renamed and can be restored later.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Oletko varma että haluat rakentaa lompakkovälimuistin uudelleen?
+Seuraavat tiedot poistetaan:
+- Vastaanottajien osoitteet
+- Tx-avaimet
+- Tx-kuvaukset
+
+Vanha lompakkovälimuistitiedosto nimetään uudelleen ja voidaan palauttaa myöhemmin.
+</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
@@ -1589,7 +1596,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished">Kopioitu leikepöydälle</translation>
+        <translation>Kopioitu leikepöydälle</translation>
     </message>
 </context>
 <context>
@@ -1597,12 +1604,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
         <source>Custom decorations</source>
-        <translation type="unfinished"></translation>
+        <translation>Oma koristelu</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
         <source>No Layout options exist yet in mobile mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Näkymävalintoja ei vielä saatavilla mobiilikäytössä</translation>
     </message>
 </context>
 <context>
@@ -1610,7 +1617,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokitaso</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="72"/>
@@ -1635,12 +1642,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="143"/>
         <source>Daemon log</source>
-        <translation type="unfinished">Daemon-loki</translation>
+        <translation>Daemon-loki</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="226"/>
         <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>komento + enter (esim. &apos;help&apos; tai &apos;status&apos;) </translation>
     </message>
 </context>
 <context>
@@ -1648,12 +1655,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="114"/>
         <source>Local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Paikallinen verkkosolmu</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="132"/>
         <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lohkoketju on ladataan tietokoneelle. Lisää turvallisuutta ja vaatii enemmän levytilaa.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="198"/>
@@ -1803,38 +1810,38 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>
         <source>Address</source>
-        <translation type="unfinished">Osoite</translation>
+        <translation>Osoite</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="292"/>
         <source>Port</source>
-        <translation type="unfinished">Portti</translation>
+        <translation>Portti</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="312"/>
         <location filename="../pages/settings/SettingsNode.qml" line="450"/>
         <source>(optional)</source>
-        <translation type="unfinished">(valinnainen)</translation>
+        <translation>(valinnainen)</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="323"/>
         <source>Password</source>
-        <translation type="unfinished">Salasana</translation>
+        <translation>Salasana</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="347"/>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Yhdistä</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="399"/>
         <source>Stop local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Pysäytä paikallinen verkkosolmu</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source>Blockchain location</source>
-        <translation type="unfinished">Lohkoketjun sijainti</translation>
+        <translation>Lohkoketjun sijainti</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
@@ -1844,17 +1851,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="421"/>
         <source>(default)</source>
-        <translation type="unfinished"></translation>
+        <translation>(oletus)</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="449"/>
         <source>Daemon startup flags</source>
-        <translation type="unfinished"></translation>
+        <translation>Daemonin käynnistysliput</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="476"/>
         <source>Bootstrap Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Bootstrap-osoite</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
@@ -1867,42 +1874,42 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
         <source>Close this wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje tämä lompakko</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
         <source>Logs out of this wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjautuu ulos tästä lompakosta.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
         <source>Close wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje lompakko</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
         <source>Create a view-only wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo vain katseltava lompakko</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
         <source>Creates a new wallet that can only view transactions, cannot initialize transactions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo uuden lompakon joka voi vain seurata siirtoja mutta ei tehdä niitä.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="220"/>
         <source>Create wallet</source>
-        <translation type="unfinished">Luo lompakko</translation>
+        <translation>Luo lompakko</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="262"/>
         <source>Show seed &amp; keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä seed &amp; keys</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="276"/>
         <source>Store this information safely to recover your wallet in the future.</source>
-        <translation type="unfinished"></translation>
+        <translation>Säilytä tätä tietoa palauttaaksesi lompakko turvallisesti tulevaisuudessa.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="311"/>
@@ -1912,27 +1919,27 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="351"/>
         <source>Rescan wallet balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Skannaa uudelleen lompakon saldo</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="365"/>
         <source>Use this feature if you think the shown balance is not accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä tätä ominaisuutta jos epäilet että näkyvä saldo ei ole oikea.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="401"/>
         <source>Rescan</source>
-        <translation type="unfinished"></translation>
+        <translation>Uudelleenskannaa</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="410"/>
         <source>Error</source>
-        <translation type="unfinished">Virhe</translation>
+        <translation>Virhe</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="411"/>
         <source>Error: </source>
-        <translation type="unfinished">Virhe: </translation>
+        <translation>Virhe: </translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="332"/>
@@ -2112,7 +2119,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="278"/>
         <source>Key image</source>
-        <translation type="unfinished"></translation>
+        <translation>Avainkuva</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="279"/>
@@ -2516,7 +2523,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="191"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaattinen</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="263"/>
@@ -2689,7 +2696,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="285"/>
         <source>No address found</source>
-        <translation type="unfinished"></translation>
+        <translation>Osoitetta ei löytynyt</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="406"/>
@@ -2699,12 +2706,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/Transfer.qml" line="518"/>
         <source>Export key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Vie avainkuvat</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="530"/>
         <source>Import key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuo avainkuvat</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="557"/>
@@ -3012,7 +3019,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Luo uusi lompakko käyttäen fyysistä laitetta</translation>
     </message>
 </context>
 <context>
