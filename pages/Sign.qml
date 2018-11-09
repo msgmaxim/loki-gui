@@ -152,7 +152,7 @@ Rectangle {
                 RowLayout {
                     LineEdit {
                         id: signFileLine
-                        labelText: "Message From File"
+                        labelText: qsTr("Message From File") + translationManager.emptyString
                         placeholderText: qsTr("Path to file") + translationManager.emptyString;
                         readOnly: false
                         Layout.fillWidth: true
@@ -219,7 +219,7 @@ Rectangle {
                     LineEdit {
                         id: verifyMessageLine
                         Layout.fillWidth: true
-                        labelText: qsTr("Verify Message")
+                        labelText: qsTr("Verify Message") + translationManager.emptyString;
                         placeholderText: qsTr("Message to verify") + translationManager.emptyString;
                         readOnly: false
                     }
