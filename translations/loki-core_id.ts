@@ -11,7 +11,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="52"/>
         <source>Qr Code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kode QR</translation>
     </message>
     <message>
         <source>4...</source>
@@ -30,7 +30,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="75"/>
         <source>Paste 64 hexadecimal characters</source>
-        <translation>Merekatkan 64 simbol heksadesimal</translation>
+        <translation>Tempel 64 simbol heksadesimal</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="83"/>
@@ -40,7 +40,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="84"/>
         <source>Give this entry a name or description</source>
-        <translation>Pililah nama atau menuliskan catatan untuk alamat ini</translation>
+        <translation>Beri nama atau catatan untuk alamat ini</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="92"/>
@@ -55,12 +55,12 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="100"/>
         <source>Invalid address</source>
-        <translation>Macam alamat salah</translation>
+        <translation>Alamat tidak diketahui</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="104"/>
         <source>Can&apos;t create entry</source>
-        <translation>Tidak dapat membuat catatan</translation>
+        <translation>Item tidak dapat dibuat</translation>
     </message>
 </context>
 <context>
@@ -68,17 +68,17 @@
     <message>
         <location filename="../components/AddressBookTable.qml" line="48"/>
         <source>No more results</source>
-        <translation>Hasil selesai</translation>
+        <translation>Tidak ada hasil lainnya</translation>
     </message>
     <message>
         <location filename="../components/AddressBookTable.qml" line="106"/>
         <source>Payment ID:</source>
-        <translation>Menandai pembayaran:</translation>
+        <translation>ID Pembayaran:</translation>
     </message>
     <message>
         <location filename="../components/AddressBookTable.qml" line="151"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Alamat berhasil disalin</translation>
     </message>
 </context>
 <context>
@@ -122,7 +122,7 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="95"/>
         <source>Starting local node in %1 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation> Memulai node lokal dalam %1 detik</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
@@ -166,7 +166,7 @@
     <message>
         <location filename="../components/DashboardTable.qml" line="48"/>
         <source>No more results</source>
-        <translation>Hasil selesai</translation>
+        <translation>Tidak ada hasil lainnya</translation>
     </message>
     <message>
         <location filename="../components/DashboardTable.qml" line="138"/>
@@ -176,7 +176,7 @@
     <message>
         <location filename="../components/DashboardTable.qml" line="171"/>
         <source>Balance</source>
-        <translation>Saldo Rekening</translation>
+        <translation>Saldo</translation>
     </message>
     <message>
         <location filename="../components/DashboardTable.qml" line="191"/>
@@ -194,7 +194,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Cari</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -258,12 +258,12 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="51"/>
         <source>Tx ID:</source>
-        <translation>Menandai transaksi:</translation>
+        <translation>ID transaksi:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="52"/>
         <source>Payment ID:</source>
-        <translation>Menandai pembayaran:</translation>
+        <translation>ID pembayaran:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="53"/>
@@ -278,7 +278,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Destinations:</source>
-        <translation>Tujuan-tujuan:</translation>
+        <translation>Tujuan:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="56"/>
@@ -288,12 +288,12 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="81"/>
         <source>No more results</source>
-        <translation>Hasil selesai</translation>
+        <translation>Tidak ada hasil lainnya</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Alamat berhasil disalin</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="344"/>
@@ -303,7 +303,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="369"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Deskripsi</translation>
     </message>
     <message>
         <source>Details</source>
@@ -316,7 +316,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="348"/>
         <source>(%1/%2 confirmations)</source>
-        <translation type="unfinished">(%1/%2 konfirmasi)</translation>
+        <translation>(%1/%2 konfirmasi)</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="352"/>
@@ -326,7 +326,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="354"/>
         <source>FAILED</source>
-        <translation type="unfinished"></translation>
+        <translation>GAGAL</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="355"/>
@@ -352,7 +352,7 @@
     <message>
         <location filename="../components/HistoryTableInnerColumn.qml" line="88"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Berhasil disalin</translation>
     </message>
 </context>
 <context>
@@ -360,12 +360,12 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="50"/>
         <source>Tx ID:</source>
-        <translation type="unfinished">Menandai transaksi:</translation>
+        <translation>ID transaksi:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="51"/>
         <source>Payment ID:</source>
-        <translation type="unfinished">Menandai pembayaran:</translation>
+        <translation>ID pembayaran:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="52"/>
@@ -380,7 +380,7 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="54"/>
         <source>Destinations:</source>
-        <translation type="unfinished">Tujuan-tujuan:</translation>
+        <translation type="unfinished">Tujuan:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="55"/>
@@ -390,7 +390,7 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="81"/>
         <source>No more results</source>
-        <translation type="unfinished">Hasil selesai</translation>
+        <translation>Tidak ada hasil lainnya</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="181"/>
@@ -405,7 +405,7 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="185"/>
         <source>FAILED</source>
-        <translation type="unfinished"></translation>
+        <translation>GAGAL</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="186"/>
@@ -1919,7 +1919,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/TableHeader.qml" line="79"/>
         <source>Payment ID</source>
-        <translation>Menandai pembayaran:</translation>
+        <translation>ID pembayaran:</translation>
     </message>
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
@@ -2178,7 +2178,7 @@ Recipient: </source>
         <location filename="../pages/Transfer.qml" line="499"/>
         <source>
 payment ID: </source>
-        <translation>Menandai Pembayaran: </translation>
+        <translation>ID Pembayaran: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="500"/>
@@ -2330,7 +2330,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../pages/TxKey.qml" line="82"/>
         <location filename="../pages/TxKey.qml" line="158"/>
         <source>Transaction ID</source>
-        <translation>Menandai transaksi</translation>
+        <translation>ID transaksi</translation>
     </message>
     <message>
         <source>Paste tx ID</source>
@@ -2971,7 +2971,7 @@ Address: </source>
         <location filename="../main.qml" line="621"/>
         <source>
 Payment ID: </source>
-        <translation>Menandai pembayaran: </translation>
+        <translation>ID pembayaran: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="622"/>
