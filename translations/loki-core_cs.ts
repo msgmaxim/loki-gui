@@ -190,7 +190,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -685,7 +685,7 @@
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkopírováno do schránky</translation>
     </message>
 </context>
 <context>
@@ -866,27 +866,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Peněženka</translation>
+        <translation>Peněženka</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzhled</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzel</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Log</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -1174,12 +1174,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento QR kód obsahuje adresu, kterou jste vybrali výše a částku zadanou níže. Sdílejte jej s ostatními (pravý_klik-&gt;Uložit) aby vám mohli jednoduše zaslat přesnou částku.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="521"/>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý přehled prodejů:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Nechte zákazníkovi naskenovat QR kód za účelem provedení platby. (pokud zákazník má software který skenování QR kódů podporuje).&lt;/p&gt;&lt;p&gt;Tato stránka automaticky sleduje v blockchainu zaslané příchozí transakce dle poskytnutého QR kódu. Pokud jste zadali částku, bude také hledat příchozí transakce až do této výše.&lt;/p&gt;&lt;p&gt;Je na vašem zvážení zda akceptujete nepotrzené transakce nebo ne. K potvrzení obvykle dochází v poměrně krátkém čase, především u větších částek byste měli určitě počkat na alespoň jedno nebo více potvzení.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="608"/>
@@ -1305,12 +1305,19 @@ The following information will be deleted
 
 The old wallet cache file will be renamed and can be restored later.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Jste si jisti, že chcete znovu vytvořit cache paměť peněženky?
+Následující informace budou smazána
+- Adresa příjemce
+- Tx klíče
+- Tx popisky
+
+Starý soubor s cache pamětí bude přejmenován a může být následně obnoven.
+        </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
         <source>Cancel</source>
-        <translation type="unfinished">Zrušit</translation>
+        <translation>Zrušit</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
@@ -1320,17 +1327,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="236"/>
         <source>Wallet log path: </source>
-        <translation type="unfinished"></translation>
+        <translation>Cesta k logu peněženky: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkopírovat do schránky</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkopírováno do schránky</translation>
     </message>
 </context>
 <context>
@@ -1338,12 +1345,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
         <source>Custom decorations</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlastní dekorace</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
         <source>No Layout options exist yet in mobile mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>V mobilním zobrazení zatím nejsou dostupné možnosti úpravy vzhledu.</translation>
     </message>
 </context>
 <context>
@@ -1366,12 +1373,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="114"/>
         <source>Local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Lokální uzel</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="132"/>
         <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
-        <translation type="unfinished"></translation>
+        <translation>Blockchain je stažen do vaše počítače. Poskytuje lepší zabezpečení a vyžaduje více místa na disku.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="209"/>
@@ -1400,13 +1407,13 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="292"/>
         <source>Port</source>
-        <translation type="unfinished">Port</translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="312"/>
         <location filename="../pages/settings/SettingsNode.qml" line="450"/>
         <source>(optional)</source>
-        <translation type="unfinished">(nepovinné)</translation>
+        <translation>(nepovinné)</translation>
     </message>
     <message>
         <source>Local daemon startup flags</source>
@@ -1435,7 +1442,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="420"/>
         <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;a href=&apos;#&apos;&gt; (změna)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="600"/>
@@ -1445,17 +1452,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="449"/>
         <source>Daemon startup flags</source>
-        <translation type="unfinished"></translation>
+        <translation>Parametry startu démona</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="476"/>
         <source>Bootstrap Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresa vzdáleného uzlu</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="477"/>
         <source>Bootstrap Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port vzdáleného uzlu</translation>
     </message>
 </context>
 <context>
@@ -1480,7 +1487,7 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
         <source>Logs out of this wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odhlásit se z této peněženky</translation>
     </message>
     <message>
         <source>Daemon log path: </source>
@@ -2255,17 +2262,17 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
     <message>
         <location filename="../pages/Transfer.qml" line="191"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaticky</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="518"/>
         <source>Export key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportovat key image</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="530"/>
         <source>Import key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Importovat key image</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="557"/>
@@ -2559,7 +2566,7 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvořit novou peněženku s pomocí hardware zařízení</translation>
     </message>
 </context>
 <context>
@@ -2911,17 +2918,17 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
     <message>
         <location filename="../wizard/WizardOptions.qml" line="273"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvořit novou penéženku s pomoci hardware zařízení</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="290"/>
         <source>Advanced options</source>
-        <translation type="unfinished">Pokročilé možnosti</translation>
+        <translation>Pokročilé možnosti</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="301"/>
         <source>Mainnet</source>
-        <translation type="unfinished">Hlavní síť</translation>
+        <translation>Hlavní síť</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="343"/>
