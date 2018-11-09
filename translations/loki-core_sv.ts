@@ -278,7 +278,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Destinations:</source>
-        <translation>Mål:</translation>
+        <translation>Mottagare:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="56"/>
@@ -380,7 +380,7 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="54"/>
         <source>Destinations:</source>
-        <translation>Mål:</translation>
+        <translation>Mottagare:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="55"/>
@@ -3554,7 +3554,7 @@ Beskrivning: </translation>
     <message>
         <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
-        <translation>skicka till samma mål</translation>
+        <translation>skicka till samma mottagare</translation>
     </message>
 </context>
 </TS>
