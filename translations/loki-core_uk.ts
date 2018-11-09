@@ -194,7 +194,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Пошук</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -546,7 +546,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="365"/>
         <source>R</source>
-        <translation type="unfinished"></translation>
+        <translation>R</translation>
     </message>
     <message>
         <source>Prove/check</source>
@@ -555,7 +555,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="459"/>
         <source>K</source>
-        <translation type="unfinished"></translation>
+        <translation>K</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="388"/>
@@ -579,12 +579,12 @@
     <message>
         <location filename="../LeftPanel.qml" line="340"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="389"/>
         <source>H</source>
-        <translation type="unfinished"></translation>
+        <translation>H</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="411"/>
@@ -594,7 +594,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="412"/>
         <source>D</source>
-        <translation type="unfinished"></translation>
+        <translation>D</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="434"/>
@@ -604,7 +604,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="435"/>
         <source>M</source>
-        <translation type="unfinished"></translation>
+        <translation>M</translation>
     </message>
 <message>
         <location filename="../LeftPanel.qml" line="458"/>
@@ -634,7 +634,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="552"/>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="602"/>
@@ -653,7 +653,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
-        <translation type="unfinished"></translation>
+        <translation>I</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="529"/>
@@ -663,12 +663,12 @@
     <message>
         <location filename="../LeftPanel.qml" line="530"/>
         <source>E</source>
-        <translation type="unfinished"></translation>
+        <translation>E</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="315"/>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
 </context>
 <context>
@@ -676,12 +676,12 @@
     <message>
         <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
-        <translation type="unfinished">Копіювати</translation>
+        <translation>Копіювати</translation>
     </message>
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished">Скопійовано в буфер обміну</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -851,27 +851,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Гаманець</translation>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Інтерфейс</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Нода</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Журнал</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Інформація</translation>
     </message>
 </context>
 <context>
@@ -1716,7 +1716,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
         <source>Paste key image</source>
-        <translation type="unfinished">Вставити образ ключа</translation>
+        <translation>Вставити образ ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="297"/>
@@ -2384,7 +2384,7 @@ Ringsize: </source>
         <location filename="../pages/TxKey.qml" line="71"/>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Генерувати доказ вашого вхідного/вихідного платежу, надавши ID транзакції, адрес одержувача і необов&apos;язковий опис. У випадках вихідних платежів, ви можете отримати &apos;Докази витрати&apos;(&apos;Spend Proof&apos;) які підтвердять авторство транзакції. В цьому випадку, вам не потрібно вказувати адрес одержувача.</translation>
     </message>
     <message>
         <source>Paste tx ID</source>
@@ -2529,7 +2529,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити новий гаманець за допомогою апаратного пристрою</translation>
     </message>
 </context>
 <context>
@@ -2740,7 +2740,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Створено гаманець тільки для перегляду. Ви можете відкрити його, закривши поточний гаманець, клікнувши на &quot;Відкрити гаманець з файлу&quot; і вибравши гаманець тільки для перегляду в:
+%1</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
