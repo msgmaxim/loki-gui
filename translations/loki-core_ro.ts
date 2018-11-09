@@ -185,7 +185,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -680,7 +680,7 @@
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiat în memoria Clipboard</translation>
     </message>
 </context>
 <context>
@@ -850,27 +850,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Portofel</translation>
+        <translation>Portofel</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Așezare</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Nod</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Jurnal</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Informații</translation>
     </message>
 </context>
 <context>
@@ -1106,7 +1106,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="435"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Acest cod QR include adresa selectată mai sus și suma introdusă mai jos. Distribuie codul QR altora (Clic-Dreapta-&gt;Salvează) astfel încât ei pot să îți trimită mai ușor suma exactă.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Acest cod QR include adresa selectată mai sus și suma introdusă mai jos. Distribuie codul QR altora (Clic-Dreapta-&gt;Salvează) astfel încât pot să îți trimită mai ușor suma exactă.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="373"/>
@@ -1282,7 +1282,7 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
         <source>Rescan wallet cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Scanează din nou cache-ul portofelului</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
@@ -1294,12 +1294,19 @@ The following information will be deleted
 
 The old wallet cache file will be renamed and can be restored later.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Ești sigur că vrei să reconstruiești cache-ul portofelului?
+Următoarele informații vor fi șterse
+- Adresele destinatarilor
+- Cheile Tx
+- Descrierile Tx
+
+Vechiul fișier cache va fi redenumit și va putea fi restaurat mai tâziu.
+</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
         <source>Cancel</source>
-        <translation type="unfinished">Renunță</translation>
+        <translation>Renunță</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1314,7 +1321,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiază în memoria clipboard</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="436"/>
@@ -1339,7 +1346,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivel istoric</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="671"/>
@@ -1354,7 +1361,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="226"/>
         <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</translation>
     </message>
 </context>
 <context>
@@ -1362,7 +1369,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="114"/>
         <source>Local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Nod local</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="609"/>
@@ -1623,7 +1630,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation type="unfinished">Eroare</translation>
+        <translation>Eroare</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -1681,7 +1688,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
-        <translation>Ar trebui să incărcați un fișier când vreți să reîmprospătați lista. Adăugarea sau ștergerea manuală este posibilă, dacă este necesar.</translation>
+        <translation>Ar trebui să incărcați un fișier când vrei să reîmprospătați lista. Adăugarea sau ștergerea manuală este posibilă, dacă este necesar.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="156"/>
@@ -2053,7 +2060,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
     <message>
         <location filename="../components/TableDropdown.qml" line="185"/>
         <source>&lt;b&gt;Remove from address book&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Șterge din agendă&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;șterge din agendă&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -2432,7 +2439,7 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <message>
         <location filename="../pages/TxKey.qml" line="231"/>
         <source>If a payment had several transactions then each must be checked and the results combined.</source>
-        <translation>Dacă o plată a fost compusă din multe tranzacții, atunci fiecare tranzacție trebuie verificată si rezultatele trebuie combinate.</translation>
+        <translation>Dacă o plată a fost compusă din multe tranzacții, atunci fiecare tranzacție trebuie verificată Și rezultatele trebuie combinate.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="95"/>
@@ -2602,7 +2609,7 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Crează un portofel nou dintr-un dispozitiv hardware</translation>
     </message>
 </context>
 <context>
