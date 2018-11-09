@@ -191,7 +191,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Поиск</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -752,7 +752,7 @@
     </message>
     <message>
         <source>Manage miner</source>
-        <translation>Управление</translation>
+        <translation>Управление майнером</translation>
     </message>
     <message>
         <source>Start mining</source>
@@ -859,27 +859,27 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="108"/>
         <source>Wallet</source>
-        <translation type="unfinished">Кошелек</translation>
+        <translation>Кошелек</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерфейс</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
         <source>Node</source>
-        <translation type="unfinished"></translation>
+        <translation>Нода</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="258"/>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Журнал</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="308"/>
         <source>Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Информация</translation>
     </message>
 </context>
 <context>
@@ -1351,12 +1351,12 @@
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Копировать в буфер обмена</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished">Скопировано в буфер обмена</translation>
+        <translation>Скопировано в буфер обмена</translation>
     </message>
 </context>
 <context>
@@ -1377,7 +1377,7 @@
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка уровня журнала</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
@@ -1395,12 +1395,12 @@
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="114"/>
         <source>Local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальная нода</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="132"/>
         <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
-        <translation type="unfinished"></translation>
+        <translation>Блокчейн скачан на ваш компьютер. Это обеспечит лучшую конфиденциальность, но потребует больше свободного места.</translation>
     </message>
     <message>
         <source>Layout Settings</source>
@@ -1826,7 +1826,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
         <source>Paste key image</source>
-        <translation type="unfinished">Вставить образ ключа</translation>
+        <translation>Вставить образ ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="311"/>
@@ -2193,7 +2193,7 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation>ID платежа &lt;font size=&apos;2&apos;&gt;(опционально)&lt;/font&gt;</translation>
+        <translation>ID платежа &lt;font size=&apos;2&apos;&gt;( Опционально )&lt;/font&gt;</translation>
     </message>
     <message>
         <source>Start daemon</source>
@@ -2490,7 +2490,9 @@ Ringsize: </source>
         <location filename="../pages/TxKey.qml" line="70"/>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Генерировать доказательство вашего входящего/исходящего платежа, предоставив ID транзакции, адрес получателя и необязательное описание. 
+В случаи исходящих платежей, вы можете получить &apos;Доказательства траты&apos;(&apos;Spend Proof&apos;) которые подтвердят авторство транзакции. В этом случае, вам не нужно указывать адрес получателя.
+        </translation>
     </message>
     <message>
         <source>Paste tx ID</source>
@@ -2640,7 +2642,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
         <source>Create a new wallet from hardware device</source>
-        <translation type="unfinished"></translation>
+        <translation>Создать новый кошелек с помощью аппаратного устройства</translation>
     </message>
 </context>
 <context>
@@ -2850,7 +2852,8 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardMain.qml" line="385"/>
         <source>The view only wallet has been created. You can open it by closing this current wallet, clicking the &quot;Open wallet from file&quot; option, and selecting the view wallet in: 
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Создан кошелек только для просмотра. Вы можете открыть его, закрыв текущий кошелек, кликнув на &quot;Открыть кошелек из файла&quot;, и выбрав кошелек только для просмотра в: 
+%1</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="393"/>
@@ -3278,7 +3281,7 @@ Ring Size: </source>
     <message>
     <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
-        <translation type="unfinished">
+        <translation>
 
 ПРЕДУПРЕЖДЕНИЕ: размер кольца не по умолчанию, это может нанести вред вашей конфиденциальности. Рекомендуется использовать значение по умолчанию 7.</translation>
     </message>
