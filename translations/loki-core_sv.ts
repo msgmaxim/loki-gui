@@ -864,7 +864,7 @@
     <message>
         <location filename="../pages/settings/Navbar.qml" line="158"/>
         <source>Layout</source>
-        <translation>Layout</translation>
+        <translation>Utseende</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="208"/>
@@ -2320,7 +2320,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     <message>
         <location filename="../pages/Transfer.qml" line="421"/>
         <source>Sweep Unmixable</source>
-        <translation>Svep upp omixbara</translation>
+        <translation>Städa upp omixbara</translation>
     </message>
     <message>
         <source>Create tx file</source>
@@ -3213,7 +3213,7 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
         <location filename="../main.qml" line="607"/>
         <location filename="../main.qml" line="722"/>
         <source>No unmixable outputs to sweep</source>
-        <translation>Inga omixbara utgångar att svepa upp</translation>
+        <translation>Inga omixbara utgångar att städa upp</translation>
     </message>
     <message>
         <location filename="../main.qml" line="624"/>
