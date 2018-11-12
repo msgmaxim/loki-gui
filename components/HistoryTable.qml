@@ -294,7 +294,7 @@ ListView {
                 anchors.left: parent.left
                 anchors.leftMargin: 30 * scaleRatio
 
-                labelHeader: QsTr("Transaction ID") + translationManager.emptyString
+                labelHeader: qsTr("Transaction ID") + translationManager.emptyString
                 labelValue: hash.substring(0, 18) + "..."
                 copyValue: hash
             }

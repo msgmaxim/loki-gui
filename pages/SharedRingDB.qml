@@ -38,6 +38,7 @@ import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property alias panelHeight: mainLayout.height
+    property int lineEditFontSize: 12 * scaleRatio
     color: "transparent"
 
     Clipboard { id: clipboard }

@@ -1468,8 +1468,10 @@ Aşağıdaki bilgiler silinecek
     <location filename="../pages/Settings.qml" line="150"/>
     <source>Successfully rescanned spent outputs.</source>
     <translation>Harcanan çıktıları başarıyla yeniden tarattı.</translation>
+</message>
 </context>
 <context>
+    <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
         <source>Custom decorations</source>
         <translation>Özelleştirilmiş dekorasyonlar</translation>

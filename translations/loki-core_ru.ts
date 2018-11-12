@@ -3279,11 +3279,6 @@ Ring Size: </source>
 Размер кольца: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="639"/>
-        <source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
     <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>

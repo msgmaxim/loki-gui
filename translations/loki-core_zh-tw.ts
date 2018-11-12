@@ -1531,8 +1531,10 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <source>Embedded Loki version: </source>
         <translation type="vanished">內嵌 Loki 版本: </translation>
+    </message>
     </context>
     <context>
+    <message>
         <location filename="../pages/settings/SettingsNode.qml" line="114"/>
         <source>Local node</source>
         <translation>本機節點</translation>

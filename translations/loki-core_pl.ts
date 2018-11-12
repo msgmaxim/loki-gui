@@ -771,11 +771,6 @@
         <translation>Twój demon musi być zsynchronizowany zanim będziesz mógł zacząć kopać</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="75"/>
-        <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>CPU threads</source>
         <translation type="vanished">Wątki CPU</translation>
     </message>
@@ -1872,16 +1867,6 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="265"/>
-        <source>This records rings used by outputs spent on Loki on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="277"/>
-        <source>Paste key image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/SharedRingDB.qml" line="297"/>
         <location filename="../pages/SharedRingDB.qml" line="309"/>
         <source>Get Ring</source>
@@ -1909,11 +1894,6 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="94"/>
-        <source>Shared RingDB</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../pages/SharedRingDB.qml" line="98"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
         <translation type="unfinished"></translation>
@@ -1938,11 +1918,6 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
     <message>
         <location filename="../pages/SharedRingDB.qml" line="132"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="161"/>
-        <source>Path to file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2063,11 +2038,6 @@ Poprzednia pamięć podręczna portfela zostanie zapisana pod inną nazwą i mo�
 </context>
 <context>
     <name>SharedRingDB</name>
-    <message>
-        <location filename="../pages/SharedRingDB.qml" line="102"/>
-        <source>Shared RingDB</source>
-        <translation>Współdzielona baza pierścieni</translation>
-    </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
@@ -2947,11 +2917,6 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <translation type="vanished">Uruchomić blockchain Loki?</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardConfigure.qml" line="80"/>
-        <source>We’re almost there - let’s just configure some Loki preferences</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../wizard/WizardConfigure.qml" line="98"/>
         <source>Kickstart the Loki blockchain?</source>
         <translation type="unfinished"></translation>
@@ -3379,8 +3344,6 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <translation>Otwórz portfel z pliku</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="273"/>
-    <message>
         <location filename="../wizard/WizardOptions.qml" line="290"/>
         <source>Advanced options</source>
         <translation>Opcje zaawansowane</translation>
@@ -3395,6 +3358,7 @@ W przypadku &apos;Dowodu wydania&apos; nie musisz podawać adresu odbiorcy.</tra
         <source>Testnet</source>
         <translation>Sieć testowa</translation>
     </message>
+    <message>
         <location filename="../wizard/WizardOptions.qml" line="254"/>
         <source>Stagenet</source>
         <translation>Sieć stopniowa</translation>

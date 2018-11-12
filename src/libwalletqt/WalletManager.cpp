@@ -113,6 +113,8 @@ Wallet *WalletManager::createWalletFromDevice(const QString &path, const QString
         delete m_currentWallet;
         m_currentWallet = NULL;
     }
+    /// TODO(maxim): re-enable once `createWalletFromKeys` is merged from dev
+
     Monero::Wallet * w = m_pimpl->createWalletFromDevice(path.toStdString(), password.toStdString(), static_cast<Monero::NetworkType>(nettype),
                                                          deviceName.toStdString(), restoreHeight, subaddressLookahead.toStdString());
     m_currentWallet = new Wallet(w);

@@ -864,6 +864,7 @@
         <source>Mining at %1 H/s</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
         <location filename="../pages/Mining.qml" line="169"/>
         <source>Stop mining</source>
         <translation>Lopeta louhinta</translation>
