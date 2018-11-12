@@ -226,6 +226,7 @@ ColumnLayout {
         }
 
         GridLayout {
+            visible: false
             Layout.fillHeight: true
             Layout.fillWidth: true
             flow: !isMobile ? GridLayout.TopToBottom : GridLayout.LeftToRight
