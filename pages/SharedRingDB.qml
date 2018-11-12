@@ -116,7 +116,7 @@ Rectangle {
         LabelSubheader {
             Layout.fillWidth: true
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
+            text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
                   qsTr("Outputs marked as spent") + " <a href='#'>" + qsTr("Help") + "</a>" + translationManager.emptyString
             onLinkActivated: {
                 sharedRingDBDialog.title  = qsTr("Outputs marked as spent") + translationManager.emptyString;

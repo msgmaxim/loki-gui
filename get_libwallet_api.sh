@@ -16,7 +16,7 @@ if [ ! -d $LOKI_DIR/src ]; then
 fi
 git submodule update --remote
 # git -C $LOKI_DIR fetch
-git -C $LOKI_DIR checkout dev
+git -C $LOKI_DIR checkout master
 
 # get loki core tag
 get_tag

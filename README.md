@@ -166,7 +166,7 @@ The Loki GUI on Windows is 64 bits only; 32-bit Windows GUI builds are not offic
 
     There is no more need to download some special installer from the Qt website, the standard MSYS2 package for Qt will do in almost all circumstances.
 
-    **Note:** There is a known issue that GUI won't lauch properly when building tag v0.13.0.3 with Qt 5.11.2.
+    **Note:** There is a known issue that GUI won't lauch properly when building tag v2.0.0 with Qt 5.11.2.
     
     If your encounter issue with that, please remove current Qt by: `pacman -R mingw-w64-x86_64-qt5`
     
