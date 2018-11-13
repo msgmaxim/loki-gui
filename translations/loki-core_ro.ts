@@ -185,7 +185,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Caută</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -523,7 +523,7 @@
         <translation>Sold deblocat</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="314"/>
+        <location filename="../LeftPanel.qml" line="312"/>
         <source>Send</source>
         <translation>Trimite</translation>
     </message>
@@ -533,12 +533,12 @@
         <translation>Agendă</translation>
 </message>
     <message>
-        <location filename="../LeftPanel.qml" line="364"/>
+        <location filename="../LeftPanel.qml" line="362"/>
         <source>Receive</source>
         <translation>Primește</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="365"/>
+        <location filename="../LeftPanel.qml" line="363"/>
         <source>R</source>
         <translation>R</translation>
     </message>
@@ -547,12 +547,12 @@
         <translation type="vanished">Dovadă/Verificare</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="459"/>
+        <location filename="../LeftPanel.qml" line="457"/>
         <source>K</source>
         <translation>K</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="388"/>
+        <location filename="../LeftPanel.qml" line="386"/>
         <source>History</source>
         <translation>Istoric</translation>
     </message>
@@ -576,32 +576,32 @@
         <translation type="vanished">Agendă</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="340"/>
+        <location filename="../LeftPanel.qml" line="338"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="389"/>
+        <location filename="../LeftPanel.qml" line="387"/>
         <source>H</source>
         <translation>H</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="411"/>
+        <location filename="../LeftPanel.qml" line="409"/>
         <source>Advanced</source>
         <translation>Avansat</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="412"/>
+        <location filename="../LeftPanel.qml" line="410"/>
         <source>D</source>
         <translation>D</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="434"/>
+        <location filename="../LeftPanel.qml" line="432"/>
         <source>Mining</source>
         <translation>Minat</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="435"/>
+        <location filename="../LeftPanel.qml" line="433"/>
         <source>M</source>
         <translation>M</translation>
     </message>
@@ -611,7 +611,7 @@
         <translation>Dovadă/Verificare</translation>
 </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="479"/>
         <source>Shared RingDB</source>
         <translation>RingDB distribuit</translation>
     </message>
@@ -631,17 +631,17 @@
         <translation>Seed și chei</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="552"/>
+        <location filename="../LeftPanel.qml" line="550"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="602"/>
+        <location filename="../LeftPanel.qml" line="600"/>
         <source>Wallet</source>
         <translation>Portofel</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="611"/>
+        <location filename="../LeftPanel.qml" line="609"/>
         <source>Daemon</source>
         <translation>Serviciu</translation>
     </message>
@@ -650,12 +650,12 @@
         <translation type="vanished">Semnează/Verifică</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="530"/>
+        <location filename="../LeftPanel.qml" line="528"/>
         <source>E</source>
         <translation>E</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="315"/>
+        <location filename="../LeftPanel.qml" line="313"/>
         <source>S</source>
         <translation>S</translation>
     </message>
@@ -665,7 +665,7 @@
         <translation>I</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="529"/>
+        <location filename="../LeftPanel.qml" line="527"/>
         <source>Settings</source>
         <translation>Setări</translation>
     </message>
@@ -680,7 +680,7 @@
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiat în memoria Clipboard</translation>
     </message>
 </context>
 <context>
@@ -843,6 +843,34 @@
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
         <translation>Sold deblocat:</translation>
+    </message>
+</context>
+<context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation>Portofel</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation>Așezare</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation>Nod</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation>Jurnal</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation>Informații</translation>
     </message>
 </context>
 <context>
@@ -1044,49 +1072,49 @@
         <translation>Cu Loki insuficient</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="141"/>
+        <location filename="../pages/Receive.qml" line="142"/>
         <source>Expected</source>
         <translation>Așteptat</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="142"/>
+        <location filename="../pages/Receive.qml" line="143"/>
         <source>Total received</source>
         <translation>Total primit</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="165"/>
+        <location filename="../pages/Receive.qml" line="161"/>
         <source>Set the label of the selected address:</source>
         <translation>Pune o etichetă pentru adresa selectată:</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="200"/>
+        <location filename="../pages/Receive.qml" line="196"/>
         <source>Addresses</source>
         <translation>Adrese</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="202"/>
-        <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="517"/>
+        <location filename="../pages/Receive.qml" line="198"/>
+        <location filename="../pages/Receive.qml" line="427"/>
+        <location filename="../pages/Receive.qml" line="513"/>
         <source>Help</source>
         <translation>Ajutor</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="206"/>
+        <location filename="../pages/Receive.qml" line="202"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="435"/>
+        <location filename="../pages/Receive.qml" line="431"/>
         <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Acest cod QR include adresa selectată mai sus și suma introdusă mai jos. Distribuie codul QR altora (Clic-Dreapta-&gt;Salvează) astfel încât ei pot să îți trimită mai ușor suma exactă.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Acest cod QR include adresa selectată mai sus și suma introdusă mai jos. Distribuie codul QR altora (Clic-Dreapta-&gt;Salvează) astfel încât pot să îți trimită mai ușor suma exactă.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="373"/>
+        <location filename="../pages/Receive.qml" line="369"/>
         <source>Create new address</source>
         <translation>Creează adresă nouă</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="388"/>
+        <location filename="../pages/Receive.qml" line="384"/>
         <source>Set the label of the new address:</source>
         <translation>Setează o eticheta pentru noua adresă:</translation>
     </message>
@@ -1101,43 +1129,39 @@
         <translation>Urmărire plăți</translation>
 </message>
     <message>
-        <location filename="../pages/Receive.qml" line="389"/>
+        <location filename="../pages/Receive.qml" line="385"/>
         <source>(Untitled)</source>
         <translation>(Fără titlu)</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="409"/>
+        <location filename="../pages/Receive.qml" line="405"/>
         <source>Advanced options</source>
         <translation>Opțiuni avansate</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="429"/>
-        <location filename="../pages/Receive.qml" line="434"/>
+        <location filename="../pages/Receive.qml" line="425"/>
+        <location filename="../pages/Receive.qml" line="430"/>
         <source>QR Code</source>
         <translation>Cod QR</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Acesta este un simplu urmăritor de vânzare:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Permiteți clientului să scaneze codul QR pentru a face o plată (doar dacă acel client deține aplicația necesară pentru a scana coduri QR).&lt;/p&gt;&lt;p&gt;Această pagină va scana automat rețeaua pentru a identifica tranzacții realizate utilizând acest cod QR. Dacă introduceți și suma, va verifica de asemenea și tranzacții până la această sumă.&lt;/p&gt;Este la latitudinea dumneavoastră să acceptați tranzații neconfirmate. Cel mai probabil vor fi confirmate în curând, dar există o posibilitate să nu fie confirmate, așadar pentru sume mai mari este bine sa așteptați o confirmare sau mai multe.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <location filename="../pages/Receive.qml" line="608"/>
-        <location filename="../pages/Receive.qml" line="610"/>
+        <location filename="../pages/Receive.qml" line="604"/>
+        <location filename="../pages/Receive.qml" line="606"/>
         <source>confirmations</source>
         <translation>Confirmări</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="613"/>
+        <location filename="../pages/Receive.qml" line="609"/>
         <source>confirmation</source>
         <translation>Confirmare</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="637"/>
+        <location filename="../pages/Receive.qml" line="633"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Identificatorul tranzacției a fost copiat în memorie</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="672"/>
+        <location filename="../pages/Receive.qml" line="668"/>
         <source>Enable</source>
         <translation>Permis</translation>
     </message>
@@ -1227,7 +1251,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Crează un portofel doar pentru citire</translation>
@@ -1256,20 +1280,33 @@
         <translation>Informații</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Mod Serviciu</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
+        <source>Rescan wallet cache</source>
+        <translation>Scanează din nou cache-ul portofelului</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Mod Bootstrap</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
+
+The old wallet cache file will be renamed and can be restored later.
+</source>
+        <translation>Ești sigur că vrei să reconstruiești cache-ul portofelului?
+Următoarele informații vor fi șterse
+- Adresele destinatarilor
+- Cheile Tx
+- Descrierile Tx
+
+Vechiul fișier cache va fi redenumit și va putea fi restaurat mai tâziu.
+</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adresă</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
+        <source>Cancel</source>
+        <translation>Renunță</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1282,15 +1319,18 @@
         <translation>Localizare blockchain</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Schimbă localizarea</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation>Copiază în memoria clipboard</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="436"/>
         <source>Username</source>
         <translation>Nume utilizator</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
@@ -1300,10 +1340,13 @@
         <source>Debug info</source>
         <translation type="vanished">Informații depanare</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Nume portofel:</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation>Nivel istoric</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="671"/>
@@ -1316,14 +1359,17 @@
         <translation> &lt;a href=&apos;#&apos;&gt;(Click pentru a schimba)&lt;/a&gt;</translation>
 </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation> &lt;a href=&apos;#&apos;&gt; (Clic pentru a schimba)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Setează o nouă inălțime de restaurare:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
+        <translation>Nod local</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="609"/>
@@ -1348,9 +1394,9 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
 </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Înălțime de restaurare invalidă. Trebuie să fie un număr.</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="232"/>
+        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="223"/>
@@ -1517,6 +1563,9 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <source>Manage Daemon</source>
         <translation>Administrare serviciu</translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <source>Show advanced</source>
         <translation type="vanished">Arată opțiuni avansate</translation>
@@ -1536,8 +1585,9 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation type="vanished">Opțiuni pornire serviciu local</translation>
     </message>
     <message>
-        <source>Node login (optional)</source>
-        <translation type="vanished">Autentificare serviciu (opțional)</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Crează un portofel nou care poate doar să vadă tranzacțiile, dar nu poate să inițializeze tranzacții.</translation>
     </message>
     <message>
         <source>Remote node</source>
@@ -1605,7 +1655,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>RingDB distribuite.</translation>
     </message>
@@ -1615,80 +1665,85 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Această pagina vă permite să interacționați cu baza de date ce conține inelele distribuite. Această bază de date este menită să fie folosită de portofelul Loki și de alte portofele ale clonelor Loki ce refolosesc cheile Loki.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
-        <source>Blackballed outputs</source>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
+        <source>Outputs marked as spent</source>
         <translation>Rezultate respinse</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Ajutor</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Pentru a ascunde ce inputuri sunt folosite intr-o tranzacție Loki, o terță parte nu ar trebui să știe ce inputuri într-un inel au fost deja folosite. Dacă ar putea să facă asta, ar slăbi protecția semnăturilor de inel. Dacă toate inputurile cu excepția unuia sunt deja știute să fie folosite, atunci inputul ce va fi folosit devine vizibil, anulând efectul semnăturilor de inel, unul dintre cele trei straturi principale de protecție a confidențialității ce este folosit de Loki.&lt;br&gt;Pentru a ajuta tranzacțiile să evite aceste inputuri, o listă a acestora ce sunt conuscute poate fi folosită pentru a evita utilizarea lor in noi tranzacții. O asemenea lista este întreținută de proiectul Loki și este disponibila la adresa getloki.org, și puteți importa această lista aici.&lt;br&gt;Sau, puteți scana blockchain (și blockchain al clonelor Loki) inșivă folosind unealta loki-blockchain-blackball pentru a crea o listă de rezultate cunoscute folosite.&lt;br&gt;</translation>
+        <location filename="../pages/SharedRingDB.qml" line="122"/>
+        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Pentru a ascunde ce inputuri sunt folosite intr-o tranzacție Monero, o terță parte nu ar trebui să știe ce inputuri într-un inel au fost deja folosite. Dacă ar putea să facă asta, ar slăbi protecția semnăturilor de inel. Dacă toate inputurile cu excepția unuia sunt deja știute să fie folosite, atunci inputul ce va fi folosit devine vizibil, anulând efectul semnăturilor de inel, unul dintre cele trei straturi principale de protecție a confidențialității ce este folosit de Monero.&lt;br&gt;Pentru a ajuta tranzacțiile să evite aceste inputuri, o listă a acestora ce sunt conuscute poate fi folosită pentru a evita utilizarea lor in noi tranzacții. O asemenea lista este întreținută de proiectul Monero și este disponibila la adresa getmonero.org, și puteți importa această lista aici.&lt;br&gt;Sau, puteți scana blockchain (și blockchain al clonelor Monero) inșivă folosind unealta monero-blockchain-mark-spent-outputs pentru a crea o listă de rezultate cunoscute folosite.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Acesta seteaza ce rezultate sunt deja știute a fi folosite, și astfel vor fi evitate in semnăturile inelelor.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
-        <translation>Ar trebui să incărcați un fișier când vreți să reîmprospătați lista. Adăugarea sau ștergerea manuală este posibilă, dacă este necesar.</translation>
+        <translation>Ar trebui să incărcați un fișier când vrei să reîmprospătați lista. Adăugarea sau ștergerea manuală este posibilă, dacă este necesar.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
-        <source>Please choose a file to load blackballed outputs from</source>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
+        <source>Please choose a file from which to load outputs to mark as spent</source>
         <translation>Vă rog alegeți un fișier pentru a incărca outputuri blackballed</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Calea către fișier</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
-        <source>Filename with outputs to blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
+        <source>Filename with outputs to mark as spent</source>
         <translation>Numele fișierului cu outputuri blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Navigați</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Incărcați</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
-        <source>Or manually blackball/unblackball a single output:</source>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
+        <source>Or manually mark a single output as spent/unspent:</source>
         <translation>Sau marcați un output de tip blackball/unblackball:</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Lipiți cheia publică a outputului</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
-        <source>Blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
+        <source>Mark as spent</source>
         <translation>Blackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
-        <source>Unblackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
+        <source>Mark as unspent</source>
         <translation>Unblackball</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Inele</translation>
     </message>
@@ -1703,57 +1758,57 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Aceste inele înregistrate sunt folosite pentru outputurile cheltuite in Loki pe un lanț de chei refolosite, deci același inel poate fi refolosit pentru a evita probleme de confidențialitate.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Imaginea cheii</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Obține inel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Obține inel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Nici un inel găsit</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Setează inel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Setează inel</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Intenționez să plătesc cu chei refolosite in clone</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>S-ar putea să plătesc cu chei refolosite in clone</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Proporțional</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Înălțimea separării:</translation>
     </message>
@@ -2006,7 +2061,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
     <message>
         <location filename="../components/TableDropdown.qml" line="185"/>
         <source>&lt;b&gt;Remove from address book&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Șterge din agendă&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;șterge din agendă&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -2043,13 +2098,6 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <location filename="../components/TickDelegate.qml" line="59"/>
         <source>High</source>
         <translation>Ridicat</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Adresă principală</translation>
     </message>
 </context>
 <context>
@@ -2102,18 +2150,18 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Cod QR</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="256"/>
-        <location filename="../pages/Transfer.qml" line="278"/>
+        <location filename="../pages/Transfer.qml" line="208"/>
+        <location filename="../pages/Transfer.qml" line="232"/>
         <source>Resolve</source>
         <translation>Soluționează</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="49"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Pornește serviciu&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Mărimea inelului: %1</translation>
     </message>
@@ -2133,12 +2181,12 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Normal (x1 comision)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="205"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresă &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Agendă&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="293"/>
+        <location filename="../pages/Transfer.qml" line="247"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Nu am găsit o adresă corectă la această adresă OpenAlias</translation>
     </message>
@@ -2178,7 +2226,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Trimite</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="389"/>
         <source>Advanced options</source>
         <translation>Opțiuni avansate</translation>
     </message>
@@ -2392,7 +2440,7 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <message>
         <location filename="../pages/TxKey.qml" line="231"/>
         <source>If a payment had several transactions then each must be checked and the results combined.</source>
-        <translation>Dacă o plată a fost compusă din multe tranzacții, atunci fiecare tranzacție trebuie verificată si rezultatele trebuie combinate.</translation>
+        <translation>Dacă o plată a fost compusă din multe tranzacții, atunci fiecare tranzacție trebuie verificată Și rezultatele trebuie combinate.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="95"/>
@@ -2484,13 +2532,6 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Eroare necunoscută</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2563,6 +2604,14 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <source>Create A New Wallet</source>
         <translation>Crează un nou portofel</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation>Crează un portofel nou dintr-un dispozitiv hardware</translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2881,7 +2930,7 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
         <translation type="vanished">Bine ai venit la Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Alege una dintre următoarele variante:</translation>
     </message>
@@ -3160,26 +3209,26 @@ Ringsize: </translation>
         <translation>Nu s-a putut crea tranzacția: versiune incorectă a serviciului: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adresă:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Mărimea inelului: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 ATENȚIE: mărimea inelului este diferit de cel implicit, ceea ce ar putea să vă afecteze confidențialitatea. Implicit 7 este recomandat.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3318,7 +3367,7 @@ Indexul adresei de cheltuit:</translation>
         <translation>O nouă versiune loki-wallet-gui este disponibilă: %1&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1819"/>
         <source>Daemon log</source>
         <translation>Jurnal serviciu</translation>
     </message>
@@ -3397,7 +3446,7 @@ Descriere: </translation>
         <translation>Așteaptă...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1282"/>
+        <location filename="../main.qml" line="1279"/>
         <source>Program setup wizard</source>
         <translation>Asistent de configurare program</translation>
     </message>

@@ -194,7 +194,7 @@
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -278,7 +278,7 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Destinations:</source>
-        <translation>Mål:</translation>
+        <translation>Mottagare:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="56"/>
@@ -380,7 +380,7 @@
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="54"/>
         <source>Destinations:</source>
-        <translation>Mål:</translation>
+        <translation>Mottagare:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTableMobile.qml" line="55"/>
@@ -532,7 +532,7 @@
         <translation>Upplåst saldo</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="314"/>
+        <location filename="../LeftPanel.qml" line="312"/>
         <source>Send</source>
         <translation>Skicka</translation>
     </message>
@@ -542,12 +542,12 @@
         <translation>Adressbok</translation>
 </message>
     <message>
-        <location filename="../LeftPanel.qml" line="364"/>
+        <location filename="../LeftPanel.qml" line="362"/>
         <source>Receive</source>
         <translation>Ta emot</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="365"/>
+        <location filename="../LeftPanel.qml" line="363"/>
         <source>R</source>
         <translation>T</translation>
     </message>
@@ -556,12 +556,12 @@
         <translation type="vanished">Bevisa/kontrollera</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="459"/>
+        <location filename="../LeftPanel.qml" line="457"/>
         <source>K</source>
         <translation>K</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="388"/>
+        <location filename="../LeftPanel.qml" line="386"/>
         <source>History</source>
         <translation>Historik</translation>
     </message>
@@ -585,32 +585,32 @@
         <translation type="vanished">Adressbok</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="340"/>
+        <location filename="../LeftPanel.qml" line="338"/>
         <source>B</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="389"/>
+        <location filename="../LeftPanel.qml" line="387"/>
         <source>H</source>
         <translation>H</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="411"/>
+        <location filename="../LeftPanel.qml" line="409"/>
         <source>Advanced</source>
         <translation>Avancerat</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="412"/>
+        <location filename="../LeftPanel.qml" line="410"/>
         <source>D</source>
         <translation>D</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="434"/>
+        <location filename="../LeftPanel.qml" line="432"/>
         <source>Mining</source>
-        <translation>Brytning</translation>
+        <translation>Utvinning</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="435"/>
+        <location filename="../LeftPanel.qml" line="433"/>
         <source>M</source>
         <translation>B</translation>
     </message>
@@ -620,7 +620,7 @@
         <translation>Bevisa/kontrollera</translation>
 </message>
     <message>
-        <location filename="../LeftPanel.qml" line="481"/>
+        <location filename="../LeftPanel.qml" line="479"/>
         <source>Shared RingDB</source>
         <translation>Delad RingDB</translation>
     </message>
@@ -640,17 +640,17 @@
         <translation>Startvärde &amp; nycklar</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="552"/>
+        <location filename="../LeftPanel.qml" line="550"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="602"/>
+        <location filename="../LeftPanel.qml" line="600"/>
         <source>Wallet</source>
         <translation>Plånbok</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="611"/>
+        <location filename="../LeftPanel.qml" line="609"/>
         <source>Daemon</source>
         <translation>Daemon</translation>
     </message>
@@ -659,12 +659,12 @@
         <translation type="vanished">Signera/verifiera</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="530"/>
+        <location filename="../LeftPanel.qml" line="528"/>
         <source>E</source>
         <translation>E</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="315"/>
+        <location filename="../LeftPanel.qml" line="313"/>
         <source>S</source>
         <translation>S</translation>
     </message>
@@ -674,7 +674,7 @@
         <translation>I</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="529"/>
+        <location filename="../LeftPanel.qml" line="527"/>
         <source>Settings</source>
         <translation>Inställningar</translation>
     </message>
@@ -722,7 +722,7 @@
     <name>Mining</name>
     <message>
         <source>Solo mining</source>
-        <translation type="vanished">Solo-brytning</translation>
+        <translation>Individuell utvinning</translation>
     </message>
     <message>
         <source>(only available for local daemons)</source>
@@ -733,9 +733,9 @@
         <translation type="vanished">Brytning med din dator hjälper till att stärka Lokis nätverk. Ju fler som bryter desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Brytningen ger dig även möjlighet att tjäna lite Loki. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="75"/>
+        <location filename="../pages/Mining.qml" line="82"/>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="unfinished"></translation>
+        <translation>Utvinning med din dator hjälper till att stärka Lokis nätverk. Ju fler som utvinner desto svårare blir det att angripa nätverket, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinningen ger dig även möjlighet att tjäna lite Loki. Din dator letar då efter lösningar för block genom att skapa hashar. Om du hittar ett block får du motsvarande blockersättning. Lycka till!</translation>
     </message>
     <message>
         <source>CPU threads</source>
@@ -748,20 +748,20 @@
     </message>
     <message>
         <source>Background mining (experimental)</source>
-        <translation type="vanished">Bakgrundsbrytning (experimentell)</translation>
+        <translation>Bakgrundsutvinning (experimentell)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
-        <translation>Aktivera brytning vid batteridrift</translation>
+        <translation>Aktivera utvinning vid batteridrift</translation>
     </message>
     <message>
         <source>Manage miner</source>
-        <translation type="vanished">Hantera brytare</translation>
+        <translation>Hantera utvinnare</translation>
     </message>
     <message>
         <source>Start mining</source>
-        <translation type="vanished">Starta brytning</translation>
+        <translation>Starta utvinning</translation>
     </message>
 <message>
         <location filename="../pages/Mining.qml" line="62"/>
@@ -796,17 +796,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
-        <translation>Ett fel uppstod vid start av brytning</translation>
+        <translation>Ett fel uppstod vid start av utvinning</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation>Det gick inte att starta brytning.&lt;br&gt;</translation>
+        <translation>Det gick inte att starta utvinning.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>Brytning är endast tillgänglig för lokala daemoner. Kör en lokal daemon för att kunna bryta.&lt;br&gt;</translation>
+        <translation>Utvinning är endast tillgänglig för lokala daemoner. Kör en lokal daemon för att kunna utvinna.&lt;br&gt;</translation>
     </message>
 <message>
         <location filename="../pages/Mining.qml" line="161"/>
@@ -825,20 +825,20 @@
 </message>
     <message>
         <source>Stop mining</source>
-        <translation type="vanished">Stoppa brytning</translation>
+        <translation>Stoppa utvinning</translation>
     </message>
     <message>
         <source>Status: not mining</source>
-        <translation type="vanished">Status: ingen brytning</translation>
+        <translation>Status: ingen utvinning</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="185"/>
         <source>Mining at %1 H/s</source>
-        <translation>Bryter med %1 H/s</translation>
+        <translation>Utvinner med %1 H/s</translation>
     </message>
     <message>
         <source>Not mining</source>
-        <translation type="vanished">Ingen brytning</translation>
+        <translation>Ingen utvinning</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="190"/>
@@ -852,6 +852,34 @@
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
         <translation>Upplåst saldo:</translation>
+    </message>
+</context>
+<context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation>Plånbok</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation>Utseende</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation>Nod</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation>Logg</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -1033,44 +1061,44 @@
         <translation>Med för lite Loki</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="141"/>
+        <location filename="../pages/Receive.qml" line="142"/>
         <source>Expected</source>
         <translation>Förväntat</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="142"/>
+        <location filename="../pages/Receive.qml" line="143"/>
         <source>Total received</source>
         <translation>Totalt mottaget</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="165"/>
+        <location filename="../pages/Receive.qml" line="161"/>
         <source>Set the label of the selected address:</source>
         <translation>Ange etikett för vald adress:</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="200"/>
+        <location filename="../pages/Receive.qml" line="196"/>
         <source>Addresses</source>
         <translation>Adresser</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="202"/>
-        <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="517"/>
+        <location filename="../pages/Receive.qml" line="198"/>
+        <location filename="../pages/Receive.qml" line="427"/>
+        <location filename="../pages/Receive.qml" line="513"/>
         <source>Help</source>
         <translation>Hjälp</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="206"/>
+        <location filename="../pages/Receive.qml" line="202"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Denna QR-kod inkluderar den adress du valde ovan och det belopp du angav nedan. Dela den med andra (högerklicka -&gt; Spara) så att de lättare kan skicka dig exakta belopp.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="373"/>
+        <location filename="../pages/Receive.qml" line="369"/>
         <source>Create new address</source>
         <translation>Skapa ny adress</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="388"/>
+        <location filename="../pages/Receive.qml" line="384"/>
         <source>Set the label of the new address:</source>
         <translation>Ange etikett för den nya adressen:</translation>
     </message>
@@ -1085,43 +1113,39 @@
         <translation>Spårar betalningar</translation>
 </message>
     <message>
-        <location filename="../pages/Receive.qml" line="389"/>
+        <location filename="../pages/Receive.qml" line="385"/>
         <source>(Untitled)</source>
         <translation>(Namnlös)</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="409"/>
+        <location filename="../pages/Receive.qml" line="405"/>
         <source>Advanced options</source>
         <translation>Avancerade alternativ</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="429"/>
-        <location filename="../pages/Receive.qml" line="434"/>
+        <location filename="../pages/Receive.qml" line="425"/>
+        <location filename="../pages/Receive.qml" line="430"/>
         <source>QR Code</source>
         <translation>QR-kod</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Detta är en enkel säljuppföljning:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Låt kunden skanna in denna QR-kod för att göra en betalning (om kunden har programvara som stödjer inskanning av QR-koder).&lt;/p&gt;&lt;p&gt;Denna sida skannar sedan automatiskt blockkedjan och transaktionspoolen efter inkommande transaktioner som har QR-koden. Om du anger ett belopp kontrollerar den också att summan av inkommande transaktioner blir detta belopp.&lt;/p&gt;Du väljer själv om du vill acceptera obekräftade transaktioner eller inte. De kommer förmodligen att bekräftas ganska snart, men det finns alltid en chans att det tar lite tid. För större belopp kan det alltså vara bra att vänta på en eller flera bekräftelser.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <location filename="../pages/Receive.qml" line="608"/>
-        <location filename="../pages/Receive.qml" line="610"/>
+        <location filename="../pages/Receive.qml" line="604"/>
+        <location filename="../pages/Receive.qml" line="606"/>
         <source>confirmations</source>
         <translation>bekräftelser</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="613"/>
+        <location filename="../pages/Receive.qml" line="609"/>
         <source>confirmation</source>
         <translation>bekräftelse</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="637"/>
+        <location filename="../pages/Receive.qml" line="633"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>Transaktions-ID kopierades till Urklipp</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="672"/>
+        <location filename="../pages/Receive.qml" line="668"/>
         <source>Enable</source>
         <translation>Aktivera</translation>
     </message>
@@ -1211,7 +1235,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Skapa granskningsplånbok</translation>
@@ -1270,6 +1294,9 @@
         <source>Log level</source>
         <translation type="vanished">Loggnivå</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="534"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
@@ -1280,6 +1307,9 @@
         <source>Successfully rescanned spent outputs.</source>
         <translation>Skannade om spenderade utgångar.</translation>
     </message>
+</context>
+<context>
+    <name>SettingsLog</name>
     <message>
         <source>Change password</source>
         <translation type="vanished">Ändra lösenord</translation>
@@ -1290,13 +1320,16 @@
         <translation>Fel lösenord</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Daemonläge</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation>command + enter (ex. &apos;hjälp&apos; eller &apos;status&apos;)</translation>
     </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
-        <location filename="../pages/Settings.qml" line="215"/>
-        <source>Local Node</source>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
         <translation>Lokal nod</translation>
     </message>
     <message>
@@ -1305,15 +1338,14 @@
         <translation>Fjärrnod</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Bootstrap-nod</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="213"/>
+        <source>Remote node</source>
+        <translation>Fjärrnod</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adress</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="232"/>
+        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1327,24 +1359,25 @@
         <translation>Hantera daemon</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Ändra plats</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="292"/>
+        <source>Port</source>
+        <translation>Port</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="438"/>
-        <source>Show advanced</source>
-        <translation>Visa avancerade</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="312"/>
+        <location filename="../pages/settings/SettingsNode.qml" line="450"/>
+        <source>(optional)</source>
+        <translation>(valfritt)</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation> &lt;a href=&apos;#&apos;&gt; (Klicka för att ändra)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="323"/>
+        <source>Password</source>
+        <translation>Lösenord</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Ange en ny återställningshöjd:</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="347"/>
+        <source>Connect</source>
+        <translation>Anslut</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="326"/>
@@ -1373,10 +1406,13 @@
         <translation type="vanished">Inbäddad Loki-version: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Plånboksnamn: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="477"/>
+        <source>Bootstrap Port</source>
+        <translation>Port för bootstrap</translation>
     </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <source> &lt;a href=&apos;#&apos;&gt;(Click to change)&lt;/a&gt;</source>
         <translation type="vanished"> &lt;a href=&apos;#&apos;&gt;(Klicka för att ändra)&lt;/a&gt;</translation>
@@ -1414,14 +1450,14 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
 </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Ogiltig återställningshöjd har angivits. Den måste vara ett tal.</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
+        <source>Create a view-only wallet</source>
+        <translation>Skapa en granskningsplånbok</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="223"/>
-        <source>Bootstrap Node</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Skapar en ny plånbok som endast kan visa transaktioner, kan inte initiera transaktioner.</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="351"/>
@@ -1563,7 +1599,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Fel</translation>
+        <translation type="unfinished">Fel</translation>
     </message>
     <message>
         <source>Manage wallet</source>
@@ -1738,7 +1774,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Delad RingDB</translation>
     </message>
@@ -1748,80 +1784,85 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <translation>Denna sida låter dig interagera med den delade ringdatabasen. Denna databas är avsedd att användas av både Loki-plånböcker, och plånböcker för Loki-kloner som återanvänder Lokis nycklar.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
-        <source>Blackballed outputs</source>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
+        <source>Outputs marked as spent</source>
         <translation>Svartlistade utgångar</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Hjälp</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>För att dölja vilja ingångar som spenderas i en viss Loki-transaktion får en tredje part inte kunna avgöra vilka ingångar i en ring som med säkerhet redan har spenderats. Om det var möjligt skulle skyddet som ges av ringsignaturer försvagas. Om alla utom en av ingångarna med säkerhet redan har spenderats så blir det uppenbart vilken ingång som faktiskt spenderas. Då upphävs effekten av ringsignaturer, vilket är ett av de tre huvudsakliga lager av sekretesskydd som Loki använder.&lt;br&gt;För att hjälpa transaktioner att undvika dessa ingångar kan en lista över med säkerhet spenderade utgångar användas för att undvika att dessa används i nya transaktioner. Loki-projektet upprätthåller en sådan lista och den finns tillgänglig på webbplatsen getloki.org. Du kan importera listan här.&lt;br&gt;Alternativt kan du själv skanna blockkedjan (och blockkedjan för Loki-kloner som återanvänder nycklar) genom att använda verktyget loki-blockchain-blackball för att skapa en lista över med säkerhet spenderade utgångar.&lt;br&gt;</translation>
+        <location filename="../pages/SharedRingDB.qml" line="122"/>
+        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>För att dölja vilja ingångar som spenderas i en viss Monero-transaktion får en tredje part inte kunna avgöra vilka ingångar i en ring som med säkerhet redan har spenderats. Om det var möjligt skulle skyddet som ges av ringsignaturer försvagas. Om alla utom en av ingångarna med säkerhet redan har spenderats så blir det uppenbart vilken ingång som faktiskt spenderas. Då upphävs effekten av ringsignaturer, vilket är ett av de tre huvudsakliga lager av sekretesskydd som Monero använder.&lt;br&gt;För att hjälpa transaktioner att undvika dessa ingångar kan en lista över med säkerhet spenderade utgångar användas för att undvika att dessa används i nya transaktioner. Monero-projektet upprätthåller en sådan lista och den finns tillgänglig på webbplatsen getmonero.org. Du kan importera listan här.&lt;br&gt;Alternativt kan du själv skanna blockkedjan (och blockkedjan för Monero-kloner som återanvänder nycklar) genom att använda verktyget monero-blockchain-mark-spent-outputs för att skapa en lista över med säkerhet spenderade utgångar.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Detta anger vilka utgångar som med säkerhet har spenderats, och som därför inte ska användas som sekretessplatshållare i ringsignaturer. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Du ska bara behöva läsa in en fil när du vill uppdatera listan. Det är möjligt att manuellt göra tillägg och borttagningar om det behövs.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
-        <source>Please choose a file to load blackballed outputs from</source>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
+        <source>Please choose a file from which to load outputs to mark as spent</source>
         <translation>Välj en fil som svartlistade utgångar ska läsas in från</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Sökväg till fil</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
-        <source>Filename with outputs to blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
+        <source>Filename with outputs to mark as spent</source>
         <translation>Filnamn med utgångar som ska svartlistas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Bläddra</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Läs in</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
-        <source>Or manually blackball/unblackball a single output:</source>
-        <translation>Eller svartlista/av-svartlista en enda utgång manuellt:</translation>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
+        <source>Or manually mark a single output as spent/unspent:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="206"/>
-        <source>Paste output public key</source>
-        <translation>Klistra in utgångens publika nyckel</translation>
+        <location filename="../pages/SharedRingDB.qml" line="215"/>
+        <source>Paste output amount</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="220"/>
-        <source>Blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
+        <source>Mark as spent</source>
         <translation>Svartlista</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="229"/>
-        <source>Unblackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
+        <source>Mark as unspent</source>
         <translation>Av-svartlista</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
-        <location filename="../pages/SharedRingDB.qml" line="244"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
+        <location filename="../pages/SharedRingDB.qml" line="262"/>
         <source>Rings</source>
         <translation>Ringar</translation>
     </message>
@@ -1836,57 +1877,57 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <translation>Detta registrerar ringar som använts av utgångar som spenderats på Loki på en kedja som återanvänder nycklar, så att samma ring kan återanvändas för att undvika sekretessproblem.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Nyckelavbildning</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Klistra in nyckelavbildning</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Hämta ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Hämta ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Ingen ring kunde hittas</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Ange ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Ange ring</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <location filename="../pages/SharedRingDB.qml" line="382"/>
         <source>I intend to spend on key-reusing fork(s)</source>
         <translation>Jag har tänkt att spendera på en förgrening som återanvänder nycklar</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="378"/>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
         <source>I might want to spend on key-reusing fork(s)</source>
         <translation>Jag kanske kommer att spendera på en förgrening som återanvänder nycklar</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="392"/>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
         <source>Relative</source>
         <translation>Relativ</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="408"/>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
         <source>Segregation height:</source>
         <translation>Uppdelningshöjd:</translation>
     </message>
@@ -2171,13 +2212,6 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Primär adress</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2286,7 +2320,7 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
     <message>
         <location filename="../pages/Transfer.qml" line="421"/>
         <source>Sweep Unmixable</source>
-        <translation>Svep upp omixbara</translation>
+        <translation>Städa upp omixbara</translation>
     </message>
     <message>
         <source>Create tx file</source>
@@ -2318,12 +2352,12 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <translation>Välj en fil</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="49"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Starta daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Ringstorlek: %1</translation>
     </message>
@@ -2343,12 +2377,12 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <translation>Normal (x1 avgift)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="205"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adress &lt;font size=&apos;2&apos;&gt;  (&lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adressbok&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="389"/>
         <source>Advanced options</source>
         <translation>Avancerade alternativ</translation>
     </message>
@@ -2597,13 +2631,6 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     </message>
 </context>
 <context>
-    <name>WalletManager</name>
-    <message>
-        <source>Unknown error</source>
-        <translation type="vanished">Okänt fel</translation>
-    </message>
-</context>
-<context>
     <name>WizardConfigure</name>
     <message>
         <source>We’re almost there - let’s just configure some Loki preferences</source>
@@ -2650,11 +2677,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="154"/>
         <source>Allow background mining?</source>
-        <translation>Tillåt bakgrundsbrytning?</translation>
+        <translation>Tillåt bakgrundsutvinning?</translation>
     </message>
     <message>
+        <location filename="../wizard/WizardConfigure.qml" line="169"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Brytningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki bryta när din dator är nätansluten men inaktiv. Brytningen stoppas när du fortsätter att arbeta igen.</translation>
+        <translation>Utvinningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
     </message>
 </context>
 <context>
@@ -2676,6 +2704,14 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
         <source>Create A New Wallet</source>
         <translation>Skapa en ny plånbok</translation>
 </message>
+</context>
+<context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation>Skapa en ny plånbok från hårdvaruplånbok</translation>
+    </message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2761,11 +2797,12 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="175"/>
         <source>Allow background mining?</source>
-        <translation>Tillåt bakgrundsbrytning?</translation>
+        <translation>Tillåt bakgrundsutvinning?</translation>
     </message>
     <message>
+        <location filename="../wizard/WizardDonation.qml" line="190"/>
         <source>Mining secures the Loki network, and also pays a small reward for the work done. This option will let Loki mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation type="vanished">Brytningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki bryta när din dator är nätansluten men inaktiv. Brytningen stoppas när du fortsätter att arbeta igen.</translation>
+        <translation>Utvinningen säkrar Lokis nätverk, och betalar även en liten ersättning för det arbete som utförs. Detta alternativ låter Loki utvinna när din dator är nätansluten men inaktiv. Utvinningen stoppas när du fortsätter att arbeta igen.</translation>
     </message>
 </context>
 <context>
@@ -2994,7 +3031,7 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
         <translation type="vanished">Välkommen till Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Välj ett av följande alternativ:</translation>
     </message>
@@ -3176,7 +3213,7 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
         <location filename="../main.qml" line="607"/>
         <location filename="../main.qml" line="722"/>
         <source>No unmixable outputs to sweep</source>
-        <translation>Inga omixbara utgångar att svepa upp</translation>
+        <translation>Inga omixbara utgångar att städa upp</translation>
     </message>
     <message>
         <location filename="../main.qml" line="624"/>
@@ -3301,26 +3338,26 @@ Ringstorlek: </translation>
         <translation>Kan inte skapa transaktionen: Felaktig nodversion: </translation>
 </message>
     <message>
-        <location filename="../main.qml" line="623"/>
+        <location filename="../main.qml" line="633"/>
         <source>Address: </source>
         <translation>Adress: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
         <translation>
 Ringstorlek: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="629"/>
+        <location filename="../main.qml" line="639"/>
         <source>
 WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
         <translation>
 VARNING: icke-standard ringstorlek, vilket kan skada din sekretess. En standardstorlek på 7 rekommenderas.</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="631"/>
+        <location filename="../main.qml" line="641"/>
         <source>
 Number of transactions: </source>
         <translation>
@@ -3350,9 +3387,9 @@ Index för spenderingsadress: </translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="857"/>
+        <location filename="../main.qml" line="864"/>
         <source>This address received %1 Loki, with %2 confirmation(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna adress tog emot %1 Loki, med %2 bekräftelser.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="868"/>
@@ -3436,7 +3473,7 @@ Index för spenderingsadress: </translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1819"/>
         <source>Daemon log</source>
         <translation>Daemonens loggfil</translation>
     </message>
@@ -3488,7 +3525,7 @@ Beskrivning: </translation>
     <message>
         <location filename="../main.qml" line="861"/>
         <source>This address received nothing</source>
-        <translation>Denna adress tog emot ingenting</translation>
+        <translation>Denna adress mottog ingenting</translation>
     </message>
     <message>
         <location filename="../main.qml" line="880"/>
@@ -3506,7 +3543,7 @@ Beskrivning: </translation>
         <translation>Vänta …</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1282"/>
+        <location filename="../main.qml" line="1279"/>
         <source>Program setup wizard</source>
         <translation>Konfigurationsguide</translation>
     </message>
@@ -3517,7 +3554,7 @@ Beskrivning: </translation>
     <message>
         <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
-        <translation>skicka till samma mål</translation>
+        <translation>skicka till samma mottagare</translation>
     </message>
 </context>
 </TS>
