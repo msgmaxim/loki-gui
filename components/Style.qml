@@ -31,6 +31,7 @@ QtObject {
     property string inputBorderColorActive: Qt.rgba(255, 255, 255, 0.38)
     property string inputBorderColorInActive: Qt.rgba(255, 255, 255, 0.32)
     property string inputBorderColorInvalid: Qt.rgba(255, 0, 0, 0.40)
+    property string dangerColor: "#e6e600"
 
     property string buttonBackgroundColor: heroGreen
     property string buttonBackgroundColorHover: heroGreenHovered

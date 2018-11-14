@@ -141,7 +141,8 @@ ApplicationWindow {
             else if(middlePanel.state === "Receive") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "TxKey"
-            else if(middlePanel.state === "TxKey") middlePanel.state = "SharedRingDB"
+            else if(middlePanel.state === "TxKey") middlePanel.state = "ServiceNode"
+            else if(middlePanel.state === "ServiceNode") middlePanel.state = "SharedRingDB"
             else if(middlePanel.state === "SharedRingDB") middlePanel.state = "Sign"
             else if(middlePanel.state === "Sign") middlePanel.state = "Settings"
         } else if(seq === "Ctrl+Shift+Backtab" || seq === "Alt+Shift+Backtab") {
@@ -159,7 +160,8 @@ ApplicationWindow {
             */
             if(middlePanel.state === "Settings") middlePanel.state = "Sign"
             else if(middlePanel.state === "Sign") middlePanel.state = "SharedRingDB"
-            else if(middlePanel.state === "SharedRingDB") middlePanel.state = "TxKey"
+            else if(middlePanel.state === "SharedRingDB") middlePanel.state = "ServiceNode"
+            else if(middlePanel.state === "ServiceNode") middlePanel.state = "TxKey"
             else if(middlePanel.state === "TxKey") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "Receive"
@@ -272,6 +274,7 @@ ApplicationWindow {
             currentWallet.moneyReceived.disconnect(onWalletMoneyReceived)
             currentWallet.unconfirmedMoneyReceived.disconnect(onWalletUnconfirmedMoneyReceived)
             currentWallet.transactionCreated.disconnect(onTransactionCreated)
+            currentWallet.stakeTxCreated.disconnect(onStakeTxCreated)
             currentWallet.connectionStatusChanged.disconnect(onWalletConnectionStatusChanged)
             middlePanel.paymentClicked.disconnect(handlePayment);
             middlePanel.sweepUnmixableClicked.disconnect(handleSweepUnmixable);
@@ -327,6 +330,7 @@ ApplicationWindow {
         currentWallet.moneyReceived.connect(onWalletMoneyReceived)
         currentWallet.unconfirmedMoneyReceived.connect(onWalletUnconfirmedMoneyReceived)
         currentWallet.transactionCreated.connect(onTransactionCreated)
+        currentWallet.stakeTxCreated.connect(onStakeTxCreated)
         currentWallet.connectionStatusChanged.connect(onWalletConnectionStatusChanged)
         middlePanel.paymentClicked.connect(handlePayment);
         middlePanel.sweepUnmixableClicked.connect(handleSweepUnmixable);
@@ -655,6 +659,34 @@ ApplicationWindow {
             transactionConfirmationPopup.icon = StandardIcon.Question
             transactionConfirmationPopup.open()
         }
+    }
+
+    function makeStakeConfirmationPopup(tx, address) {
+
+        let popup = transactionConfirmationPopup;
+
+        popup.title = qsTr("Please Confirm Staking Transaction:\n") + translationManager.emptyString;
+        popup.icon = StandardIcon.Question
+
+        popup.text = "";
+        popup.text += (address === "" ? "" : (qsTr("Address: ") + address));
+        popup.text +=  qsTr("\n\nAmount: ") + walletManager.displayAmount(tx.amount);
+        popup.text +=  qsTr("\nFee: ") + walletManager.displayAmount(tx.fee);
+        popup.text +=  qsTr("\n\nNumber Of Transactions: ") + tx.txCount
+        popup.text += translationManager.emptyString;
+    }
+
+    function onStakeTxCreated(tx, address) {
+
+        transaction = tx;
+
+        transactionDescription = "stake transaction";
+
+        if (tx.status === PendingTransaction.Status_Ok) {
+            makeStakeConfirmationPopup(tx, address);
+            transactionConfirmationPopup.open();
+        }
+
     }
 
 
@@ -1370,6 +1402,15 @@ ApplicationWindow {
 
             onTxkeyClicked: {
                 middlePanel.state = "TxKey";
+                middlePanel.flickable.contentY = 0;
+                if(isMobile) {
+                    hideMenu();
+                }
+                updateBalance();
+            }
+
+            onServiceNodeClicked: {
+                middlePanel.state = "ServiceNode";
                 middlePanel.flickable.contentY = 0;
                 if(isMobile) {
                     hideMenu();

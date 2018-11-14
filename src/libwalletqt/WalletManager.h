@@ -10,7 +10,7 @@
 
 class Wallet;
 namespace Monero {
-    class WalletManager;
+    class WalletManagerBase;
 }
 
 class WalletManager : public QObject
@@ -107,6 +107,7 @@ public:
 
     Q_INVOKABLE bool paymentIdValid(const QString &payment_id) const;
     Q_INVOKABLE bool addressValid(const QString &address, NetworkType::Type nettype) const;
+    Q_INVOKABLE bool serviceNodePubkeyValid(const QString &address) const;
     Q_INVOKABLE bool keyValid(const QString &key, const QString &address, bool isViewKey, NetworkType::Type nettype) const;
 
     Q_INVOKABLE QString paymentIdFromAddress(const QString &address, NetworkType::Type nettype) const;
@@ -160,7 +161,7 @@ private:
 
     explicit WalletManager(QObject *parent = 0);
     static WalletManager * m_instance;
-    Monero::WalletManager * m_pimpl;
+    Monero::WalletManagerBase * m_pimpl;
     QMutex m_mutex;
     QPointer<Wallet> m_currentWallet;
 

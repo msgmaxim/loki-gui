@@ -189,6 +189,9 @@ public:
                                             quint64 amount, quint32 mixin_count,
                                             PendingTransaction::Priority priority);
 
+    //! stakes to a service node
+    Q_INVOKABLE void stake(const QString& sn_key, const QString& address, const QString& amount);
+
     //! creates transaction with all outputs
     Q_INVOKABLE PendingTransaction * createTransactionAll(const QString &dst_addr, const QString &payment_id,
                                                        quint32 mixin_count, PendingTransaction::Priority priority);
@@ -315,6 +318,8 @@ signals:
 
     // emitted when transaction is created async
     void transactionCreated(PendingTransaction * transaction, QString address, QString paymentId, quint32 mixinCount);
+
+    void stakeTxCreated(PendingTransaction* pending_tx, QString address);
 
     void connectionStatusChanged(ConnectionStatus status) const;
 

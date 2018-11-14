@@ -126,6 +126,7 @@ Item {
         id: copyButtonId
         text: qsTr("Copy")
         anchors.right: parent.right
+        anchors.rightMargin: 0
         onClicked: {
             if (input.text.length > 0) {
                 console.log("Copied to clipboard");
@@ -196,7 +197,7 @@ Item {
         LokiComponents.Input {
             id: input
             anchors.fill: parent
-            anchors.leftMargin: inlineIcon.visible ? 44 * scaleRatio : 0
+            anchors.leftMargin: inlineIcon.visible ? 38 : 6 * scaleRatio
             font.pixelSize: item.fontSize
             font.bold: item.fontBold
             onEditingFinished: item.editingFinished()

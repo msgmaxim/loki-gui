@@ -217,6 +217,11 @@ bool WalletManager::addressValid(const QString &address, NetworkType::Type netty
     return Monero::Wallet::addressValid(address.toStdString(), static_cast<Monero::NetworkType>(nettype));
 }
 
+bool WalletManager::serviceNodePubkeyValid(const QString &address) const
+{
+    return Monero::Wallet::serviceNodePubkeyValid(address.toStdString());
+}
+
 bool WalletManager::keyValid(const QString &key, const QString &address, bool isViewKey,  NetworkType::Type nettype) const
 {
     std::string error;
@@ -369,7 +374,7 @@ void WalletManager::checkUpdatesAsync(const QString &software, const QString &su
 QString WalletManager::checkUpdates(const QString &software, const QString &subdir) const
 {
   qDebug() << "Checking for updates";
-  const std::tuple<bool, std::string, std::string, std::string, std::string> result = Monero::WalletManager::checkUpdates(software.toStdString(), subdir.toStdString());
+  const std::tuple<bool, std::string, std::string, std::string, std::string> result = Monero::WalletManagerBase::checkUpdates(software.toStdString(), subdir.toStdString());
   if (!std::get<0>(result))
     return QString("");
   return QString::fromStdString(std::get<1>(result) + "|" + std::get<2>(result) + "|" + std::get<3>(result) + "|" + std::get<4>(result));
