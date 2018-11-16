@@ -9,6 +9,16 @@ TransactionInfo::Direction TransactionInfo::direction() const
     return static_cast<Direction>(m_pimpl->direction());
 }
 
+bool TransactionInfo::isServiceNodeReward() const
+{
+    return m_pimpl->isServiceNodeReward();
+}
+
+bool TransactionInfo::isMinerReward() const
+{
+    return m_pimpl->isMinerReward();
+}
+
 bool TransactionInfo::isPending() const
 {
     return m_pimpl->isPending();
