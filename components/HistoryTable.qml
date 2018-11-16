@@ -58,6 +58,16 @@ ListView {
             + translationManager.emptyString;
     }
 
+    function getColorFromRewardType(isServiceNodeReward, isMinerReward) {
+        if (isServiceNodeReward) {
+            return "#cccc00";
+        } else if (isMinerReward) {
+            return "#ff9900";
+        } else {
+            return "#2eb358";
+        }
+    }
+
     function lookupPaymentID(paymentId) {
         if (!addressBookModel)
             return ""
@@ -152,7 +162,17 @@ ListView {
                 anchors.leftMargin: 18 * scaleRatio
                 font.family: LokiComponents.Style.fontLight.name
                 font.pixelSize: 14 * scaleRatio
-                text: isOut ? qsTr("Sent") + translationManager.emptyString : qsTr("Received") + translationManager.emptyString
+                text: {
+                  let base = isOut ? qsTr("Sent") : qsTr("Received");
+
+                  if (isServiceNodeReward) {
+                      base += qsTr(" (service node reward)");
+                  } else if (isMinerReward) {
+                      base += qsTr(" (miner reward)");
+                  }
+
+                  return base + translationManager.emptyString;
+                }
                 color: "#808080"
             }
 
@@ -176,7 +196,7 @@ ListView {
 
                     return _amount + " LOKI";
                 }
-                color: isOut ? "white" : "#2eb358"
+                color: isOut ? "white" : getColorFromRewardType(isServiceNodeReward, isMinerReward)
             }
 
             Rectangle {
