@@ -120,6 +120,7 @@ ApplicationWindow {
         else if(seq === "Ctrl+I") middlePanel.state = "Sign"
         else if(seq === "Ctrl+G") middlePanel.state = "SharedRingDB"
         else if(seq === "Ctrl+E") middlePanel.state = "Settings"
+        else if(seq === "Ctrl+Y") leftPanel.keysClicked()
         else if(seq === "Ctrl+D") middlePanel.state = "Advanced"
         else if(seq === "Ctrl+Tab" || seq === "Alt+Tab") {
             /*
@@ -140,7 +141,8 @@ ApplicationWindow {
             else if(middlePanel.state === "Receive") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "TxKey"
-            else if(middlePanel.state === "TxKey") middlePanel.state = "SharedRingDB"
+            else if(middlePanel.state === "TxKey") middlePanel.state = "ServiceNode"
+            else if(middlePanel.state === "ServiceNode") middlePanel.state = "SharedRingDB"
             else if(middlePanel.state === "SharedRingDB") middlePanel.state = "Sign"
             else if(middlePanel.state === "Sign") middlePanel.state = "Settings"
         } else if(seq === "Ctrl+Shift+Backtab" || seq === "Alt+Shift+Backtab") {
@@ -158,7 +160,8 @@ ApplicationWindow {
             */
             if(middlePanel.state === "Settings") middlePanel.state = "Sign"
             else if(middlePanel.state === "Sign") middlePanel.state = "SharedRingDB"
-            else if(middlePanel.state === "SharedRingDB") middlePanel.state = "TxKey"
+            else if(middlePanel.state === "SharedRingDB") middlePanel.state = "ServiceNode"
+            else if(middlePanel.state === "ServiceNode") middlePanel.state = "TxKey"
             else if(middlePanel.state === "TxKey") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "Receive"
@@ -233,6 +236,9 @@ ApplicationWindow {
         if (typeof wizard.m_wallet !== 'undefined') {
             console.log("using wizard wallet")
             //Set restoreHeight
+            if (persistentSettings.restore_height == 0 && persistentSettings.is_recovering_from_device && walletManager.localDaemonSynced()) {
+                persistentSettings.restore_height = walletManager.blockchainHeight() - 1;
+            }
             if(persistentSettings.restore_height > 0){
                 // We store restore height in own variable for performance reasons.
                 restoreHeight = persistentSettings.restore_height
@@ -268,6 +274,7 @@ ApplicationWindow {
             currentWallet.moneyReceived.disconnect(onWalletMoneyReceived)
             currentWallet.unconfirmedMoneyReceived.disconnect(onWalletUnconfirmedMoneyReceived)
             currentWallet.transactionCreated.disconnect(onTransactionCreated)
+            currentWallet.stakeTxCreated.disconnect(onStakeTxCreated)
             currentWallet.connectionStatusChanged.disconnect(onWalletConnectionStatusChanged)
             middlePanel.paymentClicked.disconnect(handlePayment);
             middlePanel.sweepUnmixableClicked.disconnect(handleSweepUnmixable);
@@ -323,6 +330,7 @@ ApplicationWindow {
         currentWallet.moneyReceived.connect(onWalletMoneyReceived)
         currentWallet.unconfirmedMoneyReceived.connect(onWalletUnconfirmedMoneyReceived)
         currentWallet.transactionCreated.connect(onTransactionCreated)
+        currentWallet.stakeTxCreated.connect(onStakeTxCreated)
         currentWallet.connectionStatusChanged.connect(onWalletConnectionStatusChanged)
         middlePanel.paymentClicked.connect(handlePayment);
         middlePanel.sweepUnmixableClicked.connect(handleSweepUnmixable);
@@ -342,7 +350,9 @@ ApplicationWindow {
             currentDaemonAddress = localDaemonAddress
 
         console.log("initializing with daemon address: ", currentDaemonAddress)
-        currentWallet.initAsync(currentDaemonAddress, 0, persistentSettings.is_recovering, persistentSettings.restore_height);
+        currentWallet.initAsync(currentDaemonAddress, 0, persistentSettings.is_recovering, persistentSettings.is_recovering_from_device, persistentSettings.restore_height);
+        // save wallet keys in case wallet settings have been changed in the init
+        currentWallet.setPassword(walletPassword);
     }
 
     function walletPath() {
@@ -649,6 +659,34 @@ ApplicationWindow {
             transactionConfirmationPopup.icon = StandardIcon.Question
             transactionConfirmationPopup.open()
         }
+    }
+
+    function makeStakeConfirmationPopup(tx, address) {
+
+        let popup = transactionConfirmationPopup;
+
+        popup.title = qsTr("Please Confirm Staking Transaction:\n") + translationManager.emptyString;
+        popup.icon = StandardIcon.Question
+
+        popup.text = "";
+        popup.text += (address === "" ? "" : (qsTr("Address: ") + address));
+        popup.text +=  qsTr("\n\nAmount: ") + walletManager.displayAmount(tx.amount);
+        popup.text +=  qsTr("\nFee: ") + walletManager.displayAmount(tx.fee);
+        popup.text +=  qsTr("\n\nNumber Of Transactions: ") + tx.txCount
+        popup.text += translationManager.emptyString;
+    }
+
+    function onStakeTxCreated(tx, address) {
+
+        transaction = tx;
+
+        transactionDescription = "stake transaction";
+
+        if (tx.status === PendingTransaction.Status_Ok) {
+            makeStakeConfirmationPopup(tx, address);
+            transactionConfirmationPopup.open();
+        }
+
     }
 
 
@@ -1019,6 +1057,7 @@ ApplicationWindow {
         property string payment_id
         property int    restore_height : 0
         property bool   is_recovering : false
+        property bool   is_recovering_from_device : false
         property bool   customDecorations : true
         property string daemonFlags
         property int logLevel: 0
@@ -1363,6 +1402,15 @@ ApplicationWindow {
 
             onTxkeyClicked: {
                 middlePanel.state = "TxKey";
+                middlePanel.flickable.contentY = 0;
+                if(isMobile) {
+                    hideMenu();
+                }
+                updateBalance();
+            }
+
+            onServiceNodeClicked: {
+                middlePanel.state = "ServiceNode";
                 middlePanel.flickable.contentY = 0;
                 if(isMobile) {
                     hideMenu();

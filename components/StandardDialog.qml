@@ -102,11 +102,9 @@ Rectangle {
             id: column
             //anchors {fill: parent; margins: 16 }
             Layout.topMargin: 14 * scaleRatio
-            Layout.alignment: Qt.AlignHCenter
 
             LokiComponents.Label {
                 id: dialogTitle
-                horizontalAlignment: Text.AlignHCenter
                 fontSize: 18 * scaleRatio
                 fontFamily: "Arial"
                 color: LokiComponents.Style.defaultFontColor

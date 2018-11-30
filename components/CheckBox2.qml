@@ -82,7 +82,7 @@ RowLayout {
                     id: indicatorImage
                     anchors.centerIn: parent
                     source: "../images/whiteDropIndicator.png"
-                    visible: !darkDropIndicator
+                    visible: darkDropIndicator
                 }
                 ColorOverlay {
                     anchors.fill: indicatorImage

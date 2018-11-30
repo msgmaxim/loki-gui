@@ -122,7 +122,7 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="95"/>
         <source>Starting local node in %1 seconds</source>
-        <translation>Spustenie lokálneho uzlu za %1 sekúnd</translation>
+        <translation>Spustenie lokálneho uzla za %1 sekúnd</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
@@ -189,12 +189,12 @@
     <message>
         <location filename="../pages/History.qml" line="73"/>
         <source> selected: </source>
-        <translation> vybrané: </translation>
+        <translation> označené: </translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="162"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Hľadať</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="230"/>
@@ -212,14 +212,29 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Block height</source>
-        <translation type="obsolete">Výška bloku</translation>
+        <location filename="../pages/History.qml" line="191"/>
+        <source>Date from</source>
+        <translation>Dátum od</translation>
     </message>
-<message>
+    <message>
+        <location filename="../pages/History.qml" line="214"/>
+        <source>Date to</source>
+        <translation>Dátum do</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="229"/>
+        <source>Sort</source>
+        <translation>Zoradiť</translation>
+    </message>
+    <message>
+        <source>Block height</source>
+        <translation>Výška bloku</translation>
+    </message>
+    <message>
         <location filename="../pages/History.qml" line="238"/>
         <source>Date</source>
         <translation>Dátum</translation>
-</message>
+    </message>
     <message>
         <source>Filter transaction history</source>
         <translation type="vanished">Filtrovať históriu transakcií</translation>
@@ -251,6 +266,11 @@
     <message>
         <source>Amount from</source>
         <translation type="vanished">Suma od</translation>
+    </message>
+    <message>
+        <location filename="../pages/History.qml" line="278"/>
+        <source>No history...</source>
+        <translation>Žiadna história</translation>
     </message>
 </context>
 <context>
@@ -431,15 +451,10 @@
     <message>
         <location filename="../pages/Keys.qml" line="115"/>
         <source>Mnemonic seed</source>
-        <translation>Mnemotechnická fráza</translation>
+        <translation>Mnemotechnický seed</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="162"/>
-        <source>Double tap to copy</source>
-        <translation>Skopírujte dvojitým ťuknutím</translation>
-    </message>
-    <message>
-        <location filename="../pages/Keys.qml" line="142"/>
+        <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
         <translation>Kľúče</translation>
     </message>
@@ -447,6 +462,11 @@
         <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation>Kľúče skopírované do schránky</translation>
+    </message>
+    <message>
+        <location filename="../pages/Keys.qml" line="93"/>
+        <source>WARNING: Do not reuse your Loki keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>VAROVANIE: Nepoužívaj svoje Loki kľúče znova na inom forku, JEDINE AK ten fork má zabudované opatrenia na opätovné použite kľúčov. Utrpí tým Tvoje súkromie.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="182"/>
@@ -463,7 +483,7 @@
         <location filename="../pages/Keys.qml" line="207"/>
         <location filename="../pages/Keys.qml" line="238"/>
         <source>View Only Wallet</source>
-        <translation>Peňaženka len na čítanie</translation>
+        <translation>Prezeracia peňaženka</translation>
     </message>
     <message>
         <source>Secret view key</source>
@@ -484,7 +504,7 @@
     <message>
         <location filename="../pages/Keys.qml" line="263"/>
         <source>(View Only Wallet -  No mnemonic seed available)</source>
-        <translation>(Peňaženka len na čítanie - Žiadna mnemotechnická fráza nie je k dispozícii)</translation>
+        <translation>(Peňaženka len na zobrazenie - Žiadna mnemotechnická fráza nie je k dispozícii)</translation>
     </message>
 </context>
 <context>
@@ -500,7 +520,7 @@
         <translation>Odomknutý zostatok</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="314"/>
+        <location filename="../LeftPanel.qml" line="312"/>
         <source>Send</source>
         <translation>Odoslať</translation>
     </message>
@@ -510,27 +530,27 @@
         <translation>Adresár</translation>
 </message>
     <message>
-        <location filename="../LeftPanel.qml" line="364"/>
+        <location filename="../LeftPanel.qml" line="362"/>
         <source>Receive</source>
         <translation>Prijať</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="365"/>
+        <location filename="../LeftPanel.qml" line="363"/>
         <source>R</source>
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="457"/>
+        <location filename="../LeftPanel.qml" line="456"/>
         <source>Prove/check</source>
         <translation>Preukázať / skontrolovať</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="458"/>
+        <location filename="../LeftPanel.qml" line="457"/>
         <source>K</source>
         <translation>K</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="388"/>
+        <location filename="../LeftPanel.qml" line="386"/>
         <source>History</source>
         <translation>História</translation>
     </message>
@@ -554,37 +574,37 @@
         <translation type="vanished">Adresár</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="340"/>
+        <location filename="../LeftPanel.qml" line="338"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="389"/>
+        <location filename="../LeftPanel.qml" line="387"/>
         <source>H</source>
         <translation>H</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="411"/>
+        <location filename="../LeftPanel.qml" line="409"/>
         <source>Advanced</source>
         <translation>Pokročilé</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="412"/>
+        <location filename="../LeftPanel.qml" line="410"/>
         <source>D</source>
         <translation>D</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="434"/>
+        <location filename="../LeftPanel.qml" line="432"/>
         <source>Mining</source>
         <translation>Ťažba</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="435"/>
+        <location filename="../LeftPanel.qml" line="433"/>
         <source>M</source>
         <translation>M</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
+        <location filename="../LeftPanel.qml" line="479"/>
         <source>Shared RingDB</source>
         <translation>Zdieľaná databáza okruhov</translation>
     </message>
@@ -609,17 +629,17 @@
         <translation>Fráza &amp; Kľúče</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="552"/>
+        <location filename="../LeftPanel.qml" line="550"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="602"/>
+        <location filename="../LeftPanel.qml" line="600"/>
         <source>Wallet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="611"/>
+        <location filename="../LeftPanel.qml" line="609"/>
         <source>Daemon</source>
         <translation>Démon</translation>
     </message>
@@ -628,22 +648,27 @@
         <translation type="vanished">Podpísať/overiť</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="530"/>
+        <location filename="../LeftPanel.qml" line="528"/>
         <source>E</source>
         <translation>E</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="315"/>
+        <location filename="../LeftPanel.qml" line="313"/>
         <source>S</source>
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="507"/>
+        <location filename="../LeftPanel.qml" line="480"/>
+        <source>G</source>
+        <translation>G</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="505"/>
         <source>I</source>
         <translation>I</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="529"/>
+        <location filename="../LeftPanel.qml" line="527"/>
         <source>Settings</source>
         <translation>Nastavenia</translation>
     </message>
@@ -653,12 +678,12 @@
     <message>
         <location filename="../components/LineEdit.qml" line="126"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopírovať</translation>
     </message>
     <message>
         <location filename="../components/LineEdit.qml" line="132"/>
         <source>Copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Skopírované do schránky</translation>
     </message>
 </context>
 <context>
@@ -700,6 +725,11 @@
     <message>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="vanished">Ťažba s Vašim počítačom pomáha posilniť sieť Loki. Čím viac ľudí ťaží, tým je náročnejšie zaútočiť na sieť, a každý malý kúsok pomáha.&lt;br&gt; &lt;br&gt;Ťažba Vám taktiež dáva malú šancu zarobiť nejaké Loki. Váš počítač bude vytvárať haše hľadaním riešenia v bloku. Ak nájdete blok, dostanete s tým súvisiacu odmenu. Veľa šťastia!</translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="76"/>
+        <source>Your daemon must be synchronized before you can start mining</source>
+        <translation>Daemon musí byť zosynchronizovaný pred tým ako začneš ťažiť</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
@@ -821,6 +851,34 @@
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
         <translation>Odomknutý Zostatok:</translation>
+    </message>
+</context>
+<context>
+    <name>Navbar</name>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="108"/>
+        <source>Wallet</source>
+        <translation>Peňaženka</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="158"/>
+        <source>Layout</source>
+        <translation>Rozvrhnutie</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="208"/>
+        <source>Node</source>
+        <translation>Uzol</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="258"/>
+        <source>Log</source>
+        <translation>Záznam</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/Navbar.qml" line="308"/>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
@@ -1022,44 +1080,44 @@
         <translation>S nedstatkom Loki</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="141"/>
+        <location filename="../pages/Receive.qml" line="142"/>
         <source>Expected</source>
         <translation>Očakávané</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="142"/>
+        <location filename="../pages/Receive.qml" line="143"/>
         <source>Total received</source>
         <translation>Spolu prijaté</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="165"/>
+        <location filename="../pages/Receive.qml" line="161"/>
         <source>Set the label of the selected address:</source>
         <translation>Nastavte menovku vybranej adrese:</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="200"/>
+        <location filename="../pages/Receive.qml" line="196"/>
         <source>Addresses</source>
         <translation>Adresy</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="202"/>
-        <location filename="../pages/Receive.qml" line="431"/>
-        <location filename="../pages/Receive.qml" line="517"/>
+        <location filename="../pages/Receive.qml" line="198"/>
+        <location filename="../pages/Receive.qml" line="427"/>
+        <location filename="../pages/Receive.qml" line="513"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="206"/>
+        <location filename="../pages/Receive.qml" line="202"/>
         <source>&lt;p&gt;This QR code includes the address you selected above andthe amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Tento QR kód obsahuje adresu, ktorú ste vybrali vyššie a sumu, ktorú ste zadali nižšie. Zdieľajte ho s inými (pravý klik-&gt;Uložiť) aby Vám mohli jednoduchšie odoslať presnú sumu.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="373"/>
+        <location filename="../pages/Receive.qml" line="369"/>
         <source>Create new address</source>
         <translation>Vytvoriť novú adresu</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="388"/>
+        <location filename="../pages/Receive.qml" line="384"/>
         <source>Set the label of the new address:</source>
         <translation>Nastavte menovku pre túto novú adresu:</translation>
     </message>
@@ -1069,53 +1127,54 @@
         <translation>Sledovanie platieb</translation>
 </message>
     <message>
-        <location filename="../pages/Receive.qml" line="389"/>
+        <location filename="../pages/Receive.qml" line="385"/>
         <source>(Untitled)</source>
         <translation>(Bez názvu)</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="409"/>
+        <location filename="../pages/Receive.qml" line="405"/>
         <source>Advanced options</source>
         <translation>Pokročilé nastavenia</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="429"/>
-        <location filename="../pages/Receive.qml" line="434"/>
+        <location filename="../pages/Receive.qml" line="425"/>
+        <location filename="../pages/Receive.qml" line="430"/>
         <source>QR Code</source>
         <translation>QR kód</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý sledovač predaja:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Nechajte Vášho zákazníka naskenovať tento QR kód k vykonaniu platby (ak má tento zákazník softvér, ktorý podporuje snímanie QR kódov).&lt;/p&gt;&lt;p&gt;Táto stránka bude automaticky sledovať blockchain a jeho transakcie pre prichádzajúcu transakciu zákaznika, ktorý použil QR kód. Ak zadáte sumu, skontroluje aj či došlá transakcia dosiahla celkovú sumu.&lt;/p&gt;Je to na Vás, či akceptujete nepotvrdené transakcie alebo nie. Je pravdepodobné, že budú potvrdené v krátkom čase, ale stále je tu možnosť, že nemusia byť, takže pre väčšie sumy možno budete chcieť počkať na jedno alebo viac potvrdení.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <location filename="../pages/Receive.qml" line="608"/>
-        <location filename="../pages/Receive.qml" line="610"/>
+        <location filename="../pages/Receive.qml" line="604"/>
+        <location filename="../pages/Receive.qml" line="606"/>
         <source>confirmations</source>
         <translation>potvrdení</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="613"/>
+        <location filename="../pages/Receive.qml" line="609"/>
         <source>confirmation</source>
         <translation>potvrdenie</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="637"/>
+        <location filename="../pages/Receive.qml" line="633"/>
         <source>Transaction ID copied to clipboard</source>
         <translation>ID transakcie bolo skopírované do schránky</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="672"/>
+        <location filename="../pages/Receive.qml" line="668"/>
         <source>Enable</source>
         <translation>Povoliť</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="330"/>
+        <location filename="../pages/Receive.qml" line="326"/>
         <source>Address copied to clipboard</source>
         <translation>Adresa skopírovaná do schránky</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="284"/>
+        <location filename="../pages/Receive.qml" line="431"/>
+        <source>&lt;p&gt;This QR code includes the address you selected above and the amount you entered below. Share it with others (right-click-&gt;Save) so they can more easily send you exact amounts.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Tento QR kód obsahuje adresu aj sumu, ktorú ste zadáš nižšie. Zdieľaj ju s ostatnými (pravý klik-&gt;Uložiť) aby Ti oveľa jednoduchšie mohli poslať presnú sumu.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="452"/>
         <source>Amount to receive</source>
         <translation>Suma na prijatie</translation>
     </message>
@@ -1131,6 +1190,11 @@
     <message>
         <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Click Generate to create a random payment id for a new customer&lt;/p&gt; &lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
         <translation type="vanished">&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Jedná sa o jednoduché sledovanie predaja:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Kliknutím na Generovať vytvoríte náhodné ID platby pre nového zákazníka&lt;/p&gt; &lt;p&gt;Nechajte Vášho zákazníka oskenovať tento QR kód, aby vykonal platbu (ak má tento zákazník softvér, ktorý podporuje skenovanie QR kódu).&lt;/p&gt;&lt;p&gt;Táto stránka bude automaticky prehľadávať blockchain a transakčný pool kôli prichádzajúcim transakciám vykonaných s týmto QR kódom. Ak zadáte čiastku, taktiež skontroluje, či prichádzajúca transakcia dosiahla túto sumu.&lt;/p&gt;je na Vás, či akceptujete nepotvrdené transakcie alebo nie. je pravdepodobné, že budú potvrdené v krátkom čase, ale stále existuje možnosť, že nemusia byť, takže pri väčších sumách možno budete chcieť počkať na jedno alebo viac potvrdení.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="517"/>
+        <source>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;This is a simple sales tracker:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;Let your customer scan that QR code to make a payment (if that customer has software which supports QR code scanning).&lt;/p&gt;&lt;p&gt;This page will automatically scan the blockchain and the tx pool for incoming transactions using this QR code. If you input an amount, it will also check that incoming transactions total up to that amount.&lt;/p&gt;&lt;p&gt;It&apos;s up to you whether to accept unconfirmed transactions or not. It is likely they&apos;ll be confirmed in short order, but there is still a possibility they might not, so for larger values you may want to wait for one or more confirmation(s).&lt;/p&gt;</source>
+        <translation>&lt;p&gt;&lt;font size=&apos;+2&apos;&gt;Toto je jednoduchý sledovač tržby. Nechaj zákazníkom oskenovať tento QR kód aby urobil platbu (ak zákazníkov software podporuje sken QR kódov).&lt;/p&gt;&lt;p&gt;Táto stránka automaticky oskenuje blockchain a tx pool pre prichádzajúce transakcie použitím tohto QR kódu. Ak vložíš sumu, overí to tiež či prichádzajúce transakcie dosiahli túto sumu.&lt;/p&gt;&lt;p&gt; Je to na Tebe či budeš akceptovať nepotvrdené transakcie alebo nie. Je pravdepodobné, že budú čoskoro potvrdené, ale je tu tiež šanca, že nie. Preto pri vyšších sumách, asi budeš chcieť počkať na jedno alebo viac potvrdení.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="360"/>
@@ -1192,7 +1256,7 @@
     </message>
 </context>
 <context>
-    <name>Settings</name>
+    <name>SettingsInfo</name>
     <message>
         <source>Create view only wallet</source>
         <translation type="vanished">Vytvoriť peňaženku len na sledovanie</translation>
@@ -1221,20 +1285,63 @@
         <translation>Informácie</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="207"/>
-        <source>Daemon mode</source>
-        <translation>Režim démona</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="60"/>
+        <source>GUI version: </source>
+        <translation>verzia GUI: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="240"/>
-        <source>Bootstrap node</source>
-        <translation>Bootstrap uzol</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
+        <source>Embedded Loki version: </source>
+        <translation>verzia Loki: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="259"/>
-        <location filename="../pages/Settings.qml" line="291"/>
-        <source>Address</source>
-        <translation>Adresa</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="118"/>
+        <source>Wallet path: </source>
+        <translation>Cesta k peňaženke: </translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="155"/>
+        <source>Wallet creation height: </source>
+        <translation>Výška v ktorej bola peňaženka vytvorená: </translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="165"/>
+        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
+        <translation> &lt;a href=&apos;#&apos;&gt; (kliknutím zmeniť) &lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="167"/>
+        <source>Set a new restore height:</source>
+        <translation>Nastaviť novú výšku obnovy: </translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
+        <source>Rescan wallet cache</source>
+        <translation>Preskenuj cache peňaženky</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="180"/>
+        <source>Are you sure you want to rebuild the wallet cache?
+The following information will be deleted
+- Recipient addresses
+- Tx keys
+- Tx descriptions
+
+The old wallet cache file will be renamed and can be restored later.
+</source>
+        <translation>Naozaj chceš prebudovať cache peňaženky?
+Nasledujúce data budú zmazané
+- Adresy prijímateľov
+- Kľúče transakcií
+- Popis transakcií
+
+Súbor starej cache bude premenovaný a môže byť obnovený neskôr. 		
+</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="188"/>
+        <source>Cancel</source>
+        <translation>Zrušiť</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="243"/>
@@ -1247,39 +1354,68 @@
         <translation type="vanished">Umiestnenie blockchain-u</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="423"/>
-        <source>Change location</source>
-        <translation>Zmeniť umiestnenie</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="202"/>
+        <source>Invalid restore height specified. Must be a number.</source>
+        <translation>Neplatná výška pre obnovu. Musí to byť číslo.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="467"/>
-        <source>Username</source>
-        <translation>Meno používateľa</translation>
+        <location filename="../pages/settings/SettingsInfo.qml" line="236"/>
+        <source>Wallet log path: </source>
+        <translation>Cesta k logom peňaženky: </translation>
     </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="267"/>
+        <source>Copy to clipboard</source>
+        <translation>Kopírovať do schránky</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsInfo.qml" line="292"/>
+        <source>Copied to clipboard</source>
+        <translation>Skopírované do schránky</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsLayout</name>
     <message>
         <location filename="../pages/Settings.qml" line="444"/>
         <source>Password</source>
         <translation>Heslo</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="680"/>
-        <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation> &lt;a href=&apos;#&apos;&gt; (Kliknutím zmeňte)&lt;/a&gt;</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
+        <source>Custom decorations</source>
+        <translation>Vlastné dekorácie</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="682"/>
-        <source>Set a new restore height:</source>
-        <translation>Nastavte novú výšku obnovenia:</translation>
+        <location filename="../pages/settings/SettingsLayout.qml" line="67"/>
+        <source>No Layout options exist yet in mobile mode.</source>
+        <translation>Nie sú k dispozícii žiadne úpravy v mobilnom móde</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsLog</name>
+    <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="68"/>
+        <source>Log level</source>
+        <translation>Úroveň logovania</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="312"/>
-        <source>Connect</source>
-        <translation>Pripojiť</translation>
+        <location filename="../pages/settings/SettingsLog.qml" line="143"/>
+        <source>Daemon log</source>
+        <translation>Logy daemona</translation>
     </message>
     <message>
         <source>Layout settings</source>
         <translation type="vanished">Nastavenia rozloženia</translation>
     </message>
+    <message>
+        <location filename="../pages/settings/SettingsLog.qml" line="226"/>
+        <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
+        <translation>príkaz + enter (napr. &apos;help&apos; alebo &apos;status&apos;)</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsNode</name>
     <message>
         <source>Custom decorations</source>
         <translation type="vanished">Vlastné dekorácie</translation>
@@ -1299,14 +1435,39 @@
         <translation>Úspešne znova načítané minuté výstupy.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="182"/>
-        <source>Change password</source>
-        <translation>Zmeniť heslo</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="277"/>
+        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="215"/>
-        <source>Local Node</source>
+        <location filename="../pages/settings/SettingsNode.qml" line="114"/>
+        <source>Local node</source>
         <translation>Lokálny uzol</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="132"/>
+        <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
+        <translation>Blockchain je stiahnutá v Tvojom počítači. Poskytuje to vyššiu bezpečnosť, no vyžaduje viac miesta na disku.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="213"/>
+        <source>Remote node</source>
+        <translation>Vzdialený uzol</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="232"/>
+        <source>Uses a third-party server to connect to the Loki network. Less secure, but easier on your computer.</source>
+        <translation>Použiť uzol tretej strany na pripojenie do Loki siete. Menej bezpečné, ale nenáročné pre Tvoj počítač.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="277"/>
+        <source>To find a remote node, type &apos;Loki remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Vzdialený uzol vyhľadáš tak, že napíšeš &apos;Loki remote node&apos; do svojho obľúbeného internetového vyhľadávača. Radšej sa uisti, že ide o dôveryhodného poskytovateľa.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="291"/>
+        <source>Address</source>
+        <translation>Adresa</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="209"/>
@@ -1314,14 +1475,20 @@
         <translation>Vzdialený uzol</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="334"/>
-        <source>Manage Daemon</source>
-        <translation>Spravovať démona</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="292"/>
+        <source>Port</source>
+        <translation>Port</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="438"/>
-        <source>Show advanced</source>
-        <translation>Ukázať pokročilé</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="312"/>
+        <location filename="../pages/settings/SettingsNode.qml" line="450"/>
+        <source>(optional)</source>
+        <translation>(nepovinné)</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="323"/>
+        <source>Password</source>
+        <translation>Heslo</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="326"/>
@@ -1331,17 +1498,26 @@
     <message>
         <location filename="../pages/Settings.qml" line="341"/>
         <source>Stop Local Node</source>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="347"/>
+        <source>Connect</source>
+        <translation>Pripojiť</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="399"/>
+        <source>Stop local node</source>
         <translation>Zastaviť lokálny uzol</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="450"/>
-        <source>Local daemon startup flags</source>
-        <translation>Štartovacie príznaky lokálneho démona</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source>Blockchain location</source>
+        <translation>Umiestnenie blockchain</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="608"/>
-        <source>Debug info</source>
-        <translation>Ladiace informácie</translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="420"/>
+        <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
+        <translation> &lt;a href=&apos;#&apos;&gt; (zmeniť)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="633"/>
@@ -1353,15 +1529,28 @@
         <translation type="vanished">Verzia integrovaného Loki: </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="657"/>
-        <source>Wallet name: </source>
-        <translation>Názov peňaženky: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="421"/>
+        <source>(default)</source>
+        <translation>(štandardné)</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="671"/>
-        <source>Wallet creation height: </source>
-        <translation>Výška vytvorenia peňaženky: </translation>
+        <location filename="../pages/settings/SettingsNode.qml" line="449"/>
+        <source>Daemon startup flags</source>
+        <translation>Štartovacie parametre (flags) daemona</translation>
     </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="476"/>
+        <source>Bootstrap Address</source>
+        <translation>Zavádzacia (bootstrap) adresa</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsNode.qml" line="477"/>
+        <source>Bootstrap Port</source>
+        <translation>Zavádzací (bootstrap) port</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWallet</name>
     <message>
         <location filename="../pages/Settings.qml" line="609"/>
         <source>Rescan wallet cache</source>
@@ -1385,19 +1574,29 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
 </translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="717"/>
-        <source>Invalid restore height specified. Must be a number.</source>
-        <translation>Bola uvedená neplatná výška obnovy. Musí to byť číslo.</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
+        <source>Close this wallet</source>
+        <translation>Zatvoriť túto peňaženku</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="733"/>
-        <source>Wallet log path: </source>
-        <translation>Cesta k log-om peňaženky: </translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="94"/>
+        <source>Logs out of this wallet.</source>
+        <translation>Odhlásiť sa z tejto peňaženky.</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="667"/>
-        <source>Please choose a folder</source>
-        <translation>Prosím, vyberte priečinok</translation>
+        <location filename="../pages/settings/SettingsWallet.qml" line="129"/>
+        <source>Close wallet</source>
+        <translation>Zavrieť peňaženku</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="171"/>
+        <source>Create a view-only wallet</source>
+        <translation>Vytvoriť prezeraciu (view-only) peňaženku</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view and initiate transactions, but requires a spendable wallet to sign transactions before sending.</source>
+        <translation type="unfinished">Vytvorí novú peňaženku, cez ktorú môžte len nahliadať na transakcie a nie je možné uskutočniť transakciu.</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="677"/>
@@ -1454,7 +1653,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation type="unfinished">Chyba</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="165"/>
@@ -1470,6 +1669,61 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <location filename="../pages/Settings.qml" line="190"/>
         <source>Daemon Mode</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="185"/>
+        <source>Creates a new wallet that can only view transactions, cannot initialize transactions.</source>
+        <translation>Vytvorí novú peňaženku, cez ktorú môžte len nahliadať na transakcie a nie je možné uskutočniť transakciu.</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="220"/>
+        <source>Create wallet</source>
+        <translation>Vytvoriť peňaženku</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="262"/>
+        <source>Show seed &amp; keys</source>
+        <translation>Ukázať SEED a kľúče</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="276"/>
+        <source>Store this information safely to recover your wallet in the future.</source>
+        <translation>Uschovaj tieto informácie bezpečne pre obnovenie svojej peňaženky v budúcnosti</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="311"/>
+        <source>Show seed</source>
+        <translation>Ukázať SEED</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="351"/>
+        <source>Rescan wallet balance</source>
+        <translation>Preskenuj zostatok v peňaženke</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="365"/>
+        <source>Use this feature if you think the shown balance is not accurate.</source>
+        <translation>Použi túto funkciu ak si myslíš, že zobrazený zostatok nie je správny</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="401"/>
+        <source>Rescan</source>
+        <translation>Preskenuj</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="410"/>
+        <source>Error</source>
+        <translation>Chyba</translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="411"/>
+        <source>Error: </source>
+        <translation>Chyba: </translation>
+    </message>
+    <message>
+        <location filename="../pages/settings/SettingsWallet.qml" line="416"/>
+        <source>Information</source>
+        <translation>Informácie</translation>
     </message>
 <message>
         <location filename="../pages/Settings.qml" line="351"/>
@@ -1487,19 +1741,24 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="93"/>
+        <location filename="../pages/settings/SettingsWallet.qml" line="417"/>
+        <source>Successfully rescanned spent outputs.</source>
+        <translation>Preskenovanie minutých výstupov (spent outputs) prebehlo úspešne</translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="102"/>
         <source>Shared RingDB</source>
         <translation>Zdieľaná databáza okruhov</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="97"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.</source>
-        <translation>Táto stránka Vám umožní komunikovať so zdieľanou databázou okruhov. Táto databáza je určená na použitie s Loki peňazenkami a taktiež s peňaženkami Loki klonov, ktoré opätovne používajú Loki kľúče.</translation>
+        <translation>Táto stránka Vám umožní komunikovať so zdieľanou databázou okruhov. Táto databáza je určená na použitie s Loki peňaženkami a taktiež s peňaženkami Loki klonov, ktoré opätovne používajú Loki kľúče.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="112"/>
-        <source>Blackballed outputs</source>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="121"/>
+        <source>Outputs marked as spent</source>
         <translation>Zakalené výstupy</translation>
     </message>
 <message>
@@ -1518,8 +1777,8 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Úroveň logovania</translation>
 </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="110"/>
-        <location filename="../pages/SharedRingDB.qml" line="242"/>
+        <location filename="../pages/SharedRingDB.qml" line="119"/>
+        <location filename="../pages/SharedRingDB.qml" line="260"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
@@ -1529,23 +1788,23 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Verzia GUI: </translation>
 </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="113"/>
-        <source>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Loki uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Loki project and is available on the getloki.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself using the loki-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Aby bolo možné skryť, ktoré vstupy v Loki transakcii sa vynakladajú, tretia strana by nemala vedieť, ktoré vstupy v okruhu sú už známe. Možnosť tak urobiť by oslabila ochranu poskytovanú okruhovými podpismi. Ak je už známe, že všetky vstupy sú už vynaložené, tak aktuálne vynakladaný vstup sa jasne identifikuje, čím sa zruší účinok okuhových podpisov, čo je jedna z troch hlavných vrstiev ochrany súkromia, ktoré Loki používa.&lt;br&gt;Pomôcť transakciám vyhnúť sa týmto vstupom môžete použiť zoznam známych vstupov, aby ste sa vyhli ich použitiu v nových transakciách. Takýto zoznam si udržiava projekt Loki a je k dispozícii na webovej stránke getloki.org a tu môžete tento zoznam importovať.&lt;br&gt;Alternatívne môžete prehliadať blockchain (a blockchain Loki klonov, ktoré tiež používajú Loki kľúče) sami pomocou nástroja loki-blockchain-blackball a vytvoriť zoznam známych vynaložených výstupov. &lt;br&gt;</translation>
+        <location filename="../pages/SharedRingDB.qml" line="122"/>
+        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Aby bolo možné skryť, ktoré vstupy v Monero transakcii sa vynakladajú, tretia strana by nemala vedieť, ktoré vstupy v okruhu sú už známe. Možnosť tak urobiť by oslabila ochranu poskytovanú okruhovými podpismi. Ak je už známe, že všetky vstupy sú už vynaložené, tak aktuálne vynakladaný vstup sa jasne identifikuje, čím sa zruší účinok okuhových podpisov, čo je jedna z troch hlavných vrstiev ochrany súkromia, ktoré Monero používa.&lt;br&gt;Pomôcť transakciám vyhnúť sa týmto vstupom môžete použiť zoznam známych vstupov, aby ste sa vyhli ich použitiu v nových transakciách. Takýto zoznam si udržiava projekt Monero a je k dispozícii na webovej stránke getmonero.org a tu môžete tento zoznam importovať.&lt;br&gt;Alternatívne môžete prehliadať blockchain (a blockchain Monero klonov, ktoré tiež používajú Monero kľúče) sami pomocou nástroja monero-blockchain-mark-spent-outputs a vytvoriť zoznam známych vynaložených výstupov. &lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="134"/>
+        <location filename="../pages/SharedRingDB.qml" line="143"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
         <translation>Toto nastavuje, ktoré výstupy sú známe ako vynaložené, a preto sa nemôžu používať ako zástupcovia ochrany súkromia v okruhových podpisoch. </translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="135"/>
+        <location filename="../pages/SharedRingDB.qml" line="144"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
         <translation>Ak chcete aktualizovať zoznam, stačí ho nahrať. Manuálne pridanie/odstránenie je možné v prípade potreby.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="147"/>
-        <source>Please choose a file to load blackballed outputs from</source>
+        <location filename="../pages/SharedRingDB.qml" line="156"/>
+        <source>Please choose a file from which to load outputs to mark as spent</source>
         <translation>Prosím vyberte súbor, z ktorého chcete načítať odmietnuté výstupy</translation>
     </message>
 <message>
@@ -1554,31 +1813,31 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Záznamy démona</translation>
 </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="163"/>
+        <location filename="../pages/SharedRingDB.qml" line="172"/>
         <source>Path to file</source>
         <translation>Cesta k súboru</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="165"/>
-        <source>Filename with outputs to blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="174"/>
+        <source>Filename with outputs to mark as spent</source>
         <translation>Názov súboru s výstupmi na odmietnutie</translation>
     </message>
 </context>
 <context>
     <name>SharedRingDB</name>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="178"/>
+        <location filename="../pages/SharedRingDB.qml" line="187"/>
         <source>Browse</source>
         <translation>Prehliadať</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="189"/>
+        <location filename="../pages/SharedRingDB.qml" line="198"/>
         <source>Load</source>
         <translation>Načítať</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="205"/>
-        <source>Or manually blackball/unblackball a single output:</source>
+        <location filename="../pages/SharedRingDB.qml" line="214"/>
+        <source>Or manually mark a single output as spent/unspent:</source>
         <translation>Alebo ručne odmietnite/povoľte jeden výstup:</translation>
     </message>
     <message>
@@ -1587,13 +1846,18 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Vložte verejný kľúč výstupu</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="218"/>
-        <source>Blackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="225"/>
+        <source>Paste output offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="238"/>
+        <source>Mark as spent</source>
         <translation>Odmietnuť</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="227"/>
-        <source>Unblackball</source>
+        <location filename="../pages/SharedRingDB.qml" line="247"/>
+        <source>Mark as unspent</source>
         <translation>Povoliť</translation>
     </message>
     <message>
@@ -1604,8 +1868,8 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="245"/>
-        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you do spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Aby sa zabránilo zrušeniu ochrany, ktorú poskytujú Loki okruhové podpisy, výstup by nemal byť vynaložený s rôznymi okruhmi na rôznych blockchain-och. Zatiaľ čo to zvyčajne nie je problém, môže sa ním stať, keď Loki klon používajúci Loki kľúče umožní vynaložiť existujúce výstupy. V tomto prípade musíte zabezpečiť, aby existujúce výstupy používali rovnaký okruh na oboch blockchain-ohc.&lt;br&gt;Toto sa bude robiť automaticky Loki softvérom a akýmkoľvek softvérom používajúcim Loki kľúče, ktorý sa nepokúša aktívne redukovať Vaše súkromie.&lt;br&gt;Ak používate aj Loki klon, používajúci Loki kľúče, a tento klon túto ochranu neobsahuje, stále môžete zabezpečiť bezpečnosť Vašich transakcií vynaložením najskôr na klone, a následne ručne pridali okruh na tejto stránke, čo Vám potom umožní vynaložiť Vaše Loki bezpečne.&lt;br&gt;Ak nepoužívate Loki klon bez týchto bezpečnostných funkcií, nemusíte nič robiť, pretože je všetko automatizované.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Loki&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Loki clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Loki and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Loki clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Loki safely.&lt;br&gt;If you do not use a key-reusing Loki clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Aby sme zabránili oslabeniu ochrany, ktorú Loki poskytuje svojimi kruhovými podpismi, výstup by nemal byť použitý s inými kruhmi na iných blockchainoch. Obvykle to nie je v našom záujme, ale môže byť pokiaľ nejaký Loki klon s opätovným použitím kľúčov (key-reusing) umožňuje minúť existujúci výstup. V takom prípade sa musíš uistiť aby tento existujúci výstup použil rovnaký okruh na oboch blockchainoch. &lt;br&gt; To urobí automaticky Loki a software, ktorý sa nesnaží odhaliť súkromie.&lt;br&gt; Ak používaš Loki klon s opätovným požitím kľúčov (key-reusing) a tento klon nezahŕňa takúto ochranu, stále môžeš zabezpečiť svoje transakcie tak, že najprv ich pošleš na klone a potom manuálne pridanám kruhu na tejto stránke, čo umožní poslať svoje Loki bezpečne.&lt;br&gt;Ak nepoužívaš Loki klon bez týchto bezpečnostných opatrení, potom nemusíš robiť nič, všetko sa spraví automaticky.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="267"/>
@@ -1613,37 +1877,37 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Tieto okruhy záznamov použité vynaloženými výstupmi na Loki klone, používajúcom Loki kľúče, aby sa rovnaké okruhy mohli znova použiť kvôli zamedzeniu problémov s ochranou súkromia.</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="278"/>
+        <location filename="../pages/SharedRingDB.qml" line="296"/>
         <source>Key image</source>
         <translation>Obraz kľúča</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="279"/>
+        <location filename="../pages/SharedRingDB.qml" line="297"/>
         <source>Paste key image</source>
         <translation>Vložte obraz kľúča</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="299"/>
+        <location filename="../pages/SharedRingDB.qml" line="317"/>
         <source>Get ring</source>
         <translation>Získajte okruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="311"/>
+        <location filename="../pages/SharedRingDB.qml" line="329"/>
         <source>Get Ring</source>
         <translation>Získajte okruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="317"/>
+        <location filename="../pages/SharedRingDB.qml" line="335"/>
         <source>No ring found</source>
         <translation>Okuh nenájdený</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="334"/>
+        <location filename="../pages/SharedRingDB.qml" line="352"/>
         <source>Set ring</source>
         <translation>Nastavte okruh</translation>
     </message>
     <message>
-        <location filename="../pages/SharedRingDB.qml" line="346"/>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
         <source>Set Ring</source>
         <translation>Nastavte okruh</translation>
     </message>
@@ -1708,6 +1972,26 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <location filename="../pages/SharedRingDB.qml" line="406"/>
         <source>Segregation Height</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="364"/>
+        <source>I intend to spend on key-reusing fork(s)</source>
+        <translation>Zamýšľam opätovné použitie kľúča na fork(y)</translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="396"/>
+        <source>I might want to spend on key-reusing fork(s)</source>
+        <translation>Možno budem chcieť použiť kľúč na fork(y)</translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="410"/>
+        <source>Relative</source>
+        <translation>Relatívny</translation>
+    </message>
+    <message>
+        <location filename="../pages/SharedRingDB.qml" line="426"/>
+        <source>Segregation height:</source>
+        <translation>Segregačná výška:</translation>
     </message>
 </context>
 <context>
@@ -2001,13 +2285,6 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     </message>
 </context>
 <context>
-    <name>TransactionHistoryModel</name>
-    <message>
-        <source>Primary address</source>
-        <translation type="vanished">Primárna adresa</translation>
-    </message>
-</context>
-<context>
     <name>Transfer</name>
     <message>
         <location filename="../pages/Transfer.qml" line="65"/>
@@ -2043,12 +2320,12 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Vyriešiť</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="46"/>
+        <location filename="../pages/Transfer.qml" line="49"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Spustiť démona&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="82"/>
+        <location filename="../pages/Transfer.qml" line="84"/>
         <source>Ring size: %1</source>
         <translation>Veľkosť okruhu: %1</translation>
     </message>
@@ -2068,12 +2345,12 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Normálny (x1 poplatok)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="253"/>
+        <location filename="../pages/Transfer.qml" line="205"/>
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
         <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Adresa &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Adresár&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="293"/>
+        <location filename="../pages/Transfer.qml" line="247"/>
         <source>No valid address found at this OpenAlias address</source>
         <translation>Na tejto adrese OpenAlias sa nenašla platná adresa</translation>
     </message>
@@ -2113,7 +2390,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Odoslať</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="429"/>
+        <location filename="../pages/Transfer.qml" line="389"/>
         <source>Advanced options</source>
         <translation>Pokročilé nastavenia</translation>
     </message>
@@ -2169,6 +2446,11 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #78BE20; font-size: 14px;}&lt;/style&gt;&lt;a href=&apos;#&apos;&gt; (Start Daemon)&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="191"/>
+        <source>Automatic</source>
+        <translation>Automaticky</translation>
+    </message>
 <message>
         <location filename="../pages/Transfer.qml" line="199"/>
         <source>Transaction Priority</source>
@@ -2194,6 +2476,16 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <source>Advanced Options</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="451"/>
+        <source>Export key images</source>
+        <translation>Exportuj obrázky kľúča</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="463"/>
+        <source>Import key images</source>
+        <translation>Importuj obrázky kľúča</translation>
+    </message>
 <message>
         <location filename="../pages/Transfer.qml" line="432"/>
         <source>Create TX File</source>
@@ -2212,7 +2504,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     <message>
         <location filename="../pages/Transfer.qml" line="488"/>
         <source>Can&apos;t load unsigned transaction: </source>
-        <translation>Nemožno načítať nepodpísané transakcie: </translation>
+        <translation>Neviem načítať nepodpísané transakcie: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="495"/>
@@ -2400,7 +2692,8 @@ V prípade odchádzajúcich platieb môžete získať  &apos;Dôkaz Vynaloženia
         <location filename="../pages/TxKey.qml" line="146"/>
         <source>Verify that funds were paid to an address by supplying the transaction ID, the recipient address, the message used for signing and the signature.
 For the case with Spend Proof, you don&apos;t need to specify the recipient address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Over či prostriedky boli zaplatené na adresu, ktorá korešponduje s ID transakcie, prijímateľovou adresou, správou a podpisom.
+V prípade Spend Proof, nie je potrebné špecifikovať prijímateľovu adresu.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="198"/>
@@ -2410,7 +2703,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
+        <translation>Vložiť dôkaz o transakcii (tx proof)</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="82"/>
@@ -2503,16 +2796,25 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 </message>
 </context>
 <context>
+    <name>WizardCreateWalletFromDevice</name>
+    <message>
+        <location filename="../wizard/WizardCreateWalletFromDevice.qml" line="112"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation>Vytvoriť novú peňaženku z harwarového zariadenia</translation>
+    </message>
+</context>
+<context>
     <name>WizardDaemonSettings</name>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="113"/>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
         <source>To be able to communicate with the Loki network your wallet needs to be connected to a Loki node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Na komunikáciu so sieťou Loki, bude potrebné aby peňaženka bola v spojení s uzlom Loki. Pre dosiahnutie maximálneho súkromia, doporučujeme spustiť svoj vlastný uzol. &lt;br&gt;&lt;br&gt;
+		Ak nie je možné spustiť svoj vlastný uzol, pripoj sa na vzdialený uzol.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="125"/>
         <source>Start a node automatically in background (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>Naštartuj uzol automaticky na pozadí (doporučené)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="146"/>
@@ -2526,7 +2828,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <source>Blockchain location</source>
-        <translation>Umiestnenie blockchain-u</translation>
+        <translation>Umiestnenie blockchain</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="157"/>
@@ -2534,9 +2836,14 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>(nepovinné)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="207"/>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="183"/>
+        <source>Bootstrap node (leave blank if not wanted)</source>
+        <translation>Zavádzací uzol (ak nechceš, nechaj prázdne)</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="210"/>
         <source>Connect to a remote node</source>
-        <translation type="unfinished"></translation>
+        <translation>Pripojiť na vzdialený uzol</translation>
     </message>
 </context>
 <context>
@@ -2601,12 +2908,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Stagenet</source>
-        <translation type="unfinished">Stagenet</translation>
+        <translation>Stagenet</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Mainnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Mainnet</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="67"/>
@@ -2646,7 +2953,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="79"/>
         <source>Network Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ siete</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="81"/>
@@ -2748,7 +3055,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="199"/>
         <source>From QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Z QR kódu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="237"/>
@@ -2771,7 +3078,22 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Obnoviť výšku (nepovinné)</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardManageWalletUI.qml" line="288"/>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="323"/>
+        <source>Subaddress lookahead (optional): &lt;major&gt;:&lt;minor&gt;</source>
+        <translation>Podadresa (nepovinné)&lt;major&gt;:&lt;minor&gt;</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="340"/>
+        <source>Device name</source>
+        <translation>Názov zariadenia</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="344"/>
+        <source>Ledger</source>
+        <translation>Ledger</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardManageWalletUI.qml" line="367"/>
         <source>Your wallet is stored in</source>
         <translation>Vaša peňaženka je uložená v</translation>
     </message>
@@ -2790,12 +3112,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="47"/>
         <source>Enter your 25 (or 24) word mnemonic seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlož svoj 25 (alebo  24) slovný mnemotechnický SEED</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="73"/>
         <source>Seed copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>SEED skopírovaný do schránky</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMemoTextInput.qml" line="106"/>
@@ -2810,7 +3132,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Vitajte v Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="86"/>
+        <location filename="../wizard/WizardOptions.qml" line="87"/>
         <source>Please select one of the following options:</source>
         <translation>Vyberte prosím jednu z nasledujúcich možností:</translation>
     </message>
@@ -2839,14 +3161,29 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Otvoriť peňaženku zo súboru</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="239"/>
+        <location filename="../wizard/WizardOptions.qml" line="273"/>
+        <source>Create a new wallet from hardware device</source>
+        <translation>Vytvoriť novú peňaženku z hardwarového zariadenia</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="290"/>
+        <source>Advanced options</source>
+        <translation>Pokročilé nastavenia</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="301"/>
+        <source>Mainnet</source>
+        <translation>Mainnet (hlavná sieť)</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardOptions.qml" line="322"/>
         <source>Testnet</source>
         <translation>Testnet</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="254"/>
         <source>Stagenet</source>
-        <translation type="unfinished">Stagenet</translation>
+        <translation>Stagenet (testovacia sieť)</translation>
     </message>
 </context>
 <context>
@@ -3083,11 +3420,36 @@ Ringsize: </translation>
         <translation type="unfinished">Zlý podpis</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="627"/>
+        <location filename="../main.qml" line="472"/>
+        <source>Waiting for daemon to sync</source>
+        <translation>Čakanie na sychronizáciu daemona</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="475"/>
+        <source>Daemon is synchronized (%1)</source>
+        <translation>Daemon je sychronizovaný (%1)</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="477"/>
+        <source>Wallet is synchronized</source>
+        <translation>Peňaženka je sychronizovaná</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="563"/>
+        <source>Daemon is synchronized</source>
+        <translation>Daemon je sychronizovaný </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="633"/>
+        <source>Address: </source>
+        <translation>Adresa: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="637"/>
         <source>
 Ringsize: </source>
-        <translation type="unfinished">
-Veľkosť okruhu: </translation>
+        <translation>
+Veľkosť kruhu: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="460"/>
@@ -3108,6 +3470,37 @@ Veľkosť okruhu: </translation>
         <location filename="../main.qml" line="550"/>
         <source>Daemon is synchronized</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="638"/>
+        <source>
+
+WARNING: non default ring size, which may harm your privacy. Default of 7 is recommended.</source>
+        <translation>
+		
+VAROVANIE: neštandardná veľkosť kruhu, môže narušiť súkromie. Predvolená a odporúčaná veľkosť je 7. </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="641"/>
+        <source>
+
+Number of transactions: </source>
+        <translation>
+		
+Počet transakcií: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="639"/>
+        <source>
+Description: </source>
+        <translation>Popis: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="641"/>
+        <source>
+Spending address index: </source>
+        <translation>
+Index míňacej adresy (spending): </translation>
     </message>
 <message>
         <location filename="../main.qml" line="596"/>
@@ -3148,8 +3541,31 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="856"/>
-        <location filename="../main.qml" line="875"/>
+        <location filename="../main.qml" line="799"/>
+        <source>Loki sent successfully: %1 transaction(s) </source>
+        <translation>úspešne odoslaných: %1 transakcií</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="827"/>
+        <source>Payment proof</source>
+        <translation>Doklad o zaplatení</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="830"/>
+        <source>Couldn&apos;t generate a proof because of the following reason: 
+</source>
+        <translation>Neviem vygenerovať dôkaz, možná príčina: 
+</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="860"/>
+        <location filename="../main.qml" line="880"/>
+        <source>Payment proof check</source>
+        <translation>Kontrola dôkazu o platbe</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="863"/>
+        <location filename="../main.qml" line="882"/>
         <source>Bad signature</source>
         <translation>Zlý podpis</translation>
     </message>
@@ -3217,7 +3633,7 @@ Description: </source>
     <message>
         <location filename="../main.qml" line="1745"/>
         <source>Tap again to close...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pre zatvorenie klikni znova...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1758"/>
@@ -3240,15 +3656,15 @@ Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1817"/>
+        <location filename="../main.qml" line="1819"/>
         <source>Daemon log</source>
-        <translation>Záznamy démona</translation>
+        <translation>Logy démona</translation>
     </message>
     <message>
         <location filename="../main.qml" line="349"/>
         <location filename="../main.qml" line="350"/>
         <source>HIDDEN</source>
-        <translation type="unfinished"></translation>
+        <translation>SKRYTÝ</translation>
     </message>
     <message>
         <source>
@@ -3309,7 +3725,7 @@ Popis: </translation>
         <translation>Prosím čakajte...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1282"/>
+        <location filename="../main.qml" line="1279"/>
         <source>Program setup wizard</source>
         <translation>Sprievodca nastavením programu</translation>
     </message>

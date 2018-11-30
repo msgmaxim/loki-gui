@@ -40,6 +40,8 @@ public:
 
     Q_ENUM(Direction)
 
+    bool isServiceNodeReward() const;
+    bool isMinerReward() const;
     Direction  direction() const;
     bool isPending() const;
     bool isFailed() const;

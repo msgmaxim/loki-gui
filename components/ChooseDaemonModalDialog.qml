@@ -43,6 +43,8 @@ Item {
     visible: false
     z: parent.z + 2
 
+    signal closeCallback()
+
     function open() {
         inactiveOverlay.visible = true // draw appwindow inactive
         leftPanel.enabled = false

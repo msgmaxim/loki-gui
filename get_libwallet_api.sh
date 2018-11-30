@@ -1,6 +1,5 @@
 #!/bin/bash
 LOKI_URL=https://github.com/loki-project/loki.git
-LOKI_BRANCH=master
 
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -16,8 +15,8 @@ if [ ! -d $LOKI_DIR/src ]; then
     git submodule init loki
 fi
 git submodule update --remote
-git -C $LOKI_DIR fetch
-# git -C $LOKI_DIR checkout v0.12.0.0
+# git -C $LOKI_DIR fetch
+git -C $LOKI_DIR checkout master
 
 # get loki core tag
 get_tag

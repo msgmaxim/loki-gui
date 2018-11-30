@@ -172,12 +172,18 @@ bool Wallet::store(const QString &path)
     return m_walletImpl->store(path.toStdString());
 }
 
-bool Wallet::init(const QString &daemonAddress, quint64 upperTransactionLimit, bool isRecovering, quint64 restoreHeight)
+bool Wallet::init(const QString &daemonAddress, quint64 upperTransactionLimit, bool isRecovering, bool isRecoveringFromDevice, quint64 restoreHeight)
 {
     qDebug() << "init non async";
     if (isRecovering){
         qDebug() << "RESTORING";
         m_walletImpl->setRecoveringFromSeed(true);
+    }
+    if (isRecoveringFromDevice){
+        qDebug() << "RESTORING FROM DEVICE";
+        m_walletImpl->setRecoveringFromDevice(true);
+    }
+    if (isRecovering || isRecoveringFromDevice) {
         m_walletImpl->setRefreshFromBlockHeight(restoreHeight);
     }
     m_walletImpl->init(daemonAddress.toStdString(), upperTransactionLimit, m_daemonUsername.toStdString(), m_daemonPassword.toStdString());
@@ -191,7 +197,7 @@ void Wallet::setDaemonLogin(const QString &daemonUsername, const QString &daemon
     m_daemonPassword = daemonPassword;
 }
 
-void Wallet::initAsync(const QString &daemonAddress, quint64 upperTransactionLimit, bool isRecovering, quint64 restoreHeight)
+void Wallet::initAsync(const QString &daemonAddress, quint64 upperTransactionLimit, bool isRecovering, bool isRecoveringFromDevice, quint64 restoreHeight)
 {
     qDebug() << "initAsync: " + daemonAddress;
     // Change status to disconnected if connected
@@ -201,7 +207,7 @@ void Wallet::initAsync(const QString &daemonAddress, quint64 upperTransactionLim
     }
 
     QFuture<bool> future = QtConcurrent::run(this, &Wallet::init,
-                                  daemonAddress, upperTransactionLimit, isRecovering, restoreHeight);
+                                  daemonAddress, upperTransactionLimit, isRecovering, isRecoveringFromDevice, restoreHeight);
     QFutureWatcher<bool> * watcher = new QFutureWatcher<bool>();
 
     connect(watcher, &QFutureWatcher<bool>::finished,
@@ -409,6 +415,30 @@ void Wallet::createTransactionAsync(const QString &dst_addr, const QString &paym
         emit transactionCreated(future.result(),dst_addr,payment_id,mixin_count);
     });
     watcher->setFuture(future);
+}
+
+Q_INVOKABLE void Wallet::stake(const QString& sn_key_str, const QString& address, const QString& amount)
+{
+
+    QFuture<Monero::PendingTransaction*> future = QtConcurrent::run([this, &sn_key_str, &address, &amount] () {
+        return m_walletImpl->stakePending(sn_key_str.toStdString(), address.toStdString(), amount.toStdString());
+    });
+
+    QFutureWatcher<Monero::PendingTransaction*> * watcher = new QFutureWatcher<Monero::PendingTransaction*>();
+
+    connect(watcher, &QFutureWatcher<PendingTransaction*>::finished, [this, watcher, &address]() {
+        QFuture<Monero::PendingTransaction*> future = watcher->future();
+        watcher->deleteLater();
+
+        Monero::PendingTransaction* tx = future.result();
+        if (!tx) return;
+
+        /// Who is responsible for cleaning this up?
+        PendingTransaction* pending_tx = new PendingTransaction(tx);
+        emit stakeTxCreated(pending_tx, address);
+    });
+    watcher->setFuture(future);
+
 }
 
 PendingTransaction *Wallet::createTransactionAll(const QString &dst_addr, const QString &payment_id,
@@ -732,11 +762,9 @@ QString Wallet::getDaemonLogPath() const
     return QString::fromStdString(m_walletImpl->getDefaultDataDir()) + "/loki.log";
 }
 
-bool Wallet::blackballOutput(const QString &pubkey)
+bool Wallet::blackballOutput(const QString &amount, const QString &offset)
 {
-    QList<QString> list;
-    list.push_back(pubkey);
-    return blackballOutputs(list, true);
+    return m_walletImpl->blackballOutput(amount.toStdString(), offset.toStdString());
 }
 
 bool Wallet::blackballOutputs(const QList<QString> &pubkeys, bool add)
@@ -769,9 +797,9 @@ bool Wallet::blackballOutputs(const QString &filename, bool add)
     }
 }
 
-bool Wallet::unblackballOutput(const QString &pubkey)
+bool Wallet::unblackballOutput(const QString &amount, const QString &offset)
 {
-    return m_walletImpl->unblackballOutput(pubkey.toStdString());
+    return m_walletImpl->unblackballOutput(amount.toStdString(), offset.toStdString());
 }
 
 QString Wallet::getRing(const QString &key_image)

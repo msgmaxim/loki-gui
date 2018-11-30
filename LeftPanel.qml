@@ -53,6 +53,7 @@ Rectangle {
     signal transferClicked()
     signal receiveClicked()
     signal txkeyClicked()
+    signal serviceNodeClicked()
     signal sharedringdbClicked()
     signal settingsClicked()
     signal addressBookClicked()
@@ -69,10 +70,12 @@ Rectangle {
         else if(pos === "AddressBook") menuColumn.previousButton = addressBookButton
         else if(pos === "Mining") menuColumn.previousButton = miningButton
         else if(pos === "TxKey")  menuColumn.previousButton = txkeyButton
+        else if(pos === "ServiceNode")  menuColumn.previousButton = serviceNodeButton
         else if(pos === "SharedRingDB")  menuColumn.previousButton = sharedringdbButton
         else if(pos === "Sign") menuColumn.previousButton = signButton
         else if(pos === "Settings") menuColumn.previousButton = settingsButton
         else if(pos === "Advanced") menuColumn.previousButton = advancedButton
+        else if(pos === "Keys") menuColumn.previousButton = keysButton
 
         menuColumn.previousButton.checked = true
     }
@@ -96,7 +99,7 @@ Rectangle {
         visible: true
         z: 2
         id: column1
-        height: 200
+        height: 210
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: parent.top
@@ -247,18 +250,16 @@ Rectangle {
         anchors.right: parent.right
         anchors.bottom: parent.bottom
         anchors.top: (isMobile)? parent.top : column1.bottom
-        anchors.topMargin: (isMobile)? 0 : 32
         color: "transparent"
 
 
         Flickable {
             id:flicker
-            contentHeight: (progressBar.visible)? menuColumn.height + separator.height + 
-                networkStatus.height + progressBar.height + daemonProgressBar.height : 
-                menuColumn.height + separator.height + networkStatus.height
-            anchors.fill: parent
+            contentHeight: menuColumn.height
+            anchors.top: parent.top
+            anchors.bottom: networkStatus.top
+            width: parent.width
             clip: true
-
 
         Column {
 
@@ -473,6 +474,31 @@ Rectangle {
                 color: "#313131"
                 height: 1
             }
+
+            // ------------- Service Node tab ----------------
+            MenuButton {
+                id: serviceNodeButton
+                anchors.left: parent.left
+                anchors.right: parent.right
+                text: qsTr("Service Node") + translationManager.emptyString
+                symbol: qsTr("K") + translationManager.emptyString
+                dotColor: "#FFD781"
+                under: advancedButton
+                onClicked: {
+                    parent.previousButton.checked = false
+                    parent.previousButton = serviceNodeButton
+                    panel.serviceNodeClicked()
+                }
+            }
+            Rectangle {
+                visible: true
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.leftMargin: 16
+                color: "#313131"
+                height: 1
+            }
+
             // ------------- Shared RingDB tab ---------------
             MenuButton {
                 id: sharedringdbButton

@@ -49,8 +49,8 @@ ColumnLayout {
 
 
     function onPageOpened(settingsObject) {
-        localNode.checked  = true;
-        remoteNode.checked = false;
+        localNode.checked  = false;
+        remoteNode.checked = true;
     }
     function onWizardRestarted(){
     }
@@ -125,6 +125,19 @@ ColumnLayout {
         }
 
         RadioButton {
+            id: remoteNode
+            text: qsTr("Connect to a remote node\n(Recommended, fast but less private)") + translationManager.emptyString
+            Layout.topMargin: 20 * scaleRatio
+            fontColor: Style.defaultFontColor
+            fontSize: 16 * scaleRatio
+            checked: appWindow.persistentSettings.useRemoteNode
+            onClicked: {
+                checked = true
+                localNode.checked = false
+            }
+        }
+
+        RadioButton {
             id: localNode
             text: qsTr("Start a node automatically in background or use an already running local node\n(Downloads blockchain, slow but private)") + translationManager.emptyString
             fontColor: Style.defaultFontColor
@@ -137,18 +150,6 @@ ColumnLayout {
             }
         }
 
-        RadioButton {
-            id: remoteNode
-            text: qsTr("Connect to a remote node\n(Recommended, fast but less private)") + translationManager.emptyString
-            Layout.topMargin: 20 * scaleRatio
-            fontColor: Style.defaultFontColor
-            fontSize: 16 * scaleRatio
-            checked: appWindow.persistentSettings.useRemoteNode
-            onClicked: {
-                checked = true
-                localNode.checked = false
-            }
-        }
     }
 
 

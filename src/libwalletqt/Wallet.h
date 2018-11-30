@@ -111,10 +111,10 @@ public:
     Q_INVOKABLE bool store(const QString &path = "");
 
     //! initializes wallet
-    Q_INVOKABLE bool init(const QString &daemonAddress, quint64 upperTransactionLimit = 0, bool isRecovering = false, quint64 restoreHeight = 0);
+    Q_INVOKABLE bool init(const QString &daemonAddress, quint64 upperTransactionLimit = 0, bool isRecovering = false, bool isRecoveringFromDevice = false, quint64 restoreHeight = 0);
 
     //! initializes wallet asynchronously
-    Q_INVOKABLE void initAsync(const QString &daemonAddress, quint64 upperTransactionLimit = 0, bool isRecovering = false, quint64 restoreHeight = 0);
+    Q_INVOKABLE void initAsync(const QString &daemonAddress, quint64 upperTransactionLimit = 0, bool isRecovering = false, bool isRecoveringFromDevice = false, quint64 restoreHeight = 0);
 
     // Set daemon rpc user/pass
     Q_INVOKABLE void setDaemonLogin(const QString &daemonUsername = "", const QString &daemonPassword = "");
@@ -188,6 +188,9 @@ public:
     Q_INVOKABLE void createTransactionAsync(const QString &dst_addr, const QString &payment_id,
                                             quint64 amount, quint32 mixin_count,
                                             PendingTransaction::Priority priority);
+
+    //! stakes to a service node
+    Q_INVOKABLE void stake(const QString& sn_key, const QString& address, const QString& amount);
 
     //! creates transaction with all outputs
     Q_INVOKABLE PendingTransaction * createTransactionAll(const QString &dst_addr, const QString &payment_id,
@@ -281,10 +284,10 @@ public:
     QString getWalletLogPath() const;
 
     // Blackalled outputs
-    Q_INVOKABLE bool blackballOutput(const QString &pubkey);
-    Q_INVOKABLE bool blackballOutputs(const QList<QString> &pubkeys, bool add);
+    Q_INVOKABLE bool blackballOutput(const QString &amount, const QString &offset);
+    Q_INVOKABLE bool blackballOutputs(const QList<QString> &outputs, bool add);
     Q_INVOKABLE bool blackballOutputs(const QString &filename, bool add);
-    Q_INVOKABLE bool unblackballOutput(const QString &pubkey);
+    Q_INVOKABLE bool unblackballOutput(const QString &amount, const QString &offset);
 
     // Rings
     Q_INVOKABLE QString getRing(const QString &key_image);
@@ -315,6 +318,8 @@ signals:
 
     // emitted when transaction is created async
     void transactionCreated(PendingTransaction * transaction, QString address, QString paymentId, quint32 mixinCount);
+
+    void stakeTxCreated(PendingTransaction* pending_tx, QString address);
 
     void connectionStatusChanged(ConnectionStatus status) const;
 

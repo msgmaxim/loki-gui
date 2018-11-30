@@ -58,6 +58,16 @@ ListView {
             + translationManager.emptyString;
     }
 
+    function getColorFromRewardType(isServiceNodeReward, isMinerReward) {
+        if (isServiceNodeReward) {
+            return "#cccc00";
+        } else if (isMinerReward) {
+            return "#ff9900";
+        } else {
+            return "#2eb358";
+        }
+    }
+
     function lookupPaymentID(paymentId) {
         if (!addressBookModel)
             return ""
@@ -152,7 +162,17 @@ ListView {
                 anchors.leftMargin: 18 * scaleRatio
                 font.family: LokiComponents.Style.fontLight.name
                 font.pixelSize: 14 * scaleRatio
-                text: isOut ? "Sent" : "Received"
+                text: {
+                  let base = isOut ? qsTr("Sent") : qsTr("Received");
+
+                  if (isServiceNodeReward) {
+                      base += qsTr(" (service node reward)");
+                  } else if (isMinerReward) {
+                      base += qsTr(" (miner reward)");
+                  }
+
+                  return base + translationManager.emptyString;
+                }
                 color: "#808080"
             }
 
@@ -174,9 +194,9 @@ ListView {
                         _amount = (_amount *1);
                     }
 
-                    return _amount + " LOK";
+                    return _amount + " LOKI";
                 }
-                color: isOut ? "white" : "#2eb358"
+                color: isOut ? "white" : getColorFromRewardType(isServiceNodeReward, isMinerReward)
             }
 
             Rectangle {
@@ -219,7 +239,7 @@ ListView {
                             address = TxUtils.destinationsToAddress(destinations);
                             if(address){
                                 var truncated = TxUtils.addressTruncate(address);
-                                return "To " + truncated;
+                                return qsTr("To ") + translationManager.emptyString + truncated;
                             } else {
                                 return "Unknown recipient";
                             }
@@ -294,7 +314,7 @@ ListView {
                 anchors.left: parent.left
                 anchors.leftMargin: 30 * scaleRatio
 
-                labelHeader: "Transaction ID"
+                labelHeader: qsTr("Transaction ID") + translationManager.emptyString
                 labelValue: hash.substring(0, 18) + "..."
                 copyValue: hash
             }
@@ -312,7 +332,7 @@ ListView {
                     if(!isOut && !fee){
                         return "-";
                     } else if(isOut && fee){
-                        return fee + " LOK";
+                        return fee + " LOKI";
                     } else {
                         return "Unknown"
                     }
