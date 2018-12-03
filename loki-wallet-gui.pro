@@ -297,6 +297,8 @@ linux {
         -llmdb \
         -lsodium \
         -lhidapi-libusb \
+        -lusb-1.0 \
+        -ludev \
         -lcrypto
 
     if(!android) {
@@ -313,7 +315,7 @@ linux {
         LIBS += -Wl,-Bdynamic -lunwind
     }
 
-    QMAKE_LFLAGS += -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack
+    QMAKE_LFLAGS += -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack,--start-group
 }
 
 macx {
