@@ -99,6 +99,8 @@ The executable can be found in the build/release/bin folder.
 
   `brew install zeromq`
 
+  `brew install hidapi`
+
   *Note*: If cmake can not find zmq.hpp file on OS X, installing `zmq.hpp` from https://github.com/zeromq/cppzmq to `/usr/local/include` should fix that error.
 
 4. Install Qt:
