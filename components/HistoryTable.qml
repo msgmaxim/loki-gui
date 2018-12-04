@@ -163,7 +163,7 @@ ListView {
                 font.family: LokiComponents.Style.fontLight.name
                 font.pixelSize: 14 * scaleRatio
                 text: {
-                  let base = isOut ? qsTr("Sent") : qsTr("Received");
+                  var base = isOut ? qsTr("Sent") : qsTr("Received");
 
                   if (isServiceNodeReward) {
                       base += qsTr(" (service node reward)");
