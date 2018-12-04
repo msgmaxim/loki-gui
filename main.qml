@@ -663,7 +663,7 @@ ApplicationWindow {
 
     function makeStakeConfirmationPopup(tx, address) {
 
-        let popup = transactionConfirmationPopup;
+        var popup = transactionConfirmationPopup;
 
         popup.title = qsTr("Please Confirm Staking Transaction:\n") + translationManager.emptyString;
         popup.icon = StandardIcon.Question
