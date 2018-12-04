@@ -272,9 +272,10 @@ linux {
         message("using static libraries")
         LIBS+= -Wl,-Bstatic    
         QMAKE_LFLAGS += -static-libgcc -static-libstdc++
-   #     contains(QT_ARCH, x86_64) {
-            LIBS+= -lunbound
-   #     }
+        LIBS+= \
+            -lusb-1.0 \
+            -lunbound \
+            -ludev \
     } else {
       # On some distro's we need to add dynload
       LIBS+= -ldl
@@ -297,6 +298,8 @@ linux {
         -llmdb \
         -lsodium \
         -lhidapi-libusb \
+        -lusb-1.0 \
+        -ludev \
         -lcrypto
 
     if(!android) {
@@ -313,7 +316,7 @@ linux {
         LIBS += -Wl,-Bdynamic -lunwind
     }
 
-    QMAKE_LFLAGS += -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack
+    QMAKE_LFLAGS += -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack,--start-group
 }
 
 macx {

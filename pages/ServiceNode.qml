@@ -133,9 +133,9 @@ Rectangle {
                       return false;
                   }
 
-                  let address_ok = walletManager.addressValid(getRewardAddress.text, appWindow.persistentSettings.nettype);
+                  var address_ok = walletManager.addressValid(getRewardAddress.text, appWindow.persistentSettings.nettype);
 
-                  let sn_pub_key = walletManager.serviceNodePubkeyValid(getServiceNodeKey.text);
+                  var sn_pub_key = walletManager.serviceNodePubkeyValid(getServiceNodeKey.text);
 
                   if (!address_ok || !sn_pub_key) return false;
 
