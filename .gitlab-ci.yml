@@ -1,0 +1,11 @@
+build:mac:
+  tags:
+    - osx
+  script:
+    - echo "QMAKE_LFLAGS += -mmacosx-version-min=10.10 -isysroot /Developer/SDKs/MacOSX10.10.sdk" >> loki-wallet-gui.pro
+    - export MACOSX_DEPLOYMENT_TARGET=10.10
+    - ./build.sh release-static
+    - cp loki/bin/lokid build/release/bin
+  artifacts:
+    paths:
+      - "build/release/bin"
