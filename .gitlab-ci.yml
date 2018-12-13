@@ -9,3 +9,13 @@ build:mac:
   artifacts:
     paths:
       - "build/release/bin"
+build:linux:
+  image: registry.gitlab.com/lokiproject/loki-gui-testing:latest
+  tags:
+    - ubuntu
+  stage: build
+  script:
+    - export USE_SINGLE_BUILDDIR=1
+    - rm -rf build
+    - ./build.sh release-static
+    - cd build && make deploy
