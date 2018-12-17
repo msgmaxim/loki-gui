@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 BUILD_TYPE=$1
 source ./utils.sh
 platform=$(get_platform)
@@ -121,3 +123,7 @@ make deploy
 popd
 
 cp loki_default_settings.ini build/$BIN_PATH/loki.ini
+
+if [ "$platform" == "darwin" ]; then
+    otool -l build/$BIN_PATH/loki-wallet-gui | grep sdk
+fi
