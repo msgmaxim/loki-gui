@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 LOKI_URL=https://github.com/loki-project/loki.git
 
 pushd $(pwd)
@@ -25,27 +28,6 @@ git -C $LOKI_DIR checkout -B $VERSIONTAG
 
 git -C $LOKI_DIR submodule init
 git -C $LOKI_DIR submodule update
-
-# Merge loki PR dependencies
-
-# Workaround for git username requirements
-# Save current user settings and revert back when we are done with merging PR's
-OLD_GIT_USER=$(git -C $LOKI_DIR config --local user.name)
-OLD_GIT_EMAIL=$(git -C $LOKI_DIR config --local user.email)
-git -C $LOKI_DIR config user.name "Loki GUI"
-git -C $LOKI_DIR config user.email "gui@loki.local"
-# check for PR requirements in most recent commit message (i.e requires #xxxx)
-for PR in $(git log --format=%B -n 1 | grep -io "requires #[0-9]*" | sed 's/[^0-9]*//g'); do
-    echo "Merging loki push request #$PR"
-    # fetch pull request and merge
-    git -C $LOKI_DIR fetch origin pull/$PR/head:PR-$PR
-    git -C $LOKI_DIR merge --quiet PR-$PR  -m "Merge loki PR #$PR"
-    BUILD_LIBWALLET=true
-done
-
-# revert back to old git config
-$(git -C $LOKI_DIR config user.name "$OLD_GIT_USER")
-$(git -C $LOKI_DIR config user.email "$OLD_GIT_EMAIL")
 
 # Build libwallet if it doesnt exist
 if [ ! -f $LOKI_DIR/lib/libwallet_merged.a ]; then 
@@ -75,7 +57,7 @@ fi
 
 if [ "$BUILD_LIBWALLET" != true ]; then
     # exit this script
-    return
+    exit
 fi
 
 echo "GUI_LOKI_VERSION=\"$VERSIONTAG\"" > $LOKI_DIR/version.sh
@@ -150,7 +132,7 @@ elif [ "$platform" == "linux64" ]; then
         echo "Configuring build for Android on Linux host"
         cmake -D CMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -D STATIC=ON -D ARCH="armv7-a" -D ANDROID=true -D BUILD_GUI_DEPS=ON -D USE_LTO=OFF -D INSTALL_VENDORED_LIBUNBOUND=ON -D CMAKE_INSTALL_PREFIX="$LOKI_DIR"  ../..
     elif [ "$STATIC" == true ]; then
-        cmake -D CMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -D STATIC=ON -D ARCH="x86-64" -D BUILD_64=ON -D BUILD_GUI_DEPS=ON -D INSTALL_VENDORED_LIBUNBOUND=ON -D CMAKE_INSTALL_PREFIX="$LOKI_DIR" -D CMAKE_PREFIX_PATH=$OPENSSL_ROOT_DIR -D PCSC_LIBRARY=$PCSC_LIBRARY -D PCSC_INCLUDE_DIR=$PCSC_INCLUDE_DIR -D Termcap_LIBRARY=$Termcap_LIBRARY -D Readline_ROOT_DIR=$Readline_ROOT_DIR -D ZMQ_LIB=$ZMQ_LIBRARY -D ZMQ_INCLUDE_PATH=$ZMQ_INCLUDE_PATH ../..
+        cmake -D CMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -D STATIC=ON -D ARCH="x86-64" -D BUILD_64=ON -D BUILD_GUI_DEPS=ON -D INSTALL_VENDORED_LIBUNBOUND=ON -D CMAKE_INSTALL_PREFIX="$LOKI_DIR" ../..
     else
         cmake -D CMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -D BUILD_GUI_DEPS=ON -D CMAKE_INSTALL_PREFIX="$LOKI_DIR"  ../..
     fi
