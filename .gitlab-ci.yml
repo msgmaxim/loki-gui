@@ -27,3 +27,18 @@ build:linux:
     - rm -rf build
     - ./build.sh release-static
     - cd build && make deploy
+  artifacts:
+    paths:
+      - "build/release/bin"
+build:windows:
+  tags:
+    - windows
+  stage: build
+  script:
+    - export USE_SINGLE_BUILDDIR=1
+    - ./build.sh release-static
+    - mkdir deploy-artifacts
+    - ./windeploy_helper.sh build/release/bin Release
+  artifacts:
+    paths:
+      - "build/release/bin"

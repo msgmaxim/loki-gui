@@ -26,6 +26,11 @@ find_command() {
     return 1
 }
 
+if ! QMAKE=$(find_command qmake qmake-qt5); then
+    echo "Failed to find suitable qmake command."
+    exit 1
+fi
+
 if [ "$BUILD_TYPE" == "release" ]; then
     echo "Building release"
     CONFIG="CONFIG+=release";
@@ -107,10 +112,6 @@ popd
 echo "var GUI_LOKI_VERSION = \"$TAGNAME\"" >> version.js
 
 cd build
-if ! QMAKE=$(find_command qmake qmake-qt5); then
-    echo "Failed to find suitable qmake command."
-    exit 1
-fi
 $QMAKE ../loki-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
