@@ -13,20 +13,13 @@ INSTALL_DIR=$ROOT_DIR/wallet
 LOKI_DIR=$ROOT_DIR/loki
 BUILD_LIBWALLET=false
 
-# init and update loki submodule
-git submodule init loki
-git submodule update --remote
+git submodule update --init --remote
 git -C $LOKI_DIR checkout master
+git -C $LOKI_DIR submodule update --init
 
 # get loki core tag
 git fetch --tags --force
 get_tag
-
-# create local loki branch, delete old release branch if it exists so we don't build a cached version
-git -C $LOKI_DIR branch -D release
-git -C $LOKI_DIR checkout -B $VERSIONTAG
-git -C $LOKI_DIR submodule init
-git -C $LOKI_DIR submodule update --recursive
 
 # Build libwallet if it doesnt exist
 if [ ! -f $LOKI_DIR/lib/libwallet_merged.a ]; then 
