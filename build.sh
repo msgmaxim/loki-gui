@@ -104,8 +104,10 @@ elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
 fi
 
 # force version update
+git fetch --tags --force
 get_tag
 echo "var GUI_VERSION = \"$TAGNAME\"" > version.js
+
 pushd "$LOKI_DIR"
 get_tag
 popd
