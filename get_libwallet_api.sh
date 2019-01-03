@@ -14,7 +14,7 @@ LOKI_DIR=$ROOT_DIR/loki
 BUILD_LIBWALLET=false
 
 git submodule update --init --remote
-git -C $LOKI_DIR checkout master
+# git -C $LOKI_DIR checkout master
 git -C $LOKI_DIR submodule update --init
 
 # get loki core tag
