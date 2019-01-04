@@ -53,23 +53,13 @@ Rectangle {
         anchors.top: parent.top
         anchors.right: parent.right
 
-        spacing: 20 * scaleRatio
+        spacing: 40 * scaleRatio
         property int labelWidth: 120
         property int editWidth: 400
 
-        Label {
-            id: signTitleLabel
+        LabelHeader {
             fontSize: 24 * scaleRatio
-            text: qsTr("Service Node") + translationManager.emptyString
-        }
-
-        Text {
-            text: qsTr("This page allows you to create a Service Node, or to stake to an existing Service Node") + translationManager.emptyString
-            wrapMode: Text.Wrap
-            Layout.fillWidth: true
-            font.family: Style.fontRegular.name
-            font.pixelSize: 14 * scaleRatio
-            color: Style.defaultFontColor
+            text: qsTr("Stake to Existing Service Node") + translationManager.emptyString
         }
 
         /// TODO: draw red borders when service node key is invalid
@@ -83,24 +73,26 @@ Rectangle {
             copyButton: true
         }
 
-        LineEditMulti {
-            labelText: qsTr("Award Recepient's Address") + translationManager.emptyString
-            id: getRewardAddress
-            fontSize: 16 * scaleRatio
-            placeholderText: qsTr("Paste Address") + translationManager.emptyString
-            readOnly: false
-            wrapMode: Text.WrapAnywhere
-            text: wallet_address;
-            Layout.fillWidth: true
-            addressValidation: true
-            copyButton: true
-        }
+        ColumnLayout {
+            LineEditMulti {
+                labelText: qsTr("Award Recepient's Address") + translationManager.emptyString
+                id: getRewardAddress
+                fontSize: 16 * scaleRatio
+                placeholderText: qsTr("Paste Address") + translationManager.emptyString
+                readOnly: false
+                wrapMode: Text.WrapAnywhere
+                text: wallet_address;
+                Layout.fillWidth: true
+                addressValidation: true
+                copyButton: true
+            }
 
-        Text {
-            property bool owned: { wallet_address != "" && getRewardAddress.text == wallet_address }
-            text: { owned ? "(yours)" : "(not yours)"}
-            color: owned ? Style.defaultFontColor : Style.dangerColor
-            Layout.alignment: Qt.AlignRight
+            Text {
+                property bool owned: { wallet_address != "" && getRewardAddress.text == wallet_address }
+                text: { owned ? "(yours)" : "(not yours)"}
+                color: owned ? Style.defaultFontColor : Style.dangerColor
+                Layout.alignment: Qt.AlignRight
+            }
         }
 
         LineEdit {
@@ -110,6 +102,7 @@ Rectangle {
             placeholderText: qsTr("Paste Amount") + translationManager.emptyString
             readOnly: false
             Layout.fillWidth: true
+            Layout.topMargin: -30 * scaleRatio
             copyButton: true
             fontBold: true
             validator: RegExpValidator {
@@ -119,7 +112,6 @@ Rectangle {
 
         StandardButton {
               id: stakeButton
-              Layout.topMargin: 4 * scaleRatio
               Layout.minimumWidth: 60
               text: qsTr("Stake") + translationManager.emptyString
               enabled: {
