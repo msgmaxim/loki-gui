@@ -53,11 +53,14 @@ RowLayout {
     RowLayout {
         Layout.fillWidth: true
 
-        Rectangle{
-            height: label.height
-            width: (label.width + indicatorRect.width + checkBox.textMargin)
-            color: "transparent"
-            anchors.left: parent.left
+        MouseArea {
+            hoverEnabled: true
+            cursorShape: Qt.PointingHandCursor
+            width: childrenRect.width
+            height: childrenRect.height
+            onClicked: {
+                toggle();
+            }
 
             Text {
                 id: label
@@ -89,15 +92,6 @@ RowLayout {
                     source: indicatorImage
                     color: "#FF000000"
                     visible: darkDropIndicator
-                }
-            }
-
-            MouseArea{
-                anchors.fill: parent
-                hoverEnabled: true
-                cursorShape: Qt.PointingHandCursor
-                onClicked: {
-                    toggle();
                 }
             }
         }

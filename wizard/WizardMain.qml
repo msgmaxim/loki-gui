@@ -327,9 +327,8 @@ ColumnLayout {
     Rectangle {
         id: prevButton
         anchors.verticalCenter: wizard.verticalCenter
-        anchors.left: parent.left
-        anchors.leftMargin: isMobile ?  20 :  50
-        anchors.bottomMargin: isMobile ?  20 * scaleRatio :  50
+        Layout.leftMargin: isMobile ?  20 :  50
+        Layout.bottomMargin: isMobile ?  20 * scaleRatio :  50
         visible: parent.currentPage > 0
 
         width: 50 * scaleRatio; height: 50 * scaleRatio

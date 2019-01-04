@@ -230,7 +230,7 @@ Rectangle {
 
       StandardButton {
           id: resolveButton
-          anchors.left: parent.left
+          Layout.alignment: Qt.AlignLeft
           width: 80
           text: qsTr("Resolve") + translationManager.emptyString
           visible: isValidOpenAliasAddress(addressLine.text)

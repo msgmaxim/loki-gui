@@ -458,8 +458,6 @@ Rectangle{
             anchors.margins: 0
             spacing: 20 * scaleRatio
             Layout.topMargin: 40
-            anchors.left: parent.left
-            anchors.right: parent.right
             visible: !isMobile && !persistentSettings.useRemoteNode
 
             RowLayout {

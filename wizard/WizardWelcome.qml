@@ -125,44 +125,46 @@ ColumnLayout {
 
             clip: true
 
-            delegate: ColumnLayout {
-                id: flagDelegate
-                width: gridView.cellWidth
-                Rectangle {
-                    id: flagRect
-                    width: 60 * scaleRatio; height: 60 * scaleRatio
-                    radius: 30 * scaleRatio
-                    Layout.alignment: Qt.AlignHCenter
-                    color: gridView.currentIndex === index ? "#DBDBDB" : "#FFFFFF"
-                    Image {
-                        anchors.fill: parent
-                        source: flag
+            delegate: MouseArea {
+                id: delegateArea
+                onClicked:  {
+                    gridView.currentIndex = index
+                    var data = languagesModel.get(gridView.currentIndex);
+                    if (data !== null || data !== undefined) {
+                        var locale = data.locale
+                        translationManager.setLanguage(locale.split("_")[0]);
+                        wizard.switchPage(true)
                     }
                 }
+                width:  childrenRect.width
+                height: childrenRect.height
 
-                Text {
-                    font.family: "Arial"
-                    font.pixelSize: 18 * scaleRatio
-                    font.bold: gridView.currentIndex === index
-                    color: Style.defaultFontColor
-                    text: display_name
-                    Layout.alignment: Qt.AlignHCenter
-                }
-
-                MouseArea {
-                    id: delegateArea
-                    anchors.fill: parent
-                    onClicked:  {
-                        gridView.currentIndex = index
-                        var data = languagesModel.get(gridView.currentIndex);
-                        if (data !== null || data !== undefined) {
-                            var locale = data.locale
-                            translationManager.setLanguage(locale.split("_")[0]);
-                            wizard.switchPage(true)
+                ColumnLayout {
+                    id: flagDelegate
+                    width: gridView.cellWidth
+                    Rectangle {
+                        id: flagRect
+                        width: 60 * scaleRatio; height: 60 * scaleRatio
+                        radius: 30 * scaleRatio
+                        Layout.alignment: Qt.AlignHCenter
+                        color: gridView.currentIndex === index ? "#DBDBDB" : "#FFFFFF"
+                        Image {
+                            anchors.fill: parent
+                            source: flag
                         }
                     }
+
+                    Text {
+                        font.family: "Arial"
+                        font.pixelSize: 18 * scaleRatio
+                        font.bold: gridView.currentIndex === index
+                        color: Style.defaultFontColor
+                        text: display_name
+                        Layout.alignment: Qt.AlignHCenter
+                    }
+
                 }
-            } // delegate
+            }
         }
     }
 }

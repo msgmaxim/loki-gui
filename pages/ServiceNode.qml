@@ -38,6 +38,7 @@ import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property alias panelHeight: mainLayout.height
+    property string wallet_address: { appWindow.currentWallet ? appWindow.currentWallet.address(0, 0) : "" }
     color: "transparent"
 
     Clipboard { id: clipboard }
@@ -89,17 +90,17 @@ Rectangle {
             placeholderText: qsTr("Paste Address") + translationManager.emptyString
             readOnly: false
             wrapMode: Text.WrapAnywhere
-            text: appWindow.currentWallet.address(0, 0);
+            text: wallet_address;
             Layout.fillWidth: true
             addressValidation: true
             copyButton: true
         }
 
         Text {
-            property bool owned: { getRewardAddress.text == appWindow.currentWallet.address(0, 0) }
+            property bool owned: { wallet_address != "" && getRewardAddress.text == wallet_address }
             text: { owned ? "(yours)" : "(not yours)"}
             color: owned ? Style.defaultFontColor : Style.dangerColor
-            anchors.right: parent.right
+            Layout.alignment: Qt.AlignRight
         }
 
         LineEdit {

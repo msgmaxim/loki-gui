@@ -48,53 +48,46 @@ RowLayout {
         radioButton.clicked()
     }
 
-    RowLayout {
-        Layout.fillWidth: true
-        Rectangle {
-            id: button
-            anchors.left: parent.left
-            y: 0
-            color: "transparent"
-            border.color: borderColor
-            width: radioButton.height
-            height: radioButton.height
-            radius: radioButton.height
-
-            Rectangle {
-                visible: radioButton.checked
-                anchors.horizontalCenter: parent.horizontalCenter
-                anchors.verticalCenter: parent.verticalCenter
-                color: checkedColor
-                width: 10 * scaleRatio
-                height: 10 * scaleRatio
-                radius: 10
-                opacity: 0.8
-            }
-
-            MouseArea {
-                anchors.fill: parent
-                cursorShape: Qt.PointingHandCursor
-                onClicked: {
-                    toggle()
-                }
-            }
+    MouseArea {
+        cursorShape: Qt.PointingHandCursor
+        onClicked: {
+            toggle()
         }
+        width:  childrenRect.width
+        height: childrenRect.height
 
-        Text {
-            id: label
-            anchors.left: button.right
-            anchors.leftMargin: !isMobile ? 10 : 8
-            color: LokiComponents.Style.defaultFontColor
-            font.family: LokiComponents.Style.fontRegular.name
-            font.pixelSize: radioButton.fontSize
-            wrapMode: Text.Wrap
+        RowLayout {
+            Layout.fillWidth: true
+            Rectangle {
+                id: button
+                y: 0
+                color: "transparent"
+                border.color: borderColor
+                width: radioButton.height
+                height: radioButton.height
+                radius: radioButton.height
 
-            MouseArea {
-                anchors.fill: parent
-                cursorShape: Qt.PointingHandCursor
-                onClicked: {
-                    toggle()
+                Rectangle {
+                    visible: radioButton.checked
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                    color: checkedColor
+                    width: 10 * scaleRatio
+                    height: 10 * scaleRatio
+                    radius: 10
+                    opacity: 0.8
                 }
+
+                
+            }
+
+            Text {
+                id: label
+                Layout.leftMargin: !isMobile ? 10 : 8
+                color: LokiComponents.Style.defaultFontColor
+                font.family: LokiComponents.Style.fontRegular.name
+                font.pixelSize: radioButton.fontSize
+                wrapMode: Text.Wrap
             }
         }
     }
