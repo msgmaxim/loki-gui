@@ -307,6 +307,18 @@ int main(int argc, char *argv[])
 #endif
     engine.rootContext()->setContextProperty("builtWithScanner", builtWithScanner);
 
+    {
+        QString const fullSettingsPath = app.applicationDirPath() + "/loki.ini";
+        QSettings settings(fullSettingsPath, QSettings::IniFormat);
+
+        QStringList mainnetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::MAINNET);
+        QStringList testnetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::TESTNET);
+        QStringList stagenetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::STAGENET);
+        engine.rootContext()->setContextProperty("mainnetRemoteNodeList", QVariant::fromValue(mainnetRemoteNodeList));
+        engine.rootContext()->setContextProperty("testnetRemoteNodeList", QVariant::fromValue(testnetRemoteNodeList));
+        engine.rootContext()->setContextProperty("stagenetRemoteNodeList", QVariant::fromValue(stagenetRemoteNodeList));
+    }
+
     // Load main window (context properties needs to be defined obove this line)
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
     if (engine.rootObjects().isEmpty())
@@ -338,19 +350,6 @@ int main(int argc, char *argv[])
     QObject::connect(eventFilter, SIGNAL(sequenceReleased(QVariant,QVariant)), rootObject, SLOT(sequenceReleased(QVariant,QVariant)));
     QObject::connect(eventFilter, SIGNAL(mousePressed(QVariant,QVariant,QVariant)), rootObject, SLOT(mousePressed(QVariant,QVariant,QVariant)));
     QObject::connect(eventFilter, SIGNAL(mouseReleased(QVariant,QVariant,QVariant)), rootObject, SLOT(mouseReleased(QVariant,QVariant,QVariant)));
-
-    {
-        QString const fullSettingsPath = app.applicationDirPath() + "/loki.ini";
-        QSettings settings(fullSettingsPath, QSettings::IniFormat);
-
-        QStringList mainnetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::MAINNET);
-        QStringList testnetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::TESTNET);
-        QStringList stagenetRemoteNodeList = loadOrCreateDefaultRemoteNodesFromSettings(&settings, NetworkType::Type::STAGENET);
-        engine.rootContext()->setContextProperty("mainnetRemoteNodeList", QVariant::fromValue(mainnetRemoteNodeList));
-        engine.rootContext()->setContextProperty("testnetRemoteNodeList", QVariant::fromValue(testnetRemoteNodeList));
-        engine.rootContext()->setContextProperty("stagenetRemoteNodeList", QVariant::fromValue(stagenetRemoteNodeList));
-    }
-
 
     return app.exec();
 }

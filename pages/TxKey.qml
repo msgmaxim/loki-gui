@@ -47,18 +47,13 @@ Rectangle {
     ColumnLayout {
         id: mainLayout
         anchors.margins: 40 * scaleRatio
-        anchors.left: parent.left
-        anchors.top: parent.top
-        anchors.right: parent.right
-        anchors.bottom: parent.bottom
+        anchors.fill: parent
         spacing: 20 * scaleRatio
 
         // solo
         ColumnLayout {
             id: soloBox
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.top: parent.top
+            Layout.alignment: Qt.AlignTop
             spacing: 20 * scaleRatio
 
             LabelHeader {
@@ -115,7 +110,6 @@ Rectangle {
             }
 
             StandardButton {
-                anchors.left: parent.left
                 anchors.topMargin: 17 * scaleRatio
                 width: 60 * scaleRatio
                 small: true
@@ -205,7 +199,6 @@ Rectangle {
             }
 
             StandardButton {
-                anchors.left: parent.left
                 anchors.topMargin: 17 * scaleRatio
                 width: 60
                 small: true

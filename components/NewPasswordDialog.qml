@@ -97,7 +97,6 @@ Item {
 
             Label {
                 text: qsTr("Please enter new password")
-                anchors.left: parent.left
                 Layout.fillWidth: true
 
                 font.pixelSize: 16 * scaleRatio
@@ -110,7 +109,6 @@ Item {
                 id : passwordInput1
                 Layout.topMargin: 6
                 Layout.fillWidth: true
-                anchors.left: parent.left
                 horizontalAlignment: TextInput.AlignLeft
                 verticalAlignment: TextInput.AlignVCenter
                 font.family: LokiComponents.Style.fontLight.name
@@ -155,7 +153,6 @@ Item {
 
             Label {
                 text: qsTr("Please confirm new password")
-                anchors.left: parent.left
                 Layout.fillWidth: true
 
                 font.pixelSize: 16 * scaleRatio
@@ -168,7 +165,6 @@ Item {
                 id : passwordInput2
                 Layout.topMargin: 6
                 Layout.fillWidth: true
-                anchors.left: parent.left
                 horizontalAlignment: TextInput.AlignLeft
                 verticalAlignment: TextInput.AlignVCenter
                 font.family: LokiComponents.Style.fontLight.name

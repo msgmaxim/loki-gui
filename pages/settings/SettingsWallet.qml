@@ -66,7 +66,6 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {
@@ -156,7 +155,6 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {
@@ -246,7 +244,6 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {
@@ -334,7 +331,6 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {

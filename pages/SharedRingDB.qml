@@ -194,7 +194,6 @@ Rectangle {
 
                 StandardButton {
                     id: loadBlackballFileButton
-                    anchors.right: parent.right
                     text: qsTr("Load") + translationManager.emptyString
                     small: true
                     enabled: !!appWindow.currentWallet && loadBlackballFileLine.text !== ""
@@ -209,7 +208,6 @@ Rectangle {
             RowLayout {
                 LineEdit {
                     id: blackballOutputAmountLine
-                    fontSize: mainLayout.lineEditFontSize
                     labelFontSize: 14 * scaleRatio
                     labelText: qsTr("Or manually mark a single output as spent/unspent:") + translationManager.emptyString
                     placeholderText: qsTr("Paste output amount") + "..." + translationManager.emptyString
@@ -219,7 +217,6 @@ Rectangle {
                 }
                 LineEdit {
                     id: blackballOutputOffsetLine
-                    fontSize: mainLayout.lineEditFontSize
                     labelFontSize: 14 * scaleRatio
                     labelText: " "
                     placeholderText: qsTr("Paste output offset") + "..." + translationManager.emptyString
@@ -243,7 +240,6 @@ Rectangle {
 
                 StandardButton {
                     id: unblackballButton
-                    anchors.right: parent.right
                     text: qsTr("Mark as unspent") + translationManager.emptyString
                     small: true
                     enabled: !!appWindow.currentWallet && validUnsigned(blackballOutputAmountLine.text) && validUnsigned(blackballOutputOffsetLine.text)
@@ -410,8 +406,6 @@ Rectangle {
         RowLayout {
             id: segregationHeightRow
             anchors.topMargin: 17
-            anchors.left: parent.left
-            anchors.right: parent.right
 
             LineEdit {
                 id: segregationHeightLine

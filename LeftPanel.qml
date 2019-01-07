@@ -94,7 +94,7 @@ Rectangle {
         z: 1
     }
 
-    // card with monero logo
+    // card with loki logo
     Column {
         visible: true
         z: 2
@@ -105,14 +105,13 @@ Rectangle {
         anchors.top: parent.top
         anchors.topMargin: (persistentSettings.customDecorations)? 50 : 0
 
-        RowLayout {
+        Item {
             visible: true
             Item {
-                anchors.left: parent.left
-                anchors.top: parent.top
+                anchors.left : parent.left
+                anchors.top : parent.top
                 anchors.topMargin: 20
                 anchors.leftMargin: 20
-                anchors.verticalCenter: parent.verticalCenter
                 height: 490 * scaleRatio
                 width: 260 * scaleRatio
 
