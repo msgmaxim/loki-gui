@@ -56,11 +56,6 @@ Rectangle {
         property int labelWidth: 120
         property int editWidth: 400
 
-        MessageDialog {
-            id: serviceNodeDialog
-            standardButtons: StandardButton.Ok
-        }
-
         Label {
             id: signTitleLabel
             fontSize: 24 * scaleRatio

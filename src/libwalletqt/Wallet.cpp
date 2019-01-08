@@ -417,26 +417,35 @@ void Wallet::createTransactionAsync(const QString &dst_addr, const QString &paym
     watcher->setFuture(future);
 }
 
+Monero::PendingTransaction* Wallet::createStakeTransaction(const QString& sn_key_str, const QString& address, const QString& amount, std::string& error_msg)
+{
+    return m_walletImpl->stakePending(sn_key_str.toStdString(), address.toStdString(), amount.toStdString(), error_msg);
+}
+
 Q_INVOKABLE void Wallet::stake(const QString& sn_key_str, const QString& address, const QString& amount)
 {
+    std::string error_msg;
+    auto future = QtConcurrent::run(this, &Wallet::createStakeTransaction, sn_key_str, address, amount, std::ref(error_msg));
 
-    QFuture<Monero::PendingTransaction*> future = QtConcurrent::run([this, &sn_key_str, &address, &amount] () {
-        return m_walletImpl->stakePending(sn_key_str.toStdString(), address.toStdString(), amount.toStdString());
-    });
+    auto watcher = new QFutureWatcher<Monero::PendingTransaction*>();
 
-    QFutureWatcher<Monero::PendingTransaction*> * watcher = new QFutureWatcher<Monero::PendingTransaction*>();
-
-    connect(watcher, &QFutureWatcher<PendingTransaction*>::finished, [this, watcher, &address]() {
+    connect(watcher, &QFutureWatcher<PendingTransaction*>::finished, [this, watcher, &address, &error_msg]() {
         QFuture<Monero::PendingTransaction*> future = watcher->future();
         watcher->deleteLater();
 
         Monero::PendingTransaction* tx = future.result();
-        if (!tx) return;
+
+        if (!tx || tx->txCount() == 0) {
+            emit stakeError(error_msg.c_str());
+            return;
+        }
 
         /// Who is responsible for cleaning this up?
-        PendingTransaction* pending_tx = new PendingTransaction(tx);
+        auto pending_tx = new PendingTransaction(tx);
         emit stakeTxCreated(pending_tx, address);
+
     });
+
     watcher->setFuture(future);
 
 }

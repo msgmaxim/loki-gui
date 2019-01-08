@@ -184,6 +184,8 @@ public:
                                                        quint64 amount, quint32 mixin_count,
                                                        PendingTransaction::Priority priority);
 
+    Monero::PendingTransaction* createStakeTransaction(const QString& sn_key_str, const QString& address, const QString& amount, std::string& error_msg);
+
     //! creates async transaction
     Q_INVOKABLE void createTransactionAsync(const QString &dst_addr, const QString &payment_id,
                                             quint64 amount, quint32 mixin_count,
@@ -320,6 +322,8 @@ signals:
     void transactionCreated(PendingTransaction * transaction, QString address, QString paymentId, quint32 mixinCount);
 
     void stakeTxCreated(PendingTransaction* pending_tx, QString address);
+
+    void stakeError(QString error);
 
     void connectionStatusChanged(ConnectionStatus status) const;
 
