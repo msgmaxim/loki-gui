@@ -480,7 +480,7 @@ Rectangle {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 text: qsTr("Service Node") + translationManager.emptyString
-                symbol: qsTr("K") + translationManager.emptyString
+                symbol: qsTr("N") + translationManager.emptyString
                 dotColor: "#FFD781"
                 under: advancedButton
                 onClicked: {
