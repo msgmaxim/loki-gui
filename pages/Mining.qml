@@ -51,9 +51,7 @@ Rectangle {
         // solo
         ColumnLayout {
             id: soloBox
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.top: parent.top
+            Layout.alignment: Qt.AlignTop
             spacing: 20
 
             LabelHeader {

@@ -61,6 +61,7 @@ ColumnLayout {
 
     ColumnLayout {
         id: headerColumn
+        Layout.alignment: Qt.AlignTop
         Layout.leftMargin: wizardLeftMargin
         Layout.rightMargin: wizardRightMargin
         Layout.bottomMargin: (!isMobile) ? 40 * scaleRatio : 20
@@ -90,7 +91,7 @@ ColumnLayout {
     GridLayout {
         Layout.leftMargin: wizardLeftMargin
         Layout.rightMargin: wizardRightMargin
-        Layout.alignment: Qt.AlignCenter
+        Layout.alignment: Qt.AlignHCenter
         id: actionButtons
         columnSpacing: 40 * scaleRatio
         rowSpacing: 10 * scaleRatio
@@ -99,8 +100,7 @@ ColumnLayout {
         flow: isMobile ? GridLayout.TopToBottom : GridLayout.LeftToRight
 
         GridLayout {
-            Layout.fillHeight: true
-            Layout.fillWidth: true
+            Layout.alignment: Qt.AlignTop
             flow: !isMobile ? GridLayout.TopToBottom : GridLayout.LeftToRight
             rowSpacing: 20 * scaleRatio
             columnSpacing: 10 * scaleRatio
@@ -135,15 +135,16 @@ ColumnLayout {
                 Layout.preferredWidth: page.buttonSize
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
+                width: page.buttonImageSize
                 color: Style.defaultFontColor
+                horizontalAlignment: Text.AlignHCenter
                 wrapMode: Text.WordWrap
                 text: qsTr("Create A New Wallet") + translationManager.emptyString
             }
         }
 
         GridLayout {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
+            Layout.alignment: Qt.AlignTop
             flow: !isMobile ? GridLayout.TopToBottom : GridLayout.LeftToRight
             rowSpacing: 20 * scaleRatio
             columnSpacing: 10 * scaleRatio
@@ -178,15 +179,13 @@ ColumnLayout {
                 font.pixelSize: 16 * scaleRatio
                 color: Style.defaultFontColor
                 horizontalAlignment: Text.AlignHCenter
-                text: qsTr("Restore wallet from keys or mnemonic seed") + translationManager.emptyString
-                width:page.buttonSize
+                text: qsTr("Restore Wallet From Keys or Mnemonic Seed") + translationManager.emptyString
                 wrapMode: Text.WordWrap
             }
         }
 
         GridLayout {
-            Layout.fillHeight: true
-            Layout.fillWidth: true
+            Layout.alignment: Qt.AlignTop
             flow: !isMobile ? GridLayout.TopToBottom : GridLayout.LeftToRight
             rowSpacing: 20 * scaleRatio
             columnSpacing: 10 * scaleRatio
@@ -220,7 +219,8 @@ ColumnLayout {
                 font.family: "Arial"
                 font.pixelSize: 16 * scaleRatio
                 color: Style.defaultFontColor
-                text: qsTr("Open a wallet from file") + translationManager.emptyString
+                horizontalAlignment: Text.AlignHCenter
+                text: qsTr("Open A Wallet From File") + translationManager.emptyString
                 wrapMode: Text.WordWrap
             }
         }

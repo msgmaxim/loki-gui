@@ -59,14 +59,13 @@ Rectangle {
             opacity: LokiComponents.Style.dividerOpacity
         }
 
-        GridLayout {
+        RowLayout {
             Layout.fillWidth: true
             Layout.preferredHeight: settingsWallet.itemHeight
-            columnSpacing: 0
+            spacing: 10
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {
@@ -149,18 +148,15 @@ Rectangle {
             opacity: LokiComponents.Style.dividerOpacity
         }
 
-        GridLayout {
+        RowLayout {
             Layout.fillWidth: true
-            Layout.preferredHeight: settingsWallet.itemHeight
-            columnSpacing: 0
+            spacing: 10
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {
-                    Layout.fillWidth: true
                     Layout.preferredHeight: 20 * scaleRatio
                     Layout.topMargin: 8 * scaleRatio
                     color: "white"
@@ -191,16 +187,15 @@ Rectangle {
                         anchors.fill: parent
                         enabled: false
                     }
-                } 
+                }
             }
 
             Rectangle {
                 Layout.minimumWidth: 120 * scaleRatio
                 Layout.preferredWidth: createViewOnlyText.width + (20 * scaleRatio)
-                Layout.preferredHeight: parent.height
                 color: "transparent"
 
-                Rectangle{
+                Rectangle {
                     width: parent.width
                     height: 24 * scaleRatio
                     anchors.verticalCenter: parent.verticalCenter
@@ -246,7 +241,6 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {
@@ -334,7 +328,6 @@ Rectangle {
 
             ColumnLayout {
                 Layout.fillWidth: true
-                anchors.verticalCenter: parent.verticalCenter
                 spacing: 0
 
                 Text {

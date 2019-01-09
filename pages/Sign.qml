@@ -94,8 +94,6 @@ Rectangle {
         // sign
         ColumnLayout {
             id: signBox
-            anchors.left: parent.left
-            anchors.right: parent.right
             spacing: 20 * scaleRatio
 
             LabelHeader {
@@ -177,8 +175,7 @@ Rectangle {
                     StandardButton {
                         id: signFileButton
                         small: true
-                        anchors.left: loadFileToSignButton.right
-                        anchors.leftMargin: 20
+                        Layout.leftMargin: 10
                         text: qsTr("Sign") + translationManager.emptyString
                         enabled: signFileLine.text !== ''
                         onClicked: {
@@ -270,8 +267,7 @@ Rectangle {
                     StandardButton {
                         id: verifyFileButton
                         small: true
-                        anchors.left: loadFileToVerifyButton.right
-                        anchors.leftMargin: 20
+                        Layout.leftMargin: 10
                         text: qsTr("Verify") + translationManager.emptyString
                         enabled: true
                         onClicked: {

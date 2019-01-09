@@ -51,22 +51,14 @@ RowLayout {
 
     RowLayout {
         Layout.fillWidth: true
-        Rectangle {
-            anchors.left: parent.left
-            width: 25 * scaleRatio
-            height: checkBox.height - 1
-            y: 0
-            color: "transparent"
-            border.color: checkBox.checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
-        }
 
         Rectangle {
             id: backgroundRect
-            anchors.left: parent.left
             width: 25 * scaleRatio
             height: checkBox.height - 1
             y: 1
             color: "transparent"
+            border.color: checkBox.checked ? LokiComponents.Style.heroGreen : Qt.rgba(1, 1, 1, 0.25)
 
             Image {
                 anchors.centerIn: parent
@@ -90,7 +82,6 @@ RowLayout {
             color: LokiComponents.Style.defaultFontColor
             wrapMode: Text.Wrap
             Layout.fillWidth: true
-            anchors.left: backgroundRect.right
             anchors.leftMargin: !isMobile ? 10 : 8
             MouseArea {
                 anchors.fill: parent

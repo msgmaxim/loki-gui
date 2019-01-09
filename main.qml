@@ -114,6 +114,7 @@ ApplicationWindow {
         if(seq === "Ctrl+S") middlePanel.state = "Transfer"
         else if(seq === "Ctrl+R") middlePanel.state = "Receive"
         else if(seq === "Ctrl+K") middlePanel.state = "TxKey"
+        else if(seq === "Ctrl+N") middlePanel.state = "ServiceNode"
         else if(seq === "Ctrl+H") middlePanel.state = "History"
         else if(seq === "Ctrl+B") middlePanel.state = "AddressBook"
         else if(seq === "Ctrl+M") middlePanel.state = "Mining"
@@ -1614,7 +1615,8 @@ ApplicationWindow {
             }
         }
 
-        property int minWidth: 326
+        /// NOTE: this prevents the app from entering "mobile" mode which is currently broken
+        property int minWidth: 800
         property int minHeight: 400
         MouseArea {
             id: resizeArea
