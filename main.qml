@@ -331,6 +331,7 @@ ApplicationWindow {
         currentWallet.unconfirmedMoneyReceived.connect(onWalletUnconfirmedMoneyReceived)
         currentWallet.transactionCreated.connect(onTransactionCreated)
         currentWallet.stakeTxCreated.connect(onStakeTxCreated)
+        currentWallet.stakeError.connect(onStakeError)
         currentWallet.connectionStatusChanged.connect(onWalletConnectionStatusChanged)
         middlePanel.paymentClicked.connect(handlePayment);
         middlePanel.sweepUnmixableClicked.connect(handleSweepUnmixable);
@@ -687,6 +688,12 @@ ApplicationWindow {
             transactionConfirmationPopup.open();
         }
 
+    }
+
+    function onStakeError(error) {
+        informationPopup.title  = qsTr("Error") + translationManager.emptyString;
+        informationPopup.text = error;
+        informationPopup.open();
     }
 
 
