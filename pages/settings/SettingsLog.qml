@@ -106,7 +106,6 @@ Rectangle {
                         appWindow.persistentSettings.logLevel = currentIndex;
                     }
                     Layout.fillWidth: true
-                    Layout.preferredWidth: logGrid.width / 2
                     shadowReleasedColor: "#FF4304"
                     shadowPressedColor: "#B32D00"
                     releasedColor: "#363636"
