@@ -568,7 +568,7 @@ Rectangle {
                 color: "#313131"
                 height: 1
             }
-            // ------------- Sign/verify tab ---------------
+            // ------------- Seed and Keys tab ---------------
             MenuButton {
                 id: keysButton
                 anchors.left: parent.left
@@ -576,7 +576,6 @@ Rectangle {
                 text: qsTr("Seed & Keys") + translationManager.emptyString
                 symbol: qsTr("Y") + translationManager.emptyString
                 dotColor: "#FFD781"
-                under: settingsButton
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = keysButton

@@ -1616,7 +1616,7 @@ ApplicationWindow {
         }
 
         /// NOTE: this prevents the app from entering "mobile" mode which is currently broken
-        property int minWidth: 800
+        property int minWidth: 900
         property int minHeight: 400
         MouseArea {
             id: resizeArea

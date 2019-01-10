@@ -132,7 +132,7 @@ Rectangle {
             }, State {
                name: "ServiceNode"
                PropertyChanges { target: root; currentView: serviceNodeView }
-               PropertyChanges { target: mainFlickable; contentHeight: 1200 * scaleRatio  }
+               PropertyChanges { target: mainFlickable; contentHeight: 500 * scaleRatio  }
             }, State {
                name: "SharedRingDB"
                PropertyChanges { target: root; currentView: sharedringdbView }
@@ -156,7 +156,7 @@ Rectangle {
             }, State {
                 name: "Keys"
                 PropertyChanges { target: root; currentView: keysView }
-                PropertyChanges { target: mainFlickable; contentHeight: minHeight  + 200 * scaleRatio }
+                PropertyChanges { target: mainFlickable; contentHeight: 1150 * scaleRatio }
             }
         ]
 

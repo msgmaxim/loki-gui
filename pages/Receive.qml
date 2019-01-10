@@ -276,10 +276,14 @@ Rectangle {
                                 fontSize: 14 * scaleRatio
                                 fontBold: true
                                 text: {
-                                    if(isMobile){
+                                    if(isMobile) {
                                         TxUtils.addressTruncate(address, 6);
                                     } else {
-                                        return TxUtils.addressTruncate(address, 10);
+                                        if (parent.width > 900 * scaleRatio) {
+                                            return address;
+                                        } else {
+                                            return TxUtils.addressTruncate(address, 10);
+                                        }
                                     }
                                 }
                             }
